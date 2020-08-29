@@ -1,0 +1,262 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="title" content="Techlore: Spreading Privacy To The Masses">
+  <meta name="description" content="Techlore is spreading spreading privacy and security to the masses. Home of Go Incognito, Surveillance Report, VPN reviews, video tutorials, software/hardware reviews, communities, and more; join us today!"/>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png"/>
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+  <title> Techlore | Support  </title>
+  <base target="_blank">
+
+</head>
+
+
+
+
+
+<body id="support" class="page">
+  <div class="wrapper">
+  <div class="nav">
+  <ul>
+    <li class="logo-container">
+      <a href="./index.html" target="_self"><img class="logo" src="assets/images/logo.png"></a>
+    </li>
+    <li>
+      <a class="nav-item " target="_self" href="./index.html">
+        Home
+      </a>
+    </li>
+    <li class="spacer"> | </li>
+
+
+
+
+
+
+
+
+
+    <li>
+      <a class="nav-item " target="_self" href="./about.html">
+        About
+      </a>
+    </li>
+    <li class="spacer"> | </li>
+
+
+
+    <li>
+      <a class="nav-item " target="_self" href="./goincognito.html">
+        Course
+      </a>
+    </li>
+    <li class="spacer"> | </li>
+
+
+
+    <li>
+      <a class="nav-item " target="_self" href="./videos.html">
+        Videos
+      </a>
+    </li>
+    <li class="spacer"> | </li>
+
+
+
+    <li>
+      <a class="nav-item " target="_self" href="./vpn.html">
+        VPN
+      </a>
+    </li>
+    <li class="spacer"> | </li>
+
+
+
+    <li>
+      <a class="nav-item " target="_self" href="./contact.html">
+        Contact
+      </a>
+    </li>
+    <li class="spacer"> | </li>
+
+
+
+    <li>
+      <a class="nav-item active" target="_self" href="./support.html">
+        Support Us
+      </a>
+    </li>
+    <li class="spacer"> | </li>
+
+
+
+    <li>
+      <a class="nav-item " target="_self" href="./affiliations.html">
+        Affiliations
+      </a>
+    </li>
+    <li class="spacer"> | </li>
+
+
+    <div class="social-supercontainer">
+      <li class="social-container">
+        <a href="https://www.patreon.com/techlore" target="_blank"><img class="social" src="assets/images/patreon.png"></a>
+      </li>
+      <li class="social-container">
+        <a href="https://twitter.com/techloreistaken" target="_blank"><img class="social" src="assets/images/twitter.png"></a>
+      </li>
+      <li class="social-container">
+        <a href="https://discordapp.com/invite/sdMv9Zj" target="_blank"><img class="social" src="assets/images/discord.png"></a>
+      </li>
+      <li class="social-container">
+        <a href="https://www.reddit.com/r/techlore/" target="_blank"><img class="social" src="assets/images/reddit.png"></a>
+      </li>
+      <li class="social-container">
+        <a href="https://t.me/techloreofficial" target="_blank"><img class="social" src="assets/images/telegram-a.png"></a>
+      </li>
+      <li class="social-container">
+        <a href="https://matrix.to/#/#techlore:matrix.org" target="_blank"><img class="social" src="assets/images/matrix.png"></a>
+      </li>
+    </div>
+    <li class="show-menu">
+      <a>Menu</a>
+    </li>
+    <li class="hide-menu">
+      <a>Hide Menu</a>
+    </li>
+  </ul>
+</div>
+
+<script src="assets/javascript/jquery-latest.min.js"
+        type="text/javascript"></script>
+<script>
+$(document).ready(function() {
+
+  var menuHidden = true;
+  $('.hide-menu').hide();
+
+  var menuCheck = function() {
+    if ($(window).width() > 1180) {
+      menuHidden = true;
+      $('.nav ul li').show();
+      $('.social-supercontainer').css('display', 'inline-block');
+      $('.show-menu').hide();
+      $('.hide-menu').hide();
+      $('.nav').css({ 'height' : '70px' });
+    } else {
+
+      $('.nav').css({ 'height' : 'auto' });
+
+      if (menuHidden == true) {
+        $('.nav ul li').hide();
+        $('.nav ul li.logo-container').show();
+        $('.social-supercontainer').css('display', 'none');
+        $('.show-menu').show();
+        $('.hide-menu').hide();
+      } else if (menuHidden == false) {
+        $('.nav ul li').show();
+        $('.social-supercontainer').css('display', 'inline-block')
+        $('.hide-menu').show();
+        $('.show-menu').hide();
+      }
+    }
+  }
+
+  menuCheck();
+
+  $('.show-menu').click(function() {
+    $('.nav ul li').show();
+    $('.social-supercontainer').css('display', 'inline-block')
+    $('.hide-menu').show();
+    $(this).hide();
+    menuHidden = false;
+  });
+
+  $('.hide-menu').click(function() {
+    $('.nav ul li').hide();
+    $('.nav ul li.logo-container').show();
+    $('.social-supercontainer').css('display', 'none');
+    $('.show-menu').show();
+    $(this).hide();
+    menuHidden = true;
+  })
+
+  $(window).resize(function() {
+    menuCheck();
+  });
+
+});
+</script>
+  <div class="main-content">
+    <h1 id="free-ways-to-give-back">Free Support Methods</h1>
+
+<ul>
+  <li>
+    <p>Shop after using one of our affiliate links:<br />
+<a href="https://www.amazon.com/shop/influencer20170928875">Amazon Shopping Link</a>
+<a href="https://techlore.tech/affiliations.html">Techlore Affiliations</a></p>
+  </li>
+  <li>
+    <p>Connect with our communities:<br />
+<a href="https://www.reddit.com/r/techlore/"><img src="assets/images/reddit.png" /></a>
+<a href="https://matrix.to/#/@techlore:matrix.org"><img src="assets/images/matrix.png" /></a>
+<a href="https://t.me/techloreofficial"><img src="assets/images/telegram-a.png" /></a>
+<a href="https://t.me/joinchat/IJOwYA3mr-PoGnp7m35rmA"><img src="assets/images/telegram-g.png" /></a>
+<a href="https://discordapp.com/invite/sdMv9Zj"><img src="assets/images/discord.png" /></a>
+<a href="https://www.twitter.com/techloreistaken/"><img src="assets/images/twitter.png" /></a></p>
+  </li>
+  <li>
+    <p>Reupload and share the free version of Go Incognito. It is meant to be shared, and the more people who view it the better. Click below for more information: <br /><a href="https://github.com/techlore-official/go-incognito">Go Incognito GitHub</a></p>
+  </li>
+  <li>
+    <p>Share Techlore with friends and family <3</p>
+  </li>
+</ul>
+
+<h1 id="paid-ways-to-give-back">Paid Support Methods</h1>
+
+<ul>
+  <li>
+    <p>Becoming a Patreon or YouTube Privacy Supporter where you directly support our work to receive exclusive benefits:<br />
+<a href="https://www.patreon.com/techlore">Patreon</a>
+<a href="https://www.youtube.com/channel/UCs6KfncB4OV6Vug4o_bzijg/join">YouTube Supporter</a>
+  </li>
+
+
+  <li>
+    <p>Tip us with BAT. If you’re using Brave, you can tip from any of the following locations: <br />
+<a href="https://www.youtube.com/channel/UCs6KfncB4OV6Vug4o_bzijg">YouTube</a>
+<a href="https://techlore.tech">Website</a>
+<a href="https://www.reddit.com/r/techlore/">Subreddit</a>
+<a href="https://twitter.com/techloreistaken">Twitter</a>
+<a href="https://brave.com/tec118">Brave Link</a></p>
+  </li>
+
+
+  <li>
+    <p>Using the Coinbase Affiliation, we will both receive a free $10 for your first $100 spent on BTC:<br />
+<a href="https://www.coinbase.com/join/5942e0b5d26ede03db311893">Coinbase</a></p>
+  </li>
+  <li>
+    <p>Directly donating to Techlore through Monero (XMR):<br />
+<code class="highlighter-rouge"><strong>49H4jTvUY5zaX8qLpVBstJFR7ayTMxxU3UyWpGqUoBM4UzM2zwUHA2sJ9i3AhQYdaqhFmS8PDfWKn1Tea4SKU6haMTXG8qD</strong></code></p>
+  </li>
+</ul>
+
+  </div>
+  <div class="push"></div>
+  </div>
+  <div class="footer">
+  Copyright &copy; Techlore <span id="year"></span>
+</div>
+
+<script>
+  var curYear = (new Date()).getFullYear()
+  document.getElementById("year").innerHTML = curYear
+</script>
+
+</body>

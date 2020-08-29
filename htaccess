@@ -1,0 +1,12 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^techlore\.tech$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.techlore\.tech$
+RewriteRule ^(.*)$ "https\:\/\/techlore\.tech\/$1" [R=301,L]
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php56” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php56 .php .php5 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
