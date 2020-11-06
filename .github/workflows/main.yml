@@ -12,5 +12,5 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
         ftp-server: ftp.techlore.com
-        ftp-username: techloreP
+        ftp-username: techloreP@techlore.tech
         ftp-password: ${{ secrets.FTP_PASSWORD }}
