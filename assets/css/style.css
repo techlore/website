@@ -818,7 +818,7 @@ details[open] {
 }
 
 details > summary {
-  display: flex;
+  display: block;
   position: relative;
   padding: 1rem;
   margin: 0 calc(.5rem * -1);
