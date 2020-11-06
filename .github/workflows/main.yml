@@ -10,5 +10,5 @@ jobs:
       uses: sebastianpopp/git-ftp-action@releases/v3
       with:
         url: "ftp://ftp.techlore.com:21/"
-        user: techloreP@techlore.tech
+        user: techloreP%40techlore.tech
         password: ${{ secrets.FTP_PASSWORD }}
