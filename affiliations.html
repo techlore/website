@@ -4,284 +4,186 @@
 <head>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="title" content="Techlore: Spreading Privacy To The Masses">
-  <meta name="description" content="Techlore is spreading spreading privacy and security to the masses. Home of Go Incognito, Surveillance Report, VPN reviews, video tutorials, software/hardware reviews, communities, and more; join us today!"/>
   <meta charset="UTF-8">
-  <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png"/>
+  <link rel="shortcut icon" type="image/png" href="assets/svg/logo.svg" />
   <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-  <title> Techlore | Affiliations  </title>
-  <base target="_blank">
+  <title> Techlore | Affiliations </title>
+  <meta name="title" content="Techlore: Spreading Privacy To The Masses">
+  <meta name="description"
+    content="Techlore is spreading spreading privacy and security to the masses. Home of Go Incognito, Surveillance Report, VPN reviews, video tutorials, software/hardware reviews, communities, and more; join us today!" />
+  <!-- Google / Search Engine Tags -->
+  <meta itemprop="name" content=" Techlore | Affiliations ">
+  <meta itemprop="description"
+    content="Techlore is spreading spreading privacy and security to the masses. Home of Go Incognito, Surveillance Report, VPN reviews, video tutorials, software/hardware reviews, communities, and more; join us today!">
+  <meta itemprop="image" content="./assets/svg/logo_v2.svg"><!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content=" Techlore | Spreading Privacy To The Masses ">
+<meta name="twitter:description" content="Techlore is spreading spreading privacy and security to the masses. Home of Go Incognito, Surveillance Report, VPN reviews, video tutorials, software/hardware reviews, communities, and more; join us today!">
+<meta name="twitter:image" content="./assets/svg/logo_v2.svg">
 
+  <base target="_blank">
+  <style>
+    body {
+      background-image: linear-gradient(to left bottom, #0eafff, #00afe5, #00abc1, #00a49b, #369a77);
+    }
+  </style>
 </head>
 
-
-
-
-
-<body class="page">
-  <div class="nav">
-  <ul>
-    <li class="logo-container">
-      <a href="./index.html" target="_self"><img class="logo" src="assets/images/logo.png"></a>
-    </li>
-    <li>
-      <a class="nav-item " target="_self" href="./index.html">
-        Home
-      </a>
-    </li>
-    <li class="spacer"> | </li>
-
-
-
-
-
-
-
-
-
-    <li>
-      <a class="nav-item " target="_self" href="./about.html">
-        About
-      </a>
-    </li>
-    <li class="spacer"> | </li>
-
-
-
-    <li>
-      <a class="nav-item " target="_self" href="./goincognito.html">
-        Course
-      </a>
-    </li>
-    <li class="spacer"> | </li>
-
-
-
-    <li>
-      <a class="nav-item " target="_self" href="./videos.html">
-        Videos
-      </a>
-    </li>
-    <li class="spacer"> | </li>
-
-
-
-    <li>
-      <a class="nav-item " target="_self" href="./vpn.html">
-        VPN
-      </a>
-    </li>
-    <li class="spacer"> | </li>
-
-
-
-    <li>
-      <a class="nav-item " target="_self" href="./contact.html">
-        Contact
-      </a>
-    </li>
-    <li class="spacer"> | </li>
-
-
-
-    <li>
-      <a class="nav-item " target="_self" href="./support.html">
-        Support Us
-      </a>
-    </li>
-    <li class="spacer"> | </li>
-
-
-
-    <li>
-      <a class="nav-item active" target="_self" href="./affiliations.html">
-        Affiliations
-      </a>
-    </li>
-    <li class="spacer"> | </li>
-
-
-    <div class="social-supercontainer">
-      <li class="social-container">
-        <a href="https://www.patreon.com/techlore" target="_blank"><img class="social" src="assets/images/patreon.png"></a>
-      </li>
-      <li class="social-container">
-        <a href="https://twitter.com/techloreistaken" target="_blank"><img class="social" src="assets/images/twitter.png"></a>
-      </li>
-      <li class="social-container">
-        <a href="https://discordapp.com/invite/sdMv9Zj" target="_blank"><img class="social" src="assets/images/discord.png"></a>
-      </li>
-      <li class="social-container">
-        <a href="https://www.reddit.com/r/techlore/" target="_blank"><img class="social" src="assets/images/reddit.png"></a>
-      </li>
-      <li class="social-container">
-        <a href="https://t.me/techloreofficial" target="_blank"><img class="social" src="assets/images/telegram-a.png"></a>
-      </li>
-      <li class="social-container">
-        <a href="https://matrix.to/#/#techlore:matrix.org" target="_blank"><img class="social" src="assets/images/matrix.png"></a>
-      </li>
+<body id="support">
+  <nav>
+    <div class="brand">
+      <a href="./index.html" target="_self"><img class="logo" src="assets/svg/logo.svg"></a>
     </div>
-    <li class="show-menu">
-      <a>Menu</a>
-    </li>
-    <li class="hide-menu">
-      <a>Hide Menu</a>
-    </li>
-  </ul>
-</div>
-
-<script src="assets/javascript/jquery-latest.min.js"
-        type="text/javascript"></script>
-<script>
-$(document).ready(function() {
-
-  var menuHidden = true;
-  $('.hide-menu').hide();
-
-  var menuCheck = function() {
-    if ($(window).width() > 1180) {
-      menuHidden = true;
-      $('.nav ul li').show();
-      $('.social-supercontainer').css('display', 'inline-block');
-      $('.show-menu').hide();
-      $('.hide-menu').hide();
-      $('.nav').css({ 'height' : '70px' });
-    } else {
-
-      $('.nav').css({ 'height' : 'auto' });
-
-      if (menuHidden == true) {
-        $('.nav ul li').hide();
-        $('.nav ul li.logo-container').show();
-        $('.social-supercontainer').css('display', 'none');
-        $('.show-menu').show();
-        $('.hide-menu').hide();
-      } else if (menuHidden == false) {
-        $('.nav ul li').show();
-        $('.social-supercontainer').css('display', 'inline-block')
-        $('.hide-menu').show();
-        $('.show-menu').hide();
-      }
-    }
-  }
-
-  menuCheck();
-
-  $('.show-menu').click(function() {
-    $('.nav ul li').show();
-    $('.social-supercontainer').css('display', 'inline-block')
-    $('.hide-menu').show();
-    $(this).hide();
-    menuHidden = false;
-  });
-
-  $('.hide-menu').click(function() {
-    $('.nav ul li').hide();
-    $('.nav ul li.logo-container').show();
-    $('.social-supercontainer').css('display', 'none');
-    $('.show-menu').show();
-    $(this).hide();
-    menuHidden = true;
-  })
-
-  $(window).resize(function() {
-    menuCheck();
-  });
-
-});
-</script>
-  <div class="wrapper">
-    <h1 id="aff-header"> Affiliates </h1>
+    <div class="menu-btn"><span></span></div>
+    <ul>
+      <li><a target="_self" href="./index.html">Home</a></li>
+      <li><a target="_self" href="./about.html">About</a></li>
+      <li><a target="_self" href="./goincognito.html">Go Incognito</a></li>
+      <li><a target="_self" href="./videos.html"> Videos </a></li>
+      <li><a target="_self" href="./contact.html">Contact</a></li>
+      <li><a class="active " target="_self" href="./support.html">Support Us</a></li>
+      <li><a href="https://plexus.techlore.tech">Plexus</a></li>
+      <li><a target="_self" href="./resources.html">Resources</a></li>
+      <li>
+        <a class="drop" target="_self" href="./vpn.html">VPN Toolkit</a>
+        <ul>
+          <li><a target="_self" href="./vpnfinder.html">Finder Tool</a></li>
+          <li><a target="_self" href="./vpnchart.html">VPN Chart</a></li>
+          <li><a target="_self" href="./vpnreview.html">DIY Tool</a></li>
+        </ul>
+      </li>
+      <li class="social-cnt">
+        <div><a href="https://github.com/techlore-official" target="_blank"><img src="assets/svg/github.svg"></a>
+        </div>
+        <div><a href="https://www.patreon.com/techlore" target="_blank"><img src="assets/svg/patreon.svg"></a></div>
+        <div><a href="https://twitter.com/techloreistaken" target="_blank"><img src="assets/svg/twitter.svg"></a>
+        </div>
+        <div><a href="https://discordapp.com/invite/sdMv9Zj" target="_blank"><img src="assets/svg/discord.svg"></a>
+        </div>
+        <div><a href="https://www.reddit.com/r/techlore/" target="_blank"><img src="assets/svg/reddit.svg"></a></div>
+        <div><a href="https://t.me/techloreofficial" target="_blank"><img src="assets/svg/telegram-a.svg"></a></div>
+        <div><a href="https://matrix.to/#/+techlore-official:matrix.org" target="_blank"><img
+              src="assets/svg/matrix.svg"></a>
+        </div>
+      </li>
+    </ul>
+  </nav>
+  <svg viewBox="0 0 120 20" class="wavet">
+    <path class="wave"
+      d="M 0 0 v 6 C 30 6 30 10 60 10 C 91 10 90 6 120 6 C 150 6 150 10 180 10 C 210 10 210 6 240 6 v -6 h -240 z" />
+  </svg>
+  <main class="_pt0">
+    <h1> Affiliates </h1>
     <div class="head-content">
-
-<p>One of the methods Techlore remains self-sufficient is through affiliations. These are always public to the community with strict requirements over how they are used for utmost transparency. To view these requirements, visit <a href="https://github.com/techlore-official/channel-content/blob/master/affiliates.md">here.</a></p>
-
+      <p>One of the methods Techlore remains self-sufficient is through affiliations. These are always public to the
+        community with strict requirements over how they are used for utmost transparency. To view these requirements,
+        visit <a href="https://github.com/techlore-official/channel-content/blob/master/affiliates.md">here.</a></p>
     </div>
-    <div class="main-content affiliations-content">
-
-      <h3 id="amazon">Amazon</h3>
-      <h4 id="online-store">Online Store</h4>
-      <ul>
-        <li><a href="https://www.amazon.com/shop/influencer20170928875">Affiliation Link</a></li>
-        <li><a href="https://www.amazon.com">Non-Affiliation</a></li>
-      </ul>
-
-            <h3 id="protonvpn">ProtonVPN</h3>
-      <h4 id="vpn--scored-465-1">VPN | Scored 4.66/5</h4>
-      <ul>
-        <li><a href="http://proton.go2cloud.org/SH1a">Affiliate Link</a></li>
-        <li><a href="https://protonvpn.com/">Non Affiliate Link</a></li>
-      </ul>
-
-      <h3 id="windscribe">Windscribe</h3>
-      <h4 id="vpn--scored-405">VPN | Scored 4.6/5</h4>
-      <ul>
-        <li><a href="https://windscribe.com/?affid=8nzworas">Affiliate Link</a></li>
-        <li><a href="https://windscribe.com/">Non Affiliate Link</a></li>
-      </ul>
-
-      <h3 id="nordvpn">Surfshark</h3>
-      <h4 id="vpn--scored-475">VPN | Scored 4.5/5</h4>
-      <ul>
-        <li><a href="https://get.surfshark.net/SH6b">Affiliate Link</a></li>
-        <li><a href="https://surfshark.com">Non Affiliate Link</a></li>
-      </ul>
-
-      <h3 id="airvpn">AirVPN</h3>
-      <h4 id="vpn--scored-465">VPN | Scored 4.44/5</h4>
-      <ul>
-        <li><a href="https://airvpn.org/?referred_by=420027">Affiliate Link</a></li>
-        <li><a href="https://airvpn.org/">Non Affiliate Link</a></li>
-      </ul>
-
-<h3 id="nordvpn">NordVPN</h3>
-<h4 id="vpn--scored-475">VPN | Scored 4.24/5</h4>
-<ul>
-  <li><a href="https://nordvpn.com/techlore">Affiliate Link</a></li>
-  <li><a href="https://nordvpn.com/">Non Affiliate Link</a></li>
-</ul>
-
-<h3 id="vyprvpn">VyprVPN</h3>
-<h4 id="vpn--scored-405-1">VPN | Scored 4.23/5</h4>
-<ul>
-  <li><a href="https://get.vyprvpn.com/refer/?offer_id=78&aff_id=4269&tiny_url=1">Affiliate Link</a></li>
-  <li><a href="https://www.goldenfrog.com/vyprvpn">Non Affiliate Link</a></li>
-</ul>
-
-<h3 id="pia">PIA</h3>
-<h4 id="vpn--scored-455">VPN | Scored 4.21/5</h4>
-<ul>
-  <li><a href="https://www.privateinternetaccess.com/pages/buy-vpn/techlore">Affiliate Link</a></li>
-  <li><a href="https://www.privateinternetaccess.com/">Non Affiliate Link</a></li>
-</ul>
-
-
-<h3 id="coinbase">Coinbase</h3>
-<h4 id="cryptocurrency-wallet--exchange">Cryptocurrency Wallet &amp; Exchange</h4>
-<ul>
-  <li><a href="https://www.coinbase.com/join/5942e0b5d26ede03db311893">Affiliate Link</a></li>
-  <li><a href="https://www.coinbase.com/">Non Affiliate Link</a></li>
-</ul>
-
-<h3 id="binance">Binance</h3>
-<h4 id="cryptocurrency-exchange">Cryptocurrency Exchange</h4>
-<ul>
-  <li><a href="https://www.binance.com/?ref=13898297">Affiliate Link</a></li>
-  <li><a href="https://www.binance.com/">Non Affiliate Link</a></li>
-</ul>
-
-
+    <div class="grid _np _bg-black-t _ch _centered">
+      <div class="col-4">
+        <div class="card">
+          <h3 id="amazon">Amazon</h3>
+          <h5 id="online-store">Online Store</h5>
+          <a class="btn" href="https://www.amazon.com/shop/influencer20170928875">Affiliate Link</a>
+          <a class="btn" href="https://www.amazon.com">Standard Link</a>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card">
+          <h3 id="protonvpn">ProtonVPN</h3>
+          <h5 id="vpn--scored-465-1">VPN | Scored 4.66/5</h5>
+          <a class="btn" href="http://proton.go2cloud.org/SH1a">Affiliate Link</a>
+          <a class="btn" href="https://protonvpn.com/">Standard Link</a>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card">
+          <h3 id="windscribe">Windscribe</h3>
+          <h5 id="vpn--scored-405">VPN | Scored 4.6/5</h5>
+          <a class="btn" href="https://windscribe.com/?affid=8nzworas">Affiliate Link</a>
+          <a class="btn" href="https://windscribe.com/">Standard Link</a>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card">
+          <h3 id="nordvpn">Surfshark</h3>
+          <h5 id="vpn--scored-475">VPN | Scored 4.5/5</h5>
+          <a class="btn" href="https://get.surfshark.net/SH6b">Affiliate Link</a>
+          <a class="btn" href="https://surfshark.com">Standard Link</a>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card">
+          <h3 id="airvpn">AirVPN</h3>
+          <h5 id="vpn--scored-465">VPN | Scored 4.44/5</h5>
+          <a class="btn" href="https://airvpn.org/?referred_by=420027">Affiliate Link</a>
+          <a class="btn" href="https://airvpn.org/">Standard Link</a>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card">
+          <h3 id="nordvpn">NordVPN</h3>
+          <h5 id="vpn--scored-475">VPN | Scored 4.24/5</h5>
+          <a class="btn" href="https://nordvpn.com/techlore">Affiliate Link</a>
+          <a class="btn" href="https://nordvpn.com/">Standard Link</a>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card">
+          <h3 id="vyprvpn">VyprVPN</h3>
+          <h5 id="vpn--scored-405-1">VPN | Scored 4.23/5</h5>
+          <a class="btn" href="https://get.vyprvpn.com/refer/?offer_id=78&aff_id=4269&tiny_url=1">Affiliate Link</a>
+          <a class="btn" href="https://www.goldenfrog.com/vyprvpn">Standard Link</a>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card">
+          <h3 id="pia">PIA</h3>
+          <h5 id="vpn--scored-455">VPN | Scored 4.21/5</h5>
+          <a class="btn" href="https://www.privateinternetaccess.com/pages/buy-vpn/techlore">Affiliate Link</a>
+          <a class="btn" href="https://www.privateinternetaccess.com/">Standard Link</a>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card">
+          <h3 id="coinbase">Coinbase</h3>
+          <h5 id="cryptocurrency-wallet--exchange">Cryptocurrency Wallet &amp; Exchange</h5>
+          <a class="btn" href="https://www.coinbase.com/join/5942e0b5d26ede03db311893">Affiliate Link</a>
+          <a class="btn" href="https://www.coinbase.com/">Standard Link</a>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card">
+          <h3 id="binance">Binance</h3>
+          <h5 id="cryptocurrency-exchange">Cryptocurrency Exchange</h5>
+          <a class="btn" href="https://www.binance.com/?ref=13898297">Affiliate Link</a>
+          <a class="btn" href="https://www.binance.com/">Standard Link</a>
+        </div>
+      </div>
     </div>
-    <div class="push"></div>
-  </div>
-  <div class="footer">
-  Copyright &copy; Techlore <span id="year"></span>
-</div>
-
+    </div>
+  </main>
+  <svg viewBox="0 0 120 20">
+    <path class="wave"
+      d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
+  </svg>
+  <footer>
+    Copyright &copy; Techlore 2020 | <a target="_self" href="./privacy.html"> Privacy Policy</a>
+  </footer>
+  <a class="gt-link hide" href="" id="gt-link">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6">
+      <path d="M12 6H0l6-6z" /></svg>
+  </a>
+</body>
+<script src="assets/javascript/script.js" type="text/javascript"></script>
 <script>
-  var curYear = (new Date()).getFullYear()
-  document.getElementById("year").innerHTML = curYear
+  $(document).ready(function () {
+
+    $('.menu-btn').on("click", () => {
+      $('nav').toggleClass("opened");
+
+    });
+  });
 </script>
 
-</body>
 </html>

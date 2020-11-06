@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path id="path-1" d="M65.1358333,0 C75.175,0 80.1933333,0 85.5975,1.70833333 C91.4975,3.85583333 96.1441667,8.5025 98.2916667,14.4025 C100,19.8058333 100,24.8258333 100,34.8641667 L100,65.1358333 C100,75.175 100,80.1933333 98.2916667,85.5975 C96.1441667,91.4975 91.4975,96.1441667 85.5975,98.2908333 C80.1933333,100 75.175,100 65.1358333,100 L34.8641667,100 C24.825,100 19.8058333,100 14.4025,98.2908333 C8.5025,96.1441667 3.85583333,91.4975 1.70833333,85.5975 C0,80.1933333 0,75.175 0,65.1358333 L0,34.8641667 C0,24.8258333 0,19.8058333 1.70833333,14.4025 C3.85583333,8.5025 8.5025,3.85583333 14.4025,1.70833333 C19.8058333,0 24.825,0 34.8641667,0 L65.1358333,0 Z"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Icon-Shape" xlink:href="#path-1"></use>
+            <g id="Icon" mask="url(#mask-2)">
+                <rect id="Left" fill="#E9E9E9" x="0" y="30" width="50" height="70"></rect>
+                <rect id="Right" fill="#C3C3C3" x="50" y="30" width="50" height="70"></rect>
+                <path d="M100,3.55271368e-15 L100,30 L50,60 L-4.4408921e-16,30 L-4.4408921e-16,3.55271368e-15 L50,3.55271368e-15 L100,3.55271368e-15 Z" id="Top" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

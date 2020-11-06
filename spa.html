@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" type="image/png" href="assets/svg/logo.svg" />
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+  <title> Techlore | Anonymity Quiz </title>
+  <meta name="description"
+    content="Techlore is spreading spreading privacy and security to the masses. Home of Go Incognito, Surveillance Report, VPN reviews, video tutorials, software/hardware reviews, communities, and more; join us today!" />
+  <!-- Google / Search Engine Tags -->
+  <meta itemprop="name" content=" Techlore | Anonymity Quiz ">
+  <meta itemprop="description"
+    content="Techlore is spreading spreading privacy and security to the masses. Home of Go Incognito, Surveillance Report, VPN reviews, video tutorials, software/hardware reviews, communities, and more; join us today!">
+  <meta itemprop="image" content="./assets/svg/logo_v2.svg"><!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content=" Techlore | Spreading Privacy To The Masses ">
+<meta name="twitter:description" content="Techlore is spreading spreading privacy and security to the masses. Home of Go Incognito, Surveillance Report, VPN reviews, video tutorials, software/hardware reviews, communities, and more; join us today!">
+<meta name="twitter:image" content="./assets/svg/logo_v2.svg">
+
+  <base target="_blank">
+  <style>
+    :root {
+      --c1: #0074d9;
+      --c2: #414141;
+    }
+
+    body {
+      background: linear-gradient(#1126becc, #05c7adcc);
+    }
+
+    h2,
+    h1 {
+      margin: 0;
+    }
+
+    main {
+      user-select: none;
+    }
+
+    div.lb {
+      margin: 15px 0;
+      background: ghostwhite;
+      border-radius: .3rem;
+    }
+
+    #zone_1 div.lb {
+      border: 2px solid var(--green);
+      color: var(--grey);
+    }
+
+    #zone_2 div.lb {
+      border: 2px solid var(--yellow);
+      color: var(--grey);
+
+    }
+
+    #zone_3 div.lb {
+      border: 2px solid var(--orange);
+      color: var(--grey);
+    }
+
+    button {
+      border: .1rem solid var(--c1);
+      color: var(--c1);
+    }
+
+    button:not([disabled]):hover {
+      color: #fcfcfc;
+      background: var(--c1);
+    }
+
+
+    label {
+      margin-left: 25px;
+      display: block;
+      padding: 10px;
+    }
+
+    input[type=checkbox]:checked,
+    input[type=radio]:checked {
+      background: var(--c1);
+      border-color: var(--c1);
+    }
+
+    #checks-box h4 {
+      margin-top: 0;
+    }
+
+    #result-box h3 {
+      text-align: center;
+    }
+
+    .tab,
+    #zone_2,
+    #zone_3,
+    #result-box,
+    #checks-box {
+      display: none;
+    }
+
+
+    .step {
+      height: 20px;
+      width: 20px;
+      margin: 0 2px;
+      background-color: #fff;
+      border: 2px solid;
+      border-radius: 50%;
+      display: inline-block;
+    }
+
+    .step.active {
+      border-color: var(--c1);
+      background-color: var(--c1);
+    }
+
+    .brasil {
+      position: relative;
+      color: #fff;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .brasil::before,
+    .brasil::after {
+      content: attr(data-text);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .brasil::before {
+      left: 2px;
+      clip: rect(79px, 1200px, 86px, 0);
+      text-shadow: -1px 0 red;
+      background: transparent;
+      animation: brasil-anim-2 1s infinite linear alternate-reverse;
+    }
+
+    .brasil::after {
+      left: -2px;
+      clip: rect(79px, 1200px, 86px, 0);
+      text-shadow: -1px 0 #0074d9;
+      background: transparent;
+      animation: brasil-anim-1 1s infinite linear alternate-reverse;
+      animation-delay: -1s;
+    }
+
+    @keyframes brasil-anim-1 {
+      0% {
+        clip: rect(0px, 1200px, 76px, 0);
+      }
+
+      20% {
+        clip: rect(19px, 1200px, 16px, 0);
+      }
+
+      40% {
+        clip: rect(16px, 1200px, 3px, 0);
+      }
+
+      60% {
+        clip: rect(62px, 1200px, 78px, 0);
+      }
+
+      80% {
+        clip: rect(25px, 1200px, 13px, 0);
+      }
+
+      100% {
+        clip: rect(53px, 1200px, 86px, 0);
+      }
+    }
+
+    @keyframes brasil-anim-2 {
+      0% {
+        clip: rect(79px, 1200px, 86px, 0);
+      }
+
+      20% {
+        clip: rect(20px, 1200px, 30px, 0)
+      }
+
+      40% {
+        clip: rect(25px, 1200px, 5px, 0)
+      }
+
+      60% {
+        clip: rect(65px, 1200px, 85px, 0)
+      }
+
+      80% {
+        clip: rect(120px, 1200px, 145px, 0)
+      }
+
+      100% {
+        clip: rect(95px, 1200px, 75px, 0)
+      }
+    }
+
+    section+section {
+      margin-top: .5rem;
+    }
+
+    section {
+      position: relative;
+      background: var(--black-t);
+      color: var(--white);
+      border-radius: .3rem;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23);
+    }
+
+    .results h2 {
+      background: #0074d9;
+      padding: .5rem;
+      text-align: center;
+
+      color: #fefefe;
+      border-radius: .3rem;
+      display: none;
+    }
+
+    .results {
+      max-width: 300px;
+      margin: auto;
+      margin-top: 1rem;
+      margin-bottom: 10px;
+    }
+
+    details {
+      max-width: 300px;
+      margin: auto;
+    }
+
+    #rs-info {
+      display: none;
+    }
+
+
+    .progressB,
+    .progressY,
+    .progressG,
+    .progressR {
+      text-align: center;
+    }
+
+    .progressB .circle-progress {
+      width: 200px;
+      height: auto;
+    }
+
+    .progressB .circle-progress-value {
+      stroke: #0074d9;
+    }
+
+    .progressG .circle-progress-value {
+      stroke: #21bf73;
+    }
+
+    .progressY .circle-progress-value {
+      stroke: #ffcd38;
+    }
+
+    .progressR .circle-progress-value {
+      stroke: #ff3838;
+    }
+
+    .circle-progress-value {
+      stroke-width: 6px;
+      stroke-linecap: round;
+    }
+
+    .circle-progress-circle {
+      stroke-width: 2px;
+      stroke: #555;
+    }
+
+    .circle-progress-text {
+      fill: var(--white);
+    }
+  </style>
+</head>
+
+<body id="tools">
+
+  <nav>
+    <div class="logo-container">
+      <a href="./index.html" target="_self"><img class="logo" src="assets/svg/logo.svg"></a>
+    </div>
+    <div class="menu-btn"><span></span></div>
+    <ul>
+      <li><a class="active " target="_self" href="./index.html">Home</a></li>
+      <li><a target="_self" href="./about.html">About</a></li>
+      <li><a target="_self" href="./goincognito.html">Go Incognito</a></li>
+      <li><a target="_self" href="./videos.html"> Videos </a></li>
+      <li><a target="_self" href="./contact.html">Contact</a></li>
+      <li><a target="_self" href="./support.html">Support Us</a></li>
+      <li><a href="https://plexus.techlore.tech">Plexus</a></li>
+      <li><a target="_self" href="./resources.html">Resources</a></li>
+      <li>
+        <a class="drop" target="_self" href="./vpn.html">VPN Toolkit</a>
+        <ul>
+          <li><a target="_self" href="./vpnfinder.html">Finder Tool</a></li>
+          <li><a target="_self" href="./vpnchart.html">VPN Chart</a></li>
+          <li><a target="_self" href="./vpnreview.html">DIY Tool</a></li>
+        </ul>
+      </li>
+      <li class="social-cnt">
+        <div><a href="https://www.patreon.com/techlore" target="_blank"><img src="assets/svg/patreon.svg"></a></div>
+        <div><a href="https://twitter.com/techloreistaken" target="_blank"><img src="assets/svg/twitter.svg"></a>
+        </div>
+        <div><a href="https://discordapp.com/invite/sdMv9Zj" target="_blank"><img src="assets/svg/discord.svg"></a>
+        </div>
+        <div><a href="https://www.reddit.com/r/techlore/" target="_blank"><img src="assets/svg/reddit.svg"></a></div>
+        <div><a href="https://t.me/techloreofficial" target="_blank"><img src="assets/svg/telegram-a.svg"></a></div>
+        <div><a href="https://matrix.to/#/+techlore-official:matrix.org" target="_blank"><img
+              src="assets/svg/matrix.svg"></a>
+        </div>
+      </li>
+    </ul>
+  </nav>
+  <svg viewBox="0 0 120 15" class="wavet">
+    <path class="wave"
+      d="M 0 0 v 6 C 30 6 30 10 60 10 C 91 10 90 6 120 6 C 150 6 150 10 180 10 C 210 10 210 6 240 6 v -6 h -240 z" />
+  </svg>
+  <main class="_pt0 _mb4">
+
+    <section id="main-box" class="_centered">
+      <h2 class="brasil" data-text="Anonymity Quiz">Anonymity Quiz</h2>
+      <h5 class="game-rules-copy">Evaluate your security, privacy and anonymity</h5>
+      <button class="play-button _mt4" id="quiz-game-btn"> Start <i class="fa fa-caret-right"
+          aria-hidden="true"></i></button>
+    </section>
+    <section id="checks-box">
+      <div class="_centered" id="steps"><span class="step active"></span><span class="step"></span></div>
+      <div id="zone_1">
+        <h1> Zone 1 <h4>Basic</h4>
+        </h1>
+        <div class="tab">
+          <div class="lb"><label for="ans0"><input type="checkbox" value="5" id="ans0" class="ans"> Use a password
+              manager</label></div>
+          <div class="lb"><label for="ans1"><input type="checkbox" value="5" id="ans1" class="ans"> Use strong device
+              password</label></div>
+          <div class="lb"><label for="ans2"><input type="checkbox" value="5" id="ans2" class="ans"> Use a strong router
+              password</label></div>
+          <div class="lb"><label for="ans3"><input type="checkbox" value="5" id="ans3" class="ans"> Use 2FA on
+              available service</label></div>
+        </div>
+        <div class="tab">
+          <div class="lb"><label for="ans4"><input type="checkbox" value="5" id="ans4" class="ans"> Disable Google
+              tracking</label></div>
+          <div class="lb"><label for="ans5"><input type="checkbox" value="5" id="ans5" class="ans"> Remove unused
+              accounts</label></div>
+          <div class="lb"><label for="ans6"><input type="checkbox" value="5" id="ans6" class="ans"> Utilize video social
+              media rules</label></div>
+          <div class="lb"><label for="ans7"><input type="checkbox" value="5" id="ans7" class="ans"> Use a good
+              VPN</label>
+          </div>
+        </div>
+        <div class="tab">
+          <div class="lb"><label for="ans8"><input type="checkbox" value="5" id="ans8" class="ans"> Use encrypted
+              messaging</label></div>
+          <div class="lb"><label for="ans9"><input type="checkbox" value="5" id="ans9" class="ans"> Use encrypted
+              email</label></div>
+          <div class="lb"><label for="ans10"><input type="checkbox" value="5" id="ans10" class="ans"> Use trusted web
+              extensions</label></div>
+          <div class="lb"><label for="ans11"><input type="checkbox" value="5" id="ans11" class="ans"> Use a privacy
+              search
+              engine</label></div>
+        </div>
+        <div class="tab">
+          <div class="lb"><label for="ans12"><input type="checkbox" value="5" id="ans12" class="ans"> Frequently clear
+              browser data</label></div>
+          <div class="lb"><label for="ans13"><input type="checkbox" value="5" id="ans13" class="ans"> Utilize browser
+              protections</label></div>
+          <div class="lb"><label for="ans14"><input type="checkbox" value="5" id="ans14" class="ans"> Opt out of phone
+              tracking</label></div>
+          <div class="lb"><label for="ans15"><input type="checkbox" value="5" id="ans15" class="ans"> Disable unused
+              phone
+              radios</label></div>
+        </div>
+        <div class="tab">
+          <div class="lb"><label for="ans16"><input type="checkbox" value="5" id="ans16" class="ans"> Disable unused
+              phone
+              features</label></div>
+          <div class="lb"><label for="ans17"><input type="checkbox" value="5" id="ans17" class="ans"> Opt out of
+              computer
+              tracking</label></div>
+          <div class="lb"><label for="ans18"><input type="checkbox" value="5" id="ans18" class="ans"> Disable unused
+              computer radios</label></div>
+          <div class="lb"><label for="ans19"><input type="checkbox" value="5" id="ans19" class="ans"> Disable unused
+              computer features</label></div>
+          <div class="lb"><label for="ans20"><input type="checkbox" value="5" id="ans20" class="ans"> Clear device
+              temporary data</label></div>
+        </div>
+        <div class="tab">
+          <div class="lb"><label for="ans21"><input type="checkbox" value="5" id="ans21" class="ans"> Shred files &amp;
+              data</label></div>
+          <div class="lb"><label for="ans22"><input type="checkbox" value="5" id="ans22" class="ans"> Backup your
+              data</label></div>
+          <div class="lb"><label for="ans23"><input type="checkbox" value="5" id="ans23" class="ans"> Avoid public
+              computers</label></div>
+          <div class="lb"><label for="ans24"><input type="checkbox" value="5" id="ans24" class="ans"> Avoid IOT &amp;
+              Smart Devices</label></div>
+          <div class="lb"><label for="ans25"><input type="checkbox" value="5" id="ans25" class="ans"> Utilize a safe
+              &amp;
+              shredder</label></div>
+        </div>
+      </div>
+      <div id="zone_2">
+        <h1> Zone 2 <h4>Moderate</h4>
+        </h1>
+        <div class="tab">
+          <div class="lb"><label for="ans26"><input type="checkbox" value="6" id="ans26" class="ans"> Disable all
+              biometrics</label></div>
+          <div class="lb"><label for="ans27"><input type="checkbox" value="6" id="ans27" class="ans"> Delete Google
+              altogether</label></div>
+          <div class="lb"><label for="ans28"><input type="checkbox" value="6" id="ans28" class="ans"> Utilize
+              pseudonyms</label></div>
+          <div class="lb"><label for="ans29"><input type="checkbox" value="6" id="ans29" class="ans"> Use private phone
+              numbers</label></div>
+          <div class="lb"><label for="ans30"><input type="checkbox" value="6" id="ans30" class="ans"> Delete personal
+              social media</label></div>
+        </div>
+        <div class="tab">
+          <div class="lb"><label for="ans31"><input type="checkbox" value="6" id="ans31" class="ans"> Use video
+              private/secure browsers</label></div>
+          <div class="lb"><label for="ans32"><input type="checkbox" value="6" id="ans32" class="ans"> Utilize multiple
+              browsers</label></div>
+          <div class="lb"><label for="ans33"><input type="checkbox" value="6" id="ans33" class="ans"> Move to
+              FOSS</label>
+          </div>
+          <div class="lb"><label for="ans34"><input type="checkbox" value="6" id="ans34" class="ans"> Ditch type 1
+              Android</label></div>
+          <div class="lb"><label for="ans35"><input type="checkbox" value="6" id="ans35" class="ans"> Protect computer
+              BIOS</label></div>
+        </div>
+        <div class="tab">
+          <div class="lb"><label for="ans36"><input type="checkbox" value="6" id="ans36" class="ans"> Use full disk
+              encryption</label></div>
+          <div class="lb"><label for="ans37"><input type="checkbox" value="6" id="ans37" class="ans"> Spoof MAC
+              address</label></div>
+          <div class="lb"><label for="ans38"><input type="checkbox" value="6" id="ans38" class="ans"> Strip OS
+              telemetry/functionality</label></div>
+          <div class="lb"><label for="ans39"><input type="checkbox" value="6" id="ans39" class="ans"> Ditch
+              Windows</label></div>
+          <div class="lb"><label for="ans40"><input type="checkbox" value="6" id="ans40" class="ans"> Delete file
+              metadata
+              &amp; EXIF</label></div>
+        </div>
+        <div class="tab">
+          <div class="lb"><label for="ans41"><input type="checkbox" value="6" id="ans41" class="ans"> Implement home
+              security</label></div>
+          <div class="lb"><label for="ans42"><input type="checkbox" value="6" id="ans42" class="ans"> Use cable locks
+              &amp; intrusion kits</label></div>
+          <div class="lb"><label for="ans43"><input type="checkbox" value="6" id="ans43" class="ans"> Ditch IOT &amp;
+              smart devices</label></div>
+          <div class="lb"><label for="ans44"><input type="checkbox" value="6" id="ans44" class="ans"> Use privacy screen
+              protectors</label></div>
+          <div class="lb"><label for="ans45"><input type="checkbox" value="6" id="ans45" class="ans"> Use camera
+              covers</label></div>
+        </div>
+      </div>
+      <div id="zone_3">
+        <h1> Zone 3 <h4>Advanced</h4>
+        </h1>
+        <div class="tab">
+          <div class="lb"><label for="ans46"><input type="checkbox" value="7" id="ans46" class="ans"> Clean your digital
+              footprint</label></div>
+          <div class="lb"><label for="ans47"><input type="checkbox" value="7" id="ans47" class="ans"> Delete social
+              media</label></div>
+          <div class="lb"><label for="ans48"><input type="checkbox" value="7" id="ans48" class="ans"> Utilize hardened
+              browsers</label></div>
+          <div class="lb"><label for="ans49"><input type="checkbox" value="7" id="ans49" class="ans"> Use Custom
+              ROMs/Dumb
+              Phones</label></div>
+        </div>
+        <div class="tab">
+          <div class="lb"><label for="ans50"><input type="checkbox" value="7" id="ans50" class="ans"> Use Private/Secure
+              Desktop OS(s)</label></div>
+          <div class="lb"><label for="ans51"><input type="checkbox" value="7" id="ans51" class="ans"> Shop
+              privately</label></div>
+          <div class="lb"><label for="ans52"><input type="checkbox" value="7" id="ans52" class="ans"> Physically remove
+              cameras/mics</label></div>
+          <div class="lb"><label for="ans53"><input type="checkbox" value="7" id="ans53" class="ans"> Avoid facial
+              recognition/AI</label></div>
+        </div>
+      </div>
+      <div style="overflow:auto;">
+        <div style="float:right;">
+          <button type="button" id="prevBtn"><i class="fas fa-angle-left"></i> Previous</button>
+          <button type="button" id="nextBtn">Next</button>
+        </div>
+      </div>
+    </section>
+    <section id="result-box">
+      <div class="row keep-width _al-centered">
+        <div>
+          <h3>Zone 1</h3>
+          <div class="progressG"></div>
+        </div>
+        <div>
+          <h3>Zone 2</h3>
+          <div class="progressY"></div>
+        </div>
+        <div>
+          <h3>Zone 3</h3>
+          <div class="progressR"></div>
+        </div>
+      </div>
+
+      <div class="progressB"></div>
+
+      <div class="results _al-centered">
+        <h2 id="rs1"> Weak </h2>
+        <h2 id="rs2"> Below Average </h2>
+        <h2 id="rs3"> Techlore Approved </h2>
+        <h2 id="rs4"> Above & Beyond </h2>
+        <h2 id="rs5"> Techlore Max </h2>
+      </div>
+      <details>
+        <summary>
+          <small>Click to view ranking</small>
+        </summary>
+        <div>
+          <h5><u><b>0-50</b></u> | <i>Weak</i></h5>
+          <h5><u><b>50-150</b></u> | <i>Below Average</i></h5>
+          <h5><u><b>150-220</b></u> | <i>Techlore Approved</i></h5>
+          <h5><u><b>220-300</b></u> | <i>Above & Beyond</i></h5>
+          <h5><u><b>300+</b></u> | <i>Techlore Max</i></h5>
+        </div>
+      </details>
+      <div id="rs-info" class="_centered">
+        <h2>Improve Your Security, Privacy, & Anonymity</h2>
+        <div class="grid">
+          <div class="col-4 _flex-center">
+            <iframe width="250" height="160" src="https://www.youtube-nocookie.com/embed/a1i-3xwcSGA" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="col-4 _g-center">
+            <img class="_wh-130" src="assets/svg/goincognito.svg">
+            <h2>Go Incognito</h2>
+
+            A guide to security, privacy, & anonymity
+            <div class="links">
+              <a href="goincognito.html" target="_self">Watch now</a>
+            </div>
+          </div>
+          <div class="col-4 _g-center">
+            <img class="_wh-130" src="assets/svg/logo.svg">
+            <h2>Resources</h2>
+
+            <div class="links">
+              <a href="./resources.html" target="_self">Check Out</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <svg xmlns="http://www.w3.org/2000/svg" id="waveb" class="waveb" version="1.0" viewBox="0 0 120 16">
+    <path d="M-.1 4.48c30 0 30 4.07 60 4.07s30-4.07 60-4.07 30 4.07 60 4.07 30-4.07 60-4.07v12.21H-.1z" class="wave" />
+  </svg>
+  <footer>
+    Copyright &copy; Techlore 2020 | <a target="_self" href="./privacy.html"> Privacy Policy</a>
+  </footer>
+  <a class="gt-link hide" href="" id="gt-link">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6">
+      <path d="M12 6H0l6-6z" /></svg>
+  </a>
+</body>
+<script src="assets/javascript/circle-progress.min.js"></script>
+<script src="assets/javascript/script.js"></script>
+<script>
+  $(document).ready(() => {
+
+    $('.menu-btn').on("click", () => {
+      $('nav').toggleClass("opened");
+    });
+    $('#nextBtn').on("click", () => {
+      nextPrev(1);
+    });
+    var paddingB = document.getElementById('waveb').clientHeight;
+    document.body.style.paddingBottom = paddingB + 100 + "px";
+    $('#prevBtn').on("click", () => {
+      nextPrev(-1);
+    });
+    var zones = {
+      "zSteps1": 6,
+      "zSteps2": 4,
+      "zSteps3": 2
+    };
+    const cProgressB = new CircleProgress(".progressB", {
+      max: 306,
+      value: 0,
+      animationDuration: 1000
+    });
+    const cProgressG = new CircleProgress(".progressG", {
+      max: 130,
+      value: 0,
+      animationDuration: 1000
+    });
+    const cProgressY = new CircleProgress(".progressY", {
+      max: 120,
+      value: 0,
+      animationDuration: 1000
+    });
+    const cProgressR = new CircleProgress(".progressR", {
+      max: 56,
+      value: 0,
+      animationDuration: 1000
+    });
+
+    var activeZoneTabs = 1;
+    var currentTab = 0;
+
+    function wait(ms) {
+      let start = new Date().getTime();
+      let end = start;
+      while (end < start + ms) {
+        end = new Date().getTime();
+      }
+    }
+
+    $("#quiz-game-btn").on("click", function () {
+      $('#main-box').fade("out", () => {
+        document.body.style.setProperty("--c1", "#22bf73");
+        $('#checks-box').fade("in")
+      });
+
+      $("body").css("background", "linear-gradient(#216b5b,#21bf73)");
+      createSteps(1);
+      showTab(currentTab); // Display the current tab
+    });
+
+    function createSteps(n) {
+      var str = "";
+      for (let index = 0; index < zones["zSteps" + n]; index++)
+        str += '<span class="step"></span>';
+      $('#steps').html(str);
+    }
+
+
+    function showTab(n) {
+      var x = document.querySelectorAll("#zone_" + activeZoneTabs + ">.tab");
+      x[n].style.display = "block";
+      //... and fix the Previous/Next buttons:
+      if (n == 0) {
+        document.getElementById("prevBtn").style.display = "none";
+      } else {
+        document.getElementById("prevBtn").style.display = "inline";
+      }
+      if (n == (x.length - 1)) {
+        if (activeZoneTabs == 3)
+          document.getElementById("nextBtn").innerHTML = "Results";
+        else
+          document.getElementById("nextBtn").innerHTML = "Zone " + (activeZoneTabs + 1);
+      } else {
+        document.getElementById("nextBtn").innerHTML = 'Next <i class="fas fa-angle-right"></i>';
+      }
+      activeStep(n);
+    }
+
+    function nextPrev(n) {
+      var x = document.querySelectorAll("#zone_" + activeZoneTabs + ">.tab");
+
+      x[currentTab].style.display = "none";
+      currentTab = currentTab + n;
+
+      if (currentTab >= x.length) {
+        if (activeZoneTabs == 3) {
+          showResults();
+          return;
+        } else {
+          $("#zone_" + activeZoneTabs).hide();
+          activeZoneTabs += 1;
+          $("#zone_" + activeZoneTabs).show();
+
+          currentTab = 0;
+          createSteps(activeZoneTabs);
+        }
+        if (activeZoneTabs == 1) {
+          document.body.style.setProperty("--c1", "#22bf73");
+        }
+        if (activeZoneTabs == 2) {
+          document.body.style.setProperty("--c1", "#ffcd38");
+          $("body").css("background", "linear-gradient(#e4ab00, #ffcd38)");
+        }
+        if (activeZoneTabs == 3) {
+          document.body.style.setProperty("--c1", "#ff3838");
+          $("body").css("background", "linear-gradient(#610909, #ff3838)");
+        }
+
+      }
+      showTab(currentTab);
+    }
+
+    function showResults() {
+      $('#checks-box').fade("out", () => {
+        $('#result-box').fade("in", () => {
+
+          var totalP = 0;
+          var pGreen = 0;
+          var pYellow = 0;
+          var pRed = 0;
+          $(".ans:checked").each(element => {
+            var val = parseInt(element.value);
+            if (val == 5)
+              pGreen += val;
+            else if (val == 6)
+              pYellow += val;
+            else
+              pRed += val;
+            totalP += val;
+          });
+          cProgressB.value = totalP;
+          cProgressG.value = pGreen;
+          cProgressY.value = pYellow;
+          cProgressR.value = pRed;
+          console.log(totalP);
+          var i = 1;
+          if (totalP <= 50) i = 1;
+          else if (totalP <= 150) i = 2;
+          else if (totalP <= 220) i = 3;
+          else if (totalP <= 300) i = 4;
+          else i = 5;
+          $("#rs" + i).fade("in");
+          if (i != 5) $("#rs-info").show();
+        });
+        $("body").css("background", "linear-gradient(#1126becc, #05c7adcc)");
+
+      });
+
+    }
+
+    function activeStep(n) {
+      var i, x = document.getElementsByClassName("step");
+      for (i = 0; i < x.length; i++) {
+        x[i].className = x[i].className.replace(" active", "");
+      }
+      x[n].className += " active";
+    }
+  });
+</script>
+
+</html>

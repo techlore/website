@@ -4,259 +4,438 @@
 <head>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="title" content="Techlore: Spreading Privacy To The Masses">
-  <meta name="description" content="Techlore is spreading spreading privacy and security to the masses. Home of Go Incognito, Surveillance Report, VPN reviews, video tutorials, software/hardware reviews, communities, and more; join us today!"/>
   <meta charset="UTF-8">
-  <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png"/>
+  <link rel="shortcut icon" type="image/png" href="assets/svg/logo.svg" />
   <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-  <title> Techlore | Support  </title>
+  <title> Techlore | Support </title>
+  <meta name="title" content="Techlore: Spreading Privacy To The Masses">
+  <meta name="description"
+    content="Techlore is spreading spreading privacy and security to the masses. Home of Go Incognito, Surveillance Report, VPN reviews, video tutorials, software/hardware reviews, communities, and more; join us today!" />
+  <!-- Google / Search Engine Tags -->
+  <meta itemprop="name" content=" Techlore | Support ">
+  <meta itemprop="description"
+    content="Techlore is spreading spreading privacy and security to the masses. Home of Go Incognito, Surveillance Report, VPN reviews, video tutorials, software/hardware reviews, communities, and more; join us today!">
+  <meta itemprop="image" content="./assets/svg/logo_v2.svg"><!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content=" Techlore | Spreading Privacy To The Masses ">
+<meta name="twitter:description" content="Techlore is spreading spreading privacy and security to the masses. Home of Go Incognito, Surveillance Report, VPN reviews, video tutorials, software/hardware reviews, communities, and more; join us today!">
+<meta name="twitter:image" content="./assets/svg/logo_v2.svg">
+
   <base target="_blank">
+  <style>
+    body {
+      background-image: linear-gradient(to left, #0a4c6d, #00607b, #007581, #00887f, #369a77);
+    }
+
+    .bl>li,
+    .bl {
+      margin: 2rem 0;
+    }
+
+    /* ------------------- Code ------------------- */
+    .code {
+      border-left: 0.3rem solid #0074D9;
+      background-color: #000000;
+      margin: 0.5rem 0rem;
+      overflow-y: hidden;
+      padding: 0.5rem;
+      width: 100%;
+      max-width: 280px;
+      overflow-wrap: anywhere;
+      overflow: auto;
+      border-radius: 0.3rem;
+    }
+
+    .carousel-wrapper {
+      border-radius: .3rem;
+      margin-top: 2rem !important;
+    }
+
+    .carousel-wrapper h2 {
+      padding-top: 1rem;
+    }
+
+    .carousel {
+      -webkit-transform-style: preserve-3d;
+      -moz-transform-style: preserve-3d;
+      transform-style: preserve-3d;
+    }
+
+    .slide-item {
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      margin: auto;
+      padding: 1rem 4rem;
+      z-index: -10;
+      transition: transform .5s, opacity .5s, z-index .5s;
+    }
+
+    .slide-item.initial,
+    .slide-item.active {
+      opacity: 1;
+      z-index: 0;
+      position: relative;
+    }
+
+    /* Set 'z-index' to sit behind our '.active' item. */
+    .slide-item.prev,
+    .slide-item.next {
+      z-index: 800;
+    }
+
+    /* Translate previous item to the left */
+    .slide-item.prev {
+      transform: translateX(-100%);
+    }
+
+    /* Translate next item to the right */
+    .slide-item.next {
+      transform: translateX(100%);
+    }
+
+    /* Style navigation buttons to sit in the middle, either side of the carousel. */
+    .slide-prev,
+    .slide-next {
+      position: absolute;
+      top: 50%;
+      width: 3rem;
+      height: 3rem;
+      background-color: #FFF;
+      transform: translateY(-50%);
+      border-radius: 50%;
+      cursor: pointer;
+      z-index: 1001;
+      /* Sit on top of everything */
+      border: 1px solid black;
+      /*  opacity: 0;  Hide buttons until carousel is initialised 
+  transition:opacity 1s;*/
+    }
+
+    .slide-prev {
+      left: 5px;
+    }
+
+    .slide-next {
+      right: 5px;
+    }
+
+    /* Use pseudo elements to insert arrows inside of navigation buttons */
+    .slide-prev::after,
+    .slide-next::after {
+      content: " ";
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      top: 50%;
+      left: 54%;
+      border-right: 2px solid black;
+      border-bottom: 2px solid black;
+      transform: translate(-50%, -50%) rotate(135deg);
+    }
+
+    .slide-next::after {
+      left: 47%;
+      transform: translate(-50%, -50%) rotate(-45deg);
+    }
+
+
+    .card-user {
+      display: block;
+      text-align: center;
+      background: black;
+      height: 100%;
+      margin: 0;
+      padding: .5rem 1rem 0.5rem;
+      border-radius: 0.3rem;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    }
+
+    .card-user>h4 {
+      height: 56px;
+    }
+
+    @media (max-width: 1229px) {
+      .slide-item {
+        padding: 1rem 4rem !important;
+      }
+    }
+  </style>
 
 </head>
 
-
-
-
-
 <body id="support" class="page">
-  <div class="wrapper">
-  <div class="nav">
-  <ul>
-    <li class="logo-container">
-      <a href="./index.html" target="_self"><img class="logo" src="assets/images/logo.png"></a>
-    </li>
-    <li>
-      <a class="nav-item " target="_self" href="./index.html">
-        Home
-      </a>
-    </li>
-    <li class="spacer"> | </li>
 
-
-
-
-
-
-
-
-
-    <li>
-      <a class="nav-item " target="_self" href="./about.html">
-        About
-      </a>
-    </li>
-    <li class="spacer"> | </li>
-
-
-
-    <li>
-      <a class="nav-item " target="_self" href="./goincognito.html">
-        Course
-      </a>
-    </li>
-    <li class="spacer"> | </li>
-
-
-
-    <li>
-      <a class="nav-item " target="_self" href="./videos.html">
-        Videos
-      </a>
-    </li>
-    <li class="spacer"> | </li>
-
-
-
-    <li>
-      <a class="nav-item " target="_self" href="./vpn.html">
-        VPN
-      </a>
-    </li>
-    <li class="spacer"> | </li>
-
-
-
-    <li>
-      <a class="nav-item " target="_self" href="./contact.html">
-        Contact
-      </a>
-    </li>
-    <li class="spacer"> | </li>
-
-
-
-    <li>
-      <a class="nav-item active" target="_self" href="./support.html">
-        Support Us
-      </a>
-    </li>
-    <li class="spacer"> | </li>
-
-
-
-    <li>
-      <a class="nav-item " target="_self" href="./affiliations.html">
-        Affiliations
-      </a>
-    </li>
-    <li class="spacer"> | </li>
-
-
-    <div class="social-supercontainer">
-      <li class="social-container">
-        <a href="https://www.patreon.com/techlore" target="_blank"><img class="social" src="assets/images/patreon.png"></a>
-      </li>
-      <li class="social-container">
-        <a href="https://twitter.com/techloreistaken" target="_blank"><img class="social" src="assets/images/twitter.png"></a>
-      </li>
-      <li class="social-container">
-        <a href="https://discordapp.com/invite/sdMv9Zj" target="_blank"><img class="social" src="assets/images/discord.png"></a>
-      </li>
-      <li class="social-container">
-        <a href="https://www.reddit.com/r/techlore/" target="_blank"><img class="social" src="assets/images/reddit.png"></a>
-      </li>
-      <li class="social-container">
-        <a href="https://t.me/techloreofficial" target="_blank"><img class="social" src="assets/images/telegram-a.png"></a>
-      </li>
-      <li class="social-container">
-        <a href="https://matrix.to/#/#techlore:matrix.org" target="_blank"><img class="social" src="assets/images/matrix.png"></a>
-      </li>
+  <nav>
+    <div class="logo-container">
+      <a href="./index.html" target="_self"><img class="logo" src="assets/svg/logo.svg"></a>
     </div>
-    <li class="show-menu">
-      <a>Menu</a>
-    </li>
-    <li class="hide-menu">
-      <a>Hide Menu</a>
-    </li>
-  </ul>
-</div>
+    <div class="menu-btn"><span></span></div>
+    <ul>
+      <li><a target="_self" href="./index.html">Home</a></li>
+      <li><a target="_self" href="./about.html">About</a></li>
+      <li><a target="_self" href="./goincognito.html">Go Incognito</a></li>
+      <li><a target="_self" href="./videos.html"> Videos </a></li>
+      <li><a target="_self" href="./contact.html">Contact</a></li>
+      <li><a class="active" target="_self" href="./support.html">Support Us</a></li>
+      <li><a href="https://plexus.techlore.tech">Plexus</a></li>
+      <li><a target="_self" href="./resources.html">Resources</a></li>
+      <li>
+        <a class="drop" target="_self" href="./vpn.html">VPN Toolkit</a>
+        <ul>
+          <li><a target="_self" href="./vpnfinder.html">Finder Tool</a></li>
+          <li><a target="_self" href="./vpnchart.html">VPN Chart</a></li>
+          <li><a target="_self" href="./vpnreview.html">DIY Tool</a></li>
+        </ul>
+      </li>
+      <li class="social-cnt">
+        <div><a href="https://github.com/techlore-official" target="_blank"><img src="assets/svg/github.svg"></a>
+        </div>
+        <div><a href="https://www.patreon.com/techlore" target="_blank"><img src="assets/svg/patreon.svg"></a></div>
+        <div><a href="https://twitter.com/techloreistaken" target="_blank"><img src="assets/svg/twitter.svg"></a>
+        </div>
+        <div><a href="https://discordapp.com/invite/sdMv9Zj" target="_blank"><img src="assets/svg/discord.svg"></a>
+        </div>
+        <div><a href="https://www.reddit.com/r/techlore/" target="_blank"><img src="assets/svg/reddit.svg"></a></div>
+        <div><a href="https://t.me/techloreofficial" target="_blank"><img src="assets/svg/telegram-a.svg"></a></div>
+        <div><a href="https://matrix.to/#/+techlore-official:matrix.org" target="_blank"><img
+              src="assets/svg/matrix.svg"></a>
+        </div>
+      </li>
+    </ul>
+  </nav>
+  <svg viewBox="0 0 120 20" class="wavet">
+    <path class="wave"
+      d="M 0 0 v 6 C 30 6 30 10 60 10 C 91 10 90 6 120 6 C 150 6 150 10 180 10 C 210 10 210 6 240 6 v -6 h -240 z" />
+  </svg>
 
-<script src="assets/javascript/jquery-latest.min.js"
-        type="text/javascript"></script>
-<script>
-$(document).ready(function() {
+  <main class="_pt0">
+    <div class="grid">
+      <div>
+        <div class="carousel-wrapper _bg-black-t _aos">
+          <h2 class="_centered">Our Patreon Supporters <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+              viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" class="feather feather-heart">
+              <path
+                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+              </path>
+            </svg></h2>
+          <div class="carousel" id="slider">
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="card _bg-black-t _aos-right">
+          <h1 class="_centered">Free Support Methods</h1>
+          <ul class="bl">
+            <li>
+              Shop after using one of our affiliate links
+              <div class="links">
+                <a href="./affiliations.html" target="_self">Techlore Affiliations</a>
+              </div>
+            </li>
+            <li>
+              Connect with our communities<br>
+              <ul class="social-icons _bg-black">
+                <li>
+                  <a href="https://twitter.com/techloreistaken" target="_blank"><img class="social"
+                      src="assets/svg/twitter.svg"></a>
+                </li>
+                <li>
+                  <a href="https://www.reddit.com/r/techlore/" target="_blank"><img src="assets/svg/reddit.svg" /></a>
+                </li>
+                <li>
+                  <a href="https://discordapp.com/invite/sdMv9Zj" target="_blank"><img
+                      src="assets/svg/discord.svg" /></a>
+                </li>
+                <li>
+                  <a href="https://t.me/techloreofficial" target="_blank"><img src="assets/svg/telegram-a.svg" /></a>
+                </li>
+                <li>
+                  <a href="https://t.me/joinchat/IJOwYA3mr-PoGnp7m35rmA" target="_blank"><img
+                      src="assets/svg/telegram-g.svg" /></a>
+                </li>
+                <li>
+                  <a href="https://matrix.to/#/@techlore:matrix.org" target="_blank"><img
+                      src="assets/svg/matrix.svg" /></a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              Re-upload and share the free version of Go Incognito.
+              <a href="https://github.com/techlore-official/go-incognito">Click for more information</a>
+            </li>
+            <li>
+              Share Techlore with your friends and family &#9829;
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div class="card _bg-black-t _aos-left">
+          <h1 class="_centered">Paid Support
+            Methods</h1>
+          <ul class="bl">
+            <li>
+              Become a Patreon or YouTube Privacy Supporter where you directly support our work and
+              receive
+              exclusive benefits:
+              <div class="links">
+                <a href="https://www.patreon.com/techlore">Patreon</a>
+                <a href="https://www.youtube.com/channel/UCs6KfncB4OV6Vug4o_bzijg/join">YouTube Supporter</a>
+              </div>
+            </li>
+            <li>
+              Tip us with BAT. If you’re using Brave, you can tip from any of the following locations:
 
-  var menuHidden = true;
-  $('.hide-menu').hide();
+              <div class="links">
+                <a href="https://www.youtube.com/channel/UCs6KfncB4OV6Vug4o_bzijg">YouTube</a>
+                <a href="https://techlore.tech">Website</a>
+                <a href="https://www.reddit.com/r/techlore/">Subreddit</a>
+                <a href="https://twitter.com/techloreistaken">Twitter</a>
+                <a href="https://brave.com/tec118">Brave Link</a>
+              </div>
+            </li>
+            <li>
+              Using the Coinbase Affiliation, we will both receive a free $10 for your first $100 of
+              BTC:
+              <a class="links" href="https://www.coinbase.com/join/5942e0b5d26ede03db311893">Coinbase</a>
+            </li>
+            <li>
+              Directly donating through Monero:
+              <div class="code">
+                49H4jTvUY5zaX8qLpVBstJFR7ayTMxxU3UyWpGqUoBM4UzM2zwUHA2sJ9i3AhQYdaqhFmS8PDfWKn1Tea4SKU6haMTXG8qD
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
 
-  var menuCheck = function() {
-    if ($(window).width() > 1180) {
-      menuHidden = true;
-      $('.nav ul li').show();
-      $('.social-supercontainer').css('display', 'inline-block');
-      $('.show-menu').hide();
-      $('.hide-menu').hide();
-      $('.nav').css({ 'height' : '70px' });
-    } else {
-
-      $('.nav').css({ 'height' : 'auto' });
-
-      if (menuHidden == true) {
-        $('.nav ul li').hide();
-        $('.nav ul li.logo-container').show();
-        $('.social-supercontainer').css('display', 'none');
-        $('.show-menu').show();
-        $('.hide-menu').hide();
-      } else if (menuHidden == false) {
-        $('.nav ul li').show();
-        $('.social-supercontainer').css('display', 'inline-block')
-        $('.hide-menu').show();
-        $('.show-menu').hide();
-      }
+  <svg viewBox="0 0 120 20">
+    <path class="wave"
+      d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
+  </svg>
+  <footer>
+    Copyright &copy; Techlore 2020 | <a target="_self" href="./privacy.html"> Privacy Policy</a>
+  </footer>
+  <a class="gt-link hide" href="" id="gt-link">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6">
+      <path d="M12 6H0l6-6z" /></svg>
+  </a>
+  <script src="assets/javascript/script.js" type="text/javascript"></script>
+  <script src="assets/javascript/slider.js" type="text/javascript"></script>
+  <script>
+    //Function to generate gradient color
+    const random_gradient = () => {
+      var colorOne = {
+        R: Math.floor(Math.random() * 255),
+        G: Math.floor(Math.random() * 255),
+        B: Math.floor(Math.random() * 255)
+      };
+      var colorTwo = {
+        R: Math.floor(Math.random() * 255),
+        G: Math.floor(Math.random() * 255),
+        B: Math.floor(Math.random() * 255)
+      };
+      colorOne.rgb = 'rgb(' + colorOne.R + ',' + colorOne.G + ',' + colorOne.B + ')';
+      colorTwo.rgb = 'rgb(' + colorTwo.R + ',' + colorTwo.G + ',' + colorTwo.B + ')';
+      return 'radial-gradient(at top left, ' + colorOne.rgb + ', ' + colorTwo.rgb + ')';
     }
-  }
 
-  menuCheck();
+    function shuffle(array) {
+      var currentIndex = array.length,
+        temporaryValue, randomIndex;
+      while (0 !== currentIndex) {
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex -= 1;
+        temporaryValue = array[currentIndex];
+        array[currentIndex] = array[randomIndex];
+        array[randomIndex] = temporaryValue;
+      }
+      return array;
+    }
 
-  $('.show-menu').click(function() {
-    $('.nav ul li').show();
-    $('.social-supercontainer').css('display', 'inline-block')
-    $('.hide-menu').show();
-    $(this).hide();
-    menuHidden = false;
-  });
+    function CSVToJSON(csvData) {
+      var data = CSVToArray(csvData);
+      var objData = [];
+      for (var i = 1; i < data.length; i++) {
+        objData[i - 1] = {};
+        for (var k = 0; k < data[0].length && k < data[i].length; k++) {
+          var key = data[0][k];
+          objData[i - 1][key] = data[i][k]
+        }
+      }
+      var jsonData = JSON.stringify(objData);
+      jsonData = jsonData.replace(/},/g, "},\r\n");
+      return jsonData;
+    }
 
-  $('.hide-menu').click(function() {
-    $('.nav ul li').hide();
-    $('.nav ul li.logo-container').show();
-    $('.social-supercontainer').css('display', 'none');
-    $('.show-menu').show();
-    $(this).hide();
-    menuHidden = true;
-  })
+    function CSVToArray(csvData, delimiter) {
+      delimiter = (delimiter || ",");
+      var pattern = new RegExp((
+        "(\\" + delimiter + "|\\r?\\n|\\r|^)" +
+        "(?:\"([^\"]*(?:\"\"[^\"]*)*)\"|" +
+        "([^\"\\" + delimiter + "\\r\\n]*))"), "gi");
+      var data = [
+        []
+      ];
+      var matches = null;
+      while (matches = pattern.exec(csvData)) {
+        var matchedDelimiter = matches[1];
+        if (matchedDelimiter.length && (matchedDelimiter != delimiter)) {
+          data.push([]);
+        }
+        if (matches[2]) {
+          var matchedDelimiter = matches[2].replace(
+            new RegExp("\"\"", "g"), "\"");
+        } else {
+          var matchedDelimiter = matches[3];
+        }
+        data[data.length - 1].push(matchedDelimiter);
+      }
+      return (data);
+    }
+    //Get CSV data
+    var jsonData;
+    fetch(
+        "https://raw.githubusercontent.com/techlore-official/channel-content/master/Assets/TechlorePatrons.csv"
+      )
+      .then(response => response.text())
+      .then(text => {
+        //Use CSV text and convert to json
+        jsonData = JSON.parse(CSVToJSON(text));
+        jsonData.pop();
+        shuffle(jsonData);
+        var cntslider = document.getElementById("slider");
 
-  $(window).resize(function() {
-    menuCheck();
-  });
-
-});
-</script>
-  <div class="main-content">
-    <h1 id="free-ways-to-give-back">Free Support Methods</h1>
-
-<ul>
-  <li>
-    <p>Shop after using one of our affiliate links:<br />
-<a href="https://www.amazon.com/shop/influencer20170928875">Amazon Shopping Link</a>
-<a href="https://techlore.tech/affiliations.html">Techlore Affiliations</a></p>
-  </li>
-  <li>
-    <p>Connect with our communities:<br />
-<a href="https://www.reddit.com/r/techlore/"><img src="assets/images/reddit.png" /></a>
-<a href="https://matrix.to/#/@techlore:matrix.org"><img src="assets/images/matrix.png" /></a>
-<a href="https://t.me/techloreofficial"><img src="assets/images/telegram-a.png" /></a>
-<a href="https://t.me/joinchat/IJOwYA3mr-PoGnp7m35rmA"><img src="assets/images/telegram-g.png" /></a>
-<a href="https://discordapp.com/invite/sdMv9Zj"><img src="assets/images/discord.png" /></a>
-<a href="https://www.twitter.com/techloreistaken/"><img src="assets/images/twitter.png" /></a></p>
-  </li>
-  <li>
-    <p>Reupload and share the free version of Go Incognito. It is meant to be shared, and the more people who view it the better. Click below for more information: <br /><a href="https://github.com/techlore-official/go-incognito">Go Incognito GitHub</a></p>
-  </li>
-  <li>
-    <p>Share Techlore with friends and family <3</p>
-  </li>
-</ul>
-
-<h1 id="paid-ways-to-give-back">Paid Support Methods</h1>
-
-<ul>
-  <li>
-    <p>Becoming a Patreon or YouTube Privacy Supporter where you directly support our work to receive exclusive benefits:<br />
-<a href="https://www.patreon.com/techlore">Patreon</a>
-<a href="https://www.youtube.com/channel/UCs6KfncB4OV6Vug4o_bzijg/join">YouTube Supporter</a>
-  </li>
-
-
-  <li>
-    <p>Tip us with BAT. If you’re using Brave, you can tip from any of the following locations: <br />
-<a href="https://www.youtube.com/channel/UCs6KfncB4OV6Vug4o_bzijg">YouTube</a>
-<a href="https://techlore.tech">Website</a>
-<a href="https://www.reddit.com/r/techlore/">Subreddit</a>
-<a href="https://twitter.com/techloreistaken">Twitter</a>
-<a href="https://brave.com/tec118">Brave Link</a></p>
-  </li>
-
-
-  <li>
-    <p>Using the Coinbase Affiliation, we will both receive a free $10 for your first $100 spent on BTC:<br />
-<a href="https://www.coinbase.com/join/5942e0b5d26ede03db311893">Coinbase</a></p>
-  </li>
-  <li>
-    <p>Directly donating to Techlore through Monero (XMR):<br />
-<code class="highlighter-rouge"><strong>49H4jTvUY5zaX8qLpVBstJFR7ayTMxxU3UyWpGqUoBM4UzM2zwUHA2sJ9i3AhQYdaqhFmS8PDfWKn1Tea4SKU6haMTXG8qD</strong></code></p>
-  </li>
-</ul>
-
-  </div>
-  <div class="push"></div>
-  </div>
-  <div class="footer">
-  Copyright &copy; Techlore <span id="year"></span>
-</div>
-
-<script>
-  var curYear = (new Date()).getFullYear()
-  document.getElementById("year").innerHTML = curYear
-</script>
-
+        var finalstr = '';
+        var i, j, temparray, chunk = 4;
+        for (i = 0, j = jsonData.length; i < j; i += chunk) {
+          temparray = jsonData.slice(i, i + chunk);
+          finalstr += '<div class="slide-item"><div class="row">';
+          temparray.forEach((element) => {
+            finalstr += "<div><div class='card-user' style='background:" + random_gradient() + "'><h4>" + element[
+                "Name"] + "</h4><hr>" +
+              element["Monthly Pledge"] + "</div></div>";
+          });
+          finalstr += "</div></div>";
+        }
+        finalstr += '<div class="slide-next"></div><div class="slide-prev"></div>';
+        cntslider.innerHTML = finalstr;
+        new Slider({
+          id: "slider"
+        });
+      });
+    $(document).ready(function () {
+      $('.menu-btn').on("click", () => {
+        $('nav').toggleClass("opened");
+      });
+      $().aos();
+    });
+  </script>
 </body>
+
+</html>
