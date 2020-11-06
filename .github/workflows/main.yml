@@ -9,6 +9,6 @@ jobs:
     - name: git-ftp push
       uses: sebastianpopp/git-ftp-action@releases/v3
       with:
-        url: "ftp://ftp.techlore.com:21/"
-        user: techloreP%40techlore.tech
+        url: "ftp.techlore.com/"
+        user: techloreP@techlore.tech
         password: ${{ secrets.FTP_PASSWORD }}
