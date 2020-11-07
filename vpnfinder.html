@@ -3,7 +3,7 @@
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
- <meta charset="UTF-8">
+  <meta charset="UTF-8">
   <link rel="shortcut icon" type="image/png" href="assets/svg/logo.svg" />
   <link rel="stylesheet" href="assets/css/style.css" type="text/css">
   <title> Techlore | VPN Finder Tool </title>
@@ -15,10 +15,11 @@
   <meta itemprop="description"
     content="Techlore is spreading spreading privacy and security to the masses. Home of Go Incognito, Surveillance Report, VPN reviews, video tutorials, software/hardware reviews, communities, and more; join us today!">
   <meta itemprop="image" content="./assets/svg/logo_v2.svg"><!-- Twitter Meta Tags -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content=" Techlore | Spreading Privacy To The Masses ">
-<meta name="twitter:description" content="Techlore is spreading spreading privacy and security to the masses. Home of Go Incognito, Surveillance Report, VPN reviews, video tutorials, software/hardware reviews, communities, and more; join us today!">
-<meta name="twitter:image" content="./assets/svg/logo_v2.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content=" Techlore | Spreading Privacy To The Masses ">
+  <meta name="twitter:description"
+    content="Techlore is spreading spreading privacy and security to the masses. Home of Go Incognito, Surveillance Report, VPN reviews, video tutorials, software/hardware reviews, communities, and more; join us today!">
+  <meta name="twitter:image" content="./assets/svg/logo_v2.svg">
 
   <base target="_blank">
   <style>
@@ -128,6 +129,10 @@
       margin: auto;
       margin-top: 1rem;
       margin-bottom: 10px;
+    }
+
+    #no-result {
+      display: none;
     }
 
     .fold {
@@ -392,85 +397,96 @@
     <section id="main-box" class="_centered">
       <h2> VPN Finder </h2>
       <br><br>
-      <div> Which VPN is best for you? This tool uses the crowd-sourced data from the <a href="./vpnchart.html"> Techlore VPN Chart. </a> This is only a tool, not an end-all decider for what you should get. We always recommend doing your own research.<br>
+      <div> Which VPN is best for you? This tool uses the crowd-sourced data from the <a href="./vpnchart.html">
+          Techlore VPN Chart. </a> This is only a tool, not an end-all decider for what you should get. We always
+        recommend doing your own research.<br>
       </div>
       <button class="play-button _mt4" id="quiz-game-btn"> Start <i class="fa fa-caret-right"
           aria-hidden="true"></i></button>
-          <div> 
-          </div>
+      <div>
+      </div>
     </section>
 
     <section id="checks-box">
       <form id="quiz">
-      <div class="_centered" id="steps"><span class="step active"></span><span class="step"></span></div>
-      <div id="question_1">
+        <div class="_centered" id="steps"><span class="step active"></span><span class="step"></span></div>
+        <div id="question_1">
 
-        <div class="tab">
-          <h2>What is your main use for a VPN?</h2>
-          <div class="lb"><label for="q1_0"><input type="radio" id="q1_0" name="q1" class="ans" value="0"> Security and privacy
-            </label></div>
-          <div class="lb"><label for="q1_1"><input type="radio" id="q1_1" name="q1" class="ans" value="1"> Downloading
-              content</label>
+          <div class="tab">
+            <h2>What is your main use for a VPN?</h2>
+            <div class="lb"><label for="q1_0"><input type="radio" id="q1_0" name="q1" class="ans" value="0"> Security
+                and privacy
+              </label></div>
+            <div class="lb"><label for="q1_1"><input type="radio" id="q1_1" name="q1" class="ans" value="1"> Downloading
+                content</label>
+            </div>
+            <div class="lb"><label for="q1_2"><input type="radio" id="q1_2" name="q1" class="ans" value="2"> Both of the
+                above</label>
+            </div>
           </div>
-          <div class="lb"><label for="q1_2"><input type="radio" id="q1_2" name="q1" class="ans" value="2"> Both of the
-              above</label>
+          <div class="tab">
+            <h2>What's your experience level?</h2>
+            <div class="lb"><label for="q2_0"><input type="radio" id="q2_0" name="q2" class="ans" value="0">Advanced: I
+                want a complex program with heavy customization.</label></div>
+            <div class="lb"><label for="q2_1"><input type="radio" id="q2_1" name="q2" class="ans" value="1">
+                Intermediate:
+                I can use an
+                advanced client, but prefer moderately simple.</label></div>
+            <div class="lb"><label for="q2_2"><input type="radio" id="q2_2" name="q2" class="ans" value="2"> Beginner: I
+                want an easy
+                experience with little configuration.</label></div>
           </div>
-        </div>
-        <div class="tab">
-          <h2>What's your experience level?</h2>
-          <div class="lb"><label for="q2_0"><input type="radio" id="q2_0" name="q2" class="ans" value="0">Advanced: I want a complex program with heavy customization.</label></div>
-          <div class="lb"><label for="q2_1"><input type="radio" id="q2_1" name="q2" class="ans" value="1"> Intermediate:
-              I can use an
-              advanced client, but prefer moderately simple.</label></div>
-          <div class="lb"><label for="q2_2"><input type="radio" id="q2_2" name="q2" class="ans" value="2"> Beginner: I
-              want an easy
-              experience with little configuration.</label></div>
-        </div>
 
-        <div class="tab">
-          <h2>Do the 14 Eyes matter to you? <small><a href="https://www.privacytools.io/providers/#ukusa" class="link">(Read more here…)</a></small> </h2>
-          <div class="lb"><label for="q3_0"><input type="radio" id="q3_0" name="q3" class="ans" value="0"> Yes, I
-              believe providers in
-              the 14 eyes cannot be trusted.</label></div>
-          <div class="lb"><label for="q3_1"><input type="radio" id="q3_1" name="q3" class="ans" value="1"> It’s not black and white. I will trust a trusted provider in the 14 eyes.</label></div>
-          <div class="lb"><label for="q3_2"><input type="radio" id="q3_2" name="q3" class="ans" value="2"> The 14 eyes
-              do not matter to
-              me.</label></div>
-          <div class="lb"><label for="q3_3"><input type="radio" id="q3_3" name="q3" class="ans" value="3"> I don’t know
-              or care.</label>
+          <div class="tab">
+            <h2>Do the 14 Eyes matter to you? <small><a href="https://www.privacytools.io/providers/#ukusa"
+                  class="link">(Read more here…)</a></small> </h2>
+            <div class="lb"><label for="q3_0"><input type="radio" id="q3_0" name="q3" class="ans" value="0"> Yes, I
+                believe providers in
+                the 14 eyes cannot be trusted.</label></div>
+            <div class="lb"><label for="q3_1"><input type="radio" id="q3_1" name="q3" class="ans" value="1"> It’s not
+                black and white. I will trust a trusted provider in the 14 eyes.</label></div>
+            <div class="lb"><label for="q3_2"><input type="radio" id="q3_2" name="q3" class="ans" value="2"> The 14 eyes
+                do not matter to
+                me.</label></div>
+            <div class="lb"><label for="q3_3"><input type="radio" id="q3_3" name="q3" class="ans" value="3"> I don’t
+                know
+                or care.</label>
+            </div>
           </div>
-        </div>
 
-        <div class="tab">
-          <h2>How many simultaneous devices do you need?</h2>
-          <div class="lb"><label for="q4_0"><input type="radio" id="q4_0" name="q4" class="ans" value="0"> Just a few. </label></div>
-          <div class="lb"><label for="q4_1"><input type="radio" id="q4_1" name="q4" class="ans" value="1"> Around
-              4-6.</label></div>
-          <div class="lb"><label for="q4_2"><input type="radio" id="q4_2" name="q4" class="ans" value="2"> As many as
-              possible.</label>
+          <div class="tab">
+            <h2>How many simultaneous devices do you need?</h2>
+            <div class="lb"><label for="q4_0"><input type="radio" id="q4_0" name="q4" class="ans" value="0"> Just a few.
+              </label></div>
+            <div class="lb"><label for="q4_1"><input type="radio" id="q4_1" name="q4" class="ans" value="1"> Around
+                4-6.</label></div>
+            <div class="lb"><label for="q4_2"><input type="radio" id="q4_2" name="q4" class="ans" value="2"> As many as
+                possible.</label>
+            </div>
           </div>
-        </div>
 
-        <div class="tab">
-          <h2>What devices would you like a client for?</h2>
-          <div class="lb"><label for="q5_0"><input type="checkbox" id="q5_0" name="q5" class="ans" value="0">
-              Windows</label></div>
-          <div class="lb"><label for="q5_1"><input type="checkbox" id="q5_1" name="q5" class="ans" value="1">
-              MacOS</label></div>
-          <div class="lb"><label for="q5_2"><input type="checkbox" id="q5_2" name="q5" class="ans" value="2"> Linux (CLI)</label>
+          <div class="tab">
+            <h2>What devices would you like a client for?</h2>
+            <div class="lb"><label for="q5_0"><input type="checkbox" id="q5_0" name="q5" class="ans" value="0">
+                Windows</label></div>
+            <div class="lb"><label for="q5_1"><input type="checkbox" id="q5_1" name="q5" class="ans" value="1">
+                MacOS</label></div>
+            <div class="lb"><label for="q5_2"><input type="checkbox" id="q5_2" name="q5" class="ans" value="2"> Linux
+                (CLI)</label>
+            </div>
+            <div class="lb"><label for="q5_3"><input type="checkbox" id="q5_3" name="q5" class="ans" value="3"> Linux
+                (GUI)</label>
+            </div>
+            <div class="lb"><label for="q5_4"><input type="checkbox" id="q5_4" name="q5" class="ans" value="4">
+                Android</label></div>
+            <div class="lb"><label for="q5_5"><input type="checkbox" id="q5_5" name="q5" class="ans" value="5">
+                iOS</label></div>
+            <div class="lb"><label for="q5_6"><input type="checkbox" id="q5_6" name="q5" class="ans" value="6"> I don’t
+                need any first-party
+                clients.</label></div>
           </div>
-          <div class="lb"><label for="q5_3"><input type="checkbox" id="q5_3" name="q5" class="ans" value="3"> Linux (GUI)</label>
-          </div>
-          <div class="lb"><label for="q5_4"><input type="checkbox" id="q5_4" name="q5" class="ans" value="4">
-              Android</label></div>
-          <div class="lb"><label for="q5_5"><input type="checkbox" id="q5_5" name="q5" class="ans" value="5">
-              iOS</label></div>
-          <div class="lb"><label for="q5_6"><input type="checkbox" id="q5_6" name="q5" class="ans" value="6"> I don’t
-              need any first-party
-              clients.</label></div>
         </div>
-      </div>
-    </form>
+      </form>
       <div style="overflow:auto;">
         <div style="float:right;">
           <button type="button" id="prevBtn"><i class="fas fa-angle-left"></i> Previous</button>
@@ -478,20 +494,25 @@
         </div>
       </div>
     </section>
-    <section id="result-box"><hr>
-      <div><i style="background:#000" >
-        <img src="./assets/logos/aflink2.svg" alt="protonVPN-affiliated">
-      </i> Affiliate Link - Each service has a link to its official website and an affiliate link if you choose to support Techlore. <a href="https://github.com/techlore-official/channel-content/blob/master/affiliates.md" target="blank" class="URL_link"> View our strict requirements here </a></div>
+    <section id="result-box">
+      <hr>
+      <div><i style="background:#000">
+          <img src="./assets/logos/aflink2.svg" alt="protonVPN-affiliated">
+        </i> Affiliate Link - Each service has a link to its official website and an affiliate link if you choose to
+        support Techlore. <a href="https://github.com/techlore-official/channel-content/blob/master/affiliates.md"
+          target="blank" class="URL_link"> View our strict requirements here </a></div>
       <hr>
 
-    </div>
+      </div>
       <div class="tabs">
 
         <input type="radio" name="tabs" id="tab1" checked="checked">
         <label for="tab1">Your choice</label>
         <div>
           <h3>VPNs that best matched your criteria</h3>
-          <div id="tab-1"></div>
+          <div id="tab-1">
+
+          </div>
         </div>
 
         <input type="radio" name="tabs" id="tab2">
@@ -517,24 +538,25 @@
         <div>
           <h3>VPNs with the most customization</h3>
           <div id="tab-5">
+          </div>
         </div>
-      </div>
-      <input type="radio" name="tabs" id="tab6">
-      <label for="tab6">All Scores</label>
-      <div>
-        <h3>All services reviewed by Techlore</h3>
-        <div id="tab-6"></div>
-      </div>
-      <label for="tab7" id="restart-btn">Restart</label>
+        <input type="radio" name="tabs" id="tab6">
+        <label for="tab6">All Scores</label>
+        <div>
+          <h3>All services reviewed by Techlore</h3>
+          <div id="tab-6"></div>
+        </div>
+        <label for="tab7" id="restart-btn">Restart</label>
       </div>
     </section>
   </main>
 
   <svg xmlns="http://www.w3.org/2000/svg" id="waveb" class="waveb" version="1.0" viewBox="0 0 120 10">
-    <path d="M 0 0 c 30 0 30 4.07 60 4.07 s 30 -4.07 60 -4.07 s 30 4.07 60 4.07 s 30 -4.07 60 -4.07 v 12 H 0 z" class="wave"></path>
+    <path d="M 0 0 c 30 0 30 4.07 60 4.07 s 30 -4.07 60 -4.07 s 30 4.07 60 4.07 s 30 -4.07 60 -4.07 v 12 H 0 z"
+      class="wave"></path>
   </svg>
   <footer>
-    Copyright &copy; Techlore 2020 | <a target="_self" href="./privacy.html"> Privacy Policy</a> 
+    Copyright &copy; Techlore 2020 | <a target="_self" href="./privacy.html"> Privacy Policy</a>
   </footer>
   <a class="gt-link hide" href="" id="gt-link">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6">
@@ -640,44 +662,46 @@
   const criteria_5 = (choices) => {
     return (vpn) => {
       var r = true;
-      for (var choice of choices) {
-        switch (choice) {
-          case 0:
-            r = vpn["Windows Client"] == "Yes" && r;
-            break;
-          case 1:
-            r = vpn["MacOS Client"] == "Yes" && r;
-            break;
-          case 2:
-            r = vpn["Linux Client"] == "Yes" && r;
-            break;
-          case 3:
-            r = vpn["Linux Client"] == "Yes" && r;
-            break;
-          case 4:
-            r = vpn["Android Client"] == "Yes" && r;
-            break;
-          case 5:
-            r = vpn["iOS Client"] == "Yes" && r;
-            break;
-          default:
-            r = r
+      if (choices.length > 0) {
+        for (var choice of choices) {
+          switch (choice) {
+            case 0:
+              r = vpn["Windows Client"] == "Yes" && r;
+              break;
+            case 1:
+              r = vpn["MacOS Client"] == "Yes" && r;
+              break;
+            case 2:
+              r = vpn["Linux Client"] == "CLI" && r;
+              break;
+            case 3:
+              r = vpn["Linux Client"] == "GUI" && r;
+              break;
+            case 4:
+              r = vpn["Android Client"] == "Yes" && r;
+              break;
+            case 5:
+              r = vpn["iOS Client"] == "Yes" && r;
+              break;
+            default:
+              r = r
+          }
         }
       }
       return r;
     }
   }
 
-  const vpnCompare=(a, b)=>{
+  const vpnCompare = (a, b) => {
     return b["Techlore Score"] - a["Techlore Score"];
   };
-  const vpnCompare1=(a, b)=>{
-    return (b["Security Score"]+b["Privacy Score"]) - (a["Security Score"]+a["Privacy Score"]);
+  const vpnCompare1 = (a, b) => {
+    return (b["Security Score"] + b["Privacy Score"]) - (a["Security Score"] + a["Privacy Score"]);
   };
-  const vpnCompare2=(a, b)=>{
+  const vpnCompare2 = (a, b) => {
     return b["Speed Score"] - a["Speed Score"];
   };
-  const vpnCompare3=(a, b)=>{
+  const vpnCompare3 = (a, b) => {
     return b["Settings Score"] - a["Settings Score"];
   };
 
@@ -746,18 +770,22 @@
     "Ivacy": ["#29D9FF", "./assets/logos/ivacy.svg"],
     "HideMyAss (HMA)": ["#fff", "./assets/logos/hma.svg", "#000"],
   };
-  const linkIcon = '<svg xmlns="http://www.w3.org/2000/svg" width="20px" viewBox="0 0 63.85 61.38"><path fill="#049be0" d="M28.6 38.44a13.11 13.11 0 01-4.86-6.69 12.1 12.1 0 01.74-8.6c.42-.7.4-.72 1.26-1.73 1.3-1.49 3.68-3.8 5.55-5.66l5.84-5.84a7.56 7.56 0 014.05-1.94 16.6 16.6 0 015.92.21 12.44 12.44 0 018.56 8.57c.47 1.73.43 4.5-.08 6.17-.9 2.92-1.17 3.29-7.23 9.4a224.25 224.25 0 01-6.07 5.86c.54-2.63.5-5.45-.56-8.05l3.68-3.49c4.15-3.94 4.42-4.65 4.42-6.9a5.47 5.47 0 00-3.22-5.15 5.8 5.8 0 00-4.98-.01c-.99.48-1.82 1.24-6.1 5.55-5.19 5.25-5.52 5.67-5.9 7.58a5.74 5.74 0 002.26 5.5c.89.67.93.73.92 1.5 0 .46-.16 1.18-.36 1.62-.36.8-2.19 2.82-2.56 2.82-.11 0-.69-.32-1.28-.72z"/><path fill="#0078d2" d="M18.21 55.55a11.61 11.61 0 01-6.22-3.1c-4.01-3.79-4.95-9.32-2.42-14.26.67-1.3 1.16-1.86 6.12-6.85 4.82-4.87 6.94-6.83 7.15-6.62-1.37 3.74-.66 5.63.12 7.95l-3.8 3.83c-4.43 4.46-4.77 4.97-4.78 7.25 0 1.15.08 1.5.57 2.5a5.47 5.47 0 005.16 3.21c2.29 0 2.53-.17 8.29-5.96 3.2-3.21 5.21-5.38 5.54-5.96.66-1.15.84-3.17.4-4.48a6.16 6.16 0 00-2.8-3.25l-1.07-.57.1-.94a5.63 5.63 0 011.73-3.5l.95-1.01c2.03.9 4.02 2.36 5.27 3.96a12 12 0 01.26 14c-.75 1.1-9.2 9.66-10.89 11.02a13.2 13.2 0 01-4.77 2.53c-1.38.35-3.68.47-4.91.25z"/></svg>';
-const linkIconAf = '<svg xmlns="http://www.w3.org/2000/svg" width="20px" viewBox="0 0 63.85 61.38"><path fill="#fff" d="M21.99 12.7c0 1.85-1.75 3.35-3.9 3.35-2.16 0-3.9-1.5-3.9-3.35s1.74-3.36 3.9-3.36c2.15 0 3.9 1.5 3.9 3.36zM11.2 19.68l.11 12.2 13.41-.12-.02-11.86c-.53-2.29-10.92-2.43-13.5-.22z" paint-order="stroke fill markers"/><path fill="#049be0" d="M28.6 38.44a13.11 13.11 0 01-4.86-6.69 12.1 12.1 0 01.74-8.6c.42-.7.4-.72 1.26-1.73 1.3-1.49 3.68-3.8 5.55-5.66l5.84-5.84a7.56 7.56 0 014.05-1.94 16.6 16.6 0 015.92.21 12.44 12.44 0 018.56 8.57c.47 1.73.43 4.5-.08 6.17-.9 2.92-1.17 3.29-7.23 9.4a224.25 224.25 0 01-6.07 5.86c.54-2.63.5-5.45-.56-8.05l3.68-3.49c4.15-3.94 4.42-4.65 4.42-6.9a5.47 5.47 0 00-3.22-5.15 5.8 5.8 0 00-4.98-.01c-.99.48-1.82 1.24-6.1 5.55-5.19 5.25-5.52 5.67-5.9 7.58a5.74 5.74 0 002.26 5.5c.89.67.93.73.92 1.5 0 .46-.16 1.18-.36 1.62-.36.8-2.19 2.82-2.56 2.82-.11 0-.69-.32-1.28-.72z"/><path fill="#0078d2" d="M18.21 55.55a11.61 11.61 0 01-6.22-3.1 11.75 11.75 0 01-2.42-14.26c.67-1.3 1.16-1.86 6.12-6.85 4.82-4.87 6.94-6.83 7.15-6.62-1.37 3.74-.66 5.63.12 7.95l-3.8 3.83c-4.43 4.46-4.77 4.97-4.78 7.25 0 1.15.08 1.5.57 2.5a5.47 5.47 0 005.16 3.21c2.29 0 2.53-.17 8.29-5.96 3.2-3.21 5.21-5.38 5.54-5.96.66-1.15.84-3.17.4-4.48a6.16 6.16 0 00-2.8-3.25l-1.07-.57.1-.94a5.63 5.63 0 011.73-3.5l.95-1.01c2.03.9 4.02 2.36 5.27 3.96a12 12 0 01.26 14c-.75 1.1-9.2 9.66-10.89 11.02a13.2 13.2 0 01-4.77 2.53c-1.38.35-3.68.47-4.91.25z"/><path fill="#fff" d="M48.65 31.54c0 1.85-1.75 3.35-3.9 3.35-2.16 0-3.9-1.5-3.9-3.35s1.74-3.35 3.9-3.35c2.15 0 3.9 1.5 3.9 3.35zm-10.77 6.98l.1 12.2 13.41-.12-.02-11.86c-.53-2.29-10.92-2.43-13.5-.22z" paint-order="stroke fill markers"/></svg>';
-$("#info-afl").html(linkIconAf);
+  const linkIcon =
+    '<svg xmlns="http://www.w3.org/2000/svg" width="20px" viewBox="0 0 63.85 61.38"><path fill="#049be0" d="M28.6 38.44a13.11 13.11 0 01-4.86-6.69 12.1 12.1 0 01.74-8.6c.42-.7.4-.72 1.26-1.73 1.3-1.49 3.68-3.8 5.55-5.66l5.84-5.84a7.56 7.56 0 014.05-1.94 16.6 16.6 0 015.92.21 12.44 12.44 0 018.56 8.57c.47 1.73.43 4.5-.08 6.17-.9 2.92-1.17 3.29-7.23 9.4a224.25 224.25 0 01-6.07 5.86c.54-2.63.5-5.45-.56-8.05l3.68-3.49c4.15-3.94 4.42-4.65 4.42-6.9a5.47 5.47 0 00-3.22-5.15 5.8 5.8 0 00-4.98-.01c-.99.48-1.82 1.24-6.1 5.55-5.19 5.25-5.52 5.67-5.9 7.58a5.74 5.74 0 002.26 5.5c.89.67.93.73.92 1.5 0 .46-.16 1.18-.36 1.62-.36.8-2.19 2.82-2.56 2.82-.11 0-.69-.32-1.28-.72z"/><path fill="#0078d2" d="M18.21 55.55a11.61 11.61 0 01-6.22-3.1c-4.01-3.79-4.95-9.32-2.42-14.26.67-1.3 1.16-1.86 6.12-6.85 4.82-4.87 6.94-6.83 7.15-6.62-1.37 3.74-.66 5.63.12 7.95l-3.8 3.83c-4.43 4.46-4.77 4.97-4.78 7.25 0 1.15.08 1.5.57 2.5a5.47 5.47 0 005.16 3.21c2.29 0 2.53-.17 8.29-5.96 3.2-3.21 5.21-5.38 5.54-5.96.66-1.15.84-3.17.4-4.48a6.16 6.16 0 00-2.8-3.25l-1.07-.57.1-.94a5.63 5.63 0 011.73-3.5l.95-1.01c2.03.9 4.02 2.36 5.27 3.96a12 12 0 01.26 14c-.75 1.1-9.2 9.66-10.89 11.02a13.2 13.2 0 01-4.77 2.53c-1.38.35-3.68.47-4.91.25z"/></svg>';
+  const linkIconAf =
+    '<svg xmlns="http://www.w3.org/2000/svg" width="20px" viewBox="0 0 63.85 61.38"><path fill="#fff" d="M21.99 12.7c0 1.85-1.75 3.35-3.9 3.35-2.16 0-3.9-1.5-3.9-3.35s1.74-3.36 3.9-3.36c2.15 0 3.9 1.5 3.9 3.36zM11.2 19.68l.11 12.2 13.41-.12-.02-11.86c-.53-2.29-10.92-2.43-13.5-.22z" paint-order="stroke fill markers"/><path fill="#049be0" d="M28.6 38.44a13.11 13.11 0 01-4.86-6.69 12.1 12.1 0 01.74-8.6c.42-.7.4-.72 1.26-1.73 1.3-1.49 3.68-3.8 5.55-5.66l5.84-5.84a7.56 7.56 0 014.05-1.94 16.6 16.6 0 015.92.21 12.44 12.44 0 018.56 8.57c.47 1.73.43 4.5-.08 6.17-.9 2.92-1.17 3.29-7.23 9.4a224.25 224.25 0 01-6.07 5.86c.54-2.63.5-5.45-.56-8.05l3.68-3.49c4.15-3.94 4.42-4.65 4.42-6.9a5.47 5.47 0 00-3.22-5.15 5.8 5.8 0 00-4.98-.01c-.99.48-1.82 1.24-6.1 5.55-5.19 5.25-5.52 5.67-5.9 7.58a5.74 5.74 0 002.26 5.5c.89.67.93.73.92 1.5 0 .46-.16 1.18-.36 1.62-.36.8-2.19 2.82-2.56 2.82-.11 0-.69-.32-1.28-.72z"/><path fill="#0078d2" d="M18.21 55.55a11.61 11.61 0 01-6.22-3.1 11.75 11.75 0 01-2.42-14.26c.67-1.3 1.16-1.86 6.12-6.85 4.82-4.87 6.94-6.83 7.15-6.62-1.37 3.74-.66 5.63.12 7.95l-3.8 3.83c-4.43 4.46-4.77 4.97-4.78 7.25 0 1.15.08 1.5.57 2.5a5.47 5.47 0 005.16 3.21c2.29 0 2.53-.17 8.29-5.96 3.2-3.21 5.21-5.38 5.54-5.96.66-1.15.84-3.17.4-4.48a6.16 6.16 0 00-2.8-3.25l-1.07-.57.1-.94a5.63 5.63 0 011.73-3.5l.95-1.01c2.03.9 4.02 2.36 5.27 3.96a12 12 0 01.26 14c-.75 1.1-9.2 9.66-10.89 11.02a13.2 13.2 0 01-4.77 2.53c-1.38.35-3.68.47-4.91.25z"/><path fill="#fff" d="M48.65 31.54c0 1.85-1.75 3.35-3.9 3.35-2.16 0-3.9-1.5-3.9-3.35s1.74-3.35 3.9-3.35c2.15 0 3.9 1.5 3.9 3.35zm-10.77 6.98l.1 12.2 13.41-.12-.02-11.86c-.53-2.29-10.92-2.43-13.5-.22z" paint-order="stroke fill markers"/></svg>';
+  $("#info-afl").html(linkIconAf);
   $("#info-nafl").html(linkIcon);
-  const getVPN = (name, score,element) => {
-    var s="";
-    if(element["VPN Affiliate Link"]!= "None") s= "  <a href='" + element["VPN Affiliate Link"] + "' target='_blank'>"+linkIconAf+"</a>";
+  const getVPN = (name, score, element) => {
+    var s = "";
+    if (element["VPN Affiliate Link"] != "None") s = "  <a href='" + element["VPN Affiliate Link"] +
+      "' target='_blank'>" + linkIconAf + "</a>";
     var str = "";
     var vpn = vpnCards[name];
     var color = (vpn[2]) ? "color:" + vpn[2] : "";
     str += "<div class='card-vpn'><i style='background:" + vpn[0] + "'><img src=" + vpn[1] + " alt=" + name +
-      "></i><h3>" + name + "</h3>  <a href='" + element["VPN Standard Link"] + "' target='_blank'>"+linkIcon+"</a>"+s+"<hr><span style='background:" + vpn[0] + ";" + color + ";'>" +
+      "></i><h3>" + name + "</h3>  <a href='" + element["VPN Standard Link"] + "' target='_blank'>" + linkIcon +
+      "</a>" + s + "<hr><span style='background:" + vpn[0] + ";" + color + ";'>" +
       score + "</span></div>";
     return str;
   }
@@ -773,7 +801,7 @@ $("#info-afl").html(linkIconAf);
       vpnsFetched = vpnsFetched.sort(vpnCompare);
     });
 
-  
+
   $(document).ready(() => {
 
     $('.menu-btn').on("click", () => {
@@ -785,8 +813,8 @@ $("#info-afl").html(linkIconAf);
     $('#prevBtn').on("click", () => {
       nextPrev(-1);
     });
-    var paddingB=document.getElementById('waveb').clientHeight;
-    document.body.style.paddingBottom=paddingB+100+"px";
+    var paddingB = document.getElementById('waveb').clientHeight;
+    document.body.style.paddingBottom = paddingB + 100 + "px";
     const steps = 5;
     var currentTab = 0;
 
@@ -808,11 +836,11 @@ $("#info-afl").html(linkIconAf);
     });
     $("#restart-btn").on("click", function () {
       document.getElementById("quiz").reset();
-      
-      currentTab=0;
-    showTab(currentTab);
-    $('#result-box').fade("out", () => {
-        document.getElementById("tab1").checked=true;
+
+      currentTab = 0;
+      showTab(currentTab);
+      $('#result-box').fade("out", () => {
+        document.getElementById("tab1").checked = true;
         $('#checks-box').fade("in")
       });
     });
@@ -872,54 +900,65 @@ $("#info-afl").html(linkIconAf);
       }
       return -1;
     };
-   
-    const createCard = (vpns,field,c) => {
+
+    const createCard = (vpns, field, c) => {
       var finalstr = '';
       var i, j, temparray, chunk = 4;
       for (i = 0, j = vpns.length; i < j; i += chunk) {
         temparray = vpns.slice(i, i + chunk);
         finalstr += '<div class="grid">';
         temparray.forEach((element) => {
-         
-    
-          finalstr += "<div class='col-3'>" + getVPN(element["VPN"], c? element[field]+" | "+element[c]:element[field],element)+
+
+
+          finalstr += "<div class='col-3'>" + getVPN(element["VPN"], c ? element[field] + " | " + element[c] :
+              element[field], element) +
             "</div>";
         });
         finalstr += "</div>";
       }
       return finalstr;
     }
-    
+
     function showResults() {
       $('#checks-box').fade("out", () => {
         $('#result-box').fade("in", () => {
-$("body").css("background", "linear-gradient(#1126becc, #05c7adcc)");
+          $("body").css("background", "linear-gradient(#1126becc, #05c7adcc)");
           var vpns = vpnsFetched;
-          vpns=vpns.sort(vpnCompare);
+          document.getElementById("tab-1").innerHTML =
+            "<div id='no-result' class='_centered _mt2'>Oh , sorry looks like your criteria doesn't match any VPN. Retake the quiz or check other tabs</div>";
+          vpns = vpns.sort(vpnCompare);
           console.log(vpns);
           //All VPNs
-          document.getElementById("tab-6").innerHTML = createCard(vpns,"Techlore Score");
+          document.getElementById("tab-6").innerHTML = createCard(vpns, "Techlore Score");
 
           // 4 Best by score
-          document.getElementById("tab-2").innerHTML = createCard(vpns.slice(0,4),"Techlore Score");
+          document.getElementById("tab-2").innerHTML = createCard(vpns.slice(0, 4), "Techlore Score");
 
           // 4 Best by privacy and security 
-          document.getElementById("tab-3").innerHTML = createCard(vpns.sort(vpnCompare1).slice(0,4),"Security Score","Privacy Score");
-          
-           // 4 Best by download speed
-           document.getElementById("tab-4").innerHTML = createCard(vpns.sort(vpnCompare2).slice(0,4),"Speed Score");
-          
+          document.getElementById("tab-3").innerHTML = createCard(vpns.sort(vpnCompare1).slice(0, 4),
+            "Security Score", "Privacy Score");
+
+          // 4 Best by download speed
+          document.getElementById("tab-4").innerHTML = createCard(vpns.sort(vpnCompare2).slice(0, 4),
+            "Speed Score");
+
           // 4 Best by settings
-          document.getElementById("tab-5").innerHTML = createCard(vpns.sort(vpnCompare3).slice(0,4),"Settings Score");
-                    
+          document.getElementById("tab-5").innerHTML = createCard(vpns.sort(vpnCompare3).slice(0, 4),
+            "Settings Score");
+
           // User criteria
           vpns = vpns.filter(criteria_1(getRValue("q1")));
           vpns = vpns.filter(criteria_2(getRValue("q2")));
           vpns = vpns.filter(criteria_3(getRValue("q3")));
           vpns = vpns.filter(criteria_4(getRValue("q4")));
           vpns = vpns.filter(criteria_5(getCValue()));
-          document.getElementById("tab-1").innerHTML = createCard(vpns,"Techlore Score");
 
+          console.log(vpns.length);
+          if (vpns.length == 0) {
+            $("#no-result").show();
+          } else {
+            document.getElementById("tab-1").innerHTML = createCard(vpns, "Techlore Score");
+          }
 
         });
       });

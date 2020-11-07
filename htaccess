@@ -10,3 +10,21 @@ RewriteRule ^(.*)$ "https\:\/\/techlore\.tech\/$1" [R=301,L]
   AddHandler application/x-httpd-ea-php56 .php .php5 .phtml
 </IfModule>
 # php -- END cPanel-generated handler, do not edit
+
+# BROWSER CACHING USING CACHE-CONTROL HEADERS
+<ifModule mod_headers.c> 
+    # One year for image and video files
+    <filesMatch ".(flv|gif|ico|jpg|jpeg|mp4|mpeg|png|svg|swf|webp)$">
+        Header set Cache-Control "max-age=2592000, public"
+    </filesMatch>
+
+    # One month for JavaScript and PDF files
+    <filesMatch ".(js|pdf)$">
+        Header set Cache-Control "max-age=2592000, public"
+    </filesMatch>
+
+    # One week for CSS files
+    <filesMatch ".(css)$">
+        Header set Cache-Control "max-age=85400, public"
+    </filesMatch>
+</ifModule>
