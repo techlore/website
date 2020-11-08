@@ -26,6 +26,104 @@
     body {
       background-image: linear-gradient(to left bottom, #0e6eff, #018eda, #00e188, #8fcf06);
     }
+
+    .carousel-wrapper {
+      border-radius: .3rem;
+      margin-top: 2rem !important;
+    }
+    .carousel-wrapper h2 {
+      padding-top: 1rem;
+    }
+    .carousel {
+      -webkit-transform-style: preserve-3d;
+      -moz-transform-style: preserve-3d;
+      transform-style: preserve-3d;
+    }
+    .slide-item {
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      margin: auto;
+      padding: 1rem 4rem;
+      z-index: -10;
+      transition: transform .5s, opacity .5s, z-index .5s;
+    }
+    .slide-item.initial,
+    .slide-item.active {
+      opacity: 1;
+      z-index: 0;
+      position: relative;
+    }
+
+    .slide-item.prev,
+    .slide-item.next {
+      z-index: 800;
+    }
+
+    .slide-item.prev {
+      transform: translateX(-100%);
+    }
+    .slide-item.next {
+      transform: translateX(100%);
+    }
+    .slide-prev,
+    .slide-next {
+      position: absolute;
+      top: 50%;
+      width: 3rem;
+      height: 3rem;
+      background-color: #FFF;
+      transform: translateY(-50%);
+      border-radius: 50%;
+      cursor: pointer;
+      z-index: 1001;
+      border: 1px solid black;
+    }
+
+    .slide-prev {
+      left: 5px;
+    }
+
+    .slide-next {
+      right: 5px;
+    }
+
+    .slide-prev::after,
+    .slide-next::after {
+      content: " ";
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      top: 50%;
+      left: 54%;
+      border-right: 2px solid black;
+      border-bottom: 2px solid black;
+      transform: translate(-50%, -50%) rotate(135deg);
+    }
+
+    .slide-next::after {
+      left: 47%;
+      transform: translate(-50%, -50%) rotate(-45deg);
+    }
+    .card-user {
+      display: block;
+      text-align: center;
+      background: black;
+      height: 100%;
+      margin: 0;
+      padding: .5rem 1rem 0.5rem;
+      border-radius: 0.3rem;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    }
+    .card-user>h4 {
+      height: 56px;
+    }
+    @media (max-width: 1229px) {
+      .slide-item {
+        padding: 1rem 4rem !important;
+      }
+    }
   </style>
 </head>
 
@@ -193,6 +291,19 @@
         </div>
       </div>
     </div>
+    <div>
+      <div class="carousel-wrapper _bg-black-t _aos">
+        <h2 class="_centered">Special Thanks To <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" class="feather feather-heart">
+            <path
+              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+            </path>
+          </svg></h2>
+        <div class="carousel" id="slider">
+        </div>
+      </div>
+    </div>
 
   </main>
   <svg viewBox="0 0 120 20">
@@ -212,7 +323,81 @@
 
 </body>
 <script src="assets/javascript/script.js" type="text/javascript"></script>
+<script src="assets/javascript/slider.js" type="text/javascript"></script>
 <script>
+ 
+    function CSVToJSON(csvData) {
+      var data = CSVToArray(csvData);
+      var objData = [];
+      for (var i = 1; i < data.length; i++) {
+        objData[i - 1] = {};
+        for (var k = 0; k < data[0].length && k < data[i].length; k++) {
+          var key = data[0][k];
+          objData[i - 1][key] = data[i][k]
+        }
+      }
+      var jsonData = JSON.stringify(objData);
+      jsonData = jsonData.replace(/},/g, "},\r\n");
+      return jsonData;
+    }
+
+    function CSVToArray(csvData, delimiter) {
+      delimiter = (delimiter || ",");
+      var pattern = new RegExp((
+        "(\\" + delimiter + "|\\r?\\n|\\r|^)" +
+        "(?:\"([^\"]*(?:\"\"[^\"]*)*)\"|" +
+        "([^\"\\" + delimiter + "\\r\\n]*))"), "gi");
+      var data = [
+        []
+      ];
+      var matches = null;
+      while (matches = pattern.exec(csvData)) {
+        var matchedDelimiter = matches[1];
+        if (matchedDelimiter.length && (matchedDelimiter != delimiter)) {
+          data.push([]);
+        }
+        if (matches[2]) {
+          var matchedDelimiter = matches[2].replace(
+            new RegExp("\"\"", "g"), "\"");
+        } else {
+          var matchedDelimiter = matches[3];
+        }
+        data[data.length - 1].push(matchedDelimiter);
+      }
+      return (data);
+    }
+    //Get CSV data
+    var jsonData;
+    fetch(
+        "https://raw.githubusercontent.com/techlore-official/channel-content/master/Assets/thanks.csv"
+      )
+      .then(response => response.text())
+      .then(text => {
+        //Use CSV text and convert to json
+        jsonData = JSON.parse(CSVToJSON(text));
+        jsonData.pop();
+        var cntslider = document.getElementById("slider");
+
+        var finalstr = '';
+        var i, j, temparray, chunk = 4;
+        for (i = 0, j = jsonData.length; i < j; i += chunk) {
+          temparray = jsonData.slice(i, i + chunk);
+          finalstr += '<div class="slide-item"><div class="row">';
+          temparray.forEach((element) => {
+            let link="";
+            if(element["Link"]!= "X")link="<a href='"+element["Link"]+"'>";
+            finalstr += "<div>"+(( link!='' )?link:'') + "<div class='card-user _black-t'><h4>" + element[
+                "Name"] + "</h4><hr>" +
+              element["Bio"] + "</div>"+(( link!='' )?'</a>':'') + "</div>";
+          });
+          finalstr += "</div></div>";
+        }
+        finalstr += '<div class="slide-next"></div><div class="slide-prev"></div>';
+        cntslider.innerHTML = finalstr;
+        new Slider({
+          id: "slider"
+        });
+      });
   $(document).ready(function () {
     $('.menu-btn').on("click", () => {
       $('nav').toggleClass("opened");
