@@ -25,6 +25,6 @@ RewriteRule ^(.*)$ "https\:\/\/techlore\.tech\/$1" [R=301,L]
 
     # One week for CSS files
     <filesMatch ".(css)$">
-        Header set Cache-Control "max-age=85400, public"
+        Header set Cache-Control "max-age=60, public"
     </filesMatch>
 </ifModule>
