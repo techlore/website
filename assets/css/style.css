@@ -254,25 +254,76 @@ nav {
   padding: 0 .5rem;
   z-index: 11;
 }
+nav input {
+  display: none !important;
+}
 
-nav>.menu-btn {
+
+nav > label {
   float: right;
   padding: 28px 20px;
   position: relative;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
-nav>.menu-btn>span {
+nav > label > span {
   background: var(--white);
-  ;
   display: block;
   height: 3px;
   position: relative;
   transition: background .2s ease-out;
   width: 18px;
+}
+
+nav > label > span:before,
+nav > label > span:after {
+  background: var(--white);
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+nav > label > span:before {
+  top: 5px;
+}
+
+nav > label > span:after {
+  top: -5px;
+}
+nav > .nav-bg {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -10;
+  display: none;
+}
+nav > input:checked ~ .nav-bg {
+  display: inline;
+}
+
+nav > input:checked ~ label > span {
+  background: transparent;
+}
+
+nav > input:checked ~ label > span:before {
+  transform: rotate(-45deg);
+}
+
+nav > input:checked ~ label > span:after {
+  transform: rotate(45deg);
+}
+
+nav > input:checked ~ label:not(.steps) span:before,
+nav > input:checked ~ label:not(.steps) span:after {
+  top: 0;
 }
 
 nav li a {
@@ -309,41 +360,6 @@ nav ul li a:visited:not(:only-child):after {
   content: ' ▾';
 }
 
-nav>.menu-btn>span:before,
-nav>.menu-btn>span:after {
-  background: var(--white);
-  content: '';
-  display: block;
-  height: 100%;
-  position: absolute;
-  transition: all .2s ease-out;
-  width: 100%;
-}
-
-nav>.menu-btn>span:before {
-  top: 5px;
-}
-
-nav>.menu-btn>span:after {
-  top: -5px;
-}
-
-nav.opened>.menu-btn>span {
-  background: transparent;
-}
-
-nav.opened>.menu-btn>span:before {
-  transform: rotate(-45deg);
-}
-
-nav.opened>.menu-btn>span:after {
-  transform: rotate(45deg);
-}
-
-nav.opened>.menu-btn>span:before,
-nav.opened>.menu-btn>span:after {
-  top: 0;
-}
 
 nav img {
   background: none;
@@ -357,11 +373,10 @@ nav img {
 nav>ul {
   clear: both;
   max-height: 0;
- 
 }
-
-nav.opened>ul {
-  max-height: 100%;
+nav > input:checked ~ ul {
+  max-height: calc( 100vh - 59px);
+  overflow: auto;
 }
 
 nav div.logo-container {
@@ -754,10 +769,9 @@ footer {
     max-height: none;
   }
 
-  nav>.menu-btn {
+  nav > label {
     display: none !important;
   }
-  
 }
 @media( max-width: 1229px){
   nav.opened{

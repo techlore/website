@@ -17,10 +17,11 @@
   <meta itemprop="description"
     content="Techlore is spreading spreading privacy and security to the masses. Home of Go Incognito, Surveillance Report, VPN reviews, video tutorials, software/hardware reviews, communities, and more; join us today!">
   <meta itemprop="image" content="./assets/svg/logo_v2.svg"><!-- Twitter Meta Tags -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content=" Techlore | Spreading Privacy To The Masses ">
-<meta name="twitter:description" content="Techlore is spreading spreading privacy and security to the masses. Home of Go Incognito, Surveillance Report, VPN reviews, video tutorials, software/hardware reviews, communities, and more; join us today!">
-<meta name="twitter:image" content="./assets/svg/logo_v2.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content=" Techlore | Spreading Privacy To The Masses ">
+  <meta name="twitter:description"
+    content="Techlore is spreading spreading privacy and security to the masses. Home of Go Incognito, Surveillance Report, VPN reviews, video tutorials, software/hardware reviews, communities, and more; join us today!">
+  <meta name="twitter:image" content="./assets/svg/logo_v2.svg">
 
   <base target="_blank">
   <style>
@@ -32,14 +33,17 @@
       border-radius: .3rem;
       margin-top: 2rem !important;
     }
+
     .carousel-wrapper h2 {
       padding-top: 1rem;
     }
+
     .carousel {
       -webkit-transform-style: preserve-3d;
       -moz-transform-style: preserve-3d;
       transform-style: preserve-3d;
     }
+
     .slide-item {
       opacity: 0;
       position: absolute;
@@ -50,6 +54,7 @@
       z-index: -10;
       transition: transform .5s, opacity .5s, z-index .5s;
     }
+
     .slide-item.initial,
     .slide-item.active {
       opacity: 1;
@@ -65,9 +70,11 @@
     .slide-item.prev {
       transform: translateX(-100%);
     }
+
     .slide-item.next {
       transform: translateX(100%);
     }
+
     .slide-prev,
     .slide-next {
       position: absolute;
@@ -107,6 +114,7 @@
       left: 47%;
       transform: translate(-50%, -50%) rotate(-45deg);
     }
+
     .card-user {
       display: block;
       text-align: center;
@@ -117,23 +125,35 @@
       border-radius: 0.3rem;
       box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     }
+
     .card-user>h4 {
       height: 56px;
     }
+
     @media (max-width: 1229px) {
       .slide-item {
         padding: 1rem 4rem !important;
       }
     }
   </style>
+  <noscript>
+    <style>
+      [class*=_aos],
+      ._aos {
+        opacity: 1 !important;
+        transform: translate3d(0px, 0px, 0px) !important;
+      }
+    </style>
+  </noscript>
 </head>
 
 <body id="about">
   <nav>
-    <div class="brand">
+    <div class="logo-container">
       <a href="./index.html" target="_self"><img alt="techlore-logo" class="logo" src="assets/svg/logo.svg"></a>
     </div>
-    <div class="menu-btn"><span></span></div>
+    <input type="checkbox" id="menu-btn" />
+    <label for="menu-btn"><span></span></label>
     <ul>
       <li><a target="_self" href="./index.html">Home</a></li>
       <li><a class="active" target="_self" href="./about.html">About</a></li>
@@ -151,7 +171,7 @@
           <li><a target="_self" href="./vpnreview.html">DIY Tool</a></li>
         </ul>
       </li>
-       <li class="social-cnt">
+      <li class="social-cnt">
         <div><a href="https://github.com/techlore-official" target="_blank"><img alt="github"
               src="assets/svg/github.svg"></a>
         </div>
@@ -324,7 +344,7 @@
   <div class="gt-link hide" id="gt-link">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6">
       <path d="M12 6H0l6-6z" /></svg>
-  </a>
+    </a>
 
 
 
@@ -332,83 +352,80 @@
 <script src="assets/javascript/script.js" type="text/javascript"></script>
 <script src="assets/javascript/slider.js" type="text/javascript"></script>
 <script>
- 
-    function CSVToJSON(csvData) {
-      var data = CSVToArray(csvData);
-      var objData = [];
-      for (var i = 1; i < data.length; i++) {
-        objData[i - 1] = {};
-        for (var k = 0; k < data[0].length && k < data[i].length; k++) {
-          var key = data[0][k];
-          objData[i - 1][key] = data[i][k]
-        }
+  function CSVToJSON(csvData) {
+    var data = CSVToArray(csvData);
+    var objData = [];
+    for (var i = 1; i < data.length; i++) {
+      objData[i - 1] = {};
+      for (var k = 0; k < data[0].length && k < data[i].length; k++) {
+        var key = data[0][k];
+        objData[i - 1][key] = data[i][k]
       }
-      var jsonData = JSON.stringify(objData);
-      jsonData = jsonData.replace(/},/g, "},\r\n");
-      return jsonData;
     }
+    var jsonData = JSON.stringify(objData);
+    jsonData = jsonData.replace(/},/g, "},\r\n");
+    return jsonData;
+  }
 
-    function CSVToArray(csvData, delimiter) {
-      delimiter = (delimiter || ",");
-      var pattern = new RegExp((
-        "(\\" + delimiter + "|\\r?\\n|\\r|^)" +
-        "(?:\"([^\"]*(?:\"\"[^\"]*)*)\"|" +
-        "([^\"\\" + delimiter + "\\r\\n]*))"), "gi");
-      var data = [
-        []
-      ];
-      var matches = null;
-      while (matches = pattern.exec(csvData)) {
-        var matchedDelimiter = matches[1];
-        if (matchedDelimiter.length && (matchedDelimiter != delimiter)) {
-          data.push([]);
-        }
-        if (matches[2]) {
-          var matchedDelimiter = matches[2].replace(
-            new RegExp("\"\"", "g"), "\"");
-        } else {
-          var matchedDelimiter = matches[3];
-        }
-        data[data.length - 1].push(matchedDelimiter);
+  function CSVToArray(csvData, delimiter) {
+    delimiter = (delimiter || ",");
+    var pattern = new RegExp((
+      "(\\" + delimiter + "|\\r?\\n|\\r|^)" +
+      "(?:\"([^\"]*(?:\"\"[^\"]*)*)\"|" +
+      "([^\"\\" + delimiter + "\\r\\n]*))"), "gi");
+    var data = [
+      []
+    ];
+    var matches = null;
+    while (matches = pattern.exec(csvData)) {
+      var matchedDelimiter = matches[1];
+      if (matchedDelimiter.length && (matchedDelimiter != delimiter)) {
+        data.push([]);
       }
-      return (data);
+      if (matches[2]) {
+        var matchedDelimiter = matches[2].replace(
+          new RegExp("\"\"", "g"), "\"");
+      } else {
+        var matchedDelimiter = matches[3];
+      }
+      data[data.length - 1].push(matchedDelimiter);
     }
-    //Get CSV data
-    var jsonData;
-    fetch(
-        "https://raw.githubusercontent.com/techlore-official/channel-content/master/Assets/thanks.csv"
-      )
-      .then(response => response.text())
-      .then(text => {
-        //Use CSV text and convert to json
-        jsonData = JSON.parse(CSVToJSON(text));
-        jsonData.pop();
-        var cntslider = document.getElementById("slider");
+    return (data);
+  }
+  //Get CSV data
+  var jsonData;
+  fetch(
+      "https://raw.githubusercontent.com/techlore-official/channel-content/master/Assets/thanks.csv"
+    )
+    .then(response => response.text())
+    .then(text => {
+      //Use CSV text and convert to json
+      jsonData = JSON.parse(CSVToJSON(text));
+      jsonData.pop();
+      var cntslider = document.getElementById("slider");
 
-        var finalstr = '';
-        var i, j, temparray, chunk = 4;
-        for (i = 0, j = jsonData.length; i < j; i += chunk) {
-          temparray = jsonData.slice(i, i + chunk);
-          finalstr += '<div class="slide-item"><div class="row">';
-          temparray.forEach((element) => {
-            let link="";
-            if(element["Link"]!= "X")link="<a href='"+element["Link"]+"'>";
-            finalstr += "<div>"+(( link!='' )?link:'') + "<div class='card-user _black-t'><h4>" + element[
-                "Name"] + "</h4><hr>" +
-              element["Bio"] + "</div>"+(( link!='' )?'</a>':'') + "</div>";
-          });
-          finalstr += "</div></div>";
-        }
-        finalstr += '<div class="slide-next"></div><div class="slide-prev"></div>';
-        cntslider.innerHTML = finalstr;
-        new Slider({
-          id: "slider"
+      var finalstr = '';
+      var i, j, temparray, chunk = 4;
+      for (i = 0, j = jsonData.length; i < j; i += chunk) {
+        temparray = jsonData.slice(i, i + chunk);
+        finalstr += '<div class="slide-item"><div class="row">';
+        temparray.forEach((element) => {
+          let link = "";
+          if (element["Link"] != "X") link = "<a href='" + element["Link"] + "'>";
+          finalstr += "<div>" + ((link != '') ? link : '') + "<div class='card-user _black-t'><h4>" + element[
+              "Name"] + "</h4><hr>" +
+            element["Bio"] + "</div>" + ((link != '') ? '</a>' : '') + "</div>";
         });
+        finalstr += "</div></div>";
+      }
+      finalstr += '<div class="slide-next"></div><div class="slide-prev"></div>';
+      cntslider.innerHTML = finalstr;
+      new Slider({
+        id: "slider"
       });
-  $(document).ready(function () {
-    $('.menu-btn').on("click", () => {
-      $('nav').toggleClass("opened");
     });
+  $(document).ready(function () {
+
     $().aos();
   });
 </script>

@@ -20,7 +20,8 @@
   <meta itemprop="image" content="./assets/svg/logo_v2.svg"><!-- Twitter Meta Tags -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content=" Techlore | Spreading Privacy To The Masses ">
-  <meta name="twitter:description" content="Techlore is spreading spreading privacy and security to the masses. Home of Go Incognito, Surveillance Report, VPN reviews, video tutorials, software/hardware reviews, communities, and more; join us today!">
+  <meta name="twitter:description"
+    content="Techlore is spreading spreading privacy and security to the masses. Home of Go Incognito, Surveillance Report, VPN reviews, video tutorials, software/hardware reviews, communities, and more; join us today!">
   <meta name="twitter:image" content="./assets/svg/logo_v2.svg">
 
   <base target="_blank">
@@ -146,10 +147,20 @@
       align-items: center;
       vertical-align: middle;
     }
-    i.ir img{
+
+    i.ir img {
       width: 18px;
     }
   </style>
+  <noscript>
+    <style>
+      [class*=_aos],
+      ._aos {
+        opacity: 1 !important;
+        transform: translate3d(0px, 0px, 0px) !important;
+      }
+    </style>
+  </noscript>
 </head>
 
 
@@ -175,7 +186,8 @@
     <div class="logo-container">
       <a href="./index.html" target="_self"><img alt="techlore-logo" class="logo" src="assets/svg/logo.svg"></a>
     </div>
-    <div class="menu-btn"><span></span></div>
+    <input type="checkbox" id="menu-btn" />
+    <label for="menu-btn"><span></span></label>
     <ul>
       <li><a target="_self" href="./index.html">Home</a></li>
       <li><a target="_self" href="./about.html">About</a></li>
@@ -193,7 +205,7 @@
           <li><a target="_self" href="./vpnreview.html">DIY Tool</a></li>
         </ul>
       </li>
-       <li class="social-cnt">
+      <li class="social-cnt">
         <div><a href="https://github.com/techlore-official" target="_blank"><img alt="github"
               src="assets/svg/github.svg"></a>
         </div>
@@ -301,7 +313,7 @@
   <div class="gt-link hide" id="gt-link">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6">
       <path d="M12 6H0l6-6z" /></svg>
-  </a>
+    </a>
 </body>
 
 <script src="assets/javascript/tabulator.min.js" type="text/javascript"></script>
@@ -352,9 +364,7 @@
   }
   $(document).ready(function () {
 
-    $('.menu-btn').on("click", () => {
-      $('nav').toggleClass("opened");
-    });
+
     var opened = false;
     $('.button').on("click", () => {
       opened = !opened;
@@ -579,22 +589,22 @@
         var startX, startY, startWidth, startHeight;
 
         function initDrag(e) {
-          table.style.userSelect="none";
+          table.style.userSelect = "none";
           startX = e.clientX;
-          console.log("startx--> "+startX);
+          console.log("startx--> " + startX);
           startWidth = parseInt(document.defaultView.getComputedStyle(table).width, 10);
-          console.log("startw--> "+startWidth);
+          console.log("startw--> " + startWidth);
           document.documentElement.addEventListener('mousemove', doDrag, false);
           document.documentElement.addEventListener('mouseup', stopDrag, false);
         }
 
         function doDrag(e) {
 
-          table.style.width = (startWidth + 2*(e.clientX - startX)) + 'px';
+          table.style.width = (startWidth + 2 * (e.clientX - startX)) + 'px';
         }
 
         function stopDrag(e) {
-          table.style.userSelect="auto";
+          table.style.userSelect = "auto";
           document.documentElement.removeEventListener('mousemove', doDrag, false);
           document.documentElement.removeEventListener('mouseup', stopDrag, false);
         }
