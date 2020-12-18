@@ -2,9 +2,10 @@
 <html lang="en">
 
 <head>
+
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" href="/favicon.ico">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#007b9e">
   <meta name="msapplication-TileColor" content="#000000">
@@ -12,15 +13,15 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="UTF-8">
-  
   <link rel="stylesheet" href="assets/css/style.css?t=123" type="text/css">
   <link rel="stylesheet" href="assets/css/tabulator.min.css" type="text/css">
-  <title> Techlore | VPN Chart</title>
+  <link rel="stylesheet" href="assets/css/jsvectormap.css" type="text/css">
+  <title> Techlore | VPN SpeedTeam</title>
   <meta name="title" content="Techlore: Spreading Privacy To The Masses">
   <meta name="description"
     content="Techlore is spreading spreading privacy and security to the masses. Home of Go Incognito, Surveillance Report, VPN reviews, video tutorials, software/hardware reviews, communities, and more; join us today!" />
   <!-- Google / Search Engine Tags -->
-  <meta itemprop="name" content=" Techlore | VPN Chart ">
+  <meta itemprop="name" content=" Techlore | VPN SpeedTeam ">
   <meta itemprop="description"
     content="Techlore is spreading spreading privacy and security to the masses. Home of Go Incognito, Surveillance Report, VPN reviews, video tutorials, software/hardware reviews, communities, and more; join us today!">
   <meta itemprop="image" content="./assets/svg/logo_v2.svg"><!-- Twitter Meta Tags -->
@@ -35,7 +36,14 @@
     body {
       background-image: linear-gradient(to right bottom, #0a4c6d, #00607b, #007581, #00887f, #369a77);
     }
-
+    #map-cnt{
+      border: 1px solid #fff;
+      border-radius: .3rem;
+      padding: 10px;
+      max-width: 1100px;
+      height: 500px;
+        margin: auto;
+    }
     ._m-revert>div>* {
       margin-top: revert;
     }
@@ -243,13 +251,22 @@
     <path class="wave"
       d="M 0 0 v 6 C 30 6 30 10 60 10 C 91 10 90 6 120 6 C 150 6 150 10 180 10 C 210 10 210 6 240 6 v -6 h -240 z" />
   </svg>
+ 
+
+  <div id="map-cnt">
+    <div id="map"></div>
+  </div>
+
   <div class="_pt0 cnt">
     <div>
-      <h1>Techlore VPN Chart</h1>
-      <h4>Transparent, community-driven VPN reviews.</h4>
+      <h1>SpeedTeam VPN </h1>
+      <h4>Transparent, community-driven speedtests for VPN</h4>
     </div>
-
-    <div class="row">
+    <hr>
+    <div class="grid">
+      <div class="_centered">
+        <h2>SpeedTeam VPN Chart</h2>
+      </div>
       <div class="col-4">
         <select id="flt-field">
           <option></option>
@@ -260,15 +277,10 @@
       <div class="col-4">
         <button id="flt-clear" class="_brd-less _blue">Clear</button></div>
     </div>
-    <hr>
-    <div><i style="background:#000" class="ir">
-        <img src="./assets/logos/aflink2.svg" alt="protonVPN-affiliated">
-      </i> Affiliate Link - Each service has a link to its official website and an affiliate link if you choose to
-      support Techlore. <a href="https://github.com/techlore-official/channel-content/blob/master/affiliates.md"
-        target="blank" class="URL_link"> View our strict requirements here </a></div>
+    
     <hr>
     <div class="_mb2">
-      Select up to 3 VPNs for a detailed comparison. Resize the chart using the bar on the right.
+      Select up to 3 data for a detailed comparison. Resize the chart using the bar on the right.
     </div>
   </div>
   <div id="vpn-table"></div>
@@ -278,16 +290,7 @@
         class="link _white" target="_blank">here</a>.</div>
     <hr>
     <div class="grid card _bg-black-t _m-revert">
-      <div>
-        <h3>Our Review Protocol & Testing Methodology</h3>
-        <p>We utilize a systematic review protocol to exclude bias and allow community oversight and contribution.<br>
-        </p>
-        <div class="links">
-          <a href="https://github.com/techlore-official/VPN-reviews/blob/master/protocol.md"> Review Protocol</a>
-          <a href="https://github.com/techlore-official/VPN-reviews/blob/master/changelog.md"> Changelog</a>
-
-        </div>
-      </div>
+      
       <div>
         <h3>World-Wide VPN Speed Team</h3>
         <p>
@@ -301,18 +304,8 @@
             speeds of a VPN within their general location.
           </li>
         </ul>
-        <p>
-          This is a massive project with a plethora of logistical issues. It's early in development and many
-          improvements need to be made to scale the project.
-        </p>
-
       </div>
-
     </div>
-
-
-
-
   </div>
 
   <svg viewBox="0 0 120 20">
@@ -329,11 +322,11 @@
 </body>
 
 <script src="assets/javascript/tabulator.min.js" type="text/javascript"></script>
+<script src="assets/javascript/jsvectormap.js" type="text/javascript"></script>
+<script src="assets/javascript/world.js" type="text/javascript"></script>
 <script src="assets/javascript/script.js" type="text/javascript"></script>
 <script>
-  $("#info-afl").html(linkIconAf);
-  $("#info-nafl").html(linkIcon);
-
+ 
   function CSVToJSON(csvData) {
     var data = CSVToArray(csvData);
     var objData = [];
@@ -375,7 +368,6 @@
     return (data);
   }
   $(document).ready(function () {
-
 
     var opened = false;
     $('.button').on("click", () => {
@@ -589,17 +581,14 @@
 
       })
       .then(() => {
+        //Setup table
         var table = document.getElementById('vpn-table');
-
         table.className = table.className + ' resizable';
         var resizer = document.createElement('div');
         resizer.className = 'resizer';
         table.appendChild(resizer);
         resizer.addEventListener('mousedown', initDrag, false);
-
-
         var startX, startY, startWidth, startHeight;
-
         function initDrag(e) {
           table.style.userSelect = "none";
           startX = e.clientX;
@@ -609,17 +598,41 @@
           document.documentElement.addEventListener('mousemove', doDrag, false);
           document.documentElement.addEventListener('mouseup', stopDrag, false);
         }
-
         function doDrag(e) {
-
           table.style.width = (startWidth + 2 * (e.clientX - startX)) + 'px';
         }
-
         function stopDrag(e) {
           table.style.userSelect = "auto";
           document.documentElement.removeEventListener('mousemove', doDrag, false);
           document.documentElement.removeEventListener('mouseup', stopDrag, false);
         }
+        //Setup map
+        var map = new jsVectorMap({
+          zoomOnScrollSpeed:1,
+          selector: "#map",
+          map: "world",
+          onLoaded(map) {
+            // This is a great opportunity and useful use-case to handle the reszing of the window.
+            window.addEventListener('resize', () => {
+              map.updateSize()
+            })
+          },
+          regionStyle: {
+            selected: {
+              stroke: "#676767",
+              fill: '#0074D9',
+            },
+            hover: {
+              stroke: "#676767",
+              fill: '#000',
+            }
+          }
+});
+map.setSelected('regions', ['EG', 'RU', 'US'])
+
+// Set selected markers
+
+map.setSelected('markers', [0, 2, 3])
       });
   });
 </script>
