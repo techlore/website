@@ -1,0 +1,26 @@
+// "VPN Name" : [ "Color of background", "Path to SVG icon", " Color of icon (default white" ]
+
+var vpnCards = {
+    "ProtonVPN": ["#5FB364", "./assets/logos/protonVPN.svg"],
+    "IVPN": ["#FF3344", "./assets/logos/ivpn.svg"],
+    "Mullvad": ["#1E2B3B", "./assets/logos/mullvad.svg"],
+    "Windscribe": ["#355CB3", "./assets/logos/windscribe.svg"],
+    "Surfshark": ["#188A9E", "./assets/logos/surfshark.svg"],
+    "ProtonVPN (Free)": ["#5FB364", "./assets/logos/protonVPN.svg"],
+    "AirVPN": ["#2364C8", "./assets/logos/airvpn.svg"],
+    "NordVPN": ["#4687FF", "./assets/logos/nordvpn.svg"],
+    "VyprVPN": ["#eee", "./assets/logos/vyprvpn.svg", "#000"],
+    "Private Internet Access (PIA)": ["#4BB748", "./assets/logos/pia.svg"],
+    "TorGuard": ["#eee", "./assets/logos/torguard.svg", "#000"],
+    "ExpressVPN": ["#C7242C", "./assets/logos/expressvpn.svg"],
+    "CyberGhost": ["#FFCC00", "./assets/logos/cyberghost.svg", "#000"],
+    "IPVanish": ["#6EBA44", "./assets/logos/ipvanishvpn.svg"],
+    "TunnelBear": ["#FDBF47", "./assets/logos/tunnelbear.svg", "#000"],
+    "StrongVPN": ["#FEC74A", "./assets/logos/strongvpn.svg", "#000"],
+    "AstrillVPN": ["#30397A", "./assets/logos/astrillvpn.svg"],
+    "SlickVPN": ["#23B44E", "./assets/logos/slickvpn.svg"],
+    "PureVPN": ["#4FC516", "./assets/logos/purevpn.svg"],
+    "Ivacy": ["#29D9FF", "./assets/logos/ivacy.svg"],
+    "HideMyAss (HMA)": ["#fff", "./assets/logos/hma.svg", "#000"],
+    "RiseupVPN":["#FF0000", "./assets/logos/riseup.svg"],
+  };
