@@ -8,9 +8,20 @@ This is the official repo for the Techlore website
     Features, pages descriptions , design overview
 
 ## Contributing
-    Guide to contribute on the website , knowledges , tools etc
-    Reporting bugs, issues
-    Setup branch for beta testing 
+    
+This website is made with HTML5, CSS and Javascript. It doesn't have any dependencies.
+But why? We all know that frameworks are awesome but for a big project like this with a lot of pages ad resources we decided that using only small libraries and pure Web development is perfect to balance the speed with the content in a clean and simple design.
+
+#### Do you want to improve the project? 
+- Fork this repository 
+- Enable the Github Pages feature
+- Edit the project with the improvements and features 
+- Make a pull request with detailed changes 
+- Wait for our team to evaluate and accept the changes 
+
+#### Have you found a bug or want to suggest a freature ?
+- Make an issue 
+- Fill the required the questions in the form 
 
 
 ---
