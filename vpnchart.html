@@ -429,9 +429,16 @@
       .then(text => {
         //Use CSV text and convert to json
         jsonData = JSON.parse(CSVToJSON(text));
-        jsonData.pop();
-        jsonData.pop();
-        jsonData.pop();
+        console.log(jsonData);
+
+
+        var f=jsonData.length - 1 ;
+        while(jsonData[f]["Techlore Score"] <1){
+          jsonData.pop();
+          f--;
+        }
+      
+
         table = new Tabulator("#vpn-table", {
           data: jsonData, //load row data from array
           resizableColumns: false,
