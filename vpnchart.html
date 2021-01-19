@@ -429,9 +429,6 @@
       .then(text => {
         //Use CSV text and convert to json
         jsonData = JSON.parse(CSVToJSON(text));
-        console.log(jsonData);
-
-
         var f=jsonData.length - 1 ;
         while(jsonData[f]["Techlore Score"] <1){
           jsonData.pop();

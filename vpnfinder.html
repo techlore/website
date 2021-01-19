@@ -787,9 +787,11 @@
     .then(text => {
       //Use CSV text and convert to json
       vpnsFetched = JSON.parse(CSVToJSON(text));
-      vpnsFetched.pop();
-      vpnsFetched.pop();
-      vpnsFetched.pop();
+      var f=vpnsFetched.length - 1 ;
+        while(vpnsFetched[f]["Techlore Score"] <1){
+          vpnsFetched.pop();
+          f--;
+        }
       vpnsFetched = vpnsFetched.sort(vpnCompare);
     });
 
