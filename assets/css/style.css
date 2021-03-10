@@ -940,7 +940,10 @@ details > summary::-webkit-details-marker {
 ._brd-yellow {
   border: 1px solid #ffcd38 !important;
 }
-
+._bg-white:not(._np),
+.tags._bg-white>*,._ch._bg-white>div>*{
+  background: var(--white) !important;
+}
 ._bg-grey:not(._np),
 .tags._bg-grey>*,._ch._bg-grey>div>*{
   background: var(--grey) !important;
@@ -996,6 +999,9 @@ details > summary::-webkit-details-marker {
 }
 ._p1 {
   padding: .3rem!important;
+}
+._p2 {
+  padding: 1rem!important;
 }
 ._pt4 {
   padding-top: 3rem!important;
