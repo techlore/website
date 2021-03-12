@@ -1,6 +1,7 @@
+RewriteEngine on
+RewriteBase /
 ErrorDocument 404 https://techlore.tech/404.html
 
-RewriteEngine on
 RewriteCond %{HTTP_HOST} ^techlore\.tech$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.techlore\.tech$
 RewriteRule ^(.*)$ "https\:\/\/techlore\.tech\/$1" [R=301,L]
