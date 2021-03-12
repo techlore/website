@@ -1,10 +1,9 @@
+ErrorDocument 404 https://techlore.tech/404.html
 
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^techlore\.tech$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.techlore\.tech$
 RewriteRule ^(.*)$ "https\:\/\/techlore\.tech\/$1" [R=301,L]
-
-ErrorDocument 404 https://techlore.tech/404.html
 
 # BROWSER CACHING USING CACHE-CONTROL HEADERS
 <ifModule mod_headers.c> 
