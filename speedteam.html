@@ -12,7 +12,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="assets/css/style.css?t=125" type="text/css">
+  <link rel="stylesheet" href="assets/css/style.css?t=124" type="text/css">
   <link rel="stylesheet" href="assets/css/tabulator.min.css" type="text/css">
   <link rel="stylesheet" href="assets/css/jsvectormap.css" type="text/css">
   <title> Techlore | VPN SpeedTeam</title>
@@ -35,14 +35,17 @@
     body {
       background-image: linear-gradient(to right bottom, #0a4c6d, #00607b, #007581, #00887f, #369a77);
     }
-    #map-cnt{
+
+    #map-cnt {
       border: 1px solid #fff;
+      background: #00000050;
       border-radius: .3rem;
       padding: 10px;
       max-width: 1100px;
       height: 500px;
-        margin: auto;
+      margin: auto;
     }
+
     ._m-revert>div>* {
       margin-top: revert;
     }
@@ -236,7 +239,7 @@
         <div><a href="https://discord.gg/Xd7baMSpqS" target="_blank"><img alt="discord"
               src="assets/svg/discord.svg"></a>
         </div>
-        
+
         <div><a href="https://t.me/techloreofficial" target="_blank"><img alt="telegram"
               src="assets/svg/telegram-a.svg"></a></div>
         <div><a href="https://matrix.to/#/+techlore-official:matrix.org" target="_blank"><img alt="matrix"
@@ -245,11 +248,11 @@
       </li>
     </ul>
   </nav>
-  <svg viewBox="0 0 120 20" class="wavet">
+  <svg viewBox="0 0 120 15" class="wavet">
     <path class="wave"
       d="M 0 0 v 6 C 30 6 30 10 60 10 C 91 10 90 6 120 6 C 150 6 150 10 180 10 C 210 10 210 6 240 6 v -6 h -240 z" />
   </svg>
- 
+
 
   <div id="map-cnt">
     <div id="map"></div>
@@ -275,7 +278,7 @@
       <div class="col-4">
         <button id="flt-clear" class="_brd-less _blue">Clear</button></div>
     </div>
-    
+
     <hr>
     <div class="_mb2">
       Select up to 3 data for a detailed comparison. Resize the chart using the bar on the right.
@@ -288,7 +291,7 @@
         class="link _white" target="_blank">here</a>.</div>
     <hr>
     <div class="grid card _bg-black-t _m-revert">
-      
+
       <div>
         <h3>World-Wide VPN Speed Team</h3>
         <p>
@@ -324,7 +327,6 @@
 <script src="assets/javascript/world.js" type="text/javascript"></script>
 <script src="assets/javascript/script.js" type="text/javascript"></script>
 <script>
- 
   function CSVToJSON(csvData) {
     var data = CSVToArray(csvData);
     var objData = [];
@@ -413,225 +415,162 @@
       table.clearFilter();
     });
 
-    //Get CSV data
-    var jsonData;
-    fetch("https://raw.githubusercontent.com/techlore-official/VPN-reviews/master/VPNchart.csv")
-      .then(response => response.text())
-      .then(text => {
-        //Use CSV text and convert to json
-        jsonData = JSON.parse(CSVToJSON(text));
-        jsonData.pop();
-        jsonData.pop();
-        jsonData.pop();
-        table = new Tabulator("#vpn-table", {
-          data: jsonData, //load row data from array
-          resizableColumns: false,
-          placeholder: "No Data Available", //display message to user on empty table
-          layout: "fitData",
+    async function getDataFromLink(link) {
+      const response = await fetch(link);
+      // waits until the request completes...
+      const text = await response.text();
+      return text;
+    }
+    const links = [
+      {name: "Astrill", url:"https://raw.githubusercontent.com/techlore/VPN-reviews/master/speedteam/Results/Astrill.csv"},
+      {name: "IVPN", url:"https://raw.githubusercontent.com/techlore/VPN-reviews/master/speedteam/Results/IVPN.csv"},
+      {name: "Windscribe", url:"https://raw.githubusercontent.com/techlore/VPN-reviews/master/speedteam/Results/Windscribe.csv"}
+    ];
 
-          selectable: 3, //make rows selectable
-          selectableRollingSelection: false,
-          rowSelectionChanged: function (data, rows) {
-            if (data.length > 1) {
-              $('.container').show();
-              var tb = "<table class='rt" + data.length + "'>";
-              var strh = "<div class='row keep-width _centered'>";
-              for (var j = 0; j < data.length; j++) {
-                strh += "<div class='title'>" + data[j]["VPN"] + " </div>";
-              }
-              $(".head").html(strh + "</div>");
-              var keys = Object.keys(data[0]);
-              keys.splice(0, 3);
-              for (const key in keys) {
-                tb += "<tr><td colspan='" + data.length + "' class='tb-b'><h4>" + keys[key] +
-                  "</h4></td></tr><tr>";
-                for (var i = 0; i < data.length; i++) {
-                  var v = data[i];
-                  v = v[keys[key]];
-                  tb += "<td>" + v + "</td>";
-                }
-                tb += "</tr>";
-              }
-              tb += "</table>";
-              $("#tb").html(tb);
-            } else {
-              $('.container').hide();
-            }
-            console.log("compare : " + data.length)
+    
+
+    table = new Tabulator("#vpn-table", {
+      resizableColumns: false,
+      groupBy: "VPN Name",
+      groupStartOpen:false,
+      groupToggleElement:"header",
+      placeholder: "No Data Available", //display message to user on empty table
+      layout: "fitData",
+      autoColumns: true,
+      autoColumnsDefinitions: [
+          {
+            field: "VPN Name",
+            visible:false
           },
-          initialSort: [ //set the initial sort order of the data
-            {
-              column: "Techlore Score",
-              dir: "disc"
-            },
-          ],
-          autoColumns: true,
-          autoColumnsDefinitions: [{
-              field: "VPN",
-              hozAlign: "left",
-              formatter: "name"
+          {
+              title:"Mega Download",
+              field: "Mega Download (% of Performance)",
+              hozAlign:"center"
             },
             {
-              field: "VPN Affiliate Link",
-              visible: false
+              title:"Synthetic Ping Test",
+              field: "Synthetic Ping Test (ms Difference)",
+              hozAlign:"center"
+            },
+        {
+              title: "Synthetic Download Test",
+              field: "Synthetic Download Test (% of Performance)", 
+              hozAlign:"center"
             },
             {
-              field: "VPN Standard Link",
-              visible: false
+              title:"Synthetic Upload Test",
+              field: "Synthetic Upload Test (% of Performance)",
+              hozAlign:"center"
             },
             {
-              field: "Review Version",
-              visible: false
+              title:"Ubuntu Download Test",
+              field: "Ubuntu Download Test (% of Performance)",
+              hozAlign:"center"
             },
             {
-              field: "OpenVPN",
-              formatter: "check"
+              title:"Mega Download (% of Performance)",
+              field: "Mega Download (% of Performance)",
+              hozAlign:"center"
             },
             {
-              field: "Wireguard",
-              formatter: "check"
+              title:"Android Studio Test",
+              field: "Android Studio Test (% of Performance)",
+              hozAlign:"center"
             },
-            {
-              field: "System Killswitch",
-              formatter: "check"
-            },
-            {
-              field: "App Killswitch",
-              formatter: "check"
-            },
-            {
-              field: "IPV6 Supported/Blocked",
-              formatter: "check"
-            },
-            {
-              field: "2FA",
-              formatter: "check"
-            },
-            {
-              field: "Misleading Marketing",
-              formatter: "check"
-            },
-            {
-              field: "Warrant Canary/Transparacy Report",
-              formatter: "check"
-            },
-            {
-              field: "Analytics Concerns",
-              formatter: "check"
-            },
-            {
-              field: "Anon Payment",
-              formatter: "check"
-            },
-
-            {
-              field: "Anon Signup",
-              formatter: "check"
-            },
-            {
-              field: "Misleading Marketing",
-              formatter: "check"
-            },
-            {
-              field: "Windows Client",
-              formatter: "check"
-            },
-            {
-              field: "MacOS Client",
-              formatter: "check"
-            },
-            {
-              field: "Android Client",
-              formatter: "check"
-            },
-            {
-              field: "iOS Client",
-              formatter: "check"
-            },
-            {
-              field: "P2P Friendly",
-              formatter: "check"
-            },
-            {
-              field: "Open Source Clients",
-              formatter: "check"
-            },
-            {
-              field: "Multihop",
-              formatter: "check"
-            },
-            {
-              field: "Port Forwarding",
-              formatter: "check"
-            },
-            {
-              field: "Affiliate Program",
-              formatter: "check"
-            },
-            {
-              field: "Helps Privacy Causes",
-              formatter: "check"
-            },
-
-          ],
-        });
-
-
-      })
-      .then(() => {
-        //Setup table
-        var table = document.getElementById('vpn-table');
-        table.className = table.className + ' resizable';
-        var resizer = document.createElement('div');
-        resizer.className = 'resizer';
-        table.appendChild(resizer);
-        resizer.addEventListener('mousedown', initDrag, false);
-        var startX, startY, startWidth, startHeight;
-        function initDrag(e) {
-          table.style.userSelect = "none";
-          startX = e.clientX;
-          console.log("startx--> " + startX);
-          startWidth = parseInt(document.defaultView.getComputedStyle(table).width, 10);
-          console.log("startw--> " + startWidth);
-          document.documentElement.addEventListener('mousemove', doDrag, false);
-          document.documentElement.addEventListener('mouseup', stopDrag, false);
+      ]
+    });
+    //Setup map
+    var map = new jsVectorMap({
+      zoomOnScrollSpeed: 1,
+      selector: "#map",
+      map: "world",
+      onLoaded(map) {
+        // This is a great opportunity and useful use-case to handle the reszing of the window.
+        window.addEventListener('resize', () => {
+          map.updateSize()
+        })
+      },
+      regionStyle: {
+        initial: {
+          stroke: "#f9f9f9",
+          strokeWidth: .5,
+          fill: '#f9f9f9',
+          fillOpacity: 1,
+        },
+        selected: {
+          stroke: "#f9f9f9",
+          fill: '#0074D9',
+        },
+        hover: {
+          stroke: "#000",
+          fill: '#80c4ff',
         }
-        function doDrag(e) {
-          table.style.width = (startWidth + 2 * (e.clientX - startX)) + 'px';
-        }
-        function stopDrag(e) {
-          table.style.userSelect = "auto";
-          document.documentElement.removeEventListener('mousemove', doDrag, false);
-          document.documentElement.removeEventListener('mouseup', stopDrag, false);
-        }
-        //Setup map
-        var map = new jsVectorMap({
-          zoomOnScrollSpeed:1,
-          selector: "#map",
-          map: "world",
-          onLoaded(map) {
-            // This is a great opportunity and useful use-case to handle the reszing of the window.
-            window.addEventListener('resize', () => {
-              map.updateSize()
-            })
-          },
-          regionStyle: {
-            selected: {
-              stroke: "#676767",
-              fill: '#0074D9',
-            },
-            hover: {
-              stroke: "#676767",
-              fill: '#000',
-            }
+      }
+    });
+    
+    var json ;
+     var first= true;
+     var regions={};
+
+    links.forEach(link => {
+        getDataFromLink(link.url).then( data =>{
+          var jsonData = JSON.parse(CSVToJSON(data));
+           jsonData.forEach(element => {
+              element["VPN Name"]= link.name ;
+              var code=element["Country CODE"];
+              if(regions[code]){
+            regions[code]++;
+          }else{
+            regions[code] = 1;
           }
-});
-map.setSelected('regions', ['EG', 'RU', 'US'])
+          });
+            if(first){
+              table.setData(jsonData);
+              first=false;
+            }else{
+              table.addData(jsonData);
+            }
+            map.setSelected('regions', Object.keys(regions));
 
-// Set selected markers
+            // Set selected markers
+            map.setSelected('markers', [0, 2, 3])
+        });
+    });
 
-map.setSelected('markers', [0, 2, 3])
-      });
+    //Setup table
+    var vpntable = document.getElementById('vpn-table');
+    vpntable.className = vpntable.className + ' resizable';
+    var resizer = document.createElement('div');
+    resizer.className = 'resizer';
+    vpntable.appendChild(resizer);
+    resizer.addEventListener('mousedown', initDrag, false);
+    var startX, startY, startWidth, startHeight;
+
+    function initDrag(e) {
+      vpntable.style.userSelect = "none";
+      startX = e.clientX;
+      console.log("startx--> " + startX);
+      startWidth = parseInt(document.defaultView.getComputedStyle(vpntable).width, 10);
+      console.log("startw--> " + startWidth);
+      document.documentElement.addEventListener('mousemove', doDrag, false);
+      document.documentElement.addEventListener('mouseup', stopDrag, false);
+    }
+
+    function doDrag(e) {
+      vpntable.style.width = (startWidth + 2 * (e.clientX - startX)) + 'px';
+    }
+
+    function stopDrag(e) {
+      vpntable.style.userSelect = "auto";
+      document.documentElement.removeEventListener('mousemove', doDrag, false);
+      document.documentElement.removeEventListener('mouseup', stopDrag, false);
+    }
+    
+  
+  
+    console.log(Object.keys(regions));
+
+    
   });
 </script>
 

@@ -14,7 +14,7 @@
     -ms-transform: translatez(0);
     transform: translatez(0);
   }
-  .tabulator .resizer { width: 10px; height: 100%; background: #000; position:absolute;right: 0;top:0; cursor: col-resize; }
+  .tabulator .resizer { width: 7px; height: 100%; background: #000; position:absolute;right: 0;top:0; cursor: col-resize; }
   
   .tabulator[tabulator-layout="fitDataFill"] .tabulator-tableHolder .tabulator-table {
     min-width: 100%;
@@ -711,6 +711,8 @@
     background: #fafafa;
     font-weight: bold;
     min-width: 100%;
+    display: flex;
+    align-items: center;
   }
   
   .tabulator-row.tabulator-group:hover {
