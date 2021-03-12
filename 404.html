@@ -22,6 +22,76 @@
       background: linear-gradient(#1126becc, #05c7adcc);
       padding-bottom: 10rem;
     }
+
+    #error-404{
+      position: relative;
+      background-color:#ef4824 ;
+      border-radius: .5rem;
+      padding:1rem;
+      max-width: 300px;
+    }
+    #error-404 span {
+      font-size: 300%;
+      padding: 0 20px;
+      border-radius: 5px;
+      font-weight: bolder;
+      cursor: pointer;
+      margin: 0 0 40px 0;
+    }
+    #error-404 small{
+      font-size: 100%;
+    }
+
+    #error-404:after {
+      top: 100%;
+      left: 50%;
+      border: solid transparent;
+      content: '';
+      height: 0;
+      width: 0;
+      position: absolute;
+      pointer-events: none;
+      border-color: rgba(136, 183, 213, 0);
+      border-top-color: #ef4824;
+      border-width: 20px;
+      margin-left: -20px;
+    }
+    .logo-rotate {
+      -webkit-animation: rotate-scale 2s linear 2s both;
+              animation: rotate-scale 2s linear 2s both;
+    }
+
+    @-webkit-keyframes rotate-scale {
+      0% {
+        -webkit-transform: scale(1) rotateZ(0);
+                transform: scale(1) rotateZ(0);
+      }
+      50% {
+        -webkit-transform: scale(0.5) rotateZ(180deg);
+                transform: scale(0.5) rotateZ(180deg);
+      }
+      100% {
+        -webkit-transform: scale(1) rotateZ(360deg);
+                transform: scale(1) rotateZ(360deg);
+      }
+    }
+    @keyframes rotate-scale {
+      0% {
+        -webkit-transform: scale(1) rotateZ(0);
+                transform: scale(1) rotateZ(0);
+      }
+      50% {
+        -webkit-transform: scale(0.5) rotateZ(180deg);
+                transform: scale(0.5) rotateZ(180deg);
+      }
+      100% {
+        -webkit-transform: scale(1) rotateZ(360deg);
+                transform: scale(1) rotateZ(360deg);
+      }
+    }
+
+
+
   </style>
   <noscript>
     <style>
@@ -90,10 +160,20 @@
       d="M 0 0 v 6 C 30 6 30 10 60 10 C 91 10 90 6 120 6 C 150 6 150 10 180 10 C 210 10 210 6 240 6 v -6 h -240 z" />
   </svg>
   <main class="_pt0 _mb4">
-    <div class="_black _centered">
-      <h1>404s and Sitebreaks</h1>
-
-      <h2>Page Not Found</h2>
+    <div class="_g-center card _bg-black-t">
+      
+        <div id='error-404'>
+          <span>404</span><br>
+          <small>PAGE NOT FOUND</small>
+        </div>  
+        <div class="_pt4">
+          <img src="assets/svg/logo.svg" alt="Techlore" class="_wh-230 logo-rotate" />
+        </div>
+        <div>
+          <a href='./index.html' class="btn">Back To Home</a>
+        </div>
+          
+        
     </div>
 
   </main>
