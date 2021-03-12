@@ -6,13 +6,6 @@ RewriteRule ^(.*)$ "https\:\/\/techlore\.tech\/$1" [R=301,L]
 
 ErrorDocument 404 /404.html
 
-# php -- BEGIN cPanel-generated handler, do not edit
-# Set the “ea-php56” package as the default “PHP” programming language.
-<IfModule mime_module>
-  AddHandler application/x-httpd-ea-php56 .php .php5 .phtml
-</IfModule>
-# php -- END cPanel-generated handler, do not edit
-
 # BROWSER CACHING USING CACHE-CONTROL HEADERS
 <ifModule mod_headers.c> 
     # One year for image and video files
