@@ -44,6 +44,7 @@
       max-width: 1100px;
       height: 500px;
       margin: auto;
+      margin-top: 3rem;
     }
 
     ._m-revert>div>* {
@@ -167,6 +168,64 @@
     i.ir img {
       width: 18px;
     }
+
+
+    #sp-title {
+      width: 273px;
+      margin: 0 auto;
+      text-align: center;
+      background: rgb(14, 13, 13);
+      color: rgb(238, 238, 238);
+      border-radius: .5rem;
+      margin-top: 1rem;
+      font-size: 3rem;
+    }
+
+    .meter {
+      display: block;
+      width: 273px;
+      height: 155px;
+      margin: 0 auto;
+    }
+
+    .meter-left {
+      transform: skewX(-2deg) skewY(1deg);
+      stroke-width: 58;
+      stroke-dashoffset: 253;
+      stroke-dasharray: 120 400;
+      stroke: #f9b414;
+      fill: none;
+    }
+
+    .meter-center {
+      stroke-width: 56;
+      stroke-dashoffset: 128;
+      stroke-dasharray: 120 400;
+      stroke: #7dbb40;
+      fill: none;
+    }
+
+    .meter-right {
+      transform: skewX(2deg) skewY(1deg);
+      stroke-width: 58;
+      stroke-dashoffset: 5;
+      stroke-dasharray: 120 400;
+      stroke: #279ad5;
+      fill: none;
+    }
+
+    .meter-clock {
+      transform: rotate(-54deg);
+      transform-origin: 137px 146px;
+      fill: #ee5127;
+    }
+
+    .meter-circle {
+      fill: #ee5127;
+    }
+    #vpn-table{
+      width: 60rem;
+    }
   </style>
   <noscript>
     <style>
@@ -184,19 +243,6 @@
 
 
 <body class="page" id="vpn">
-
-
-  <div class="container">
-    <span class="button">Compare</span>
-    <div class="content">
-      <div class="head">
-      </div>
-      <div class="tb" id="tb">
-        <table>
-        </table>
-      </div>
-    </div>
-  </div>
 
   <nav>
     <div class="logo-container">
@@ -254,34 +300,47 @@
   </svg>
 
 
-  <div id="map-cnt">
-    <div id="map"></div>
-  </div>
+
 
   <div class="_pt0 cnt">
-    <div>
+    <header class="grid  _aos-bottom" style="height: 500px;">
+      <div>
       <h1>SpeedTeam VPN </h1>
       <h4>Transparent, community-driven speedtests for VPN</h4>
     </div>
-    <hr>
-    <div class="grid">
-      <div class="_centered">
-        <h2>SpeedTeam VPN Chart</h2>
+    <div class="sp-meter _aos-top">
+      <svg class="meter">
+        <circle class="meter-left" r="96" cx="135" cy="142"></circle>
+        <circle class="meter-center" r="96" cx="136" cy="142"></circle>
+        <circle class="meter-right" r="96" cx="138" cy="142"></circle>
+        <polygon class="meter-clock" points="129,145 137,90 145,145"></polygon>
+        <circle class="meter-circle" r="10" cx="137" cy="145"></circle>
+      </svg>
+      <div id="sp-title">
       </div>
+    </div>
+    </header>
+    
+    <div id="map-cnt" class="_aos-bottom">
+      <div id="map"></div>
+    </div>
+    <div class="grid">
       <div class="col-4">
         <select id="flt-field">
           <option></option>
           <option value="VPN" selected>VPN</option>
-          <option value="Techlore Score">Techlore Score</option>
+          <option value="Download Test">Download Test</option>
+          <option value="Upload Test">Upload Test</option>
+          <option value="Ping Test">Ping</option>
+          <option value="Ubuntu Download">Ubuntu Download</option>
+          <option value="Android Studio">Android Studio</option>
+          <option value="Country">Continent</option>
+          <option value="Country">Country</option>
+          <option value="Country CODE">Country CODE</option>
         </select></div>
       <div class="col-4"><input id="flt-value" class="_mt0" type="text" placeholder="Value to filter"></div>
       <div class="col-4">
         <button id="flt-clear" class="_brd-less _blue">Clear</button></div>
-    </div>
-
-    <hr>
-    <div class="_mb2">
-      Select up to 3 data for a detailed comparison. Resize the chart using the bar on the right.
     </div>
   </div>
   <div id="vpn-table"></div>
@@ -327,6 +386,20 @@
 <script src="assets/javascript/world.js" type="text/javascript"></script>
 <script src="assets/javascript/script.js" type="text/javascript"></script>
 <script>
+  var rangeShow = document.querySelector("#sp-title");
+  var rangeClock = document.querySelector('.meter-clock');
+  var count = 0;
+  var counting = setInterval(function () {
+    if (count < 101) {
+      rangeClock.style.transform = 'rotate(' + (-90 + ((count * 180) / 100)) + 'deg)';
+      rangeShow.innerHTML= count + '%';
+      count++
+    } else {
+      clearInterval(counting)
+    }
+  }, 30);
+
+
   function CSVToJSON(csvData) {
     var data = CSVToArray(csvData);
     var objData = [];
@@ -368,42 +441,22 @@
     return (data);
   }
   $(document).ready(function () {
+    $().aos();
 
-    var opened = false;
-    $('.button').on("click", () => {
-      opened = !opened;
-      if (opened) $(".button").html("Close");
-      else $(".button").html("Compare");
-      $('.button').parent().toggleClass('expand');
-      $('body').toggleClass("noscroll");
-      gt_btn.className = "gt-link hide";
-    });
+   
     var table;
     var fieldEl = document.getElementById("flt-field");
     var valueEl = document.getElementById("flt-value");
 
-    //Custom filter example
-    function customFilter(data) {
-      return data.car && data.rating < 3;
-    }
-
     //Trigger setFilter function with correct parameters
     function updateFilter() {
       var filterVal = fieldEl.options[fieldEl.selectedIndex].value;
-      var filter = filterVal == "function" ? customFilter : filterVal;
-
-      if (filterVal == "function")
-        valueEl.disabled = true;
-      else
-        valueEl.disabled = false;
-
       if (filterVal) {
-        var filterType = "like";
-        if (filterVal == "Techlore Score") filterType = ">=";
-        table.setFilter(filter, filterType, valueEl.value);
+        var filterType = ">=";
+        if (filterVal == "Country" || filterVal == "Country CODE" || filterVal == "Continent") filterType = "like";
+        table.setFilter(filterVal, filterType, valueEl.value);
       }
     }
-
     //Update filters on value change
     document.getElementById("flt-field").addEventListener("change", updateFilter);
     document.getElementById("flt-value").addEventListener("keyup", updateFilter);
@@ -421,62 +474,64 @@
       const text = await response.text();
       return text;
     }
-    const links = [
-      {name: "Astrill", url:"https://raw.githubusercontent.com/techlore/VPN-reviews/master/speedteam/Results/Astrill.csv"},
-      {name: "IVPN", url:"https://raw.githubusercontent.com/techlore/VPN-reviews/master/speedteam/Results/IVPN.csv"},
-      {name: "Windscribe", url:"https://raw.githubusercontent.com/techlore/VPN-reviews/master/speedteam/Results/Windscribe.csv"}
+    const links = [{
+        name: "Astrill",
+        url: "https://raw.githubusercontent.com/techlore/VPN-reviews/master/speedteam/Results/Astrill.csv"
+      },
+      {
+        name: "IVPN",
+        url: "https://raw.githubusercontent.com/techlore/VPN-reviews/master/speedteam/Results/IVPN.csv"
+      },
+      {
+        name: "Windscribe",
+        url: "https://raw.githubusercontent.com/techlore/VPN-reviews/master/speedteam/Results/Windscribe.csv"
+      }
     ];
 
-    
+
 
     table = new Tabulator("#vpn-table", {
       resizableColumns: false,
       groupBy: "VPN Name",
-      groupStartOpen:false,
-      groupToggleElement:"header",
+      groupStartOpen: false,
+      groupToggleElement: "header",
       placeholder: "No Data Available", //display message to user on empty table
       layout: "fitData",
       autoColumns: true,
-      autoColumnsDefinitions: [
-          {
-            field: "VPN Name",
-            visible:false
-          },
-          {
-              title:"Mega Download",
-              field: "Mega Download (% of Performance)",
-              hozAlign:"center"
-            },
-            {
-              title:"Synthetic Ping Test",
-              field: "Synthetic Ping Test (ms Difference)",
-              hozAlign:"center"
-            },
+      autoColumnsDefinitions: [{
+          field: "VPN Name",
+          visible: false
+        },
         {
-              title: "Synthetic Download Test",
-              field: "Synthetic Download Test (% of Performance)", 
-              hozAlign:"center"
-            },
-            {
-              title:"Synthetic Upload Test",
-              field: "Synthetic Upload Test (% of Performance)",
-              hozAlign:"center"
-            },
-            {
-              title:"Ubuntu Download Test",
-              field: "Ubuntu Download Test (% of Performance)",
-              hozAlign:"center"
-            },
-            {
-              title:"Mega Download (% of Performance)",
-              field: "Mega Download (% of Performance)",
-              hozAlign:"center"
-            },
-            {
-              title:"Android Studio Test",
-              field: "Android Studio Test (% of Performance)",
-              hozAlign:"center"
-            },
+          title: "Mega Download",
+          field: "Mega Download (% of Performance)",
+          hozAlign: "center"
+        },
+        {
+          title: "Synthetic Ping Test",
+          field: "Synthetic Ping Test (ms Difference)",
+          hozAlign: "center"
+        },
+        {
+          title: "Synthetic Download Test",
+          field: "Synthetic Download Test (% of Performance)",
+          hozAlign: "center"
+        },
+        {
+          title: "Synthetic Upload Test",
+          field: "Synthetic Upload Test (% of Performance)",
+          hozAlign: "center"
+        },
+        {
+          title: "Ubuntu Download Test",
+          field: "Ubuntu Download Test (% of Performance)",
+          hozAlign: "center"
+        },
+        {
+          title: "Android Studio Test",
+          field: "Android Studio Test (% of Performance)",
+          hozAlign: "center"
+        },
       ]
     });
     //Setup map
@@ -489,6 +544,11 @@
         window.addEventListener('resize', () => {
           map.updateSize()
         })
+
+      },
+      onRegionSelected(code, isSelected, selectedRegions) {
+        console.log(code);
+        table.setFilter("Country CODE", "like", code);
       },
       regionStyle: {
         initial: {
@@ -507,34 +567,32 @@
         }
       }
     });
-    
-    var json ;
-     var first= true;
-     var regions={};
+
+    var json;
+    var first = true;
+    var regions = {};
 
     links.forEach(link => {
-        getDataFromLink(link.url).then( data =>{
-          var jsonData = JSON.parse(CSVToJSON(data));
-           jsonData.forEach(element => {
-              element["VPN Name"]= link.name ;
-              var code=element["Country CODE"];
-              if(regions[code]){
+      getDataFromLink(link.url).then(data => {
+        var jsonData = JSON.parse(CSVToJSON(data));
+        jsonData.forEach(element => {
+          element["VPN Name"] = link.name;
+          var code = element["Country CODE"];
+          if (regions[code]) {
             regions[code]++;
-          }else{
+          } else {
             regions[code] = 1;
           }
-          });
-            if(first){
-              table.setData(jsonData);
-              first=false;
-            }else{
-              table.addData(jsonData);
-            }
-            map.setSelected('regions', Object.keys(regions));
-
-            // Set selected markers
-            map.setSelected('markers', [0, 2, 3])
         });
+        if (first) {
+          table.setData(jsonData);
+          first = false;
+        } else {
+          table.addData(jsonData);
+        }
+        map.setSelected('regions', Object.keys(regions));
+
+      });
     });
 
     //Setup table
@@ -565,12 +623,12 @@
       document.documentElement.removeEventListener('mousemove', doDrag, false);
       document.documentElement.removeEventListener('mouseup', stopDrag, false);
     }
-    
-  
-  
+
+
+
     console.log(Object.keys(regions));
 
-    
+
   });
 </script>
 

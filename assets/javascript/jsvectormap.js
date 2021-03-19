@@ -1415,7 +1415,6 @@
 
     this.container.delegate('.jsvmap-element', 'mouseup', function (event) {
       var data = parseEvent(map, this);
-
       if (data.type === 'region' && map.params.regionsSelectable || data.type === 'marker' && map.params.markersSelectable) {
         if (!event.defaultPrevented) {
           var el = data.element; // If regions/markers:SelectableOne option is passed, remove all selected regions/markers
@@ -1428,6 +1427,8 @@
           data.element.isSelected ? el.deselect() : el.select();
           map.emit(data.event, [data.code, data.element.isSelected, map.getSelected(data.type + 's')]);
         }
+      }else{
+        map.emit(data.event, [data.code]);
       }
     });
   }
