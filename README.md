@@ -36,4 +36,4 @@ This website uses HTML, CSS and vanilla Javascript. It doesn't have any dependen
 
  ## License of this project
   
-    ++++
+    Creative Commons Attribution Share Alike 4.0 International
