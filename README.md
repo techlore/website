@@ -1,39 +1,33 @@
 # Techlore
 <img src="https://techlore.tech/assets/svg/logo.svg" width="200px" alt="Techlore Logo">
 
-This is the official repo for the Techlore website
-
+This is the official repo for the Techlore website.
 
 ## Overview
-Some niche sections of our site : 
-- [GoIncognito](https://techlore.tech/goincognito.html) : A video-based course teaching users of varying experience levels about privacy, security, and anonymity
+Highlight sections of our site: 
+- [Go Incognito](https://techlore.tech/goincognito.html) : A video-based course teaching users of varying experience levels about privacy, security, and anonymity.
 - [Consulting](https://techlore.tech/consulting.html) : Individual support, because you deserve to be safe.
-- [Videos Overview](https://techlore.tech/videos.html) : Showcase of our videos and platforms where you can watch us !
-- [Resources](https://techlore.tech/resources.html) : This page recommends services based on research from several websites and expert recommendations
-
-We are all in on VPNs with [VPN Toolkit](https://techlore.tech/vpn.html) and so we provide simple,powerful and useful tools :
-- Finder Tool : It will help you decide which vpn is right for you
-- VPN Chart : We’ve developed a community-driven process of systematically evaluating VPNs in a chart
-- DIY Tool : Review a vpn with our simple score tool 
+- [Video Content](https://techlore.tech/videos.html) : Showcase of our videos and platforms where you can watch us!
+- [Resources](https://techlore.tech/resources.html) : This page recommends services based on research from several websites and expert recommendations.
+- [VPN Toolkit](https://techlore.tech/vpn.html) : Transparent, community-driven VPN reviews.
 
 ## Contributing
     
-This project is coded in html, css and vanilla javascript. It doesn't have any dependencies.
-But why? We all know that frameworks are awesome but for a big project like this with a lot of pages ad resources we decided that using only small libraries and pure Web development is perfect to balance the speed with the content in a clean and simple design.
+This website uses HTML, CSS and vanilla Javascript. It doesn't have any dependencies.
+
+*But why? We all know that frameworks are awesome but for a big project like this with a lot of pages ad resources we decided that using only small libraries and pure Web development is perfect to balance the speed with the content in a clean and simple design.*
 
 #### Do you want to improve the project? 
 - Fork this repository 
 - Enable the Github Pages feature
 - Edit the project with the improvements and features 
 - Make a pull request with detailed changes 
-- Wait for our team to evaluate and accept the changes 
+- Wait for our team to evaluate the changes 
 
 #### Have you found a bug or want to suggest a freature ?
 - Make an issue 
-- Fill the required the questions in the form 
+- Fill the required questions in the form 
 
-
----
 ## Libraries & other projects included 
 
  - [SvelteJS](http://sveltejs.com/) - A lightweight modern JavaScript library  | [MIT License](https://github.com/mattbegent/svelte/blob/master/LICENSE.md)  
