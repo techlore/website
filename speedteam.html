@@ -223,7 +223,8 @@
     .meter-circle {
       fill: #ee5127;
     }
-    #vpn-table{
+
+    #vpn-table {
       width: 60rem;
     }
   </style>
@@ -237,10 +238,6 @@
     </style>
   </noscript>
 </head>
-
-
-
-
 
 <body class="page" id="vpn">
 
@@ -299,28 +296,25 @@
       d="M 0 0 v 6 C 30 6 30 10 60 10 C 91 10 90 6 120 6 C 150 6 150 10 180 10 C 210 10 210 6 240 6 v -6 h -240 z" />
   </svg>
 
-
-
-
   <div class="_pt0 cnt">
     <header class="grid  _aos-bottom" style="height: 500px;">
-      <div>
-      <h1>Techlore Speed Team (Beta) </h1>
-      <h4>Worldwide VPN Speed Testing</h4>
-    </div>
-    <div class="sp-meter _aos-top">
-      <svg class="meter">
-        <circle class="meter-left" r="96" cx="135" cy="142"></circle>
-        <circle class="meter-center" r="96" cx="136" cy="142"></circle>
-        <circle class="meter-right" r="96" cx="138" cy="142"></circle>
-        <polygon class="meter-clock" points="129,145 137,90 145,145"></polygon>
-        <circle class="meter-circle" r="10" cx="137" cy="145"></circle>
-      </svg>
-      <div id="sp-title">
+      <div class="_centered">
+        <h1>Techlore Speed Team (Beta) </h1>
+        <h4>Worldwide VPN Speed Testing</h4>
       </div>
-    </div>
+      <div class="sp-meter _aos-top">
+        <svg class="meter">
+          <circle class="meter-left" r="96" cx="135" cy="142"></circle>
+          <circle class="meter-center" r="96" cx="136" cy="142"></circle>
+          <circle class="meter-right" r="96" cx="138" cy="142"></circle>
+          <polygon class="meter-clock" points="129,145 137,90 145,145"></polygon>
+          <circle class="meter-circle" r="10" cx="137" cy="145"></circle>
+        </svg>
+        <div id="sp-title">
+        </div>
+      </div>
     </header>
-    
+
     <div id="map-cnt" class="_aos-bottom">
       <div id="map"></div>
     </div>
@@ -354,7 +348,8 @@
       <div>
         <h3>Techlore Speed Team</h3>
         <p>
-          This project is currently in beta and we don't expect people to use this data to accurately choose between services (yet.)
+          This project is currently in beta and we don't expect people to use this data to accurately choose between
+          services (yet.)
         </p>
         <p>
           Most speed tests on the internet are fundamentally flawed, as speeds are predominantly dictated by a user’s
@@ -395,7 +390,7 @@
   var counting = setInterval(function () {
     if (count < 101) {
       rangeClock.style.transform = 'rotate(' + (-90 + ((count * 180) / 100)) + 'deg)';
-      rangeShow.innerHTML= count + '%';
+      rangeShow.innerHTML = count + '%';
       count++
     } else {
       clearInterval(counting)
@@ -446,7 +441,7 @@
   $(document).ready(function () {
     $().aos();
 
-   
+
     var table;
     var fieldEl = document.getElementById("flt-field");
     var valueEl = document.getElementById("flt-value");
