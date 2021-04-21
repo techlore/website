@@ -486,21 +486,19 @@
       }
     ];
 
-      //count number of users over 18
+      var testerCalc = function(values, data, calcParams){
+          return "Average Results";
+      }
       var avgCalc = function(values, data, calcParams){
-          
           var calc = 0;
           var sum = 0;
           values.forEach(function(value){
-              console.log(value);
               if(value){
                 var ret = value.replace('%','');
                 sum += parseInt(ret);
                 calc ++;
               }
-             
           });
-        
           return (sum/calc).toFixed(3);
       }
 
@@ -516,7 +514,13 @@
       autoColumns: true,
       autoColumnsDefinitions: [{
           field: "VPN Name",
-          visible: false
+          visible: false,
+        },
+        {
+          title: "Tester",
+          field: "Tester",
+          hozAlign: "center",
+          topCalc:testerCalc
         },
         {
           title: "Mega Download",
