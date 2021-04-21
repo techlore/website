@@ -486,15 +486,33 @@
       }
     ];
 
-
+      //count number of users over 18
+      var avgCalc = function(values, data, calcParams){
+          
+          var calc = 0;
+          var sum = 0;
+          values.forEach(function(value){
+              console.log(value);
+              if(value){
+                var ret = value.replace('%','');
+                sum += parseInt(ret);
+                calc ++;
+              }
+             
+          });
+        
+          return (sum/calc).toFixed(3);
+      }
 
     table = new Tabulator("#vpn-table", {
       resizableColumns: false,
       groupBy: "VPN Name",
       groupStartOpen: false,
       groupToggleElement: "header",
+      columnCalcs:"group",
+      groupClosedShowCalcs:true,
       placeholder: "No Data Available", //display message to user on empty table
-      layout: "fitData",
+      layout: "fitDataStretch",
       autoColumns: true,
       autoColumnsDefinitions: [{
           field: "VPN Name",
@@ -503,32 +521,38 @@
         {
           title: "Mega Download",
           field: "Mega Download (% of Performance)",
-          hozAlign: "center"
+          hozAlign: "center",
+          topCalc:avgCalc
         },
         {
           title: "Synthetic Ping Test",
           field: "Synthetic Ping Test (ms Difference)",
-          hozAlign: "center"
+          hozAlign: "center",
+          topCalc:avgCalc
         },
         {
           title: "Synthetic Download Test",
           field: "Synthetic Download Test (% of Performance)",
-          hozAlign: "center"
+          hozAlign: "center",
+          topCalc:avgCalc
         },
         {
           title: "Synthetic Upload Test",
           field: "Synthetic Upload Test (% of Performance)",
-          hozAlign: "center"
+          hozAlign: "center",
+          topCalc:avgCalc
         },
         {
           title: "Ubuntu Download Test",
           field: "Ubuntu Download Test (% of Performance)",
-          hozAlign: "center"
+          hozAlign: "center",
+          topCalc:avgCalc
         },
         {
           title: "Android Studio Test",
           field: "Android Studio Test (% of Performance)",
-          hozAlign: "center"
+          hozAlign: "center",
+          topCalc:avgCalc
         },
       ]
     });
@@ -569,25 +593,33 @@
     var json;
     var first = true;
     var regions = {};
-
+    const cleanRows = (v)=>{return (v["Tester"].length > 1)  } 
     links.forEach(link => {
       getDataFromLink(link.url).then(data => {
         var jsonData = JSON.parse(CSVToJSON(data));
-        jsonData.forEach(element => {
+        jsonData.forEach( (element,index)=> {
           element["VPN Name"] = link.name;
-          var code = element["Country CODE"];
-          if (regions[code]) {
-            regions[code]++;
-          } else {
-            regions[code] = 1;
+          if(element["Tester"] == "Global Results" || element["Tester"] == "Global Average"){
+            delete jsonData[index];
+          }else{
+            var code = element["Country CODE"];
+            if (regions[code]) {
+              regions[code]++;
+            } else {
+              regions[code] = 1;
+            }
           }
         });
+
+        jsonData = jsonData.filter(cleanRows);
+
         if (first) {
           table.setData(jsonData);
           first = false;
         } else {
           table.addData(jsonData);
         }
+        
         map.setSelected('regions', Object.keys(regions));
 
       });
@@ -631,3 +663,4 @@
 </script>
 
 </html>
+
