@@ -271,7 +271,7 @@
         </ul>
       </li>
       <li class="social-cnt">
-        <div><a href="https://github.com/techlore-official" target="_blank"><img alt="github"
+        <div><a href="https://github.com/techlore" target="_blank"><img alt="github"
               src="assets/svg/github.svg"></a>
         </div>
         <div><a href="https://www.patreon.com/techlore" target="_blank"><img alt="patreon"
@@ -282,9 +282,6 @@
         <div><a href="https://discord.gg/Xd7baMSpqS" target="_blank"><img alt="discord"
               src="assets/svg/discord.svg"></a>
         </div>
-
-        <div><a href="https://t.me/techloreofficial" target="_blank"><img alt="telegram"
-              src="assets/svg/telegram-a.svg"></a></div>
         <div><a href="https://matrix.to/#/+techlore-official:matrix.org" target="_blank"><img alt="matrix"
               src="assets/svg/matrix.svg"></a>
         </div>
@@ -597,7 +594,7 @@
     var json;
     var first = true;
     var regions = {};
-    const cleanRows = (v)=>{return (v["Tester"].length > 1)  } 
+    const cleanRows = (v)=>{return (v["Tester"].length > 1)  }
     links.forEach(link => {
       getDataFromLink(link.url).then(data => {
         var jsonData = JSON.parse(CSVToJSON(data));
@@ -623,7 +620,7 @@
         } else {
           table.addData(jsonData);
         }
-        
+
         map.setSelected('regions', Object.keys(regions));
 
       });
@@ -667,4 +664,3 @@
 </script>
 
 </html>
-
