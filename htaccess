@@ -23,3 +23,9 @@ RewriteRule ^(.*)$ "https\:\/\/techlore\.tech\/$1" [R=301,L]
         Header set Cache-Control "max-age=85400, public"
     </filesMatch>
 </ifModule>
+
+# Remove html file extension https://example.com/page.html to https://example.com/page
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC, L]
