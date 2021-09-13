@@ -1,9 +1,18 @@
-on: push
+concurrency:
+  group: Production
+  cancel-in-progress: true
+on:
+  push:
+    branches: [ master ]
+
 name: Publish Website
+
 jobs:
   FTP-Deploy-Action:
     name: FTP-Deploy-Action
     runs-on: ubuntu-latest
+    environment: production
+
     steps:
     - uses: actions/checkout@v2.1.0
       with:
@@ -11,6 +20,6 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
-        ftp-server: ftp://ftp.techlore.tech/public_html/
-        ftp-username: techlore@techlore.tech
+        ftp-server: ${{ secrets.FTP_SERVER }}
+        ftp-username: ${{ secrets.FTP_USERNAME }}
         ftp-password: ${{ secrets.FTP_PASSWORD }}
