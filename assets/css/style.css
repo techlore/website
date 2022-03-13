@@ -13,9 +13,10 @@
   --blue: #279ad4;
   --blue-d: #05325E;
   --red: #861c1c;
-  --orange: #db6c4f;
+  --orange: #E84C3D;
   --orange-v: #f05228;
   --yellow: #fbb612;
+  --pink: #C75564;
   --green: #369A77;
   --green-d: #024c32;
 }
@@ -991,6 +992,12 @@ details > summary::-webkit-details-marker {
 .tags._bg-yellow>*,._ch._bg-yellow>div>* {
   background: var(--yellow) !important;
 }
+
+._bg-pink:not(._np),
+.tags._bg-pink>*,._ch._bg-pink>div>* {
+  background: var(--pink) !important;
+}
+
 ._small{
   font-size: 1rem;
 }
