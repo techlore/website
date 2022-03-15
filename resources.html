@@ -159,14 +159,12 @@
       This page recommends services based on
       research from several websites and expert recommendations. For a more thorough resource, visit
       <a href="https://www.privacyguides.org/" target="blank" class="URL_link">Privacy Guides</a>.
-      <br><br>
-      Note: These are currently blatant recommendations with little context. We are developing context for each recommendation in the near future.
     </div>
     <h2>Techlore Tools</h2>
     <div class="grid _centered">
       <div class="col-3 ">
         <div class="card _bg-black-t _centered">
-          <h3>Anonymity Quiz</h3>
+          <h3>SPA Quiz</h3>
           <div class="links">
             <a href="./spa">Visit </a>
           </div>
@@ -174,23 +172,15 @@
       </div>
       <div class="col-3">
         <div class="card _bg-black-t _centered">
-          <h3>Detailed VPN Chart</h3>
-          <div class="links">
-            <a href="./vpnchart">Visit </a>
-          </div>
+          <h3>VPN Toolkit</h3>
+          <div class="links"><a href="./vpn"> Visit </a></div>
         </div>
       </div>
       <div class="col-3">
         <div class="card _bg-black-t _centered">
-          <h3>VPN Finder Tool</h3>
-          <div class="links"><a href="./vpnfinder"> Visit </a></div>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="card _bg-black-t _centered">
-          <h3>VPN DIY Review Tool</h3>
+          <h3>Plexus</h3>
           <div class="links">
-            <a href="./vpnreview">Visit </a>
+            <a href="https://plexus.techlore.tech">Visit </a>
           </div>
         </div>
       </div>
@@ -229,11 +219,23 @@
       </div>
     </div>
     <hr>
-    <div><i style="background:#000">
+    <div class="resourcesdetails">
+      <ul>
+        <li>
+          <i style="background:#000">
         <img src="./assets/logos/aflink2.svg" alt="protonVPN-affiliated">
-      </i> Affiliate Link - Each service has a link to its official website and an affiliate link if you choose to
+      </i> Affiliate Link - Some services have a link to their official site, and a separate affiliate link if you choose to
       support Techlore. <a href="https://github.com/techlore/channel-content/blob/master/affiliates.md"
-        target="blank" class="URL_link"> View our strict requirements here </a></div>
+        target="blank" class="URL_link"> View our strict requirements here.</a>
+        </li>
+        <li>
+          <b>★</b>&nbsp; marks our favorite services. They surely do not represent every threat model and shouldn't be over-analyzed.
+        </li>
+        <li>
+          Hover over (or hold on mobile) each service for more details.
+        </li>
+      </ul>
+      </div>
     <hr>
     <h2>Software</h2>
     <div class="grid _np _bg-black-t _ch">
@@ -242,30 +244,91 @@
           <div>
             <u>&nbsp;Desktop Web Browsers&nbsp;</u>
           </div>
-          <ul><a href="https://www.torproject.org/">
+          <ul>
+              <a href="https://www.torproject.org/">
               <li>
                 <i style="background:#7E4798">
-                  <img src="./assets/logos/torbrowser.svg" alt="tor"></i>&nbsp;&nbsp;Tor Browser</li>
+                  <img src="./assets/logos/torbrowser.svg" alt="tor"></i>&nbsp;&nbsp;
+                  <div class="tooltip">
+                    Tor Browser ★
+                    <div class="top">The Tor Browser is one of the safest browsing experiences by prioritizing anonymity & freedom of information above all else. It's one of the most effective and accessible anonymity tools.<br><br>
+                      <ul>
+                        <li>Open Source</li>
+                        <li>Firefox Base</li>
+                      </ul>
+                    </div>
+                  </div></li>
             </a>
             <a href="https://www.mozilla.org">
               <li><i style="background:#FF7139">
-                  <img src="./assets/logos/firefox.svg" alt="firefox"></i>&nbsp;&nbsp;Firefox</li>
+                  <img src="./assets/logos/firefox.svg" alt="firefox"></i>&nbsp;&nbsp;
+                  <div class="tooltip">
+                    Firefox
+                    <div class="top">
+                      Firefox doesn't have the best defaults, reserving maximum privacy & security through hardening the browser. An attractive reason to use Firefox is it's an alternative to the Chromium monopoly.<br><br>
+                      <ul>
+                        <li>Open Source</li>
+                        <li>Firefox Base</li>
+                      </ul>
+                    </div>
+                  </div></li>
             </a>
             <a href="https://librewolf.net/">
               <li><i style="background:#FFFFFF">
-                  <img src="./assets/logos/librewolf.svg" alt="Librewolf"></i>&nbsp;&nbsp;LibreWolf</li>
-            </a>
-            <a href="https://github.com/Eloston/ungoogled-chromium">
-              <li><i style="background:#4285F4">
-                  <img src="./assets/logos/chromium.svg" alt="ungoogled"></i>&nbsp;&nbsp;Ungoogled-Chromium</li>
+                  <img src="./assets/logos/librewolf.svg" alt="Librewolf"></i>&nbsp;&nbsp;
+                  <div class="tooltip">
+                    LibreWolf ★
+                    <div class="top">
+                      LibreWolf tackles most Firefox hardening out-of-the-box & does a decent job of maintaining security updates. Be aware that using forks of projects come with concerns regarding trusting a new party, in addition to trusting them to maintain security updates.<br><br>
+                      <ul>
+                        <li>Open Source</li>
+                        <li>Firefox Base</li> 
+                      </ul>
+                    </div>
+                  </div></li>
             </a>
             <a href="https://brave.com/">
               <li><i style="background:#FB542B">
-                  <img src="./assets/logos/brave.svg" alt="brave"></i>&nbsp;&nbsp;Brave</li>
+                  <img src="./assets/logos/brave.svg" alt="brave"></i>&nbsp;&nbsp;
+                  <div class="tooltip">
+                    Brave ★
+                    <div class="top">
+                      Brave attempts to offer a familiar browser experience with privacy & security by default. Brave does many neat things for users out-of-the-box, but a possible annoyance is the cryptocurrency features. (Can be disabled)<br><br>
+                      <ul>
+                        <li>Open Source</li>
+                        <li>Chromium Base</li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+            </a>
+            <a href="https://github.com/Eloston/ungoogled-chromium">
+              <li><i style="background:#4285F4">
+                  <img src="./assets/logos/chromium.svg" alt="ungoogled"></i>&nbsp;&nbsp;
+                  <div class="tooltip">
+                    Ung-Chromium
+                    <div class="top">
+                      Ungoogled-Chromium aims to strip the remaining bits of Google from the open source Chromium browser. Security updates are a bit slower, and it has some (out-of-the-box) usability sacrifices.<br><br>
+                      <ul>
+                        <li>Open Source</li>
+                        <li>Chromium Base</li>
+                      </ul>
+                    </div>
+                  </div></li>
             </a>
             <a href="https://www.apple.com/safari/">
               <li><i style="background:#292929">
-                  <img src="./assets/logos/safari.svg" alt="safari"></i>&nbsp;&nbsp;Safari</li>
+                  <img src="./assets/logos/safari.svg" alt="safari"></i>&nbsp;&nbsp;
+                  <div class="tooltip">
+                    Safari
+                    <div class="top">
+                      Apple's Safari offers users in the Apple ecosystem a moderately safe default browser with basic privacy & security precautions out-of-the-box.<br><br>
+                      <ul>
+                        <li>Proprietary</li>
+                        <li>WebKit Base</li>
+                      </ul>
+                    </div>
+                  </div></li>
             </a>
             <a href="https://www.youtube.com/watch?v=QIY-FxYLw8Y">
               <li><i style="background:#FF0000">
@@ -287,23 +350,73 @@
             <a href="https://play.google.com/store/apps/details?id=org.torproject.torbrowser">
               <li><i style="background:#7E4798">
                   <img src="./assets/logos/torbrowser.svg" alt="tor">
-                </i>&nbsp;&nbsp;Tor Browser</li>
+                </i>&nbsp;&nbsp;
+
+                <div class="tooltip">
+                    Tor Browser ★
+                    <div class="top">The Tor Browser is one of the safest browsing experiences by prioritizing anonymity & freedom of information above all else. It's one of the most effective and accessible anonymity tools.<br><br>
+                      <ul>
+                        <li>Open Source</li>
+                        <li>Firefox Base</li>
+                      </ul>
+                    </div>
+                  </div></li>
             </a>
             <a href="https://www.bromite.org/">
               <li><i style="background:#4a8e62">
-                  <img src="./assets/logos/bromite.svg" alt="firefox"></i>&nbsp;&nbsp;Bromite</li>
+                  <img src="./assets/logos/bromite.svg" alt="bromite"></i>&nbsp;&nbsp;
+                  <div class="tooltip">
+                    Bromite ★
+                    <div class="top">
+                      Bromite strikes a comfortable balance between mobile privacy, security, and usability, all with great out-of-the-box practices.<br><br>
+                      <ul>
+                        <li>Open Source</li>
+                        <li>Chromium Base</li>
+                      </ul>
+                    </div>
+                  </div></li>
             </a>
             <a href="https://brave.com/">
               <li><i style="background:#FB542B">
-                  <img src="./assets/logos/brave.svg" alt="brave"></i>&nbsp;&nbsp;Brave </li>
-            </a>
-            <a href="https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android">
-              <li><i style="background:#DE5833">
-                  <img src="./assets/logos/duckduckgo.svg" alt="duckduckgo"></i>&nbsp;&nbsp;DuckDuckGo</li>
+                  <img src="./assets/logos/brave.svg" alt="brave"></i>&nbsp;&nbsp;
+                  <div class="tooltip">
+                    Brave ★
+                    <div class="top">
+                      Brave attempts to offer a familiar browser experience with privacy & security by default. Brave does many neat things for users out-of-the-box, but a possible annoyance is the cryptocurrency features. (Can be disabled)<br><br>
+                      <ul>
+                        <li>Open Source</li>
+                        <li>Chromium Base</li>
+                      </ul>
+                    </div>
+                  </div></li>
             </a>
             <a href="https://play.google.com/store/apps/details?id=org.mozilla.firefox">
               <li><i style="background:#FF7139">
-                  <img src="./assets/logos/firefox.svg" alt="firefox"></i>&nbsp;&nbsp;Firefox</li>
+                  <img src="./assets/logos/firefox.svg" alt="firefox"></i>&nbsp;&nbsp;
+                  <div class="tooltip">
+                    Firefox
+                    <div class="top">
+                      Firefox doesn't have the best defaults, reserving maximum privacy & security through hardening the browser. (Limited on mobile) An attractive reason to use Firefox is it's an alternative to the Chromium monopoly.<br><br>
+                      <ul>
+                        <li>Open Source</li>
+                        <li>Firefox Base</li>
+                      </ul>
+                    </div>
+                  </div></li>
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android">
+              <li><i style="background:#DE5833">
+                  <img src="./assets/logos/duckduckgo.svg" alt="duckduckgo"></i>&nbsp;&nbsp;
+                  <div class="tooltip">
+                    DuckDuckGo
+                    <div class="top">
+                      DuckDuckGo's mobile browser intends to be a disposable, ephemeral option. It does not offer the best privacy & security, but can serve a purpose for users needing an ephemeral service.<br><br>
+                      <ul>
+                        <li>Open Source</li>
+                        <li>WebView</li>
+                      </ul>
+                    </div>
+                  </div></li>
             </a>
             <a href="https://youtu.be/-CDVNW2MD0g">
               <li><i style="background:#FF0000">
@@ -320,23 +433,74 @@
           <ul>
             <a href="https://onionbrowser.com">
               <li><i style="background:#7E4798">
-                  <img src="./assets/logos/tor.svg" alt="tor"></i>&nbsp;&nbsp;Onion Browser</li>
-            </a>
-            <a href="https://www.apple.com/safari/">
-              <li><i style="background:#292929">
-                  <img src="./assets/logos/safari.svg" alt="safari"></i>&nbsp;&nbsp;Safari</li>
+                  <img src="./assets/logos/tor.svg" alt="tor"></i>&nbsp;&nbsp;
+                  <div class="tooltip">
+                    Onion Browser ★
+                    <div class="top">
+                      Onion Browser is an unofficial Tor Browser. Due to iOS limitations, it should not be considered as safe as the Tor Browser Project, though it still offers users a layer of anonymity.<br><br>
+                      <ul>
+                        <li>Open Source</li>
+                        <li>WebKit</li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
             </a>
             <a href="https://brave.com/">
               <li><i style="background:#FB542B">
-                  <img src="./assets/logos/brave.svg" alt="brave"></i>&nbsp;&nbsp;Brave </li>
-            </a>
-            <a href="https://apps.apple.com/us/app/duckduckgo-privacy-browser/id663592361">
-              <li><i style="background:#DE5833">
-                  <img src="./assets/logos/duckduckgo.svg" alt="duckduckgo"></i>&nbsp;&nbsp;DuckDuckGo</li>
+                  <img src="./assets/logos/brave.svg" alt="brave"></i>&nbsp;&nbsp;
+                  <div class="tooltip">
+                    Brave ★
+                    <div class="top">
+                      Brave attempts to offer a familiar browser experience with privacy & security by default. Brave does many neat things for users out-of-the-box, but a possible annoyance is the cryptocurrency features. (Can be disabled)<br><br>
+                      <ul>
+                        <li>Open Source</li>
+                        <li>WebKit</li>
+                      </ul>
+                    </div>
+                  </div> </li>
             </a>
             <a href="https://apps.apple.com/us/app/firefox-private-safe-browser/id989804926">
               <li><i style="background:#FF7139">
-                  <img src="./assets/logos/firefox.svg" alt="firefox"></i>&nbsp;&nbsp;Firefox</li>
+                  <img src="./assets/logos/firefox.svg" alt="firefox"></i>&nbsp;&nbsp;
+                  <div class="tooltip">
+                    Firefox 
+                    <div class="top">
+                      Firefox doesn't have the best defaults, but it's making progress to improve the situation. The privacy & security offered is maximized through hardening. (Significantly limited on iOS)<br><br>
+                      <ul>
+                        <li>Open Source</li>
+                        <li>Webkit</li>
+                      </ul>
+                    </div>
+                  </div></li>
+            </a>
+            <a href="https://apps.apple.com/us/app/duckduckgo-privacy-browser/id663592361">
+              <li><i style="background:#DE5833">
+                  <img src="./assets/logos/duckduckgo.svg" alt="duckduckgo"></i>&nbsp;&nbsp;
+                  <div class="tooltip">
+                    DuckDuckGo
+                    <div class="top">
+                      DuckDuckGo's mobile browser intends to be a disposable, ephemeral option. It does not offer the best privacy & security, but can serve a purpose for users needing an ephemeral service.<br><br>
+                      <ul>
+                        <li>Open Source</li>
+                        <li>WebKit</li>
+                      </ul>
+                    </div>
+                  </div></li>
+            </a>
+            <a href="https://www.apple.com/safari/">
+              <li><i style="background:#292929">
+                  <img src="./assets/logos/safari.svg" alt="safari"></i>&nbsp;&nbsp;
+                  <div class="tooltip">
+                    Safari
+                    <div class="top">
+                      Apple's Safari offers users in the Apple ecosystem a moderately safe default browser with basic privacy & security precautions out-of-the-box.<br><br>
+                      <ul>
+                        <li>Proprietary</li>
+                        <li>WebKit</li>
+                      </ul>
+                    </div>
+                  </div></li>
             </a>
           </ul>
         </div>
@@ -349,11 +513,31 @@
           <ul>
             <a href="https://keepass.info/">
               <li><i style="background:#6CAC4D">
-                  <img src="./assets/logos/keepassxc.svg" alt="keepass"></i>&nbsp;&nbsp;KeePass</li>
+                  <img src="./assets/logos/keepassxc.svg" alt="keepass"></i>&nbsp;&nbsp;
+                  <div class="tooltip">
+                    KeePass ★
+                    <div class="top">
+                      KeePass is a secure & customizable password manager, but it requires work to function as conveniently as some users may expect.<br><br>
+                      <ul>
+                        <li>Open Source</li>
+                        <li>Free</li>
+                      </ul>
+                    </div>
+                  </div></li>
             </a>
             <a href="https://bitwarden.com/">
               <li><i style="background:#175DDC">
-                  <img src="./assets/logos/bitwarden.svg" alt="bitwarden"></i>&nbsp;&nbsp;Bitwarden</li>
+                  <img src="./assets/logos/bitwarden.svg" alt="bitwarden"></i>&nbsp;&nbsp;
+                  <div class="tooltip">
+                    Bitwarden ★
+                    <div class="top">
+                      Bitwarden is a trusted, cloud-based option with zero-knowledge encryption to keep you safe. They offer an attractive middle-ground for password management, as well as the option for self-hosting.<br><br>
+                      <ul>
+                        <li>Open Source</li>
+                        <li>Free Tier</li>
+                      </ul>
+                    </div>
+                  </div></li>
             </a>
             <a href="https://www.youtube.com/watch?v=jZr4u5nEZP4">
               <li><i style="background:#FF0000">
@@ -370,11 +554,31 @@
           <ul>
             <a href="https://getaegis.app">
               <li><i style="background:#fff">
-                  <img src="./assets/logos/aegis.svg" alt="aegis"></i>&nbsp;&nbsp;Aegis (Android)</li>
+                  <img src="./assets/logos/aegis.svg" alt="aegis"></i>&nbsp;&nbsp;
+                  <div class="tooltip">
+                    Aegis (Android) ★
+                    <div class="top">
+                      Aegis is one of the most polished & simple TOTP services for Android.<br><br>
+                      <ul>
+                        <li>Open Source</li>
+                        <li>Free</li>
+                      </ul>
+                    </div>
+                  </div></li>
             </a>
             <a href="https://github.com/raivo-otp/ios-application">
               <li><i style="background:#fff">
-                  <img src="./assets/logos/raivo.svg" alt="raivo"></i>&nbsp;&nbsp;Raivo OTP (iOS)</li>
+                  <img src="./assets/logos/raivo.svg" alt="raivo"></i>&nbsp;&nbsp;
+                  <div class="tooltip">
+                    Raivo OTP (iOS) ★
+                    <div class="top">
+                      Raivo OTP is one of the most polished & simple TOTP services for iOS.<br><br>
+                      <ul>
+                        <li>Open Source</li>
+                        <li>Free</li>
+                      </ul>
+                    </div>
+                  </div></li>
             </a>
             <a href="https://youtu.be/iXSyxm9jmmo">
               <li><i style="background:#FF0000">
@@ -390,16 +594,40 @@
           </div>
           <ul>
             <a href="https://www.yubico.com/">
-              <li><i style="background:#fff">
-                  <img src="./assets/logos/yubikey.svg" alt="yubikey"></i>&nbsp;&nbsp;Yubikey</li>
+              <li><i style="background:#9ACB3D">
+                  <img src="./assets/logos/yubikey.svg" alt="yubikey"></i>&nbsp;&nbsp;
+                  <div class="tooltip">
+                    Yubikey ★
+                    <div class="top">
+                      <ul>
+                        <li>Proprietary</li>
+                      </ul>
+                    </div>
+                  </div></li>
             </a>
             <a href="https://solokeys.com/">
               <li><i style="background:#fff">
-                  <img src="./assets/logos/solo.svg" alt="solokeys"></i>&nbsp;&nbsp;SoloKeys</li>
+                  <img src="./assets/logos/solo.svg" alt="solokeys"></i>&nbsp;&nbsp;
+                  <div class="tooltip">
+                    SoloKeys
+                    <div class="top">
+                      <ul>
+                        <li>Open Source</li>
+                      </ul>
+                    </div>
+                  </div></li>
             </a>
             <a href="https://www.nitrokey.com/">
-              <li><i style="background:#000000">
-                  <img src="./assets/logos/nitrokey.svg" alt="nitrokey"></i>&nbsp;&nbsp;Nitrokey</li>
+              <li><i style="background:#D1003B">
+                  <img src="./assets/logos/nitrokey.svg" alt="nitrokey"></i>&nbsp;&nbsp;
+                  <div class="tooltip">
+                    Nitrokey
+                    <div class="top">
+                      <ul>
+                        <li>Open Source</li>
+                      </ul>
+                    </div>
+                  </div></li>
             </a>
           </ul>
         </div>
@@ -412,16 +640,43 @@
           <ul>
             <a href="https://www.veracrypt.fr">
               <li><i style="background:#08ABD8">
-                  <img src="./assets/logos/veracrypt.svg" alt="veracrypt"></i>&nbsp;&nbsp;Veracrypt</li>
+                  <img src="./assets/logos/veracrypt.svg" alt="veracrypt"></i>&nbsp;&nbsp;
+                  <div class="tooltip">
+                    Veracrypt ★
+                    <div class="top">
+                      Veracrypt offers users encrypted volumes, and on some operating systems full disk encryption. It is a great option for those needing maximum security.<br><br>
+                      <ul>
+                        <li>Open Source</li>
+                      </ul>
+                    </div>
+                  </div></li>
             </a>
             <a href="https://gnupg.org/">
               <li><i style="background:#0093DD">
-                  <img src="./assets/logos/gnuprivacyguard.svg" alt="gnuprivacyguard"></i>&nbsp;&nbsp;GNU Privacy Guard
+                  <img src="./assets/logos/gnuprivacyguard.svg" alt="gnuprivacyguard"></i>&nbsp;&nbsp;
+                  <div class="tooltip">
+                    GNU Privacy Guard
+                    <div class="top">
+                      GnuPG offers flexible encryption options across different mediums for users needing a more versatile option, at the cost of generally being more advanced.<br><br>
+                      <ul>
+                        <li>Open Source</li>
+                      </ul>
+                    </div>
+                  </div>
               </li>
             </a>
             <a href="https://www.7-zip.org/">
               <li><i style="background:#fff">
-                  <img src="./assets/logos/7zip.svg" alt="7zip"></i>&nbsp;&nbsp;7-Zip</li>
+                  <img src="./assets/logos/7zip.svg" alt="7zip"></i>&nbsp;&nbsp;
+                  <div class="tooltip">
+                    7-Zip
+                    <div class="top">
+                      7-Zip is an archiving tool with basic file encryption options. It is not as robust as the other options and should be used with caution for sensitive tasks.<br><br>
+                      <ul>
+                        <li>Open Source</li>
+                      </ul>
+                    </div>
+                  </div></li>
             </a>
             <a href="https://www.youtube.com/watch?v=I1nj05n5lL4">
               <li><i style="background:#FF0000">
@@ -438,16 +693,46 @@
           <ul>
             <a href="https://f-droid.org/">
               <li><i style="background:#ecf0f1">
-                  <img src="./assets/logos/fdroid.svg" alt="fdroid"></i>&nbsp;&nbsp;F-Droid</li>
+                  <img src="./assets/logos/fdroid.svg" alt="fdroid"></i>&nbsp;&nbsp;
+                  <div class="tooltip">
+                    F-Droid ★
+                    <div class="top">
+                      F-Droid is the go-to FOSS app store for all Android devices.<br><br>
+                      <ul>
+                        <li>Open Source</li>
+                        <li>Android</li>
+                      </ul>
+                    </div>
+                  </div></li>
             </a>
             <a href="https://auroraoss.com/downloads.php">
               <li><i style="background:#6B62FF">
-                  <img src="./assets/logos/aurora.svg" alt="aurora"></i>&nbsp;&nbsp;Aurora Store
+                  <img src="./assets/logos/aurora.svg" alt="aurora"></i>&nbsp;&nbsp;
+                  <div class="tooltip">
+                    Aurora Store ★
+                    <div class="top">
+                      Aurora Store allows users to download apps directly from the Google Play Store without a Google Account safely.<br><br>
+                      <ul>
+                        <li>Open Source</li>
+                        <li>Android</li>
+                      </ul>
+                    </div>
+                  </div>
               </li>
             </a>
             <a href="https://altstore.io/">
               <li><i style="background:#358389">
-                  <img src="./assets/logos/altstore.svg" alt="altstore"></i>&nbsp;&nbsp;AltStore</li>
+                  <img src="./assets/logos/altstore.svg" alt="altstore"></i>&nbsp;&nbsp;
+                  <div class="tooltip">
+                    AltStore
+                    <div class="top">
+                      AltStore allows iOS users to install IPA files (apps) to their device without the App Store. Apple's restrictions, however, make this a generally limited experience.<br><br>
+                      <ul>
+                        <li>Open Source</li>
+                        <li>iOS</li>
+                      </ul>
+                    </div>
+                  </div></li>
             </a>
           </ul>
         </div>
@@ -461,25 +746,85 @@
             <u>&nbsp;Desktop&nbsp;</u>
           </div>
           <ul>
+              <a href="https://www.qubes-os.org/">
+              <li><i style="background:#3874d8">
+                  <img src="./assets/logos/qubes.svg" alt="qubes">
+                </i> &nbsp;&nbsp;
+                <div class="tooltip">
+                  QubesOS ★
+                  <div class="top">
+                    Qubes separates programs & operating systems into secure environments for maximum safety. It can be slower and may have compatibility issues with certain hardware.<br><br>
+                    <ul>
+                      <li>Open Source</li>
+                      <li>Xen</li>
+                      <li>Advanced</li>
+                    </ul>
+                  </div>
+                </div></li>
+            </a>
             <a href="https://getfedora.org/">
               <li><i style="background:#294172">
                   <img src="./assets/logos/fedora.svg" alt="fedora">
-                </i> &nbsp;&nbsp;Fedora</li>
+                </i> &nbsp;&nbsp;
+                <div class="tooltip">
+                  Fedora ★
+                  <div class="top">
+                    Fedora has strong out-of-the-box privacy & security practices, all backed by a trustworty and commited team.<br><br>
+                    <ul>
+                      <li>Open Source</li>
+                      <li>Linux</li>
+                      <li>Moderate</li>
+                    </ul>
+                  </div>
+                </div></li>
             </a>
             <a href="https://www.archlinux.org/">
               <li><i style="background:#1793D1">
                   <img src="./assets/logos/archlinux.svg" alt="arch">
-                </i> &nbsp;&nbsp;Arch</li>
+                </i> &nbsp;&nbsp;
+                <div class="tooltip">
+                  Arch
+                  <div class="top">
+                    Arch offers bleeding-edge updates with a more configurable option for users. Many looking to harden Linux themselves enjoy the flexibility offered by Arch.<br><br>
+                    <ul>
+                      <li>Open Source</li>
+                      <li>Linux</li>
+                      <li>Advanced</li>
+                    </ul>
+                  </div>
+                </div></li>
             </a>
             <a href="https://www.debian.org">
               <li><i style="background:#C70737">
                   <img src="./assets/logos/debian.svg" alt="debian">
-                </i> &nbsp;&nbsp;Debian</li>
+                </i> &nbsp;&nbsp;
+                <div class="tooltip">
+                  Debian
+                  <div class="top">
+                    Debian offers stability above all else. While updates are generally slower, Debian still pushes frequent security updates.<br><br>
+                    <ul>
+                      <li>Open Source</li>
+                      <li>Linux</li>
+                      <li>Moderate</li>
+                    </ul>
+                  </div>
+                </div></li>
             </a>
             <a href="https://www.apple.com/macos/what-is/">
               <li><i style="background: #292929;">
                   <img src="./assets/logos/macos.svg" alt="macos">
-                </i> &nbsp;&nbsp;MacOS</li>
+                </i> &nbsp;&nbsp;
+                <div class="tooltip">
+                  MacOS ★
+                  <div class="top">
+                    MacOS can be a reasonably private & secure OS for many threat models. Despite being proprietary, it offers strong protection and is a great alternative to Windows. Please refer to the device guides at the top of this page for more details.<br><br>
+                    <ul>
+                      <li>Proprietary</li>
+                      <li>Apple MacOS</li>
+                      <li>Simple</li>
+                    </ul>
+                  </div>
+                </div></li>
             </a>
             <a href="https://www.youtube.com/watch?v=0wk_GlCtWW4">
               <li><i style="background:#FF0000">
@@ -494,18 +839,34 @@
             <u>&nbsp;Expendable/LiveOS&nbsp;</u>
           </div>
           <ul>
-            <a href="https://www.qubes-os.org/">
-              <li><i style="background:#3874d8">
-                  <img src="./assets/logos/qubes.svg" alt="qubes">
-                </i> &nbsp;&nbsp;QubesOS</li>
-            </a>
             <a href="https://www.whonix.org/">
-              <li><i style="background:#C3C3D1">
-                  <img src="./assets/logos/whonix.svg" alt="whonix"></i>&nbsp;&nbsp;Whonix</li>
+              <li><i style="background:#5AB4E1">
+                  <img src="./assets/logos/whonix.svg" alt="whonix"></i>&nbsp;&nbsp;
+                  <div class="tooltip">
+                    Whonix ★
+                    <div class="top">
+                      Whonix offers both a virtual and live environment with a goal of anonymity. All activies are routed through Tor with strong privacy & security precautions.<br><br>
+                      <ul>
+                        <li>Open Source</li>
+                        <li>Virtual Machine</li>
+                        <li>LiveOS</li>
+                      </ul>
+                    </div>
+                  </div></li>
             </a>
             <a href="https://tails.boum.org/">
               <li><i style="background:#56347C">
-                  <img src="./assets/logos/tails.svg" alt="tails"></i>&nbsp;&nbsp;TailsOS</li>
+                  <img src="./assets/logos/tails.svg" alt="tails"></i>&nbsp;&nbsp;
+                  <div class="tooltip">
+                    TailsOS
+                    <div class="top">
+                      TailsOS offers a Tor-routed live environment for privacy & anonymity.<br><br>
+                      <ul>
+                        <li>Open Source</li>
+                        <li>LiveOS</li>
+                      </ul>
+                    </div>
+                  </div></li>
             </a>
             <a href="https://www.youtube.com/watch?v=WptwYrSr8ag">
               <li><i style="background:#FF0000">
@@ -523,23 +884,74 @@
             <a href="https://calyxos.org/">
               <li><i style="background:#9BCC01">
                   <img src="./assets/logos/calyxos.svg" alt="calyxos">
-                </i> &nbsp;&nbsp;CalyxOS</li>
-            </a>
-            <a href="https://lineageos.org/">
-              <li><i style="background:#167C80">
-                  <img src="./assets/logos/lineageos.svg" alt="lineage"></i>&nbsp;&nbsp;LineageOS</li>
+                </i> &nbsp;&nbsp;
+                <div class="tooltip">
+                  CalyxOS ★
+                  <div class="top">
+                    CalyxOS maintains stock security, while balancing additional privacy & security features with usability.<br><br>
+                    <ul>
+                      <li>Open Source</li>
+                      <li>Strong Protection</li>
+                      <li>Limited Devices</li>
+                    </ul>
+                  </div>
+                </div></li>
             </a>
             <a href="https://divestos.org/">
               <li><i style="background:#000000">
-                  <img src="./assets/logos/divest.svg" alt="divest"></i>&nbsp;&nbsp;DivestOS</li>
+                  <img src="./assets/logos/divest.svg" alt="divest"></i>&nbsp;&nbsp;
+                  <div class="tooltip">
+                    DivestOS
+                    <div class="top">
+                    DivestOS attempts to fix some security issues with LineageOS (like bringing verified boot to some devices) while maintaing large device compatability.<br><br>
+                    <ul>
+                      <li>Open Source</li>
+                      <li>Moderate Protection</li>
+                      <li>Many Devices</li>
+                    </ul>
+                    </div>
+                  </div></li>
+            </a>
+            <a href="https://lineageos.org/">
+              <li><i style="background:#167C80">
+                  <img src="./assets/logos/lineageos.svg" alt="lineage"></i>&nbsp;&nbsp;
+                  <div class="tooltip">
+                    LineageOS
+                    <div class="top">
+                      LineageOS has lower security than stock, but it does attempt to improve privacy & transparency. Users should consider pros/cons before using LineageOS over stock.<br><br>
+                      <ul>
+                        <li>Open Source</li>
+                        <li>Low Protection</li>
+                        <li>Many Devices</li>
+                      </ul>
+                    </div>
+                  </div></li>
             </a>
             <a href="https://microg.org/">
               <li><i style="background:#F2F2F2">
-                  <img src="./assets/logos/microg.svg" alt="microG"></i>&nbsp;&nbsp;MicroG</li>
+                  <img src="./assets/logos/microg.svg" alt="microG"></i>&nbsp;&nbsp;
+                  <div class="tooltip">
+                    MicroG
+                    <div class="top">
+                      MicroG is an open source replacement to proprietary Google Play Services. It allows apps & services to work as intended in a more privacy-respecting & transparent fashion on most custom ROMs.<br><br>
+                      <ul>
+                        <li>Open Source</li>
+                      </ul>
+                    </div>
+                  </div></li>
             </a>
             <a href="https://plexus.techlore.tech/">
               <li><i style="background:#000">
-                  <img src="./assets/svg/plexus.svg" alt="plexus"></i>&nbsp;&nbsp;Plexus</li>
+                  <img src="./assets/svg/plexus.svg" alt="plexus"></i>&nbsp;&nbsp;
+                  <div class="tooltip">
+                    Plexus
+                    <div class="top">
+                      While MicroG & de-googled ROMs try to maintain the compatability of Google Play Services, they are not perfect. Plexus allows you to check what apps do/don't work.<br><br>
+                      <ul>
+                        <li>Open Source</li>
+                      </ul>
+                    </div>
+                  </div></li>
             </a>
             <a href="https://www.youtube.com/watch?v=WZCBJ6lVk8Q">
               <li><i style="background:#FF0000">
@@ -561,26 +973,76 @@
             <a href="https://searx.me">
               <li><i style="background:#1CBC9B">
                   <img src="./assets/logos/searx.svg" alt="searx">
-                </i> &nbsp;&nbsp;Searx</li>
-            </a>
-            <a href="https://duckduckgo.com/">
-              <li><i style="background:#DE5833">
-                  <img src="./assets/logos/duckduckgo.svg" alt="duckduckgo"></i>&nbsp;&nbsp;DuckDuckGo</li>
-            </a>
-            <a href="https://www.startpage.com/">
-              <li><i style="background:#fff">
-                  <img src="./assets/logos/startpage.svg" alt="startpage">
-                </i> &nbsp;&nbsp;Startpage</li>
+                </i> &nbsp;&nbsp;
+                <div class="tooltip">
+                  Searx ★
+                  <div class="top">
+                    Searx is an open source, configurable, self-hostable, metasearch engine that compiles results from countless search engines in the same place.<br><br>
+                    <ul>
+                      <li>Open Source</li>
+                      <li>Metasearch</li>
+                    </ul>
+                  </div>
+                </div></li>
             </a>
             <a href="https://search.brave.com/">
               <li><i style="background:#fff">
                   <img src="./assets/logos/bsearch.svg" alt="Brave Search">
-                </i> &nbsp;&nbsp;Brave Search</li>
+                </i> &nbsp;&nbsp;
+                <div class="tooltip">
+                  Brave Search ★
+                  <div class="top">
+                    Brave Search indexes its own results with Brave's crawlers while respecting user privacy.<br><br>
+                    <ul>
+                      <li>Proprietary</li>
+                      <li>Crawler</li>
+                    </ul>
+                  </div>
+                </div></li>
+            </a>
+            <a href="https://duckduckgo.com/">
+              <li><i style="background:#DE5833">
+                  <img src="./assets/logos/duckduckgo.svg" alt="duckduckgo"></i>&nbsp;&nbsp;
+                  <div class="tooltip">
+                    DuckDuckGo
+                    <div class="top">
+                      DuckDuckGo is a metasearch engine with mainly Bing results and an emphasis on user privacy.<br><br>
+                      <ul>
+                        <li>Proprietary</li>
+                        <li>Metasearch</li>
+                      </ul>
+                    </div>
+                  </div></li>
+            </a>
+            <a href="https://www.startpage.com/">
+              <li><i style="background:#fff">
+                  <img src="./assets/logos/startpage.svg" alt="startpage">
+                </i> &nbsp;&nbsp;
+                <div class="tooltip">
+                  Startpage
+                  <div class="top">
+                  Startpage is a metasearch engine with privately proxied Google results.<br><br>
+                  <ul>
+                    <li>Proprietary</li>
+                    <li>Metasearch</li>
+                  </ul>
+                  </div>
+                </div></li>
             </a>
             <a href="https://www.qwant.com/">
               <li><i style="background:#65CEE7">
                   <img src="./assets/logos/qwant.svg" alt="qwant">
-                </i> &nbsp;&nbsp;Qwant</li>
+                </i> &nbsp;&nbsp;
+                <div class="tooltip">
+                  Qwant
+                  <div class="top">
+                    Qwant is a metasearch engine with Bing results and an emphasis on user privacy.<br><br>
+                    <ul>
+                    <li>Proprietary</li>
+                    <li>Metasearch</li>
+                  </ul>
+                  </div>
+                </div></li>
             </a>
             <a href="https://www.youtube.com/watch?v=wa_-pYQUQ0c">
               <li><i style="background:#FF0000">
@@ -599,17 +1061,47 @@
             <a href="https://www.ivpn.net/">
               <li><i style="background:#FF3344">
                   <img src="./assets/logos/ivpn.svg" alt="ivpn">
-                </i> &nbsp;&nbsp;IVPN</li>
+                </i> &nbsp;&nbsp;
+                <div class="tooltip">
+                  IVPN ★
+                  <div class="top">
+                    IVPN is one of the most transparent providers with some of the most robust measures to keep users safe. Use the VPN Toolkit for more details.<br><br>
+                    <ul>
+                      <li>Open Source</li>
+                      <li>Paid</li>
+                    </ul>
+                  </div>
+                </div></li>
             </a>
             <a href="https://mullvad.net/">
               <li><i style="background:#1E2B3B">
                   <img src="./assets/logos/mullvad.svg" alt="mullvad">
-                </i> &nbsp;&nbsp;Mullvad</li>
+                </i> &nbsp;&nbsp;
+                <div class="tooltip">
+                  Mullvad ★
+                  <div class="top">
+                    Mullvad is one of the most transparent providers with some of the most robust measures to keep users safe. Use the VPN Toolkit for more details.<br><br>
+                    <ul>
+                      <li>Open Source</li>
+                      <li>Paid</li>
+                    </ul>
+                  </div>
+                </div></li>
             </a>
             <a href="https://protonvpn.com/">
               <li><i style="background:#5FB364">
                   <img src="./assets/logos/protonVPN.svg" alt="protonVPN">
-                </i> &nbsp;&nbsp;ProtonVPN <a href="http://proton.go2cloud.org/SH1a">
+                </i> &nbsp;&nbsp;
+                <div class="tooltip">
+                  ProtonVPN
+                  <div class="top">
+                    ProtonVPN is one of the most transparent providers with some of the most robust measures to keep users safe. Use the VPN Toolkit for more details.<br><br>
+                    <ul>
+                      <li>Open Source</li>
+                      <li>Free Tier</li>
+                    </ul>
+                  </div>
+                </div><a href="http://proton.go2cloud.org/SH1a">
                   <i style="background:#000" class="right">
                     <img src="./assets/logos/aflink2.svg" alt="protonVPN-affiliated">
                   </i>
@@ -618,7 +1110,17 @@
             <a href="https://windscribe.com/">
               <li><i style="background:#355CB3">
                   <img src="./assets/logos/windscribe.svg" alt="windscribe">
-                </i> &nbsp;&nbsp;Windscribe </i>
+                </i> &nbsp;&nbsp;
+                <div class="tooltip">
+                  Windscribe
+                  <div class="top">
+                    Windscribe is one of the most transparent providers with some of the most robust measures to keep users safe. Use the VPN Toolkit for more details.<br><br>
+                    <ul>
+                      <li>Partly Open Source</li>
+                      <li>Free Tier</li>
+                    </ul>
+                  </div>
+                </div></i>
                 </a></li>
             </a>
             <a href="./vpn">
@@ -639,32 +1141,104 @@
             <a href="https://briarproject.org/">
               <li><i style="background:#87C214">
                   <img src="./assets/logos/briar.svg" alt="briar">
-                </i> &nbsp;&nbsp;Briar</li>
-            </a>
-            <a href="https://matrix.org/">
-              <li><i style="background:#fff">
-                  <img src="./assets/logos/matrix.svg" alt="matrix">
-                </i> &nbsp;&nbsp;Matrix</li>
+                </i> &nbsp;&nbsp;
+                <div class="tooltip">
+                  Briar ★
+                  <div class="top">
+                    Briar is a Tor-routed, E2EE, P2P, anonymity-oriented messenger with some of the most robust protections. It can even be used without internet access.<br><br>
+                    <ul>
+                      <li>Open Source</li>
+                      <li>Android Only</li>
+                      <li>Desktop</li>
+                      <li>Free</li>
+                    </ul>
+                  </div>
+                </div></li>
             </a>
             <a href="https://jami.net/">
               <li><i style="background:rgb(0, 101, 196)">
                   <img src="./assets/logos/jami.svg" alt="jami">
-                </i> &nbsp;&nbsp;Jami</li>
+                </i> &nbsp;&nbsp;
+                <div class="tooltip">
+                  Jami
+                  <div class="top">
+                    Jami is an E2EE, P2P, anonymity-oriented messenger with many strengths for user safety. It can even be used without internet access.<br><br>
+                    <ul>
+                      <li>Open Source</li>
+                      <li>Android & iOS</li>
+                      <li>Desktop</li>
+                      <li>Free</li>
+                    </ul>
+                  </div>
+                </div></li>
             </a>
             <a href="https://www.signal.org/">
               <li><i style="background:#2592E9">
                   <img src="./assets/logos/signal.svg" alt="signal">
-                </i> &nbsp;&nbsp;Signal</li>
+                </i> &nbsp;&nbsp;
+                <div class="tooltip">
+                  Signal ★
+                  <div class="top">
+                    Signal is the gold standard for private & secure messaging, all with a simple interface. Threat modeling is necessary though, as Signal requires a phone number which may be problematic for some.<br><br>
+                    <ul>
+                      <li>Open Source</li>
+                      <li>Android & iOS</li>
+                      <li>Desktop</li>
+                      <li>Free</li>
+                    </ul>
+                  </div>
+                </div></li>
             </a>
             <a href="https://getsession.org/">
               <li><i style="background:#333132">
                   <img src="./assets/logos/session.svg" alt="session">
-                </i> &nbsp;&nbsp;Session</li>
+                </i> &nbsp;&nbsp;
+                <div class="tooltip">
+                  Session ★
+                  <div class="top">
+                  Session strives for a balance between privacy, security, anonymity, & usability.<br><br>
+                  <ul>
+                    <li>Open Source</li>
+                    <li>Android & iOS</li>
+                    <li>Desktop</li>
+                    <li>Free</li>
+                  </ul>
+                </div>
+                </div></li>
+            </a>
+            <a href="https://matrix.org/">
+              <li><i style="background:#fff">
+                  <img src="./assets/logos/matrix.svg" alt="matrix">
+                </i> &nbsp;&nbsp;
+                <div class="tooltip">
+                  Matrix
+                  <div class="top">
+                    Matrix is a federated protocol with the option for E2EE. There is a degree of trust with each homeserver, especially regarding metadata. Its federation is both a pro & a con that users should be aware of before using.<br><br>
+                    <ul>
+                      <li>Open Source</li>
+                      <li>Android & iOS</li>
+                      <li>Desktop</li>
+                      <li>Free</li>
+                    </ul>
+                  </div>
+                </div></li>
             </a>
             <a href="https://threema.ch/">
               <li><i style="background:#4A4A4A">
                   <img src="./assets/logos/threema.svg" alt="threema">
-                </i> &nbsp;&nbsp;Threema</li>
+                </i> &nbsp;&nbsp;
+                <div class="tooltip">
+                  Threema
+                  <div class="top">
+                    Threema offers a simple, but private & secure experience. However, switching people to Threema may be challenging considering it's a paid service.<br><br>
+                    <ul>
+                      <li>Open Source</li>
+                      <li>Android & iOS</li>
+                      <li>Desktop & Web</li>
+                      <li>Paid</li>
+                    </ul>
+                  </div>
+                </div></li>
             </a>
             <a href="https://youtu.be/rPp4rQnrG44">
               <li><i style="background:#FF0000">
@@ -682,19 +1256,59 @@
           <ul>
             <a href="https://nextcloud.com">
               <li><i style="background:#0082C9">
-                  <img src="./assets/logos/nextcloud.svg" alt="nextcloud"></i>&nbsp;&nbsp;Nextcloud</li>
+                  <img src="./assets/logos/nextcloud.svg" alt="nextcloud"></i>&nbsp;&nbsp;
+                  <div class="tooltip">
+                    Nextcloud ★
+                    <div class="top">
+                      Nextcloud is a self-hostable suite for photos, documents, files, contacts, and more. It's a robust service, with the main drawback being an unpolished E2EE offering.<br><br>
+                      <ul>
+                        <li>Open Source</li>
+                        <li>Varying Prices</li>
+                      </ul>
+                    </div>
+                  </div></li>
             </a>
             <a href="https://cryptpad.fr/">
               <li><i style="background:#4591C4">
-                  <img src="./assets/logos/cryptpad.svg" alt="cryptpad"></i>&nbsp;&nbsp;CryptPad</li>
+                  <img src="./assets/logos/cryptpad.svg" alt="cryptpad"></i>&nbsp;&nbsp;
+                  <div class="tooltip">
+                    CryptPad
+                    <div class="top">
+                      CryptPad is an E2EE, document collaboration platform.<br><br>
+                      <ul>
+                        <li>Open Source</li>
+                        <li>Free Tier</li>
+                      </ul>
+                    </div>
+                  </div></li>
             </a>
             <a href="https://cryptomator.org">
               <li><i style="background:#536666">
-                  <img src="./assets/logos/cryptomator.svg" alt="cryptomator"></i>&nbsp;&nbsp;Cryptomator</li>
+                  <img src="./assets/logos/cryptomator.svg" alt="cryptomator"></i>&nbsp;&nbsp;
+                  <div class="tooltip">
+                    Cryptomator ★
+                    <div class="top">
+                      Cryptomator allows users to encrypt their files before uploading them to another cloud provider (Google Drive, Dropbox etc.)<br><br>
+                      <ul>
+                        <li>Open Source</li>
+                        <li>Free</li>
+                      </ul>
+                    </div>
+                  </div></li>
             </a>
             <a href="https://mega.io/">
               <li><i style="background:#D90006">
-                  <img src="./assets/logos/MEGA.svg" alt="MEGA"></i>&nbsp;&nbsp;MEGA <a href="https://mega.nz/security/aff=Ki7nvbOsh6Q">
+                  <img src="./assets/logos/MEGA.svg" alt="MEGA"></i>&nbsp;&nbsp;
+                  <div class="tooltip">
+                    MEGA ★
+                    <div class="top">
+                      MEGA is a traditional cloud provider. They offer source-available clients for all major operating systems, E2EE, and a solid balance between safety & usability.<br><br>
+                      <ul>
+                        <li>Source Available</li>
+                        <li>Free Tier</li>
+                      </ul>
+                    </div>
+                  </div><a href="https://mega.nz/security/aff=Ki7nvbOsh6Q">
                     <i style="background:#000" class="right">
                       <img src="./assets/logos/aflink2.svg" alt="MEGA-affiliated">
                     </i>
@@ -714,9 +1328,19 @@
           </div>
           <ul>
             <a href="https://protonmail.com/">
-              <li><i style="background:#8B89CC">
+              <li><i style="background:#333367">
                   <img src="./assets/logos/protonmail.svg" alt="protonmail">
-                </i> &nbsp;&nbsp;ProtonMail<a href="https://proton.go2cloud.org/SHAo">
+                </i> &nbsp;&nbsp;
+                <div class="tooltip">
+                  ProtonMail ★
+                  <div class="top">
+                    ProtonMail checks all the right boxes when it comes to adding privacy & security protections over the inherently broken email system, all while seeking a simple experience.<br><br>
+                    <ul>
+                      <li>Open Source</li>
+                      <li>Free Tier</li>
+                    </ul>
+                  </div>
+                </div><a href="https://proton.go2cloud.org/SHAo">
                   <i style="background:#000" class="right">
                     <img src="./assets/logos/aflink2.svg" alt="proton-affiliate">
                   </i>
@@ -725,23 +1349,59 @@
             <a href="https://ctemplar.com/">
               <li><i style="background:#283E52">
                   <img src="./assets/logos/ctemplar.svg" alt="ctemplar">
-                </i> &nbsp;&nbsp;CTemplar
+                </i> &nbsp;&nbsp;
+                <div class="tooltip">
+                  CTemplar
+                  <div class="top">
+                    CTemplar prioritizes privacy & security above all else. Despite their data loss incidents, they offer an attractive service for those looking to maximize email protection.<br><br>
+                    <ul>
+                      <li>Open Source</li>
+                      <li>Invite Free Tier</li>
+                    </ul>
+                  </div>
+                </div>
               </li>
             </a>
             <a href="https://www.tutanota.com/">
               <li><i style="background:#A0181A">
                   <img src="./assets/logos/tutanota.svg" alt="tutanota">
-                </i> &nbsp;&nbsp;Tutanota</li>
+                </i> &nbsp;&nbsp;
+                <div class="tooltip">
+                  Tutanota
+                  <div class="top">
+                    Tutanota offers a transparent service with trust, security, and privacy as its focus.<br><br>
+                    <ul>
+                      <li>Open Source</li>
+                      <li>Free Tier</li>
+                    </ul>
+                  </div>
+                </div></li>
             </a>
             <a href="https://mailbox.org/">
               <li><i style="background:#fff">
                   <img src="./assets/logos/mailbox.svg" alt="mailbox">
-                </i> &nbsp;&nbsp;Mailbox.org</li>
+                </i> &nbsp;&nbsp;
+                <div class="tooltip">
+                  Mailbox.org
+                  <div class="top">
+                    Mailbox.org offers privacy & security with an incredibly feature-rich experience. It may be overwhelming and cluttered to some, or a power user's dream.<br><br>
+                    <ul>
+                      <li>Proprietary</li>
+                      <li>Paid</li>
+                    </ul>
+                  </div>
+                </div></li>
             </a>
             <a href="https://www.privacyguides.org/providers/email/#selfhosting">
               <li><i style="background:#2c3e50">
                   <img src="./assets/logos/selfhost.svg" alt="selfhost">
-                </i> &nbsp;&nbsp;Self-Host</li>
+                </i> &nbsp;&nbsp;
+                <div class="tooltip">
+                  Self-Host
+                  <div class="top">
+                    Self-hosting is commonly touted as the safest email approach, but this isn't always the case. Self-hosting comes with risks you should read in the referenced link.
+                  </div>
+                </div></li>
             </a>
             <a href="https://youtu.be/3QjBDehTyiw">
               <li><i style="background:#FF0000">
@@ -760,24 +1420,64 @@
             <a href="https://simplelogin.io">
               <li><i style="background:#D13C8D">
                   <img src="./assets/logos/simplelogin.svg" alt="simplelogin">
-                </i> &nbsp;&nbsp;SimpleLogin<a href="https://simplelogin.io/?slref=techlore>"><i style="background:#000" class="right">
+                </i> &nbsp;&nbsp;
+                <div class="tooltip">
+                  SimpleLogin ★
+                  <div class="top">
+                    SimpleLogin makes email aliasing easier than ever, all built with privacy & security from the ground up. SimpleLogin can also be self-hosted.<br><br>
+                    <ul>
+                      <li>Open Source</li>
+                      <li>Free Tier</li>
+                    </ul>
+                  </div>
+                </div><a href="https://simplelogin.io/?slref=techlore>"><i style="background:#000" class="right">
                     <img src="./assets/logos/aflink2.svg" alt="simplelogin-affiliate">
                   </i></li>
             </a>
             <a href="https://anonaddy.com">
               <li><i style="background:#19216C">
                   <img src="./assets/logos/anonaddy.svg" alt="anonaddy">
-                </i> &nbsp;&nbsp;AnonAddy</li>
+                </i> &nbsp;&nbsp;
+                <div class="tooltip">
+                  AnonAddy
+                  <div class="top">
+                    AnonAddy is a private & secure email aliasing service with a very generous free option.<br><br>
+                    <ul>
+                      <li>Open Source</li>
+                      <li>Free Tier</li>
+                    </ul>
+                  </div>
+                </div></li>
             </a>
             <a href="https://mysudo.com">
               <li><i style="background:#4C6EF3">
                   <img src="./assets/logos/mysudo.svg" alt="mysudo">
-                </i> &nbsp;&nbsp;MySudo</li>
+                </i> &nbsp;&nbsp;
+                <div class="tooltip">
+                  MySudo ★
+                  <div class="top">
+                    MySudo is predominantly a phone number aliasing solution. Like most aliasing solutions, it's a transfer of trust from countless services to one.<br><br>
+                    <ul>
+                      <li>Proprietary</li>
+                      <li>Paid</li>
+                    </ul>
+                  </div>
+                </div></li>
             </a>
             <a href="https://privacy.com">
               <li><i style="background:#232320">
                   <img src="./assets/logos/privacycom.svg" alt="privacy.com">
-                </i> &nbsp;&nbsp;Privacy.com<a href="https://privacy.com/techlore"><i style="background:#000" class="right">
+                </i> &nbsp;&nbsp;
+                <div class="tooltip">
+                  Privacy.com ★
+                  <div class="top">
+                    Privacy.com is a card aliasing solution for shopping online. Like most aliasing solutions, it's a transfer of trust from countless services to one.<br><br>
+                    <ul>
+                      <li>Proprietary</li>
+                    <li>Paid</li>
+                    </ul>
+                  </div>
+                </div><a href="https://privacy.com/techlore"><i style="background:#000" class="right">
                     <img src="./assets/logos/aflink2.svg" alt="privacy-affiliate">
                   </i></li>
             </a></li>
@@ -785,7 +1485,17 @@
             <a href="https://www.guerrillamail.com/">
               <li><i style="background:#462400">
                   <img src="./assets/logos/guerrilla.svg" alt="guerrilla mail">
-                </i> &nbsp;&nbsp;Guerrilla Mail</li>
+                </i> &nbsp;&nbsp;
+                <div class="tooltip">
+                  Guerrilla Mail
+                  <div class="top">
+                    Guerrilla Mail is a disposable email service, allowing users to generate ephemeral emails conveniently.<br><br>
+                    <ul>
+                      <li>Proprietary</li>
+                      <li>Free</li>
+                    </ul>
+                  </div>
+                </div></li>
             </a>
           </ul>
         </div>
@@ -799,36 +1509,91 @@
             <a href="https://www.getmonero.org/">
               <li><i style="background:#FFFFFF">
                   <img src="./assets/logos/monero.svg" alt="monero">
-                </i> &nbsp;&nbsp;Monero</li>
-            </a>            
-            <a href="https://bisq.network/">
-              <li><i style="background:#24B135">
-                  <img src="./assets/logos/bisq.svg" alt="bisq">
-                </i> &nbsp;&nbsp;Bisq Network</li>
-            </a>
+                </i> &nbsp;&nbsp;
+                <div class="tooltip">
+                  Monero ★
+                  <div class="top">
+                    Monero is one of the strongest, private-by-default cryptocurrencies to ensure the safety of transactions.<br><br>
+                    <ul>
+                      <li>Open Source</li>
+                    </ul>
+                  </div>
+                </div></li>
+            </a>      
             <a href="https://localmonero.co/">
               <li><i style="background:#0D64C0">
                   <img src="./assets/logos/localXMR.svg" alt="LocalMonero">
-                </i> &nbsp;&nbsp;LocalMonero<a href="https://localmonero.co/?rc=zfot">
+                </i> &nbsp;&nbsp;
+                <div class="tooltip">
+                  LocalMonero ★
+                  <div class="top">
+                    LocalMonero is a P2P, KYC-free, decentralized Monero trading platform. Trades can be conducted over virtually any currency, both online and in-person.<br><br>
+                    <ul>
+                      <li>Proprietary</li>
+                    </ul>
+                  </div>
+                </div><a href="https://localmonero.co/?rc=zfot">
                   <i style="background:#000" class="right">
                     <img src="./assets/logos/aflink2.svg" alt="lcXMR-affiliate">
                   </i>
                 </a></li>
+            </a>      
+            <a href="https://bisq.network/">
+              <li><i style="background:#24B135">
+                  <img src="./assets/logos/bisq.svg" alt="bisq">
+                </i> &nbsp;&nbsp;
+                <div class="tooltip">
+                  Bisq Network
+                  <div class="top">
+                    Bisq is a P2P, KYC-free, decentralized Bitcoin exchange.
+                    <br><br>
+                    <ul>
+                      <li>Open Source</li>
+                    </ul>
+                  </div>
+                </div></li>
             </a>
             <a href="https://samouraiwallet.com/">
               <li><i style="background:#C12727">
                   <img src="./assets/logos/sw.svg" alt="Samouraiwallet">
-                </i> &nbsp;&nbsp;Samourai Wallet</li>
+                </i> &nbsp;&nbsp;
+                <div class="tooltip">
+                  Samourai Wallet ★
+                  <div class="top">
+                    Samourai Wallet allows users to more privately transact & store Bitcoin. It does not solve Bitcoin's privacy problems, and only attempts to improve them.<br><br>
+                    <ul>
+                      <li>Open Source</li>
+                    </ul>
+                  </div>
+                </div></li>
             </a>
             <a href="https://cakewallet.com/">
               <li><i style="background:#FFFFFF">
                   <img src="./assets/logos/cake.svg" alt="Cake Wallet">
-                </i> &nbsp;&nbsp;Cake Wallet</li>
+                </i> &nbsp;&nbsp;
+                <div class="tooltip">
+                  Cake Wallet ★
+                  <div class="top">
+                    Cake Wallet is a wallet to store your Bitcoin, Monero, & Litecoin in a trusted place.<br><br>
+                    <ul>
+                      <li>Open Source</li>
+                    </ul>
+                  </div>
+                </div></li>
             </a>
             <a href="https://shiftcrypto.ch/">
               <li><i style="background:#FFFFFF">
                   <img src="./assets/logos/bitbox.svg" alt="Bitbox">
-                </i> &nbsp;&nbsp;BitBox</li>
+                </i> &nbsp;&nbsp;
+                <div class="tooltip">
+                  BitBox
+                  <div class="top">
+                    BitBox is one of the most secure & easy-to-use cryptocurrency hardware wallets.<br><br>
+                    <ul>
+                      <li>Open Source</li>
+                    </ul>
+                  </div>
+                </div></li>
             </a>
           </ul>
         </div>
@@ -842,7 +1607,16 @@
             <a href="https://www.orangewebsite.com">
               <li><i style="background:#e28306">
                   <img src="./assets/logos/orange.svg" alt="orange">
-                </i> &nbsp;&nbsp;OrangeWebsite<a href="https://affiliate.orangewebsite.com/idevaffiliate.php?id=10799">
+                </i> &nbsp;&nbsp;
+                <div class="tooltip">
+                  OrangeWebsite
+                  <div class="top">
+                    OrangeWebsite offers web hosting, VPS, domains, and more with minimal registration requirements & Bitcoin for payment.<br><br>
+                    <ul>
+                      <li>Proprietary</li>
+                    </ul>
+                  </div>
+                </div><a href="https://affiliate.orangewebsite.com/idevaffiliate.php?id=10799">
                   <i style="background:#000" class="right">
                     <img src="./assets/logos/aflink2.svg" alt="orange-affiliate">
                   </i>
@@ -851,12 +1625,30 @@
             <a href="https://njal.la">
               <li><i style="background:#1BD6AB">
                   <img src="./assets/logos/njalla.svg" alt="njalla">
-                </i> &nbsp;&nbsp;Njalla</li>
+                </i> &nbsp;&nbsp;
+                <div class="tooltip">
+                  Njalla
+                  <div class="top">
+                    Njalla offers domains & servers with privacy at the forefront of their products and cryptocurrency options for payment.<br><br>
+                    <ul>
+                      <li>Proprietary</li>
+                    </ul>
+                  </div>
+                </div></li>
             </a>
             <a href="https://www.1984hosting.com/">
               <li><i style="background:#FFFFFF">
                   <img src="./assets/logos/1984.svg" alt="1984">
-                </i> &nbsp;&nbsp;1984 Hosting</li>
+                </i> &nbsp;&nbsp;
+                <div class="tooltip">
+                  1984 Hosting
+                  <div class="top">
+                    1984 Hosting offers private VPS hosting and other services to keep their users safe.<br><br>
+                    <ul>
+                      <li>Proprietary</li>
+                    </ul>
+                  </div>
+                </div></li>
             </a>
           </ul>
         </div>
@@ -871,12 +1663,30 @@
             <a href="https://onionshare.org/">
               <li><i style="background:#4E0D4E">
                   <img src="./assets/logos/onionshare.svg" alt="onionshare">
-                </i> &nbsp;&nbsp;OnionShare</li>
+                </i> &nbsp;&nbsp;
+                <div class="tooltip">
+                  OnionShare ★
+                  <div class="top">
+                    OnionShare allows users to share files, websites, chats, and more over the Tor network directly from their system with no central parties for absolute safety.<br><br>
+                    <ul>
+                      <li>Open Source</li>
+                    </ul>
+                  </div>
+                </div></li>
             </a>
             <a href="https://joindeleteme.com/">
               <li><i style="background:#FFFFFF">
                   <img src="./assets/logos/abine.svg" alt="abine"></i>
-                &nbsp;&nbsp;Abine DeleteMe<a href="https://www.anrdoezrs.net/click-100370169-13794293">
+                &nbsp;&nbsp;
+                <div class="tooltip">
+                  Abine DeleteMe
+                  <div class="top">
+                    Abine DeleteMe offers a convenient service for users to wipe their information from people-searching sites.<br><br>
+                    <ul>
+                      <li>Proprietary</li>
+                    </ul>
+                  </div>
+                </div><a href="https://www.anrdoezrs.net/click-100370169-13794293">
                   <i style="background:#000" class="right">
                     <img src="./assets/logos/aflink2.svg" alt="jumbo-affiliate">
                   </i>
@@ -885,7 +1695,16 @@
             <a href="https://silent.link/">
               <li><i style="background:#E2A03D">
                   <img src="./assets/logos/silentlink.svg" alt="silentlink">
-                </i> &nbsp;&nbsp;Silent Link</li>
+                </i> &nbsp;&nbsp;
+                <div class="tooltip">
+                  Silent Link
+                  <div class="top">
+                    Silent Link gives out real phone numbers & data plans via eSIM, anonymously with no information outside a Bitcoin transaction. The service works well, but proceed with caution as it has no public team behind it.<br><br>
+                    <ul>
+                      <li>Proprietary</li>
+                    </ul>
+                  </div>
+                </div></li>
             </a>
           </ul>
         </div>

@@ -11,11 +11,11 @@
   --black: #000;
   --grey: #222831;
   --blue: #279ad4;
-  --blue-d: #05325E;
+  --blue-d: #0B3D62;
   --red: #861c1c;
   --orange: #E84C3D;
   --orange-v: #f05228;
-  --yellow: #fbb612;
+  --yellow: #F1C40F;
   --pink: #B451AB;
   --green: #369A77;
   --green-d: #024c32;
@@ -1113,4 +1113,65 @@ details > summary::-webkit-details-marker {
   fill: var(--white);
   width: 24px;
   height: 12px;
+}
+
+.tooltip {
+    display:inline-block;
+    position:relative;
+    border-bottom:1px dotted #666;
+    text-align:center;
+}
+
+.tooltip h3 {margin:12px 0;}
+
+.tooltip .top {
+    min-width:200px;
+    max-width:400px;
+    top:-15px;
+    left:50%;
+    transform:translate(-30%,-100%);
+    padding:20px 20px;
+    color:#ffffff;
+    background-color:#3172D2;
+    font-weight:normal;
+    font-size:14px;
+    border-radius:12px;
+    position:absolute;
+    z-index:99999999;
+    box-sizing:border-box;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+    display:none;
+}
+
+.tooltip:hover .top {
+    display:block;
+}
+
+.tooltip .top i {
+    position:absolute;
+    top:100%;
+    left:30%;
+    margin-left:-15px;
+    width:30px;
+    height:15px;
+    overflow:hidden;
+}
+
+.tooltip .top i::after {
+    content:'';
+    position:absolute;
+    width:15px;
+    height:15px;
+    left:50%;
+    transform:translate(-50%,-50%) rotate(45deg);
+    background-color:#009cdc;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+}
+
+.tooltip .top li {
+  background-color: #000000;
+}
+
+.resourcesdetails li {
+  background-color: #E1375A;
 }
