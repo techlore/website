@@ -1175,3 +1175,13 @@ details > summary::-webkit-details-marker {
 .resourcesdetails li {
   background-color: #e55039;
 }
+
+#patrons {
+  color: #e0c56e;
+  font-style: italic;
+}
+
+#patrons a {
+  color: #13202e;
+  font-weight: bold;
+}
