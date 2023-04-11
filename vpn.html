@@ -248,7 +248,6 @@
         <select id="flt-field">
           <option></option>
           <option value="VPN" selected>VPN</option>
-          <option value="Techlore Score">Techlore Score</option>
         </select></div>
       <div class="col-4"><input id="flt-value" class="_mt0" type="text" placeholder="Value to filter"></div>
       <div class="col-4">
@@ -519,8 +518,8 @@
               visible: false
             },
             {
-              field: "Review Version",
-              visible: false
+              field: "History",
+              formatter: "history"
             },
             {
               field: "OpenVPN",
