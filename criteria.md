@@ -17,7 +17,7 @@ Security patches are critical to keeping users secure in our ever-evolving world
 We believe *(with few exceptions)* that teams behind services should be public & active. This allows users to know the history behind a service, adds accountability, and ensures there are real people dedicated to the service. Activity level is also important and speaks to the long-term sustainability of the service. We try to prioritize projects we feel have viable business models, with public & active teams who will exist in 5+ years.
 
 ## 6 - Efficient to Use 😌
-Privacy & security mustn't inherently result in convenience or efficiency loss. Services which actively enable users to gain privacy & security in an efficient manner are generally prioritized. *(This can present itself as an issue in some of the following ways: difficult to install, difficult to setup, difficult to update, significant performance hit, etc.)*
+Privacy & security mustn't inherently result in convenience or efficiency loss. Services which actively enable users to gain privacy & security in an efficient manner are generally prioritized. *(This can present itself as an issue in some of the following ways: difficult to install, difficult to setup, difficult to update, significant performance hit, requires certain hardware, etc.)*
 
 ## 7 - Easy to Use 👵
 Similar to the previous point, privacy & security shouldn't be challenging. We generally prioritize services we feel anyone - regardless of technical knowledge - can thrive using. Even seemingly small issues can mean a lot to some users *(ex. needing to download an app from a third-party app store, or sometimes we avoid listing services due to high cost when cheaper alternatives exist)*
