@@ -16,7 +16,7 @@ This website uses HTML, CSS and vanilla Javascript. It doesn't have any dependen
 - Make a pull request with detailed changes 
 - Wait for our team to evaluate the changes 
 
-#### Have you found a bug or want to suggest a freature ?
+#### Have you found a bug or want to suggest a feature?
 - Create an issue 
 - Fill the required questions in the form 
 
@@ -26,6 +26,6 @@ This website uses HTML, CSS and vanilla Javascript. It doesn't have any dependen
  - [Tabulator](http://tabulator.info/) - Interactive Tables and Data Grids for JavaScript | [MIT License](https://github.com/olifolkerd/tabulator/blob/master/LICENSE)
  - [Circle Progress](https://tigrr.github.io/circle-progress/) - Responsive, accessible, animated, stylable with CSS circular progress bar available as plain JS | [MIT License](https://github.com/tigrr/circle-progress/blob/master/LICENSE)  
 
- ## License of this project
+ ## License
   
     Creative Commons Attribution Share Alike 4.0 International
