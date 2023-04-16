@@ -20,7 +20,7 @@ We believe *(with few exceptions)* that teams behind services should be public &
 Privacy & security mustn't inherently result in convenience or efficiency loss. Services which actively enable users to gain privacy & security in an efficient manner are generally prioritized. *(This can present itself as an issue in some of the following ways: difficult to install, difficult to setup, difficult to update, significant performance hit, etc.)*
 
 ## 7 - Easy to Use 👵
-Similar to the previous point, privacy & security shouldn't be challenging. We generally prioritize services we feel anyone - regardless of technical knowledge - can thrive using. Even seemingly small issues can mean a lot to some users *(ex. needing to download an app from a third-party app store)*
+Similar to the previous point, privacy & security shouldn't be challenging. We generally prioritize services we feel anyone - regardless of technical knowledge - can thrive using. Even seemingly small issues can mean a lot to some users *(ex. needing to download an app from a third-party app store, or sometimes we avoid listing services due to high cost when cheaper alternatives exist)*
 
 ## 8 - Passed the Test of Time ⏰
 Services come and go. Developers come and go. Ideas come and go. We appreciate services that have a consistently good history in prioritizing user safety. We prefer services with 3+ years of mostly positive history as a starting point for passing the test of time. One thing is announcing a new messenger, another is maintaining one for 5+ years. 
