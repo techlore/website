@@ -1,5 +1,5 @@
 # Techlore Criteria ☑️
-The following criteria gives visitors an idea of how we select services to recommend. The criteria is not perfect, but rather designed to share what we generally look for. There are rare situations where a service hits all criteria and remains unlisted *(ex. due to legal issues)* - and there are situations where a service doesn't hit all criteria but remains listed. *(ex. due to an absence of better options)*
+The following criteria gives visitors an idea of how we select services in our [resources.](https://techlore.tech/resources) The criteria is not perfect, but rather designed to share what we generally look for. There are rare situations where a service hits all criteria and remains unlisted *(ex. due to legal issues)* - and there are situations where a service doesn't hit all criteria but remains listed. *(ex. due to an absence of better options)*
 
 ## 1 - Open Source 🌐
 Open source isn't everything, but it adds a massive layer of transparency & oversight; open source services undergo a level of scrutiny rarely found in proprietary software. It's worth acknowledging the importance of open source varies depending on the context: For example, open source cryptography is more important than a DNS service open sourcing their web app *(which has little to do with the privacy/security offered by the DNS provider itself)*
