@@ -1185,3 +1185,8 @@ details > summary::-webkit-details-marker {
   color: #13202e;
   font-weight: bold;
 }
+
+:target {
+  padding-top: 100px;
+  margin-top: -100px;
+}
