@@ -1187,6 +1187,14 @@ details > summary::-webkit-details-marker {
 }
 
 :target {
-  padding-top: 100px;
-  margin-top: -100px;
+  padding-top: 140px;
+  margin-top: -140px;
+
+}
+
+:target u {
+  border: .2px solid white;
+  padding: 4px;
+  background-color: #3498db;
+  border-radius: 10px;
 }
