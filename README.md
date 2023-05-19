@@ -9,6 +9,10 @@ This website uses HTML, CSS and vanilla Javascript. It doesn't have any dependen
 
 *But why? We all know that frameworks are awesome, but for a big project like this with a lot of pages and resources - we decided that using only small libraries and pure Web development is perfect to balance the speed with the content in a clean and simple design.*
 
+**To contribute to our VPN Toolkit, [visit here!](/assets/vpn)**
+
+https://github.com/techlore/website/tree/master/assets/vpn
+
 #### Do you want to improve the project? 
 - Fork this repository 
 - Enable the Github Pages feature
