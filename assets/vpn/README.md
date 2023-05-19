@@ -12,7 +12,7 @@ Our VPN Chart is open source and we want every VPN on it. To make this possible,
 * Add missing data
 * Add new services
 
-[The chart]('VPNchart.csv') is in a CSV format. It's recommended to copy/paste the header row and go through each column to fill in the necessary data. Feel free to refer to other VPNs for help. If you don't know what something means, just leave it blank! You can submit just a single data point if you wanted--this is a community project. The chart will improve with time to be more intuitive and easier to use. We thank our early contributors in dealing with its limitations.
+[The chart](VPNchart.csv) is in a CSV format. It's recommended to copy/paste the header row and go through each column to fill in the necessary data. Feel free to refer to other VPNs for help. If you don't know what something means, just leave it blank! You can submit just a single data point if you wanted--this is a community project. The chart will improve with time to be more intuitive and easier to use. We thank our early contributors in dealing with its limitations.
 
 #### Spread the Word
 There aren't many legitimate VPN resources on the internet. In fact, many resources pay huge sums of money for SEO to outrank legitimate resources. To help combat this, we ask users to share this project as much as possible. Word of mouth is how we rely on spreading this project to as many people as possible.
