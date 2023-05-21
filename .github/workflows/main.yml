@@ -14,11 +14,11 @@ jobs:
     environment: production
 
     steps:
-    - uses: actions/checkout@v2.1.0
+    - uses: actions/checkout@v3.5.2
       with:
         fetch-depth: 2
     - name: FTP-Deploy-Action
-      uses: SamKirkland/FTP-Deploy-Action@4.1.0
+      uses: SamKirkland/FTP-Deploy-Action@4.3.4
       with:
         server: ${{ secrets.FTP_SERVER }}
         server-dir: ${{ secrets.FTP_PATH }}
