@@ -195,8 +195,8 @@
       <li><a target="_self" href="./index">Home</a></li>
       <li><a target="_self" href="./about">About</a></li>
       <li><a target="_self" href="./videos"> Videos </a></li>
-      <li><a target="_self" href="./goincognito">Go Incognito</a></li>
       <li><a target="_self" href="./coaching"> Coaching </a></li>
+      <li><a target="_self" href="./goincognito">Go Incognito</a></li>
       <li><a target="_blank" href="https://dispatch.techlore.tech">Blog</a></li>
       <li><a target="_blank" href="https://discuss.techlore.tech/">Forum</a></li>
       <li><a target="_self" href="./support">Support Us</a></li>
@@ -347,7 +347,7 @@
   </svg>
   <footer>
     <div class="col-3 _flex-center">
-      Techlore &copy; 2023&nbsp;|&nbsp;<a  href="./contact">Contact</a>&nbsp;|<a href="./privacy">&nbsp;Privacy</a>&nbsp;&nbsp;
+      Copyright &copy; Techlore, Inc. 2023&nbsp;|&nbsp;<a  href="./contact">Contact</a>&nbsp;|<a href="./privacy">&nbsp;Privacy</a>&nbsp;&nbsp;
     <a href="https://www.eff.org/">
         <img alt="EFF 2022 Member" style="width:52px;height:52px;" src="assets/svg/effmember.svg">
       </a>
@@ -363,6 +363,108 @@
     <script src="assets/javascript/script.js" type="text/javascript"></script>
     <script src="assets/javascript/slider.js" type="text/javascript"></script>
     <script>
+      //Function to generate gradient color
+      const random_gradient = () => {
+        var colorOne = {
+          R: Math.floor(Math.random() * 255),
+          G: Math.floor(Math.random() * 255),
+          B: Math.floor(Math.random() * 255)
+        };
+        var colorTwo = {
+          R: Math.floor(Math.random() * 255),
+          G: Math.floor(Math.random() * 255),
+          B: Math.floor(Math.random() * 255)
+        };
+        colorOne.rgb = 'rgb(' + colorOne.R + ',' + colorOne.G + ',' + colorOne.B + ')';
+        colorTwo.rgb = 'rgb(' + colorTwo.R + ',' + colorTwo.G + ',' + colorTwo.B + ')';
+        return 'radial-gradient(at top left, ' + colorOne.rgb + ', ' + colorTwo.rgb + ')';
+      }
+
+      function shuffle(array) {
+        var currentIndex = array.length,
+          temporaryValue, randomIndex;
+        while (0 !== currentIndex) {
+          randomIndex = Math.floor(Math.random() * currentIndex);
+          currentIndex -= 1;
+          temporaryValue = array[currentIndex];
+          array[currentIndex] = array[randomIndex];
+          array[randomIndex] = temporaryValue;
+        }
+        return array;
+      }
+
+      function CSVToJSON(csvData) {
+        var data = CSVToArray(csvData);
+        var objData = [];
+        for (var i = 1; i < data.length; i++) {
+          objData[i - 1] = {};
+          for (var k = 0; k < data[0].length && k < data[i].length; k++) {
+            var key = data[0][k];
+            objData[i - 1][key] = data[i][k]
+          }
+        }
+        var jsonData = JSON.stringify(objData);
+        jsonData = jsonData.replace(/},/g, "},\r\n");
+        return jsonData;
+      }
+
+      function CSVToArray(csvData, delimiter) {
+        delimiter = (delimiter || ",");
+        var pattern = new RegExp((
+          "(\\" + delimiter + "|\\r?\\n|\\r|^)" +
+          "(?:\"([^\"]*(?:\"\"[^\"]*)*)\"|" +
+          "([^\"\\" + delimiter + "\\r\\n]*))"), "gi");
+        var data = [
+          []
+        ];
+        var matches = null;
+        while (matches = pattern.exec(csvData)) {
+          var matchedDelimiter = matches[1];
+          if (matchedDelimiter.length && (matchedDelimiter != delimiter)) {
+            data.push([]);
+          }
+          if (matches[2]) {
+            var matchedDelimiter = matches[2].replace(
+              new RegExp("\"\"", "g"), "\"");
+          } else {
+            var matchedDelimiter = matches[3];
+          }
+          data[data.length - 1].push(matchedDelimiter);
+        }
+        return (data);
+      }
+      //Get CSV data
+      var jsonData;
+      fetch(
+          "https://raw.githubusercontent.com/techlore-official/channel-content/master/Assets/TechlorePatrons.csv"
+        )
+        .then(response => response.text())
+        .then(text => {
+          //Use CSV text and convert to json
+          jsonData = JSON.parse(CSVToJSON(text));
+          jsonData.pop();
+          shuffle(jsonData);
+          var cntslider = document.getElementById("slider");
+
+          var finalstr = '';
+          var i, j, temparray, chunk = 4;
+          for (i = 0, j = jsonData.length; i < j; i += chunk) {
+            temparray = jsonData.slice(i, i + chunk);
+            finalstr += '<div class="slide-item"><div class="row">';
+            temparray.forEach((element) => {
+              finalstr += "<div><div class='card-user' style='background:" + random_gradient() + "'><h4>" +
+                element[
+                  "Name"] + "</h4><hr>" +
+                element["Pledge"] + "</div></div>";
+            });
+            finalstr += "</div></div>";
+          }
+          finalstr += '<div class="slide-next"></div><div class="slide-prev"></div>';
+          cntslider.innerHTML = finalstr;
+          new Slider({
+            id: "slider"
+          });
+        });
       $(document).ready(function () {
         $('.menu-btn').on("click", () => {
           $('nav').toggleClass("opened");
