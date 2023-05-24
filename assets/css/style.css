@@ -1201,18 +1201,45 @@ details > summary::-webkit-details-marker {
 
 /* ------------- Forum Topic List -------------- */
 
-#discourse-topic-list {
+.topic-list {
   list-style: none;
   padding-inline-start: 0;
   text-align: left;
-  padding-top: 2em;
 }
 
-#discourse-topic-list .discourse-title {
+ul[data-forum] .discourse-title {
   text-decoration: underline dotted;
   font-size: 1.2rem;
 }
 
-#discourse-topic-list .discourse-excerpt {
+ul[data-forum] .discourse-excerpt {
   font-style: italic;
+}
+
+/* ---------- Video Thumbnail Gallery ---------- */
+
+.latest-video-gallery {
+  padding-top: 2em;
+  padding-inline-start: 0;
+  list-style: none;
+}
+
+.latest-video-gallery li {
+  display: inline-block;
+}
+
+.latest-video-gallery li:not(:last-child) {
+  margin-right: 1em;
+}
+
+.latest-video-gallery .discourse-image {
+  width: 400px;
+  height: 225px;
+}
+
+.latest-video-gallery .discourse-title {
+  width: 400px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }

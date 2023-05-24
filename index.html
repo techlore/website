@@ -23,7 +23,7 @@
   <meta property="og:description" content="Techlore is spreading privacy and security to the masses; home of Go Incognito, tutorials, reviews, VPN tools, Plexus, communities, and more!"/>
 
 
-  <link rel="stylesheet" href="assets/css/style.css?t=126" type="text/css">
+  <link rel="stylesheet" href="assets/css/style.css?t=127" type="text/css">
   <title> Techlore | Spreading Privacy To The Masses </title>
   <meta name="title" content="Techlore: Spreading Privacy To The Masses">
   <meta name="description"
@@ -108,19 +108,21 @@
       </div>
     </header>
     <div class="grid _centered _pb4">
-      <div class="col-6 _aos-left">
-        <div class="card _bg-black-t _centered">
-          <div class="grid  _centered _g-center">
-            <div class="col-3"><img alt="techlore" class="_wh-130" src="assets/svg/logo.svg"></div>
-            <div>
-              <h2>Content&nbsp;🎥</h2>
-              <i>Guides, reviews, and more!</i>
-              <div class="links">
-                <a href="https://www.youtube.com/c/techlore">YouTube</a>
-                <a href="https://neat.tube/c/techlore/videos?sort=-originallyPublishedAt">PeerTube</a>
-                <a href="https://odysee.com/@techlore:3">Odysee</a>
-              </div>
-            </div>
+      <div class="col-12 _aos-left">
+        <div class="card _bg-black-t _centered _g-center">
+          <h2>Our Latest Content&nbsp;🎥</h2>
+          <i>Guides, reviews, and more!</i>
+          <ul class="latest-video-gallery"
+              data-forum="https://discuss.techlore.tech"
+              data-feed="https://discuss.techlore.tech/c/techlore/content/6.json"
+              data-count="2"
+              data-type="image">
+          </ul>
+          <noscript>Javascript is required to fetch these videos.</noscript>
+          <div class="links">
+            <a href="https://www.youtube.com/c/techlore">YouTube</a>
+            <a href="https://neat.tube/c/techlore/videos?sort=-originallyPublishedAt">PeerTube</a>
+            <a href="https://odysee.com/@techlore:3">Odysee</a>
           </div>
         </div>
       </div>
@@ -139,22 +141,7 @@
           </div>
         </div>
       </div>
-      <div class="col-6 _aos-left">
-        <div class="card _bg-black-t _centered">
-          <div class="grid  _centered _g-center">
-            <div class="col-3"><img alt="blog & forum" class="_wh-130" src="assets/svg/forum.svg"></div>
-            <div>
-              <h2>Blog & Forum&nbsp;💬</h2>
-              <i>Our blog & forum to stay connected</i>
-              <div class="links">
-                <a href="https://dispatch.techlore.tech/">Dispatch</a>
-                <a href="https://discuss.techlore.tech/">Discuss</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-6 _aos-left">
+      <div class="col-6 _aos-right">
         <div class="card _bg-black-t _centered _g-center">
           <div class="grid  _centered _g-center">
             <div class="col-3"><img alt="vpn" class="_wh-130" src="assets/logos/vpn.svg"></div>
@@ -174,9 +161,17 @@
         <div class="card _bg-black-t _centered _g-center">
           <div class="grid  _centered _g-center">
             <div>
-              <h2>This Week's Top Discussions</h2>
-              <ul id="discourse-topic-list"></ul>
+              <h2>This Week's Top Discussions&nbsp;💬</h2>
+              <ul class="topic-list"
+                  data-forum="https://discuss.techlore.tech"
+                  data-feed="https://discuss.techlore.tech/top.json?period=weekly"
+                  data-count="6">
+              </ul>
               <noscript>Javascript is required to build this list.</noscript>
+              <div class="links">
+                <a href="https://discuss.techlore.tech/">Discussion Forum</a>
+                <a href="https://dispatch.techlore.tech/">Dispatch Newsletter</a>
+              </div>
             </div>
           </div>
         </div>
@@ -204,7 +199,7 @@
   </div>
 </body>
 <script src="assets/javascript/script.js" type="text/javascript"></script>
-<script src="assets/javascript/top-topics.js" type="text/javascript"></script>
+<script src="assets/javascript/discourse-topics.js" type="text/javascript"></script>
 <script>
   $(document).ready(function () {
     $().aos();
