@@ -117,7 +117,7 @@
               <i>Guides, reviews, and more!</i>
               <div class="links">
                 <a href="https://www.youtube.com/c/techlore">YouTube</a>
-                <a href="https://neat.tube/c/techlore/videos">PeerTube</a>
+                <a href="https://neat.tube/c/techlore/videos?sort=-originallyPublishedAt">PeerTube</a>
                 <a href="https://odysee.com/@techlore:3">Odysee</a>
               </div>
             </div>
@@ -170,6 +170,17 @@
           </div>
         </div>
       </div>
+      <div class="col-12 _aos-left">
+        <div class="card _bg-black-t _centered _g-center">
+          <div class="grid  _centered _g-center">
+            <div>
+              <h2>This Week's Top Discussions</h2>
+              <ul id="discourse-topic-list"></ul>
+              <noscript>Javascript is required to build this list.</noscript>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </main>
   <svg viewBox="0 0 120 20">
@@ -193,6 +204,7 @@
   </div>
 </body>
 <script src="assets/javascript/script.js" type="text/javascript"></script>
+<script src="assets/javascript/top-topics.js" type="text/javascript"></script>
 <script>
   $(document).ready(function () {
     $().aos();

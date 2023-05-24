@@ -1198,3 +1198,21 @@ details > summary::-webkit-details-marker {
   background-color: #3498db;
   border-radius: 10px;
 }
+
+/* ------------- Forum Topic List -------------- */
+
+#discourse-topic-list {
+  list-style: none;
+  padding-inline-start: 0;
+  text-align: left;
+  padding-top: 2em;
+}
+
+#discourse-topic-list .discourse-title {
+  text-decoration: underline dotted;
+  font-size: 1.2rem;
+}
+
+#discourse-topic-list .discourse-excerpt {
+  font-style: italic;
+}
