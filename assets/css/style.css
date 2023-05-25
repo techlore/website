@@ -1226,18 +1226,19 @@ ul[data-forum] .discourse-excerpt {
   list-style: none;
 }
 
-.latest-video-gallery li {
-  display: inline-block;
-}
-
-.latest-video-gallery li:not(:last-child) {
-  margin-right: 1em;
+@media only screen and (min-width: 864px) {
+  .latest-video-gallery li {
+    display: inline-block;
+  }
+  .latest-video-gallery li:not(:last-child) {
+    margin-right: 1em;
+  }
 }
 
 .latest-video-gallery .discourse-image {
   width: 400px;
   max-height: 225px;
-  max-width: 90vw;
+  max-width: 80vw;
 }
 
 .latest-video-gallery .discourse-title {
@@ -1245,5 +1246,5 @@ ul[data-forum] .discourse-excerpt {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  max-width: 90vw;
+  max-width: 80vw;
 }
