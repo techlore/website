@@ -1,34 +1,22 @@
-#remove html file extension-e.g. https://example.com/file.html will become https://example.com/file
+# Remove html file extension
+# e.g. https://example.com/file.html will become https://example.com/file
 RewriteEngine on 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html [NC,L]
 
-Header append X-FRAME-OPTIONS "SAMEORIGIN"
+# Security Headers
+Header always set Content-Security-Policy "default-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src data: https://discuss.techlore.tech 'self'; connect-src https://*.techlore.tech https://raw.githubusercontent.com 'self'; frame-src https://www.youtube-nocookie.com https://*.techlore.tech; frame-ancestors 'self'; manifest-src 'self';"
+Header always set Permissions-Policy "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), cross-origin-isolated=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=*, geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), navigation-override=(), payment=(), picture-in-picture=*, publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=(), clipboard-read=(), clipboard-write=(), gamepad=()"
+Header always set Referrer-Policy "no-referrer"
+Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+Header always set X-Content-Type-Options "nosniff"
+Header always set X-Frame-Options "SAMEORIGIN"
 
-#HSTS
-Header set Strict-Transport-Security "max-age=31536000" env=HTTPS
-Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
-
-#X-Content-Type-Options
-Header set X-Content-Type-Options nosniff
-
-#Referrer Policy
-Header Referrer-Policy: no-referrer
-
-#CSP
-Header set Content-Security-Policy: default-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src data: 'self'; connect-src https://*.techlore.tech 'self'; frame-src https://www.youtube-nocookie.com https://*.techlore.tech; frame-ancestors 'self'; manifest-src 'self';
-
-
-#Permissions-Policy
-<IfModule mod_headers.c>
-Header always set Permissions-Policy "geolocation=(none); midi=(none);notifications=(none);push=(none);sync-xhr=();accelerometer=(none); gyroscope=(none); magnetometer=(none); payment=(none); camera=(none); microphone=(none);usb=(none); xr=();speaker=(self);vibrate=(none);fullscreen=(self);"  
-</IfModule>
-
-#404
+# 404 Document
 ErrorDocument 404 /404.html
 
-#VPN Chart Redirect
+# VPN Chart Redirect
 Redirect 301 /vpnchart.html https://techlore.tech/vpn
 
 # php -- BEGIN cPanel-generated handler, do not edit
