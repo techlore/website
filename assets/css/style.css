@@ -1179,11 +1179,13 @@ details > summary::-webkit-details-marker {
 #patrons {
   color: #e0c56e;
   font-style: italic;
+  font-size: 20px;
 }
 
 #patrons a {
   color: #13202e;
   font-weight: bold;
+  font-size: 22px;
 }
 
 :target {
