@@ -1236,7 +1236,8 @@ ul[data-forum] .discourse-excerpt {
 
 .latest-video-gallery .discourse-image {
   width: 400px;
-  height: 225px;
+  max-height: 225px;
+  max-width: 90vw;
 }
 
 .latest-video-gallery .discourse-title {
@@ -1244,4 +1245,5 @@ ul[data-forum] .discourse-excerpt {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  max-width: 90vw;
 }
