@@ -1,0 +1,6 @@
+Contact: https://techlore.tech/contact
+Expires: 2026-05-24T17:00:00.000Z
+Acknowledgments: https://discuss.techlore.tech/badges/106/security-bug-hunter
+Acknowledgments: https://techlore.tech/about
+Preferred-Languages: en
+Policy: https://discuss.techlore.tech/pub/security-policy
