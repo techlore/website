@@ -24,7 +24,7 @@ Sponsorships can be fine, but they've led to massive amounts of misinformation, 
 
 ***We have not and will never be sponsored by a VPN provider. Period.***
 
-We implement an entirely opt-in, affiliate model with extremely limited services we feel comfortable having plans with. There will always be a clearly labeled standard & affiliate link for users to know where they're located, and these never influence the chart. To view more information about our affiliate protocols, [check them out here.](https://github.com/techlore/channel-content/blob/master/affiliates.md)
+We implement an entirely opt-in, affiliate model with extremely limited services we feel comfortable having plans with. There will always be a clearly labeled standard & affiliate link for users to know where they're located, and these never influence the chart. To view more information about our affiliate protocols, [check them out here.](https://discuss.techlore.tech/pub/sponsors-affiliates)
 
 ## What Happened to VPN Reviews?
 **As of February 5, 2022 our review protocol is being phased out. We no longer feel individual VPN reviews are beneficial to our audience. Rather than individually reviewing every VPN service, we've opted for a chart with objective data points so users can visually see where each service excels. If you want your data on the chart, please contribute to the chart.**
