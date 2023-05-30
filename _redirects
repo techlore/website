@@ -1,0 +1,9 @@
+# Discord subdomain
+https://discord.techlore.tech/* https://discord.com/servers/techlore-422332274323750922 301!
+
+# MTA-STS
+https://mta-sts.techlore.tech/* https://techlore.tech/mta-sts/:splat 200!
+
+# VPN Chart Redirect
+/vpnchart.html /vpn 301
+/vpnchart /vpn 301
