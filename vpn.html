@@ -42,6 +42,15 @@
       background-image: linear-gradient(to right bottom, #0a4c6d, #00607b, #007581, #00887f, #369a77);
     }
 
+    .tabulator .tabulator-cell {
+      background-color: #f2f2f2;
+      color: #333;
+    }
+
+    .tabulator .tabulator-row.tabulator-selected .tabulator-cell {
+    background-color: #64B5F6;
+    }
+
     ._m-revert>div>* {
       margin-top: revert;
     }
@@ -489,7 +498,8 @@
           autoColumnsDefinitions: [{
               field: "VPN",
               hozAlign: "left",
-              formatter: "name"
+              formatter: "name",
+              frozen: true
             },
             {
               field: "VPN Affiliate Link",
