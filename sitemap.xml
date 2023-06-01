@@ -15,6 +15,11 @@
   <priority>0.90</priority>
 </url>
 <url>
+  <loc>https://techlore.tech/about</loc>
+  <lastmod>2022-05-09</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
   <loc>https://techlore.tech/goincognito</loc>
   <lastmod>2022-05-09</lastmod>
   <priority>0.80</priority>
@@ -25,12 +30,22 @@
   <priority>0.70</priority>
 </url>
 <url>
+  <loc>https://techlore.tech/coaching</loc>
+  <lastmod>2022-05-09</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
   <loc>https://techlore.tech/spa</loc>
   <lastmod>2022-05-09</lastmod>
   <priority>0.60</priority>
 </url>
 <url>
   <loc>https://techlore.tech/videos</loc>
+  <lastmod>2022-05-09</lastmod>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>https://techlore.tech/support</loc>
   <lastmod>2022-05-09</lastmod>
   <priority>0.50</priority>
 </url>
