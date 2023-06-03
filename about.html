@@ -37,6 +37,7 @@
 
   <!-- Organization/About Schema -->
   <script type="application/ld+json">
+  [
     {
       "@context": "https://schema.org",
       "@type": "Organization",
@@ -44,7 +45,9 @@
       "name": "Techlore",
       "legalName": "Techlore, Inc.",
       "description": "Techlore was built to prove privacy & security are not just achievable - but simple and accessible. We produce projects, communities, and content to spread privacy & security to the masses.",
+      "slogan": "Spreading privacy & security to the masses",
       "disambiguatingDescription": "YouTube channel",
+      "numberOfEmployees": 4,
       "brand": [{
           "@type": "Brand",
           "additionalType": "CreativeWork",
@@ -100,11 +103,83 @@
       ],
       "sameAs": [
         "https://www.youtube.com/c/techlore",
-        "https://www.wikidata.org/wiki/Q117304783"
+        "https://www.wikidata.org/wiki/Q117304783",
+        "https://github.com/techlore",
+        "https://www.patreon.com/techlore",
+        "https://social.lol/@techlore",
+        "https://www.linkedin.com/company/techloreyt/",
+        "https://neat.tube/video-channels/techlore",
+        "https://twitter.com/techloreistaken",
+        "https://www.tiktok.com/@techlore",
+        "https://techlore.omg.lol/",
+        "https://youtube.fandom.com/wiki/Techlore"
       ],
       "knowsAbout": ["Privacy", "Security"],
-      "url": "https://techlore.tech"
+      "url": "https://techlore.tech",
+      "memberOf": [{
+        "@context": "https://schema.org/",
+        "@type": "Organization",
+        "name": "1% for the Planet",
+        "image": "https://techlore.tech/assets/svg/1pmember.svg",
+        "url": "https://directories.onepercentfortheplanet.org/profile/techlore",
+        "sameAs": ["https://onepercentfortheplanet.org/", "https://en.wikipedia.org/wiki/One_Percent_for_the_Planet"]
+      },
+      {
+        "@context": "https://schema.org/",
+        "@type": "Organization",
+        "name": "Electronic Frontier Foundation",
+        "alternateName": "EFF",
+        "image": "https://techlore.tech/assets/svg/effmember.svg",
+        "url": "https://www.eff.org",
+        "sameAs": ["https://en.wikipedia.org/wiki/Electronic_Frontier_Foundation"]
+      }
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "ImageObject",
+      "contentUrl": "https://techlore.tech/assets/svg/wesupport.svg",
+      "description": "Projects which are supported by Techlore",
+      "mainEntityOfPage": "https://youtu.be/RbSy-lZHLYw",
+      "about": [{
+        "@type": "Organization",
+        "name": "Electronic Frontier Foundation",
+        "sameAs": "https://en.wikipedia.org/wiki/Electronic_Frontier_Foundation"
+      },
+      {
+        "@type": "Organization",
+        "name": "Calyx Institute",
+        "sameAs": "https://en.wikipedia.org/wiki/Calyx_Institute"
+      },
+      {
+        "@type": "Organization",
+        "name": "Privacy Guides",
+        "url": "https://www.privacyguides.org",
+        "sameAs": "https://www.wikidata.org/wiki/Q111710163"
+      },
+      {
+        "@type": "Organization",
+        "name": "F-Droid",
+        "sameAs": "https://en.wikipedia.org/wiki/F-Droid"
+      },
+      {
+        "@type": "Organization",
+        "name": "The Tor Project",
+        "sameAs": "https://en.wikipedia.org/wiki/The_Tor_Project"
+      },
+      {
+        "@type": "Organization",
+        "name": "WireGuard",
+        "sameAs": "https://en.wikipedia.org/wiki/WireGuard"
+      },
+      {
+        "@type": "Organization",
+        "name": "1% for the Planet",
+        "sameAs": "https://en.wikipedia.org/wiki/One_Percent_for_the_Planet"
+      }
+      ]
     }
+  ]
   </script>
 
   <base target="_blank">
