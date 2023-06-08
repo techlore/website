@@ -1,7 +1,7 @@
 /**
  * @overview Generates a list of topics on a Discourse forum.
  * @author Jonah Aragon <jonah@triplebit.net>
- * @version 2.0.0
+ * @version 2.1.0
  * @license
  * Copyright (c) 2023 Jonah Aragon
  *
@@ -45,6 +45,7 @@ async function main() {
 
       var title = list[i]['title'];
       var id = list[i]['id'];
+      var featured_link = list[i]['featured_link'];
       var excerpt = list[i]['excerpt']
       excerpt = excerpt.replace(/(\r\n|\n|\r)/gm, "");
       var image = list[i]['image_url'];
@@ -66,7 +67,14 @@ async function main() {
 
       if (dataset.type == "image") {
         var a = document.createElement('a');
-        a.href = dataset.forum + '/t/' + id;
+
+        if (dataset.link == "featured") {
+          a.href = featured_link;
+        }
+        else {
+          a.href = dataset.forum + '/t/' + id;
+        }
+
         a.title = title;
         a.className = "discourse-image-link";
 
@@ -87,7 +95,14 @@ async function main() {
         var h3 = document.createElement('h3');
         var a1 = document.createElement('a');
         a1.className = "discourse-title";
-        a1.href = dataset.forum + '/t/' + id;
+        
+        if (dataset.link == "featured") {
+          a1.href = featured_link;
+        }
+        else {
+          a1.href = dataset.forum + '/t/' + id;
+        }
+
         a1.innerText = title;
         h3.appendChild(a1);
 
