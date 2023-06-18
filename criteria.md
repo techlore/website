@@ -26,7 +26,7 @@ Similar to the previous point, privacy & security shouldn't be challenging. We g
 Services come and go. Developers come and go. Ideas come and go. We appreciate services that have a consistently good history in prioritizing user safety. We prefer services with 3+ years of mostly positive history as a starting point for passing the test of time. One thing is announcing a new messenger, another is maintaining one for 5+ years. 
 
 ## 9 - Audited & Trusted ✅
-Broadly, we do our best to list services that have been formally audited, and/or have a great deal of trust within the privacy & security community. Trust is ultimately subjective and highly personal - which is why we take a broader approach to evaluating what's generally trusted by the community as a whole, in addition to analyses performed by experts.
+Broadly, we do our best to list services that have been formally audited—publicly, and/or have a great deal of trust within the privacy & security community. Trust is ultimately subjective and highly personal - which is why we take a broader approach to evaluating what's generally trusted by the community as a whole, in addition to analyses performed by experts.
 
 ## 10 - Evolving 📈
 Lastly, we prefer services that are consistently evolving. User threats are growing in sophistication, and services that evolve with those threats are massively important to protecting users.
