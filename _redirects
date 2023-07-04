@@ -7,3 +7,4 @@ https://mta-sts.techlore.tech/* /mta-sts.txt 200!
 # VPN Chart Redirect
 /vpnchart.html /vpn 301
 /vpnchart /vpn 301
+/sponsors https://discuss.techlore.tech/pub/sponsors
