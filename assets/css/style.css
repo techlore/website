@@ -1248,3 +1248,9 @@ ul[data-forum] .discourse-excerpt {
   overflow: hidden;
   max-width: 80vw;
 }
+
+.sponsor {
+  width: 30%;
+  margin: auto;
+  display: block;
+}
