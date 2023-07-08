@@ -509,6 +509,34 @@ button,
   white-space: nowrap;
 }
 
+button[disabled],
+.btnA[disabled] {
+  color: #777;
+  border-color: #BDBDBD;
+}
+
+button:not([disabled]):hover,
+.btnA:not([disabled]):hover {
+  color: #fff;
+  background: #000;
+}
+
+button,
+.btnA{
+  display: inline-block;
+  border: 2px solid #000;
+  outline: none;
+  padding: 0.5rem 0.8rem;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 0.08rem;
+  color: #000;
+  background-color: #f0f5f9;
+  border-radius: 0.3rem;
+  margin: 0.6rem .3rem;
+  white-space: nowrap;
+}
 
 /* ------------------- Links ------------------ */
 a {
