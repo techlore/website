@@ -1,5 +1,4 @@
 # Remove html file extension
-# e.g. https://example.com/file.html will become https://example.com/file
 [build.processing.html]
   pretty_urls = true
 
