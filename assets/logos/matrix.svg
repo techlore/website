@@ -1,8 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-    <use xlink:href="#_Image1" x="0" y="0" width="24px" height="24px"/>
-    <defs>
-        <image id="_Image1" width="24px" height="24px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAyklEQVRIie3WPWoCQRjG8R9WgieQYGfvBfYYOV1i4QEsPICVpJNAkJA0W6YQi+3Fj7VwJJNlNWTZBQn7h2GGh5nngeGdD8hDW6qPZeQrR1Kj+YUEeacB4x+0AfcbMMc7XjBBii1eMcIT3rDHF8a3QoplOvRdw2XtcEWfFHwrl+m1NY9/mRwzRR/rSNtigOdI6+GhSsAimG8iLXXe+1VhbrdKwD70x1+0Uv7vOaiVsuv6EztkkTYL2i6ML2RB+yh4JNr3oA2ojUa/LSc7hEJSjUCYUAAAAABJRU5ErkJggg=="/>
-    </defs>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 24 24" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" xmlns:v="https://vecta.io/nano"><use xlink:href="#A" width="24" height="24"/><defs><image id="A" width="24" height="24" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAyklEQVRIie3WPWoCQRjG8R9WgieQYGfvBfYYOV1i4QEsPICVpJNAkJA0W6YQi+3Fj7VwJJNlNWTZBQn7h2GGh5nngeGdD8hDW6qPZeQrR1Kj+YUEeacB4x+0AfcbMMc7XjBBii1eMcIT3rDHF8a3QoplOvRdw2XtcEWfFHwrl+m1NY9/mRwzRR/rSNtigOdI6+GhSsAimG8iLXXe+1VhbrdKwD70x1+0Uv7vOaiVsuv6EztkkTYL2i6ML2RB+yh4JNr3oA2ojUa/LSc7hEJSjUCYUAAAAABJRU5ErkJggg=="/></defs></svg>

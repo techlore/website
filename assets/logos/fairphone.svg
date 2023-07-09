@@ -1,7 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 1080 1080" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-    <g transform="matrix(46.5345,0,0,46.5345,121,-18.4138)">
-        <path d="M6.9,9.9C7.1,8.5 7.2,7.2 7.4,5.8L18,5.8C18.2,4 18.5,2.2 18.7,0.4L0.8,0.4C0.5,2.2 0.3,4 0,5.8L1.6,5.8C0.9,11.7 0.3,17.6 0,23.6L5.8,23.6C6,20.7 6.2,17.9 6.4,15L12.6,15C13.5,15 14.3,14.3 14.3,13.4C14.4,12.2 14.5,11.1 14.7,9.9L6.9,9.9Z" style="fill:rgb(47,166,223);fill-rule:nonzero;"/>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1080 1080" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" xmlns:v="https://vecta.io/nano"><path d="M442.088 442.278c9.307-65.148 13.96-125.643 23.267-190.791h493.266C967.928 167.724 981.888 83.962 991.195.2H158.228C144.267 83.962 134.96 167.724 121 251.486h74.455C162.881 526.04 134.96 800.593 121 1079.8h269.9l27.921-400.197h288.514c41.881 0 79.109-32.574 79.109-74.455 4.653-55.841 9.307-107.029 18.614-162.871H442.088z" fill="#2fa6df" fill-rule="nonzero"/></svg>
