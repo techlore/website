@@ -2,7 +2,8 @@
 
 @font-face {
   src: url('../fonts/Comfortaa-Regular.ttf');
-  font-family: 'Comfortaa';
+  /*font-family: 'Comfortaa'; */
+  font-family: system-ui;
 }
 
 :root {

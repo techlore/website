@@ -81,6 +81,7 @@ async function main() {
         var img = document.createElement('img');
         img.src = image;
         img.className = "discourse-image";
+        img.alt = title;
 
         var p = document.createElement('p');
         p.className = "discourse-title"
