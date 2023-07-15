@@ -13,6 +13,7 @@
   --pink: #B451AB;
   --green: #369A77;
   --green-d: #024c32;
+  --system-ui: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 /* --------------- Simple reset --------------- */
@@ -23,7 +24,7 @@
 
 html,
 body {
-  font-family: system-ui;
+  font-family: var(--system-ui);
   margin: 0;
   padding: 0;
   color: #fff;
