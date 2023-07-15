@@ -16,6 +16,7 @@
   <meta property="og:description" content="Transparent, open source VPN tools for your privacy & security."/>
   <link rel="stylesheet" href="assets/css/style.css?t=129" type="text/css">
   <link rel="stylesheet" href="assets/css/tabulator.min.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/vpn.css" type="text/css">
   <title> Techlore | VPN Toolkit: Open-Source Comparison Chart</title>
   <meta name="title" content="Techlore VPN Toolkit">
   <meta name="description"
@@ -30,121 +31,7 @@
     content="Transparent, open source VPN tools for your privacy & security.">
   <meta name="twitter:image" content="./assets/svg/logo_v2.svg">
   <base target="_blank">
-  <style>
-    body {
-      background-image: linear-gradient(to right bottom, #0a4c6d, #00607b, #007581, #00887f, #369a77);
-    }
-    .tabulator .tabulator-cell {
-      background-color: #f2f2f2;
-      color: #333;
-    }
-    .tabulator .tabulator-row.tabulator-selected .tabulator-cell {
-    background-color: #64B5F6;
-    }
-    ._m-revert>div>* {
-      margin-top: revert;
-    }
-    .button {
-      cursor: pointer;
-      height: 60px;
-      display: inline-block;
-      font-size: 20px;
-      line-height: 60px;
-    }
-    body.noscroll {
-      overflow: hidden;
-    }
-    .container {
-      display: none;
-      position: fixed;
-      margin: auto;
-      left: 0;
-      right: 0;
-      bottom: 10px;
-      background-color: #0074D9;
-      border-radius: .3rem;
-      z-index: 10;
-      width: 100px;
-      max-width: 100px;
-      height: 60px;
-      text-align: center;
-      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-      overflow: hidden;
-    }
-    .container.expand {
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.17);
-      border-radius: .3rem;
-      width: calc(100vw - 20px);
-      height: calc(100vh - 140px);
-      max-width: 500px;
-      padding: 0;
-    }
-    .container.expand .button {
-      background: #000;
-      border-radius: .3rem;
-      padding: 0 1rem;
-      margin-top: .5rem;
-    }
-    .content {
-      width: 100%;
-      height: 100%;
-      opacity: 0;
-      text-align: left;
-    }
-    .expand .content {
-      opacity: 1;
-    }
-    .content .head {
-      padding: .5rem;
-    }
-    .content .head .title {
-      font-size: 1.5rem;
-    }
-    .content .tb {
-      color: #000;
-      background-color: #FFF;
-      width: 100%;
-      display: block;
-      max-height: 80%;
-      padding: .5rem;
-      padding-bottom: 4rem;
-      overflow: auto;
-      box-sizing: border-box;
-    }
-    #tb table {
-      width: 100%;
-    }
-    #tb .tb-b {
-      border-top: 2px solid #000;
-    }
-    #tb table.rt2 td {
-      width: 50%;
-    }
-    #tb table.rt3 td {
-      width: 33.33%;
-    }
-    #tb td {
-      font-size: 16px;
-    }
-    #tb tr,
-    #tb td {
-      text-align: center;
-      padding-bottom: 1rem;
-    }
-    i.ir {
-      border-radius: 50%;
-      height: 30px;
-      width: 30px;
-      padding: 5px;
-      display: inline-flex;
-      justify-content: center;
-      align-items: center;
-      vertical-align: middle;
-    }
-    i.ir img {
-      width: 18px;
-    }
-  </style>
+  
   <noscript>
     <style>
       [class*=_aos],
@@ -157,7 +44,7 @@
 </head>
 <body class="page" id="vpn">
   <div class="container">
-    <span class="button">Compare</span>
+    <span class="cmp-btn">Compare</span>
     <div class="content">
       <div class="head">
       </div>
@@ -319,6 +206,48 @@
 <script src="assets/javascript/tabulator.min.js" type="text/javascript"></script>
 <script src="assets/javascript/script.js" type="text/javascript"></script>
 <script>
+
+
+const linkIcon = '<svg xmlns="http://www.w3.org/2000/svg" width="20px" viewBox="0 0 63.85 61.38"><path fill="#049be0" d="M28.6 38.44a13.11 13.11 0 01-4.86-6.69 12.1 12.1 0 01.74-8.6c.42-.7.4-.72 1.26-1.73 1.3-1.49 3.68-3.8 5.55-5.66l5.84-5.84a7.56 7.56 0 014.05-1.94 16.6 16.6 0 015.92.21 12.44 12.44 0 018.56 8.57c.47 1.73.43 4.5-.08 6.17-.9 2.92-1.17 3.29-7.23 9.4a224.25 224.25 0 01-6.07 5.86c.54-2.63.5-5.45-.56-8.05l3.68-3.49c4.15-3.94 4.42-4.65 4.42-6.9a5.47 5.47 0 00-3.22-5.15 5.8 5.8 0 00-4.98-.01c-.99.48-1.82 1.24-6.1 5.55-5.19 5.25-5.52 5.67-5.9 7.58a5.74 5.74 0 002.26 5.5c.89.67.93.73.92 1.5 0 .46-.16 1.18-.36 1.62-.36.8-2.19 2.82-2.56 2.82-.11 0-.69-.32-1.28-.72z"/><path fill="#0078d2" d="M18.21 55.55a11.61 11.61 0 01-6.22-3.1c-4.01-3.79-4.95-9.32-2.42-14.26.67-1.3 1.16-1.86 6.12-6.85 4.82-4.87 6.94-6.83 7.15-6.62-1.37 3.74-.66 5.63.12 7.95l-3.8 3.83c-4.43 4.46-4.77 4.97-4.78 7.25 0 1.15.08 1.5.57 2.5a5.47 5.47 0 005.16 3.21c2.29 0 2.53-.17 8.29-5.96 3.2-3.21 5.21-5.38 5.54-5.96.66-1.15.84-3.17.4-4.48a6.16 6.16 0 00-2.8-3.25l-1.07-.57.1-.94a5.63 5.63 0 011.73-3.5l.95-1.01c2.03.9 4.02 2.36 5.27 3.96a12 12 0 01.26 14c-.75 1.1-9.2 9.66-10.89 11.02a13.2 13.2 0 01-4.77 2.53c-1.38.35-3.68.47-4.91.25z"/></svg>';
+const linkIconAf = '<svg xmlns="http://www.w3.org/2000/svg" width="20px" viewBox="0 0 63.85 61.38"><path d="M21.99 12.7c0 1.85-1.75 3.35-3.9 3.35-2.16 0-3.9-1.5-3.9-3.35s1.74-3.36 3.9-3.36c2.15 0 3.9 1.5 3.9 3.36zM11.2 19.68l.11 12.2 13.41-.12-.02-11.86c-.53-2.29-10.92-2.43-13.5-.22z" paint-order="stroke fill markers"/><path fill="#049be0" d="M28.6 38.44a13.11 13.11 0 01-4.86-6.69 12.1 12.1 0 01.74-8.6c.42-.7.4-.72 1.26-1.73 1.3-1.49 3.68-3.8 5.55-5.66l5.84-5.84a7.56 7.56 0 014.05-1.94 16.6 16.6 0 015.92.21 12.44 12.44 0 018.56 8.57c.47 1.73.43 4.5-.08 6.17-.9 2.92-1.17 3.29-7.23 9.4a224.25 224.25 0 01-6.07 5.86c.54-2.63.5-5.45-.56-8.05l3.68-3.49c4.15-3.94 4.42-4.65 4.42-6.9a5.47 5.47 0 00-3.22-5.15 5.8 5.8 0 00-4.98-.01c-.99.48-1.82 1.24-6.1 5.55-5.19 5.25-5.52 5.67-5.9 7.58a5.74 5.74 0 002.26 5.5c.89.67.93.73.92 1.5 0 .46-.16 1.18-.36 1.62-.36.8-2.19 2.82-2.56 2.82-.11 0-.69-.32-1.28-.72z"/><path fill="#0078d2" d="M18.21 55.55a11.61 11.61 0 01-6.22-3.1 11.75 11.75 0 01-2.42-14.26c.67-1.3 1.16-1.86 6.12-6.85 4.82-4.87 6.94-6.83 7.15-6.62-1.37 3.74-.66 5.63.12 7.95l-3.8 3.83c-4.43 4.46-4.77 4.97-4.78 7.25 0 1.15.08 1.5.57 2.5a5.47 5.47 0 005.16 3.21c2.29 0 2.53-.17 8.29-5.96 3.2-3.21 5.21-5.38 5.54-5.96.66-1.15.84-3.17.4-4.48a6.16 6.16 0 00-2.8-3.25l-1.07-.57.1-.94a5.63 5.63 0 011.73-3.5l.95-1.01c2.03.9 4.02 2.36 5.27 3.96a12 12 0 01.26 14c-.75 1.1-9.2 9.66-10.89 11.02a13.2 13.2 0 01-4.77 2.53c-1.38.35-3.68.47-4.91.25z"/><path d="M48.65 31.54c0 1.85-1.75 3.35-3.9 3.35-2.16 0-3.9-1.5-3.9-3.35s1.74-3.35 3.9-3.35c2.15 0 3.9 1.5 3.9 3.35zm-10.77 6.98l.1 12.2 13.41-.12-.02-11.86c-.53-2.29-10.92-2.43-13.5-.22z" paint-order="stroke fill markers"/></svg>';
+
+function getCheckValue(cellValue) {
+  if (cellValue === "No")
+    return '<svg xmlns="http://www.w3.org/2000/svg" class="icon-t" width="24" height="24" fill="none" stroke="#CE1515" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3"><path stroke="none" d="M0 0h24v24H0z"/><path d="M18 6 6 18M6 6l12 12"/></svg>';
+  else if (cellValue === "Yes")
+    return '<svg xmlns="http://www.w3.org/2000/svg" class="icon-t" width="24" height="24" fill="none" stroke="#2DC214" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3"><path stroke="none" d="M0 0h24v24H0z"/><path d="m5 12 5 5L20 7"/></svg>';
+  else if (cellValue === "??")
+    return '<svg xmlns="http://www.w3.org/2000/svg" class="icon-t" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3"><path stroke="none" d="M0 0h24v24H0z"/><path d="M8 8a3.5 3 0 0 1 3.5-3h1A3.5 3 0 0 1 16 8a3 3 0 0 1-2 3 3 4 0 0 0-2 4M12 19v.01"/></svg>';
+  else
+    return cellValue;
+}
+
+
+Tabulator.extendModule("format", "formatters", {
+    name:function(cell, formatterParams){
+        if(cell.getValue() == "None")
+          return "None";
+        var r =cell.getRow().getData();
+        var s="";
+        if(r["VPN Affiliate Link"]!= "None") s= "  <a href='" + r["VPN Affiliate Link"] + "' target='_blank'>"+linkIconAf+"</a>";
+        return cell.getValue() + "  <a href='" + r["VPN Standard Link"] + "' target='_blank'>"+linkIcon+"</a>"+s;
+    },
+    link2:function(cell, formatterParams){
+        if(cell.getValue() == "None")
+          return "None";
+        return "<a href='" + cell.getValue() + "' target='_blank'>" + cell.getValue() + "</a>";
+    },
+    check:function(cell, formatterParams){
+      return getCheckValue(cell.getValue())
+      },
+    history:function(cell, formatterParams){
+    	if(cell.getValue() == "None")
+    		return "None";
+    	var h=cell.getRow().getData();
+    	var i="";
+    	return "  <a href='" + h["History"] + "' target='_blank'>"+linkIcon+"</a>"+i;
+    }
+});
   $("#info-afl").html(linkIconAf);
   $("#info-nafl").html(linkIcon);
   function CSVToJSON(csvData) {
@@ -362,11 +291,11 @@
   }
   $(document).ready(function () {
     var opened = false;
-    $('.button').on("click", () => {
+    $('.cmp-btn').on("click", () => {
       opened = !opened;
-      if (opened) $(".button").html("Close");
-      else $(".button").html("Compare");
-      $('.button').parent().toggleClass('expand');
+      if (opened) $(".cmp-btn").html("Close");
+      else $(".cmp-btn").html("Compare");
+      $('.cmp-btn').parent().toggleClass('expand');
       $('body').toggleClass("noscroll");
       gt_btn.className = "gt-link hide";
     });
@@ -389,7 +318,7 @@
 
       if (filterVal) {
         var filterType = "like";
-        if (filterVal == "Techlore Score") filterType = ">=";
+        
         table.setFilter(filter, filterType, valueEl.value);
       }
     }
@@ -411,20 +340,208 @@
         //Use CSV text and convert to json
         jsonData = JSON.parse(CSVToJSON(text));
         var f=jsonData.length - 1 ;
-        while(jsonData[f]["Techlore Score"] <1){
-          jsonData.pop();
-          f--;
-        }
+        
         table = new Tabulator("#vpn-table", {
           data: jsonData, //load row data from array
-          resizableColumns: false,
+          autoResize: false,
+          
           placeholder: "No Data Available", //display message to user on empty table
           layout: "fitData",
-
           selectable: 3, //make rows selectable
           selectableRollingSelection: false,
-          rowSelectionChanged: function (data, rows) {
-            if (data.length > 1) {
+          autoColumns: true,
+          autoColumnsDefinitions: [{
+              field: "VPN",
+              hozAlign: "left",
+              formatter: "name",
+              resizable: false,
+              frozen: true
+            },
+            {
+              field: "VPN Affiliate Link",
+              visible: false,
+              resizable: false
+            },
+            {
+              field: "VPN Standard Link",
+              visible: false,
+              resizable: false
+            },
+            {
+              field: "History",
+              formatter: "history",
+              resizable: false
+            },
+            {
+              field: "OpenVPN",
+              formatter: "check",
+              resizable: false
+            },
+            {
+              field: "Wireguard",
+              formatter: "check",
+              resizable: false
+            },
+            {
+              field: "Killswitch",
+              formatter: "check",
+              resizable: false
+            },
+            {
+              field: "Diskless",
+              formatter: "check",
+              resizable: false
+            },
+            {
+              field: "Max Data Encryption",
+              formatter: "check",
+              resizable: false
+            },
+            {
+              field: "Max Handshake Encryption",
+              formatter: "check",
+              resizable: false
+            },
+            {
+              field: "IPV6 Protection",
+              formatter: "check",
+              resizable: false
+            },
+            {
+              field: "1st-Party DNS",
+              formatter: "check",
+              resizable: false
+            },
+            {
+              field: "1st-Party Servers",
+              formatter: "check",
+              resizable: false
+            },
+            {
+              field: "Custom DNS",
+              formatter: "check",
+              resizable: false
+            },
+            {
+              field: "2FA",
+              formatter: "check",
+              resizable: false
+            },
+            {
+              field: "Honest Marketing",
+              formatter: "check",
+              resizable: false
+            },
+            {
+              field: "Outside 14 Eyes",
+              formatter: "check",
+              resizable: false
+            },
+            {
+              field: "Transparency Report",
+              formatter: "check",
+              resizable: false
+            },
+            {
+              field: "Warrant Canary",
+              formatter: "check",
+              resizable: false
+            },
+            {
+              field: "No Analytics",
+              formatter: "check",
+              resizable: false
+            },
+            {
+              field: "Anon Payment",
+              formatter: "check",
+              resizable: false
+            },
+
+            {
+              field: "Anon Registration",
+              formatter: "check",
+              resizable: false
+            },
+            {
+              field: "Misleading Marketing",
+              formatter: "check",
+              resizable: false
+            },
+            {
+              field: "Total Servers",
+              formatter: "check",
+              resizable: false
+            },
+            {
+              field: "Windows Client",
+              formatter: "check",
+              resizable: false
+            },
+            {
+              field: "MacOS Client",
+              formatter: "check",
+              resizable: false
+            },
+            {
+              field: "Android Client",
+              formatter: "check",
+              resizable: false
+            },
+            {
+              field: "iOS Client",
+              formatter: "check",
+              resizable: false
+            },
+            {
+              field: "Linux Client",
+              formatter: "check",
+              resizable: false
+            },
+            {
+              field: "P2P Friendly",
+              formatter: "check",
+              resizable: false
+            },
+            {
+              field: "Open Source Clients",
+              formatter: "check",
+              resizable: false
+            },
+            {
+              field: "Multihop",
+              formatter: "check",
+              resizable: false
+            },
+            {
+              field: "Audits",
+              formatter: "check",
+              resizable: false
+            },
+            {
+              field: "Port Forwarding",
+              formatter: "check",
+              resizable: false
+            },
+            {
+              field: "Affiliate Program",
+              formatter: "check",
+              resizable: false
+            },
+            {
+              field: "Helps Privacy Causes",
+              formatter: "check",
+              resizable: false
+            },
+            {
+              field: "Native F-Droid Client",
+              formatter: "check",
+              resizable: false
+            },
+          ],
+        });
+        table.on("rowSelectionChanged", function(data, rows, selected, deselected){
+          if (data.length > 1) {
               $('.container').show();
               var tb = "<table class='rt" + data.length + "'>";
               var strh = "<div class='row keep-width _centered'>";
@@ -440,7 +557,7 @@
                 for (var i = 0; i < data.length; i++) {
                   var v = data[i];
                   v = v[keys[key]];
-                  tb += "<td>" + v + "</td>";
+                  tb += "<td>" + getCheckValue(v) + "</td>";
                 }
                 tb += "</tr>";
               }
@@ -449,200 +566,37 @@
             } else {
               $('.container').hide();
             }
-            console.log("compare : " + data.length)
-          },
-          initialSort: [ //set the initial sort order of the data
-            {
-              column: "Techlore Score",
-              dir: "disc"
-            },
-          ],
-          autoColumns: true,
-          autoColumnsDefinitions: [{
-              field: "VPN",
-              hozAlign: "left",
-              formatter: "name",
-              frozen: true
-            },
-            {
-              field: "VPN Affiliate Link",
-              visible: false
-            },
-            {
-              field: "VPN Standard Link",
-              visible: false
-            },
-            {
-              field: "History",
-              formatter: "history"
-            },
-            {
-              field: "OpenVPN",
-              formatter: "check"
-            },
-            {
-              field: "Wireguard",
-              formatter: "check"
-            },
-            {
-              field: "Killswitch",
-              formatter: "check"
-            },
-            {
-              field: "Diskless",
-              formatter: "check"
-            },
-            {
-              field: "Max Data Encryption",
-              formatter: "check"
-            },
-            {
-              field: "Max Handshake Encryption",
-              formatter: "check"
-            },
-            {
-              field: "IPV6 Protection",
-              formatter: "check"
-            },
-            {
-              field: "1st-Party DNS",
-              formatter: "check"
-            },
-            {
-              field: "1st-Party Servers",
-              formatter: "check"
-            },
-            {
-              field: "Custom DNS",
-              formatter: "check"
-            },
-            {
-              field: "2FA",
-              formatter: "check"
-            },
-            {
-              field: "Honest Marketing",
-              formatter: "check"
-            },
-            {
-              field: "Outside 14 Eyes",
-              formatter: "check"
-            },
-            {
-              field: "Transparency Report",
-              formatter: "check"
-            },
-            {
-              field: "Warrant Canary",
-              formatter: "check"
-            },
-            {
-              field: "No Analytics",
-              formatter: "check"
-            },
-            {
-              field: "Anon Payment",
-              formatter: "check"
-            },
+      });
+      table.on("tableBuilt", function(){
+        const tbl = document.getElementById('vpn-table');
 
-            {
-              field: "Anon Registration",
-              formatter: "check"
-            },
-            {
-              field: "Misleading Marketing",
-              formatter: "check"
-            },
-            {
-              field: "Total Servers",
-              formatter: "check"
-            },
-            {
-              field: "Windows Client",
-              formatter: "check"
-            },
-            {
-              field: "MacOS Client",
-              formatter: "check"
-            },
-            {
-              field: "Android Client",
-              formatter: "check"
-            },
-            {
-              field: "iOS Client",
-              formatter: "check"
-            },
-            {
-              field: "Linux Client",
-              formatter: "check"
-            },
-            {
-              field: "P2P Friendly",
-              formatter: "check"
-            },
-            {
-              field: "Open Source Clients",
-              formatter: "check"
-            },
-            {
-              field: "Multihop",
-              formatter: "check"
-            },
-            {
-              field: "Audits",
-              formatter: "check"
-            },
-            {
-              field: "Port Forwarding",
-              formatter: "check"
-            },
-            {
-              field: "Affiliate Program",
-              formatter: "check"
-            },
-            {
-              field: "Helps Privacy Causes",
-              formatter: "check"
-            },
-            {
-              field: "Native F-Droid Client",
-              formatter: "check"
-            },
-
-          ],
-        });
-      })
-      .then(() => {
-        var table = document.getElementById('vpn-table');
-
-        table.className = table.className + ' resizable';
+        tbl.classList.add("resizerT");
         var resizer = document.createElement('div');
-        resizer.className = 'resizer';
-        table.appendChild(resizer);
+        resizer.className = 'resizer-h';
+        tbl.appendChild(resizer);
         resizer.addEventListener('mousedown', initDrag, false);
 
         var startX, startY, startWidth, startHeight;
 
         function initDrag(e) {
-          table.style.userSelect = "none";
+          tbl.style.userSelect = "none";
           startX = e.clientX;
           console.log("startx--> " + startX);
-          startWidth = parseInt(document.defaultView.getComputedStyle(table).width, 10);
+          startWidth = parseInt(document.defaultView.getComputedStyle(tbl).width, 10);
           console.log("startw--> " + startWidth);
           document.documentElement.addEventListener('mousemove', doDrag, false);
           document.documentElement.addEventListener('mouseup', stopDrag, false);
         }
         function doDrag(e) {
-
-          table.style.width = (startWidth + 2 * (e.clientX - startX)) + 'px';
+          tbl.style.width = (startWidth + 2 * (e.clientX - startX)) + 'px';
         }
         function stopDrag(e) {
-          table.style.userSelect = "auto";
+          tbl.style.userSelect = "auto";
           document.documentElement.removeEventListener('mousemove', doDrag, false);
           document.documentElement.removeEventListener('mouseup', stopDrag, false);
         }
       });
+    });
   });
 </script>
 </html>
