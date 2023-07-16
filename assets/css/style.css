@@ -1204,7 +1204,11 @@ details > summary::-webkit-details-marker {
 }
 
 .resourcesdetails li {
-  background-color: #c0392b;
+  background-color: #363b3f;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 50px;
+  padding-right: 40px;
 }
 
 #patrons {
@@ -1280,8 +1284,47 @@ ul[data-forum] .discourse-excerpt {
   max-width: 80vw;
 }
 
+/* ---------- Henry's Playground ---------- */
 .sponsor {
   width: 30%;
   margin: auto;
   display: block;
+}
+
+.opt_image {
+  width: 100%;
+  height: auto;
+}
+
+.opt_image_logo {
+  width: 25%;
+  height: auto;
+}
+
+.opt_image_homelogos {
+  width: 40%;
+  height: auto;
+}
+
+.opt_image_gi {
+  width: 23%;
+  height: auto;
+  padding-top: 12px;
+  padding-bottom: 20px;
+}
+
+.opt_image_coaching {
+  width: 60%;
+  height: auto;
+}
+
+.paragraph_left {
+  font-weight: bold;
+  padding-right: 50px;
+}
+
+.paragraph_left_support {
+  line-height: 30px;
+  padding-top: 15px;
+  font-size: 18px;
 }
