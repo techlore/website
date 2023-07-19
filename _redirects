@@ -4,8 +4,11 @@ https://discord.techlore.tech/* https://discord.com/servers/techlore-42233227432
 # MTA-STS
 https://mta-sts.techlore.tech/* /mta-sts.txt 200!
 
-# VPN Chart Redirect
-/vpnchart.html /vpn 301
-/vpnchart /vpn 301
-/affiliations /affiliates 301
+# PGP Web Key Directory
+/.well-known/openpgpkey/* https://openpgpkey.protonmail.com/.well-known/openpgpkey/techlore.tech/:splat 200!
+
+# Other Redirects
+/vpnchart.html /vpn
+/vpnchart /vpn
+/affiliations /affiliates
 /sponsors https://discuss.techlore.tech/pub/sponsors
