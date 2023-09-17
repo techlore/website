@@ -18,7 +18,7 @@ Our VPN Chart is open source and we want every VPN on it. To make this possible,
 There aren't many legitimate VPN resources on the internet. In fact, many resources pay huge sums of money for SEO to outrank legitimate resources. To help combat this, we ask users to share this project as much as possible. Word of mouth is how we rely on spreading this project to as many people as possible.
 
 ## Affiliate Plans & Sponsorships
-*This readme is brought to you buy NordVPN...* ***NOT***
+*This readme is brought to you by NordVPN...* ***NOT***
 
 Sponsorships can be fine, but they've led to massive amounts of misinformation, fake and/or biased reviews, & other...questionable practices.
 
