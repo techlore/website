@@ -169,6 +169,10 @@
           <p><a href="https://github.com/techlore/website/tree/master/assets/vpn"> Yes!</a></p>
         </details>
         <details>
+          <summary>🙋&nbsp;&nbsp;<i>Why do some areas have a question mark?</i></summary>
+          <p>We aren't able to test every feature of every VPN service ourselves. If you see a '?' and are able to answer it—please <a href="https://github.com/techlore/website/tree/master/assets/vpn">contribute to the chart</a> so that we can turn question marks into real data for everyone else&nbsp;❤️</p>
+        </details>
+        <details>
           <summary>🙋&nbsp;&nbsp;<i>How is the chart sorted?</i></summary>
           <p>The chart is loosely sorted from 'best' to 'worst', but this is ultimately personal preference. The VPN at the top of the chart may be perfect for individual A, and terrible for individual B. We encourage users to focus on the data of each service rather than strictly the order.</p>
         </details>
@@ -495,6 +499,11 @@ Tabulator.extendModule("format", "formatters", {
             },
             {
               field: "Linux Client",
+              formatter: "check",
+              resizable: false
+            },
+            {
+              field: "Connect on Boot",
               formatter: "check",
               resizable: false
             },
