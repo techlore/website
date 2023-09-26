@@ -183,7 +183,7 @@ main,
 .row>div,
 .grid [class*="col"],
 .grid>div {
-  padding: .5rem;
+  padding: 0.8rem;
 }
 
 .row .col,
@@ -427,7 +427,7 @@ nav ul {
 }
 
 nav ul li {
-  padding: 0px 12px 0px 13px;
+  padding: 0px 12px 0px 12px;
   text-align: center;
   line-height: 60px;
 }
@@ -435,8 +435,7 @@ nav ul li {
 
 nav li a {
   color: white;
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 16.5px;
   text-decoration: none;
 }
 
@@ -493,7 +492,7 @@ button,
   display: inline-block;
   border: 2px solid #000;
   outline: none;
-  padding: 0.5rem 1rem;
+  padding: 0.6rem 1.5rem;
   cursor: pointer;
   font-size: 20px;
   letter-spacing: 0.1rem;
@@ -741,8 +740,6 @@ select:hover {
 }
 
 
-
-
 .social-icons {
   list-style: none;
     display: inline-block;
@@ -766,11 +763,9 @@ select:hover {
 }
 
 
-
-
 /* ------------------ Footer ------------------ */
 footer {
-  padding: 1rem 0;
+  padding: 0.6rem 0;
   background: var(--black);
   text-align: center;
   display: block;
@@ -782,6 +777,7 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
+  padding-bottom: 1rem;
 }
 
 /* ------------- Media  ------------- */
@@ -854,7 +850,7 @@ footer {
 
 
 details {
-  padding: 0 .5rem;
+  padding: 0.5rem;
   border-radius: 4px;
   margin-bottom: .5rem;
 }
@@ -868,7 +864,7 @@ details > summary {
   padding: 1rem;
   margin: 0 calc(.5rem * -1);
   border-radius: 4px;
-  font-size: 24px;
+  font-size: 21px;
   cursor: pointer;
   justify-content: space-between;
   list-style: none; /* Hides the default arrow */
@@ -1121,13 +1117,13 @@ details > summary::-webkit-details-marker {
   cursor: pointer;
   align-items: center;
   justify-content: center;
-  border: 2px solid var(--black);
+  border: 2px solid var(--white);
   border-radius: 0.3rem;
   margin: .5rem;
   padding: .25em;
   width: 50px;
   height: 50px;
-  background-color: var(--black);
+  background-color: var(--white);
 }
 
 .gt-link.show {
@@ -1141,7 +1137,7 @@ details > summary::-webkit-details-marker {
 }
 
 .gt-link svg {
-  fill: var(--white);
+  fill: var(--black);
   width: 24px;
   height: 12px;
 }
@@ -1212,10 +1208,8 @@ details > summary::-webkit-details-marker {
 }
 
 #patrons {
-  color: #e0c56e;
-  font-style: italic;
-  font-weight: bold;
-  font-size: 20px;
+  color: white;
+  font-size: 19px;
 }
 
 #patrons a {
@@ -1297,13 +1291,25 @@ ul[data-forum] .discourse-excerpt {
 }
 
 .opt_image_logo {
-  width: 25%;
+  width: 28%;
+  height: auto;
+}
+
+.opt_image_logoAB {
+  width: 22%;
   height: auto;
 }
 
 .opt_image_homelogos {
   width: 40%;
   height: auto;
+  margin-bottom: -2rem;
+}
+
+.opt_image_vpn {
+  width: 45%;
+  height: auto;
+  margin-bottom: -2rem;
 }
 
 .opt_image_gi {
@@ -1314,7 +1320,7 @@ ul[data-forum] .discourse-excerpt {
 }
 
 .opt_image_coaching {
-  width: 60%;
+  width: 70%;
   height: auto;
 }
 
@@ -1327,4 +1333,8 @@ ul[data-forum] .discourse-excerpt {
   line-height: 30px;
   padding-top: 15px;
   font-size: 18px;
+}
+
+.footerURL {
+  color: white;
 }
