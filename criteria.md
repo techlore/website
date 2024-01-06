@@ -1,1 +1,1 @@
-Our Critera Has Been Migrated [Here](https://discuss.techlore.tech/pub/criteria)
+Our Criteria Has Been Migrated [Here](https://discuss.techlore.tech/pub/criteria)
