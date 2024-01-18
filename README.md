@@ -12,8 +12,7 @@ This website uses HTML, CSS and vanilla Javascript. It doesn't have any dependen
 **To contribute to our VPN Toolkit, [visit here!](/assets/vpn)**
 
 #### Do you want to improve the project? 
-- Fork this repository 
-- Enable the Github Pages feature
+- Fork this repository
 - Edit the project with the improvements and features 
 - Make a pull request with detailed changes 
 - Wait for our team to evaluate the changes 
