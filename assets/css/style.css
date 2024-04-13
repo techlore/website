@@ -782,7 +782,7 @@ footer {
 
 /* ------------- Media  ------------- */
 
-@media (min-width: 1301px) {
+@media (min-width: 1230px) {
 
   nav ul li {
     display: inline-block;
