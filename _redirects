@@ -7,6 +7,9 @@ https://mta-sts.techlore.tech/* /mta-sts.txt 200!
 # PGP Web Key Directory
 /.well-known/openpgpkey/* https://openpgpkey.protonmail.com/.well-known/openpgpkey/techlore.tech/:splat 200!
 
+# Security.txt
+/.well-known/security.txt /security.txt 200!
+
 # Other Redirects
 /vpnchart.html /vpn
 /vpnchart /vpn

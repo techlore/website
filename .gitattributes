@@ -1,0 +1,12 @@
+# Set default behavior for text files
+* text=auto
+
+# Specify files that should always be treated as binary
+*.jpg binary
+*.png binary
+*.pdf binary
+
+# Specify files that should always be treated as text
+*.txt text
+*.md text
+*.html text

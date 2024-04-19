@@ -1,6 +1,11 @@
+Contact: mailto:contact@techlore.tech
 Contact: https://techlore.tech/contact
-Expires: 2026-05-24T17:00:00.000Z
+Expires: 2025-04-18T17:00:00.000Z
 Acknowledgments: https://discuss.techlore.tech/badges/106/security-bug-hunter
 Acknowledgments: https://techlore.tech/about
 Preferred-Languages: en
+Canonical: https://www.techlore.tech/security.txt
+Canonical: https://www.techlore.tech/.well-known/security.txt
+Canonical: https://discuss.techlore.tech/.well-known/security.txt
 Policy: https://discuss.techlore.tech/pub/security-policy
+Policy: https://discuss.techlore.tech/pub/security-vulnerability-reporting
