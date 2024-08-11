@@ -26,7 +26,7 @@
 	{% assign path = "/assets/icons/" %}
 {% endunless %}
 
-{% assign url = path | append: icon | append: ".svg" | relative_url %}
+{% assign url = path | append: icon | append: ".svg" %}
 
 {% if include.inline %}
 	<span class="svg-icon svg-icon--inline {{ dimension | prepend: "is-size-" }} {{ include.class }}">
