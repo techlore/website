@@ -1,0 +1,40 @@
+---
+layout: page
+title: About
+permalink: /about
+---
+{% include variables.html %}
+
+{% assign perex = t.about.perex %}
+{% include c_sub-hero.html title=page.title perex=perex %}
+
+<section>
+	<div class="fixed-grid has-1-cols">
+		<div class="grid">
+			<div class="cell has-text-centered has-text-text-bold p-5">
+				<div class="container is-max-tablet">
+					<img src="{% link assets/logos/techlore-logo-edit-by-figma.svg %}" style="width: calc(var(--bulma-size-5) * 10)" width="160" height="160" loading="lazy" alt="Logo - {{ site.name }}">
+					<p>{{ t.about.mission.line1 }}</p>
+					<p>{{ t.about.mission.line2 }}</p>
+					<p>{{ t.about.mission.line3 }}</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="container is-max-tablet">
+		{% include team.html %}
+	</div>
+</section>
+
+<section>
+	{% assign buttonText = t.support.proudly.button %}
+	{% assign buttonUrl = "xxx" %}
+	{% include support-proudly.html buttonText=buttonText buttonUrl=buttonUrl %}
+</section>
+
+<section>
+	{% include official-accounts.html %}
+</section>

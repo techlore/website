@@ -1,0 +1,21 @@
+<div class="section-header is-flex-tablet is-flex-direction-row is-justify-content-space-between">
+	<h2 class="section-header__title marginless">
+		{% if include.title %}
+			{{ include.title }}
+		{% endif %}
+	</h2>
+
+	{% if include.links.size > 0 %}
+		<ul class="section-header__links is-flex is-flex-direction-row is-gap-1 marginless listless">
+			{% for link in include.links %}
+				{% assign slug = link[0] %}
+				<li class="section-header__item marginless">
+					<a href="{{ link[1] }}" class="section-header__link button is-ghost is-primary is-gap-1 is-small">
+						{{ t.global.platforms[slug] }}
+						{% include e_render-svg-icon.html icon=slug class="section-header__icon icon" dimension=25 inline=true %}
+					</a>
+				</li>
+			{% endfor %}
+		</ul>
+	{% endif %}
+</div>

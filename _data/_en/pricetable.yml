@@ -1,0 +1,21 @@
+free:
+  icon: "tv"
+  title: "watch FREE"
+  desc: "Learn for free!<br>Get instant access to free version of the GO&nbsp;INCOGNITO! course"
+  sellingPoints: ["Monetized", "Older content", "No extra resources", "Lower video quality"]
+  buttons:
+    -
+      text: "Watch on YouTube"
+      url: ""
+    -
+      text: "Watch on PeerTube"
+      url: ""
+premium:
+  icon: "tv-star"
+  title: "watch PREMIUM"
+  desc: "Enroll in our premium course and get expert guidance on advanced strategies."
+  sellingPoints: [ "No Ads", "Quizzes & Guides", "Checklists", "2021 Updates", "Best Quality", "Certificate" ]
+  buttons:
+    - text: "Enroll now!"
+      url: ""
+  note: "Go Incognito v2 is being produced <strong>now</strong>. All premium students will be grandfathered into future versions of the project."

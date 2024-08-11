@@ -1,0 +1,40 @@
+{% comment %}
+	SVG ICON -----------------------------------------
+	Default data source: 	assets/icons/{*}.svg
+	Parameters:
+		- icon:				name of the SVG file in the {data source}
+		- path:				custom path (eg. "assets/knowledgebase/icons/)
+		- class:			custom class(es); when placed inside a button use class "icon"
+		- inline (boolean):	when "true" insert the code of the SVG
+		- dimension: 		size of the icon (aspect ratio 1:1)
+							default size: 100 (100%)
+							variant sizes: 25, 50, 75, 150, 200
+{% endcomment %}
+
+{% assign icon = include.icon %}
+{% unless include.icon %}
+	{% assign icon = "default" %}
+{% endunless %}
+
+{% assign dimension = include.dimension %}
+{% unless include.dimension %}
+	{% assign dimension = 100 %}
+{% endunless %}
+
+{% assign path = include.path %}
+{% unless include.path %}
+	{% assign path = "/assets/icons/" %}
+{% endunless %}
+
+{% assign url = path | append: icon | append: ".svg" | relative_url %}
+
+{% if include.inline %}
+	<span class="svg-icon svg-icon--inline {{ dimension | prepend: "is-size-" }} {{ include.class }}">
+		{% include_relative {{ url }} %}
+	</span>
+{% else %}
+	<span class="svg-icon {{ dimension | prepend: "is-size-" }} {{ include.class }}">
+		<img src="{{ path | relative_url | append: icon | append: ".svg" }}" alt="">
+	</span>
+
+{% endif %}

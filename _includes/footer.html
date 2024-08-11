@@ -1,0 +1,107 @@
+{% include variables.html %}
+{% assign nav = site.data._en.navigation %}
+
+<footer>
+	<div class="container">
+		<div class="aaa columns has-1-cols has-3-cols-tablet has-5-cols-desktop is-multiline">
+			<div class="column is-full-tablet is-one-fifth-desktop is-flex is-flex-direction-column">
+				Logos
+			</div>
+			<div class="column">
+				<h6 class="has-text-text-bold">{{ site.name | upcase }}</h6>
+				<ul class="listless">
+					<li><a href="{{ nav.mainNav.about.url }}">{{ nav.mainNav.about.title }}</a></li>
+					<li><a href="{{ nav.footerNav.contact.url }}">{{ nav.footerNav.contact.title }}</a></li>
+				</ul>
+			</div>
+			<div class="column">
+				<h6 class="has-text-text-bold">{{ t.videos.title | upcase }}</h6>
+				<ul class="listless">
+					<li><a href="{{ nav.mainNav.videos.url }}">{{ t.videos.techlore.title }}</a></li>
+					<li><a href="{{ nav.mainNav.videos.url }}#techlore-clips">{{ t.videos.techloreClips.title }}</a></li>
+					<li><a href="{{ nav.mainNav.videos.url }}#surveillance-report">{{ t.videos.surveillanceReport.title }}</a></li>
+					<li><a href="{{ nav.mainNav.goincognito.url }}">{{ t.goincognito.title }}</a></li>
+				</ul>
+			</div>
+			<div class="column">
+				<h6 class="has-text-text-bold">{{ t.resources.title | upcase }}</h6>
+			</div>
+			<div class="column is-full-tablet is-one-fifth-desktop is-flex is-flex-direction-column">
+				<div class="">
+					{% assign socialLinks = site.socials.links | keys %}
+					{% if socialLinks.size > 0 %}
+						<h6 class="has-text-text-bold">{{ t.featureBox.socials.title | upcase }}</h6>
+						<ul class="is-flex is-flex-direction-row is-multiline listless">
+							{% for link in socialLinks %}
+								{% assign url = link[1] %}
+								{% assign icon = link[0] %}
+								<li>
+									<a href="{{ url }}" class="button is-small is-text has-text-primary">
+										{% include e_render-svg-icon.html icon=icon dimension=25 inline=true class="icon" %}
+									</a>
+								</li>
+							{% endfor %}
+						</ul>
+					{% endif %}
+				</div>
+				<div class="">
+					{% assign paymentLinks = site.support.links | keys %}
+					{% if paymentLinks.size > 0 %}
+						<h6 class="has-text-text-bold">{{ t.support.title | upcase }}</h6>
+						<ul class="is-flex is-flex-direction-row is-multiline listless">
+							{% for link in paymentLinks %}
+								{% assign url = link[1] %}
+								{% assign icon = link[0] %}
+								<li>
+									<a href="{{ url }}" class="button is-small is-text has-text-primary">
+										{% include e_render-svg-icon.html icon=icon dimension=25 inline=true class="icon" %}
+									</a>
+								</li>
+							{% endfor %}
+						</ul>
+					{% endif %}
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+{% comment %}{% include e_render-svg-icon.html icon="paypal" size="50" inline=true %}{% endcomment %}
+
+{% comment %}
+<footer class="site-footer h-card">
+	<data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+	<div class="wrapper">
+
+		<h2 class="footer-heading">{{ site.title | escape }}</h2>
+
+		<div class="footer-col-wrapper">
+			<div class="footer-col footer-col-1">
+				<ul class="contact-list">
+					<li class="p-name">
+						{%- if site.author -%}
+							{{ site.author | escape }}
+						{%- else -%}
+							{{ site.title | escape }}
+						{%- endif -%}
+					</li>
+					{%- if site.email -%}
+						<li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+					{%- endif -%}
+				</ul>
+			</div>
+
+			<div class="footer-col footer-col-2">
+				{% include social.html %}
+			</div>
+
+			<div class="footer-col footer-col-3">
+				<p>{{- site.description | escape -}}</p>
+			</div>
+		</div>
+
+	</div>
+
+</footer>
+{% endcomment %}

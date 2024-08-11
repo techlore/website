@@ -1,0 +1,29 @@
+{% include variables.html %}
+
+<div class="guide">
+	<div class="columns has-2-cols">
+		<div class="column is-half">
+			{% if include.link %}
+				<a href="{{ include.link }}" target="_blank">
+					<img src="{{ include.thumbnail }}" class="has-radius-normal" loading="lazy" alt="Video thumbnail - {{ include.title }}">
+				</a>
+
+			{% else %}
+				<img src="{{ include.thumbnail }}" class="has-radius-normal" loading="lazy" alt="Video thumbnail - {{ include.title }}">
+
+			{% endif %}
+
+			{% if include.isPremium %}
+				<a href="{{ site.goincognito.links.premium }}" target="_blank" class="button">{{ t.goincognito.premium.buttonText }}</a>
+			{% endif %}
+		</div>
+		<div class="column is-half">
+			{% if include.title %}
+				<h3>{{ include.title }}</h3>
+			{% endif %}
+			{% if include.desc %}
+				<p>{{ include.desc }}</p>
+			{% endif %}
+		</div>
+	</div>
+</div>

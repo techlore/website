@@ -1,0 +1,40 @@
+{% assign data = include.data %}
+
+<div class="pricetable__column column has-text-centered is-flex is-flex-direction-column is-align-items-center {% if data.class %}{{ data.class }}{% endif %}">
+	{% if data.icon %}
+		{% include e_render-svg-icon.html icon=data.icon inline=true %}
+	{% endif %}
+
+	{% if data.title %}
+		<h4>{{ data.title }}</h4>
+	{% endif %}
+
+	{% if data.desc %}
+		<p>{{ data.desc }}</p>
+	{% endif %}
+
+	{% if data.sellingPoints.size > 0 %}
+		<ul class="listless marginless">
+			{% for point in data.sellingPoints %}
+				<li>{{ point }}</li>
+			{% endfor %}
+		</ul>
+	{% endif %}
+
+	{% if data.buttons.size > 0 %}
+		{% for button in data.buttons %}
+			<a href="{{ button.url }}" class="button">{{ button.text }}</a>
+		{% endfor %}
+	{% endif %}
+
+	{% if data.note %}
+		<div class="columns">
+			<div class="column">
+				{% include e_render-svg-icon.html icon="info-circle" inline=true dimension=25 %}
+			</div>
+			<div class="column has-text-left is-size-7">
+				<p><i>{{ data.note }}</i></p>
+			</div>
+		</div>
+	{% endif %}
+</div>

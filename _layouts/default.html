@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en" }}">
+{% include head.html %}
+<body>
+{% include nav.html %}
+{% include wave.html %}
+{% include header.html %}
+
+{% comment %} LANG {% endcomment %}
+{% comment %}{% assign t = site.data._en %}{% endcomment %}
+<main class="content" aria-label="Content">
+	{{ content }}
+</main>
+{% include footer.html %}
+</body>
+</html>

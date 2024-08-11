@@ -1,0 +1,174 @@
+# -----------------------------------------
+# This "translation" file serves as a centralized resource that simplifies the process of updating
+# and managing layout's text content (such as section titles, buttons and other elements).
+#
+# Double quotes inside the text:  \"quoted phrase\"
+# Link:     <a href=\"https://example.com/\" target=\"_blank\">Link</a>
+# Bold:     <strong>bold text</strong>
+# Italic:   <i>italic text</i>
+#
+global:
+  sitename: "Techlore — a safer internet"
+  description: "Techlore is educating people about digital rights, privacy, security, digital control, and other important topics to push the world towards a safer internet."
+  title: "Welcome (from translations)"
+  platforms:
+    youtube: "YouTube"
+    peertube: "PeerTube"
+    rss: "RSS"
+    web: "Web"
+    patreon: "Patreon"
+    librapay: "LibraPay"
+    paypal: "PayPal"
+    kofi: "Ko-Fi"
+    discuss: "Join our forum"
+
+
+# -----------------------------------------
+# HOMEPAGE
+#
+home:
+  hero: ""
+  newestVideos: "Newest videos"
+  hotTopics: "Hot topics in our community"
+
+# -----------------------------------------
+# RESOURCES section and page
+#
+resources:
+  title: "Resources"
+  perex: "Techlore's Privacy & Security recommendations based on our strict <strong>criteria</strong>. For further assistance, we suggest our <strong>Go Incognito</strong> course and our coaching. There are external resources at the bottom for more recommendations."
+  section:
+    title: "Useful resources"
+    learn:
+      title: "Let's learn"
+      desc: "Check out our courses, coaching and other resources to learn how to protect yourself online"
+    tools:
+      title: "Tools that can help you"
+      desc: "Check out our curated list of useful resources to help you stay private and secure"
+  knowledgebase:
+    affil: "Affiliate link"
+    disclaimer: "Affiliate Link: Some services link to their official site, with a separate affiliate link if you choose to support Techlore. View our strict requirements <a href=\"https://discuss.techlore.tech/pub/sponsors-affiliates\" target=\"blank\">here</a>. To view all affiliates, visit <a href=\"/affiliates\" target=\"blank\">here.</a>"
+    favorite: "marks a favorite. They don't represent every threat model and shouldn't be over-analyzed."
+    sections:
+      software: "Software, hardware and other services"
+      operatingSystems: "Operating systems"
+      other: "Other services"
+      external: "External resources"
+    categories:
+      browsers: "Web Browsers"
+      pswdManagers: "Password Managers"
+      totp2fa: "TOTP 2FA"
+      encryption: "Encryption"
+      firewalls: "Firewalls"
+      apps: "Applications"
+      desktop: "Desktop"
+      android: "Android"
+      search: "Search engines"
+      vpns: "VPNs"
+      dns: "DNS"
+      messengers: "Messengers"
+      email: "Email"
+      aliasing: "Aliasing"
+      cloud: "Cloud providers"
+      docs: "Notes & docs"
+      crypto: "Cryptocurrencies"
+      hw2fa: "Hardware 2FA"
+      hosting: "Webhosting/VPS"
+      network: "Networking"
+      other: "Other tools"
+      guides: "Guides"
+      rights: "Digital rights"
+      creators: "Creators"
+    labels:
+      android: "Android"
+      ios: "iOS"
+      desktop: "Desktop"
+      official: "Official web"
+    related: "May come in handy"
+
+
+# -----------------------------------------
+# VIDEOS section and page
+#
+videos:
+  title: "Videos"
+  titleNewest: "Newest videos"
+  perex: "Explore our video library, featuring expert insights and practical tips on digital rights and privacy"
+  techlore:
+    title: "Techlore"
+  techloreClips:
+    title: "Techlore Clips"
+  techloreGuides:
+    title: "Techlore Guides"
+  surveillanceReport:
+    title: "Surveillance Report"
+
+# -----------------------------------------
+# GO INCOGNITO section and page
+#
+goincognito:
+  title: "Go Incognito"
+  titleMore: "Want more?"
+  perex: "Dive into our comprehensive guide to security, privacy, and anonymity, and learn how to protect yourself online."
+  premium:
+    buttonText: "Go Incognito! Premium"
+
+# -----------------------------------------
+# SUPPORT section and page
+#
+support:
+  title: "Support us"
+  section:
+    title: "Spread the word or support us directly"
+    titleShort: "Support the project directly"
+  proudly:
+    title: "We proudly support"
+    desc: "And why do we passionately support these initiatives?"
+    button: "Watch our explanation video"
+
+# -----------------------------------------
+# ABOUT US section and page
+#
+about:
+  section:
+    title: "And what is Techlore?"
+    desc: "We're a small team educating people about digital rights, privacy, security, digital control, and other important topics to push the world towards a safer internet. We envision a world where technology works for us, not against us—and we want to prove to people they can make a real impact for themselves and others. You can find more information about Techlore on <a href=\"https://youtube.fandom.com/wiki/Techlore\" target=\"_blank\">our wiki</a>."
+  buttonMore: "More about who we are"
+  perex: "Who's behind the scenes? Learn more about our mission, values, and team,  and why we're passionate about promoting digital rights and privacy."
+  mission:
+    line1: "Our vision is a world where technology works for us, not against us."
+    line2: "Our mission is to prove to people they can make a real impact for themselves and others."
+    line3: "We're a small team educating people about digital rights, privacy, security, digital control, and other important topics to push the world towards a safer internet."
+  personalWebsite: "Personal website"
+
+# -----------------------------------------
+# "Feature-box" sections (Support Us, Merchandise, Socials, Techlore Tools ...)
+#
+featureBox:
+  merchandise:
+    title: "Merchandise"
+    desc: "Explore our shop for cool gear that shows your support."
+    buttonText: "Let’s go shopping"
+  supportUs:
+    title: "Support Us"
+    desc: "Love what we're doing? Help us keep fighting for digital rights and privacy!"
+  socials:
+    title: "Socials"
+    desc: "Want to stay in the loop? Follow us on social media and let's chat!"
+  tryIncognito:
+    title: "Try our GO INCOGNITO course!"
+    desc: "Dive into our comprehensive guide to security, privacy, and anonymity, and learn how to protect yourself online."
+    buttonText: "Go Incognito!"
+  techloreTools:
+    spaQuiz:
+      title: "SPA Quiz"
+      desc: "Test your Security, Privacy and Anonymity and see what you can improve on."
+      buttonText: "Take the quiz"
+    vpnToolkit:
+      title: "VPN Toolkit"
+      desc: "Transparent, open source VPN tools for your privacy & security"
+      buttonText: "Compare VPNs"
+    plexus:
+      title: "Plexus app"
+      desc: "Remove the fear of Android app compatibility on de-Googled devices."
+      buttonText: "Search"

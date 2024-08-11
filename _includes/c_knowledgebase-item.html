@@ -1,0 +1,48 @@
+{% assign icon = include.item.name | slugify %}
+{% assign iconColor = include.item.color %}
+
+<div class="knowledgebase-item cell">
+	<div class="columns has-2-cols is-flex is-flex-wrap-nowrap">
+		<div class="column is-flex-grow-0">
+			<i class="knowledgebase-item__icon is-block has-radius-rounded is-overflow-hidden has-text-warning" {% if iconColor %}style="background-color: {{ iconColor }};{% endif %}">
+				<img src="{{ '/assets/knowledgebase/icons/' | append: icon | append: '.svg' | asset_url }}" loading="lazy" alt="Icon - {{ include.item.name }}">
+			</i>
+		</div>
+		<div class="column">
+			<h4 class="knowledgebase-item__title">
+				{{ include.item.name }}
+				{% if include.item.favorite %}
+					{% include e_render-svg-icon.html icon="star" dimension="25" inline=true %}
+				{% endif %}
+			</h4>
+			<div class="knowledgebase-item__tags">
+				{% if include.item.tags.size > 0 %}
+					{% for tag in include.item.tags %}
+						<span class="knowledgebase-item__tag">{{ tag | prepend: "#" }}</span>
+					{% endfor %}
+				{% endif %}
+			</div>
+			{% if include.item.desc %}
+				<p class="knowledgebase-item__desc">
+					{{ include.item.desc }}
+				</p>
+			{% endif %}
+			<div class="knowledgebase-item__links">
+				{% if include.item.affil %}
+					<a href="{{ include.item.affil }}" class="knowledgebase-item__affil button is-primary is-small" target="_blank">
+						{% include e_render-svg-icon.html icon="link" dimension="25" class="icon" inline=true %}
+						{{ t.resources.knowledgebase.affil }}
+					</a>
+				{% endif %}
+				{% if include.item.labels.size > 0 %}
+					{% for label in include.item.labels %}
+						{% assign link = label[1] %}
+						{% assign text = label[0] %}
+						<a href="{{ link }}" class="knowledgebase-item__button button is-small" target="_blank">{{ t.resources.knowledgebase.labels[text] }}</a>
+					{% endfor %}
+				{% endif %}
+			</div>
+		</div>
+	</div>
+
+</div>

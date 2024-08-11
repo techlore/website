@@ -1,0 +1,19 @@
+<div class="want-more">
+	{% comment %} TODO: structure, icons {% endcomment %}
+	<i class="has-text-warning">TODO: "iconbox" component + size</i>
+	{% if include.title %}
+		<h2>{{ include.title }}</h2>
+	{% endif %}
+	<div class="box">
+		{% if include.subTitle %}
+			<h3>{{ include.subTitle }}</h3>
+		{% endif %}
+		{% if include.desc %}
+			<p>{{ include.desc }}</p>
+		{% endif %}
+
+		{% if include.buttonText and include.buttonUrl %}
+			<a href="{{ include.buttonUrl | link }}" class="button">{{ include.buttonText }}</a>
+		{% endif %}
+	</div>
+</div>

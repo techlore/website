@@ -1,0 +1,30 @@
+<div class="techlore-guides">
+	<div class="box">
+
+		{%- if site.guides.size > 0 -%}
+			{% assign sortedGuides = site.guides | sort: "frontmatter.datePublished" | reverse %}
+
+			<div class="fixed-grid has-1-cols has-2-cols-tablet">
+				<div class="grid is-gap-6">
+					{% for guide in sortedGuides %}
+						{% assign filename = guide.path | split: "/" | last %}
+						{% assign guideThumbnail = "/guides/" | append: filename | replace: ".md", "-850x480.jpg" | relative_url %}
+
+						<div class="cell">
+							{%- include c_guide.html
+									title=guide.title
+									desc=guide.description
+									thumbnail=guideThumbnail
+									date=guide.datePublished
+									link=guide.linkForum
+									isPremium=guide.isPremium
+							-%}
+						</div>
+					{% endfor %}
+				</div>
+			</div>
+		{%- endif -%}
+
+
+	</div>
+</div>

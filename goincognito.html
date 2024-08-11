@@ -1,0 +1,69 @@
+---
+layout: page
+title: "Go Incognito"
+permalink: /goincognito
+---
+{% include variables.html %}
+
+{% include c_sub-hero.html title=page.title perex=t.goincognito.perex %}
+
+<section>
+	<div class="container is-max-tablet">
+		{% include e_render-image.html image="Incogni Logo" %}
+		<div class="pricetable columns has-2-columns">
+			{% assign dataFree = site.data._en.pricetable.free %}
+			{%- include c_pricetable-column.html data=dataFree -%}
+
+			{% assign dataPremium = site.data._en.pricetable.premium %}
+			{%- include c_pricetable-column.html data=dataPremium class="pricetable__column--premium" -%}
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="container">
+		<div class="box">
+			{% include goincognito-sections.html %}
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="container">
+		<h2 class="has-text-centered">Related resources</h2>
+		<div class="columns has-1-cols is-centered">
+			<div class="column is-half-tablet">{% include linkbox.html %}</div>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="container">
+		<h2 class="has-text-centered">{{ t.support.section.titleShort }}</h2>
+		<div class="columns has-1-cols has-2-cols-tablet is-centered">
+			<div class="column is-one-third-tablet">
+				{% assign iconSpa = "shirt" %}
+				{% assign buttonLink = "TODO" %}
+				{% include c_feature-box.html
+						icon=iconSpa
+						title=t.featureBox.merchandise.title
+						desc=t.featureBox.merchandise.desc
+						buttonText=t.featureBox.merchandise.buttonText
+						buttonLink=buttonLink
+				%}
+			</div>
+			<div class="column is-one-third-tablet">
+				{% assign paymentLinks = site.support.links | keys %}
+				{% assign iconVpn = "donate" %}
+				{% assign buttonLink = "TODO" %}
+				{% include c_feature-box.html
+						icon=iconVpn
+						title=t.featureBox.supportUs.title
+						desc=t.featureBox.supportUs.desc
+						section="support"
+						links=paymentLinks
+				%}
+			</div>
+		</div>
+	</div>
+</section>

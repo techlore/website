@@ -1,0 +1,120 @@
+---
+layout: page
+title: Resources
+permalink: /resources
+---
+{% include variables.html %}
+{% include c_sub-hero.html title=page.title perex=t.resources.perex %}
+
+<section>
+	<div class="container">
+		<div class="columns has-1-cols has-3-cols-tablet is-centered">
+			<div class="column is-one-third-tablet">
+				{% assign iconSpa = "list-select" %}
+				{% assign buttonLink = "TODO" %}
+				{% include c_feature-box.html
+						icon=iconSpa
+						title=t.featureBox.techloreTools.spaQuiz.title
+						desc=t.featureBox.techloreTools.spaQuiz.desc
+						buttonText=t.featureBox.techloreTools.spaQuiz.buttonText
+						buttonLink=buttonLink
+				%}
+			</div>
+			<div class="column is-one-third-tablet">
+				{% assign iconVpn = "server" %}
+				{% assign buttonLink = "TODO" %}
+				{% include c_feature-box.html
+						icon=iconVpn
+						title=t.featureBox.techloreTools.vpnToolkit.title
+						desc=t.featureBox.techloreTools.vpnToolkit.desc
+						buttonText=t.featureBox.techloreTools.vpnToolkit.buttonText
+						buttonLink=buttonLink
+				%}
+			</div>
+			<div class="column is-one-third-tablet">
+				{% assign iconPlexus = "xbox-x" %}
+				{% assign buttonLink = "TODO" %}
+				{% include c_feature-box.html
+						icon=iconPlexus
+						title=t.featureBox.techloreTools.plexus.title
+						desc=t.featureBox.techloreTools.plexus.desc
+						buttonText=t.featureBox.techloreTools.plexus.buttonText
+						buttonLink=buttonLink
+				%}
+			</div>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="container">
+		{%- include c_section-header.html title=t.videos.techloreGuides.title links=site.techloreVideos.links -%}
+		{% include techlore-guides.html %}
+	</div>
+</section>
+
+<section>
+	<div class="container is-max-tablet">
+		<div class="has-text-centered">
+			<h2>{{ t.resources.knowledgebase.sections.software }}</h2>
+			<p>
+				{% include e_render-svg-icon.html icon="link" dimension="25" inline=true %}
+				{{ t.resources.knowledgebase.disclaimer }}
+			</p>
+			<p>
+				{% include e_render-svg-icon.html icon="star" dimension="25" inline=true %}
+				{{ t.resources.knowledgebase.favorite }}
+			</p>
+		</div>
+	</div>
+
+	<!-- Browsers -->
+	<div class="container">
+		{%- include c_section-header.html title=t.resources.knowledgebase.categories.browsers -%}
+
+		<div class="box p-5">
+			{% assign browsers = site.data._en.knowledgebase.software.browsers.data %}
+			{% assign browsersRelatedLinks = site.data._en.knowledgebase.software.browsers.related %}
+
+			<div class="fixed-grid has-1-cols has-2-cols-tablet">
+				<div class="grid">
+					{% for item in browsers %}
+						{% include c_knowledgebase-item.html item=item %}
+					{% endfor %}
+				</div>
+			</div>
+
+			{% if browsersRelatedLinks.size > 0 %}
+				{% include c_related-links.html
+						title=t.resources.knowledgebase.related
+						links=browsersRelatedLinks
+				%}
+			{% endif %}
+		</div>
+	</div>
+
+	<!-- Password managers -->
+	<div class="container">
+		{%- include c_section-header.html title=t.resources.knowledgebase.categories.pswdManagers -%}
+
+		<div class="box p-5">
+			{% assign pswdManagers = site.data._en.knowledgebase.software.password-managers.data %}
+			{% assign pswdManagersRelatedLinks = site.data._en.knowledgebase.software.password-managers.related %}
+
+			<div class="fixed-grid has-1-cols has-2-cols-tablet">
+				<div class="grid">
+					{% for item in pswdManagers %}
+						{% include c_knowledgebase-item.html item=item %}
+					{% endfor %}
+				</div>
+			</div>
+
+			{% if pswdManagersRelatedLinks.size > 0 %}
+				{% include c_related-links.html
+						title=t.resources.knowledgebase.related
+						links=pswdManagersRelatedLinks
+				%}
+			{% endif %}
+		</div>
+	</div>
+</section>

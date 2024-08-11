@@ -1,0 +1,85 @@
+---
+---
+$tech-color-primary: #5574E6;
+
+@use "../node_modules/bulma/sass" with (
+	// --- typography
+	$family-primary: '"Montserrat", Segoe UI, Helvetica Neue, Arial, sans-serif',
+	$family-secondary: unquote('"Nunito", Lato, Arial, sans-serif'),
+	$button-family: unquote('"Nunito", Lato, Arial, sans-serif'),
+	$body-line-height: 1.62,
+
+	// --- sizes
+	$size-1: 3.8542rem,
+	$size-2: 1.625rem,
+	$size-3: 1.2292rem,
+	$size-4: 1.2292rem,
+	$size-5: 1rem,
+	$size-6: 1rem,
+	$size-7: 0.8333rem,
+
+	// --- colors
+	$primary: $tech-color-primary,
+);
+
+
+@import "../node_modules/bulma/sass/index";
+@import "fonts";
+@import "global";
+@import "nav";
+@import "wave";
+@import "sub-hero";
+@import "video";
+@import "test";
+
+:root {
+	min-height: 0vw; // Safari fix for fluid typography
+	//--bulma-primary-h: 227deg;
+	//--bulma-primary-s: 74%;
+	//--bulma-primary-l: 62%;
+	//--bulma-body-font-size: clamp(1rem, 0.305882vi + 0.92rem, 1.13rem);
+
+
+	//
+	//--line-height: calc(2px + 2ex + 2px);
+}
+
+.content {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: $family-secondary;
+
+		strong,
+		strong & {
+			font-weight: 900;
+		}
+	}
+
+	h1 {
+		font-size: $size-1;
+	}
+
+	h2 {
+		font-size: $size-2;
+	}
+
+	h3 {
+		font-size: $size-3;
+	}
+
+	h4 {
+		font-size: $size-4;
+	}
+
+	h5 {
+		font-size: $size-5;
+	}
+
+	h6 {
+		font-size: $size-6;
+	}
+}

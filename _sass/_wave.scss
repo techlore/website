@@ -1,0 +1,36 @@
+.wave {
+	color: $primary;
+	margin-top: -.5rem;
+	position: relative;
+
+	@media (min-width: $desktop) {
+		margin-top: calc(var(--bulma-navbar-height) * -1);
+	}
+
+	svg {
+		path {
+			animation: wave 25s linear infinite;
+
+			@media (prefers-reduced-motion: reduce) {
+				animation: none;
+			}
+		}
+	}
+
+	svg + svg {
+		position: absolute;
+		inset: 0;
+		opacity: .2;
+
+		path {
+			animation-delay: 1s;
+			animation-timing-function: cubic-bezier(0.65, 0, 0.35, 1);
+		}
+	}
+}
+
+@keyframes wave {
+	100% {
+		transform: translateX(-100%);
+	}
+}

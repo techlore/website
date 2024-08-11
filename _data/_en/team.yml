@@ -1,0 +1,19 @@
+# Team
+# You can have as many people as you want. It will be displayed in 3 column layout.
+#
+# Store photos in "/assets/team"
+-
+  name: "Henry Fisher"
+  bio: "Runner, artist, musician and digital rights activist. I'm the owner of Techlore, marketing manager for <a href=\"https://cakewallet.com/\">Cake Wallet</a>, &amp; co-host of <a href=\"https://surveillancereport.tech\">Surveillance Report.</a> I've developed resources for nearly a decade, using my expertise to improve people's relationship with technology and digital safety."
+  web: "https://henryfisher.tech/"
+  photo: "henry-550x550.png"
+-
+  name: "Jonah Aragon"
+  bio: "Jonah Aragon is a passionate advocate for privacy, security, and digital freedom. He co-hosts the <a href=\"https://www.youtube.com/playlist?list=PL3KeV6Ui_4CZRb5Z4qZjsIGZrUWbDc3Mn\">Techlore Talks</a> podcast, contributes to various projects, and runs the Techlore Discussions web forum. He's also known for his work outside Techlore with the <i>Privacy Guides</i> non-profit.</p>"
+  web: "https://www.jonaharagon.com/"
+  photo: "jonah-550x550.png"
+-
+  name: "Jordan Warne"
+  bio: "Passionate about technology, design, and the fight for digital rights. As Techlore's Clips Editor, I'm driven by the mission of making complex tech topics accessible and sparking conversations about online freedom."
+  web: "https://jordanwarne.net/"
+  photo: "jordan-550x550.png"

@@ -1,0 +1,17 @@
+<li class="video-list__item column marginless">
+	<a class="video-list__link is-flex is-flex-direction-column has-text-centered is-gap-1" href="{{ include.link }}" target="_blank">
+		<img src="{{ include.thumbnail }}" class="has-radius-normal" alt="Video thumbnail - {{ include.title }}">
+		<strong>{{ include.title }}</strong>
+		{% if include.tags.size > 0 %}
+				<span class="video-list__tags">
+			{% for tag in include.tags %}
+					<span class="video-list__tag">{{ tag | prepend: "#" }}</span>
+			{% endfor %}
+				</span>
+		{% endif %}
+	</a>
+	{% comment %}<br>{{ include.desc }}{% endcomment %}
+	{% comment %}<br>Published: {{ include.date }}{% endcomment %}
+	{% comment %}<br><i>{{include.thumbnail}}</i>{% endcomment %}
+	{% comment %}<br><span class="video-meta">Video id: {{ include.id }}</span>{% endcomment %}
+</li>

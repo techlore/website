@@ -1,0 +1,312 @@
+---
+layout: default
+title: Home
+---
+{% include variables.html %}
+
+<section>
+	<div class="container">
+		<h1>{{ t.global.sitename }}</h1>
+			{% comment %}
+		{% comment %}{% assign all = site.documents | sort: "datePublished" %}{% endcomment %}
+		{% comment %}{{ all | slice: 0,2 | jsonify }}{% endcomment %}
+
+		{% assign one = site.clips %}
+		{% assign two = site.surveillance-report %}
+		{% assign all = one | concat: two %}
+		{% assign sortedAll = all | sort: "frontmatter.datePublished" | reverse %}
+
+		<blockquote>
+			{{ one | jsonify }}
+		</blockquote>
+		<blockquote>
+			{{ two | jsonify }}
+		</blockquote>
+		<blockquote>
+			{{ all | sort: "frontmatter.datePublished" | reverse | jsonify }}
+		</blockquote>
+
+		{% for vid in one limit: 2 %}
+			<blockquote>
+				{{ vid.title }}
+			</blockquote>
+		{% endfor %}
+			{% endcomment %}
+	</div>
+</section>
+
+<section>
+	<div class="container">
+		<div class="columns has-1-cols-mobile has-2-cols-tablet">
+			<div class="column">
+				{%- include c_section-header.html title=t.videos.titleNewest links=site.techloreVideos.links -%}
+				{%- if site.techlore.size > 0 -%}
+					<div class="box">
+						<ul class="video-list marginless listless columns">
+							{% assign sortedVideos = site.techlore | sort: "frontmatter.datePublished" | reverse %}
+							{% for video in sortedVideos limit: 2 %}
+								{% assign filename = video.path | split: "/" | last %}
+								{% assign videoThumbnail = "/techlore/" | append: filename | replace: ".md", "-850x480.jpg" | relative_url %}
+
+								{%- include c_video.html
+										title=video.title
+										desc=video.description
+										link=linkForum
+										thumbnail=videoThumbnail
+										date=video.datePublished
+										tags=video.tags
+								-%}
+
+							{% endfor %}
+						</ul>
+					</div>
+				{%- endif -%}
+			</div>
+			<div class="column">
+				{%- include c_section-header.html title=t.home.hotTopics links=site.forum.links -%}
+
+				<div class="box">
+					<i class="has-text-warning">TODO: inject posts from the forum</i>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="container">
+		<h2 class="has-text-centered">Usefull resources</h2>
+		<div class="columns has-1-cols-mobile has-3-cols-tablet">
+			<div class="column">
+				<h3>Let’s learn</h3>
+				<p>
+					Check out our courses, coaching and other resources to learn how to protect yourself online
+				</p>
+			</div>
+			<div class="column">{% include linkbox.html %}</div>
+			<div class="column">
+				<h3>Tools that can help you</h3>
+				<p>
+					Check out our curated list of useful resources to help you stay private and secure
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="container">
+		<h2 class="has-text-centered">{{ t.support.section.title }}</h2>
+		<div class="columns has-1-cols has-2-cols-tablet is-centered">
+			<div class="column is-full-mobile is-one-third-tablet is-one-quarter-desktop">
+				{% assign socialLinks = site.socials.links | keys %}
+				{% assign iconSpa = "shirt" %}
+				{% include c_feature-box.html
+						icon=iconSpa
+						title=t.featureBox.socials.title
+						desc=t.featureBox.socials.desc
+						links=socialLinks
+				%}
+			</div>
+			<div class="column is-full-mobile is-one-third-tablet is-one-quarter-desktop">
+				{% assign paymentLinks = site.support.links | keys %}
+				{% assign iconVpn = "donate" %}
+				{% include c_feature-box.html
+						icon=iconVpn
+						title=t.featureBox.supportUs.title
+						desc=t.featureBox.supportUs.desc
+						links=paymentLinks
+				%}
+			</div>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="container is-max-desktop">
+		<h2 class="has-text-centered">{{ t.about.section.title }}</h2>
+		<p class="has-text-centered">{{ t.about.section.desc }}</p>
+	</div>
+
+	<div class="container is-max-tablet">
+		{% include team.html isHomepage=true isMini=true %}
+
+		<p class="has-text-centered">
+			<a href="{% link about.html %}" class="button">{{ t.about.buttonMore }}</a>
+		</p>
+	</div>
+</section>
+
+{% comment %}
+<div class="container">
+
+
+	<hr>
+	<h2>Buttons</h2>
+	<a class="button">Anchor</a>
+	<button class="button">Button</button>
+	<input class="button" type="submit" value="Submit input" />
+	<input class="button" type="reset" value="Reset input" />
+	<button class="button is-white">White</button>
+	<button class="button is-light">Light</button>
+	<button class="button is-dark">Dark</button>
+	<button class="button is-black">Black</button>
+	<button class="button is-text">Text</button>
+	<button class="button is-ghost">Ghost</button>
+
+	<div class="buttons">
+		<button class="button is-primary">Primary</button>
+		<button class="button is-link">Link</button>
+	</div>
+
+	<div class="buttons">
+		<button class="button is-info">Info</button>
+		<button class="button is-success">Success</button>
+		<button class="button is-warning">Warning</button>
+		<button class="button is-danger">Danger</button>
+	</div>
+
+	<h2>Content stuff</h2>
+
+	<div class="content">
+		<h1>Hello World</h1>
+		<p>
+			Lorem ipsum<sup><a>[1]</a></sup> dolor sit amet, consectetur adipiscing
+			elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius
+			lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat
+			odio, sollicitudin vel erat vel, interdum mattis neque. Sub<sub>script</sub>
+			works as well!
+		</p>
+		<h2>Second level</h2>
+		<p>
+			Curabitur accumsan turpis pharetra <strong>augue tincidunt</strong> blandit.
+			Quisque condimentum maximus mi, sit amet commodo arcu rutrum id. Proin
+			pretium urna vel cursus venenatis. Suspendisse potenti. Etiam mattis sem
+			rhoncus lacus dapibus facilisis. Donec at dignissim dui. Ut et neque nisl.
+		</p>
+		<ul>
+			<li>In fermentum leo eu lectus mollis, quis dictum mi aliquet.</li>
+			<li>Morbi eu nulla lobortis, lobortis est in, fringilla felis.</li>
+			<li>Aliquam nec felis in sapien venenatis viverra fermentum nec lectus.</li>
+			<li>Ut non enim metus.</li>
+		</ul>
+		<h3>Third level</h3>
+		<p>
+			Quisque ante lacus, malesuada ac auctor vitae, congue
+			<a href="#">non ante</a>. Phasellus lacus ex, semper ac tortor nec,
+			fringilla condimentum orci. Fusce eu rutrum tellus.
+		</p>
+		<ol>
+			<li>Donec blandit a lorem id convallis.</li>
+			<li>Cras gravida arcu at diam gravida gravida.</li>
+			<li>Integer in volutpat libero.</li>
+			<li>Donec a diam tellus.</li>
+			<li>Aenean nec tortor orci.</li>
+			<li>Quisque aliquam cursus urna, non bibendum massa viverra eget.</li>
+			<li>Vivamus maximus ultricies pulvinar.</li>
+		</ol>
+		<blockquote>
+			Ut venenatis, nisl scelerisque sollicitudin fermentum, quam libero hendrerit
+			ipsum, ut blandit est tellus sit amet turpis.
+		</blockquote>
+		<p>
+			Quisque at semper enim, eu hendrerit odio. Etiam auctor nisl et
+			<em>justo sodales</em> elementum. Maecenas ultrices lacus quis neque
+			consectetur, et lobortis nisi molestie.
+		</p>
+		<p>
+			Sed sagittis enim ac tortor maximus rutrum. Nulla facilisi. Donec mattis
+			vulputate risus in luctus. Maecenas vestibulum interdum commodo.
+		</p>
+		<dl>
+			<dt>Web</dt>
+			<dd>The part of the Internet that contains websites and web pages</dd>
+			<dt>HTML</dt>
+			<dd>A markup language for creating web pages</dd>
+			<dt>CSS</dt>
+			<dd>A technology to make HTML look better</dd>
+		</dl>
+		<p>
+			Suspendisse egestas sapien non felis placerat elementum. Morbi tortor nisl,
+			suscipit sed mi sit amet, mollis malesuada nulla. Nulla facilisi. Nullam ac
+			erat ante.
+		</p>
+		<h4>Fourth level</h4>
+		<p>
+			Nulla efficitur eleifend nisi, sit amet bibendum sapien fringilla ac. Mauris
+			euismod metus a tellus laoreet, at elementum ex efficitur.
+		</p>
+		<pre> &lt;!DOCTYPE html&gt; &lt;html&gt; &lt;head&gt;
+&lt;title&gt;Hello World&lt;/title&gt; &lt;/head&gt; &lt;body&gt; &lt;p&gt;Lorem
+ipsum dolor sit amet, consectetur adipiscing elit. Donec viverra nec nulla vitae
+mollis.&lt;/p&gt; &lt;/body&gt; &lt;/html&gt; </pre>
+		<p>
+			Maecenas eleifend sollicitudin dui, faucibus sollicitudin augue cursus non.
+			Ut finibus eleifend arcu ut vehicula. Mauris eu est maximus est porta
+			condimentum in eu justo. Nulla id iaculis sapien.
+		</p>
+		<table>
+			<thead>
+			<tr>
+				<th>One</th>
+				<th>Two</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr>
+				<td>Three</td>
+				<td>Four</td>
+			</tr>
+			<tr>
+				<td>Five</td>
+				<td>Six</td>
+			</tr>
+			<tr>
+				<td>Seven</td>
+				<td>Eight</td>
+			</tr>
+			<tr>
+				<td>Nine</td>
+				<td>Ten</td>
+			</tr>
+			<tr>
+				<td>Eleven</td>
+				<td>Twelve</td>
+			</tr>
+			</tbody>
+		</table>
+		<p>
+			Phasellus porttitor enim id metus volutpat ultricies. Ut nisi nunc, blandit
+			sed dapibus at, vestibulum in felis. Etiam iaculis lorem ac nibh bibendum
+			rhoncus. Nam interdum efficitur ligula sit amet ullamcorper. Etiam
+			tristique, leo vitae porta faucibus, mi lacus laoreet metus, at cursus leo
+			est vel tellus. Sed ac posuere est. Nunc ultricies nunc neque, vitae
+			ultricies ex sodales quis. Aliquam eu nibh in libero accumsan pulvinar.
+			Nullam nec nisl placerat, pretium metus vel, euismod ipsum. Proin tempor
+			cursus nisl vel condimentum. Nam pharetra varius metus non pellentesque.
+		</p>
+		<h5>Fifth level</h5>
+		<p>
+			Aliquam sagittis rhoncus vulputate. Cras non luctus sem, sed tincidunt
+			ligula. Vestibulum at nunc elit. Praesent aliquet ligula mi, in luctus elit
+			volutpat porta. Phasellus molestie diam vel nisi sodales, a eleifend augue
+			laoreet. Sed nec eleifend justo. Nam et sollicitudin odio.
+		</p>
+		<figure>
+			<img src="https://bulma.io/assets/images/placeholders/256x256.png" />
+			<img src="https://bulma.io/assets/images/placeholders/256x256.png" />
+			<figcaption>Figure 1: Some beautiful placeholders</figcaption>
+		</figure>
+		<h6>Sixth level</h6>
+		<p>
+			Cras in nibh lacinia, venenatis nisi et, auctor urna. Donec pulvinar lacus
+			sed diam dignissim, ut eleifend eros accumsan. Phasellus non tortor eros. Ut
+			sed rutrum lacus. Etiam purus nunc, scelerisque quis enim vitae, malesuada
+			ultrices turpis. Nunc vitae maximus purus, nec consectetur dui. Suspendisse
+			euismod, elit vel rutrum commodo, ipsum tortor maximus dui, sed varius
+			sapien odio vitae est. Etiam at cursus metus.
+		</p>
+	</div>
+</div>
+
+{% endcomment %}

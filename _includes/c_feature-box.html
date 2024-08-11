@@ -1,0 +1,43 @@
+{% comment %}
+	FEATURE BOX -----------------------------------------
+	Info:
+		Feature box displays EITHER single button OR array of links (buttons)
+	Parameters:
+		- icon (optional)
+		- title (optional)
+		- desc (optional)
+		- buttonText and buttonLink
+		- links
+{% endcomment %}
+
+<div class="feature-box has-text-centered">
+	<div class="box">
+		{% if include.icon %}
+			{% include e_render-svg-icon.html icon=include.icon inline=true %}
+		{% endif %}
+		{% if include.title %}
+			<h3 class="feature-box__title">{{ include.title }}</h3>
+		{% endif %}
+		{% if include.desc %}
+			<p class="feature-box__desc">
+				{{ include.desc }}
+			</p>
+		{% endif %}
+		{% if include.buttonText and include.buttonLink %}
+			<a href="{{ include.buttonLink }}" class="feature-box__button button is-primary is-outlined">{{ include.buttonText }}</a>
+		{% elsif include.links %}
+			<ul class="feature-box__links buttons is-centered is-gap-1 marginless listless">
+				{%- for link in include.links -%}
+					{% assign linkKey = link[0] %}
+					{% assign linkUrl = link[1] %}
+
+					<li class="feature-box__link-item marginless">
+						<a href="{{ linkUrl }}" class="feature-box__link-button button is-primary is-outlined" target="_blank">
+							{% include e_render-svg-icon.html icon=linkKey dimension=25 inline=true class="icon" %}
+						</a>
+					</li>
+				{%- endfor -%}
+			</ul>
+		{% endif %}
+	</div>
+</div>

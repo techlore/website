@@ -1,0 +1,108 @@
+---
+layout: page
+title: Videos
+permalink: /videos
+---
+{% include variables.html %}
+
+{% assign perex = t.videos.perex %}
+{% include c_sub-hero.html title=page.title perex=t.videos.perex %}
+
+
+<section>
+	<div class="container">
+		{%- include c_section-header.html title=t.videos.titleNewest links=site.techloreVideos.links -%}
+		{%- if site.techlore.size > 0 -%}
+			<div class="box">
+				<ul class="video-list marginless listless columns">
+					{% assign sortedVideos = site.techlore | sort: "frontmatter.datePublished" | reverse %}
+					{% for video in sortedVideos limit: 4 %}
+						{% assign filename = video.path | split: "/" | last %}
+						{% assign videoThumbnail = "/techlore/" | append: filename | replace: ".md", "-850x480.jpg" | relative_url %}
+
+						{%- include c_video.html
+								title=video.title
+								desc=video.description
+								link=linkForum
+								thumbnail=videoThumbnail
+								date=video.datePublished
+								tags=video.tags
+						-%}
+
+					{% endfor %}
+				</ul>
+			</div>
+		{%- endif -%}
+	</div>
+</section>
+
+<section>
+	<div class="container">
+		<div class="columns">
+			<div class="column is-full-mobile is-half">
+				{%- include c_section-header.html title=t.videos.techloreClips.title links=site.techloreClips.links -%}
+				{%- if site.clips.size > 0 -%}
+					<div class="box">
+						<ul class="video-list marginless listless columns">
+							{% assign sortedVideos = site.clips | sort: "frontmatter.datePublished" | reverse %}
+							{% for video in sortedVideos limit: 2 %}
+								{% assign filename = video.path | split: "/" | last %}
+								{% assign videoThumbnail = "/clips/" | append: filename | replace: ".md", "-850x480.jpg" | relative_url %}
+
+								{%- include c_video.html
+										title=video.title
+										desc=video.description
+										thumbnail=videoThumbnail
+										date=video.datePublished
+										tags=video.tags
+								-%}
+
+							{% endfor %}
+						</ul>
+					</div>
+				{%- endif -%}
+			</div>
+			<div class="column is-full-mobile is-half">
+				{%- include c_section-header.html title=t.videos.surveillanceReport.title links=site.surveillanceReport.links -%}
+				{%- if site.surveillance-report.size > 0 -%}
+					<div class="box">
+						<ul class="video-list marginless listless columns">
+							{% assign sortedVideos = site.surveillance-report | sort: "frontmatter.datePublished" | reverse %}
+							{% for video in sortedVideos limit: 2 %}
+								{% assign filename = video.path | split: "/" | last %}
+								{% assign videoThumbnail = "/surveillance-report/" | append: filename | replace: ".md", "-850x480.jpg" | relative_url %}
+
+								{%- include c_video.html
+										title=video.title
+										desc=video.description
+										thumbnail=videoThumbnail
+										date=video.datePublished
+										tags=video.tags
+								-%}
+
+							{% endfor %}
+						</ul>
+					</div>
+				{%- endif -%}
+			</div>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="container is-max-tablet">
+		{% if t.goincognito.engageUser.title %}
+			<h2 class="has-text-centered">{{ t.goincognito.titleMore }}</h2>
+		{% endif %}
+
+		{% assign iconEngage = "iris-scan" %}
+		{% assign buttonLink = "TODO" %}
+		{% include c_feature-box.html
+				icon=iconEngage
+				title=t.featureBox.tryIncognito.title
+				desc=t.featureBox.tryIncognito.desc
+				buttonText=t.featureBox.tryIncognito.buttonText
+				buttonLink=buttonLink
+		%}
+	</div>
+</section>

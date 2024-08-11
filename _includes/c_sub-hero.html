@@ -1,0 +1,15 @@
+<div class="container">
+	<div class="sub-hero columns is-justify-content-space-between">
+		<div class="column is-half-tablet">
+			{% if include.title %}
+				<h1 class="sub-hero__title">{{ include.title }}</h1>
+			{% endif %}
+			{% if include.perex %}
+				<p class="sub-hero__desc">{{ include.perex }}</p>
+			{% endif %}
+		</div>
+		<div class="columm is-one-fifth-mobile">
+			icon
+		</div>
+	</div>
+</div>

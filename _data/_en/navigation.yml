@@ -1,0 +1,32 @@
+mainNav:
+  home:
+    title: "Home"
+    url: /
+  about:
+    title: "About"
+    url: /about
+  videos:
+    title: "Videos"
+    url: /videos
+  goincognito:
+    title: "Go incognito"
+    url: /goincognito
+  forum:
+    title: "Forum"
+    url: https://discuss.techlore.tech/
+    external: true
+  blog:
+    title: "Blog"
+    url: https://blog.techlore.tech/
+  resources:
+    title: "Resources"
+    url: /resources
+  support:
+    title: "Support Us"
+    url: /support
+    icon: "heart-solid"
+
+footerNav:
+  contact:
+    title: "Contact"
+    url: /contact

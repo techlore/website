@@ -1,0 +1,4 @@
+// FIX for Bulma columns on mobile
+.container {
+	padding-inline: var(--bulma-column-gap); // .75rem
+}

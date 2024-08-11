@@ -1,0 +1,32 @@
+{% comment %}
+	RELATED LINKS -----------------------------------------
+	Section (currently "May come in handy") under the content, showing 1 or more useful links
+
+	Data source: 	_data/_en/knowledgebase/{section}/{category}.yml --> "related"
+	Parameters:
+		- title (optional)
+		- links: array of links from the data source
+{% endcomment %}
+
+<div class="realated-links has-text-centered">
+	<div class="container is-max-tablet">
+		<hr>
+		{% if include.title.size > 0 %}
+			<h4 class="related-links__title">{{ include.title }}</h4>
+		{% endif %}
+
+		<div class="columns has-3-cols-tablet">
+			{% for link in include.links %}
+				{% assign linkIcon = "web" %}
+				{% if link.type == "video" %}
+					{% assign linkIcon = "youtube" %}
+				{% endif %}
+				<div class="column">
+					<a href="{{ link.url }}" class="related-links__link button is-ghost is-gap-2">
+						{% include e_render-svg-icon.html icon=linkIcon dimension=50 inline=true class="icon" %} {{ link.title }}
+					</a>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>

@@ -1,0 +1,16 @@
+.sub-hero {
+
+}
+
+.sub-hero__title {
+	position: relative;
+
+	&:after {
+		content: '';
+		display: block;
+		background-color: $primary;
+		width: 4rem;
+		height: .2rem;
+		translate: 0 1rem;
+	}
+}
