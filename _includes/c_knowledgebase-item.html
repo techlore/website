@@ -5,7 +5,7 @@
 	<div class="columns has-2-cols is-flex is-flex-wrap-nowrap">
 		<div class="column is-flex-grow-0">
 			<i class="knowledgebase-item__icon is-block has-radius-rounded is-overflow-hidden has-text-warning" {% if iconColor %}style="background-color: {{ iconColor }};{% endif %}">
-				<img src="{{ '/assets/knowledgebase/icons/' | append: icon | append: '.svg' | asset_url }}" loading="lazy" alt="Icon - {{ include.item.name }}">
+				<img src="{{ '/assets/knowledgebase/icons/' | append: icon | append: '.svg' | absolute_url }}" loading="lazy" alt="Icon - {{ include.item.name }}">
 			</i>
 		</div>
 		<div class="column">
