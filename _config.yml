@@ -24,8 +24,8 @@ email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Techlore is educating people about digital rights, privacy, security, 
   digital control, and other important topics to push the world towards a safer internet.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/techlore" # the subpath of your site, e.g. /blog
+url: "https://michalsvatos.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # -----------------------------------------
 # Global links
