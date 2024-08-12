@@ -39,7 +39,7 @@ title: Home
 	<div class="container">
 		<div class="columns has-1-cols-mobile has-2-cols-tablet">
 			<div class="column">
-				{%- include c_section-header.html title=t.videos.titleNewest links=site.techloreVideos.links -%}
+				{%- include c_box-header.html title=t.videos.titleNewest links=site.techloreVideos.links -%}
 				{%- if site.techlore.size > 0 -%}
 					<div class="box">
 						<ul class="video-list marginless listless columns">
@@ -63,7 +63,7 @@ title: Home
 				{%- endif -%}
 			</div>
 			<div class="column">
-				{%- include c_section-header.html title=t.home.hotTopics links=site.forum.links -%}
+				{%- include c_box-header.html title=t.home.hotTopics links=site.forum.links -%}
 
 				<div class="box">
 					<i class="has-text-warning">TODO: inject posts from the forum</i>

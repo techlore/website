@@ -1,0 +1,23 @@
+.column:has(> .box-header),
+.container:has(> .box-header) {
+	container-type: inline-size;
+}
+
+.box-header {
+	flex-direction: column;
+
+	@media (min-width: $tablet) {
+	}
+
+	@container (min-width: 576px) {
+		flex-direction: row;
+	}
+
+	& + * {
+		margin-top: var(--bulma-size-5);
+	}
+}
+
+.box-header__links {
+	flex-wrap: wrap;
+}

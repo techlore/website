@@ -11,7 +11,7 @@ permalink: /videos
 
 <section>
 	<div class="container">
-		{%- include c_section-header.html title=t.videos.titleNewest links=site.techloreVideos.links -%}
+		{%- include c_box-header.html title=t.videos.titleNewest links=site.techloreVideos.links -%}
 		{%- if site.techlore.size > 0 -%}
 			<div class="box">
 				<ul class="video-list marginless listless columns">
@@ -40,7 +40,7 @@ permalink: /videos
 	<div class="container">
 		<div class="columns">
 			<div class="column is-full-mobile is-half">
-				{%- include c_section-header.html title=t.videos.techloreClips.title links=site.techloreClips.links -%}
+				{%- include c_box-header.html title=t.videos.techloreClips.title links=site.techloreClips.links -%}
 				{%- if site.clips.size > 0 -%}
 					<div class="box">
 						<ul class="video-list marginless listless columns">
@@ -63,7 +63,7 @@ permalink: /videos
 				{%- endif -%}
 			</div>
 			<div class="column is-full-mobile is-half">
-				{%- include c_section-header.html title=t.videos.surveillanceReport.title links=site.surveillanceReport.links -%}
+				{%- include c_box-header.html title=t.videos.surveillanceReport.title links=site.surveillanceReport.links -%}
 				{%- if site.surveillance-report.size > 0 -%}
 					<div class="box">
 						<ul class="video-list marginless listless columns">

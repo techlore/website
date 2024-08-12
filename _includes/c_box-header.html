@@ -1,0 +1,29 @@
+{% comment %}
+	BOX HEADER -----------------------------------------
+	Parameters:
+		- title (optional)
+		- links (array, optional):	links with icon showed on the right side of the header
+		- class (optional):			custom class
+{% endcomment %}
+
+<div class="box-header is-flex is-gap-1 is-justify-content-space-between{% if include.class %} {{ include.class }}{% endif %}">
+	<h2 class="box-header__title marginless">
+		{% if include.title %}
+			{{ include.title }}
+		{% endif %}
+	</h2>
+
+	{% if include.links.size > 0 %}
+		<ul class="box-header__links is-flex is-flex-direction-row is-gap-1 marginless listless">
+			{% for link in include.links %}
+				{% assign slug = link[0] %}
+				<li class="box-header__item marginless">
+					<a href="{{ link[1] }}" class="box-header__link button is-ghost is-primary is-gap-1 is-small is-touch-friendly">
+						{{ t.global.platforms[slug] }}
+						{% include e_render-svg-icon.html icon=slug class="box-header__icon icon" dimension=25 inline=true %}
+					</a>
+				</li>
+			{% endfor %}
+		</ul>
+	{% endif %}
+</div>
