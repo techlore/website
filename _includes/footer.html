@@ -31,12 +31,12 @@
 					{% assign socialLinks = site.socials.links | keys %}
 					{% if socialLinks.size > 0 %}
 						<h6 class="has-text-text-bold">{{ t.featureBox.socials.title | upcase }}</h6>
-						<ul class="is-flex is-flex-direction-row is-multiline listless">
+						<ul class="is-flex is-flex-direction-row is-multiline listless is-gap-1">
 							{% for link in socialLinks %}
 								{% assign url = link[1] %}
 								{% assign icon = link[0] %}
 								<li>
-									<a href="{{ url }}" class="button is-small is-text has-text-primary">
+									<a href="{{ url }}" class="button is-small is-text has-text-primary is-primary is-touch-friendly">
 										{% include e_render-svg-icon.html icon=icon dimension=25 inline=true class="icon" %}
 									</a>
 								</li>
@@ -48,12 +48,12 @@
 					{% assign paymentLinks = site.support.links | keys %}
 					{% if paymentLinks.size > 0 %}
 						<h6 class="has-text-text-bold">{{ t.support.title | upcase }}</h6>
-						<ul class="is-flex is-flex-direction-row is-multiline listless">
+						<ul class="is-flex is-flex-direction-row is-multiline listless is-gap-1">
 							{% for link in paymentLinks %}
 								{% assign url = link[1] %}
 								{% assign icon = link[0] %}
 								<li>
-									<a href="{{ url }}" class="button is-small is-text has-text-primary">
+									<a href="{{ url }}" class="button is-small is-text has-text-primary is-primary is-touch-friendly">
 										{% include e_render-svg-icon.html icon=icon dimension=25 inline=true class="icon" %}
 									</a>
 								</li>

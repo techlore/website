@@ -1,0 +1,13 @@
+// Custom "mobile/touch" friendly button
+.button.is-touch-friendly {
+	@extend .button;
+
+	@media (pointer: coarse) {
+		padding: calc(var(--bulma-size-5) * .5) var(--bulma-size-5);
+		min-width: calc(var(--bulma-size-5) * 3);
+
+		&.is-primary:not(.is-outlined) {
+			border: 1px solid var(--bulma-primary-30);
+		}
+	}
+}
