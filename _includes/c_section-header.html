@@ -1,4 +1,12 @@
-<div class="section-header is-flex-tablet is-flex-direction-row is-justify-content-space-between">
+{% comment %}
+	SECTION HEADER -----------------------------------------
+	Parameters:
+		- title (optional)
+		- links (array, optional):	links with icon showed on the right side of the header
+		- class (optional):			custom class
+{% endcomment %}
+
+<div class="section-header is-flex-tablet is-flex-direction-row is-justify-content-space-between{% if include.class %} {{ include.class }}{% endif %}">
 	<h2 class="section-header__title marginless">
 		{% if include.title %}
 			{{ include.title }}
