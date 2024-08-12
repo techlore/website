@@ -4,10 +4,9 @@ a[target="_blank"] {
 	}
 }
 
-section {
-	& + & {
-		margin-top: calc(var(--bulma-size-1) * 2);
-	}
+section,
+footer {
+	margin-top: calc(var(--bulma-size-1) * 2);
 }
 
 .section-header__link {

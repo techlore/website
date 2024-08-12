@@ -1,0 +1,16 @@
+{% comment %}
+	PRICETABLE (Go Incognito courses) -----------------------------------------
+	Data source: 	_data/_en/pricetable.yml
+{% endcomment %}
+
+{% include variables.html %}
+
+<div class="pricetable columns has-2-columns">
+	<img src="{{ '/assets/logos/techlore-logo-edit-by-figma.svg' | absolute_url }}" class="pricetable__logo" loading="lazy" alt="Logo - {{ t.goincognito.title }}">
+
+	{% assign dataFree = site.data._en.pricetable.free %}
+	{%- include c_pricetable-column.html data=dataFree -%}
+
+	{% assign dataPremium = site.data._en.pricetable.premium %}
+	{%- include c_pricetable-column.html data=dataPremium isPremium=true -%}
+</div>
