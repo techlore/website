@@ -68,8 +68,9 @@ permalink: /resources
 		</div>
 	</div>
 
+	{% comment %}TODO: DRY - Try to figure it out the component{% endcomment %}
 	<!-- Browsers -->
-	<div class="container">
+	<div class="container mt-6">
 		{%- include c_section-header.html title=t.resources.knowledgebase.categories.browsers -%}
 
 		<div class="box p-5">
@@ -94,7 +95,7 @@ permalink: /resources
 	</div>
 
 	<!-- Password managers -->
-	<div class="container">
+	<div class="container mt-custom">
 		{%- include c_section-header.html title=t.resources.knowledgebase.categories.pswdManagers -%}
 
 		<div class="box p-5">

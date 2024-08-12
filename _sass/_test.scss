@@ -5,7 +5,8 @@ a[target="_blank"] {
 }
 
 section,
-footer {
+footer,
+.mt-custom {
 	margin-top: calc(var(--bulma-size-1) * 2);
 }
 
