@@ -112,6 +112,8 @@ goincognito:
   perex: "Dive into our comprehensive guide to security, privacy, and anonymity, and learn how to protect yourself online."
   premium:
     buttonText: "Go Incognito! Premium"
+  course:
+    overviewTitle: "Course overview"
 
 # -----------------------------------------
 # SUPPORT section and page
