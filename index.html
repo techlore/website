@@ -98,7 +98,7 @@ title: Home
 	<div class="container">
 		<h2 class="has-text-centered">{{ t.support.section.title }}</h2>
 		<div class="columns has-1-cols has-2-cols-tablet is-centered">
-			<div class="column is-full-mobile is-one-third-tablet is-one-quarter-desktop">
+			<div class="column is-full-mobile is-one-third-tablet is-one-quarter-desktop is-flex">
 				{% assign socialLinks = site.socials.links | keys %}
 				{% assign iconSpa = "shirt" %}
 				{% include c_feature-box.html
@@ -108,7 +108,7 @@ title: Home
 						links=socialLinks
 				%}
 			</div>
-			<div class="column is-full-mobile is-one-third-tablet is-one-quarter-desktop">
+			<div class="column is-full-mobile is-one-third-tablet is-one-quarter-desktop is-flex">
 				{% assign paymentLinks = site.support.links | keys %}
 				{% assign iconVpn = "donate" %}
 				{% include c_feature-box.html

@@ -10,8 +10,8 @@
 		- links
 {% endcomment %}
 
-<div class="feature-box has-text-centered">
-	<div class="box">
+<div class="feature-box has-text-centered is-flex is-flex-grow-1">
+	<div class="box is-flex is-flex-direction-column is-align-items-center is-flex-grow-1">
 		{% if include.icon %}
 			{% include e_render-svg-icon.html icon=include.icon inline=true %}
 		{% endif %}
@@ -19,7 +19,7 @@
 			<h3 class="feature-box__title">{{ include.title }}</h3>
 		{% endif %}
 		{% if include.desc %}
-			<p class="feature-box__desc">
+			<p class="feature-box__desc is-flex-grow-1">
 				{{ include.desc }}
 			</p>
 		{% endif %}

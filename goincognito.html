@@ -34,7 +34,7 @@ permalink: /goincognito
 	<div class="container">
 		<h2 class="has-text-centered">{{ t.support.section.titleShort }}</h2>
 		<div class="columns has-1-cols has-2-cols-tablet is-centered">
-			<div class="column is-one-third-tablet">
+			<div class="column is-one-third-tablet is-flex">
 				{% assign iconSpa = "shirt" %}
 				{% assign buttonLink = "TODO" %}
 				{% include c_feature-box.html
@@ -45,7 +45,7 @@ permalink: /goincognito
 						buttonLink=buttonLink
 				%}
 			</div>
-			<div class="column is-one-third-tablet">
+			<div class="column is-one-third-tablet is-flex">
 				{% assign paymentLinks = site.support.links | keys %}
 				{% assign iconVpn = "donate" %}
 				{% assign buttonLink = "TODO" %}
