@@ -1,5 +1,5 @@
 .sub-hero {
-
+	//
 }
 
 .sub-hero__title {
@@ -13,4 +13,8 @@
 		height: .2rem;
 		translate: 0 1rem;
 	}
+}
+
+.sub-hero__desc {
+	text-wrap: balance;
 }
