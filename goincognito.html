@@ -17,7 +17,7 @@ permalink: /goincognito
 	<div class="container">
 		{%- include c_box-header.html title=t.goincognito.course.overviewTitle -%}
 
-		<div class="box">
+		<div class="box p-6-custom-responsive">
 			{% include goincognito-sections.html %}
 		</div>
 	</div>
@@ -36,7 +36,7 @@ permalink: /goincognito
 	<div class="container">
 		<h2 class="has-text-centered">{{ t.support.section.titleShort }}</h2>
 		<div class="columns has-1-cols has-2-cols-tablet is-centered">
-			<div class="column is-one-third-tablet is-flex">
+			<div class="column is-half-tablet is-one-third-desktop is-flex">
 				{% assign iconSpa = "shirt" %}
 				{% assign buttonLink = "TODO" %}
 				{% include c_feature-box.html
@@ -47,7 +47,7 @@ permalink: /goincognito
 						buttonLink=buttonLink
 				%}
 			</div>
-			<div class="column is-one-third-tablet is-flex">
+			<div class="column is-half-tablet is-one-third-desktop is-flex">
 				{% assign paymentLinks = site.support.links | keys %}
 				{% assign iconVpn = "donate" %}
 				{% assign buttonLink = "TODO" %}

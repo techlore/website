@@ -2,3 +2,13 @@
 .container {
 	padding-inline: var(--bulma-column-gap); // .75rem
 }
+
+// Responsive padding
+.p-6-custom-responsive {
+	--_padding: var(--bulma-size-3);
+	padding: var(--_padding) var(--_padding);
+
+	@media (min-width: $tablet) {
+		--_padding: var(--bulma-size-1);
+	}
+}
