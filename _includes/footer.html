@@ -1,42 +1,46 @@
 {% include variables.html %}
 {% assign nav = site.data._en.navigation %}
 
-<footer>
+<footer class="footer pt-0">
+	{% include wave.html isFooter=true %}
 	<div class="container">
-		<div class="aaa columns has-1-cols has-3-cols-tablet has-5-cols-desktop is-multiline">
-			<div class="column is-full-tablet is-one-fifth-desktop is-flex is-flex-direction-column">
-				Logos
+		<div class="columns has-1-cols has-3-cols-tablet has-5-cols-desktop is-multiline">
+			<div class="footer__logos column is-full-tablet is-one-fifth-desktop is-flex">
+				<img src="{{ '/assets/logos/techlore-logo-edit-by-figma.svg' | absolute_url }}" class="footer__logo" loading="lazy" alt="Logo - {{ site.name }}">
+				<a href="https://www.eff.org/" target="_blank">
+					<img src="{{ '/assets/logos/eff-member.png' | absolute_url }}" class="footer__logo" loading="lazy" alt="EFF member">
+				</a>
 			</div>
 			<div class="column">
-				<h6 class="has-text-text-bold">{{ site.name | upcase }}</h6>
-				<ul class="listless">
-					<li><a href="{{ nav.mainNav.about.url }}">{{ nav.mainNav.about.title }}</a></li>
-					<li><a href="{{ nav.footerNav.contact.url }}">{{ nav.footerNav.contact.title }}</a></li>
+				<h6 class="footer__column-title">{{ site.name | upcase }}</h6>
+				<ul class="footer__list listless">
+					<li class="footer__list-item"><a href="{{ nav.mainNav.about.url }}" class="footer__link is-touch-friendly">{{ nav.mainNav.about.title }}</a></li>
+					<li class="footer__list-item"><a href="{{ nav.footerNav.contact.url }}" class="footer__link is-touch-friendly">{{ nav.footerNav.contact.title }}</a></li>
 				</ul>
 			</div>
 			<div class="column">
-				<h6 class="has-text-text-bold">{{ t.videos.title | upcase }}</h6>
-				<ul class="listless">
-					<li><a href="{{ nav.mainNav.videos.url }}">{{ t.videos.techlore.title }}</a></li>
-					<li><a href="{{ nav.mainNav.videos.url }}#techlore-clips">{{ t.videos.techloreClips.title }}</a></li>
-					<li><a href="{{ nav.mainNav.videos.url }}#surveillance-report">{{ t.videos.surveillanceReport.title }}</a></li>
-					<li><a href="{{ nav.mainNav.goincognito.url }}">{{ t.goincognito.title }}</a></li>
+				<h6 class="footer__column-title">{{ t.videos.title | upcase }}</h6>
+				<ul class="footer__list listless">
+					<li class="footer__list-item"><a href="{{ nav.mainNav.videos.url }}" class="footer__link is-touch-friendly">{{ t.videos.techlore.title }}</a></li>
+					<li class="footer__list-item"><a href="{{ nav.mainNav.videos.url }}#techlore-clips" class="footer__link is-touch-friendly">{{ t.videos.techloreClips.title }}</a></li>
+					<li class="footer__list-item"><a href="{{ nav.mainNav.videos.url }}#surveillance-report" class="footer__link is-touch-friendly">{{ t.videos.surveillanceReport.title }}</a></li>
+					<li class="footer__list-item"><a href="{{ nav.mainNav.goincognito.url }}" class="footer__link is-touch-friendly">{{ t.goincognito.title }}</a></li>
 				</ul>
 			</div>
 			<div class="column">
-				<h6 class="has-text-text-bold">{{ t.resources.title | upcase }}</h6>
+				<h6 class="footer__column-title">{{ t.resources.title | upcase }}</h6>
 			</div>
 			<div class="column is-full-tablet is-one-fifth-desktop is-flex is-flex-direction-column">
-				<div class="">
+				<div class="footer__column-wrapper">
 					{% assign socialLinks = site.socials.links | keys %}
 					{% if socialLinks.size > 0 %}
-						<h6 class="has-text-text-bold">{{ t.featureBox.socials.title | upcase }}</h6>
-						<ul class="is-flex is-flex-direction-row is-multiline listless is-gap-1">
+						<h6 class="footer__column-title">{{ t.featureBox.socials.title | upcase }}</h6>
+						<ul class="footer__list is-flex is-flex-direction-row is-multiline listless is-gap-1">
 							{% for link in socialLinks %}
 								{% assign url = link[1] %}
 								{% assign icon = link[0] %}
-								<li>
-									<a href="{{ url }}" class="button is-small is-text has-text-primary is-primary is-touch-friendly">
+								<li class="footer__list-item">
+									<a href="{{ url }}" class="footer__button button is-small is-primary is-touch-friendly">
 										{% include e_render-svg-icon.html icon=icon dimension=25 inline=true class="icon" %}
 									</a>
 								</li>
@@ -44,16 +48,16 @@
 						</ul>
 					{% endif %}
 				</div>
-				<div class="">
+				<div class="footer__column-wrapper">
 					{% assign paymentLinks = site.support.links | keys %}
 					{% if paymentLinks.size > 0 %}
-						<h6 class="has-text-text-bold">{{ t.support.title | upcase }}</h6>
-						<ul class="is-flex is-flex-direction-row is-multiline listless is-gap-1">
+						<h6 class="footer__column-title">{{ t.support.title | upcase }}</h6>
+						<ul class="footer__list is-flex is-flex-direction-row is-multiline listless is-gap-1">
 							{% for link in paymentLinks %}
 								{% assign url = link[1] %}
 								{% assign icon = link[0] %}
-								<li>
-									<a href="{{ url }}" class="button is-small is-text has-text-primary is-primary is-touch-friendly">
+								<li class="footer__list-item">
+									<a href="{{ url }}" class="button is-small is-primary is-touch-friendly">
 										{% include e_render-svg-icon.html icon=icon dimension=25 inline=true class="icon" %}
 									</a>
 								</li>

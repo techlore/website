@@ -1,7 +1,9 @@
 .wave {
+	background-color: var(--bulma-body-background-color);
 	color: $primary;
 	margin-top: -.5rem;
 	position: relative;
+	z-index: 1;
 
 	@media (min-width: $desktop) {
 		margin-top: calc(var(--bulma-navbar-height) * -1);
@@ -25,6 +27,18 @@
 		path {
 			animation-delay: 1s;
 			animation-timing-function: cubic-bezier(0.65, 0, 0.35, 1);
+		}
+	}
+}
+
+// Footer variant
+.wave--footer {
+	background-color: transparent;
+	margin-inline: calc(var(--bulma-size-5) * -1.5); // compensation for the footer inline padding
+
+	svg {
+		path {
+			fill: var(--bulma-body-background-color);
 		}
 	}
 }

@@ -1,0 +1,54 @@
+// TODO: Bells&Whistles - fixed reveal?
+.footer {
+	//background-color: var(--bulma-footer-background-color);
+	background-color: $primary;
+}
+
+.footer__logos {
+	flex-direction: row;
+	justify-content: center;
+	gap: var(--bulma-size-2);
+	border-bottom: 1px dotted var(--bulma-light);
+	padding-bottom: var(--bulma-size-2);
+
+	@media (min-width: $tablet) {
+		justify-content: left;
+	}
+
+	@media (min-width: $desktop) {
+		flex-direction: column;
+		align-items: center;
+		border-bottom: 0;
+	}
+}
+
+.footer__column-title {
+	font-weight: 900;
+	color: var(--bulma-white);
+}
+
+.footer__link,
+.footer__button {
+	color: var(--bulma-white);
+}
+
+.footer__link {
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.footer__list {
+	flex-wrap: wrap;
+}
+
+.footer__logo {
+	display: block;
+	width: calc(var(--bulma-size-5) * 3);
+}
+
+.footer__column-wrapper {
+	& + & {
+		margin-top: var(--bulma-size-5);
+	}
+}
