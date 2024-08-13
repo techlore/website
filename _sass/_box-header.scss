@@ -16,6 +16,29 @@
 	& + * {
 		margin-top: var(--bulma-size-5);
 	}
+
+	&:hover {
+		.box-header__anchor {
+			opacity: 1;
+			translate: 0 0;
+		}
+	}
+}
+
+.box-header__anchor {
+	display: inline-block;
+	opacity: 0;
+	translate: calc(var(--bulma-size-5) * -.5) 0;
+	transition: opacity 350ms ease-in-out, translate 350ms ease-in-out;
+
+	@media (pointer: coarse) {
+		opacity: 1;
+		translate: 0 0;
+	}
+
+	&:hover {
+		color: var(--bulma-warning);
+	}
 }
 
 .box-header__links {

@@ -71,7 +71,7 @@ permalink: /resources
 	{% comment %}TODO: DRY - Try to figure it out the component{% endcomment %}
 	<!-- Browsers -->
 	<div class="container mt-6">
-		{%- include c_box-header.html title=t.resources.knowledgebase.categories.browsers -%}
+		{%- include c_box-header.html title=t.resources.knowledgebase.categories.browsers anchor=true -%}
 
 		<div class="box p-5">
 			{% assign browsers = site.data._en.knowledgebase.software.browsers.data %}
@@ -96,7 +96,7 @@ permalink: /resources
 
 	<!-- Password managers -->
 	<div class="container mt-custom">
-		{%- include c_box-header.html title=t.resources.knowledgebase.categories.pswdManagers -%}
+		{%- include c_box-header.html title=t.resources.knowledgebase.categories.pswdManagers anchor=true -%}
 
 		<div class="box p-5">
 			{% assign pswdManagers = site.data._en.knowledgebase.software.password-managers.data %}
