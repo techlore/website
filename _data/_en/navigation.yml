@@ -30,3 +30,34 @@ footerNav:
   contact:
     title: "Contact"
     url: /contact
+
+hiddenNav:
+  spaQuiz:
+    title: "SPA Quiz"
+    url: /spa
+  vpnToolkit:
+    title: "VPN Toolkit"
+    url: /vpn
+  coaching:
+    title: "Coaching"
+    url: /coaching
+  plexus:
+    title: "Plexus app"
+    url: https://plexus.techlore.tech
+    external: true
+  goincognitoRepo:
+    title: "GitHub Repository"
+    url: https://github.com/techlore-official/go-incognito
+    external: true
+  goincognitoChangelog:
+    title: "Course Changelog"
+    url: https://github.com/techlore-official/go-incognito/blob/master/changes.md
+    external: true
+  goincognitoSources:
+    title: "Course Sources"
+    url: https://github.com/techlore-official/go-incognito/blob/master/sources.md
+    external: true
+  goincognitoBehind:
+    title: "Behind the scenes"
+    url: https://www.youtube.com/playlist?list=PL3KeV6Ui_4CayDGHw64OFXEPHgXLkrtJO
+    external: true

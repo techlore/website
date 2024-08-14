@@ -1,0 +1,11 @@
+{% if include.links.size > 0 %}
+	{% for link in include.links %}
+		{% assign url = link.url %}
+		{% unless link.external %}
+			{% assign url = link.url | absolute_url %}
+		{% endunless %}
+		<li class="linkhub-dual__item">
+			<a href="{{ url }}" class="linkhub-dual__button button is-primary is-outlined">{{ link.title }}</a>
+		</li>
+	{% endfor %}
+{% endif %}

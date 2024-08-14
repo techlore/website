@@ -1,0 +1,45 @@
+.linkhub-dual {
+	//
+}
+
+.linkhub-dual__column {
+	&:last-child {
+		.linkhub-dual__list {
+			@media (min-width: $tablet) {
+				align-items: flex-end;
+			}
+		}
+	}
+}
+
+.linkhub-dual-wrapper__desc {
+	 text-wrap: balance;
+ }
+
+.linkhub-dual__item {
+	@media (max-width: $tablet - 1px) {
+		text-align: center;
+	}
+}
+
+.linkhub-dual__button {
+	min-width: calc(var(--bulma-size-5) * 8);
+}
+
+// --- wrapper
+.linkhub-dual-wrapper {
+	.is-on-the-left {
+		@media (min-width: $tablet) {
+			text-align: right;
+		}
+		@media (min-width: $fullhd) {
+			padding-left: 30%;
+		}
+	}
+
+	.is-on-the-right {
+		@media (min-width: $fullhd) {
+			padding-right: 30%;
+		}
+	}
+}

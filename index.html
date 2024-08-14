@@ -7,31 +7,31 @@ title: Home
 <section>
 	<div class="container">
 		<h1>{{ t.global.sitename }}</h1>
-			{% comment %}
-		{% comment %}{% assign all = site.documents | sort: "datePublished" %}{% endcomment %}
-		{% comment %}{{ all | slice: 0,2 | jsonify }}{% endcomment %}
+		{% comment %}
+	{% comment %}{% assign all = site.documents | sort: "datePublished" %}{% endcomment %}
+	{% comment %}{{ all | slice: 0,2 | jsonify }}{% endcomment %}
 
-		{% assign one = site.clips %}
-		{% assign two = site.surveillance-report %}
-		{% assign all = one | concat: two %}
-		{% assign sortedAll = all | sort: "frontmatter.datePublished" | reverse %}
+	{% assign one = site.clips %}
+	{% assign two = site.surveillance-report %}
+	{% assign all = one | concat: two %}
+	{% assign sortedAll = all | sort: "frontmatter.datePublished" | reverse %}
 
-		<blockquote>
-			{{ one | jsonify }}
-		</blockquote>
-		<blockquote>
-			{{ two | jsonify }}
-		</blockquote>
-		<blockquote>
-			{{ all | sort: "frontmatter.datePublished" | reverse | jsonify }}
-		</blockquote>
+	<blockquote>
+		{{ one | jsonify }}
+	</blockquote>
+	<blockquote>
+		{{ two | jsonify }}
+	</blockquote>
+	<blockquote>
+		{{ all | sort: "frontmatter.datePublished" | reverse | jsonify }}
+	</blockquote>
 
-		{% for vid in one limit: 2 %}
-			<blockquote>
-				{{ vid.title }}
-			</blockquote>
-		{% endfor %}
-			{% endcomment %}
+	{% for vid in one limit: 2 %}
+		<blockquote>
+			{{ vid.title }}
+		</blockquote>
+	{% endfor %}
+		{% endcomment %}
 	</div>
 </section>
 
@@ -75,22 +75,33 @@ title: Home
 
 <section>
 	<div class="container">
-		<h2 class="has-text-centered">Usefull resources</h2>
-		<div class="columns has-1-cols-mobile has-3-cols-tablet">
-			<div class="column">
-				<h3>Let’s learn</h3>
-				<p>
-					Check out our courses, coaching and other resources to learn how to protect yourself online
-				</p>
-			</div>
-			<div class="column">{% include linkbox.html %}</div>
-			<div class="column">
-				<h3>Tools that can help you</h3>
-				<p>
-					Check out our curated list of useful resources to help you stay private and secure
-				</p>
-			</div>
-		</div>
+		<h2 class="has-text-centered">{{ t.resources.section.title }}</h2>
+		{% comment %}- Left links column -{% endcomment %}
+		{% assign courses = site.data._en.navigation.mainNav.goincognito %}
+		{% assign coaching = site.data._en.navigation.hiddenNav.coaching %}
+		{% assign freeResources = site.data._en.navigation.mainNav.resources %}
+
+		{% comment %}- creating array -{% endcomment %}
+		{% assign leftUrls = "" | split: "" %}
+		{% assign leftUrls = leftUrls | push: courses | push: coaching | push: freeResources %}
+
+		{% comment %}- Right links column -{% endcomment %}
+		{% assign spaQuiz = site.data._en.navigation.hiddenNav.spaQuiz %}
+		{% assign vpnToolkit = site.data._en.navigation.hiddenNav.vpnToolkit %}
+		{% assign plexus = site.data._en.navigation.hiddenNav.plexus %}
+
+		{% comment %}- creating array -{% endcomment %}
+		{% assign rightUrls = "" | split: "" %}
+		{% assign rightUrls = rightUrls | push: spaQuiz | push: vpnToolkit | push: plexus %}
+
+		{%-  include c_linkhub-dual-wrapper.html
+				leftTitle=t.resources.section.learn.title
+				leftDesc=t.resources.section.learn.desc
+				leftLinkArray=leftUrls
+				rightTitle=t.resources.section.tools.title
+				rightDesc=t.resources.section.tools.desc
+				rightLinkArray=rightUrls
+		-%}
 	</div>
 </section>
 
