@@ -1,3 +1,13 @@
+{% comment %}
+	LINK HUB - DUAL WRAPPER - COLUMN -----------------------------------------
+	Info:
+		- One column for the "linkhub-dual-wrapper" component
+	Parameters:
+		- title (string, optional)
+		- desc (string, optional)
+		- class (string, optional)
+{% endcomment %}
+
 <div class="linkhub-dual-wrapper__column {% if include.class %}{{ include.class }}{% endif %}">
 	{% if include.title %}
 		<h3 class="linkhub-dual-wrapper__title">{{ include.title }}</h3>

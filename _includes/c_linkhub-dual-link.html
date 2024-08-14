@@ -1,3 +1,11 @@
+{% comment %}
+	LINK HUB - LINK -----------------------------------------
+	Info:
+		- Item (li + a) for the "linkhub" component
+	Parameters:
+		- links (array)
+{% endcomment %}
+
 {% if include.links.size > 0 %}
 	{% for link in include.links %}
 		{% assign url = link.url %}
