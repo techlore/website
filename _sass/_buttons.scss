@@ -7,7 +7,11 @@
 		min-width: calc(var(--bulma-size-5) * 3);
 
 		&.is-primary:not(.is-outlined) {
-			border: 1px solid var(--bulma-primary-10-invert);
+			border: 1px solid var(--bulma-primary-30);
+
+			.footer & {
+				border-color: var(--bulma-primary-10-invert);
+			}
 		}
 	}
 }
@@ -17,9 +21,5 @@ a.is-touch-friendly {
 		display: inline-block;
 		padding: calc(var(--bulma-size-5) * .5) 0;
 		min-width: calc(var(--bulma-size-5) * 3);
-
-		&.is-primary:not(.is-outlined) {
-			border: 1px solid var(--bulma-primary-30);
-		}
 	}
 }
