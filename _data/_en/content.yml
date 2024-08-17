@@ -30,6 +30,8 @@ home:
   hero: ""
   newestVideos: "Newest videos"
   hotTopics: "Hot topics in our community"
+  team:
+    more: "... and others"
 
 # -----------------------------------------
 # RESOURCES section and page

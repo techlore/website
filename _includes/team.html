@@ -11,6 +11,8 @@
 {% include variables.html %}
 {% assign team = site.data._en.team %}
 {% assign bigTeam = false %}
+{% assign classesWrapper = "" %}
+{% assign classesBox = "" %}
 
 {% if team.size > 3 %}
 	{% assign bigTeam = true %}
@@ -20,17 +22,26 @@
 	{% assign team = site.data._en.team | slice: 0, 3 %}
 {% endif %}
 
+{% if include.isMini %}
+	{% assign classesWrapper = "is-full-mobile is-one-third-tablet is-flex is-flex-direction-column is-mini" %}
+	{% assign classesBox = "is-flex is-flex-grow-1" %}
+{% endif %}
+
 {% if team.size > 0 %}
-	<div class="team mt-6">
+	<div id="team" class="team mt-6">
 		<div class="columns is-multiline is-centered">
 			{%- for person in team -%}
-				{% include c_person.html data=person isMini=include.isMini isHomepage=include.isHomepage %}
+				<div class="team__wrapper column has-text-centered is-flex is-justify-content-center {{ classesWrapper }}">
+					<div class="team__member is-flex {{ classesBox }}">
+						{% include c_person.html data=person isMini=include.isMini isHomepage=include.isHomepage %}
+					</div>
+				</div>
 			{%- endfor -%}
 		</div>
 
 		{% if bigTeam and include.isHomepage %}
 			<p class="has-text-centered">
-				<a href="TODO:link" class="">... and others</a>
+				<a href="{{ site.data._en.navigation.mainNav.about.url | absolute_url | append: "#team" }}" class="is-touch-friendly">{{ t.home.team.more }}</a>
 			</p>
 		{% endif %}
 	</div>

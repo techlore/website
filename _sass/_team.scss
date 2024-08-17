@@ -1,0 +1,10 @@
+.team {
+	//
+}
+
+.team__wrapper {
+	&.is-mini {
+		max-width: 705px; // Bulma container.is-max-tablet
+		margin-inline: auto;
+	}
+}

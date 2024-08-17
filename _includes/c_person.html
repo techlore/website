@@ -1,19 +1,22 @@
-<div class="column is-full-mobile is-one-third-tablet has-text-centered is-flex is-flex-direction-column">
-	<div class="box is-flex is-flex-grow-1">
-		<div class="person is-flex is-flex-direction-column is-flex-grow-1" {% if include.isMini %}data-mini{% endif %}>
-			<img src="{% link assets/team/{{person.photo}} %}" class="person__photo is-block has-radius-rounded" alt="{{ include.data.name | prepend: "Photo - " }}">
+{% comment %}
+	PERSON -----------------------------------------
+	Data source: 	_data/_en/team.yml (through "team.html" component)
+{% endcomment %}
 
-			<h3 class="person__name">
-				{{ include.data.name }}
-			</h3>
-			{% unless include.isMini %}
-				<p class="person__bio is-flex-grow-1">
-					{{ include.data.bio }}
-				</p>
-				<a href="{{ include.data.web }}" class="button is-primary is-outlined" target="_blank">
-					{{ t.about.personalWebsite }}
-				</a>
-			{% endunless %}
-		</div>
-	</div>
+<div class="person is-flex is-flex-direction-column is-align-items-center is-flex-grow-1{% unless include.isMini %} box{% endunless %}" {% if include.isMini %}data-mini{% endif %}>
+	<div class="person__bg"{% if include.data.background %} style="background-image: url({% link assets/team/{{include.data.background}} %});"{% endif %}></div>
+
+	<img src="{% link assets/team/{{person.photo}} %}" class="person__photo is-block has-radius-rounded" loading="lazy" alt="{{ include.data.name | prepend: "Photo - " }}">
+
+	<h3 class="person__name has-text-shadow">
+		{{ include.data.name }}
+	</h3>
+	{% unless include.isMini %}
+		<a href="{{ include.data.web }}" class="button is-ghost" target="_blank">
+			{{ include.data.web | remove: "https://" }}
+		</a>
+		<p class="person__bio is-flex-grow-1">
+			{{ include.data.bio }}
+		</p>
+	{% endunless %}
 </div>
