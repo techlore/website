@@ -62,6 +62,10 @@ socials:
 forum:
   links:
     discuss: "https://discuss.techlore.tech/"
+plexus:
+  links:
+    web: "https://plexus.techlore.tech/"
+    app: "https://github.com/techlore/Plexus-app?tab=readme-ov-file#download"
 
 # Build settings
 #theme: minima

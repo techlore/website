@@ -32,14 +32,14 @@ permalink: /resources
 				%}
 			</div>
 			<div class="column is-half-tablet is-one-third-desktop is-flex">
-				{% assign iconPlexus = "xbox-x" %}
-				{% assign buttonLink = "TODO" %}
+				{% assign iconPlexus = "plexus" %}
 				{% include c_feature-box.html
 						icon=iconPlexus
 						title=t.featureBox.techloreTools.plexus.title
 						desc=t.featureBox.techloreTools.plexus.desc
 						buttonText=t.featureBox.techloreTools.plexus.buttonText
-						buttonLink=buttonLink
+						buttonLink=site.plexus.links.web
+						buttonExternal=true
 				%}
 			</div>
 		</div>
