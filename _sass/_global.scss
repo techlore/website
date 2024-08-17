@@ -16,3 +16,9 @@
 .has-text-shadow {
 	text-shadow: 0 1px 10px var(--bulma-black-ter);
 }
+
+.has-glare {
+	background-image: conic-gradient(from 30deg, rgb(255 255 255 / 0%), rgb(255 255 255 / 7%));
+	background-repeat: no-repeat;
+	background-position: center center;
+}
