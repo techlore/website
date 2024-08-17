@@ -104,13 +104,14 @@ input[id="navbar-menu-toggle"] {
 .navbar-burger {
 	position: absolute;
 	inset: .5rem 0 auto auto;
+	color: var(--bulma-white);
+
+	span {
+		border-radius: 100vmax;
+	}
 }
 
 .navbar-item {
-	@media (max-width: $desktop - 1px) {
-		padding-inline: var(--bulma-size-5);
-	}
-
 	&.is-active {
 		font-weight: 900;
 
@@ -130,7 +131,7 @@ input[id="navbar-menu-toggle"] {
 		position: relative;
 
 		@media (max-width: $desktop - 1px) {
-			padding-inline: var(--bulma-size-5);
+			padding-inline: var(--bulma-size-7);
 		}
 	}
 }

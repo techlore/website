@@ -3,5 +3,9 @@
 		position: absolute;
 		inset: 0 calc(var(--bulma-size-5) * -.75) auto auto;
 		width: calc(var(--bulma-size-5) * .75);
+
+		@media (max-width: $desktop - 1px) {
+			inset: 0 0 auto auto;
+		}
 	}
 }
