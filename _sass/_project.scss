@@ -1,0 +1,36 @@
+.project {
+	&:hover {
+		.project__logo-wrapper {
+			//background-color: var(--bulma-white);
+		}
+	}
+}
+
+.project__logo-wrapper {
+	aspect-ratio: 4/3;
+	background-color: var(--bulma-grey-lighter);
+	transition: background-color 350ms ease-in-out;
+
+	.project:hover & {
+		background-color: var(--bulma-white);
+	}
+}
+
+.project__name {
+	@media (min-width: $tablet) {
+		div[data-column="0"] &,
+		div[data-column="1"] &,
+		div[data-column="2"] & {
+			order: -1;
+		}
+	}
+}
+
+.project__link {
+	color: var(--bulma-success);
+	transition: color 350ms ease-in-out;
+
+	.project:hover & {
+		color: var(--bulma-primary);
+	}
+}

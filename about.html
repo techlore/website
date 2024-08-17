@@ -35,9 +35,8 @@ permalink: /about
 </section>
 
 <section>
-	{% assign buttonText = t.support.proudly.button %}
-	{% assign buttonUrl = "xxx" %}
-	{% include support-proudly.html buttonText=buttonText buttonUrl=buttonUrl %}
+	{% assign button = site.data._en.navigation.hiddenNav.proudlySupportExplained %}
+	{% include support-proudly.html button=button %}
 </section>
 
 <section>

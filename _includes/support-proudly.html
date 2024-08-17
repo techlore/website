@@ -1,16 +1,22 @@
 <div class="support-proudly mt-6">
-	{% comment %} TODO: structure, images {% endcomment %}
-	<div class="grid has-text-centered">
-		<div class="cell">
-			<div class="container is-max-tablet">
-				<div class="box">
-					<i class="has-text-warning">TOOD: logos</i>
-					<br>
-					{% if include.buttonText and include.buttonUrl %}
-						<a href="{{ include.buttonUrl }}" class="button">TODO: Link - {{ include.buttonText }}</a>
-					{% endif %}
+	<div class="container is-max-tablet">
+		<h2 class="has-text-centered">{{ t.support.proudly.title }}</h2>
+
+		<div class="columns is-flex is-multiline is-justify-content-center mt-3">
+			{% for project in site.data._en.support %}
+				<div class="column is-half-mobile is-one-third-tablet" data-column="{% increment columnNumber %}">
+					{%- include c_project.html project=project -%}
 				</div>
-			</div>
+			{% endfor %}
 		</div>
+
+		{% if include.button %}
+			<p class="has-text-centered">
+				{{ t.support.proudly.desc }}
+			</p>
+			<p class="has-text-centered">
+				<a href="{{ include.button.url }}" class="button is-primary is-outlined"{% if include.button.external %} target="_blank"{% endif %}>{{ include.button.title }}</a>
+			</p>
+		{% endif %}
 	</div>
 </div>
