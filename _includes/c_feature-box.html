@@ -7,6 +7,7 @@
 		- title (optional)
 		- desc (optional)
 		- buttonText and buttonLink
+		- buttonExternal (boolean, optional)
 		- links
 {% endcomment %}
 
@@ -24,7 +25,7 @@
 			</p>
 		{% endif %}
 		{% if include.buttonText and include.buttonLink %}
-			<a href="{{ include.buttonLink }}" class="feature-box__button button is-primary is-outlined">{{ include.buttonText }}</a>
+			<a href="{{ include.buttonLink }}" class="feature-box__button button is-primary is-outlined"{% if include.buttonExternal %} target="_blank"{% endif %}>{{ include.buttonText }}</a>
 		{% elsif include.links %}
 			<ul class="feature-box__links buttons is-centered is-gap-1 marginless listless">
 				{%- for link in include.links -%}
