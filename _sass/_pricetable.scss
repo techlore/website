@@ -38,13 +38,14 @@
 }
 
 .pricetable__logo {
-	width: calc(var(--bulma-size-5) * 6);
+	background-color: var(--bulma-danger-30);
+	width: calc(var(--bulma-size-5) * 8);
 	position: absolute;
 	inset: 0 auto auto 50%;
 	translate: -50% -60%;
 
 	@media (min-width: $tablet) {
-		translate: -50% -10%;
+		translate: -50% -50%;
 	}
 }
 
