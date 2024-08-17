@@ -18,6 +18,7 @@ mainNav:
   blog:
     title: "Blog"
     url: https://blog.techlore.tech/
+    external: true
   resources:
     title: "Resources"
     url: /resources

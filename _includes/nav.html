@@ -30,8 +30,11 @@
 				<ul class="marginless listless is-flex-desktop is-family-secondary">
 					{% for navItem in site.data._en.navigation.mainNav %}
 						{% assign item = navItem[1] %}
-						<li class="navbar-item{% if page.url == item.url %} is-active{% endif %}">
-							<a href="{{ item.url | absolute_url }}" class="is-flex is-align-items-center is-gap-1" {% if item.external %}target="_blank"{% endif %}>
+						<li class="navbar-item is-flex{% if page.url == item.url %} is-active{% endif %}">
+							<a href="{{ item.url | absolute_url }}" class="is-flex is-align-items-center is-gap-1 is-touch-friendly" {% if item.external %}target="_blank"{% endif %}>
+								{% if item.external %}
+									{% include e_render-svg-icon.html icon="arrow-up-right" inline=true class="svg-icon--new-window" %}
+								{% endif %}
 								{% if item.icon.size > 0 %}
 									{% include e_render-svg-icon.html icon=item.icon inline=true class="icon" dimension=25 %}
 								{% endif %}

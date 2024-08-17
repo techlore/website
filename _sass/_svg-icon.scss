@@ -1,0 +1,7 @@
+.svg-icon {
+	&.is-size-100.svg-icon--new-window {
+		position: absolute;
+		inset: 0 calc(var(--bulma-size-5) * -.75) auto auto;
+		width: calc(var(--bulma-size-5) * .75);
+	}
+}

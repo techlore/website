@@ -93,6 +93,8 @@ input[id="navbar-menu-toggle"] {
 }
 
 .navbar-menu {
+	box-shadow: none;
+
 	@media (max-width: $desktop - 1px) {
 		position: absolute;
 		inset: var(--bulma-navbar-height) 0 auto 0;
@@ -105,6 +107,10 @@ input[id="navbar-menu-toggle"] {
 }
 
 .navbar-item {
+	@media (max-width: $desktop - 1px) {
+		padding-inline: var(--bulma-size-5);
+	}
+
 	&.is-active {
 		font-weight: 900;
 
@@ -121,5 +127,10 @@ input[id="navbar-menu-toggle"] {
 
 	a {
 		color: $info;
+		position: relative;
+
+		@media (max-width: $desktop - 1px) {
+			padding-inline: var(--bulma-size-5);
+		}
 	}
 }
