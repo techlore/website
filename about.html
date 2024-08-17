@@ -12,11 +12,16 @@ permalink: /about
 	<div class="fixed-grid has-1-cols">
 		<div class="grid">
 			<div class="cell has-text-centered has-text-text-bold p-5">
-				<div class="container is-max-tablet">
+				<div class="container">
 					<img src="{% link assets/logos/techlore-logo-edit-by-figma.svg %}" style="width: calc(var(--bulma-size-5) * 10)" width="160" height="160" loading="lazy" alt="Logo - {{ site.name }}">
-					<p>{{ t.about.mission.line1 }}</p>
-					<p>{{ t.about.mission.line2 }}</p>
-					<p>{{ t.about.mission.line3 }}</p>
+
+					<div class="mission has-text-info has-text-weight-bold has-text-wrap-balance mt-6">
+						{% for line in t.about.mission %}
+							<p class="is-size-3">
+								{{ line[1] }}
+							</p>
+						{% endfor %}
+					</div>
 				</div>
 			</div>
 		</div>
