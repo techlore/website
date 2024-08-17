@@ -7,7 +7,7 @@
 
 {% assign data = include.data %}
 
-<div class="pricetable__column column has-text-centered is-flex is-flex-direction-column is-align-items-center is-gap-2 p-6{% if include.isPremium %} pricetable__column--premium{% endif %}">
+<div class="pricetable__column column has-text-centered is-flex is-flex-direction-column is-align-items-center is-gap-2 p-6{% if include.isPremium %} pricetable__column--premium has-glare{% endif %}">
 	{% if data.icon %}
 		{% include e_render-svg-icon.html icon=data.icon inline=true %}
 	{% endif %}
@@ -30,7 +30,7 @@
 
 	{% if data.buttons.size > 0 %}
 		{% for button in data.buttons %}
-			<a href="{{ button.url }}" class="pricetable__button button{% if include.isPremium %} is-primary{% endif %}">{{ button.text }}</a>
+			<a href="{{ button.url }}" class="pricetable__button button{% if include.isPremium %} is-warning{% endif %}">{{ button.text }}</a>
 		{% endfor %}
 	{% endif %}
 

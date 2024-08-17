@@ -28,7 +28,8 @@
 .pricetable__column--premium {
 	// TODO: hover rotating grad
 	border-color: transparent;
-	background-color: var(--bulma-dark);
+	background-color: var(--bulma-primary);
+	color: var(--bulma-white);
 
 	@media (min-width: $tablet) {
 		margin-block: calc(var(--bulma-size-2) * -1);
@@ -73,7 +74,7 @@
 
 	.pricetable__column--premium & {
 		font-weight: 900;
-		color: var(--bulma-success);
+		color: var(--bulma-warning-75);
 	}
 }
 
