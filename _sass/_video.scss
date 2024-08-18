@@ -1,9 +1,9 @@
 .video-list {
-
+	//
 }
 
 .video-list__item {
-
+	//
 }
 
 .video-list__link {
@@ -15,9 +15,17 @@
 
 		.video-list__tags {
 			translate: 0 0;
-			opacity: 1;
 		}
 	}
+}
+
+.video-list__thumb {
+	aspect-ratio: 16 / 9;
+	object-fit: cover;
+}
+
+.video-list__title {
+	padding-inline: calc(var(--bulma-size-5) * .5);
 }
 
 .video-list__tags {
@@ -32,8 +40,7 @@
 	justify-content: center;
 	gap: .5rem;
 	translate: 0 -100%;
-	opacity: 0;
-	transition: translate .6s cubic-bezier(0.34, 1.56, 0.64, 1), opacity .6s ease-in-out;
+	transition: translate .6s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
 .video-list__tag {

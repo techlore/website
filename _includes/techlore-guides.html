@@ -8,7 +8,7 @@
 				<div class="grid is-gap-6">
 					{% for guide in sortedGuides %}
 						{% assign filename = guide.path | split: "/" | last %}
-						{% assign guideThumbnail = "/guides/" | append: filename | replace: ".md", "-850x480.jpg" | relative_url %}
+						{% assign guideThumbnail = "/guides/" | append: filename | replace: ".md", ".jpg" | relative_url %}
 
 						<div class="cell">
 							{%- include c_guide.html

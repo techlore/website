@@ -46,7 +46,7 @@ title: Home
 							{% assign sortedVideos = site.techlore | sort: "frontmatter.datePublished" | reverse %}
 							{% for video in sortedVideos limit: 2 %}
 								{% assign filename = video.path | split: "/" | last %}
-								{% assign videoThumbnail = "/techlore/" | append: filename | replace: ".md", "-850x480.jpg" | relative_url %}
+								{% assign videoThumbnail = "/techlore/" | append: filename | replace: ".md", ".jpg" | relative_url %}
 
 								{%- include c_video.html
 										title=video.title
