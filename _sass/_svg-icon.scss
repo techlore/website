@@ -1,4 +1,43 @@
 .svg-icon {
+	display: inline-block;
+	width: 2.5rem;
+	height: auto;
+	aspect-ratio: 1;
+
+	.button & {
+		height: auto;
+	}
+
+	&.is-size-25 {
+		width: 1rem;
+	}
+
+	&.is-size-50 {
+		width: 1.5rem;
+	}
+
+	&.is-size-75 {
+		width: 1.75rem;
+	}
+
+	&.is-size-100 {
+		width: 2.5rem;
+	}
+
+	&.is-size-150 {
+		width: 3rem;
+	}
+
+	&.is-size-200 {
+		width: 3.75rem;
+	}
+
+	svg {
+		display: block;
+	}
+}
+
+.svg-icon {
 	&.is-size-100.svg-icon--new-window {
 		position: absolute;
 		inset: 0 calc(var(--bulma-size-5) * -.75) auto auto;

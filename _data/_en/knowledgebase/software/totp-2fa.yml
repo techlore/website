@@ -1,0 +1,43 @@
+# KNOWLEDGE BASE (Resources --> TOTP 2FA) -----------------------------------------
+# Data structure:
+#     - name (string)
+#     - desc (string)
+#     - tags (array of strings):        contains misc info, eg. rendering engine, FOSS or proprietary, etc.
+#     - affil (string, optional):       affiliate link
+#     - labels:                         links to the official web (official) and different versions of the software (desktop, android, ios);
+#                                       see "_data/_en/content.yml --> resources --> knowledgebase --> labels"
+#     - color (string, optional):       color of the icon background (preferably in HEX format - #BADA55)
+#     - favorite (boolean, optional):   marks a favorite and show a "star" icon next to the name
+#
+# Related:
+#     Section (currently "May come in handy) under the content.
+#
+#     - title (string)
+#     - url (string)
+#     - type (string): show the corresponding icon in front of the title (web, video)
+#
+data:
+  -
+    name: "Aegis"
+    desc: "Aegis is one of the most polished & simple TOTP services for Android."
+    tags: ["opensource", "free"]
+    labels:
+      android: "https://getaegis.app/"
+    color: "#ffffff"
+    favorite: true
+  -
+    name: "Ente Auth"
+    desc: "Ente's 2FA app. A cross platform TOTP app with secure online backups."
+    tags: [ "opensource", "free", "iOS", "Android", "Web" ]
+    labels:
+      official: "https://github.com/ente-io/ente/blob/main/auth/README.md"
+    color: "#ffffff"
+related:
+  -
+    title: "TOTP & 2FA Guide"
+    url: "https://youtu.be/iXSyxm9jmmo"
+    type: "video"
+  -
+    title: "2FA Directory"
+    url: "https://2fa.directory/"
+    type: "web"

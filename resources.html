@@ -68,54 +68,69 @@ permalink: /resources
 		</div>
 	</div>
 
-	{% comment %}TODO: DRY - Try to figure it out the component{% endcomment %}
-	<!-- Browsers -->
 	<div class="container mt-6">
-		{%- include c_box-header.html title=t.resources.knowledgebase.categories.browsers anchor=true -%}
-
-		<div class="box p-5">
-			{% assign browsers = site.data._en.knowledgebase.software.browsers.data %}
-			{% assign browsersRelatedLinks = site.data._en.knowledgebase.software.browsers.related %}
-
-			<div class="fixed-grid has-1-cols has-2-cols-tablet">
-				<div class="grid">
-					{% for item in browsers %}
-						{% include c_knowledgebase-item.html item=item %}
-					{% endfor %}
-				</div>
-			</div>
-
-			{% if browsersRelatedLinks.size > 0 %}
-				{% include c_related-links.html
-						title=t.resources.knowledgebase.related
-						links=browsersRelatedLinks
-				%}
-			{% endif %}
+		{% comment %}TODO: Either dynamic, but out of order (alphabetical vs frontend) or manual.{% endcomment %}
+		{% comment %}TODO: UX - Floating nav? Dropdown on mobile? {% endcomment %}
+		<div class="knowledgebase-nav buttons">
+			{% for item in site.data._en.knowledgebase.software %}
+				{% assign category = item[0] %}
+				<a href="{{ category | prepend: "#" }}" class="button is-primary">{{ t.resources.knowledgebase.categories[category] }}</a>
+			{% endfor %}
 		</div>
+	</div>
+
+	<!-- Web browsers -->
+	<div class="container mt-6">
+		{% assign title=t.resources.knowledgebase.categories.web-browsers %}
+		{% assign data = site.data._en.knowledgebase.software.web-browsers.data %}
+		{% assign relatedLinks = site.data._en.knowledgebase.software.web-browsers.related %}
+
+		{% include c_knowledgebase.html title=title data=data related=relatedLinks %}
 	</div>
 
 	<!-- Password managers -->
-	<div class="container mt-custom">
-		{%- include c_box-header.html title=t.resources.knowledgebase.categories.pswdManagers anchor=true -%}
+	<div class="container mt-6">
+		{% assign title=t.resources.knowledgebase.categories.password-managers %}
+		{% assign data = site.data._en.knowledgebase.software.password-managers.data %}
+		{% assign relatedLinks = site.data._en.knowledgebase.software.password-managers.related %}
 
-		<div class="box p-5">
-			{% assign pswdManagers = site.data._en.knowledgebase.software.password-managers.data %}
-			{% assign pswdManagersRelatedLinks = site.data._en.knowledgebase.software.password-managers.related %}
-
-			<div class="fixed-grid has-1-cols has-2-cols-tablet">
-				<div class="grid">
-					{% for item in pswdManagers %}
-						{% include c_knowledgebase-item.html item=item %}
-					{% endfor %}
-				</div>
-			</div>
-
-			{% if pswdManagersRelatedLinks.size > 0 %}
-				{% include c_related-links.html
-						title=t.resources.knowledgebase.related
-						links=pswdManagersRelatedLinks
-				%}
-			{% endif %}
-		</div>
+		{% include c_knowledgebase.html title=title data=data related=relatedLinks %}
 	</div>
+
+	<!-- TOTP 2FA -->
+	<div class="container mt-6">
+		{% assign title=t.resources.knowledgebase.categories.totp-2fa %}
+		{% assign data = site.data._en.knowledgebase.software.totp-2fa.data %}
+		{% assign relatedLinks = site.data._en.knowledgebase.software.totp-2fa.related %}
+
+		{% include c_knowledgebase.html title=title data=data related=relatedLinks %}
+	</div>
+
+	<!-- Encryption -->
+	<div class="container mt-6">
+		{% assign title=t.resources.knowledgebase.categories.encryption %}
+		{% assign data = site.data._en.knowledgebase.software.encryption.data %}
+		{% assign relatedLinks = site.data._en.knowledgebase.software.encryption.related %}
+
+		{% include c_knowledgebase.html title=title data=data related=relatedLinks %}
+	</div>
+
+	<!-- Firewalls -->
+	<div class="container mt-6">
+		{% assign title=t.resources.knowledgebase.categories.firewalls %}
+		{% assign data = site.data._en.knowledgebase.software.firewalls.data %}
+		{% assign relatedLinks = site.data._en.knowledgebase.software.firewalls.related %}
+
+		{% include c_knowledgebase.html title=title data=data related=relatedLinks %}
+	</div>
+
+	<!-- Applications -->
+	<div class="container mt-6">
+		{% assign title=t.resources.knowledgebase.categories.applications %}
+		{% assign data = site.data._en.knowledgebase.software.applications.data %}
+		{% assign relatedLinks = site.data._en.knowledgebase.software.applications.related %}
+
+		{% include c_knowledgebase.html title=title data=data related=relatedLinks %}
+	</div>
+
 </section>

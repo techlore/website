@@ -1,20 +1,20 @@
-# KNOWLEDGE BASE (Resources --> Browsers) -----------------------------------------
+# KNOWLEDGE BASE (Resources --> Web Browsers) -----------------------------------------
 # Data structure:
-#     - name: self-explanatory
-#     - desc: self-explanatory
-#     - tags: contains misc info, eg. rendering engine, FOSS or proprietary, etc.
-#     - affil (optional): affiliate link
-#     - labels:   links to the official web (official) and different versions of the software (desktop, android, ios);
-#                 see "_data/_en/content.yml --> resources --> knowledgebase --> labels"
-#     - color (optional):               color of the icon background (preferably in HEX format - #BADA55)
-#     - favorite (optional, boolean):   marks a favorite and show a "star" icon next to the name
+#     - name (string)
+#     - desc (string)
+#     - tags (array of strings):        contains misc info, eg. rendering engine, FOSS or proprietary, etc.
+#     - affil (string, optional):       affiliate link
+#     - labels:                         links to the official web (official) and different versions of the software (desktop, android, ios);
+#                                       see "_data/_en/content.yml --> resources --> knowledgebase --> labels"
+#     - color (string, optional):       color of the icon background (preferably in HEX format - #BADA55)
+#     - favorite (boolean, optional):   marks a favorite and show a "star" icon next to the name
 #
 # Related:
 #     Section (currently "May come in handy) under the content.
 #
-#      - title: self-explanatory
-#      - url:   self-explanatory
-#      - type:  show the corresponding icon in front of the title (web, video)
+#     - title (string)
+#     - url (string)
+#     - type (string): show the corresponding icon in front of the title (web, video)
 #
 data:
   -
@@ -68,28 +68,28 @@ data:
     tags: ["opensource", "gecko"]
     labels:
       android: "https://f-droid.org/en/packages/us.spotco.fennec_dos/"
-    color: "#FFFFFF"
+    color: "#ffffff"
   -
     name: "LibreWolf"
     desc: "LibreWolf tackles most Firefox hardening out-of-the-box & does a decent job of maintaining security updates. Be aware that using forks of projects come with concerns regarding trusting a new party, in addition to trusting them to maintain security updates."
     tags: ["opensource", "gecko"]
     labels:
       desktop: "https://librewolf.net/"
-    color: "#FFFFFF"
+    color: "#ffffff"
   -
     name: "Safari"
     desc: "Apple's Safari offers users in the Apple ecosystem a moderately safe default browser with basic privacy & security precautions out-of-the-box. Consider using AdGuard for further protections."
     tags: [ "proprietary", "webkit" ]
     labels:
       official: "https://www.apple.com/safari/"
-    color: "#292929"
+    color: "#ffffff"
   -
     name: "AdGuard"
     desc: "For those using Safari, AdGuard is a great option to block ads, trackers, phishing, custom DNS, and more."
     tags: [ "opensource", "freeTier" ]
     labels:
       official: "https://adguard.com/en/adguard-ios/overview.html"
-    color: "#FFFFFF"
+    color: "#ffffff"
 related:
   -
     title: "PrivacyTests"

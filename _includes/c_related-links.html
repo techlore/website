@@ -8,9 +8,8 @@
 		- links: array of links from the data source
 {% endcomment %}
 
-<div class="realated-links has-text-centered">
+<div class="related-links has-text-centered mt-6 pt-6">
 	<div class="container is-max-tablet">
-		<hr>
 		{% if include.title.size > 0 %}
 			<h4 class="related-links__title">{{ include.title }}</h4>
 		{% endif %}
@@ -22,7 +21,7 @@
 					{% assign linkIcon = "youtube" %}
 				{% endif %}
 				<div class="column">
-					<a href="{{ link.url }}" class="related-links__link button is-ghost is-gap-2">
+					<a href="{{ link.url }}" class="related-links__link button is-ghost is-gap-2" target="_blank">
 						{% include e_render-svg-icon.html icon=linkIcon dimension=50 inline=true class="icon" %} {{ link.title }}
 					</a>
 				</div>

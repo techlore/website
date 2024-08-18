@@ -1,3 +1,8 @@
+html {
+	scroll-behavior: smooth;
+	scroll-padding: var(--bulma-size-5) 0 0 0;
+}
+
 // FIX for Bulma columns on mobile
 .container {
 	padding-inline: var(--bulma-column-gap); // .75rem

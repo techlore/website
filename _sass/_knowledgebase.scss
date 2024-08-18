@@ -1,0 +1,37 @@
+.knowledgebase-item {
+	//
+}
+
+.knowledgebase-item__title {
+	position: relative;
+
+	&:after {
+		content: '';
+		width: calc(var(--bulma-size-5) * 4);
+		height: calc(var(--bulma-size-5) * .25);
+		background-color: var(--bulma-primary);
+		position: absolute;
+		inset: calc(var(--bulma-size-5) * 4) auto auto 0;
+		border-radius: 100vmax;
+	}
+
+	.content & {
+		margin-bottom: 0;
+	}
+}
+
+.knowledgebase-item__desc {
+	color: var(--bulma-white);
+}
+
+.knowledgebase-item__icon {
+	background-color: var(--bulma-black);
+	width: calc(var(--bulma-size-5) * 2);
+	padding: calc(var(--bulma-size-5) * .45) calc(var(--bulma-size-5) * .45);
+	aspect-ratio: 1;
+	translate: 0 -15%;
+}
+
+.knowledgebase-item__favorite {
+	color: var(--bulma-warning-60);
+}

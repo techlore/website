@@ -1,0 +1,15 @@
+.related-links {
+	position: relative;
+
+	&:before {
+		content: '';
+		width: 50vw;
+		max-width: 1000px;
+		height: calc(var(--bulma-size-5) * .125);
+		background-color: var(--bulma-border);
+		position: absolute;
+		inset: 0 auto auto 50%;
+		translate: -50% 0;
+		border-radius: 100vmax;
+	}
+}

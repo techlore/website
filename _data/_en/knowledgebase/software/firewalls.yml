@@ -1,0 +1,42 @@
+# KNOWLEDGE BASE (Resources --> Firewalls) -----------------------------------------
+# Data structure:
+#     - name (string)
+#     - desc (string)
+#     - tags (array of strings):        contains misc info, eg. rendering engine, FOSS or proprietary, etc.
+#     - affil (string, optional):       affiliate link
+#     - labels:                         links to the official web (official) and different versions of the software (desktop, android, ios);
+#                                       see "_data/_en/content.yml --> resources --> knowledgebase --> labels"
+#     - color (string, optional):       color of the icon background (preferably in HEX format - #BADA55)
+#     - favorite (boolean, optional):   marks a favorite and show a "star" icon next to the name
+#
+# Related:
+#     Section (currently "May come in handy) under the content.
+#
+#     - title (string)
+#     - url (string)
+#     - type (string): show the corresponding icon in front of the title (web, video)
+#
+data:
+  -
+    name: "Portmaster"
+    desc: "Powerful (& beautiful) firewall program for Windows & Linux to give you finer control over what your device connects to."
+    tags: [ "opensource", "Windows", "Linux" ]
+    labels:
+      official: "https://safing.io/"
+    color: "#000000"
+    favorite: true
+  -
+    name: "Lulu"
+    desc: "Firewall program for MacOS to give you finer control over what your device connects to. "
+    tags: [ "opensource", "macOS" ]
+    labels:
+      official: "https://objective-see.org/products/lulu.html"
+    color: "#ffffff"
+    favorite: true
+  -
+    name: "NetGuard"
+    desc: "Firewall program for Android (no root required) to give you finer control over what your device connects to. Warning: NetGuard by default takes the place of a VPN on Android."
+    tags: [ "opensource", "Android" ]
+    labels:
+      android: "https://netguard.me/"
+    color: "#333333"

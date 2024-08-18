@@ -1,0 +1,50 @@
+# KNOWLEDGE BASE (Resources --> Applications) -----------------------------------------
+# Data structure:
+#     - name (string)
+#     - desc (string)
+#     - tags (array of strings):        contains misc info, eg. rendering engine, FOSS or proprietary, etc.
+#     - affil (string, optional):       affiliate link
+#     - labels:                         links to the official web (official) and different versions of the software (desktop, android, ios);
+#                                       see "_data/_en/content.yml --> resources --> knowledgebase --> labels"
+#     - color (string, optional):       color of the icon background (preferably in HEX format - #BADA55)
+#     - favorite (boolean, optional):   marks a favorite and show a "star" icon next to the name
+#
+# Related:
+#     Section (currently "May come in handy) under the content.
+#
+#     - title (string)
+#     - url (string)
+#     - type (string): show the corresponding icon in front of the title (web, video)
+#
+data:
+  -
+    name: "F-Droid"
+    desc: "F-Droid is the go-to FOSS app store for all Android devices."
+    tags: ["opensource", "Android"]
+    labels:
+      android: "https://f-droid.org/"
+    color: "#ffffff"
+    favorite: true
+  -
+    name: "Aurora Store"
+    desc: "Aurora Store allows users to download apps directly from the Google Play Store without a Google Account safely."
+    tags: [ "opensource", "Android" ]
+    labels:
+      android: "https://auroraoss.com/"
+    color: "#6B62FF"
+    favorite: true
+  -
+    name: "Exodus Privacy"
+    desc: "Analyzes privacy concerns in Android applications. Many iOS applications will use similar trackers, so this is a useful tool to check trackers for applications before downloading."
+    tags: [ "opensource", "Android", "Web" ]
+    labels:
+      official: "https://exodus-privacy.eu.org/en/"
+    color: "#684972"
+    favorite: true
+  -
+    name: "AltStore"
+    desc: "AltStore allows iOS users to install IPA files (apps) to their device without the App Store. Apple's restrictions, however, make this a generally limited experience."
+    tags: [ "opensource", "iOS" ]
+    labels:
+      ios: "https://altstore.io/"
+    color: "#358389"
