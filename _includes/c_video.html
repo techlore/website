@@ -6,17 +6,17 @@
 	{% assign classes = "video-list__item--detailed is-gap-2" %}
 {% endif %}
 
-{% if link.size <= 0%}
+{% if link.size <= 0 %}
 	{% assign link = include.youtube %}
 
-{% elsif include.youtube.size <= 0%}
+{% elsif include.youtube.size <= 0 %}
 	{% assign link = include.peertube %}
-		
+
 {% endif %}
 
 <li class="video-list__item column marginless is-flex {{ classes }}">
 	<a class="video-list__link" href="{{ include.link }}" target="_blank">
-		{% if include.tags.size > 0 and (isDetailed == null)%}
+		{% if include.tags.size > 0 and (isDetailed == null) %}
 			<span class="video-list__tags">
 				{% for tag in include.tags %}
 					<span class="video-list__tag">{{ tag | prepend: "#" }}</span>
@@ -29,7 +29,7 @@
 	<div class="video-list__content">
 		<div class="video-list__title{% if isDetailed %} is-size-3{% endif %}">
 			<a class="video-list__link" href="{{ include.link }}" target="_blank">
-			{{ include.title }}
+				{{ include.title }}
 			</a>
 		</div>
 		{% if isDetailed %}
@@ -42,20 +42,33 @@
 			{% endif %}
 
 			<div class="buttons mt-4">
+				{% comment %}TODO: DRY --> component{% endcomment %}
 				{% if include.link %}
-					<a href="{{ include.link }}" class="button is-primary">Forum</a>
+					<a href="{{ include.link }}" class="button is-primary is-gap-2">
+						{% include e_render-svg-icon.html icon="discuss" class="icon" dimension=25 inline=true %}
+						Forum
+					</a>
 				{% endif %}
 				{% if include.youtube %}
-					<a href="{{ include.youtube }}" class="button is-danger">YouTube</a>
+					<a href="{{ include.youtube }}" class="button is-danger is-gap-2">
+						{% include e_render-svg-icon.html icon="youtube" class="icon" dimension=25 inline=true %}
+						YouTube
+					</a>
 				{% endif %}
 				{% if include.peertube %}
-					<a href="{{ include.peertube }}" class="button is-warning">PeerTube</a>
+					<a href="{{ include.peertube }}" class="button is-warning is-gap-2">
+						{% include e_render-svg-icon.html icon="peertube" class="icon" dimension=25 inline=true %}
+						PeerTube
+					</a>
 				{% endif %}
 				{% if include.odysee %}
-					<a href="{{ include.odysee }}" class="button is-warning">Odysee</a>
+					<a href="{{ include.odysee }}" class="button is-warning is-gap-2">
+						{% include e_render-svg-icon.html icon="odysee" class="icon" dimension=25 inline=true %}
+						Odysee
+					</a>
 				{% endif %}
 			</div>
-				
+
 			{% if include.desc %}
 				<p class="video-list__desc">
 					{{ include.desc }}
