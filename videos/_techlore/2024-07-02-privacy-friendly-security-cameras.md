@@ -4,7 +4,7 @@ description: "Synology just held their event in Taiwan for 2024 releasing E2EE s
 datePublished: 2024-07-02
 dateUpdated: 2024-07-02
 linkForum: "https://discuss.techlore.tech/t/privacy-friendly-security-cameras-synology-did-it/9120"
-linkYoutube: "https://www.youtube.com/watch?v=a05my9OegME"
+linkYouTube: "https://www.youtube.com/watch?v=a05my9OegME"
 linkPeerTube: "https://neat.tube/w/5exwnrrBZbvZmBkcDwECcR"
 linkdOdysee: "https://odysee.com/@techlore:3/privacy-friendly-security:1"
 tags: ["Techlore", "Report", "Event"]
