@@ -27,7 +27,7 @@
 	</a>
 
 	<div class="video-list__content">
-		<div class="video-list__title{% if isDetailed %} is-size-3{% endif %}">
+		<div class="video-list__title{% if isDetailed %} is-size-3 mt-1{% endif %}">
 			<a class="video-list__link" href="{{ include.link }}" target="_blank">
 				{{ include.title }}
 			</a>
@@ -41,7 +41,7 @@
 				</div>
 			{% endif %}
 
-			<div class="buttons mt-4">
+			<div class="buttons mt-4 mb-0">
 				{% comment %}TODO: DRY --> component{% endcomment %}
 				{% if include.link %}
 					<a href="{{ include.link }}" class="button is-primary is-gap-2">
@@ -70,7 +70,7 @@
 			</div>
 
 			{% if include.desc %}
-				<p class="video-list__desc">
+				<p class="video-list__desc mt-4">
 					{{ include.desc }}
 				</p>
 			{% endif %}

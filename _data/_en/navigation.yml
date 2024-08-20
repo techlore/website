@@ -66,3 +66,12 @@ hiddenNav:
     title: "Watch our explanation video"
     url: "https://youtu.be/RbSy-lZHLYw"
     external: true
+  allTechloreVideos:
+    title: "All Techlore videos"
+    url: "/videos/all-techlore-videos"
+  allTechloreClips:
+    title: "All Techlore clips"
+    url: "/videos/all-techlore-clips"
+  allSurveillanceReport:
+    title: "All SR Episodes"
+    url: "/videos/all-surveillance-report-episodes"

@@ -3,6 +3,7 @@
 }
 
 .video-list__item {
+	// --- Detailed ("all videos" version)
 	&--detailed {
 		@media (max-width: 500px) {
 			flex-direction: column;
@@ -23,6 +24,7 @@
 		}
 	}
 
+	// --- Detailed ("all videos" version)
 	.video-list__item--detailed & {
 		@media (min-width: 500px) {
 			flex-shrink: 0;
@@ -64,6 +66,7 @@
 	flex-wrap: wrap;
 	gap: .5rem;
 	
+	// --- Detailed ("all videos" version)
 	li:not(.video-list__item--detailed) & {
 		justify-content: center;
 		padding: calc(var(--bulma-size-7) * .5);
@@ -77,8 +80,9 @@
 .video-list__tag {
 	white-space: nowrap;
 
+	// --- Detailed ("all videos" version)
 	li:not(.video-list__item--detailed) & {
-		background-color: #fff;
+		background-color: var(--bulma-white);
 		padding: 0 calc(var(--bulma-size-7) * .25);
 		border-radius: var(--bulma-radius-small);
 		color: var(--bulma-black);

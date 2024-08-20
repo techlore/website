@@ -1,0 +1,20 @@
+.box-footer {
+    margin-top: calc(var(--bulma-size-5) * -1.5);
+    justify-content: center;
+
+    @media (min-width: $tablet) {
+        justify-content: flex-end;
+    }
+}
+
+.box-footer__button {
+    background-color: #121f36;
+    border-color: #121f36;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    color: var(--bulma-primary);
+
+    &:hover {
+        color: var(--bulma-white);
+    }
+}

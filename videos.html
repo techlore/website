@@ -13,7 +13,7 @@ permalink: /videos
 	<div class="container">
 		{%- include c_box-header.html title=t.videos.titleNewest links=site.techloreVideos.links -%}
 		{%- if site.techlore.size > 0 -%}
-			<div class="box">
+			<div class="box has-footer">
 				<ul class="video-list marginless listless columns">
 					{% assign sortedVideos = site.techlore | sort: "frontmatter.datePublished" | reverse %}
 					{% for video in sortedVideos limit: 4 %}
@@ -33,6 +33,10 @@ permalink: /videos
 				</ul>
 			</div>
 		{%- endif -%}
+		{% include c_box-footer.html 
+				link=site.data._en.navigation.hiddenNav.allTechloreVideos.url 
+				title=site.data._en.navigation.hiddenNav.allTechloreVideos.title
+		%}
 	</div>
 </section>
 
@@ -42,7 +46,7 @@ permalink: /videos
 			<div class="column is-full-mobile is-half">
 				{%- include c_box-header.html title=t.videos.techloreClips.title links=site.techloreClips.links -%}
 				{%- if site.clips.size > 0 -%}
-					<div class="box">
+					<div class="box has-footer">
 						<ul class="video-list marginless listless columns">
 							{% assign sortedVideos = site.clips | sort: "frontmatter.datePublished" | reverse %}
 							{% for video in sortedVideos limit: 2 %}
@@ -60,12 +64,16 @@ permalink: /videos
 							{% endfor %}
 						</ul>
 					</div>
+					{% include c_box-footer.html 
+						link=site.data._en.navigation.hiddenNav.allTechloreClips.url 
+						title=site.data._en.navigation.hiddenNav.allTechloreClips.title
+					%}
 				{%- endif -%}
 			</div>
 			<div class="column is-full-mobile is-half">
 				{%- include c_box-header.html title=t.videos.surveillanceReport.title links=site.surveillanceReport.links -%}
 				{%- if site.surveillance-report.size > 0 -%}
-					<div class="box">
+					<div class="box has-footer">
 						<ul class="video-list marginless listless columns">
 							{% assign sortedVideos = site.surveillance-report | sort: "frontmatter.datePublished" | reverse %}
 							{% for video in sortedVideos limit: 2 %}
@@ -83,6 +91,10 @@ permalink: /videos
 							{% endfor %}
 						</ul>
 					</div>
+					{% include c_box-footer.html 
+						link=site.data._en.navigation.hiddenNav.allSurveillanceReport.url 
+						title=site.data._en.navigation.hiddenNav.allSurveillanceReport.title
+					%}
 				{%- endif -%}
 			</div>
 		</div>

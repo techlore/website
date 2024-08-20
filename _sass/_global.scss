@@ -31,3 +31,9 @@ html {
 	background-repeat: no-repeat;
 	background-position: center center;
 }
+
+.has-footer {
+	@media (min-width: $tablet) {
+		border-bottom-right-radius: 0;
+	}
+}
