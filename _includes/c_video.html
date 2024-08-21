@@ -1,6 +1,6 @@
 {% assign isDetailed = include.isDetailed %}
 {% assign link = include.link %}
-{% assign classes = "is-flex-direction-column is-gap-1" %}
+{% assign classes = "video-list__item--minimal is-flex-direction-column is-gap-1" %}
 
 {% if isDetailed %}
 	{% assign classes = "video-list__item--detailed is-gap-2" %}
@@ -14,7 +14,7 @@
 
 {% endif %}
 
-<li class="video-list__item column marginless is-flex {{ classes }}">
+<li class="video-list__item is-flex {{ classes }}">
 	<a class="video-list__link has-overlay" href="{{ include.link }}" target="_blank">
 		{% if include.tags.size > 0 and (isDetailed == null) %}
 			<span class="video-list__tags">

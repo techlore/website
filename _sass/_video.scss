@@ -1,8 +1,20 @@
 .video-list {
-	//
+	&:has(.video-list__item--minimal) {
+		display: grid;
+  		grid-template-columns: repeat(auto-fit, minmax(calc(var(--bulma-size-5) * 12), 1fr));
+  		gap: var(--bulma-size-5);
+	}
+
+	li + li {
+		margin-top: 0;
+	}
 }
 
 .video-list__item {
+	&--minimal {
+		//
+	}
+		
 	// --- Detailed ("all videos" version)
 	&--detailed {
 		@media (max-width: 500px) {
@@ -53,16 +65,18 @@
 	aspect-ratio: 16 / 9;
 	object-fit: cover;
 
-	@media (min-width: 500px) {
-		width: calc(var(--bulma-size-5) * 10);
-	}
-
-	@media (min-width: $tablet) {
-		width: calc(var(--bulma-size-5) * 15);
-	}
-
-	@media (min-width: $desktop) {
-		width: calc(var(--bulma-size-5) * 25);
+	.video-list__item--detailed & {
+		@media (min-width: 500px) {
+			width: calc(var(--bulma-size-5) * 10);
+		}
+		
+		@media (min-width: $tablet) {
+			width: calc(var(--bulma-size-5) * 15);
+		}
+		
+		@media (min-width: $desktop) {
+			width: calc(var(--bulma-size-5) * 25);
+		}
 	}
 }
 
@@ -88,7 +102,7 @@
 	flex-wrap: wrap;
 	gap: .5rem;
 
-	li:not(.video-list__item--detailed) & {
+	.video-list__item--minimal & {
 		padding: calc(var(--bulma-size-7) * .5);
 		position: absolute;
 		inset: 0 0 auto 0;
@@ -100,7 +114,7 @@
 .video-list__tag {
 	white-space: nowrap;
 
-	li:not(.video-list__item--detailed) & {
+	.video-list__item--minimal & {
 		background-color: var(--bulma-white);
 		padding: 0 calc(var(--bulma-size-7) * .25);
 		border-radius: var(--bulma-radius-small);

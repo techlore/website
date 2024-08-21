@@ -12,7 +12,7 @@ permalink: /videos/all-techlore-clips
 	<div class="container">
 		{%- if site.clips.size > 0 -%}
 			<div class="box has-footer">
-				<ul class="video-list marginless listless">
+				<ul class="video-list marginless is-flex is-flex-direction-column is-gap-2 listless">
 					{% assign sortedVideos = site.clips | sort: "frontmatter.datePublished" | reverse %}
 					{% for video in sortedVideos limit: 4 %}
 						{% assign filename = video.path | split: "/" | last %}
