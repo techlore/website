@@ -6,5 +6,5 @@ dateUpdated: 2024-07-19
 linkForum: "https://discuss.techlore.tech/t/privacy-friendly-security-cameras-synology-did-it/9120"
 linkYouTube: "https://www.youtube.com/watch?v=CLwg552vhlM"
 linkdOdysee: "https://odysee.com/@techlore:3/i-think-i-finally-found-a-new-password:f"
-tags: ["Techlore", "Password", "Proton"]
+tags: ["Password", "Proton"]
 ---

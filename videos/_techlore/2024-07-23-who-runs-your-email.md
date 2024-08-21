@@ -7,5 +7,5 @@ linkForum: "https://discuss.techlore.tech/t/privacy-friendly-security-cameras-sy
 linkYouTube: "https://www.youtube.com/watch?v=0wgpuiIoG_g"
 linkPeerTube: "https://neat.tube/w/5exwnrrBZbvZmBkcDwECcR"
 linkdOdysee: "https://odysee.com/@techlore:3/i-think-i-finally-found-a-new-password:f"
-tags: ["Techlore", "Tuta", "Interview"]
+tags: ["Tuta", "Interview"]
 ---

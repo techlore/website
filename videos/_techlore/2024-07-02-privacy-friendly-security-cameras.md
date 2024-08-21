@@ -7,5 +7,5 @@ linkForum: "https://discuss.techlore.tech/t/privacy-friendly-security-cameras-sy
 linkYouTube: "https://www.youtube.com/watch?v=a05my9OegME"
 linkPeerTube: "https://neat.tube/w/5exwnrrBZbvZmBkcDwECcR"
 linkdOdysee: "https://odysee.com/@techlore:3/privacy-friendly-security:1"
-tags: ["Techlore", "Report", "Event"]
+tags: ["Report", "Event"]
 ---

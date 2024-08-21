@@ -15,7 +15,7 @@
 {% endif %}
 
 <li class="video-list__item column marginless is-flex {{ classes }}">
-	<a class="video-list__link" href="{{ include.link }}" target="_blank">
+	<a class="video-list__link has-overlay" href="{{ include.link }}" target="_blank">
 		{% if include.tags.size > 0 and (isDetailed == null) %}
 			<span class="video-list__tags">
 				{% for tag in include.tags %}
@@ -33,13 +33,20 @@
 			</a>
 		</div>
 		{% if isDetailed %}
-			{% if include.tags.size > 0 %}
-				<div class="video-list__tags mt-2">
-					{% for tag in include.tags %}
-						<span class="video-list__tag">{{ tag | prepend: "#" }}</span>
-					{% endfor %}
+			<div class="video-list__undertitle is-flex">
+				<div class="video-list__date mt-2">
+					{% assign date = include.date | date: "%Y-%m-%d" %}
+					{{ date | date: "%d %b %Y" }}
 				</div>
-			{% endif %}
+
+				{% if include.tags.size > 0 %}
+					<div class="video-list__tags mt-2">
+						{% for tag in include.tags %}
+							<span class="video-list__tag">{{ tag | prepend: "#" }}</span>
+						{% endfor %}
+					</div>
+				{% endif %}
+			</div>
 
 			<div class="buttons mt-4 mb-0">
 				{% comment %}TODO: DRY --> component{% endcomment %}
