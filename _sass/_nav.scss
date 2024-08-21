@@ -1,3 +1,10 @@
+.navbar {
+	@media (max-width: $desktop - 1px) {
+		position: sticky;
+		top: 0;
+	}
+}
+
 .navbar-brand {
 	a.navbar-item {
 		&:hover {
@@ -98,6 +105,8 @@ input[id="navbar-menu-toggle"] {
 	@media (max-width: $desktop - 1px) {
 		position: absolute;
 		inset: var(--bulma-navbar-height) 0 auto 0;
+		overflow-y: scroll;
+		height: calc(100vh - var(--bulma-navbar-height));
 	}
 }
 
