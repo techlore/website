@@ -8,7 +8,7 @@
 {% endcomment %}
 
 <div class="box-header is-flex is-gap-1 is-justify-content-space-between{% if include.class %} {{ include.class }}{% endif %}">
-	<h2 class="box-header__title marginless"{% if include.anchor %} id="{{ include.title | slugify }}{% endif %}">
+	<h2 class="box-header__title marginless"{% if include.anchor %} id="{{ include.title | slugify }}"{% endif %}>
 		{% if include.title %}
 			{{ include.title }}
 		{% endif %}
