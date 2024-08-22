@@ -1,0 +1,38 @@
+---
+layout: page
+title: "Support Us"
+permalink: /support
+---
+{% include variables.html %}
+{% include c_sub-hero.html title=page.title perex=t.support.perex %}
+
+<section>
+    <div class="container has-text-centered has-text-wrap-balance">
+        <h2>{{ t.support.whySection.title }}</h2>
+        <h3 class="has-text-warning">
+            {{ t.support.whySection.subtitle }}
+        </h3>
+        {% if t.support.whySection.points.size > 0 %}
+            <ul class="marginless listless">
+                {% for point in t.support.whySection.points %}
+                    <li>
+                        {{ point }}
+                    </li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+        <p class="mt-5">
+            <strong>{{ t.support.whySection.footer }}</strong>
+        </p>
+        <div class="buttons is-centered">
+            <a href="#" class="button is-success is-large is-gap-1.5">
+                {{ t.support.whySection.buttonFree }}
+                {% include e_render-svg-icon.html icon="arrow-down" inline=true dimension=25 classes="icon" %}
+            </a>
+            <a href="#" class="button is-warning is-large is-gap-1.5">
+                {{ t.support.whySection.buttonPaid }}
+                {% include e_render-svg-icon.html icon="arrow-down" inline=true dimension=25 classes="icon" %}
+            </a>
+        </div>
+    </div>
+</section>

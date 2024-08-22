@@ -130,6 +130,21 @@ goincognito:
 #
 support:
   title: "Support us"
+  perex: "Help us defend online freedom and user autonomy - support our mission today!"
+  whySection:
+    title: "Why We Need You?"
+    subtitle: "Techlore can <u>not</u> exist without our supporters. You all enable us to:"
+    points: [
+      "pour time & energy into managing our projects",
+      "maintain independence & eliminate external influence",
+      "continue making more and more people safe",
+      "and yes, quite literally put food on our tables"
+    ]
+    buttonFree: "Free support"
+    buttonPaid: "Paid methods"
+    footer: "Everything is appreciated 🤍"
+  howSection:
+    title: "How to support for free"
   section:
     title: "Spread the word or support us directly"
     titleShort: "Support the project directly"
