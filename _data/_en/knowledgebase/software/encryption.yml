@@ -16,6 +16,7 @@
 #     - url (string)
 #     - type (string): show the corresponding icon in front of the title (web, video)
 #
+order: 4
 data:
   -
     name: "Veracrypt"

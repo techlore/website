@@ -1,3 +1,14 @@
+.knowledgebase-nav__button {
+	order: 66;
+
+	// --- generate classes for prefered order of the navigation buttons
+	@for $i from 1 through 10 {
+		&[data-order="#{$i}"] {
+			order: $i;
+		}
+	}
+}
+
 .knowledgebase-item {
 	//
 }
