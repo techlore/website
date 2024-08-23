@@ -1,6 +1,13 @@
-.support-why__list-item {
-	&:before,
-	&:after {
-		content: '-';
+.support-why {
+	@media (min-width: $tablet) {
+		display: flex;
+		align-items: center;
+	}
+}
+
+.support-why__content {
+	@media (min-width: $tablet) {
+		flex-grow: 1;
+		padding-right: var(--bulma-size-3);
 	}
 }
