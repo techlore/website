@@ -7,32 +7,58 @@ permalink: /support
 {% include c_sub-hero.html title=page.title perex=t.support.perex %}
 
 <section>
-    <div class="container has-text-centered has-text-wrap-balance">
-        <h2>{{ t.support.whySection.title }}</h2>
-        <h3 class="has-text-warning">
-            {{ t.support.whySection.subtitle }}
-        </h3>
-        {% if t.support.whySection.points.size > 0 %}
-            <ul class="marginless listless">
-                {% for point in t.support.whySection.points %}
-                    <li>
-                        {{ point }}
-                    </li>
-                {% endfor %}
-            </ul>
-        {% endif %}
-        <p class="mt-5">
-            <strong>{{ t.support.whySection.footer }}</strong>
-        </p>
-        <div class="buttons is-centered">
-            <a href="#" class="button is-success is-large is-gap-1.5">
-                {{ t.support.whySection.buttonFree }}
-                {% include e_render-svg-icon.html icon="arrow-down" inline=true dimension=25 classes="icon" %}
-            </a>
-            <a href="#" class="button is-warning is-large is-gap-1.5">
-                {{ t.support.whySection.buttonPaid }}
-                {% include e_render-svg-icon.html icon="arrow-down" inline=true dimension=25 classes="icon" %}
-            </a>
-        </div>
-    </div>
+	<div class="container has-text-centered has-text-wrap-balance">
+		<div class="support-why has-radius-large has-glare has-border has-background-info-dark p-6-custom-responsive">
+			<h2>{{ t.support.whySection.title }}</h2>
+			<h3 class="has-text-warning">
+				{{ t.support.whySection.subtitle }}
+			</h3>
+			{% if t.support.whySection.points.size > 0 %}
+				<ul class="support-why__list marginless listless">
+					{% for point in t.support.whySection.points %}
+						<li class="support-why__list-item">
+							{{ point }}
+						</li>
+					{% endfor %}
+				</ul>
+			{% endif %}
+			<p class="mt-5">
+				<strong>{{ t.support.whySection.footer }}</strong>
+			</p>
+			<div class="buttons is-centered">
+				<a href="#" class="button is-success is-large is-gap-1.5">
+					{{ t.support.whySection.buttonFree }}
+					{% include e_render-svg-icon.html icon="arrow-down" inline=true dimension=25 classes="icon" %}
+				</a>
+				<a href="#" class="button is-warning is-large is-gap-1.5">
+					{{ t.support.whySection.buttonPaid }}
+					{% include e_render-svg-icon.html icon="arrow-down" inline=true dimension=25 classes="icon" %}
+				</a>
+			</div>
+		</div>
+
+		<div class="mt-6">
+			<h2>{{ t.support.howSection.title }}</h2>
+			<div class="columns is-multiline p-3">
+				<div class="column is-full-tablet is-one-quarter-desktop">
+					<p>Shop as you normally would after using one of our opt-in affiliate links</p>
+					<a href="#" class="button is-primary is-outlined">Techlore Affiliates</a>
+				</div>
+				<div class="column is-full-tablet is-half-desktop">
+					<p>We always need contributors for our open source projects! Consider contributing to them below</p>
+					<div class="buttons is is-centered">
+						<a href="#" class="button is-success is-outlined">Website</a>
+						<a href="#" class="button is-success is-outlined">VPN Toolkit</a>
+						<a href="#" class="button is-success is-outlined">Plexus</a>
+						<a href="#" class="button is-success is-outlined">Go Incognito</a>
+					</div>
+				</div>
+				<div class="column is-full-tablet is-one-quarter-desktop">
+					<p>Connect with our communities to keep them lively & active for everyone</p>
+					<a href="#" class="button is-info is-outlined">Forum</a>
+					<a href="#" class="button is-info is-outlined">Mastodon</a>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>

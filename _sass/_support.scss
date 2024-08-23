@@ -1,0 +1,6 @@
+.support-why__list-item {
+	&:before,
+	&:after {
+		content: '-';
+	}
+}
