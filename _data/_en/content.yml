@@ -17,10 +17,12 @@ global:
     rss: "RSS"
     web: "Web"
     patreon: "Patreon"
-    librapay: "LibraPay"
+    liberapay: "LiberaPay"
     paypal: "PayPal"
     kofi: "Ko-Fi"
     discuss: "Join our forum"
+    github: "GitHub"
+    mastodon: "Mastodon"
   back:
     goBack: "Go back"
     backToVideos: "Back to videos"
@@ -145,6 +147,24 @@ support:
     footer: "Everything is appreciated 🤍"
   howSection:
     title: "How to support for free?"
+    choices:
+      affiliate: "Shop as you normally would after using one of our opt-in affiliate links"
+      contributors: "We always need contributors for our open source projects! Consider contributing to them below"
+      connect: "Connect with our communities to keep them lively & active for everyone"
+      share: "Share Techlore & the word of privacy with your friends and family—we rely on word of mouth & no traditional marketing!"
+      shareButton: "Our SPA Quiz is a favorite of ours to share with people 🤍"
+  paidSection:
+    title: "Paid Support Methods"
+    choices:
+      patreon: "Support our work in exchange for exclusive benefits like our private Signal community, your name in our videos & descriptions, and more."
+      patreonButton: "Join our Patreon"
+      goincognito: "Purchase (or gift!) Go Incognito Premium for lifetime access to our course."
+      liberapay: "Support us on Liberapay for a safer alternative to most websites"
+      other: "We offer a few more options in the event nothing above works for you"
+      sponsors: "Become a sponsor of Techlore and showcase your brand to our audience!"
+      sponsorsButton: "Sponsors"
+      monero: "Directly sending us Monero"
+      openalias: "Our XMR OpenAlias"
   section:
     title: "Spread the word or support us directly"
     titleShort: "Support the project directly"

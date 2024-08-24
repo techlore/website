@@ -1,3 +1,4 @@
+// WHY?
 .support-why {
 	@media (min-width: $tablet) {
 		display: flex;
@@ -8,6 +9,43 @@
 .support-why__content {
 	@media (min-width: $tablet) {
 		flex-grow: 1;
-		padding-right: var(--bulma-size-3);
+		padding-right: calc(var(--bulma-size-1) * .5);
 	}
+}
+
+// HOW?
+.support-how__ghost-link {
+	white-space: normal;
+}
+
+// PAID
+.support-paid__projects {
+	p {
+		align-items: flex-start;
+
+		@media (max-width: $tablet - 1px) {
+			align-items: center;
+			text-align: center;
+		}
+
+		& + p {
+			margin-top: var(--bulma-size-1);
+			margin-bottom: 0;
+		}
+	}
+
+	.buttons {
+		@media (max-width: $tablet - 1px) {
+			justify-content: center;
+		}
+	}
+}
+
+.support-paid__monero {
+	max-width: calc(var(--bulma-size-5) * 30);
+	margin-inline: auto;
+}
+
+.support-paid__qr {
+	width: 100%;
 }

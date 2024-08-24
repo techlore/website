@@ -9,7 +9,7 @@ permalink: /support
 <section>
 	<div class="container has-text-wrap-balance">
 		<div class="support-why has-radius-large has-glare has-border has-background-info-dark p-6-custom-responsive">
-			<div class="support-why__content">             
+			<div class="support-why__content">
 				<h2>{{ t.support.whySection.title }}</h2>
 				<h3 class="has-text-warning">
 					{{ t.support.whySection.subtitle }}
@@ -29,106 +29,128 @@ permalink: /support
 					<strong>{{ t.support.whySection.footer }}</strong>
 				</p>
 				<div class="buttons is-centered">
-					<a href="#" class="button is-success is-large is-gap-1.5">
+					<a href="#free" class="button is-success is-large is-gap-1.5">
 						{{ t.support.whySection.buttonFree }}
 						{% include e_render-svg-icon.html icon="arrow-down" inline=true dimension=25 classes="icon" %}
 					</a>
-					<a href="#" class="button is-warning is-large is-gap-1.5">
+					<a href="#paid" class="button is-warning is-large is-gap-1.5">
 						{{ t.support.whySection.buttonPaid }}
 						{% include e_render-svg-icon.html icon="arrow-down" inline=true dimension=25 classes="icon" %}
 					</a>
 				</div>
 			</div>
 		</div>
+	</div>
+</section>
 
-		<div class="mt-6 has-text-centered">
-			<h2>{{ t.support.howSection.title }}</h2>
+<section>
+	<div class="container has-text-wrap-balance">
+		<div class="support-how mt-6 has-text-centered">
+			<h2 id="free">{{ t.support.howSection.title }}</h2>
 			<div class="columns is-multiline p-3">
 				<div class="column is-full-tablet is-one-quarter-desktop">
-					<p>Shop as you normally would after using one of our opt-in affiliate links</p>
-					<a href="#" class="button is-primary is-outlined">Techlore Affiliates</a>
+					<p>{{ t.support.howSection.choices.affiliate }}</p>
+					<a href="{{ site.data._en.navigation.hiddenNav.affiliates.url | absolute_url }}" class="button is-primary is-outlined">{{ site.data._en.navigation.hiddenNav.affiliates.title }}</a>
 				</div>
 				<div class="column is-full-tablet is-half-desktop">
-					<p>We always need contributors for our open source projects! Consider contributing to them below</p>
+					<p>{{ t.support.howSection.choices.contributors }}</p>
 					<div class="buttons is is-centered">
 						<a href="#" class="button is-success is-outlined">Website</a>
-						<a href="#" class="button is-success is-outlined">VPN Toolkit</a>
-						<a href="#" class="button is-success is-outlined">Plexus</a>
-						<a href="#" class="button is-success is-outlined">Go Incognito</a>
+						<a href="{{ site.data._en.navigation.hiddenNav.vpnToolkit.url | absolute_url }}" class="button is-success is-outlined">
+							{{ site.data._en.navigation.hiddenNav.vpnToolkit.title }}
+						</a>
+						<a href="{{ site.data._en.navigation.hiddenNav.plexus.url }}" class="button is-success is-outlined" target="_blank">{{ site.data._en.navigation.hiddenNav.plexus.title }}</a>
+						<a href="{{ site.data._en.navigation.mainNav.goincognito.url | absolute_url }}" class="button is-success is-outlined">{{ site.data._en.navigation.mainNav.goincognito.title }}</a>
 					</div>
 				</div>
 				<div class="column is-full-tablet is-one-quarter-desktop">
-					<p>Connect with our communities to keep them lively & active for everyone</p>
-					<a href="#" class="button is-info is-outlined">Forum</a>
-					<a href="#" class="button is-info is-outlined">Mastodon</a>
+					<p>{{ t.support.howSection.choices.connect }}</p>
+					<a href="{{ site.forum.links.discuss }}" class="button is-info is-outlined" target="_blank">{{ t.global.platforms.discuss }}</a>
+					<a href="{{ site.socials.links.mastodon }}" class="button is-info is-outlined" target="_blank">{{ t.global.platforms.mastodon }}</a>
 				</div>
 			</div>
-			<p class="mt-5 has-text-centered has-text-wrap-balance">
-				<strong>
-					Share Techlore & the word of privacy with your friends and family—we rely on word of mouth & no traditional marketing!
-				</strong>
-				<br>
-			   <a href="#" class="button is-ghost">Our SPA Quiz is a favorite of ours to share with people 🤍</a>
+			<p class="mt-5 has-text-centered has-text-wrap-balance is-flex is-flex-direction-column is-align-items-center">
+				<strong>{{ t.support.howSection.choices.share }}</strong>
+				<a href="#" class="support-how__ghost-link button is-ghost">{{ t.support.howSection.choices.shareButton }}</a>
 			</p>
 		</div>
 	</div>
 </section>
 
 <section>
-	<div class="container">
-		<h2 class="has-text-centered">
-			Paid Support Methods
+	<div class="support-paid container">
+		<h2 id="paid" class="has-text-centered is-flex is-justify-content-center is-align-items-center is-gap-2">
+			{% include e_render-svg-icon.html icon="star" dimension=50 class="icon has-text-warning" inline=true %}
+			{{ t.support.paidSection.title }}
 			{% include e_render-svg-icon.html icon="star" dimension=50 class="icon has-text-warning" inline=true %}
 		</h2>
 
-		<div class="has-border has-radius-large p-6-custom-responsive columns">
-			<div class="colum is-three-fifths-desktop">
-				<p class="is-flex is-flex-direction-column is-justify-content-center">
-					Support our work in exchange for exclusive benefits like our private Signal community, your name in our videos & descriptions, and more.
-					<a href="#" class="button is-outline">
-						Join our Patreon
-					</a>
-				</p>
-				<p class="is-flex is-flex-direction-column">
-					Purchase (or gift!) Go Incognito Premium for lifetime access to our course.
-					<a href="#" class="button is-outline">
-						Go Incognito Premium
-					</a>
-				</p>
-				<p class="is-flex is-flex-direction-column">
-					Support us on Liberapay for a safer alternative to most websites
-					<a href="#" class="button is-outline">
-						Liberapay
-					</a>
-				</p>
-				<p class="is-flex is-flex-direction-column">
-					We offer a few more options in the event nothing above works for you
-					<div class="buttons">
-						<a href="#" class="button is-outline">
-							PayPal
+		<div class="support-paid__projects has-text-weight-bold has-border has-radius-large p-6-custom-responsive is-gap-2 has-text-wrap-balance">
+			<div class="columns">
+				<div class="column is-half-tablet is-three-fifths-desktop">
+					<p class="is-flex is-flex-direction-column is-gap-2">
+						{{ t.support.paidSection.choices.patreon }}
+						<a href="{{ site.support.links.patreon }}" class="button is-outlined is-gap-2 is-info has-text-info" target="_blank">
+							{% include e_render-svg-icon.html icon="star" dimension=25 class="icon has-text-warning" inline=true %} {{ t.support.paidSection.choices.patreonButton }}
 						</a>
-						<a href="#" class="button is-outline">
-							Ko-fi
+					</p>
+					<p class="is-flex is-flex-direction-column is-gap-2">
+						{{ t.support.paidSection.choices.goincognito }}
+						<a href="{{ site.data._en.navigation.mainNav.goincognito.url | absolute_url }}" class="button is-outlined is-primary is-gap-2">
+							{% include e_render-svg-icon.html icon="star" dimension=25 class="icon has-text-warning" inline=true %} {{ t.goincognito.premium.buttonText }}
 						</a>
-						<a href="#" class="button is-outline">
-							YouTube
+					</p>
+					<p class="is-flex is-flex-direction-column is-gap-2">
+						{{ t.support.paidSection.choices.liberapay }}
+						<a href="{{ site.support.links.liberapay }}" class="button is-outlined is-gap-2 is-warning" target="_blank">
+							{% include e_render-svg-icon.html icon="star" dimension=25 class="icon has-text-warning" inline=true %} {{ t.global.platforms.liberapay }}
 						</a>
-						<a href="#" class="button is-outline">
-							GitHub
+					</p>
+					<p class="is-flex is-flex-direction-column is-gap-2 is-warning">
+						{{ t.support.paidSection.choices.other }}
+						<span class="buttons">
+							<a href="{{ site.support.links.paypal }}" class="button is-outlined is-gap-2 is-warning" target="_blank">
+								{% include e_render-svg-icon.html icon="star" dimension=25 class="icon has-text-warning" inline=true %} {{ t.global.platforms.paypal }}
+							</a>
+							<a href="{{ site.support.links.kofi }}" class="button is-outlined is-gap-2 is-warning" target="_blank">
+								{% include e_render-svg-icon.html icon="star" dimension=25 class="icon has-text-warning" inline=true %} {{ t.global.platforms.kofi }}
+							</a>
+							<a href="{{ site.support.extra.youtube }}" class="button is-outlined is-gap-2 is-warning" target="_blank">
+								{% include e_render-svg-icon.html icon="star" dimension=25 class="icon has-text-warning" inline=true %} {{ t.global.platforms.youtube }}
+							</a>
+							<a href="{{ site.support.extra.githubSponsors }}" class="button is-outlined is-gap-2 is-warning" target="_blank">
+								{% include e_render-svg-icon.html icon="star" dimension=25 class="icon has-text-warning" inline=true %} {{ t.global.platforms.github }}
+							</a>
+						</span>
+					</p>
+					<p class="is-flex is-flex-direction-column is-gap-2">
+						{{ t.support.paidSection.choices.sponsors }}
+						<a href="{{ site.support.extra.sponsors }}" class="button is-outlined is-gap-2 is-success" target="_blank">
+							{% include e_render-svg-icon.html icon="star" dimension=25 class="icon has-text-warning" inline=true %} {{ t.support.paidSection.choices.sponsorsButton }}
 						</a>
+					</p>
+				</div>
+				<div class="support-paid__monero column is-half-tablet is-two-fifths-desktop">
+					<div class="box has-glare has-background-warning-45">
+						<h3>{{ t.support.paidSection.choices.monero }}</h3>
+						<img src="{% link assets/images/techlorexmr.png %}" alt="Monero QR code" class="support-paid__qr has-radius-normal">
+						<div class="field">
+							<label class="label is-hidden" for="xmraddress"></label>
+							<div class="control">
+								<textarea id="xmraddress" class="textarea has-fixed-size has-text-info" readonly>{{ site.xmrAddress }}</textarea>
+							</div>
+						</div>
+						<div class="field">
+							<label class="label" for="openalias">
+								{{ t.support.paidSection.choices.openalias }}
+							</label>
+							<div class="control">
+								<input class="input has-text-info" id="openalias" type="text" value="{{ site.openalias }}" readonly>
+							</div>
+						</div>
+
 					</div>
-				</p>
-				<p class="is-flex is-flex-direction-column">
-					Become a sponsor of Techlore and showcase your brand to our audience!
-					<a href="#" class="button is-outline">
-						Sponsors
-					</a>
-				</p>
-			</div>
-			<div class="column is-two-fifths-desktop">
-				<h3>Monero</h3>
-				<p>49H4jTvUY5zaX8qLpVBstJFR7ayTMxxU3UyWpGqUoBM4UzM2zwUHA2sJ9i3AhQYdaqhFmS8PDfWKn1Tea4SKU6haMTXG8qD</p>
-				<p>crypto@techlore.tech</p>
+				</div>
 			</div>
 		</div>
 	</div>

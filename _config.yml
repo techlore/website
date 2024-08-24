@@ -30,6 +30,9 @@ url: "https://michalsvatos.github.io" # the base hostname & protocol for your si
 # -----------------------------------------
 # Global links
 #
+techloreWeb:
+  links:
+    github: "https://github.com/techlore/website"
 techloreVideos:
   links:
     peertube: "https://neat.tube/c/techlore/videos?sort=-originallyPublishedAt"
@@ -47,11 +50,15 @@ goincognito:
   links:
     premium: "https://techlore.teachable.com/p/go-incognito"
 support:
-  links:
+  links: # these links also appear in the "feature box" on the homepage
     patreon: "https://www.patreon.com/techlore"
-    librapay: "https://liberapay.com/Techlore/"
+    liberapay: "https://liberapay.com/Techlore/"
     paypal: "https://www.paypal.com/donate?hosted_button_id=B3GU7WNGBGQ4J"
     kofi: "https://ko-fi.com/techlore"
+  extra:
+    youtube: "https://www.youtube.com/channel/UCs6KfncB4OV6Vug4o_bzijg/join"
+    githubSponsors: "https://github.com/sponsors/techlore"
+    sponsors: "https://discuss.techlore.tech/pub/sponsors"
 socials:
   links:
     mastodon: "https://social.lol/@techlore"
@@ -66,6 +73,9 @@ plexus:
   links:
     web: "https://plexus.techlore.tech/"
     app: "https://github.com/techlore/Plexus-app?tab=readme-ov-file#download"
+
+xmrAddress: "49H4jTvUY5zaX8qLpVBstJFR7ayTMxxU3UyWpGqUoBM4UzM2zwUHA2sJ9i3AhQYdaqhFmS8PDfWKn1Tea4SKU6haMTXG8qD"
+openalias: "crypto@techlore.tech"
 
 # Build settings
 #theme: minima

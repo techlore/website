@@ -75,3 +75,6 @@ hiddenNav:
   allSurveillanceReport:
     title: "All SR Episodes"
     url: "/videos/all-surveillance-report-episodes"
+  affiliates:
+    title: "Techlore Tools & Affiliates"
+    url: "/affiliates"

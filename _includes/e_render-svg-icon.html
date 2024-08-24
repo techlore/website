@@ -34,7 +34,7 @@
 	</span>
 {% else %}
 	<span class="svg-icon {{ dimension | prepend: "is-size-" }} {{ include.class }}">
-		<img src="{{ path | relative_url | append: icon | append: ".svg" }}" alt="">
+		<img src="{{ path | relative_url | append: icon | append: ".svg" }}" alt="" loading="lazy">
 	</span>
 
 {% endif %}
