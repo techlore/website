@@ -17,9 +17,9 @@
 <li class="video-list__item is-flex {{ classes }}">
 	<a class="video-list__link has-overlay" href="{{ include.link }}" target="_blank">
 		{% if include.tags.size > 0 and (isDetailed == null) %}
-			<span class="video-list__tags">
+			<span class="video-list__tags tags">
 				{% for tag in include.tags %}
-					<span class="video-list__tag">{{ tag | prepend: "#" }}</span>
+					<span class="video-list__tag tag has-background-white has-text-black">{{ tag | prepend: "#" }}</span>
 				{% endfor %}
 			</span>
 		{% endif %}
