@@ -1,6 +1,10 @@
 html {
 	scroll-behavior: smooth;
-	scroll-padding: var(--bulma-size-5) 0 0 0;
+	scroll-padding: calc(var(--bulma-size-2) + var(--bulma-navbar-height)) 0 0 0;
+
+	@media (min-width: $desktop) {
+		scroll-padding: var(--bulma-size-5) 0 0 0;
+	}
 }
 
 // FIX for Bulma columns on mobile

@@ -7,13 +7,13 @@
 		- anchor (boolean, optional):	show # with link to the section on hover (à la Github)
 {% endcomment %}
 
-<div class="box-header is-flex is-gap-1 is-justify-content-space-between{% if include.class %} {{ include.class }}{% endif %}">
+<div class="box-header is-flex is-gap-1 is-justify-content-space-between anchor{% if include.class %} {{ include.class }}{% endif %}">
 	<h2 class="box-header__title marginless"{% if include.anchor %} id="{{ include.title | slugify }}"{% endif %}>
 		{% if include.title %}
 			{{ include.title }}
 		{% endif %}
 		{% if include.anchor %}
-			<a href="{{ include.title | slugify | prepend: "#" }}" class="box-header__anchor px-2">#</a>
+			<a href="{{ include.title | slugify | prepend: "#" }}" class="box-header__anchor anchor__hash px-2">#</a>
 		{% endif %}
 	</h2>
 

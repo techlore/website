@@ -8,22 +8,23 @@
 		Icons are based on slugify names. Eg. "Mullvad Browser" --> "mullvad-browser"
 {% endcomment %}
 
-{% assign icon = include.item.name | slugify %}
+{% assign slugifiedName = include.item.name | slugify %}
 {% assign iconColor = include.item.color %}
 
-<div class="knowledgebase-item cell is-flex">
+<div class="knowledgebase-item cell is-flex" id="{{ slugifiedName }}">
 	<div class="columns has-2-cols is-flex is-flex-wrap-nowrap">
 		<div class="column is-flex-grow-0">
 			<i class="knowledgebase-item__icon is-flex is-justify-content-center is-align-items-center has-radius-rounded is-overflow-hidden has-text-warning" {% if iconColor %}style="background-color: {{ iconColor }};{% endif %}">
-				<img src="{{ '/assets/knowledgebase/icons/' | append: icon | append: '.svg' | absolute_url }}" loading="lazy" alt="Icon - {{ include.item.name }}">
+				<img src="{{ '/assets/knowledgebase/icons/' | append: slugifiedName | append: '.svg' | absolute_url }}" loading="lazy" alt="Icon - {{ include.item.name }}">
 			</i>
 		</div>
-		<div class="column is-flex is-flex-direction-column">
+		<div class="column is-flex is-flex-direction-column anchor">
 			<h4 class="knowledgebase-item__title is-align-items-center is-flex is-gap-1">
 				{{ include.item.name }}
 				{% if include.item.favorite %}
 					{% include e_render-svg-icon.html icon="star" dimension="25" inline=true class="knowledgebase-item__favorite" %}
 				{% endif %}
+				<a href="{{ slugifiedName | prepend: "#" }}" class="knowledgebase-item__anchor anchor__hash">#</a>
 			</h4>
 			<div class="knowledgebase-item__tags is-size-7 is-italic is-flex is-multiline is-gap-1.5">
 				{% if include.item.tags.size > 0 %}

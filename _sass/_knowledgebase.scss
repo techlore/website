@@ -10,7 +10,26 @@
 }
 
 .knowledgebase-item {
-	//
+	position: relative;
+
+	&:after {
+		content: '';
+		position: absolute;
+		pointer-events: none;
+		inset: calc(var(--bulma-size-5) * -1);
+		border-radius: var(--bulma-radius-large);
+		border: .125rem solid transparent;
+		box-shadow: none;
+		z-index: 1;
+		transition: box-shadow 2ms ease-in-out, border-color 750ms ease-in-out;
+	}
+
+	&:target {
+		&:after {
+			border-color: var(--bulma-primary-00-invert);
+			box-shadow: 0 0 50px -15px var(--bulma-primary);
+		}
+	}
 }
 
 .knowledgebase-item__title {
@@ -29,6 +48,11 @@
 	.content & {
 		margin-bottom: 0;
 	}
+}
+
+.knowledgebase-item__hash {
+	display: inline-block;
+	padding-inline: calc(var(--bulma-size-5) * .75);
 }
 
 .knowledgebase-item__desc {
