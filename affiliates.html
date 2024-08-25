@@ -1,0 +1,116 @@
+---
+layout: page
+title: Techlore Tools & Affiliates
+permalink: /affiliates
+---
+{% include variables.html %}
+
+{% assign perex = t.affiliates.perex %}
+{% include c_sub-hero.html title=page.title perex=perex %}
+
+<section>
+	<div class="container">
+		{%- include c_box-header.html title="Privacy & Security Tools" -%}
+		<p>Privacy & security tools we use and/or feel comfortable recommending with affiliate plans.</p>
+		<div class="message">
+			<div class="message-body">
+				{% assign resourcesUrl = site.data._en.navigation.mainNav.resources.url | absolute_url %}
+				{{ t.affiliates.desc | replace: "[resources]", resourcesUrl }}
+			</div>
+		</div>
+		{% comment %}TODO: DRY --> Component. The same as "knowledgebase"{% endcomment %}
+		<div class="affiliates">
+			{% assign affiliatesTools = site.data._en.affiliates.tools %}
+
+			{%- for tool in affiliatesTools -%}
+				{% assign slugifiedName = tool.name | slugify %}
+
+				<div class="affiliates__item is-align-items-center media is-gap-2 anchor" id="{{ slugifiedName }}">
+					<figure class="py-2 is-align-items-center is-flex is-justify-content-center">
+						<img src="{% link /assets/affiliates/icons/{{slugifiedName}}.svg %}" class="affiliates__logo" alt="Logo - {{ tool.name }}" loading="lazy">
+					</figure>
+					<div class="affiliates__content media-content is-flex is-flex-direction-column is-align-items-flex-start">
+						<h4 class="affiliates__title is-flex is-flex-direction-column mb-0">
+							{{ tool.name }}
+							<div class="affiliates__anchor">
+								<a href="{{ slugifiedName | prepend: "#" }}" class="anchor__hash">#</a>
+							</div>
+						</h4>
+						{% if tool.type %}
+							<small>{{ tool.type }}</small>
+						{% endif %}
+					</div>
+
+					{% if tool.buttons.size > 0 %}
+						<div class="affiliates__buttons buttons">
+							{% for button in tool.buttons %}
+								{% assign classes = "" %}
+								{% if button.affil %}
+									{% assign classes = "is-primary is-gap-1.5" %}
+								{% endif %}
+
+								<a href="{{ button.url }}" class="button {{ classes }}" target="_blank">
+									{% if button.affil %}
+										{% include e_render-svg-icon.html icon="link" dimension=25 inline=true %}
+									{% endif %}
+									{{ button.text }}
+								</a>
+							{% endfor %}
+						</div>
+					{% endif %}
+
+				</div>
+			{%- endfor -%}
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="container">
+		{%- include c_box-header.html title="Production Tools" -%}
+		<p>Several services & products we use at Techlore to produce our content & manage our projects.</p>
+		<div class="affiliates">
+			{% assign affiliatesProduction = site.data._en.affiliates.production %}
+
+			{%- for product in affiliatesProduction -%}
+				{% assign slugifiedName = product.name | slugify %}
+
+				<div class="affiliates__item is-align-items-center media is-gap-2 anchor" id="{{ slugifiedName }}">
+					<figure class="py-2 is-align-items-center is-flex is-justify-content-center">
+						<img src="{% link /assets/affiliates/icons/{{slugifiedName}}.svg %}" class="affiliates__logo" alt="Logo - {{ product.name }}" loading="lazy">
+					</figure>
+					<div class="affiliates__content media-content is-flex is-flex-direction-column is-align-items-flex-start">
+						<h4 class="affiliates__title is-flex is-flex-direction-column mb-0">
+							{{ product.name }}
+							<div class="affiliates__anchor">
+								<a href="{{ slugifiedName | prepend: "#" }}" class="anchor__hash">#</a>
+							</div>
+						</h4>
+						{% if product.type %}
+							<small>{{ product.type }}</small>
+						{% endif %}
+					</div>
+
+					{% if product.buttons.size > 0 %}
+						<div class="affiliates__buttons buttons">
+							{% for button in product.buttons %}
+								{% assign classes = "" %}
+								{% if button.affil %}
+									{% assign classes = "is-primary is-gap-1.5" %}
+								{% endif %}
+
+								<a href="{{ button.url }}" class="button {{ classes }}" target="_blank">
+									{% if button.affil %}
+										{% include e_render-svg-icon.html icon="link" dimension=25 inline=true %}
+									{% endif %}
+									{{ button.text }}
+								</a>
+							{% endfor %}
+						</div>
+					{% endif %}
+
+				</div>
+			{%- endfor -%}
+		</div>
+	</div>
+</section>

@@ -21,7 +21,7 @@
 		border: .125rem solid transparent;
 		box-shadow: none;
 		z-index: 1;
-		transition: box-shadow 2ms ease-in-out, border-color 750ms ease-in-out;
+		transition: box-shadow 350ms ease-in-out, border-color 1s ease-in-out;
 	}
 
 	&:target {

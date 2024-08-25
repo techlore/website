@@ -1,0 +1,171 @@
+-
+  name: "Davinci Resolve Studio"
+  type: "Video Production"
+  buttons:
+    -
+      text: "Amazon"
+      url: "https://amzn.to/42WfmJn"
+      affil: true
+    -
+      text: "Non-affiliate"
+      url: "https://www.blackmagicdesign.com/products/davinciresolve"
+-
+  name: "Synology NAS"
+  type: "Collaboration & Files"
+  buttons:
+    -
+      text: "Amazon"
+      url: "https://amzn.to/3qYYuo3"
+      affil: true
+    -
+      text: "Newegg"
+      url: "https://howl.me/cj7claO9VLo"
+      affil: true
+    -
+      text: "Non-affiliate"
+      url: "https://www.synology.com/en-us/products/DS923+"
+-
+  name: "Sony A7 III"
+  type: "Camera"
+  buttons:
+    -
+      text: "Amazon"
+      url: "https://amzn.to/3XOekhK"
+      affil: true
+    -
+      text: "Newegg"
+      url: "https://howl.me/cj7cl4obQZ4"
+      affil: true
+    -
+      text: "Non-affiliate"
+      url: "https://electronics.sony.com/imaging/interchangeable-lens-cameras/full-frame/p/ilce7m3-b"
+-
+  name: "Prime Lens"
+  type: "Lens"
+  buttons:
+    -
+      text: "Amazon"
+      url: "https://amzn.to/44BTuEg"
+      affil: true
+    -
+      text: "Newegg"
+      url: "https://howl.me/cj697dVmQbQ"
+      affil: true
+    -
+      text: "Non-affiliate"
+      url: "https://electronics.sony.com/imaging/lenses/all-e-mount/p/sel35f18f"
+-
+  name: "Zoom Lens"
+  type: "Lens"
+  buttons:
+    -
+      text: "Amazon"
+      url: "https://amzn.to/3D0JlW6"
+      affil: true
+    -
+      text: "Newegg"
+      url: "https://howl.me/cj7acIrbVBv"
+      affil: true
+    -
+      text: "Non-affiliate"
+      url: "https://electronics.sony.com/imaging/lenses/full-frame-e-mount/p/sel2470z"
+-
+  name: "Sennheiser MKE 600"
+  type: "Shotgun Mic"
+  buttons:
+    -
+      text: "Amazon"
+      url: "https://amzn.to/3PN13DR"
+      affil: true
+    -
+      text: "Newegg"
+      url: "https://howl.me/cj7amiPhNkt"
+      affil: true
+    -
+      text: "Non-affiliate"
+      url: "https://www.sennheiser.com/en-us/catalog/products/microphones/mke-600/mke-600-505453"
+-
+  name: "Blue Yeti"
+  type: "USB Mic"
+  buttons:
+    -
+      text: "Amazon"
+      url: "https://amzn.to/44d04S7"
+      affil: true
+    -
+      text: "Newegg"
+      url: "https://howl.me/cj7azQ3Trxd"
+      affil: true
+    -
+      text: "Non-affiliate"
+      url: "https://www.logitechg.com/en-us/products/streaming-gear/yeti-premium-usb-microphone.988-000103.html"
+-
+  name: "Senheiser HD600"
+  type: "Headphones"
+  buttons:
+    -
+      text: "Amazon"
+      url: "https://amzn.to/3NKvr0A"
+      affil: true
+    -
+      text: "Newegg"
+      url: "https://howl.me/cj7aDmaJ22n"
+      affil: true
+    -
+      text: "Non-affiliate"
+      url: "https://www.sennheiser-hearing.com/en-US/p/hd-600/"
+-
+  name: "TubeBuddy"
+  type: "Channel Management"
+  buttons:
+    -
+      text: "Affiliate"
+      url: "https://www.tubebuddy.com/pricing?a=techlore"
+      affil: true
+    -
+      text: "Non-affiliate"
+      url: "https://www.tubebuddy.com/"
+-
+  name: "Artlist"
+  type: "Stock Audio"
+  buttons:
+    -
+      text: "Affiliate"
+      url: "https://artlist.io/artlist-70446/?artlist_aid=techlore_2890"
+      affil: true
+    -
+      text: "Non-affiliate"
+      url: "https://artlist.io/"
+-
+  name: "Hetzner"
+  type: "Forum Hosting"
+  buttons:
+    -
+      text: "Affiliate"
+      url: "https://hetzner.cloud/?ref=V5WPDBhWKcVF"
+      affil: true
+    -
+      text: "Non-affiliate"
+      url: "https://www.hetzner.com/"
+-
+  name: "omg.lol"
+  type: "Personal Websites"
+  buttons:
+    -
+      text: "Affiliate"
+      url: "https://home.omg.lol/referred-by/techlore"
+      affil: true
+    -
+      text: "Non-affiliate"
+      url: "https://home.omg.lol/"
+-
+  name: "Parallels"
+  type: "OS Virtualization"
+  buttons:
+    -
+      text: "Affiliate"
+      url: "https://prf.hn/l/pmnNkkJ"
+      affil: true
+    -
+      text: "Non-affiliate"
+      url: "https://www.parallels.com/"

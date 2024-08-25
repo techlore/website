@@ -58,8 +58,9 @@ permalink: /resources
 		<div class="has-text-centered">
 			<h2>{{ t.resources.knowledgebase.sections.software }}</h2>
 			<p>
+				{% assign affiliatesUrl = site.data._en.navigation.hiddenNav.affiliates.url | absolute_url %}
 				{% include e_render-svg-icon.html icon="link" dimension="25" inline=true %}
-				{{ t.resources.knowledgebase.disclaimer }}
+				{{ t.resources.knowledgebase.disclaimer | replace: "[affiliatesUrl]", affiliatesUrl }}
 			</p>
 			<p>
 				{% include e_render-svg-icon.html icon="star" dimension="25" inline=true %}
@@ -69,7 +70,6 @@ permalink: /resources
 	</div>
 
 	<div class="container mt-6">
-		{% comment %}TODO: Either dynamic, but out of order (alphabetical vs frontend) or manual.{% endcomment %}
 		{% comment %}TODO: UX - Floating nav? Dropdown on mobile? {% endcomment %}
 		<div class="knowledgebase-nav buttons">
 			{% for item in site.data._en.knowledgebase.software %}

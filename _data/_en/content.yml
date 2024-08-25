@@ -3,9 +3,14 @@
 # and managing layout's text content (such as section titles, buttons and other elements).
 #
 # Double quotes inside the text:  \"quoted phrase\"
-# Link:     <a href=\"https://example.com/\" target=\"_blank\">Link</a>
-# Bold:     <strong>bold text</strong>
-# Italic:   <i>italic text</i>
+# External link:    <a href=\"https://example.com/\" target=\"_blank\">External link</a>
+# Local link:       <a href=\"[localLink]\" target=\"_blank\">Local link</a>
+#                   In the template then utilize the "replace" filter.
+#                   Example:
+#                     {% assign affiliatesUrl = site.data._en.navigation.hiddenNav.affiliates.url | absolute_url %}
+#                     {{ t.resources.knowledgebase.disclaimer | replace: "[affiliatesUrl]", affiliatesUrl }}
+# Bold:             <strong>bold text</strong>
+# Italic:           <i>italic text</i>
 #
 global:
   sitename: "Techlore — a safer internet"
@@ -55,7 +60,7 @@ resources:
       desc: "Check out our curated list of useful resources to help you stay private and secure"
   knowledgebase:
     affil: "Affiliate link"
-    disclaimer: "Affiliate Link: Some services link to their official site, with a separate affiliate link if you choose to support Techlore. View our strict requirements <a href=\"https://discuss.techlore.tech/pub/sponsors-affiliates\" target=\"blank\">here</a>. To view all affiliates, visit <a href=\"/affiliates\" target=\"blank\">here.</a>"
+    disclaimer: "Affiliate Link: Some services link to their official site, with a separate affiliate link if you choose to support Techlore. View our strict requirements <a href=\"https://discuss.techlore.tech/pub/sponsors-affiliates\" target=\"blank\">here</a>. To view all affiliates, visit <a href=\"[affiliatesUrl]\">here.</a>"
     favorite: "marks a favorite. They don't represent every threat model and shouldn't be over-analyzed."
     sections:
       software: "Software, hardware and other services"
@@ -186,6 +191,13 @@ about:
     line2: "Our mission is to prove to people they can make a real impact for themselves and others."
     line3: "We're a small team educating people about digital rights, privacy, security, digital control, and other important topics to push the world towards a safer internet."
   personalWebsite: "Personal website"
+
+# -----------------------------------------
+# AFFILIATES page
+#
+affiliates:
+  perex: "A curated list of trusted resources and partner organizations that offer software and services to help you safeguard your online security and freedom."
+  desc: "Simply click an affiliate link before purchasing a service to support Techlore. These are always utilized under our <a href=\"https://discuss.techlore.tech/pub/sponsors-affiliates\" target=\"blank\">strict requirements</a> for utmost transparency. Please bear in mind these are not our formal privacy &amp; security resources—which can be located <a href=\"[resources]\">here.</a>"
 
 # -----------------------------------------
 # "Feature-box" sections (Support Us, Merchandise, Socials, Techlore Tools ...)
