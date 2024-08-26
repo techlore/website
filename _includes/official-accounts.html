@@ -1,18 +1,29 @@
+{% include variables.html %}
+{% comment %} TODO: DRY --> Try to figure it out how to use datafile with site object variables {% endcomment %}
+ 
 <h2 class="has-text-centered">Official accounts</h2>
 <div class="official-accounts mt-6">
 	<div class="media">
 		<div class="level media-content">
 			<div class="level-left">
 				<div class="level-item">
-					<h4 class="title">Video Platforms</h4>
+					<h4 class="title">{{ t.global.platforms.titles.video }}</h4>
 				</div>
 			</div>
 			<div class="level-right">
 				<div class="buttons is-gap-0">
-					<a href="" class="button is-ghost is-touch-friendly">YouTube</a>
-					<a href="" class="button is-ghost is-touch-friendly">Odysee</a>
-					<a href="" class="button is-ghost is-touch-friendly">PeerTube</a>
-					<a href="" class="button is-ghost is-touch-friendly">TikTok</a>
+					<a href="{{ site.techloreVideos.links.youtube }}" class="button is-ghost is-touch-friendly">
+						{{ t.global.platforms.youtube }}
+					</a>
+					<a href="{{ site.techloreVideos.extra.odysee }}" class="button is-ghost is-touch-friendly">
+						{{ t.global.platforms.odysee }}
+					</a>
+					<a href="{{ site.techloreVideos.links.peertube }}" class="button is-ghost is-touch-friendly">
+						{{ t.global.platforms.peertube }}
+					</a>
+					<a href="{{ site.techloreVideos.extra.tiktok }}" class="button is-ghost is-touch-friendly">
+						{{ t.global.platforms.tiktok }}
+					</a>
 				</div>
 			</div>
 		</div>
@@ -21,16 +32,26 @@
 		<div class="level media-content">
 			<div class="level-left">
 				<div class="level-item">
-					<h4 class="title">Core Platforms</h4>
+					<h4 class="title">{{ t.global.platforms.titles.core }}</h4>
 				</div>
 			</div>
 			<div class="level-right">
 				<div class="buttons is-gap-0">
-					<a href="" class="button is-ghost">Forum</a>
-					<a href="" class="button is-ghost">Blog</a>
-					<a href="" class="button is-ghost">GitHub</a>
-					<a href="" class="button is-ghost">Teachable</a>
-					<a href="" class="button is-ghost">LinkedIn</a>
+					<a href="{{ site.forum.links.discuss }}" class="button is-ghost">
+						{{ t.global.platforms.forum }}
+					</a>
+					<a href="{{ site.data._en.navigation.mainNav.blog.url | absolute_url }}" class="button is-ghost">
+						{{ t.global.platforms.blog }}
+					</a>
+					<a href="{{ site.techloreWeb.links.github }}" class="button is-ghost">
+						{{ t.global.platforms.github }}
+					</a>
+					<a href="{{ site.techloreVideos.extra.teachable }}" class="button is-ghost">
+						{{ t.global.platforms.teachable }}
+					</a>
+					<a href="{{ site.techloreVideos.links.youtube }}" class="button is-ghost">
+						{{ t.global.platforms.linkedin }}
+					</a>
 				</div>
 			</div>
 		</div>
@@ -39,16 +60,26 @@
 		<div class="level media-content">
 			<div class="level-left">
 				<div class="level-item">
-					<h4 class="title">Socials</h4>
+					<h4 class="title">{{ t.global.platforms.titles.socials }}</h4>
 				</div>
 			</div>
 			<div class="level-right">
 				<div class="buttons is-gap-0">
-					<a href="" class="button is-ghost">Mastodon</a>
-					<a href="" class="button is-ghost">Twitter</a>
-					<a href="" class="button is-ghost">Reddit</a>
-					<a href="" class="button is-ghost">Matrix</a>
-					<a href="" class="button is-ghost">Telegram</a>
+					<a href="{{ site.socials.links.mastodon }}" class="button is-ghost">
+						{{ t.global.platforms.mastodon }}
+					</a>
+					<a href="{{ site.socials.links.twitter }}" class="button is-ghost">
+						{{ t.global.platforms.twitter }}
+					</a>
+					<a href="{{ site.socials.links.reddit }}" class="button is-ghost">
+						{{ t.global.platforms.reddit }}
+					</a>
+					<a href="{{ site.socials.links.matrix }}" class="button is-ghost">
+						{{ t.global.platforms.matrix }}
+					</a>
+					<a href="{{ site.socials.links.telegram }}" class="button is-ghost">
+						{{ t.global.platforms.telegram }}
+					</a>
 				</div>
 			</div>
 		</div>
@@ -57,15 +88,23 @@
 		<div class="level media-content">
 			<div class="level-left">
 				<div class="level-item">
-					<h4 class="title">Finances</h4>
+					<h4 class="title">{{ t.global.platforms.titles.finances }}</h4>
 				</div>
 			</div>
 			<div class="level-right">
 				<div class="buttons is-gap-0">
-					<a href="" class="button is-ghost">Patreon</a>
-					<a href="" class="button is-ghost">Liberapay</a>
-					<a href="" class="button is-ghost">PayPal</a>
-					<a href="" class="button is-ghost">Ko-fi</a>
+					<a href="{{ site.support.links.patreon }}" class="button is-ghost">
+						{{ t.global.platforms.patreon }}
+					</a>
+					<a href="{{ site.support.links.liberapay }}" class="button is-ghost">
+						{{ t.global.platforms.liberapay }}
+					</a>
+					<a href="{{ site.support.links.paypal }}" class="button is-ghost">
+						{{ t.global.platforms.paypal }}
+					</a>
+					<a href="{{ site.support.links.kofi }}" class="button is-ghost">
+						{{ t.global.platforms.kofi }}
+					</a>
 				</div>
 			</div>
 		</div>
@@ -74,14 +113,20 @@
 		<div class="level media-content">
 			<div class="level-left">
 				<div class="level-item">
-					<h4 class="title has-text-grey">Inactive</h4>
+					<h4 class="title has-text-grey">{{ t.global.platforms.titles.inactive }}</h4>
 				</div>
 			</div>
 			<div class="level-right">
 				<div class="buttons is-gap-0">
-					<a href="" class="button is-ghost has-text-grey">omg.lol</a>
-					<a href="" class="button is-ghost has-text-grey">Spring</a>
-					<a href="" class="button is-ghost has-text-grey">Bluesky</a>
+					<a href="{{ site.inactive.links.omglol }}" class="button is-ghost has-text-grey">
+						{{ t.global.platforms.omglol }}
+					</a>
+					<a href="{{ site.inactive.links.spring }}" class="button is-ghost has-text-grey">
+						{{ t.global.platforms.spring }}
+					</a>
+					<a href="{{ site.inactive.links.bluesky }}" class="button is-ghost has-text-grey">
+						{{ t.global.platforms.bluesky }}
+					</a>
 				</div>
 			</div>
 		</div>

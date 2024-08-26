@@ -40,6 +40,7 @@ techloreVideos:
   extra:
     odysee: "https://odysee.com/@techlore:3"
     tiktok: "https://www.tiktok.com/@techlore"
+    teachable: "https://techlore.teachable.com/"
 techloreClips:
   links:
     youtube: "https://www.youtube.com/@techloreclips"
@@ -69,6 +70,8 @@ socials:
     reddit: "https://www.reddit.com/r/techlore/"
     matrix: "https://matrix.to/#/%23techlore:matrix.org"
     telegram: "https://t.me/techlorefeed"
+  extra:
+    linkedin: "https://www.linkedin.com/company/techloreinc/"
 forum:
   links:
     discuss: "https://discuss.techlore.tech/"
@@ -76,6 +79,11 @@ plexus:
   links:
     web: "https://plexus.techlore.tech/"
     app: "https://github.com/techlore/Plexus-app?tab=readme-ov-file#download"
+inactive:
+  links:
+    omglol: "https://techlore.omg.lol/"
+    spring: "https://shop.techlore.tech/"
+    bluesky: "https://bsky.app/profile/techlore.bsky.social"
 
 xmrAddress: "49H4jTvUY5zaX8qLpVBstJFR7ayTMxxU3UyWpGqUoBM4UzM2zwUHA2sJ9i3AhQYdaqhFmS8PDfWKn1Tea4SKU6haMTXG8qD"
 openalias: "crypto@techlore.tech"
