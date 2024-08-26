@@ -12,6 +12,11 @@ html {
 	padding-inline: var(--bulma-column-gap); // .75rem
 }
 
+// FIX for an optical vertical alignment of media component
+.media + .media {
+	padding-top: calc(var(--bulma-media-spacing) + .25rem);
+}
+
 // Responsive padding
 .p-6-custom-responsive {
 	--_padding: var(--bulma-size-3);

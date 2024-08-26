@@ -37,6 +37,9 @@ techloreVideos:
   links:
     peertube: "https://neat.tube/c/techlore/videos?sort=-originallyPublishedAt"
     youtube: "https://www.youtube.com/@techlore"
+  extra:
+    odysee: "https://odysee.com/@techlore:3"
+    tiktok: "https://www.tiktok.com/@techlore"
 techloreClips:
   links:
     youtube: "https://www.youtube.com/@techloreclips"

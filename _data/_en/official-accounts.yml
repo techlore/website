@@ -1,0 +1,17 @@
+# Official accounts
+#
+-
+  section: "Video Platforms"
+  links:
+    -
+      name: "YouTube"
+      url: {{ site.techloreVideos.links.youtube }}
+    -
+      name: "Odysee"
+      url: {{ site.techloreVideos.extra.odysee }}
+    -
+      name: "PeerTube"
+      url: {{ site.techloreVideos.links.peertube }}
+    -
+      name: "TikTok"
+      url: {{ site.techloreVideos.extra.tiktok }}
