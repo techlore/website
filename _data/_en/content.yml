@@ -219,6 +219,12 @@ affiliates:
   desc: "Simply click an affiliate link before purchasing a service to support Techlore. These are always utilized under our <a href=\"https://discuss.techlore.tech/pub/sponsors-affiliates\" target=\"blank\">strict requirements</a> for utmost transparency. Please bear in mind these are not our formal privacy &amp; security resources—which can be located <a href=\"[resources]\">here.</a>"
 
 # -----------------------------------------
+# COACHING page
+#
+coaching:
+  perex: "Individual support, because you deserve to be safe and in control of your online experience."
+
+# -----------------------------------------
 # "Feature-box" sections (Support Us, Merchandise, Socials, Techlore Tools ...)
 #
 featureBox:
