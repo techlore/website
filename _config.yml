@@ -84,6 +84,9 @@ inactive:
     omglol: "https://techlore.omg.lol/"
     spring: "https://shop.techlore.tech/"
     bluesky: "https://bsky.app/profile/techlore.bsky.social"
+coaching:
+  links:
+    survey: "https://survey.techlore.tech/lR76"
 
 xmrAddress: "49H4jTvUY5zaX8qLpVBstJFR7ayTMxxU3UyWpGqUoBM4UzM2zwUHA2sJ9i3AhQYdaqhFmS8PDfWKn1Tea4SKU6haMTXG8qD"
 openalias: "crypto@techlore.tech"
