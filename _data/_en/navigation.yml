@@ -78,3 +78,6 @@ hiddenNav:
   affiliates:
     title: "Techlore Tools & Affiliates"
     url: "/affiliates"
+  privacy:
+    title: "Privacy policy"
+    url: "/privacy"

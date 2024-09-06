@@ -50,3 +50,15 @@ html {
 		border-bottom-right-radius: 0;
 	}
 }
+
+.has-titles-counted {
+	counter-reset: titles;
+
+	h2 {
+		counter-increment: titles;
+
+		&::before {
+			content: counter(titles, upper-roman)". ";
+		}
+	}
+}

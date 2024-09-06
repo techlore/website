@@ -63,46 +63,29 @@ permalink: /coaching
 		</h2>
 
 		<div class="faq accordion">
-			<div class="accordion__item message py-4">
-				<input class="accordion__checkbox is-hidden" id="test" type="checkbox">
-				<label class="accordion__label" for="test">
-					<h3 class="accordion__title is-flex is-align-items-center is-justify-content-space-between">
-						Is coaching for me?
-						{% include e_render-svg-icon.html dimension=25 icon="arrow-down" inline=true class="accordion__icon icon" %}
-					</h3>
-				</label>
-				<div class="accordion__content message-body">
-					<p>
-						It depends.
-					</p>
-					<p>
-						Coaching can save you months (or years) of headache. We analyze your physical and digital life to give you clear, individualized support based on years of experience and research. Many clients have found the service invaluable in achieving their goals.
-					</p>
-					<p>
-						While the service is helpful for many people—we don't want you to think you can only be successful with our service. We also have countless free resources for those who prefer that avenue.
-					</p>
+			{%- for item in site.data._en.faq -%}
+				<div class="accordion__item message py-4">
+					<input class="accordion__checkbox is-invisible" id="{{ item.title | slugify }}" type="checkbox">
+					<label class="accordion__label anchor" for="{{ item.title | slugify }}">
+						<h3 class="accordion__title is-flex is-align-items-center is-justify-content-space-between">
+							<span class="is-flex-grow-1">{{ item.title }}</span>
+							<a href="{{ item.title | slugify | prepend: "#" }}" class="anchor__hash px-2">#</a>
+							{% include e_render-svg-icon.html dimension=25 icon="arrow-down" inline=true class="accordion__icon icon" %}
+						</h3>
+					</label>
+					<div class="accordion__content message-body">
+						{% comment %} Local URL handling {% endcomment %}
+						{% if item.desc contains "[[privacyPolicyUrl]]" %}
+							{% assign privacyPolicyUrl = site.data._en.navigation.hiddenNav.privacy.url | absolute_url %}
+							{{ item.desc | replace: "[[privacyPolicyUrl]]", privacyPolicyUrl | markdownify}}
+
+						{%  else %}
+							{{ item.desc | markdownify }}
+
+						{% endif %}
+					</div>
 				</div>
-			</div>
-			<div class="accordion__item message py-4">
-				<input class="accordion__checkbox is-hidden" id="test2" type="checkbox">
-				<label class="accordion__label" for="test2">
-					<h3 class="accordion__title is-flex is-align-items-center is-justify-content-space-between">
-						Is coaching for me?
-						{% include e_render-svg-icon.html dimension=25 icon="arrow-down" inline=true class="accordion__icon icon" %}
-					</h3>
-				</label>
-				<div class="accordion__content message-body">
-					<p>
-						It depends.
-					</p>
-					<p>
-						Coaching can save you months (or years) of headache. We analyze your physical and digital life to give you clear, individualized support based on years of experience and research. Many clients have found the service invaluable in achieving their goals.
-					</p>
-					<p>
-						While the service is helpful for many people—we don't want you to think you can only be successful with our service. We also have countless free resources for those who prefer that avenue.
-					</p>
-				</div>
-			</div>		
+			{%- endfor -%}
 		</div>
 	</div>
 </section>

@@ -36,14 +36,26 @@
 	transition: rotate 350ms ease-in-out;
 }
 
-.accordion__checkbox:checked {
-	& ~ .accordion__content {
-		display: block;
-	}
+.accordion__checkbox {
+	position: absolute;
+	z-index: -1;
 
-	& ~ .accordion__label {
-		.accordion__icon {
-			rotate: 180deg;
+	&:target,
+	&:checked {
+		& ~ .accordion__content {
+			display: block;
 		}
+
+		& ~ .accordion__label {
+			.accordion__title {
+				color: var(--bulma-warning);
+			}
+
+			.accordion__icon {
+				rotate: 180deg;
+			}
+		}
+
+		
 	}
 }

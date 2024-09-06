@@ -15,7 +15,7 @@ permalink: /affiliates
 		<div class="message">
 			<div class="message-body">
 				{% assign resourcesUrl = site.data._en.navigation.mainNav.resources.url | absolute_url %}
-				{{ t.affiliates.desc | replace: "[resources]", resourcesUrl }}
+				{{ t.affiliates.desc | replace: "[[resources]]", resourcesUrl }}
 			</div>
 		</div>
 		{% comment %}TODO: DRY --> Component. The same as "knowledgebase"{% endcomment %}
