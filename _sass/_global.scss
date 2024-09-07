@@ -62,3 +62,9 @@ html {
 		}
 	}
 }
+
+.has-content-text-align-left {
+	.feature-box__desc {
+		text-align: left;
+	}
+}

@@ -9,10 +9,11 @@
 		- buttonText and buttonLink
 		- buttonExternal (boolean, optional)
 		- links
+		- class (optional)
 {% endcomment %}
 
 <div class="feature-box has-text-centered is-flex is-flex-grow-1">
-	<div class="box is-flex is-flex-direction-column is-align-items-center is-flex-grow-1 p-6-custom-responsive has-glare">
+	<div class="box is-flex is-flex-direction-column is-align-items-center is-flex-grow-1 p-6-custom-responsive has-glare {% if include.class %}{{ include.class }}{% endif %}">
 		{% if include.icon %}
 			{% include e_render-svg-icon.html icon=include.icon inline=true %}
 		{% endif %}
@@ -20,12 +21,12 @@
 			<h3 class="feature-box__title">{{ include.title }}</h3>
 		{% endif %}
 		{% if include.desc %}
-			<p class="feature-box__desc is-flex-grow-1">
-				{{ include.desc }}
-			</p>
+			<div class="feature-box__desc is-flex-grow-1">
+				{{ include.desc | markdownify }}
+			</div>
 		{% endif %}
 		{% if include.buttonText and include.buttonLink %}
-			<a href="{{ include.buttonLink }}" class="feature-box__button button is-primary is-outlined"{% if include.buttonExternal %} target="_blank"{% endif %}>{{ include.buttonText }}</a>
+			<a href="{{ include.buttonLink }}" class="feature-box__button button is-primary is-outlined mt-5"{% if include.buttonExternal %} target="_blank"{% endif %}>{{ include.buttonText }}</a>
 		{% elsif include.links %}
 			<ul class="feature-box__links buttons is-centered is-gap-1 marginless listless">
 				{%- for link in include.links -%}

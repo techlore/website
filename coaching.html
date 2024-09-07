@@ -12,44 +12,25 @@ permalink: /coaching
 	<div class="container">
 		<div class="columns is-multiline">
 			<div class="column is-half-tablet">
-				<div class="column">
-					{% assign title = "Identity Theft Prevention" %}
-					{% assign desc = "We analyze your weak points, threat model, and individual situation to protect your identity from strangers, people-searching websites, and cybercriminals." %}
-
-					{% include c_feature-box.html icon="fingerprint-lock-circle" title=title desc=desc %}
-				</div>
-				<div class="column">
-					{% assign title = "Breach Protection" %}
-					{% assign desc = "Learn how to protect your accounts and take control of your digital identity. From your operating system to online accounts, all tailored to your individual needs." %}
-
-					{% include c_feature-box.html icon="laptop-warning" title=title desc=desc %}
-				</div>
-				<div class="column">
-					{% assign title = "Individualized Support" %}
-					{% assign desc = "There is no single configuration for every person. We perform an individualized analysis on threats you care about—then give you options to achieve your desired protection." %}
-
-					{% include c_feature-box.html icon="wrench" title=title desc=desc %}
-				</div>
-				<div class="column">
-					{% assign title = "Direct Help" %}
-					{% assign desc = "We are dedicated to your safety. Curious about creating a pseudonym, hardening your systems, protecting your public persona, or anything else? We are here for all your questions." %}
-
-					{% include c_feature-box.html icon="headset-help" title=title desc=desc %}
-				</div>
+				{% for service in site.data._en.content.coaching.services %}
+					<div class="column">
+						{% include c_feature-box.html icon=service.icon title=service.title desc=service.desc %}
+					</div>
+				{% endfor %}
 			</div>
 			<div class="column is-half-tablet">
 				<div class="column">
-					{% assign title = "Get Started" %}
-					{% assign desc = "<ul class='has-text-left'>
-						<li>Individualized support for your situation</li>
-						<li>Free consultation before starting</li>
-						<li>Individually work with Henry, Owner of Techlore</li>
-						<li>Education & Monero discounts available</li>
-					</ul>" %}
-					{%  assign buttonText = "Apply for coaching" %}
-					{% assign buttonLink = site.coaching.links.survey %}
+					{% assign desc = site.data._en.content.coaching.getStarted.desc | markdownify %}
 
-					{% include c_feature-box.html icon="star" title=title desc=desc buttonText=buttonText buttonLink=buttonLink buttonExternal=true %}
+					{% include c_feature-box.html 
+						icon="star"
+						title=site.data._en.content.coaching.getStarted.title
+						desc=site.data._en.content.coaching.getStarted.desc
+						buttonText=site.data._en.content.coaching.getStarted.buttonText
+						buttonLink=site.coaching.links.survey
+						buttonExternal=true
+						class="has-content-text-align-left"
+					%}
 				</div>
 			</div>
 		</div>
@@ -64,16 +45,18 @@ permalink: /coaching
 
 		<div class="faq accordion">
 			{%- for item in site.data._en.faq -%}
+				{% assign id = item.title | slugify %}
+
 				<div class="accordion__item message py-4">
-					<input class="accordion__checkbox is-invisible" id="{{ item.title | slugify }}" type="checkbox">
-					<label class="accordion__label anchor" for="{{ item.title | slugify }}">
+					<input class="accordion__checkbox is-invisible" id="{{ id }}" type="checkbox">
+					<label class="accordion__label anchor" for="{{ id }}" role="button">
 						<h3 class="accordion__title is-flex is-align-items-center is-justify-content-space-between">
 							<span class="is-flex-grow-1">{{ item.title }}</span>
 							<a href="{{ item.title | slugify | prepend: "#" }}" class="anchor__hash px-2">#</a>
 							{% include e_render-svg-icon.html dimension=25 icon="arrow-down" inline=true class="accordion__icon icon" %}
 						</h3>
 					</label>
-					<div class="accordion__content message-body">
+					<div class="accordion__content message-body" aria-labelledby="{{ id }}">
 						{% comment %} Local URL handling {% endcomment %}
 						{% if item.desc contains "[[privacyPolicyUrl]]" %}
 							{% assign privacyPolicyUrl = site.data._en.navigation.hiddenNav.privacy.url | absolute_url %}

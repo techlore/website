@@ -223,6 +223,31 @@ affiliates:
 #
 coaching:
   perex: "Individual support, because you deserve to be safe and in control of your online experience."
+  services: 
+    -
+      title: "Identity Theft Prevention"
+      desc: "We analyze your weak points, threat model, and individual situation to protect your identity from strangers, people-searching websites, and cybercriminals."
+      icon: "fingerprint-lock-circle"
+    -
+      title: "Breach Protection"
+      desc: "Learn how to protect your accounts and take control of your digital identity. From your operating system to online accounts, all tailored to your individual needs."
+      icon: "laptop-warning"
+    -
+      title: "Individualized Support"
+      desc: "There is no single configuration for every person. We perform an individualized analysis on threats you care about—then give you options to achieve your desired protection."
+      icon: "wrench"
+    -
+      title: "Direct Help"
+      desc: "We are dedicated to your safety. Curious about creating a pseudonym, hardening your systems, protecting your public persona, or anything else? We are here for all your questions."
+      icon: "headset-help"
+  getStarted:
+    title: "Get Started"
+    desc: |
+      - Individualized support for your situation
+      - Free consultation before starting
+      - Individually work with Henry, Owner of Techlore
+      - Education & Monero discounts available 
+    buttonText: "Apply for coaching"
 
 # -----------------------------------------
 # "Feature-box" sections (Support Us, Merchandise, Socials, Techlore Tools ...)
@@ -231,7 +256,7 @@ featureBox:
   merchandise:
     title: "Merchandise"
     desc: "Explore our shop for cool gear that shows your support."
-    buttonText: "Let’s go shopping"
+    buttonText: "Let's go shopping"
   supportUs:
     title: "Support Us"
     desc: "Love what we're doing? Help us keep fighting for digital rights and privacy!"
