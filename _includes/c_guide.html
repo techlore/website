@@ -1,32 +1,36 @@
 {% include variables.html %}
 
-<div class="guide">
-	<div class="columns has-2-cols">
-		<div class="column is-half">
-			{% if include.link %}
-				<a href="{{ include.link }}" target="_blank">
-					<img src="{{ include.thumbnail }}" class="has-radius-normal" loading="lazy" alt="Video thumbnail - {{ include.title }}">
-				</a>
+<div class="cell">
+	{% if include.link %}
+		<a href="{{ include.link }}" target="_blank">
+			<img src="{{ include.thumbnail }}" class="has-radius-normal" loading="lazy" alt="Video thumbnail - {{ include.title }}">
+		</a>
 
-			{% else %}
-				<img src="{{ include.thumbnail }}" class="has-radius-normal" loading="lazy" alt="Video thumbnail - {{ include.title }}">
+	{% else %}
+		<img src="{{ include.thumbnail }}" class="has-radius-normal" loading="lazy" alt="Video thumbnail - {{ include.title }}">
 
-			{% endif %}
-
-			{% if include.isPremium %}
-				<a href="{{ site.goincognito.links.premium }}" target="_blank" class="button is-primary is-gap-2">
-					{% include e_render-svg-icon.html icon="bright-star" class="icon" dimension=25 inline=true %}
-					{{ t.goincognito.premium.buttonText }}
-				</a>
-			{% endif %}
+	{% endif %}
+</div>
+<div class="cell">
+	{% if include.title %}
+		<h3>{{ include.title }}</h3>
+	{% endif %}
+	{% if include.tags.size > 0 %}
+		<div class="video-list__tags mt-2">
+			{% for tag in include.tags %}
+				<span class="video-list__tag">{{ tag | prepend: "#" }}</span>
+			{% endfor %}
 		</div>
-		<div class="column is-half">
-			{% if include.title %}
-				<h3>{{ include.title }}</h3>
-			{% endif %}
-			{% if include.desc %}
-				<p>{{ include.desc }}</p>
-			{% endif %}
-		</div>
-	</div>
+	{% endif %}
+	{% if include.isPremium %}
+		<a href="{{ site.goincognito.links.premium }}" target="_blank" class="button is-primary is-gap-2">
+			{% include e_render-svg-icon.html icon="bright-star" class="icon" dimension=25 inline=true %}
+			{{ t.goincognito.premium.buttonText }}
+		</a>
+	{% endif %}
+</div>
+<div class="cell is-col-span-2">
+	{% if include.desc %}
+		<p>{{ include.desc }}</p>
+	{% endif %}
 </div>
