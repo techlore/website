@@ -49,7 +49,28 @@ permalink: /resources
 <section>
 	<div class="container">
 		{%- include c_box-header.html title=t.videos.techloreGuides.title links=site.techloreVideos.links anchor=true -%}
-		{% include techlore-guides.html %}
+		{%- if site.guides.size > 0 -%}
+			{% assign sortedGuides = site.guides | sort: "dateUpdated" | reverse %}
+			<div class="box p-6-custom-responsive">
+				<ul class="video-list marginless is-flex is-flex-direction-column is-gap-6 listless">
+					{% for guide in sortedGuides %}
+						{% assign filename = guide.path | split: "/" | last %}
+						{% assign guideThumbnail = "/guides/" | append: filename | replace: ".md", ".jpg" | relative_url %}
+
+						{%- include c_video.html
+							title=guide.title
+							desc=guide.description
+							thumbnail=guideThumbnail
+							youtube=guide.linkYouTube
+							tags=guide.tags
+							isPremium=guide.isPremium
+							isDetailed=true
+							isPremium=guide.isPremium
+						-%}
+					{% endfor %}
+				</ul>
+			</div>
+		{%- endif -%}
 	</div>
 </section>
 

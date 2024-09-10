@@ -1,0 +1,11 @@
+.tags {
+	text-align: left;
+	font-size: calc(var(--bulma-size-5) * .75);
+	text-transform: lowercase;
+}
+
+.tag {
+	background-color: transparent;
+	height: auto;
+	padding-inline: 0;
+}
