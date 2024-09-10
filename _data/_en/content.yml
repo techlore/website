@@ -15,7 +15,9 @@
 global:
   sitename: "Techlore — a safer internet"
   description: "Techlore is educating people about digital rights, privacy, security, digital control, and other important topics to push the world towards a safer internet."
-  title: "Welcome (from translations)"
+  title: "Welcome"
+  patreons:
+    title: "Sending 🤍 to our gold [patreons]([[patreonLink]])" 
   platforms:
     youtube: "YouTube"
     peertube: "PeerTube"

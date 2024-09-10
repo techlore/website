@@ -105,6 +105,10 @@
 }
 
 .video-list__tag {
+	.video-list__item--detailed & {
+		background-color: transparent;
+	}
+
 	.video-list__item--minimal & {
 		padding-inline: .75em;
 	}

@@ -6,32 +6,7 @@ title: Home
 
 <section>
 	<div class="container">
-		<h1>{{ t.global.sitename }}</h1>
-		{% comment %}
-	{% comment %}{% assign all = site.documents | sort: "datePublished" %}{% endcomment %}
-	{% comment %}{{ all | slice: 0,2 | jsonify }}{% endcomment %}
-
-	{% assign one = site.clips %}
-	{% assign two = site.surveillance-report %}
-	{% assign all = one | concat: two %}
-	{% assign sortedAll = all | sort: "frontmatter.datePublished" | reverse %}
-
-	<blockquote>
-		{{ one | jsonify }}
-	</blockquote>
-	<blockquote>
-		{{ two | jsonify }}
-	</blockquote>
-	<blockquote>
-		{{ all | sort: "frontmatter.datePublished" | reverse | jsonify }}
-	</blockquote>
-
-	{% for vid in one limit: 2 %}
-		<blockquote>
-			{{ vid.title }}
-		</blockquote>
-	{% endfor %}
-		{% endcomment %}
+		{% include c_hero.html %}
 	</div>
 </section>
 

@@ -1,0 +1,21 @@
+{% include variables.html %}
+{% assign patreons = site.data._en.patreons %}
+
+{% if patreons.size > 0 %}
+<div class="patreons is-flex is-gap-2">
+	<div class="patreons__title">
+		{% assign patreonLink = site.data._en.navigation.mainNav.support.url | absolute_url |  append: '#paid' %}
+		{{ site.data._en.content.global.patreons.title | replace: "[[patreonLink]]", patreonLink | markdownify }}
+	</div>
+	<div class="patreons__tags tags">
+		{% for patreon in patreons %}
+			<span class="patreons__tag tag is-warning px-2 py-1 is-gap-1.5">
+				{% if patreon.iconName %}
+					{% include e_render-svg-icon.html _icon=patreon.iconName dimension=25 class="patreons__icon icon" %}
+				{% endif %}
+				{{ patreon.name }}
+			</span>
+		{% endfor %}
+	</div>
+</div>
+{% endif %}
