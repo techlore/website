@@ -9,7 +9,7 @@
 
 {% if include.project.size > 0 %}
 	<div class="project has-text-centered is-flex is-flex-direction-column">
-		<a href="{{- include.project.url -}}" target="_blank" class="project__logo-wrapper is-flex is-justify-content-center p-3 has-radius-large"{% if include.project.bgColor %} style="background-color: {{ include.project.bgColor }}{% endif %}">
+		<a href="{{- include.project.url -}}" target="_blank" class="project__logo-wrapper is-flex is-justify-content-center is-align-items-center p-3 has-radius-large"{% if include.project.bgColor %} style="background-color: {{ include.project.bgColor }}{% endif %}">
 			<img src="{% link assets/support/{{include.project.logo}} %}" alt="Logo - {{- include.project.name -}}" class="project__logo">
 		</a>
 		<h4 class="project__name mt-3">
