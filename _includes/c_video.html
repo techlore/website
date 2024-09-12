@@ -54,7 +54,7 @@
 			<div class="buttons mt-4 mb-0">
 				{% comment %}TODO: DRY --> component{% endcomment %}
 				{% if include.isPremium %}
-					<a href="{{ site.goincognito.links.premium }}" target="_blank" class="button is-primary is-gap-2">
+					<a href="{{ site.goincognito.links.premium }}" target="_blank" class="button is-warning is-gap-2">
 						{% include e_render-svg-icon.html icon="bright-star" class="icon" dimension=25 inline=true %}
 						{{ t.goincognito.premium.buttonText }}
 					</a>

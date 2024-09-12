@@ -1,6 +1,6 @@
 {% comment %}
 	BOX FOOTER -----------------------------------------
-    Info: 
+    Info:
         Displays one button "glued" below the right bottom corner of the box.
         Add the class "has-footer" to the ".box".
 	Parameters:
@@ -11,7 +11,7 @@
 
 {% if include.link and include.title %}
 	<div class="box-footer is-flex">
-		<a href="{{ include.link | absolute_url }}" class="box-footer__button button is-small has-radius-large is-lowercase{% if include.class %} {{ include.class }}{% endif %}">
+		<a href="{{ include.link | absolute_url }}" class="box-footer__button button is-small has-radius-small is-lowercase{% if include.class %} {{ include.class }}{% endif %}">
 			{{ include.title }}
 		</a>
 	</div>
