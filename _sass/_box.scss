@@ -3,6 +3,26 @@
     --bulma-box-background-color: var(--bulma-background);
 }
 
+.is-box-warning {
+	color: var(--custom-box-warning-color);
+	border-color: var(--custom-box-warning-border-color);
+}
+
+.is-box-success {
+	border-color: var(--custom-box-success-border-color);
+	color: var(--custom-box-success-color);
+}
+
+.is-box-info {
+	color: var(--custom-box-info-color);
+	border-color: var(--custom-box-info-border-color);
+}
+
+.is-box-danger {
+	border-color: var(--custom-box-danger-border-color);
+	color: var(--custom-box-danger-color);
+}
+
 .box-header__link {
 	--bulma-button-padding-horizontal: .25rem;
 }

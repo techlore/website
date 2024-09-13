@@ -20,26 +20,23 @@
 	--bulma-radius-large: 1.75rem;
 	--bulma-radius: .75rem;
 	--bulma-radius-rounded: 100vmax;
-}
 
-.is-box-warning {
-	background-color: var(--bulma-warning-65-invert);
-	color: var(--bulma-warning);
-}
+	// --- custom properties
+	--custom-box-warning-bg: var(--bulma-warning-65-invert);
+	--custom-box-warning-color: var(--bulma-warning);
+	--custom-box-warning-border-color: var(--bulma-warning-75-invert);
 
-.is-box-success {
-	background-color: var(--bulma-success-65-invert);
-	color: var(--bulma-success);
-}
+	--custom-box-success-bg: var(--bulma-success-65-invert);
+	--custom-box-success-color: var(--bulma-success);
+	--custom-box-success-border-color: var(--bulma-success-95-invert);
 
-.is-box-info {
-	background-color: var(--bulma-info-65-invert);
-	color: var(--bulma-info);
-}
+	--custom-box-info-bg: var(--bulma-info-65-invert);
+	--custom-box-info-color: var(--bulma-info);
+	--custom-box-info-border-color: var(--bulma-info-light-invert);
 
-.is-box-danger {
-	background-color: var(--bulma-danger-80-invert);
-	color: var(--bulma-danger);
+	--custom-box-danger-bg: var(--bulma-danger-80-invert);
+	--custom-box-danger-color: var(--bulma-danger);	
+	--custom-box-danger-border-color: var(--bulma-danger-soft);
 }
 
 @media (prefers-color-scheme: light) {

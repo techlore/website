@@ -41,6 +41,10 @@ html {
 	background-position: center center;
 }
 
+.has-no-background {
+	background-color: transparent;
+}
+
 .has-border {
 	border: 1px solid var(--bulma-border-weak);
 }
