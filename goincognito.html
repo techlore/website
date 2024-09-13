@@ -70,7 +70,7 @@ permalink: /goincognito
 			<div class="column is-half-tablet is-one-third-desktop is-flex">
 				{% assign paymentLinks = site.support.links | keys %}
 				{% assign iconVpn = "donate" %}
-				{% assign buttonLink = "TODO" %}
+				{% assign buttonLink = site.data._en.navigation.mainNav.goincognito.url | absolute_url %}
 				{% include c_feature-box.html
 						icon=iconVpn
 						title=t.featureBox.supportUs.title
