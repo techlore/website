@@ -18,7 +18,28 @@
 	--bulma-danger-l: 55%;
 	--bulma-scheme-s: 25%;
 	--bulma-radius-large: 1.75rem;
+	--bulma-radius: .75rem;
 	--bulma-radius-rounded: 100vmax;
+}
+
+.is-box-warning {
+	background-color: var(--bulma-warning-65-invert);
+	color: var(--bulma-warning);
+}
+
+.is-box-success {
+	background-color: var(--bulma-success-65-invert);
+	color: var(--bulma-success);
+}
+
+.is-box-info {
+	background-color: var(--bulma-info-65-invert);
+	color: var(--bulma-info);
+}
+
+.is-box-danger {
+	background-color: var(--bulma-danger-80-invert);
+	color: var(--bulma-danger);
 }
 
 @media (prefers-color-scheme: light) {

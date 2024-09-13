@@ -1,0 +1,8 @@
+.box {
+    --bulma-box-shadow: none;
+    --bulma-box-background-color: var(--bulma-background);
+}
+
+.box-header__link {
+	--bulma-button-padding-horizontal: .25rem;
+}
