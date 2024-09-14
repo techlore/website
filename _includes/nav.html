@@ -1,8 +1,6 @@
 {% comment %}
 	NAVIGATION -----------------------------------------
 	Data source: 	_data/_en/navigation.yml
-	Parameters:
-		- xxx (boolean):			xxxx
 	Info:
 		Navigation uses edited version of Bulma "Navbar" component (https://bulma.io/documentation/components/navbar/).
 		JavaScript requirement has been removed, it uses simple "checkbox" to open/close menu on mobile devices.
@@ -49,10 +47,17 @@
 		<div class="navbar-end">
 			<div class="navbar-item">
 				<div class="buttons">
-					<a class="button is-ghost is-gap-1.5 has-text-black">
-						{% include e_render-svg-icon.html dimension=25 inline=true class="icon" %}
-						Placeholder
-					</a>
+					<button
+						class="theme-toggle button is-large is-primary is-rounded px-3"
+						type="button"
+						data-theme-toggle
+						aria-label="Change theme"
+					>
+						<span class="theme-toggle__icons-wrap is-flex is-gap-2">
+							{% include e_render-svg-icon.html icon="half-moon" dimension=25 inline=true class="theme-toggle__icon theme-toggle__icon--dark" %}
+							{% include e_render-svg-icon.html icon="sun-light" dimension=25 inline=true class="theme-toggle__icon theme-toggle__icon--light" %}
+						</span>
+					</button>
 				</div>
 			</div>
 		</div>
