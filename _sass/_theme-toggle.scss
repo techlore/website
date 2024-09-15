@@ -26,12 +26,14 @@ button[data-theme-toggle] {
 	position: relative;
 	z-index: 1;
 	rotate: 0;
+	scale: .75;
 
 	&--dark {
 		[data-active-theme="js-dark-is-active"] & {
 			color: var(--bulma-warning);
-			transition: rotate 1s ease-in-out;
+			transition: rotate 1s ease-in-out, scale 750ms cubic-bezier(0.34, 1.56, 0.64, 1);
 			rotate: 360deg;
+			scale: 1.2;
 		}
 	}
 
@@ -39,7 +41,8 @@ button[data-theme-toggle] {
 		[data-active-theme="js-light-is-active"] & {
 			color: var(--bulma-warning);
 			rotate: 360deg;
-			transition: rotate 1s ease-in-out;
+			transition: rotate 1s ease-in-out, scale 750ms cubic-bezier(0.34, 1.56, 0.64, 1);
+			scale: 1.2;
 		}
 	}
 
