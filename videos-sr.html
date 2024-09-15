@@ -19,24 +19,24 @@ permalink: /videos/all-surveillance-report-episodes
 						{% assign videoThumbnail = "/surveillance-report/" | append: filename | replace: ".md", ".jpg" | relative_url %}
 
 						{%- include c_video.html
-								title=video.title
-								desc=video.description
-								link=video.linkForum
-								youtube=video.linkYouTube
-								peertube=video.linkPeerTube
-								odysee=video.linkdOdysee
-								thumbnail=videoThumbnail
-								date=video.datePublished
-								tags=video.tags
-								isDetailed=true
+							title=video.title
+							desc=video.description
+							link=video.linkForum
+							linkYouTube=video.linkYouTube
+							linkPeerTube=video.linkPeerTube
+							linkOdysee=video.linkOdysee
+							thumbnail=videoThumbnail
+							date=video.datePublished
+							tags=video.tags
+							isDetailed=true
 						-%}
 
 					{% endfor %}
 				</ul>
 			</div>
 			{% include c_box-footer.html
-					link=site.data._en.navigation.mainNav.videos.url
-					title=site.data._en.content.global.back.backToVideos
+				link=site.data._en.navigation.mainNav.videos.url
+				title=site.data._en.content.global.back.backToVideos
 			%}
 		{%- endif -%}
 	</div>

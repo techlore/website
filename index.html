@@ -24,12 +24,15 @@ title: Home
 								{% assign videoThumbnail = "/techlore/" | append: filename | replace: ".md", ".jpg" | relative_url %}
 
 								{%- include c_video.html
-										title=video.title
-										desc=video.description
-										link=linkForum
-										thumbnail=videoThumbnail
-										date=video.datePublished
-										tags=video.tags
+									title=video.title
+									desc=video.description
+									link=video.linkForum
+									linkYouTube=video.linkYouTube
+									linkPeerTube=video.linkPeerTube
+									linkOdysee=video.linkOdysee
+									thumbnail=videoThumbnail
+									date=video.datePublished
+									tags=video.tags
 								-%}
 
 							{% endfor %}
@@ -69,13 +72,13 @@ title: Home
 		{% assign rightUrls = "" | split: "" %}
 		{% assign rightUrls = rightUrls | push: spaQuiz | push: vpnToolkit | push: plexus %}
 
-		{%-  include c_linkhub-dual-wrapper.html
-				leftTitle=t.resources.section.learn.title
-				leftDesc=t.resources.section.learn.desc
-				leftLinkArray=leftUrls
-				rightTitle=t.resources.section.tools.title
-				rightDesc=t.resources.section.tools.desc
-				rightLinkArray=rightUrls
+		{%- include c_linkhub-dual-wrapper.html
+			leftTitle=t.resources.section.learn.title
+			leftDesc=t.resources.section.learn.desc
+			leftLinkArray=leftUrls
+			rightTitle=t.resources.section.tools.title
+			rightDesc=t.resources.section.tools.desc
+			rightLinkArray=rightUrls
 		-%}
 	</div>
 </section>
@@ -88,24 +91,24 @@ title: Home
 				{% assign socialLinks = site.socials.links | keys %}
 				{% assign iconSpa = "shirt" %}
 				{% include c_feature-box.html
-						icon=iconSpa
-						title=t.featureBox.socials.title
-						desc=t.featureBox.socials.desc
-						links=socialLinks
-						class="is-box-info has-no-background has-border"
-						buttonClass="is-info"
+					icon=iconSpa
+					title=t.featureBox.socials.title
+					desc=t.featureBox.socials.desc
+					links=socialLinks
+					class="is-box-info has-border"
+					buttonClass="is-info"
 				%}
 			</div>
 			<div class="column is-full-mobile is-half-tablet is-one-third-desktop is-flex">
 				{% assign paymentLinks = site.support.links | keys %}
 				{% assign iconVpn = "donate" %}
 				{% include c_feature-box.html
-						icon=iconVpn
-						title=t.featureBox.supportUs.title
-						desc=t.featureBox.supportUs.desc
-						links=paymentLinks
-						class="is-box-warning has-no-background has-border"
-						buttonClass="is-warning"
+					icon=iconVpn
+					title=t.featureBox.supportUs.title
+					desc=t.featureBox.supportUs.desc
+					links=paymentLinks
+					class="is-box-warning has-border"
+					buttonClass="is-warning"
 				%}
 			</div>
 		</div>

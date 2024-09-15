@@ -123,24 +123,33 @@ input[id="navbar-menu-toggle"] {
 .navbar-item {
 	&.is-active {
 		font-weight: 900;
-
-		a {
-			color: $light;
-		}
-	}
-
-	&:hover {
-		a {
-			color: $light;
-		}
 	}
 
 	a {
-		color: $info;
+		color: $light;
 		position: relative;
 
 		@media (max-width: $desktop - 1px) {
 			padding-inline: var(--bulma-size-7);
+		}
+
+		&:hover {
+			&:after {
+				transform-origin: left;
+				transform: scaleX(1);
+			}
+		}
+
+		&:after {
+			position: absolute;
+			content: '';
+			inset: auto 0 0 0;
+			height: calc(var(--bulma-size-5) * .125);
+			border-radius: 100vmax;
+			background-color: $light;
+			transform-origin: right;
+			transform: scaleX(0);
+			transition: transform .3s ease-in-out;
 		}
 	}
 }

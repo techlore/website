@@ -21,21 +21,23 @@ permalink: /videos
 						{% assign videoThumbnail = "/techlore/" | append: filename | replace: ".md", ".jpg" | relative_url %}
 
 						{%- include c_video.html
-								title=video.title
-								desc=video.description
-								link=video.linkForum
-								thumbnail=videoThumbnail
-								date=video.datePublished
-								tags=video.tags
+							title=video.title
+							desc=video.description
+							link=video.linkForum
+							linkYouTube=video.linkYouTube
+							linkPeerTube=video.linkPeerTube
+							thumbnail=videoThumbnail
+							date=video.datePublished
+							tags=video.tags
 						-%}
 
 					{% endfor %}
 				</ul>
 			</div>
 		{%- endif -%}
-		{% include c_box-footer.html 
-				link=site.data._en.navigation.hiddenNav.allTechloreVideos.url 
-				title=site.data._en.navigation.hiddenNav.allTechloreVideos.title
+		{% include c_box-footer.html
+			link=site.data._en.navigation.hiddenNav.allTechloreVideos.url
+			title=site.data._en.navigation.hiddenNav.allTechloreVideos.title
 		%}
 	</div>
 </section>
@@ -54,18 +56,22 @@ permalink: /videos
 								{% assign videoThumbnail = "/clips/" | append: filename | replace: ".md", ".jpg" | relative_url %}
 
 								{%- include c_video.html
-										title=video.title
-										desc=video.description
-										thumbnail=videoThumbnail
-										date=video.datePublished
-										tags=video.tags
+									title=video.title
+									desc=video.description
+									link=video.linkForum
+									linkYouTube=video.linkYouTube
+									linkPeerTube=video.linkPeerTube
+									linkOdysee=video.linkOdysee
+									thumbnail=videoThumbnail
+									date=video.datePublished
+									tags=video.tags
 								-%}
 
 							{% endfor %}
 						</ul>
 					</div>
-					{% include c_box-footer.html 
-						link=site.data._en.navigation.hiddenNav.allTechloreClips.url 
+					{% include c_box-footer.html
+						link=site.data._en.navigation.hiddenNav.allTechloreClips.url
 						title=site.data._en.navigation.hiddenNav.allTechloreClips.title
 					%}
 				{%- endif -%}
@@ -81,18 +87,22 @@ permalink: /videos
 								{% assign videoThumbnail = "/surveillance-report/" | append: filename | replace: ".md", ".jpg" | relative_url %}
 
 								{%- include c_video.html
-										title=video.title
-										desc=video.description
-										thumbnail=videoThumbnail
-										date=video.datePublished
-										tags=video.tags
+									title=video.title
+									desc=video.description
+									link=video.linkForum
+									linkYouTube=video.linkYouTube
+									linkPeerTube=video.linkPeerTube
+									linkOdysee=video.linkOdysee
+									thumbnail=videoThumbnail
+									date=video.datePublished
+									tags=video.tags
 								-%}
 
 							{% endfor %}
 						</ul>
 					</div>
-					{% include c_box-footer.html 
-						link=site.data._en.navigation.hiddenNav.allSurveillanceReport.url 
+					{% include c_box-footer.html
+						link=site.data._en.navigation.hiddenNav.allSurveillanceReport.url
 						title=site.data._en.navigation.hiddenNav.allSurveillanceReport.title
 					%}
 				{%- endif -%}
@@ -110,13 +120,13 @@ permalink: /videos
 		{% assign iconEngage = "iris-scan" %}
 		{% assign buttonLink = "TODO" %}
 		{% include c_feature-box.html
-				icon=iconEngage
-				title=t.featureBox.tryIncognito.title
-				desc=t.featureBox.tryIncognito.desc
-				buttonText=t.featureBox.tryIncognito.buttonText
-				buttonLink=buttonLink
-				class="is-box-warning has-no-background has-border"
-				buttonClass="is-warning"
+			icon=iconEngage
+			title=t.featureBox.tryIncognito.title
+			desc=t.featureBox.tryIncognito.desc
+			buttonText=t.featureBox.tryIncognito.buttonText
+			buttonLink=buttonLink
+			class="is-box-warning has-no-background has-border"
+			buttonClass="is-warning"
 		%}
 	</div>
 </section>

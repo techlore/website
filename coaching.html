@@ -11,34 +11,29 @@ permalink: /coaching
 <section>
 	<div class="container">
 		<div class="columns is-multiline">
-			<div class="column is-half-tablet">
-				{% for service in site.data._en.content.coaching.services %}
-					<div class="column">
-						{% include c_feature-box.html 
-							icon=service.icon 
-							title=service.title 
-							desc=service.desc 
-							class="is-box-info has-no-background has-border"
-							buttonClass="is-info"
-						%}
-					</div>
-				{% endfor %}
-			</div>
-			<div class="column is-half-tablet">
-				<div class="column">
-					{% assign desc = site.data._en.content.coaching.getStarted.desc | markdownify %}
+			{% for service in site.data._en.content.coaching.services %}
+				<div class="column is-full-mobile is-half-tablet">
+					{% include c_feature-box.html
+							icon=service.icon
+							title=service.title
+							desc=service.desc
+							class="is-box-danger has-no-background has-border"
+					%}
+				</div>
+			{% endfor %}
+			<div class="column is-two-thirds-tablet m-auto">
+				{% assign desc = site.data._en.content.coaching.getStarted.desc | markdownify %}
 
-					{% include c_feature-box.html 
+				{% include c_feature-box.html
 						icon="star"
 						title=site.data._en.content.coaching.getStarted.title
 						desc=site.data._en.content.coaching.getStarted.desc
 						buttonText=site.data._en.content.coaching.getStarted.buttonText
 						buttonLink=site.coaching.links.survey
 						buttonExternal=true
-						class="is-box-warning has-no-background has-border has-content-text-align-left"
+						class="is-box-warning has-no-background has-border has-glare has-content-text-align-left"
 						buttonClass="is-warning"
-					%}
-				</div>
+				%}
 			</div>
 		</div>
 	</div>
@@ -67,9 +62,9 @@ permalink: /coaching
 						{% comment %} Local URL handling {% endcomment %}
 						{% if item.desc contains "[[privacyPolicyUrl]]" %}
 							{% assign privacyPolicyUrl = site.data._en.navigation.hiddenNav.privacy.url | absolute_url %}
-							{{ item.desc | replace: "[[privacyPolicyUrl]]", privacyPolicyUrl | markdownify}}
+							{{ item.desc | replace: "[[privacyPolicyUrl]]", privacyPolicyUrl | markdownify }}
 
-						{%  else %}
+						{% else %}
 							{{ item.desc | markdownify }}
 
 						{% endif %}

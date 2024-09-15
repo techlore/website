@@ -8,12 +8,13 @@
 {% endif %}
 
 {% if include.link == nil %}
-	{% assign link = include.youtube %}
+	{% assign link = include.linkYouTube %}
 
-{% elsif include.youtube == nil %}
-	{% assign link = include.peertube %}
+{% elsif include.link == nil and include.linkYouTube == nil %}
+	{% assign link = include.linkPeerTube %}
 
 {% endif %}
+
 
 <li class="video-list__item is-flex is-align-items-flex-start {{ classes }}">
 	<a class="video-list__link has-overlay" href="{{ link }}" target="_blank">
@@ -54,7 +55,7 @@
 			<div class="buttons mt-4 mb-0">
 				{% comment %}TODO: DRY --> component{% endcomment %}
 				{% if include.isPremium %}
-					<a href="{{ site.goincognito.links.premium }}" target="_blank" class="button is-warning is-gap-2">
+					<a href="{{ site.data._en.navigation.mainNav.goincognito.url | absolute_url }}" class="button is-warning is-gap-2">
 						{% include e_render-svg-icon.html icon="bright-star" class="icon" dimension=25 inline=true %}
 						{{ t.goincognito.premium.buttonText }}
 					</a>
@@ -65,20 +66,20 @@
 						Forum
 					</a>
 				{% endif %}
-				{% if include.youtube %}
-					<a href="{{ include.youtube }}" class="button is-danger is-gap-2">
+				{% if include.linkYouTube %}
+					<a href="{{ include.linkYouTube }}" class="button is-danger is-gap-2">
 						{% include e_render-svg-icon.html icon="youtube" class="icon" dimension=25 inline=true %}
 						YouTube
 					</a>
 				{% endif %}
-				{% if include.peertube %}
-					<a href="{{ include.peertube }}" class="button is-warning is-gap-2">
+				{% if include.linkPeerTube %}
+					<a href="{{ include.linkPeerTube }}" class="button is-warning is-gap-2">
 						{% include e_render-svg-icon.html icon="peertube" class="icon" dimension=25 inline=true %}
 						PeerTube
 					</a>
 				{% endif %}
-				{% if include.odysee %}
-					<a href="{{ include.odysee }}" class="button is-warning is-gap-2">
+				{% if include.linkOdysee %}
+					<a href="{{ include.linkOdysee }}" class="button is-warning is-gap-2">
 						{% include e_render-svg-icon.html icon="odysee" class="icon" dimension=25 inline=true %}
 						Odysee
 					</a>

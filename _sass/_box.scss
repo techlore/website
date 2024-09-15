@@ -1,6 +1,7 @@
 .box {
-    --bulma-box-shadow: none;
-    --bulma-box-background-color: var(--bulma-background);
+	--bulma-box-shadow: none;
+	--bulma-box-background-color: transparent;
+	--bulma-box-padding: 0;
 }
 
 .is-box-warning {

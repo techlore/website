@@ -1,20 +1,12 @@
 .box-footer {
-    margin-top: calc(var(--bulma-size-5) * -1.5);
-    justify-content: center;
+	margin-top: calc(var(--bulma-size-5) * -1.5);
+	justify-content: center;
 
-    @media (min-width: $tablet) {
-        justify-content: flex-end;
-    }
-}
+	.has-border + & {
+		margin-top: var(--bulma-size-5);
+	}
 
-.box-footer__button {
-    background-color: #121f36;
-    border-color: #121f36;
-    border-top-right-radius: 0;
-    border-top-left-radius: 0;
-    color: var(--bulma-primary);
-
-    &:hover {
-        color: var(--bulma-white);
-    }
+	@media (min-width: $tablet) {
+		justify-content: flex-end;
+	}
 }

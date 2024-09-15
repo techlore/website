@@ -49,12 +49,6 @@ html {
 	border: 1px solid var(--bulma-border-weak);
 }
 
-.has-footer {
-	@media (min-width: $tablet) {
-		border-bottom-right-radius: 0;
-	}
-}
-
 .has-titles-counted {
 	counter-reset: titles;
 

@@ -13,39 +13,39 @@ permalink: /resources
 				{% assign iconSpa = "list-select" %}
 				{% assign buttonLink = "TODO" %}
 				{% include c_feature-box.html
-						icon=iconSpa
-						title=t.featureBox.techloreTools.spaQuiz.title
-						desc=t.featureBox.techloreTools.spaQuiz.desc
-						buttonText=t.featureBox.techloreTools.spaQuiz.buttonText
-						buttonLink=buttonLink
-						class="is-box-danger has-no-background has-border"
-						buttonClass="is-danger"
+					icon=iconSpa
+					title=t.featureBox.techloreTools.spaQuiz.title
+					desc=t.featureBox.techloreTools.spaQuiz.desc
+					buttonText=t.featureBox.techloreTools.spaQuiz.buttonText
+					buttonLink=buttonLink
+					class="is-box-danger has-no-background has-border"
+					buttonClass="is-danger"
 				%}
 			</div>
 			<div class="column is-half-tablet is-one-third-desktop is-flex">
 				{% assign iconVpn = "server" %}
 				{% assign buttonLink = "TODO" %}
 				{% include c_feature-box.html
-						icon=iconVpn
-						title=t.featureBox.techloreTools.vpnToolkit.title
-						desc=t.featureBox.techloreTools.vpnToolkit.desc
-						buttonText=t.featureBox.techloreTools.vpnToolkit.buttonText
-						buttonLink=buttonLink
-						class="is-box-success has-no-background has-border"
-						buttonClass="is-success"
+					icon=iconVpn
+					title=t.featureBox.techloreTools.vpnToolkit.title
+					desc=t.featureBox.techloreTools.vpnToolkit.desc
+					buttonText=t.featureBox.techloreTools.vpnToolkit.buttonText
+					buttonLink=buttonLink
+					class="is-box-success has-no-background has-border"
+					buttonClass="is-success"
 				%}
 			</div>
 			<div class="column is-half-tablet is-one-third-desktop is-flex">
 				{% assign iconPlexus = "plexus" %}
 				{% include c_feature-box.html
-						icon=iconPlexus
-						title=t.featureBox.techloreTools.plexus.title
-						desc=t.featureBox.techloreTools.plexus.desc
-						buttonText=t.featureBox.techloreTools.plexus.buttonText
-						buttonLink=site.plexus.links.web
-						buttonExternal=true
-						class="is-box-info has-no-background has-border"
-						buttonClass="is-info"
+					icon=iconPlexus
+					title=t.featureBox.techloreTools.plexus.title
+					desc=t.featureBox.techloreTools.plexus.desc
+					buttonText=t.featureBox.techloreTools.plexus.buttonText
+					buttonLink=site.plexus.links.web
+					buttonExternal=true
+					class="is-box-info has-no-background has-border"
+					buttonClass="is-info"
 				%}
 			</div>
 		</div>
@@ -57,7 +57,7 @@ permalink: /resources
 		{%- include c_box-header.html title=t.videos.techloreGuides.title links=site.techloreVideos.links anchor=true -%}
 		{%- if site.guides.size > 0 -%}
 			{% assign sortedGuides = site.guides | sort: "dateUpdated" | reverse %}
-			<div class="box p-6-custom-responsive">
+			<div class="box">
 				<ul class="video-list marginless is-flex is-flex-direction-column is-gap-6 listless">
 					{% for guide in sortedGuides %}
 						{% assign filename = guide.path | split: "/" | last %}
@@ -66,8 +66,11 @@ permalink: /resources
 						{%- include c_video.html
 							title=guide.title
 							desc=guide.description
+							link=guide.linkForum
+							linkYouTube=guide.linkYouTube
+							linkPeerTube=guide.linkPeerTube
+							linkOdysee=guide.linkOdysee
 							thumbnail=guideThumbnail
-							youtube=guide.linkYouTube
 							tags=guide.tags
 							isPremium=guide.isPremium
 							isDetailed=true
@@ -109,7 +112,7 @@ permalink: /resources
 
 	<!-- Web browsers -->
 	<div class="container mt-6">
-		{% assign title=t.resources.knowledgebase.categories.web-browsers %}
+		{% assign title = t.resources.knowledgebase.categories.web-browsers %}
 		{% assign data = site.data._en.knowledgebase.software.web-browsers.data %}
 		{% assign relatedLinks = site.data._en.knowledgebase.software.web-browsers.related %}
 
@@ -118,7 +121,7 @@ permalink: /resources
 
 	<!-- Password managers -->
 	<div class="container mt-6">
-		{% assign title=t.resources.knowledgebase.categories.password-managers %}
+		{% assign title = t.resources.knowledgebase.categories.password-managers %}
 		{% assign data = site.data._en.knowledgebase.software.password-managers.data %}
 		{% assign relatedLinks = site.data._en.knowledgebase.software.password-managers.related %}
 
@@ -127,7 +130,7 @@ permalink: /resources
 
 	<!-- TOTP 2FA -->
 	<div class="container mt-6">
-		{% assign title=t.resources.knowledgebase.categories.totp-2fa %}
+		{% assign title = t.resources.knowledgebase.categories.totp-2fa %}
 		{% assign data = site.data._en.knowledgebase.software.totp-2fa.data %}
 		{% assign relatedLinks = site.data._en.knowledgebase.software.totp-2fa.related %}
 
@@ -136,7 +139,7 @@ permalink: /resources
 
 	<!-- Encryption -->
 	<div class="container mt-6">
-		{% assign title=t.resources.knowledgebase.categories.encryption %}
+		{% assign title = t.resources.knowledgebase.categories.encryption %}
 		{% assign data = site.data._en.knowledgebase.software.encryption.data %}
 		{% assign relatedLinks = site.data._en.knowledgebase.software.encryption.related %}
 
@@ -145,7 +148,7 @@ permalink: /resources
 
 	<!-- Firewalls -->
 	<div class="container mt-6">
-		{% assign title=t.resources.knowledgebase.categories.firewalls %}
+		{% assign title = t.resources.knowledgebase.categories.firewalls %}
 		{% assign data = site.data._en.knowledgebase.software.firewalls.data %}
 		{% assign relatedLinks = site.data._en.knowledgebase.software.firewalls.related %}
 
@@ -154,7 +157,7 @@ permalink: /resources
 
 	<!-- Applications -->
 	<div class="container mt-6">
-		{% assign title=t.resources.knowledgebase.categories.applications %}
+		{% assign title = t.resources.knowledgebase.categories.applications %}
 		{% assign data = site.data._en.knowledgebase.software.applications.data %}
 		{% assign relatedLinks = site.data._en.knowledgebase.software.applications.related %}
 
