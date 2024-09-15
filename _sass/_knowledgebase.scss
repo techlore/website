@@ -1,7 +1,7 @@
 .knowledgebase-nav__button {
 	order: 66;
 
-	// --- generate classes for prefered order of the navigation buttons
+	// --- generate classes for the prefered order of the navigation buttons
 	@for $i from 1 through 10 {
 		&[data-order="#{$i}"] {
 			order: $i;
@@ -56,15 +56,15 @@
 }
 
 .knowledgebase-item__desc {
-	color: var(--bulma-white);
+	color: var(--bulma-text-strong);
 }
 
 .knowledgebase-item__icon {
 	background-color: var(--bulma-black);
-	width: calc(var(--bulma-size-5) * 2);
+	width: calc(var(--bulma-size-5) * 2.5);
 	padding: calc(var(--bulma-size-5) * .45) calc(var(--bulma-size-5) * .45);
 	aspect-ratio: 1;
-	translate: 0 -15%;
+	outline: 1px solid var(--bulma-border-weak);
 }
 
 .knowledgebase-item__favorite {
