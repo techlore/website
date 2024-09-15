@@ -3,12 +3,12 @@
 	Data source: 	_data/_en/team.yml (through "team.html" component)
 {% endcomment %}
 
-<div class="person is-flex is-flex-direction-column is-align-items-center is-flex-grow-1 box" {% if include.isMini %}data-mini{% endif %}>
+<div class="person is-flex is-flex-direction-column is-align-items-center is-flex-grow-1 box p-5 has-background" {% if include.isMini %}data-mini{% endif %}>
 	<div class="person__bg"{% if include.data.background %} style="background-image: url({% link assets/team/{{include.data.background}} %});"{% endif %}></div>
 
 	<img src="{% link assets/team/{{person.photo}} %}" class="person__photo is-block has-radius-rounded" loading="lazy" alt="{{ include.data.name | prepend: "Photo - " }}">
 
-	<h3 class="person__name has-text-shadow">
+	<h3 class="person__name">
 		{{ include.data.name }}
 	</h3>
 	{% unless include.isMini %}

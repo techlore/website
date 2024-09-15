@@ -17,7 +17,7 @@ permalink: /goincognito
 	<div class="container">
 		{%- include c_box-header.html title=t.goincognito.course.overviewTitle -%}
 
-		<div class="box p-6-custom-responsive">
+		<div class="box p-6-custom-responsive has-border">
 			{% include goincognito-overview.html %}
 		</div>
 	</div>
@@ -44,7 +44,7 @@ permalink: /goincognito
 				{% assign rightUrls = "" | split: "" %}
 				{% assign rightUrls = rightUrls | push: sources | push: bts %}
 
-				{%  include c_linkhub-dual.html leftLinks=leftUrls rightLinks=rightUrls %}
+				{% include c_linkhub-dual.html leftLinks=leftUrls rightLinks=rightUrls %}
 			</div>
 		</div>
 	</div>
@@ -58,13 +58,13 @@ permalink: /goincognito
 				{% assign iconSpa = "shirt" %}
 				{% assign buttonLink = "TODO" %}
 				{% include c_feature-box.html
-						icon=iconSpa
-						title=t.featureBox.merchandise.title
-						desc=t.featureBox.merchandise.desc
-						buttonText=t.featureBox.merchandise.buttonText
-						buttonLink=buttonLink
-						class="is-box-info has-no-background has-border"
-						buttonClass="is-info"
+					icon=iconSpa
+					title=t.featureBox.merchandise.title
+					desc=t.featureBox.merchandise.desc
+					buttonText=t.featureBox.merchandise.buttonText
+					buttonLink=buttonLink
+					class="is-box-info has-no-background has-border"
+					buttonClass="is-info"
 				%}
 			</div>
 			<div class="column is-half-tablet is-one-third-desktop is-flex">
@@ -72,13 +72,13 @@ permalink: /goincognito
 				{% assign iconVpn = "donate" %}
 				{% assign buttonLink = site.data._en.navigation.mainNav.goincognito.url | absolute_url %}
 				{% include c_feature-box.html
-						icon=iconVpn
-						title=t.featureBox.supportUs.title
-						desc=t.featureBox.supportUs.desc
-						section="support"
-						links=paymentLinks
-						class="is-box-warning has-no-background has-border"
-						buttonClass="is-warning"
+					icon=iconVpn
+					title=t.featureBox.supportUs.title
+					desc=t.featureBox.supportUs.desc
+					section="support"
+					links=paymentLinks
+					class="is-box-warning has-no-background has-border"
+					buttonClass="is-warning"
 				%}
 			</div>
 		</div>

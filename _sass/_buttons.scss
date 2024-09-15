@@ -23,3 +23,7 @@ a.is-touch-friendly {
 		min-width: calc(var(--bulma-size-5) * 3);
 	}
 }
+
+.button.is-danger {
+	--bulma-button-color-l: var(--bulma-danger-100-l);
+}
