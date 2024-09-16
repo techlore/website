@@ -17,7 +17,7 @@
 
 
 <li class="video-list__item is-flex is-align-items-flex-start {{ classes }}">
-	<a class="video-list__link has-overlay" href="{{ link }}" target="_blank">
+	<a class="video-list__link has-overlay has-border has-radius-normal" href="{{ link }}" target="_blank">
 		{% if include.tags.size > 0 and (isDetailed == null) %}
 			<span class="video-list__tags tags">
 				{% for tag in include.tags %}
@@ -25,7 +25,7 @@
 				{% endfor %}
 			</span>
 		{% endif %}
-		<img src="{{ include.thumbnail }}" class="video-list__thumb has-radius-normal" alt="Video thumbnail - {{ include.title }}" loading="lazy">
+		<img src="{{ include.thumbnail }}" class="video-list__thumb" alt="Video thumbnail - {{ include.title }}" loading="lazy">
 	</a>
 
 	<div class="video-list__content">

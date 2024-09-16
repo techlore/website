@@ -44,7 +44,75 @@ title: Home
 				{%- include c_box-header.html title=t.home.hotTopics links=site.forum.links -%}
 
 				<div class="box">
-					<i class="has-text-warning">TODO: inject posts from the forum</i>
+					<ul class="topic-list listless marginless is-flex is-gap-2 is-flex-direction-column"
+						data-forum="https://discuss.techlore.tech"
+						data-xfeed="https://mocki.io/v1/4816ff8e-68f7-4228-8861-d54199c69ee8"
+						data-feed="http://localhost:4000/techlore/6.json"
+						data-count="3"
+					>
+						<li class="topic-list__item">
+							<a href="" class="topic-list__link is-flex is-flex-direction-row is-gap-2 is-align-items-flex-start is-justify-content-flex-start">
+								<img src="https://placehold.co/48x48" alt="Placeholder image" class="topic-list__avatar _is-skeleton">
+								<span class="topic-list__text is-flex is-flex-direction-column">
+									<span class="topic-list__title _is-skeleton">Yeah, I guessed you're a sailor, aren't you, that's why you wear that life preserver.</span>
+									<span class="topic-list__footer mt-1 is-flex is-gap-3">
+										<span class="topic-list__views _is-skeleton">
+											(o) 5
+										</span>
+										<span class="topic-list__last-poster _is-skeleton">
+											Oct 26, 1985, 01:21 by Marty85
+										</span>
+									</span>
+								</span>
+							</a>
+						</li>
+						<li class="topic-list__item">
+							<a href="" class="topic-list__link is-flex is-flex-direction-row is-gap-2 is-align-items-flex-start is-justify-content-flex-start">
+								<img src="https://placehold.co/48x48" alt="Placeholder image" class="topic-list__avatar _is-skeleton">
+								<span class="topic-list__text is-flex is-flex-direction-column">
+									<span class="topic-list__title _is-skeleton">Chuck, Chuck, its' your cousin. Your cousin Marvin Berry, you know that new sound you're lookin for, well listen to this!</span>
+
+									<span class="topic-list__footer mt-1 is-flex is-gap-3">
+										<span class="topic-list__views _is-skeleton">
+											(o) 5
+										</span>
+										<span class="topic-list__last-poster _is-skeleton">
+											Oct 26, 1985, 01:20 by Brown_Enterprises
+										</span>
+									</span>
+
+								</span>
+							</a>
+						</li>
+						<li class="topic-list__item">
+							<a href="" class="topic-list__link is-flex is-flex-direction-row is-gap-2 is-align-items-flex-start is-justify-content-flex-start">
+								<img src="https://placehold.co/48x48" alt="Placeholder image" class="topic-list__avatar _is-skeleton">
+
+								<span class="topic-list__text is-flex is-flex-direction-column">
+									<span class="topic-list__title _is-skeleton">Check out that four by four. That is hot. Someday, Jennifer, someday.</span>
+
+									<span class="topic-list__footer mt-1 is-flex is-gap-3">
+										<span class="topic-list__views _is-skeleton">
+											(o) 5
+										</span>
+										<span class="topic-list__last-poster _is-skeleton">
+											Nov 12, 1955, 22:04 by Biff
+										</span>
+									</span>
+								</span>
+							</a>
+						</li>
+						{% comment %}<li class="topic-list__item">
+							<a href="" class="topic-list__link is-flex is-flex-direction-row is-gap-2 is-align-items-flex-start is-justify-content-flex-start">
+								<img src="https://placehold.co/48x48" alt="Placeholder image" class="topic-list__avatar">
+
+								<span class="topic-list__text is-flex is-flex-direction-column">
+									<span class="topic-list__title">Last night, Darth Vader came down from planet Vulcan. And he told me that if I didn't take Lorraine, that he'd melt my brain.</span>
+									<<span class="topic-list__last-poster mt-1">Nov 12, 1955, 22:04 by Jennifer</span>
+								</span>
+							</a>
+						</li>{% endcomment %}
+					</ul>
 				</div>
 			</div>
 		</div>

@@ -1,0 +1,22 @@
+.topic-list {
+	font-weight: 900;
+}
+
+.topic-list__link {
+	&:hover {
+		.topic-list__title {
+			text-decoration: underline;
+		}
+	}
+}
+
+.topic-list__avatar {
+	border-radius: var(--bulma-radius-medium);
+}
+
+.topic-list__footer {
+	font-weight: 400;
+	font-style: italic;
+	color: var(--bulma-text-light);
+	font-size: var(--bulma-size-7);
+}
