@@ -83,14 +83,15 @@ const discussTopicsConstructor = async () => {
 			// --- Data
 			const title = topic.title
 			const id = topic.id
-			const url = dataset.forum + '/t/' + data.slug + '/' + id
+			const url = dataset.forum + '/t/' + topic.slug + '/' + id
 			const lastPosterUsername = topic.last_poster_username === 'system' ? 'Techlore' : topic.last_poster_username
 			const views = topic.views
-			let avatar = ''
+			let avatarUrl = 'assets/images/avatar-default.svg'
 
 			users.forEach((user) => {
-				if (user.username == topic.last_poster_username) {
-					avatar = user.avatar_template
+				if (user.username === topic.last_poster_username) {
+					const avatar = user.avatar_template
+					avatarUrl = dataset.forum + avatar.replace('{size}', '48')
 				}
 			})
 
@@ -98,7 +99,7 @@ const discussTopicsConstructor = async () => {
 			// -- Last posted date
 			const lastPostedDate = new Date(topic.last_posted_at)
 			const formattingOptions = {
-				month: 'short', 
+				month: 'short',
 				day: 'numeric',
 				year: 'numeric',
 				hour: 'numeric',
@@ -109,7 +110,7 @@ const discussTopicsConstructor = async () => {
 
 			const li = `<li class="topic-list__item">
 				<a href="${url}" class="topic-list__link is-flex is-flex-direction-row is-gap-2 is-align-items-flex-start is-justify-content-flex-start">
-					<img src="${dataset.forum + avatar.replace('{size}', '48')}" alt="" class="topic-list__avatar has-radius-rounded">
+					<img src="${avatarUrl}" alt="${lastPosterUsername}'s avatar" class="topic-list__avatar has-radius-rounded">
 
 					<span class="topic-list__text is-flex is-flex-direction-column">
 						<span class="topic-list__title">${title}</span>
