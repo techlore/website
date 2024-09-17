@@ -36,6 +36,13 @@
 			"name": "",
 			"avatar_template": "/letter_avatar_proxy/v4/letter/e/47e85d/{size}.png",
 			"trust_level": 2
+		},
+		{
+			"id": 1726,
+			"username": "OldGuy",
+			"name": "",
+			"avatar_template": "/letter_avatar_proxy/v4/letter/o/3bc359/{size}.png",
+			"trust_level": 2
 		}
 	],
 	"primary_groups": [

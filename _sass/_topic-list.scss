@@ -2,6 +2,10 @@
 	font-weight: 900;
 }
 
+.topic-list__title {
+	line-height: 1.25;
+}
+
 .topic-list__link {
 	&:hover {
 		.topic-list__title {
@@ -10,8 +14,19 @@
 	}
 }
 
-.topic-list__avatar {
-	border-radius: var(--bulma-radius-medium);
+.topic-list__views {
+	min-width: calc(var(--bulma-size-1) * 1);
+	border-radius: var(--bulma-radius-rounded);
+	background-color: var(--bulma-info);
+	color: var(--bulma-black);
+	font-style: normal;
+
+	&::before {
+		content: "";
+		background-image: url(../icons/eye-solid.svg);
+		width: var(--bulma-size-5);
+		aspect-ratio: 1;
+	}
 }
 
 .topic-list__footer {

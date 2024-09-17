@@ -45,31 +45,8 @@ buttonSwitcher.addEventListener("click", (e) => {
 })
 
 
-/**
- * @overview Generates a list of topics on a Discourse forum.
- * @author Jonah Aragon <jonah@triplebit.net>
- * @version 2.1.0
- * @license
- * Copyright (c) 2023 Jonah Aragon
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in all
- * copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
- * SOFTWARE.
- */
+// Topic list generator
+// Loosely inspired by the original script by Jonah Aragon <jonah@triplebit.net>
 
 const getDiscussData = async (url) => {
 	try {
@@ -85,61 +62,73 @@ const getDiscussData = async (url) => {
 const discussTopicsConstructor = async () => {
 	const lists = document.querySelectorAll('ul[data-forum]')
 
+	if (!lists) return
+
 	for (const ul of lists) {
 		const dataset = ul.dataset
 		const data = await getDiscussData(dataset.feed)
-		const topics = data?.topic_list.topics
-		const users = data?.users
+		const allTopics = data?.topic_list.topics
+		const topicsLimiter = dataset.count
+		const users = data.users
+		let loopCount = 0
 
-		topics.forEach((topic) => {
+		console.log(users)
+
+		// -- clear the "skeleton"
+		ul.innerHTML = ''
+
+		allTopics.forEach((topic) => {
+			if (loopCount >= topicsLimiter) return
+
 			// --- Data
 			const title = topic.title
 			const id = topic.id
-			const link = dataset.forum + '/t/' + data.slug + '/' + id
-			const lastPosted = data.last_posted_at
-			const views = data.views
+			const url = dataset.forum + '/t/' + data.slug + '/' + id
+			const lastPosterUsername = topic.last_poster_username === 'system' ? 'Techlore' : topic.last_poster_username
+			const views = topic.views
+			let avatar = ''
 
-			// --- HTML elements
-			const li = document.createElement('li')
-			const link = document.createElement('a')
-			const avatar = document.createElement('img')
-			const textWrapper = document.createElement('span')
-			const title = document.createElement('span')
-			const footer = document.createElement('span')
-			const views = document.createElement('span')
-			const lastPoster = document.createElement('span')
-
-			// li.appendChild(link);
+			users.forEach((user) => {
+				if (user.username == topic.last_poster_username) {
+					avatar = user.avatar_template
+				}
+			})
 
 
-			/*
-			<li class="topic-list__item">
-				<a href="" class="topic-list__link is-flex is-flex-direction-row is-gap-2 is-align-items-flex-start is-justify-content-flex-start">
-					<img src="https://placehold.co/48x48" alt="Placeholder image" class="topic-list__avatar _is-skeleton">
+			// -- Last posted date
+			const lastPostedDate = new Date(topic.last_posted_at)
+			const formattingOptions = {
+				month: 'short', 
+				day: 'numeric',
+				year: 'numeric',
+				hour: 'numeric',
+				minute: 'numeric',
+				hour12: true
+			}
+			const lastPostedDateFormatted = lastPostedDate.toLocaleString('en-US', formattingOptions)
+
+			const li = `<li class="topic-list__item">
+				<a href="${url}" class="topic-list__link is-flex is-flex-direction-row is-gap-2 is-align-items-flex-start is-justify-content-flex-start">
+					<img src="${dataset.forum + avatar.replace('{size}', '48')}" alt="" class="topic-list__avatar has-radius-rounded">
 
 					<span class="topic-list__text is-flex is-flex-direction-column">
-						<span class="topic-list__title _is-skeleton">Check out that four by four. That is hot. Someday, Jennifer, someday.</span>
+						<span class="topic-list__title">${title}</span>
 
 						<span class="topic-list__footer mt-1 is-flex is-gap-3">
-							<span class="topic-list__views _is-skeleton">
-								(o) 5
-							</span>
-							<span class="topic-list__last-poster _is-skeleton">
-								Nov 12, 1955, 22:04 by Biff
+							<span class="topic-list__views px-2 is-inline-flex is-gap-1 is-align-items-center">${views}</span>
+							<span class="topic-list__last-poster">
+								${lastPostedDateFormatted} by ${lastPosterUsername}
 							</span>
 						</span>
 					</span>
 				</a>
-			</li>
-			*/
+			</li>`
 
-
-			console.log('topic', topic);
+			ul.innerHTML += li;
+			loopCount++
 		})
-
 	}
 }
-
 
 discussTopicsConstructor()
 
@@ -235,4 +224,4 @@ async function main() {
 	}
 }
 
-_main();
+//main();
