@@ -12,6 +12,10 @@
 			text-decoration: underline;
 		}
 	}
+
+	&:has(.is-skeleton) {
+		pointer-events: none;
+	}
 }
 
 .topic-list__views {
