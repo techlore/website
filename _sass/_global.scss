@@ -1,6 +1,7 @@
 html {
 	scroll-behavior: smooth;
 	scroll-padding: calc(var(--bulma-size-2) + var(--bulma-navbar-height)) 0 0 0;
+	transition: background-color 250ms ease-in-out;
 
 	@media (min-width: $desktop) {
 		scroll-padding: var(--bulma-size-5) 0 0 0;

@@ -3,6 +3,7 @@
 	color: var(--bulma-primary);
 	margin-top: -.5rem;
 	position: relative;
+	transition: background-color 250ms ease-in-out;
 	z-index: 1;
 
 	@media (min-width: $desktop) {
