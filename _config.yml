@@ -22,7 +22,7 @@ name: "Techlore"
 title: "Techlore — a safer internet."
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Techlore is educating people about digital rights, privacy, security, 
+  Techlore is educating people about digital rights, privacy, security,
   digital control, and other important topics to push the world towards a safer internet.
 baseurl: "/techlore" # the subpath of your site, e.g. /blog
 url: "https://michalsvatos.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -55,6 +55,7 @@ goincognito:
     premium: "https://techlore.teachable.com/p/go-incognito"
 support:
   links: # these links also appear in the "feature box" on the homepage
+    techlorian: "https://discuss.techlore.tech/s"
     patreon: "https://www.patreon.com/techlore"
     paypal: "https://www.paypal.com/donate?hosted_button_id=B3GU7WNGBGQ4J"
     kofi: "https://ko-fi.com/techlore"

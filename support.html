@@ -89,6 +89,12 @@ permalink: /support
 			<div class="columns">
 				<div class="column is-half-tablet is-three-fifths-desktop">
 					<p class="is-flex is-flex-direction-column is-gap-2">
+						{{ t.support.paidSection.choices.techlorian }}
+						<a href="{{ site.support.links.techlorian }}" class="button is-outlined is-gap-2 is-warning has-text-warning" target="_blank">
+							{% include e_render-svg-icon.html icon="discuss" dimension=25 class="icon has-text-warning" inline=true %} {{ t.support.paidSection.choices.techlorianButton }}
+						</a>
+					</p>
+					<p class="is-flex is-flex-direction-column is-gap-2">
 						{{ t.support.paidSection.choices.patreon }}
 						<a href="{{ site.support.links.patreon }}" class="button is-outlined is-gap-2 is-info has-text-info" target="_blank">
 							{% include e_render-svg-icon.html icon="patreon" dimension=25 class="icon has-text-warning" inline=true %} {{ t.support.paidSection.choices.patreonButton }}

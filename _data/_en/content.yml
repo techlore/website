@@ -17,8 +17,9 @@ global:
   description: "Techlore is educating people about digital rights, privacy, security, digital control, and other important topics to push the world towards a safer internet."
   title: "Welcome"
   patreons:
-    title: "Sending 🤍 to our gold [patreons]([[patreonLink]])" 
+    title: "Sending 🤍 to our gold [patreons]([[patreonLink]])"
   platforms:
+    techlorian: "Techlorian"
     youtube: "YouTube"
     peertube: "PeerTube"
     rss: "RSS"
@@ -183,6 +184,8 @@ support:
   paidSection:
     title: "Paid Support Methods"
     choices:
+      techlorian: "Support our work and gain exclusive access to communities, Signal, Q&As, and more on our open source forum."
+      techlorianButton: "Become a Techlorian"
       patreon: "Support our work in exchange for exclusive benefits like our private Signal community, your name in our videos & descriptions, and more."
       patreonButton: "Join our Patreon"
       goincognito: "Purchase (or gift!) Go Incognito Premium for lifetime access to our course."
