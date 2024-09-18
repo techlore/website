@@ -9,12 +9,13 @@
 		- rightTitle:
 		- rightDesc:
 		- rightLinkArray:
-		- buttonsClass
+		- leftButtonsClass
+		- rightButtonClass
 {% endcomment %}
 
 <div class="linkhub-dual-wrapper columns has-1-cols-mobile">
 	<div class="column is-flex is-align-items-center has-text-centered-mobile is-relative">
-		{%- include c_linkhub-dual-wrapper-column.html 
+		{%- include c_linkhub-dual-wrapper-column.html
 			title=include.leftTitle
 			desc=include.leftDesc
 			class="is-on-the-left"
@@ -22,13 +23,18 @@
 		{%- include e_render-svg-icon.html inline=true class="linkhub-dual__arrow" icon="arrow-down" -%}
 	</div>
 	<div class="column">
-		{%- include c_linkhub-dual.html leftLinks=include.leftLinkArray rightLinks=include.rightLinkArray -%}
+		{%- include c_linkhub-dual.html
+			leftLinks=include.leftLinkArray
+			rightLinks=include.rightLinkArray
+			leftButtonClass=include.leftButtonClass
+			rightButtonClass=include.rightButtonClass
+		-%}
 	</div>
 	<div class="column is-flex is-align-items-center has-text-centered-mobile is-relative">
-		{%- include c_linkhub-dual-wrapper-column.html 
-			title=include.rightTitle 
-			desc=include.rightDesc 
-			class="is-on-the-right" 
+		{%- include c_linkhub-dual-wrapper-column.html
+			title=include.rightTitle
+			desc=include.rightDesc
+			class="is-on-the-right"
 		-%}
 		{%- include e_render-svg-icon.html inline=true class="linkhub-dual__arrow" icon="arrow-down" -%}
 	</div>

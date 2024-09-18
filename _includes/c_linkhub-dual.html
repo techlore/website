@@ -6,18 +6,20 @@
 	Parameters:
 		- leftLinks (array)
 		- rightLinks (array)
+		- leftButtonsClass
+		- rightButtonClass
 {% endcomment %}
 
 <div class="linkhub-dual box _p-6-custom-responsive">
 	<div class="columns">
 		<div class="linkhub-dual__column column is-half-tablet">
 			<div class="linkhub-dual__list _is-flex _is-flex-direction-column buttons is-centered">
-				{%  include c_linkhub-dual-link.html class="is-primary" links=include.leftLinks %}
+				{%  include c_linkhub-dual-link.html class=include.leftButtonClass links=include.leftLinks %}
 			</div>
 		</div>
 		<div class="linkhub-dual__column column is-half-tablet">
 			<div class="linkhub-dual__list _is-flex _is-flex-direction-column buttons is-centered">
-				{%  include c_linkhub-dual-link.html class="is-danger" links=include.rightLinks %}
+				{%  include c_linkhub-dual-link.html class=include.rightButtonClass links=include.rightLinks %}
 			</div>
 		</div>
 	</div>
