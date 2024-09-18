@@ -43,3 +43,40 @@
 		}
 	}
 }
+
+.linkhub-dual-wrapper__column {
+	@media (max-width: $tablet - 1px) {
+		width: 100%;
+	} 
+}
+
+.svg-icon.linkhub-dual__arrow {
+	color: var(--custom-linkhub-arrow-color);
+	position: absolute;
+	opacity: .2;
+	z-index: -1;
+	width: calc(var(--bulma-size-5) * 15);
+
+	@media (max-width: $tablet - 1px) {
+		left: 50%;
+		translate: -50% -15%;
+	}
+
+	@media (min-width: $tablet) {
+		right: calc(var(--bulma-size-5)* -2.5);
+		rotate: -90deg;
+	}
+
+	.is-on-the-right + & {
+		@media (max-width: $tablet - 1px) {
+			rotate: -180deg;
+			translate: -50% 15%;
+		}
+	
+		@media (min-width: $tablet) {
+			right: auto;
+			left: calc(var(--bulma-size-5)* -2.5);
+			rotate: 90deg;
+		}
+	}
+}

@@ -1,9 +1,10 @@
 {% comment %}
 	LINK HUB - LINK -----------------------------------------
 	Info:
-		- Item (li + a) for the "linkhub" component
+		- Item for the "linkhub" component
 	Parameters:
 		- links (array)
+		- class: custom class
 {% endcomment %}
 
 {% if include.links.size > 0 %}
@@ -12,8 +13,6 @@
 		{% unless link.external %}
 			{% assign url = link.url | absolute_url %}
 		{% endunless %}
-		<li class="linkhub-dual__item">
-			<a href="{{ url }}" class="linkhub-dual__button button is-primary is-outlined">{{ link.title }}</a>
-		</li>
+		<a href="{{ url }}" class="linkhub-dual__button button {% if include.class %}{{ include.class }}{% endif %}">{{ link.title }}</a>
 	{% endfor %}
 {% endif %}

@@ -37,11 +37,13 @@
 	--custom-box-danger-bg: var(--bulma-danger-80-invert);
 	--custom-box-danger-color: var(--bulma-danger);
 	--custom-box-danger-border-color: var(--bulma-danger-30);
+
+	--custom-linkhub-arrow-color: var(--bulma-grey-dark);
 }
 
 @media (prefers-color-scheme: light) {
 	:root {
-		// TODO!
+		--custom-linkhub-arrow-color: var(--bulma-grey-light);
 	}
 }
 
@@ -53,7 +55,7 @@
 
 [data-theme=light],
 .theme-light {
-	// TODO!
+	--custom-linkhub-arrow-color: var(--bulma-grey-light);
 }
 
 [data-theme=dark],

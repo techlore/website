@@ -8,17 +8,17 @@
 		- rightLinks (array)
 {% endcomment %}
 
-<div class="linkhub-dual box p-6-custom-responsive">
+<div class="linkhub-dual box _p-6-custom-responsive">
 	<div class="columns">
 		<div class="linkhub-dual__column column is-half-tablet">
-			<ul class="linkhub-dual__list is-flex is-flex-direction-column listless marginless">
-				{%  include c_linkhub-dual-link.html links=include.leftLinks %}
-			</ul>
+			<div class="linkhub-dual__list _is-flex _is-flex-direction-column buttons is-centered">
+				{%  include c_linkhub-dual-link.html class="is-primary" links=include.leftLinks %}
+			</div>
 		</div>
 		<div class="linkhub-dual__column column is-half-tablet">
-			<ul class="linkhub-dual__list is-flex is-flex-direction-column listless marginless">
-				{%  include c_linkhub-dual-link.html links=include.rightLinks %}
-			</ul>
+			<div class="linkhub-dual__list _is-flex _is-flex-direction-column buttons is-centered">
+				{%  include c_linkhub-dual-link.html class="is-danger" links=include.rightLinks %}
+			</div>
 		</div>
 	</div>
 </div>
