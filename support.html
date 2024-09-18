@@ -100,12 +100,6 @@ permalink: /support
 							{% include e_render-svg-icon.html icon="star" dimension=25 class="icon has-text-warning" inline=true %} {{ t.goincognito.premium.buttonText }}
 						</a>
 					</p>
-					<p class="is-flex is-flex-direction-column is-gap-2">
-						{{ t.support.paidSection.choices.liberapay }}
-						<a href="{{ site.support.links.liberapay }}" class="button is-outlined is-gap-2 is-warning" target="_blank">
-							{% include e_render-svg-icon.html icon="liberapay" dimension=25 class="icon has-text-warning" inline=true %} {{ t.global.platforms.liberapay }}
-						</a>
-					</p>
 					<p class="is-flex is-flex-direction-column is-gap-2 is-warning">
 						{{ t.support.paidSection.choices.other }}
 						<span class="buttons">
@@ -127,6 +121,12 @@ permalink: /support
 						{{ t.support.paidSection.choices.sponsors }}
 						<a href="{{ site.support.extra.sponsors }}" class="button is-outlined is-gap-2 is-success" target="_blank">
 							{% include e_render-svg-icon.html icon="star" dimension=25 class="icon has-text-warning" inline=true %} {{ t.support.paidSection.choices.sponsorsButton }}
+						</a>
+					</p>
+					<p class="is-flex is-flex-direction-column is-gap-2">
+						{{ t.support.paidSection.choices.xmrchat }}
+						<a href="{{ site.support.links.xmrchat }}" class="button is-outlined is-gap-2 is-warning" target="_blank">
+							{% include e_render-svg-icon.html icon="xmrchat" dimension=25 class="icon has-text-warning" inline=true %} {{ t.global.platforms.xmrchat }}
 						</a>
 					</p>
 				</div>

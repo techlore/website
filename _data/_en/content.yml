@@ -43,6 +43,7 @@ global:
     omglol: "omg.lol"
     spring: "Spring"
     bluesky: "Bluesky"
+    xmrchat: "XMRChat"
     titles:
       video: "Video platforms"
       core: "Core platforms"
@@ -185,7 +186,7 @@ support:
       patreon: "Support our work in exchange for exclusive benefits like our private Signal community, your name in our videos & descriptions, and more."
       patreonButton: "Join our Patreon"
       goincognito: "Purchase (or gift!) Go Incognito Premium for lifetime access to our course."
-      liberapay: "Support us on Liberapay for a safer alternative to most websites"
+      xmrchat: "Support us on XMRChat with Monero"
       other: "We offer a few more options in the event nothing above works for you"
       sponsors: "Become a sponsor of Techlore and showcase your brand to our audience!"
       sponsorsButton: "Sponsors"
@@ -225,7 +226,7 @@ affiliates:
 #
 coaching:
   perex: "Individual support, because you deserve to be safe and in control of your online experience."
-  services: 
+  services:
     -
       title: "Identity Theft Prevention"
       desc: "We analyze your weak points, threat model, and individual situation to protect your identity from strangers, people-searching websites, and cybercriminals."
@@ -248,7 +249,7 @@ coaching:
       - Individualized support for your situation
       - Free consultation before starting
       - Individually work with Henry, Owner of Techlore
-      - Education & Monero discounts available 
+      - Education & Monero discounts available
     buttonText: "Apply for coaching"
 
 # -----------------------------------------

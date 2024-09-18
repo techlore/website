@@ -56,9 +56,9 @@ goincognito:
 support:
   links: # these links also appear in the "feature box" on the homepage
     patreon: "https://www.patreon.com/techlore"
-    liberapay: "https://liberapay.com/Techlore/"
     paypal: "https://www.paypal.com/donate?hosted_button_id=B3GU7WNGBGQ4J"
     kofi: "https://ko-fi.com/techlore"
+    xmrchat: "https://xmrchat.com/techlore"
   extra:
     youtube: "https://www.youtube.com/channel/UCs6KfncB4OV6Vug4o_bzijg/join"
     githubSponsors: "https://github.com/sponsors/techlore"
