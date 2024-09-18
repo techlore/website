@@ -96,7 +96,7 @@ permalink: /affiliates
 							{% for button in product.buttons %}
 								{% assign classes = "" %}
 								{% if button.affil %}
-									{% assign classes = "is-primary is-gap-1.5" %}
+									{% assign classes = "is-warning is-gap-1.5" %}
 								{% endif %}
 
 								<a href="{{ button.url }}" class="button {{ classes }}" target="_blank">
