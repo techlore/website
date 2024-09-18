@@ -21,7 +21,8 @@
 	--bulma-radius: .75rem;
 	--bulma-radius-rounded: 100vmax;
 
-	// --- custom properties
+	// --- CUSTOM
+	// --- feature-box
 	--custom-box-warning-bg: var(--bulma-warning-65-invert);
 	--custom-box-warning-color: var(--bulma-warning);
 	--custom-box-warning-border-color: var(--bulma-warning-75-invert);
@@ -38,27 +39,28 @@
 	--custom-box-danger-color: var(--bulma-danger);
 	--custom-box-danger-border-color: var(--bulma-danger-30);
 
+	// --- linkhub-dual
 	--custom-linkhub-arrow-color: var(--bulma-grey-dark);
+
+	// --- coaching
+	--custom-coaching-cta-bg: var(--bulma-warning-05);
 }
 
 @media (prefers-color-scheme: light) {
 	:root {
+		// --- linkhub-dual
 		--custom-linkhub-arrow-color: var(--bulma-grey-light);
-	}
-}
 
-@media (prefers-color-scheme: dark) {
-	:root {
-		// TODO!
+		// --- coaching
+		--custom-coaching-cta-bg: var(--bulma-warning-95);
 	}
 }
 
 [data-theme=light],
 .theme-light {
+	// --- linkhub-dual
 	--custom-linkhub-arrow-color: var(--bulma-grey-light);
-}
 
-[data-theme=dark],
-.theme-dark {
-	// TODO!
+	// --- coaching
+	--custom-coaching-cta-bg: var(--bulma-warning-95);
 }

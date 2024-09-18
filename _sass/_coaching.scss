@@ -1,0 +1,43 @@
+.coaching {
+	position: relative;
+
+	@media (min-width: $desktop) {
+		--_spacer: calc(var(--bulma-size-5) * 14);
+		.coaching__box {
+			&:nth-child(1) {
+				.box {
+					padding-bottom: var(--_spacer);
+				}
+			}
+
+			&:nth-child(2) {
+				.box {
+					padding-bottom: var(--_spacer);
+				}
+			}
+
+			&:nth-child(3) {
+				.box {
+					padding-top: var(--_spacer);
+				}
+			}
+
+			&:nth-child(4) {
+				.box {
+					padding-top: var(--_spacer);
+				}
+			}
+		}
+
+		.coaching__box--cta {
+			position: absolute;
+			inset: 50% auto auto 50%;
+			translate: -50% -50%;
+			z-index: 1;
+
+			.box {
+				background-color: var(--custom-coaching-cta-bg);
+			}
+		}
+	}
+}

@@ -10,9 +10,9 @@ permalink: /coaching
 
 <section>
 	<div class="container">
-		<div class="columns is-multiline">
+		<div class="coaching columns is-multiline">
 			{% for service in site.data._en.content.coaching.services %}
-				<div class="column is-full-mobile is-half-tablet">
+				<div class="coaching__box column is-full-mobile is-half-tablet">
 					{% include c_feature-box.html
 							icon=service.icon
 							title=service.title
@@ -21,7 +21,7 @@ permalink: /coaching
 					%}
 				</div>
 			{% endfor %}
-			<div class="column is-two-thirds-tablet m-auto">
+			<div class="coaching__box coaching__box--cta column is-two-thirds-tablet m-auto">
 				{% assign desc = site.data._en.content.coaching.getStarted.desc | markdownify %}
 
 				{% include c_feature-box.html
