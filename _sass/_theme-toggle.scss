@@ -1,4 +1,5 @@
-button[data-theme-toggle] {
+button[data-theme-toggle].theme-toggle {
+	--bulma-button-border-width: 0px;
 	position: relative;
 
 	&:after {

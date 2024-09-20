@@ -5,6 +5,7 @@
 	@media (pointer: coarse) {
 		padding: calc(var(--bulma-size-5) * .5) var(--bulma-size-5);
 		min-width: calc(var(--bulma-size-5) * 3);
+		border-radius: var(--bulma-radius-medium);
 
 		&.is-primary:not(.is-outlined) {
 			border: 1px solid var(--bulma-primary-30);
@@ -24,6 +25,11 @@ a.is-touch-friendly {
 	}
 }
 
-.button.is-danger {
+.button.is-danger,
+.button.is-info,
+.button.is-warning,
+.button.is-success,
+.button.is-primary {
 	--bulma-button-color-l: var(--bulma-danger-100-l);
+	--bulma-button-border-width: 1px;
 }
