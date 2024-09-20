@@ -3,7 +3,15 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	{% seo %}
+	{% comment %}THX https://realfavicongenerator.net/ {% endcomment %}
 	<link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}{{ 'now' | date: '%s' | prepend: "?" }}">
+	<link rel="apple-touch-icon" sizes="180x180" href="{{ "/apple-touch-icon.png" | relative_url }}">
+	<link rel="icon" type="image/png" sizes="32x32" href="{{ "/favicon-32x32.png" | relative_url }}">
+	<link rel="icon" type="image/png" sizes="16x16" href="{{ "/favicon-16x16.png" | relative_url }}">
+	<link rel="manifest" href="{{ "/site.webmanifest" | relative_url }}">
+	<link rel="mask-icon" href="{{ "/safari-pinned-tab.svg" | relative_url }}" color="#5675e6">
+	<meta name="msapplication-TileColor" content="#2d89ef">
+	<meta name="theme-color" content="#5675e6">
 	{% comment %}
 		{%- if jekyll.environment == 'production' and site.google_analytics -%}
 			{%- include google-analytics.html -%}
