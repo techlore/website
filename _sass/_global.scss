@@ -8,6 +8,15 @@ html {
 	}
 }
 
+img {
+	font-style: italic;
+	vertical-align: middle;
+	max-width: 100%;
+	height: auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 // FIX for Bulma columns on mobile
 .container {
 	padding-inline: var(--bulma-column-gap); // .75rem
