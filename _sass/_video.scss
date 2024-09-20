@@ -11,8 +11,10 @@
 }
 
 .video-list__item {
+	// --- Minimal (Home, Videos)
 	&--minimal {
-		//
+		border-radius: var(--bulma-radius);
+		border: 1px solid var(--bulma-border-weak);
 	}
 
 	// --- Detailed ("all videos" version)
@@ -27,6 +29,7 @@
 	display: block;
 	position: relative;
 	overflow: hidden;
+	text-wrap: balance;
 
 	&.has-overlay {
 		&:before {
@@ -50,6 +53,12 @@
 		.video-list__tags {
 			translate: 0 0;
 		}
+	}
+
+	.video-list__item--minimal & {
+		border-bottom-right-radius: 0;
+		border-bottom-left-radius: 0;
+		border: 0;
 	}
 
 	// --- Detailed ("all videos" version)
@@ -83,6 +92,11 @@
 .video-list__content {
 	padding-inline: calc(var(--bulma-size-5) * .5);
 	position: relative;
+	padding: .25rem 1rem .75rem 1rem;
+
+	.video-list__item--minimal & {
+		text-align: center;
+	}
 }
 
 .video-list__title {

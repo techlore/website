@@ -1,3 +1,7 @@
+.button {
+	--bulma-button-weight: var(--bulma-weight-bold);
+}
+
 // Custom "mobile/touch" friendly button
 .button.is-touch-friendly {
 	@extend .button;

@@ -27,7 +27,13 @@ permalink: /affiliates
 
 				<div class="affiliates__item is-align-items-center media is-gap-2 anchor" id="{{ slugifiedName }}">
 					<figure class="py-2 is-align-items-center is-flex is-justify-content-center">
-						<img src="{% link /assets/affiliates/icons/{{slugifiedName}}.svg %}" class="affiliates__logo" alt="Logo - {{ tool.name }}" loading="lazy">
+						<img
+							src="{% link /assets/affiliates/icons/{{slugifiedName}}.svg %}"
+							class="affiliates__logo"
+							alt="Logo - {{ tool.name }}"
+							loading="lazy"
+							{% if tool.whiteIcon %}data-apply-light-theme-filter{% endif %}
+						>
 					</figure>
 					<div class="affiliates__content media-content is-flex is-flex-direction-column is-align-items-flex-start">
 						<h4 class="affiliates__title is-flex is-flex-direction-column mb-0">
@@ -77,7 +83,13 @@ permalink: /affiliates
 
 				<div class="affiliates__item is-align-items-center media is-gap-2 anchor" id="{{ slugifiedName }}">
 					<figure class="py-2 is-align-items-center is-flex is-justify-content-center">
-						<img src="{% link /assets/affiliates/icons/{{slugifiedName}}.svg %}" class="affiliates__logo" alt="Logo - {{ product.name }}" loading="lazy">
+						<img
+							src="{% link /assets/affiliates/icons/{{slugifiedName}}.svg %}"
+							class="affiliates__logo"
+							alt="Logo - {{ product.name }}"
+							loading="lazy"
+							{% if product.whiteIcon %}data-apply-light-theme-filter{% endif %}
+						>
 					</figure>
 					<div class="affiliates__content media-content is-flex is-flex-direction-column is-align-items-flex-start">
 						<h4 class="affiliates__title is-flex is-flex-direction-column mb-0">

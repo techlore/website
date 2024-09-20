@@ -8,7 +8,7 @@ permalink: /support
 
 <section>
 	<div class="container has-text-wrap-balance">
-		<div class="support-why has-radius-large has-glare has-border has-background-info-dark p-6-custom-responsive">
+		<div class="support-why has-radius-large has-glare has-border p-6-custom-responsive">
 			<div class="support-why__content">
 				<h2>{{ t.support.whySection.title }}</h2>
 				<h3 class="has-text-warning">
@@ -140,7 +140,7 @@ permalink: /support
 					<div class="box has-glare has-background-warning-45 p-5">
 						<h3>{{ t.support.paidSection.choices.monero }}</h3>
 						<img src="{% link assets/images/techlorexmr.png %}" alt="Monero QR code" class="support-paid__qr has-radius-normal">
-						<div class="field">
+						<div class="field mt-5">
 							<label class="label is-hidden" for="xmraddress"></label>
 							<div class="control">
 								<textarea id="xmraddress" class="textarea has-fixed-size has-text-info" readonly>{{ site.xmrAddress }}</textarea>

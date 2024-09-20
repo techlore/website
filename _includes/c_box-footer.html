@@ -10,7 +10,7 @@
 {% endcomment %}
 
 {% if include.link and include.title %}
-	<div class="box-footer is-flex">
+	<div class="box-footer is-flex mt-2">
 		<a href="{{ include.link | absolute_url }}" class="box-footer__button button is-small has-radius-normal is-lowercase{% if include.class %} {{ include.class }}{% endif %}">
 			{{ include.title }}
 		</a>

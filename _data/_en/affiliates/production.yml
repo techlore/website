@@ -1,3 +1,14 @@
+# -----------------------------------------
+# PRODUCTION TOOLS
+#
+# name (string)
+# type (string, optional)
+# buttons (array)
+#
+# whiteIcon (boolean):  In case the icon is white (or really light),
+#                       this will apply "filter: invert(.75)" when light theme is active
+# affil (boolean):      Shows a distinct button with an icon
+#
 -
   name: "Davinci Resolve Studio"
   type: "Video Production"
@@ -27,6 +38,7 @@
 -
   name: "Sony A7 III"
   type: "Camera"
+  whiteIcon: true
   buttons:
     -
       text: "Amazon"
@@ -42,6 +54,7 @@
 -
   name: "Prime Lens"
   type: "Lens"
+  whiteIcon: true
   buttons:
     -
       text: "Amazon"
@@ -72,6 +85,7 @@
 -
   name: "Sennheiser MKE 600"
   type: "Shotgun Mic"
+  whiteIcon: true
   buttons:
     -
       text: "Amazon"
@@ -102,6 +116,7 @@
 -
   name: "Senheiser HD600"
   type: "Headphones"
+  whiteIcon: true
   buttons:
     -
       text: "Amazon"

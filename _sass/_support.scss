@@ -1,5 +1,7 @@
 // WHY?
 .support-why {
+	background-color: var(--custom-support-why-bg, none);
+
 	@media (min-width: $tablet) {
 		display: flex;
 		align-items: center;

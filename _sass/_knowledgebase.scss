@@ -65,6 +65,11 @@
 	padding: calc(var(--bulma-size-5) * .45) calc(var(--bulma-size-5) * .45);
 	aspect-ratio: 1;
 	outline: 1px solid var(--bulma-border-weak);
+
+	@media (min-width: $fullhd) {
+		width: calc(var(--bulma-size-5) * 4);
+		padding: calc(var(--bulma-size-5) * .75) calc(var(--bulma-size-5) * .75);
+	}
 }
 
 .knowledgebase-item__favorite {

@@ -6,6 +6,10 @@
 	line-height: 1.25;
 }
 
+.topic-list__last-poster {
+	color: var(--custom-topic-list-info, --bulma-black-invert);
+}
+
 .topic-list__link {
 	&:hover {
 		.topic-list__title {

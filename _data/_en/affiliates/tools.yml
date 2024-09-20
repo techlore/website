@@ -1,3 +1,14 @@
+# -----------------------------------------
+# PRIVACY & SECURITY TOOLS
+#
+# name (string)
+# type (string, optional)
+# buttons (array)
+#
+# whiteIcon (boolean):  In case the icon is white (or really light),
+#                       this will apply "filter: invert(.75)" when light theme is active
+# affil (boolean):      Shows a distinct button with an icon
+#
 -
   name: "Proton mail"
   type: "E2EE Email"
@@ -23,6 +34,7 @@
 -
   name: "Proton Pass"
   type: "Password Manager"
+  whiteIcon: true
   buttons:
     -
       text: "Affiliate"
@@ -89,6 +101,7 @@
 -
   name: "Privacy.com"
   type: "Card Aliasing (US only)"
+  whiteIcon: true
   buttons:
     -
       text: "Affiliate"
@@ -171,6 +184,7 @@
 -
   name: "Screen Protectors"
   type: "Privacy Protectors"
+  whiteIcon: true
   buttons:
     -
       text: "Amazon"
@@ -224,6 +238,7 @@
 -
   name: "Router"
   type: "OpenWRT Compatible"
+  whiteIcon: true
   buttons:
     -
       text: "Amazon"

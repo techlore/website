@@ -50,7 +50,7 @@ permalink: /videos
 				{%- if site.clips.size > 0 -%}
 					<div class="box has-footer">
 						<ul class="video-list marginless listless columns">
-							{% assign sortedVideos = site.clips | sort: "frontmatter.datePublished" | reverse %}
+							{% assign sortedVideos = site.clips | sort: "datePublished" | reverse %}
 							{% for video in sortedVideos limit: 2 %}
 								{% assign filename = video.path | split: "/" | last %}
 								{% assign videoThumbnail = "/clips/" | append: filename | replace: ".md", ".jpg" | relative_url %}

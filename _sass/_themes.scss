@@ -26,19 +26,19 @@
 
 	// --- CUSTOM
 	// --- feature-box
-	--custom-box-warning-bg: var(--bulma-warning-65-invert);
+	--custom-box-warning-bg: transparent;
 	--custom-box-warning-color: var(--bulma-warning);
 	--custom-box-warning-border-color: var(--bulma-warning-75-invert);
 
-	--custom-box-success-bg: var(--bulma-success-65-invert);
+	--custom-box-success-bg: transparent;
 	--custom-box-success-color: var(--bulma-success);
 	--custom-box-success-border-color: var(--bulma-success-95-invert);
 
-	--custom-box-info-bg: var(--bulma-info-65-invert);
+	--custom-box-info-bg: transparent;
 	--custom-box-info-color: var(--bulma-info);
 	--custom-box-info-border-color: var(--bulma-info-light-invert);
 
-	--custom-box-danger-bg: var(--bulma-danger-80-invert);
+	--custom-box-danger-bg: transparent;
 	--custom-box-danger-color: var(--bulma-danger);
 	--custom-box-danger-border-color: var(--bulma-danger-30);
 
@@ -47,23 +47,68 @@
 
 	// --- coaching
 	--custom-coaching-cta-bg: var(--bulma-warning-05);
+
+	// --- support
+	--custom-support-why-bg: var(--bulma-hr-background-color);
 }
 
 @media (prefers-color-scheme: light) {
 	:root {
+		// --- feature-box
+		--custom-box-warning-bg: var(--bulma-warning-95);
+		--custom-box-warning-border-color: transparent;
+
+		--custom-box-success-bg: var(--bulma-success-95);
+		--custom-box-success-border-color: transparent;
+
+		--custom-box-info-bg: var(--bulma-info-95);
+		--custom-box-info-border-color: transparent;
+
+		--custom-box-danger-bg: var(--bulma-danger-95);
+		--custom-box-danger-border-color: transparent;
+
+		// --- home
+		--custom-topic-list-info: var(--bulma-black);
+
 		// --- linkhub-dual
 		--custom-linkhub-arrow-color: var(--bulma-grey-light);
 
 		// --- coaching
 		--custom-coaching-cta-bg: var(--bulma-warning-95);
+		--custom-coaching-cta-shadow: 0 0 50px -20px var(--bulma-warning);
+
+		[data-apply-light-theme-filter] {
+			filter: invert(.75);
+		}
 	}
 }
 
 [data-theme=light],
 .theme-light {
+	// --- feature-box
+	--custom-box-warning-bg: var(--bulma-warning-95);
+	--custom-box-warning-border-color: transparent;
+
+	--custom-box-success-bg: var(--bulma-success-95);
+	--custom-box-success-border-color: transparent;
+
+	--custom-box-info-bg: var(--bulma-info-95);
+	--custom-box-info-border-color: transparent;
+
+	--custom-box-danger-bg: var(--bulma-danger-95);
+	--custom-box-danger-border-color: transparent;
+
+	// --- home
+	--custom-topic-list-info: var(--bulma-black);
+
 	// --- linkhub-dual
 	--custom-linkhub-arrow-color: var(--bulma-grey-light);
 
 	// --- coaching
 	--custom-coaching-cta-bg: var(--bulma-warning-95);
+	--custom-coaching-cta-shadow: 0 0 50px -20px var(--bulma-warning);
+
+	[data-apply-light-theme-filter] {
+		filter: invert(.75);
+	}
 }
