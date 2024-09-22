@@ -1,0 +1,83 @@
+---
+layout: page
+title: Contact Techlore
+permalink: /contact
+---
+{% include variables.html %}
+
+{% assign perex = t.contact.perex %}
+{% include c_sub-hero.html title=page.title perex=perex %}
+
+<section>
+	<div class="container is-max-tablet">
+		<h2 class="is-flex is-justify-content-center is-align-items-center has-text-centered">
+			{% include e_render-svg-icon.html icon="xbox-x" inline=true dimension=50 class="has-text-danger mx-2 is-flex-shrink-0" %}
+			<span>{{ t.contact.section.title }}</span>
+			{% include e_render-svg-icon.html icon="xbox-x" inline=true dimension=50 class="has-text-danger mx-2 is-flex-shrink-0" %}
+		</h2>
+
+		<div class="columns has-border has-radius-large is-flex-direction-column mt-4">
+			<div class="column">
+				{% include c_feature-box.html
+						title=site.data._en.content.contact.doNot.general.title
+						desc=site.data._en.content.contact.doNot.general.desc
+						buttonText=site.data._en.content.contact.doNot.general.buttonText
+						buttonLink=site.forum.links.discuss
+						buttonExternal=true
+						buttonClass="is-warning is-outlined"
+						class="p-4 mt-4"
+				%}
+			</div>
+			<div class="column">
+				{% assign coachingBtn = site.data._en.navigation.hiddenNav.coaching.url | absolute_url %}
+				{% include c_feature-box.html
+						title=site.data._en.content.contact.doNot.consulting.title
+						desc=site.data._en.content.contact.doNot.consulting.desc
+						buttonText=site.data._en.content.contact.doNot.consulting.buttonText
+						buttonLink=coachingBtn
+						buttonClass="is-warning is-outlined"
+						class="p-4 mt-4"
+				%}
+			</div>
+			<div class="column">
+				{% include c_feature-box.html
+						title=site.data._en.content.contact.doNot.random.title
+						desc=site.data._en.content.contact.doNot.random.desc
+						class="p-4 mt-4"
+				%}
+			</div>
+			<div class="column">
+				{% include c_feature-box.html
+						title=site.data._en.content.contact.doNot.sponsorship.title
+						desc=site.data._en.content.contact.doNot.sponsorship.desc
+						buttonText=site.data._en.content.contact.doNot.sponsorship.buttonText
+						buttonLink=site.data._en.content.contact.doNot.sponsorship.buttonLink
+						buttonExternal=true
+						buttonClass="is-warning is-outlined"
+						class="p-4 mt-4"
+				%}
+			</div>
+		</div>
+
+		<div class="column is-full-mobile has-text-centered">
+			{%- capture email -%}
+				<a href='mailto:{{ site.email }}'>{{ site.email }}</a>
+			{%- endcapture -%}
+
+			{% include c_feature-box.html
+					title="Email"
+					desc=email
+					class="is-box-success has-border p-4 mt-4"
+			%}
+
+				<h3 class="">
+					Email
+				</h3>
+				<h4>
+					<a href="">{{ site.email }}</a>
+				</h4>
+		</div>
+
+	</div>
+</section>
+

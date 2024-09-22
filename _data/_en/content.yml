@@ -13,9 +13,7 @@
 # Italic:           <i>italic text</i>
 #
 global:
-  sitename: "Techlore — a safer internet"
   description: "Techlore is educating people about digital rights, privacy, security, digital control, and other important topics to push the world towards a safer internet."
-  title: "Welcome"
   patreons:
     title: "Sending 🤍 to our gold [patreons]([[patreonLink]])"
   platforms:
@@ -254,6 +252,31 @@ coaching:
       - Individually work with Henry, Owner of Techlore
       - Education & Monero discounts available
     buttonText: "Apply for coaching"
+
+# -----------------------------------------
+# CONTACT page
+#
+contact:
+  perex: "Have a question, concern, or idea? We're here to listen."
+  section:
+    title: "We do <u>NOT</u> respond to the following"
+  doNot:
+    general:
+      title: "General questions"
+      desc: "Eg. <i>Should I use XYZ?</i> Please join our online community instead."
+      buttonText: "Visit our forum"
+    consulting:
+      title: "Consulting/coaching"
+      desc: "Please direct all the requests to our dedicated page."
+      buttonText: "Visit Coaching"
+    random:
+      title: "Random, rambling gibberish."
+      desc: "Any pointless rants or random complaints."
+    sponsorship:
+      title: "Sponsorship offers"
+      desc: "All sponsorship offers that do not meet [our strict protocols](https://discuss.techlore.tech/pub/sponsors-affiliates)."
+      buttonText: "View sponsorship offerings"
+      buttonLink: "https://discuss.techlore.tech/pub/sponsors"
 
 # -----------------------------------------
 # "Feature-box" sections (Support Us, Merchandise, Socials, Techlore Tools ...)

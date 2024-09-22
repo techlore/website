@@ -2,6 +2,16 @@
 	--bulma-box-shadow: none;
 	--bulma-box-background-color: transparent;
 	--bulma-box-padding: 0;
+
+	p {
+		a {
+			text-decoration: underline;
+
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
 }
 
 .is-box-warning {
@@ -11,8 +21,8 @@
 }
 
 .is-box-success {
-	border-color: var(--custom-box-success-border-color);
 	color: var(--custom-box-success-color);
+	border-color: var(--custom-box-success-border-color);
 	background-color: var(--custom-box-success-bg);
 }
 
@@ -23,8 +33,8 @@
 }
 
 .is-box-danger {
-	border-color: var(--custom-box-danger-border-color);
 	color: var(--custom-box-danger-color);
+	border-color: var(--custom-box-danger-border-color);
 	background-color: var(--custom-box-danger-bg);
 }
 
