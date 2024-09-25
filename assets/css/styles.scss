@@ -1,6 +1,5 @@
 ---
 ---
-$tech-color-primary: #5574E6;
 
 @use "../node_modules/bulma/sass" with (
 	// --- typography
@@ -17,9 +16,6 @@ $tech-color-primary: #5574E6;
 	$size-5: 1rem,
 	$size-6: 1rem,
 	$size-7: 0.8333rem,
-
-	// --- colors
-	$primary: $tech-color-primary,
 );
 
 
@@ -53,7 +49,6 @@ $tech-color-primary: #5574E6;
 @import "topic-list";
 @import "coaching";
 @import "footer";
-@import "test";
 
 :root {
 	min-height: 0vw; // Safari fix for fluid typography
