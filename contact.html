@@ -8,76 +8,82 @@ permalink: /contact
 {% assign perex = t.contact.perex %}
 {% include c_sub-hero.html title=page.title perex=perex %}
 
+
 <section>
-	<div class="container is-max-tablet">
-		<h2 class="is-flex is-justify-content-center is-align-items-center has-text-centered">
-			{% include e_render-svg-icon.html icon="xbox-x" inline=true dimension=50 class="has-text-danger mx-2 is-flex-shrink-0" %}
-			<span>{{ t.contact.section.title }}</span>
-			{% include e_render-svg-icon.html icon="xbox-x" inline=true dimension=50 class="has-text-danger mx-2 is-flex-shrink-0" %}
+	<div class="container is-max-tablet is-flex is-flex-direction-column is-gap-2">
+		<h2 class="has-text-centered">
+			{{ t.contact.section.title }}
 		</h2>
-
-		<div class="columns has-border has-radius-large is-flex-direction-column mt-4">
-			<div class="column">
-				{% include c_feature-box.html
-						title=site.data._en.content.contact.doNot.general.title
-						desc=site.data._en.content.contact.doNot.general.desc
-						buttonText=site.data._en.content.contact.doNot.general.buttonText
-						buttonLink=site.forum.links.discuss
-						buttonExternal=true
-						buttonClass="is-warning is-outlined"
-						class="p-4 mt-4"
-				%}
-			</div>
-			<div class="column">
-				{% assign coachingBtn = site.data._en.navigation.hiddenNav.coaching.url | absolute_url %}
-				{% include c_feature-box.html
-						title=site.data._en.content.contact.doNot.consulting.title
-						desc=site.data._en.content.contact.doNot.consulting.desc
-						buttonText=site.data._en.content.contact.doNot.consulting.buttonText
-						buttonLink=coachingBtn
-						buttonClass="is-warning is-outlined"
-						class="p-4 mt-4"
-				%}
-			</div>
-			<div class="column">
-				{% include c_feature-box.html
-						title=site.data._en.content.contact.doNot.random.title
-						desc=site.data._en.content.contact.doNot.random.desc
-						class="p-4 mt-4"
-				%}
-			</div>
-			<div class="column">
-				{% include c_feature-box.html
-						title=site.data._en.content.contact.doNot.sponsorship.title
-						desc=site.data._en.content.contact.doNot.sponsorship.desc
-						buttonText=site.data._en.content.contact.doNot.sponsorship.buttonText
-						buttonLink=site.data._en.content.contact.doNot.sponsorship.buttonLink
-						buttonExternal=true
-						buttonClass="is-warning is-outlined"
-						class="p-4 mt-4"
-				%}
-			</div>
-		</div>
-
-		<div class="column is-full-mobile has-text-centered">
-			{%- capture email -%}
-				<a href='mailto:{{ site.email }}'>{{ site.email }}</a>
-			{%- endcapture -%}
-
-			{% include c_feature-box.html
-					title="Email"
-					desc=email
-					class="is-box-success has-border p-4 mt-4"
-			%}
-
-				<h3 class="">
-					Email
+		<div class="columns is-align-items-center">
+			<div class="column is-two-thirds">
+				<h3 class="is-align-items-center is-flex is-gap-1">
+					{% include e_render-svg-icon.html icon="xbox-x" inline=true dimension=25 class="has-text-danger" %}
+					{{ site.data._en.content.contact.doNot.general.title }}
 				</h3>
-				<h4>
-					<a href="">{{ site.email }}</a>
-				</h4>
+				<p>{{ site.data._en.content.contact.doNot.general.desc | markdownify}}</p>
+			</div>
+			<div class="column has-text-right is-one-third">
+				<a href="{{ site.forum.links.discuss }}" class="button is-warning is-outlined">
+					{{ site.data._en.content.contact.doNot.general.buttonText }}
+				</a>
+			</div>
 		</div>
 
+		<div class="columns is-align-items-center">
+			<div class="column is-two-thirds">
+				<h3 class="is-align-items-center is-flex is-gap-1">
+					{% include e_render-svg-icon.html icon="xbox-x" inline=true dimension=25 class="has-text-danger" %}
+					{{ site.data._en.content.contact.doNot.consulting.title }}
+				</h3>
+				<p>{{ site.data._en.content.contact.doNot.consulting.desc | markdownify }}</p>
+			</div>
+			<div class="column has-text-right is-one-third">
+				{% assign consultingBtn = site.data._en.navigation.hiddenNav.coaching.url | absolute_url %}
+
+				<a href="{{ consultingBtn }}" class="button is-warning is-outlined">
+					{{ site.data._en.content.contact.doNot.consulting.buttonText }}
+				</a>
+			</div>
+		</div>
+
+		<div class="columns is-align-items-center">
+			<div class="column is-two-thirds">
+				<h3 class="is-align-items-center is-flex is-gap-1">
+					{% include e_render-svg-icon.html icon="xbox-x" inline=true dimension=25 class="has-text-danger" %}
+					{{ site.data._en.content.contact.doNot.random.title }}
+				</h3>
+				<p>{{ site.data._en.content.contact.doNot.random.desc | markdownify }}</p>
+			</div>
+		</div>
+
+		<div class="columns is-align-items-center">
+			<div class="column is-two-thirds">
+				<h3 class="is-align-items-center is-flex is-gap-1">
+					{% include e_render-svg-icon.html icon="xbox-x" inline=true dimension=25 class="has-text-danger" %}
+					{{ site.data._en.content.contact.doNot.sponsorship.title }}
+				</h3>
+				<p>{{ site.data._en.content.contact.doNot.sponsorship.desc | markdownify }}</p>
+			</div>
+			<div class="column has-text-right is-one-third">
+				<a href="{{ site.data._en.content.contact.doNot.sponsorship.buttonLink }}" class="button is-warning is-outlined">
+					{{ site.data._en.content.contact.doNot.sponsorship.buttonText }}
+				</a>
+			</div>
+		</div>
+		
+		{%- capture mailto -%}
+			mailto:{{ site.email }}
+		{%- endcapture -%}
+
+		{% include c_feature-box.html
+				title="Our email"
+				icon="send-mail"
+				desc="It may take up to 2 weeks or sometimes longer to respond due to high demand!"
+				buttonLink=mailto
+				buttonText=site.email
+				buttonClass="is-success"
+				class="is-box-success has-border mt-4"
+		%}
 	</div>
 </section>
 
