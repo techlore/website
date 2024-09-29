@@ -104,3 +104,21 @@ footer,
 		}
 	}
 }
+
+.two-columns-spacer {
+	.column:nth-child(1) {
+		@media (min-width: $tablet) {
+			margin-right: var(--bulma-size-3);
+		}
+	}
+
+	.column:nth-child(2) {
+		@media (max-width: $tablet - 1px) {
+			margin-top: var(--bulma-size-2);
+		}
+
+		@media (min-width: $tablet) {
+			margin-left: var(--bulma-size-3);
+		}
+	}
+}
