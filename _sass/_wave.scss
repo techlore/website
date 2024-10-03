@@ -36,6 +36,7 @@
 .wave--footer {
 	background-color: transparent;
 	margin-inline: calc(var(--bulma-size-5) * -1.5); // compensation for the footer inline padding
+	translate: 0 -1px; // Fix for Safari ...
 
 	svg {
 		path {

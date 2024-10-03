@@ -55,11 +55,12 @@
 	&:after {
 		content: '';
 		display: block;
-		background-color: $primary;
+		background-color: var(--bulma-primary);
 		width: 4rem;
 		height: .2rem;
 		translate: 0 calc(var(--bulma-size-5) * -3);
 		margin-inline: auto;
+		border-radius: 100vmax;
 	}
 }
 
