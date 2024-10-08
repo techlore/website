@@ -1,0 +1,62 @@
+# KNOWLEDGE BASE (Resources --> OS/Android) -----------------------------------------
+# Data structure:
+#     - name (string)
+#     - desc (string)
+#     - tags (array of strings):        contains misc info, eg. rendering engine, FOSS or proprietary, etc.
+#     - affil (string, optional):       affiliate link
+#     - labels:                         links to the official web (official) and different versions of the software (desktop, android, ios);
+#                                       see "_data/_en/content.yml --> resources --> knowledgebase --> labels"
+#     - color (string, optional):       color of the icon background (preferably in HEX format - #BADA55)
+#     - favorite (boolean, optional):   marks a favorite and show a "star" icon next to the name
+#
+# Related:
+#     Section (currently "May come in handy) under the content.
+#
+#     - title (string)
+#     - url (string)
+#     - type (string): show the corresponding icon in front of the title (web, video)
+#
+order: 3
+data:
+  -
+    name: "CalyxOS"
+    desc: "CalyxOS maintains stock security, while balancing additional privacy & security features with usability."
+    tags: ["opensource", "Limited devices"]
+    labels:
+      official: "https://calyxos.org/"
+    color: "#9BCC01"
+    favorite: true
+  -
+    name: "DivestOS"
+    desc: "DivestOS attempts to fix some security issues with LineageOS (like bringing verified boot to some devices) while maintaing large device compatability."
+    tags: ["opensource", "Supports many devices"]
+    labels:
+      official: "https://divestos.org/"
+    color: "#000000"
+  -
+    name: "LineageOS"
+    desc: "LineageOS has lower security than stock, but it does attempt to improve privacy & transparency. Users should consider pros/cons before using LineageOS over stock."
+    tags: ["opensource", "Supports many devices"]
+    labels:
+      official: "https://lineageos.org/"
+    color: "#167C80"
+  -
+    name: "MicroG"
+    desc: "MicroG is an open source replacement to proprietary Google Play Services. It allows apps & services to work as intended in a more privacy-respecting & transparent fashion on most custom ROMs."
+    tags: ["opensource"]
+    labels:
+      official: "https://microg.org/"
+    color: "#F2F2F2"
+  -
+    name: "Plexus"
+    desc: "While MicroG & de-googled ROMs try to maintain the compatability of Google Play Services, they are not perfect. Plexus allows you to check what apps do/don't work."
+    tags: ["opensource"]
+    labels:
+      official: "https://plexus.techlore.tech/"
+      android: "https://github.com/techlore/Plexus-app?tab=readme-ov-file#download"
+    color: "#000000"
+related:
+  -
+    title: "Go Incognito 4.3"
+    url: "https://www.youtube.com/watch?v=WZCBJ6lVk8Q"
+    type: "video"

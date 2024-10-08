@@ -1,0 +1,64 @@
+# KNOWLEDGE BASE (Resources --> Other/Messengers) -----------------------------------------
+# Data structure:
+#     - name (string)
+#     - desc (string)
+#     - tags (array of strings):        contains misc info, eg. rendering engine, FOSS or proprietary, etc.
+#     - affil (string, optional):       affiliate link
+#     - labels:                         links to the official web (official) and different versions of the software (desktop, android, ios);
+#                                       see "_data/_en/content.yml --> resources --> knowledgebase --> labels"
+#     - color (string, optional):       color of the icon background (preferably in HEX format - #BADA55)
+#     - favorite (boolean, optional):   marks a favorite and show a "star" icon next to the name
+#
+# Related:
+#     Section (currently "May come in handy) under the content.
+#
+#     - title (string)
+#     - url (string)
+#     - type (string): show the corresponding icon in front of the title (web, video)
+#
+order: 4
+data:
+  -
+    name: "Briar"
+    desc: "Briar is a Tor-routed, E2EE, P2P, anonymity-oriented messenger with some of the most robust protections. It can even be used without internet access."
+    tags: ["opensource", "Android only", "Desktop", "Free"]
+    labels:
+      official: "https://briarproject.org/"
+    color: "#87C214"
+    favorite: true
+  -
+    name: "Signal"
+    desc: "Signal is the gold standard for private & secure messaging, all with a simple interface. Threat modeling is necessary though, as Signal requires a phone number to register which may be problematic for some."
+    tags: ["opensource", "Android", "iOS", "Desktop", "Free"]
+    labels:
+      official: "https://www.signal.org/"
+      android: "https://signal.org/install"
+      ios: "https://signal.org/install"
+    color: "#3a76f0"
+    favorite: true
+  -
+    name: "SimpleX"
+    desc: "SimpleX prides itself on requiring no identifiers, is decentralized, and is audited with fairly competitive features. Your data is your own with no central servers."
+    tags: ["opensource", "Android", "iOS", "Desktop", "Free"]
+    labels:
+      official: "https://simplex.chat/"
+    color: "#ffffff"
+  -
+    name: "Session"
+    desc: "Session strives for a balance between privacy, security, anonymity, & usability."
+    tags: ["opensource", "Android", "iOS", "Desktop", "Free"]
+    labels:
+      official: "https://getsession.org/"
+    color: "#333132"
+  -
+    name: "Matrix"
+    desc: "Matrix is a federated protocol with the option for E2EE. There is a degree of trust with each homeserver, especially regarding metadata. Its federation is both a pro & a con that users should be aware of before using."
+    tags: ["opensource", "Android", "iOS", "Desktop", "Free"]
+    labels:
+      official: "https://matrix.org/"
+    color: "#ffffff"
+related:
+  -
+    title: "Best Messaging Apps"
+    url: "https://youtu.be/rPp4rQnrG44"
+    type: "video"

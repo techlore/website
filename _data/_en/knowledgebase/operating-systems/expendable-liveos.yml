@@ -1,0 +1,40 @@
+# KNOWLEDGE BASE (Resources --> OS/Expendable/LiveOS) -----------------------------------------
+# Data structure:
+#     - name (string)
+#     - desc (string)
+#     - tags (array of strings):        contains misc info, eg. rendering engine, FOSS or proprietary, etc.
+#     - affil (string, optional):       affiliate link
+#     - labels:                         links to the official web (official) and different versions of the software (desktop, android, ios);
+#                                       see "_data/_en/content.yml --> resources --> knowledgebase --> labels"
+#     - color (string, optional):       color of the icon background (preferably in HEX format - #BADA55)
+#     - favorite (boolean, optional):   marks a favorite and show a "star" icon next to the name
+#
+# Related:
+#     Section (currently "May come in handy) under the content.
+#
+#     - title (string)
+#     - url (string)
+#     - type (string): show the corresponding icon in front of the title (web, video)
+#
+order: 2
+data:
+  -
+    name: "Whonix"
+    desc: "Whonix offers both a virtual and live environment with a goal of anonymity. All activies are routed through Tor with strong privacy & security precautions."
+    tags: ["opensource", "virtualmachine", "liveos"]
+    labels:
+      official: "https://www.whonix.org/"
+    color: "#ffffff"
+    favorite: true
+  -
+    name: "TailsOS"
+    desc: "TailsOS offers a Tor-routed live environment for privacy & anonymity."
+    tags: ["opensource", "liveos"]
+    labels:
+      official: "https://tails.net/"
+    color: "#56347C"
+related:
+  -
+    title: "Go Incognito 4.4"
+    url: "https://www.youtube.com/watch?v=WptwYrSr8ag"
+    type: "video"

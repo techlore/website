@@ -1,0 +1,52 @@
+# KNOWLEDGE BASE (Resources --> Other/Other tools) -----------------------------------------
+# Data structure:
+#     - name (string)
+#     - desc (string)
+#     - tags (array of strings):        contains misc info, eg. rendering engine, FOSS or proprietary, etc.
+#     - affil (string, optional):       affiliate link
+#     - labels:                         links to the official web (official) and different versions of the software (desktop, android, ios);
+#                                       see "_data/_en/content.yml --> resources --> knowledgebase --> labels"
+#     - color (string, optional):       color of the icon background (preferably in HEX format - #BADA55)
+#     - favorite (boolean, optional):   marks a favorite and show a "star" icon next to the name
+#
+# Related:
+#     Section (currently "May come in handy) under the content.
+#
+#     - title (string)
+#     - url (string)
+#     - type (string): show the corresponding icon in front of the title (web, video)
+#
+order: 13
+data:
+  -
+    name: "BleachBit"
+    desc: "BleachBit is a file shredding and data removal tool."
+    tags: ["opensource", "Desktop"]
+    labels:
+      official: "https://www.bleachbit.org/"
+    color: "#385199"
+    favorite: true
+  -
+    name: "Dangerzone"
+    desc: "Dangerzone is a program to safely open potentially suspicious attachments."
+    tags: ["opensource", "Desktop"]
+    labels:
+      official: "https://dangerzone.rocks/"
+    color: "#6c3402"
+    favorite: true
+  -
+    name: "AlternativeTo"
+    desc: "AlternativeTo allows users to find more privacy-respecting alternatives to the software they use."
+    tags: ["Proprietary", "Web only"]
+    labels:
+      official: "https://alternativeto.net/"
+    color: "#2C4961"
+    favorite: true
+  -
+    name: "Objective-See"
+    desc: "Objective-See offers a suite of open source security & privacy tools for MacOS."
+    tags: ["opensource", "macOS"]
+    labels:
+      official: "https://objective-see.org/"
+    color: "#ffffff"
+    favorite: true

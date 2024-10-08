@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24">
+  <use xlink:href="#a" width="24" height="24"/>
+  <defs>
+    <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABs0lEQVRIibWUPWtUQRSGn7mJm020MYGAIR9F/KjVH2AvliklpSEhpE1jUlkHf4D/wz9haxEEUaMEFBFBV5Ls5kmxE7g7eyJ3F/LCwJ133pn3nDn3DARQd9VP6hd1L9Jk3Uv1vfpR3b5KV2667SDO1Xagm1V7NV03Oq8KuDvFPAErgW612D+hDp0XGdwMuJmAm2zCTQKoc9ksAd+AB/n7cnTUpYKbCAym1AXgDPiVUuqgvnJ09NQnAX+v0GxUwGYQSRNEGdSvqAK2qpzOdRgAzFTAmzENoh+kzv0ADhKAughMAzeAFv2/ppVHlKV57W3BrwD3gaOU0mEYlvo4KN7DQPc00JU9FKbZFKmJ6NoNom5sinPgX8EZRqHO0i9QC+gC7wrdo7wWRW026xXje0rpJ+rrWpG6VxXZ/qs6Ck7U7QpYD1KPrmNUtIDnFfC3WOgF4vCtb4CpCjhgMMLosHEN9i6LfAuYB9r5sLIL7+Y1a6MNzBXc17xf4DSldDxkqa4GBVsOdM/G7eSmV9QJuKGXOTL4A5wUXDkH+MxgY50BvwPdMNQ19Uj9oO78R7efNYfqi0hzARGKyGBJLIdPAAAAAElFTkSuQmCC" id="a" width="24" height="24"/>
+  </defs>
+</svg>

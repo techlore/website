@@ -1,0 +1,55 @@
+# KNOWLEDGE BASE (Resources --> Other/Cloud providers) -----------------------------------------
+# Data structure:
+#     - name (string)
+#     - desc (string)
+#     - tags (array of strings):        contains misc info, eg. rendering engine, FOSS or proprietary, etc.
+#     - affil (string, optional):       affiliate link
+#     - labels:                         links to the official web (official) and different versions of the software (desktop, android, ios);
+#                                       see "_data/_en/content.yml --> resources --> knowledgebase --> labels"
+#     - color (string, optional):       color of the icon background (preferably in HEX format - #BADA55)
+#     - favorite (boolean, optional):   marks a favorite and show a "star" icon next to the name
+#
+# Related:
+#     Section (currently "May come in handy) under the content.
+#
+#     - title (string)
+#     - url (string)
+#     - type (string): show the corresponding icon in front of the title (web, video)
+#
+order: 7
+data:
+  -
+    name: "NextCloud"
+    desc: "Nextcloud is a self-hostable suite for photos, documents, files, contacts, and more. It's a robust service, with the main drawback being an unpolished E2EE offering."
+    tags: ["opensource", "Varying prices"]
+    labels:
+      official: "https://nextcloud.com/"
+    color: "#0082C9"
+    favorite: true
+  -
+    name: "Proton Drive"
+    desc: "Proton's drive offering within the Proton ecosystem with security in mind. It's still not a complete suite for every operating system, but it has basic functionality for many use-cases."
+    tags: ["opensource", "Free", "Paid"]
+    labels:
+      official: "https://proton.me/drive"
+    color: "#ffffff"
+  -
+    name: "MEGA"
+    desc: "MEGA is a more traditional cloud provider with E2EE and usable, source-available clients."
+    tags: ["Source-available", "Free", "Paid"]
+    affil: "https://mega.nz/privacycompany/aff=Ki7nvbOsh6Q"
+    labels:
+      official: "https://mega.io/"
+    color: "#ce3f2d"
+  -
+    name: "Cryptomator"
+    desc: "Cryptomator allows users to encrypt their files before uploading them to another cloud provider (Google Drive, Dropbox etc.)"
+    tags: ["opensource", "Free"]
+    labels:
+      official: "https://cryptomator.org/"
+    color: "#ffffff"
+related:
+  -
+    title: "Best Cloud Storage"
+    url: "https://youtu.be/72lxrH7GmDg"
+    type: "video"

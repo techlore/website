@@ -47,4 +47,5 @@ Run `bundle exec jekyll serve` and the site should be available at [http://local
 ## Libraries & other projects included
 - [Iconoir](https://iconoir.com/) - A high-quality selection of free open source icons
 - [Jekyll](https://jekyllrb.com/) - Simple, blog-aware, static sites
+- Orbot icon by [Arcticons](https://github.com/Arcticons-Team/Arcticons)
 

@@ -1,0 +1,47 @@
+# KNOWLEDGE BASE (Resources --> Other/Hardware/2FA) -----------------------------------------
+# Data structure:
+#     - name (string)
+#     - desc (string)
+#     - tags (array of strings):        contains misc info, eg. rendering engine, FOSS or proprietary, etc.
+#     - affil (string, optional):       affiliate link
+#     - labels:                         links to the official web (official) and different versions of the software (desktop, android, ios);
+#                                       see "_data/_en/content.yml --> resources --> knowledgebase --> labels"
+#     - color (string, optional):       color of the icon background (preferably in HEX format - #BADA55)
+#     - favorite (boolean, optional):   marks a favorite and show a "star" icon next to the name
+#
+# Related:
+#     Section (currently "May come in handy) under the content.
+#
+#     - title (string)
+#     - url (string)
+#     - type (string): show the corresponding icon in front of the title (web, video)
+#
+order: 10
+data:
+  -
+    name: "Yubikey"
+    desc: "Yubikey is one of the most polished and trusted U2F solutions."
+    tags: ["Proprietary"]
+    labels:
+      official: "https://www.yubico.com/"
+    color: "#9ACB3D"
+    favorite: true
+  -
+    name: "SoloKeys"
+    desc: "SoloKeys provide affordable, open source U2F hardware."
+    tags: ["opensource"]
+    labels:
+      official: "https://solokeys.com/"
+    color: "#ffffff"
+  -
+    name: "Nitrokey"
+    desc: "Nitrokey provides affordable, open source U2F hardware and more private payment methods."
+    tags: ["opensource"]
+    labels:
+      official: "https://www.nitrokey.com/"
+    color: "#ffffff"
+related:
+  -
+    title: "2FA Directory"
+    url: "https://2fa.directory/"
+    type: "web"

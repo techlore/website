@@ -1,0 +1,64 @@
+# KNOWLEDGE BASE (Resources --> Other/Email) -----------------------------------------
+# Data structure:
+#     - name (string)
+#     - desc (string)
+#     - tags (array of strings):        contains misc info, eg. rendering engine, FOSS or proprietary, etc.
+#     - affil (string, optional):       affiliate link
+#     - labels:                         links to the official web (official) and different versions of the software (desktop, android, ios);
+#                                       see "_data/_en/content.yml --> resources --> knowledgebase --> labels"
+#     - color (string, optional):       color of the icon background (preferably in HEX format - #BADA55)
+#     - favorite (boolean, optional):   marks a favorite and show a "star" icon next to the name
+#
+# Related:
+#     Section (currently "May come in handy) under the content.
+#
+#     - title (string)
+#     - url (string)
+#     - type (string): show the corresponding icon in front of the title (web, video)
+#
+order: 5
+data:
+  -
+    name: "Proton Mail"
+    desc: "Proton Mail checks all the right boxes when it comes to adding privacy & security protections over the inherently broken email system, all while seeking a simple experience."
+    tags: ["opensource", "Free tier"]
+    affil: "https://go.getproton.me/SH12O"
+    labels:
+      official: "https://proton.me/mail"
+    color: "#1c1a24"
+    favorite: true
+  -
+    name: "Tuta"
+    desc: "Tuta offers a transparent service with trust, security, and privacy as its focus."
+    tags: ["opensource", "Free tier"]
+    labels:
+      official: "https://tuta.com/"
+    color: "#850122"
+    favorite: true
+  -
+    name: "Mailbox.org"
+    desc: "Mailbox.org offers privacy & security with an incredibly feature-rich experience. It may be overwhelming and cluttered to some, or a power user's dream."
+    tags: ["Proprietary", "Paid"]
+    labels:
+      official: "https://mailbox.org/"
+    color: "#76bc20"
+  -
+    name: "StartMail"
+    desc: "StartMail offers a polished web client with a feature-rich experience."
+    tags: ["Proprietary", "Paid"]
+    affil: "https://www.startmail.com/en/partner/?ref=y2m5ogz"
+    labels:
+      official: "https://www.startmail.com/"
+    color: "#ffffff"
+  -
+    name: "Self-Host"
+    desc: "Self-hosting is commonly touted as the safest email approach, but this isn't always the case. Self-hosting comes with risks you should read in the referenced link."
+    tags: ["Advanced"]
+    labels:
+      official: "https://www.privacyguides.org/en/email/#self-hosting-email"
+    color: "#2c3e50"
+related:
+  -
+    title: "Top 5 Best Emails"
+    url: "https://youtu.be/3QjBDehTyiw"
+    type: "video"

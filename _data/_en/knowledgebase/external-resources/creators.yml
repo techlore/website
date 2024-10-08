@@ -1,0 +1,50 @@
+# KNOWLEDGE BASE (Resources --> External resources/Creators) -----------------------------------------
+# Data structure:
+#     - name (string)
+#     - desc (string)
+#     - tags (array of strings):        contains misc info, eg. rendering engine, FOSS or proprietary, etc.
+#     - affil (string, optional):       affiliate link
+#     - labels:                         links to the official web (official) and different versions of the software (desktop, android, ios);
+#                                       see "_data/_en/content.yml --> resources --> knowledgebase --> labels"
+#     - color (string, optional):       color of the icon background (preferably in HEX format - #BADA55)
+#     - favorite (boolean, optional):   marks a favorite and show a "star" icon next to the name
+#
+# Related:
+#     Section (currently "May come in handy) under the content.
+#
+#     - title (string)
+#     - url (string)
+#     - type (string): show the corresponding icon in front of the title (web, video)
+#
+order: 3
+data:
+  -
+    name: "Surveillance Report"
+    labels:
+      official: "https://surveillancereport.tech/"
+    color: "#323377"
+  -
+    name: "The Linux Experiment"
+    labels:
+      official: "https://www.youtube.com/channel/UC5UAwBUum7CPN5buc-_N1Fw"
+    color: "#630460"
+  -
+    name: "Firewalls Don't Stop Dragons"
+    labels:
+      official: "https://firewallsdontstopdragons.com/"
+    color: "#111111"
+  -
+    name: "Opt Out"
+    labels:
+      official: "https://www.optoutpod.com/"
+    color: "#DD4345"
+  -
+    name: "FOTP Guides & Training"
+    labels:
+      official: "https://freedom.press/training/"
+    color: "#ffffff"
+  -
+    name: "Naomi Brockwell"
+    labels:
+      official: "https://www.youtube.com/@NaomiBrockwellTV"
+    color: "#ffffff"

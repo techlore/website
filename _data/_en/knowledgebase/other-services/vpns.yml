@@ -1,0 +1,60 @@
+# KNOWLEDGE BASE (Resources --> Other/VPNs) -----------------------------------------
+# Data structure:
+#     - name (string)
+#     - desc (string)
+#     - tags (array of strings):        contains misc info, eg. rendering engine, FOSS or proprietary, etc.
+#     - affil (string, optional):       affiliate link
+#     - labels:                         links to the official web (official) and different versions of the software (desktop, android, ios);
+#                                       see "_data/_en/content.yml --> resources --> knowledgebase --> labels"
+#     - color (string, optional):       color of the icon background (preferably in HEX format - #BADA55)
+#     - favorite (boolean, optional):   marks a favorite and show a "star" icon next to the name
+#
+# Related:
+#     Section (currently "May come in handy) under the content.
+#
+#     - title (string)
+#     - url (string)
+#     - type (string): show the corresponding icon in front of the title (web, video)
+#
+order: 2
+data:
+  -
+    name: "IVPN"
+    desc: "IVPN is one of the most transparent providers with some of the most robust measures to keep users safe. Use the VPN Toolkit for more details."
+    tags: ["opensource", "Paid"]
+    labels:
+      official: "https://www.ivpn.net/"
+    color: "#FF3344"
+    favorite: true
+  -
+    name: "Mullvad VPN"
+    desc: "Mullvad is one of the most transparent providers with some of the most robust measures to keep users safe. Use the VPN Toolkit for more details."
+    tags: ["opensource", "Paid"]
+    labels:
+      official: "https://mullvad.net/en/vpn"
+      android: "https://mullvad.net/en/download/vpn/android"
+      ios: "https://mullvad.net/en/download/vpn/ios"
+    color: "#192E45"
+    favorite: true
+  -
+    name: "Proton VPN"
+    desc: "Proton VPN is one of the most transparent providers with some of the most robust measures to keep users safe. Use the VPN Toolkit for more details."
+    tags: ["Proprietary", "Free tier"]
+    affil: "https://go.getproton.me/SH12P"
+    labels:
+      official: "https://protonvpn.com/"
+      android: "https://protonvpn.com/download-android"
+      ios: "https://protonvpn.com/download-ios"
+    color: "#ffffff"
+  -
+    name: "Windscribe"
+    desc: "Windscribe is one of the most transparent providers with some of the most robust measures to keep users safe. Use the VPN Toolkit for more details."
+    tags: ["Partly open source", "Free tier"]
+    labels:
+      official: "https://windscribe.com/"
+    color: "#355CB3"
+related:
+  -
+    title: "Techlore VPN Toolkit"
+    url: "https://www.techlore.tech/vpn"
+    type: "web"

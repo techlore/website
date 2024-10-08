@@ -1,0 +1,56 @@
+# KNOWLEDGE BASE (Resources --> Other/DNS) -----------------------------------------
+# Data structure:
+#     - name (string)
+#     - desc (string)
+#     - tags (array of strings):        contains misc info, eg. rendering engine, FOSS or proprietary, etc.
+#     - affil (string, optional):       affiliate link
+#     - labels:                         links to the official web (official) and different versions of the software (desktop, android, ios);
+#                                       see "_data/_en/content.yml --> resources --> knowledgebase --> labels"
+#     - color (string, optional):       color of the icon background (preferably in HEX format - #BADA55)
+#     - favorite (boolean, optional):   marks a favorite and show a "star" icon next to the name
+#
+# Related:
+#     Section (currently "May come in handy) under the content.
+#
+#     - title (string)
+#     - url (string)
+#     - type (string): show the corresponding icon in front of the title (web, video)
+#
+order: 3
+data:
+  -
+    name: "NextDNS"
+    desc: "NextDNS offers a highly customizable DNS solution for the upmost control across your devices."
+    tags: ["Free", "Paid"]
+    affil: "https://nextdns.io/?from=5v4be7mt"
+    labels:
+      official: "https://nextdns.io/"
+    color: "#ffffff"
+    favorite: true
+  -
+    name: "Quad 9"
+    desc: "Quad9 offers a private & secure DNS service."
+    tags: ["Free"]
+    labels:
+      official: "https://www.quad9.net/"
+    color: "#282828"
+    favorite: true
+  -
+    name: "Mullvad DNS"
+    desc: "Mullvad offers a private & secure DNS service."
+    tags: ["Free"]
+    labels:
+      official: "https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/"
+    color: "#192E45"
+  -
+    name: "CONTROL D"
+    desc: "CONTROL D offers a highly customizable DNS solution for the upmost control across your devices"
+    tags: ["Paid"]
+    labels:
+      official: "https://controld.com/"
+    color: "#010818"
+related:
+  -
+    title: "PrivacyGuides DNS Guide"
+    url: "https://www.privacyguides.org/en/dns/"
+    type: "web"

@@ -1,0 +1,59 @@
+# KNOWLEDGE BASE (Resources --> Other/Aliasing) -----------------------------------------
+# Data structure:
+#     - name (string)
+#     - desc (string)
+#     - tags (array of strings):        contains misc info, eg. rendering engine, FOSS or proprietary, etc.
+#     - affil (string, optional):       affiliate link
+#     - labels:                         links to the official web (official) and different versions of the software (desktop, android, ios);
+#                                       see "_data/_en/content.yml --> resources --> knowledgebase --> labels"
+#     - color (string, optional):       color of the icon background (preferably in HEX format - #BADA55)
+#     - favorite (boolean, optional):   marks a favorite and show a "star" icon next to the name
+#
+# Related:
+#     Section (currently "May come in handy) under the content.
+#
+#     - title (string)
+#     - url (string)
+#     - type (string): show the corresponding icon in front of the title (web, video)
+#
+order: 6
+data:
+  -
+    name: "SimpleLogin"
+    desc: "SimpleLogin makes email aliasing easier than ever, all built with privacy & security from the ground up. SimpleLogin can also be self-hosted."
+    tags: ["opensource", "Free tier"]
+    affil: "https://simplelogin.io/?slref=techlore"
+    labels:
+      official: "https://simplelogin.io/"
+    color: "#D13C8D"
+    favorite: true
+  -
+    name: "addy.io"
+    desc: "addy.io (previously AnonAddy) is a private & secure email aliasing service with a very generous free option."
+    tags: ["opensource", "Free tier"]
+    labels:
+      official: "https://addy.io/"
+    color: "#181e5e"
+  -
+    name: "MySudo"
+    desc: "MySudo is predominantly a phone number aliasing solution. Like most aliasing solutions, it's a transfer of trust from countless services to one."
+    tags: ["Proprietary", "Paid"]
+    labels:
+      official: "https://mysudo.com/"
+    color: "#4C6EF3"
+    favorite: true
+  -
+    name: "Privacy.com"
+    desc: "Privacy.com is a card aliasing solution for shopping online. Like most aliasing solutions, it's a transfer of trust from countless services to one."
+    tags: ["Proprietary", "Paid", "US only cards"]
+    affil: "https://app.privacy.com/join/WYZ3N"
+    labels:
+      official: "https://privacy.com/"
+    color: "#000000"
+  -
+    name: "Guerrilla Mail"
+    desc: "Guerrilla Mail is a disposable email service, allowing users to generate ephemeral emails conveniently."
+    tags: ["Proprietary", "Free"]
+    labels:
+      official: "https://www.guerrillamail.com/"
+    color: "#462400"

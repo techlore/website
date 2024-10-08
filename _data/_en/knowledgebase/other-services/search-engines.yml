@@ -1,0 +1,55 @@
+# KNOWLEDGE BASE (Resources --> Other/Search Engines) -----------------------------------------
+# Data structure:
+#     - name (string)
+#     - desc (string)
+#     - tags (array of strings):        contains misc info, eg. rendering engine, FOSS or proprietary, etc.
+#     - affil (string, optional):       affiliate link
+#     - labels:                         links to the official web (official) and different versions of the software (desktop, android, ios);
+#                                       see "_data/_en/content.yml --> resources --> knowledgebase --> labels"
+#     - color (string, optional):       color of the icon background (preferably in HEX format - #BADA55)
+#     - favorite (boolean, optional):   marks a favorite and show a "star" icon next to the name
+#
+# Related:
+#     Section (currently "May come in handy) under the content.
+#
+#     - title (string)
+#     - url (string)
+#     - type (string): show the corresponding icon in front of the title (web, video)
+#
+order: 1
+data:
+  -
+    name: "SearXNG"
+    desc: "SearXNG is an open source, configurable, self-hostable, metasearch engine that compiles results from countless search engines in the same place."
+    tags: ["opensource", "Metasearch"]
+    labels:
+      official: "https://docs.searxng.org/"
+    color: "#ffffff"
+    favorite: true
+  -
+    name: "Brave Search"
+    desc: "Brave Search indexes its own results with Brave's crawlers while respecting user privacy."
+    tags: ["Proprietary", "Crawler"]
+    labels:
+      official: "https://search.brave.com/"
+    color: "#FB542B"
+    favorite: true
+  -
+    name: "DuckDuckGo"
+    desc: "DuckDuckGo is a metasearch engine with mainly Bing results and an emphasis on user privacy."
+    tags: ["Proprietary", "Metasearch"]
+    labels:
+      official: "https://duckduckgo.com/"
+    color: "#DE5833"
+  -
+    name: "Startpage"
+    desc: "Startpage is a metasearch engine with privately proxied Google and Bing results."
+    tags: ["Proprietary", "Metasearch"]
+    labels:
+      official: "https://www.startpage.com/"
+    color: "#ffffff"
+related:
+  -
+    title: "Go Incognito 3.6"
+    url: "https://www.youtube.com/watch?v=wa_-pYQUQ0c"
+    type: "video"

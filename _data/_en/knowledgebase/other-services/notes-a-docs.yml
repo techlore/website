@@ -1,0 +1,43 @@
+# KNOWLEDGE BASE (Resources --> Other/Notes & Docs) -----------------------------------------
+# Data structure:
+#     - name (string)
+#     - desc (string)
+#     - tags (array of strings):        contains misc info, eg. rendering engine, FOSS or proprietary, etc.
+#     - affil (string, optional):       affiliate link
+#     - labels:                         links to the official web (official) and different versions of the software (desktop, android, ios);
+#                                       see "_data/_en/content.yml --> resources --> knowledgebase --> labels"
+#     - color (string, optional):       color of the icon background (preferably in HEX format - #BADA55)
+#     - favorite (boolean, optional):   marks a favorite and show a "star" icon next to the name
+#
+# Related:
+#     Section (currently "May come in handy) under the content.
+#
+#     - title (string)
+#     - url (string)
+#     - type (string): show the corresponding icon in front of the title (web, video)
+#
+order: 8
+data:
+  -
+    name: "Cryptee"
+    desc: "Cryptee offers E2EE notes, documents, & photos with a modern theme as a PWA. It is not collaborative nor designed for external sharing. "
+    tags: ["opensource", "Free", "Paid"]
+    labels:
+      official: "https://crypt.ee/"
+    color: "#ffffff"
+    favorite: true
+  -
+    name: "Notesnook"
+    desc: "Notesnook offers E2EE notes & documents for people looking for a feature-filled experience in their workflow."
+    tags: ["opensource", "Free", "Paid"]
+    labels:
+      official: "https://notesnook.com/"
+    color: "#000000"
+    favorite: true
+  -
+    name: "CryptPad"
+    desc: "CryptPad is an E2EE, document collaboration platform."
+    tags: ["opensource", "Free tier"]
+    labels:
+      official: "https://cryptpad.fr/"
+    color: "#fff"

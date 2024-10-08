@@ -1,0 +1,51 @@
+# KNOWLEDGE BASE (Resources --> Other/Cryptocurrencies) -----------------------------------------
+# Data structure:
+#     - name (string)
+#     - desc (string)
+#     - tags (array of strings):        contains misc info, eg. rendering engine, FOSS or proprietary, etc.
+#     - affil (string, optional):       affiliate link
+#     - labels:                         links to the official web (official) and different versions of the software (desktop, android, ios);
+#                                       see "_data/_en/content.yml --> resources --> knowledgebase --> labels"
+#     - color (string, optional):       color of the icon background (preferably in HEX format - #BADA55)
+#     - favorite (boolean, optional):   marks a favorite and show a "star" icon next to the name
+#
+# Related:
+#     Section (currently "May come in handy) under the content.
+#
+#     - title (string)
+#     - url (string)
+#     - type (string): show the corresponding icon in front of the title (web, video)
+#
+order: 9
+data:
+  -
+    name: "Monero"
+    desc: "Monero is one of the strongest, private-by-default cryptocurrencies to ensure the safety of transactions."
+    tags: ["opensource"]
+    labels:
+      official: "https://www.getmonero.org/"
+    color: "#ff6600"
+    favorite: true
+  -
+    name: "Bisq Network"
+    desc: "Bisq is a P2P, KYC-free, decentralized Bitcoin exchange."
+    tags: ["opensource"]
+    labels:
+      official: "https://bisq.network/"
+    color: "#24B135"
+  -
+    name: "Cake Wallet"
+    desc: "Cake Wallet is a wallet to store your Bitcoin, Monero, & Litecoin in a trusted place."
+    tags: ["opensource"]
+    labels:
+      official: "https://cakewallet.com/"
+    color: "#ffffff"
+    favorite: true
+  -
+    name: "Coincards"
+    desc: "Coincards has a vast selection of Gift Cards from America's top merchants. They allow you to buy these gift cards with numerous cryptocurrencies—including Bitcoin and Monero."
+    tags: ["Proprietary"]
+    affil: "https://coincards.com/us/?ref=techlore"
+    labels:
+      official: "https://coincards.com/"
+    color: "#ffffff"

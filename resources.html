@@ -84,6 +84,7 @@ permalink: /resources
 </section>
 
 <section>
+	{% comment %} SOFTWARE, HW, APPS ============================================================= {% endcomment %}
 	<div class="container is-max-tablet">
 		<div class="has-text-centered">
 			<h2>{{ t.resources.knowledgebase.sections.software }}</h2>
@@ -160,6 +161,239 @@ permalink: /resources
 		{% assign title = t.resources.knowledgebase.categories.applications %}
 		{% assign data = site.data._en.knowledgebase.software.applications.data %}
 		{% assign relatedLinks = site.data._en.knowledgebase.software.applications.related %}
+
+		{% include c_knowledgebase.html title=title data=data related=relatedLinks %}
+	</div>
+
+	{% comment %} OPERATING SYSTEMS ============================================================= {% endcomment %}
+	<div class="container is-max-tablet mt-6">
+		<div class="has-text-centered">
+			<h2>{{ t.resources.knowledgebase.sections.operatingSystems }}</h2>
+			<p>
+				{% assign affiliatesUrl = site.data._en.navigation.hiddenNav.affiliates.url | absolute_url %}
+				{% include e_render-svg-icon.html icon="link" dimension="25" inline=true %}
+				{{ t.resources.knowledgebase.disclaimer | replace: "[[affiliatesUrl]]", affiliatesUrl }}
+			</p>
+			<p>
+				{% include e_render-svg-icon.html icon="star" dimension="25" inline=true %}
+				{{ t.resources.knowledgebase.favorite }}
+			</p>
+		</div>
+	</div>
+
+	<div class="container mt-6">
+		<div class="knowledgebase-nav buttons">
+			{% for item in site.data._en.knowledgebase.operating-systems %}
+				{% assign category = item[0] %}
+				{% assign order = site.data._en.knowledgebase.operating-systems[category].order %}
+				<a href="{{ category | prepend: "#" }}" class="knowledgebase-nav__button button is-primary" data-order="{{ order }}">{{ t.resources.knowledgebase.categories[category] }}</a>
+			{% endfor %}
+		</div>
+	</div>
+
+	<!-- OS/Desktop -->
+	<div class="container mt-6">
+		{% assign title = t.resources.knowledgebase.categories.desktop %}
+		{% assign data = site.data._en.knowledgebase.operating-systems.desktop.data %}
+		{% assign relatedLinks = site.data._en.knowledgebase.operating-systems.desktop.related %}
+
+		{% include c_knowledgebase.html title=title data=data related=relatedLinks %}
+	</div>
+
+	<!-- OS/Expendable/LiveOS -->
+	<div class="container mt-6">
+		{% assign title = t.resources.knowledgebase.categories.expendable-liveos %}
+		{% assign data = site.data._en.knowledgebase.operating-systems.expendable-liveos.data %}
+		{% assign relatedLinks = site.data._en.knowledgebase.operating-systems.expendable-liveos.related %}
+
+		{% include c_knowledgebase.html title=title data=data related=relatedLinks %}
+	</div>
+
+	<!-- OS/Android -->
+	<div class="container mt-6">
+		{% assign title = t.resources.knowledgebase.categories.android %}
+		{% assign data = site.data._en.knowledgebase.operating-systems.android.data %}
+		{% assign relatedLinks = site.data._en.knowledgebase.operating-systems.android.related %}
+
+		{% include c_knowledgebase.html title=title data=data related=relatedLinks %}
+	</div>
+
+	{% comment %} OTHER SERVICES ============================================================= {% endcomment %}
+	<div class="container is-max-tablet mt-6">
+		<div class="has-text-centered">
+			<h2>{{ t.resources.knowledgebase.sections.other }}</h2>
+			<p>
+				{% assign affiliatesUrl = site.data._en.navigation.hiddenNav.affiliates.url | absolute_url %}
+				{% include e_render-svg-icon.html icon="link" dimension="25" inline=true %}
+				{{ t.resources.knowledgebase.disclaimer | replace: "[[affiliatesUrl]]", affiliatesUrl }}
+			</p>
+			<p>
+				{% include e_render-svg-icon.html icon="star" dimension="25" inline=true %}
+				{{ t.resources.knowledgebase.favorite }}
+			</p>
+		</div>
+	</div>
+
+	<div class="container mt-6">
+		<div class="knowledgebase-nav buttons">
+			{% for item in site.data._en.knowledgebase.other-services %}
+				{% assign category = item[0] %}
+				{% assign order = site.data._en.knowledgebase.other-services[category].order %}
+				<a href="{{ category | prepend: "#" }}" class="knowledgebase-nav__button button is-primary" data-order="{{ order }}">{{ t.resources.knowledgebase.categories[category] }}</a>
+			{% endfor %}
+		</div>
+	</div>
+
+	<!-- Search Engines -->
+	<div class="container mt-6">
+		{% assign title = t.resources.knowledgebase.categories.search-engines %}
+		{% assign data = site.data._en.knowledgebase.other-services.search-engines.data %}
+		{% assign relatedLinks = site.data._en.knowledgebase.other-services.search-engines.related %}
+
+		{% include c_knowledgebase.html title=title data=data related=relatedLinks %}
+	</div>
+
+	<!-- VPNs -->
+	<div class="container mt-6">
+		{% assign title = t.resources.knowledgebase.categories.vpns %}
+		{% assign data = site.data._en.knowledgebase.other-services.vpns.data %}
+		{% assign relatedLinks = site.data._en.knowledgebase.other-services.vpns.related %}
+
+		{% include c_knowledgebase.html title=title data=data related=relatedLinks %}
+	</div>
+
+	<!-- DNS -->
+	<div class="container mt-6">
+		{% assign title = t.resources.knowledgebase.categories.dns %}
+		{% assign data = site.data._en.knowledgebase.other-services.dns.data %}
+		{% assign relatedLinks = site.data._en.knowledgebase.other-services.dns.related %}
+
+		{% include c_knowledgebase.html title=title data=data related=relatedLinks %}
+	</div>
+
+	<!-- Messengers -->
+	<div class="container mt-6">
+		{% assign title = t.resources.knowledgebase.categories.messengers %}
+		{% assign data = site.data._en.knowledgebase.other-services.messengers.data %}
+		{% assign relatedLinks = site.data._en.knowledgebase.other-services.messengers.related %}
+
+		{% include c_knowledgebase.html title=title data=data related=relatedLinks %}
+	</div>
+
+	<!-- Email -->
+	<div class="container mt-6">
+		{% assign title = t.resources.knowledgebase.categories.email %}
+		{% assign data = site.data._en.knowledgebase.other-services.email.data %}
+		{% assign relatedLinks = site.data._en.knowledgebase.other-services.email.related %}
+
+		{% include c_knowledgebase.html title=title data=data related=relatedLinks %}
+	</div>
+
+	<!-- Aliasing -->
+	<div class="container mt-6">
+		{% assign title = t.resources.knowledgebase.categories.aliasing %}
+		{% assign data = site.data._en.knowledgebase.other-services.aliasing.data %}
+		{% assign relatedLinks = site.data._en.knowledgebase.other-services.aliasing.related %}
+
+		{% include c_knowledgebase.html title=title data=data related=relatedLinks %}
+	</div>
+
+	<!-- Cloud providers -->
+	<div class="container mt-6">
+		{% assign title = t.resources.knowledgebase.categories.cloud-providers %}
+		{% assign data = site.data._en.knowledgebase.other-services.cloud-providers.data %}
+		{% assign relatedLinks = site.data._en.knowledgebase.other-services.cloud-providers.related %}
+
+		{% include c_knowledgebase.html title=title data=data related=relatedLinks %}
+	</div>
+
+	<!--Notes & Docs -->
+	<div class="container mt-6">
+		{% assign title = t.resources.knowledgebase.categories.notes-a-docs %}
+		{% assign data = site.data._en.knowledgebase.other-services.notes-a-docs.data %}
+		{% assign relatedLinks = site.data._en.knowledgebase.other-services.notes-a-docs.related %}
+
+		{% include c_knowledgebase.html title=title data=data related=relatedLinks %}
+	</div>
+
+	<!-- Cryptocurrencies -->
+	<div class="container mt-6">
+		{% assign title = t.resources.knowledgebase.categories.cryptocurrencies %}
+		{% assign data = site.data._en.knowledgebase.other-services.cryptocurrencies.data %}
+		{% assign relatedLinks = site.data._en.knowledgebase.other-services.cryptocurrencies.related %}
+
+		{% include c_knowledgebase.html title=title data=data related=relatedLinks %}
+	</div>
+
+	<!-- Hardware/2FA -->
+	<div class="container mt-6">
+		{% assign title = t.resources.knowledgebase.categories.hardware-2fa %}
+		{% assign data = site.data._en.knowledgebase.other-services.hardware-2fa.data %}
+		{% assign relatedLinks = site.data._en.knowledgebase.other-services.hardware-2fa.related %}
+
+		{% include c_knowledgebase.html title=title data=data related=relatedLinks %}
+	</div>
+
+	<!-- Webhosting/VPS -->
+	<div class="container mt-6">
+		{% assign title = t.resources.knowledgebase.categories.webhosting-vps %}
+		{% assign data = site.data._en.knowledgebase.other-services.webhosting-vps.data %}
+		{% assign relatedLinks = site.data._en.knowledgebase.other-services.webhosting-vps.related %}
+
+		{% include c_knowledgebase.html title=title data=data related=relatedLinks %}
+	</div>
+
+	<!-- Networking -->
+	<div class="container mt-6">
+		{% assign title = t.resources.knowledgebase.categories.networking %}
+		{% assign data = site.data._en.knowledgebase.other-services.networking.data %}
+		{% assign relatedLinks = site.data._en.knowledgebase.other-services.networking.related %}
+
+		{% include c_knowledgebase.html title=title data=data related=relatedLinks %}
+	</div>
+
+	<!-- Other tools -->
+	<div class="container mt-6">
+		{% assign title = t.resources.knowledgebase.categories.other-tools %}
+		{% assign data = site.data._en.knowledgebase.other-services.other-tools.data %}
+		{% assign relatedLinks = site.data._en.knowledgebase.other-services.other-tools.related %}
+
+		{% include c_knowledgebase.html title=title data=data related=relatedLinks %}
+	</div>
+
+	{% comment %} EXTERNAL RESOURCES ============================================================= {% endcomment %}
+	<div class="container is-max-tablet mt-6">
+		<div class="has-text-centered">
+			<h2>{{ t.resources.knowledgebase.sections.external }}</h2>
+			<p>
+				{{ t.resources.knowledgebase.external }}
+			</p>
+		</div>
+	</div>
+
+	<!-- Guides -->
+	<div class="container mt-6">
+		{% assign title = t.resources.knowledgebase.categories.guides %}
+		{% assign data = site.data._en.knowledgebase.external-resources.guides.data %}
+		{% assign relatedLinks = site.data._en.knowledgebase.external-resources.guides.related %}
+
+		{% include c_knowledgebase.html title=title data=data related=relatedLinks %}
+	</div>
+
+	<!-- Digital rights -->
+	<div class="container mt-6">
+		{% assign title = t.resources.knowledgebase.categories.digital-rights %}
+		{% assign data = site.data._en.knowledgebase.external-resources.digital-rights.data %}
+		{% assign relatedLinks = site.data._en.knowledgebase.external-resources.digital-rights.related %}
+
+		{% include c_knowledgebase.html title=title data=data related=relatedLinks %}
+	</div>
+
+	<!-- Creators -->
+	<div class="container mt-6">
+		{% assign title = t.resources.knowledgebase.categories.creators %}
+		{% assign data = site.data._en.knowledgebase.external-resources.creators.data %}
+		{% assign relatedLinks = site.data._en.knowledgebase.external-resources.creators.related %}
 
 		{% include c_knowledgebase.html title=title data=data related=relatedLinks %}
 	</div>
