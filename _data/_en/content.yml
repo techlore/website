@@ -120,6 +120,7 @@ resources:
       ios: "iOS"
       desktop: "Desktop"
       official: "Official web"
+      youtube: "YouTube channel"
     related: "May come in handy"
 
 

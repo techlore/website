@@ -14,7 +14,7 @@
 #
 #     - title (string)
 #     - url (string)
-#     - type (string): show the corresponding icon in front of the title (web, video)
+#     - type (string): show the corresponding icon in front of the title (web, video, youtube)
 #
 order: 3
 data:
@@ -26,7 +26,7 @@ data:
   -
     name: "The Linux Experiment"
     labels:
-      official: "https://www.youtube.com/channel/UC5UAwBUum7CPN5buc-_N1Fw"
+      youtube: "https://www.youtube.com/channel/UC5UAwBUum7CPN5buc-_N1Fw"
     color: "#630460"
   -
     name: "Firewalls Don't Stop Dragons"
@@ -46,5 +46,5 @@ data:
   -
     name: "Naomi Brockwell"
     labels:
-      official: "https://www.youtube.com/@NaomiBrockwellTV"
+      youtube: "https://www.youtube.com/@NaomiBrockwellTV"
     color: "#ffffff"

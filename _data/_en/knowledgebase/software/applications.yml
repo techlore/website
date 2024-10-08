@@ -14,7 +14,7 @@
 #
 #     - title (string)
 #     - url (string)
-#     - type (string): show the corresponding icon in front of the title (web, video)
+#     - type (string): show the corresponding icon in front of the title (web, video, youtube)
 #
 order: 6
 data:
