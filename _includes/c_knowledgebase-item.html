@@ -26,19 +26,19 @@
 				{% endif %}
 				<a href="{{ slugifiedName | prepend: "#" }}" class="knowledgebase-item__anchor anchor__hash">#</a>
 			</h4>
-			<div class="knowledgebase-item__tags is-size-7 is-italic is-flex is-multiline is-gap-1.5">
+			<div class="knowledgebase-item__tags is-size-7 is-italic">
 				{% if include.item.tags.size > 0 %}
 					{% for tag in include.item.tags %}
-						<span class="knowledgebase-item__tag">{{ tag | prepend: "#" }}</span>
+						<span class="knowledgebase-item__tag">{{ tag  }}</span>
 					{% endfor %}
 				{% endif %}
 			</div>
 			{% if include.item.desc %}
-				<p class="knowledgebase-item__desc mt-6 is-flex-grow-1">
+				<p class="knowledgebase-item__desc mt-6 mb-0 is-flex-grow-1">
 					{{ include.item.desc }}
 				</p>
 			{% endif %}
-			<div class="knowledgebase-item__links">
+			<div class="knowledgebase-item__links mt-4">
 				{% if include.item.affil %}
 					<a href="{{ include.item.affil }}" class="knowledgebase-item__affil button is-primary is-small is-gap-1.5 is-touch-friendly" target="_blank">
 						{% include e_render-svg-icon.html icon="link" dimension="25" class="icon" inline=true %}
@@ -49,7 +49,7 @@
 					{% for label in include.item.labels %}
 						{% assign link = label[1] %}
 						{% assign text = label[0] %}
-						<a href="{{ link }}" class="knowledgebase-item__button button is-small is-touch-friendly" target="_blank">{{ t.resources.knowledgebase.labels[text] }}</a>
+						<a href="{{ link }}" class="knowledgebase-item__button button is-primary is-outlined is-small is-touch-friendly" target="_blank">{{ t.resources.knowledgebase.labels[text] }}</a>
 					{% endfor %}
 				{% endif %}
 			</div>

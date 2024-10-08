@@ -21,7 +21,7 @@ data:
   -
     name: "Monero"
     desc: "Monero is one of the strongest, private-by-default cryptocurrencies to ensure the safety of transactions."
-    tags: ["opensource"]
+    tags: ["Open Source"]
     labels:
       official: "https://www.getmonero.org/"
     color: "#ff6600"
@@ -29,14 +29,14 @@ data:
   -
     name: "Bisq Network"
     desc: "Bisq is a P2P, KYC-free, decentralized Bitcoin exchange."
-    tags: ["opensource"]
+    tags: ["Open Source"]
     labels:
       official: "https://bisq.network/"
     color: "#24B135"
   -
     name: "Cake Wallet"
     desc: "Cake Wallet is a wallet to store your Bitcoin, Monero, & Litecoin in a trusted place."
-    tags: ["opensource"]
+    tags: ["Open Source"]
     labels:
       official: "https://cakewallet.com/"
     color: "#ffffff"

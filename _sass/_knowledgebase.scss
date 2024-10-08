@@ -35,14 +35,16 @@
 .knowledgebase-item__title {
 	position: relative;
 
-	&:after {
-		content: '';
-		width: calc(var(--bulma-size-5) * 4);
-		height: calc(var(--bulma-size-5) * .25);
-		background-color: var(--bulma-primary);
-		position: absolute;
-		inset: calc(var(--bulma-size-5) * 4) auto auto 0;
-		border-radius: 100vmax;
+	.knowledgebase-item:has(.knowledgebase-item__desc) & {
+		&:after {
+			content: '';
+			width: calc(var(--bulma-size-5) * 4);
+			height: calc(var(--bulma-size-5) * .25);
+			background-color: var(--bulma-primary);
+			position: absolute;
+			inset: calc(var(--bulma-size-5) * 4) auto auto 0;
+			border-radius: 100vmax;
+		}
 	}
 
 	.content & {
@@ -74,4 +76,14 @@
 
 .knowledgebase-item__favorite {
 	color: var(--bulma-warning-60);
+}
+
+.knowledgebase-item__tags {
+
+}
+
+.knowledgebase-item__tag:not(:last-child) {
+	&:after {
+		content: ', ';
+	}
 }

@@ -29,14 +29,14 @@ data:
   -
     name: "SoloKeys"
     desc: "SoloKeys provide affordable, open source U2F hardware."
-    tags: ["opensource"]
+    tags: ["Open Source"]
     labels:
       official: "https://solokeys.com/"
     color: "#ffffff"
   -
     name: "Nitrokey"
     desc: "Nitrokey provides affordable, open source U2F hardware and more private payment methods."
-    tags: ["opensource"]
+    tags: ["Open Source"]
     labels:
       official: "https://www.nitrokey.com/"
     color: "#ffffff"

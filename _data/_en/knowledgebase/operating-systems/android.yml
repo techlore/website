@@ -21,7 +21,7 @@ data:
   -
     name: "CalyxOS"
     desc: "CalyxOS maintains stock security, while balancing additional privacy & security features with usability."
-    tags: ["opensource", "Limited devices"]
+    tags: ["Open Source", "Limited devices"]
     labels:
       official: "https://calyxos.org/"
     color: "#9BCC01"
@@ -29,28 +29,28 @@ data:
   -
     name: "DivestOS"
     desc: "DivestOS attempts to fix some security issues with LineageOS (like bringing verified boot to some devices) while maintaing large device compatability."
-    tags: ["opensource", "Supports many devices"]
+    tags: ["Open Source", "Supports many devices"]
     labels:
       official: "https://divestos.org/"
     color: "#000000"
   -
     name: "LineageOS"
     desc: "LineageOS has lower security than stock, but it does attempt to improve privacy & transparency. Users should consider pros/cons before using LineageOS over stock."
-    tags: ["opensource", "Supports many devices"]
+    tags: ["Open Source", "Supports many devices"]
     labels:
       official: "https://lineageos.org/"
     color: "#167C80"
   -
     name: "MicroG"
     desc: "MicroG is an open source replacement to proprietary Google Play Services. It allows apps & services to work as intended in a more privacy-respecting & transparent fashion on most custom ROMs."
-    tags: ["opensource"]
+    tags: ["Open Source"]
     labels:
       official: "https://microg.org/"
     color: "#F2F2F2"
   -
     name: "Plexus"
     desc: "While MicroG & de-googled ROMs try to maintain the compatability of Google Play Services, they are not perfect. Plexus allows you to check what apps do/don't work."
-    tags: ["opensource"]
+    tags: ["Open Source"]
     labels:
       official: "https://plexus.techlore.tech/"
       android: "https://github.com/techlore/Plexus-app?tab=readme-ov-file#download"

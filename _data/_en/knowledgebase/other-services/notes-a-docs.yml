@@ -21,7 +21,7 @@ data:
   -
     name: "Cryptee"
     desc: "Cryptee offers E2EE notes, documents, & photos with a modern theme as a PWA. It is not collaborative nor designed for external sharing. "
-    tags: ["opensource", "Free", "Paid"]
+    tags: ["Open Source", "Free", "Paid"]
     labels:
       official: "https://crypt.ee/"
     color: "#ffffff"
@@ -29,7 +29,7 @@ data:
   -
     name: "Notesnook"
     desc: "Notesnook offers E2EE notes & documents for people looking for a feature-filled experience in their workflow."
-    tags: ["opensource", "Free", "Paid"]
+    tags: ["Open Source", "Free", "Paid"]
     labels:
       official: "https://notesnook.com/"
     color: "#000000"
@@ -37,7 +37,7 @@ data:
   -
     name: "CryptPad"
     desc: "CryptPad is an E2EE, document collaboration platform."
-    tags: ["opensource", "Free tier"]
+    tags: ["Open Source", "Free tier"]
     labels:
       official: "https://cryptpad.fr/"
     color: "#fff"

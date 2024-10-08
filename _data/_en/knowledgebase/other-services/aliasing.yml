@@ -21,7 +21,7 @@ data:
   -
     name: "SimpleLogin"
     desc: "SimpleLogin makes email aliasing easier than ever, all built with privacy & security from the ground up. SimpleLogin can also be self-hosted."
-    tags: ["opensource", "Free tier"]
+    tags: ["Open Source", "Free tier"]
     affil: "https://simplelogin.io/?slref=techlore"
     labels:
       official: "https://simplelogin.io/"
@@ -30,7 +30,7 @@ data:
   -
     name: "addy.io"
     desc: "addy.io (previously AnonAddy) is a private & secure email aliasing service with a very generous free option."
-    tags: ["opensource", "Free tier"]
+    tags: ["Open Source", "Free tier"]
     labels:
       official: "https://addy.io/"
     color: "#181e5e"

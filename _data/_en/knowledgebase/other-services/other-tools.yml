@@ -21,7 +21,7 @@ data:
   -
     name: "BleachBit"
     desc: "BleachBit is a file shredding and data removal tool."
-    tags: ["opensource", "Desktop"]
+    tags: ["Open Source", "Desktop"]
     labels:
       official: "https://www.bleachbit.org/"
     color: "#385199"
@@ -29,7 +29,7 @@ data:
   -
     name: "Dangerzone"
     desc: "Dangerzone is a program to safely open potentially suspicious attachments."
-    tags: ["opensource", "Desktop"]
+    tags: ["Open Source", "Desktop"]
     labels:
       official: "https://dangerzone.rocks/"
     color: "#6c3402"
@@ -45,7 +45,7 @@ data:
   -
     name: "Objective-See"
     desc: "Objective-See offers a suite of open source security & privacy tools for MacOS."
-    tags: ["opensource", "macOS"]
+    tags: ["Open Source", "macOS"]
     labels:
       official: "https://objective-see.org/"
     color: "#ffffff"

@@ -21,7 +21,7 @@ data:
   -
     name: "Tor Browser"
     desc: "The Tor Browser is one of the safest browsing experiences by prioritizing anonymity & freedom of information above all else. It's one of the most effective and accessible anonymity tools."
-    tags: ["opensource", "gecko"]
+    tags: ["Open Source", "Gecko"]
     labels:
       desktop: "https://www.torproject.org/"
       android: "https://www.torproject.org/download/#android"
@@ -30,7 +30,7 @@ data:
   -
     name: "Onion Browser"
     desc: "Onion Browser is an unofficial Tor Browser. Due to iOS limitations, it should not be considered as safe as the Tor Browser Project, though it still offers users a layer of anonymity."
-    tags: ["opensource", "webkit"]
+    tags: ["Open Source", "Webkit"]
     labels:
       ios: "https://onionbrowser.com/"
     color: "#7E4798"
@@ -38,7 +38,7 @@ data:
   -
     name: "Mullvad Browser"
     desc: "Mullvad Browser offers a fantastic middle-ground between the strong protections of a hardened Firefox, and the advantages of Tor Browser in a central place."
-    tags: ["opensource", "gecko"]
+    tags: ["Open Source", "Gecko"]
     labels:
       desktop: "https://mullvad.net/browser"
     color: "#192E45"
@@ -46,7 +46,7 @@ data:
   -
     name: "Brave"
     desc: "Brave attempts to offer a familiar browser experience with privacy & security by default. Brave does many neat things for users out-of-the-box, but a possible annoyance is the cryptocurrency features. (Can be disabled)"
-    tags: ["opensource", "webkit"]
+    tags: ["Open Source", "Webkit"]
     labels:
       desktop: "https://brave.com/"
       android: "https://brave.com/"
@@ -56,7 +56,7 @@ data:
   -
     name: "Firefox/Focus"
     desc: "Firefox doesn't have the best defaults, reserving maximum privacy & security through hardening the browser. (Limited on mobile, especially on iOS) An attractive reason to use Firefox is it's an alternative to the Chromium monopoly."
-    tags: ["opensource", "gecko", "webkit"]
+    tags: ["Open Source", "Gecko", "Webkit"]
     labels:
       desktop: "https://firefox.com/"
       android: "https://firefox.com/"
@@ -66,28 +66,28 @@ data:
   -
     name: "Mull"
     desc: "Mull is the closest thing to a pre-hardened Firefox on Android. It brings many features from the Tor Uplift Project, the Arkenfox project, & more! It is recommended to install 'uBlock Origin'."
-    tags: ["opensource", "gecko"]
+    tags: ["Open Source", "Gecko"]
     labels:
       android: "https://f-droid.org/en/packages/us.spotco.fennec_dos/"
     color: "#ffffff"
   -
     name: "LibreWolf"
     desc: "LibreWolf tackles most Firefox hardening out-of-the-box & does a decent job of maintaining security updates. Be aware that using forks of projects come with concerns regarding trusting a new party, in addition to trusting them to maintain security updates."
-    tags: ["opensource", "gecko"]
+    tags: ["Open Source", "Gecko"]
     labels:
       desktop: "https://librewolf.net/"
     color: "#ffffff"
   -
     name: "Safari"
     desc: "Apple's Safari offers users in the Apple ecosystem a moderately safe default browser with basic privacy & security precautions out-of-the-box. Consider using AdGuard for further protections."
-    tags: [ "proprietary", "webkit" ]
+    tags: [ "proprietary", "Webkit" ]
     labels:
       official: "https://www.apple.com/safari/"
     color: "#ffffff"
   -
     name: "AdGuard"
     desc: "For those using Safari, AdGuard is a great option to block ads, trackers, phishing, custom DNS, and more."
-    tags: [ "opensource", "freeTier" ]
+    tags: [ "opensource", "Free Tier" ]
     labels:
       official: "https://adguard.com/en/adguard-ios/overview.html"
     color: "#ffffff"

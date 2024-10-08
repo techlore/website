@@ -21,7 +21,7 @@ data:
   -
     name: "Aegis"
     desc: "Aegis is one of the most polished & simple TOTP services for Android."
-    tags: ["opensource", "free"]
+    tags: ["Open Source", "Free"]
     labels:
       android: "https://getaegis.app/"
     color: "#ffffff"
@@ -29,7 +29,7 @@ data:
   -
     name: "Ente Auth"
     desc: "Ente's 2FA app. A cross platform TOTP app with secure online backups."
-    tags: [ "opensource", "free", "iOS", "Android", "Web" ]
+    tags: [ "Open Source", "Free", "iOS", "Android", "Web" ]
     labels:
       official: "https://github.com/ente-io/ente/blob/main/auth/README.md"
     color: "#ffffff"

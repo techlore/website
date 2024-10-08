@@ -21,7 +21,7 @@ data:
   -
     name: "Veracrypt"
     desc: "Veracrypt offers users encrypted volumes, and on some operating systems full disk encryption. It is a great option for those needing maximum security."
-    tags: [ "opensource" ]
+    tags: [ "Open Source" ]
     labels:
       official: "https://www.veracrypt.fr/"
     color: "#ffffff"
@@ -29,14 +29,14 @@ data:
   -
     name: "GNU Privacy Guard"
     desc: "GnuPG offers flexible encryption options across different mediums for users needing a more versatile option, at the cost of generally being more advanced."
-    tags: [ "opensource" ]
+    tags: [ "Open Source" ]
     labels:
       official: "https://gnupg.org/"
     color: "#ffffff"
   -
     name: "7-zip"
     desc: "7-Zip is an archiving tool with basic file encryption options. It is not as robust as the other options and should be used with caution for sensitive tasks."
-    tags: [ "opensource" ]
+    tags: [ "Open Source" ]
     labels:
       official: "https://www.7-zip.org/"
     color: "#ffffff"

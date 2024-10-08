@@ -21,7 +21,7 @@ data:
   -
     name: "QubesOS"
     desc: "Qubes separates programs & operating systems into secure environments for maximum safety. It can be slower and may have compatibility issues with certain hardware."
-    tags: ["opensource", "xen", "advanced"]
+    tags: ["Open Source", "Xen", "Advanced"]
     labels:
       official: "https://www.qubes-os.org/"
     color: "#3874d8"
@@ -29,7 +29,7 @@ data:
   -
     name: "Fedora"
     desc: "Fedora has strong out-of-the-box privacy & security practices, all backed by a trustworthy and commited team."
-    tags: ["opensource", "linux", "moderate"]
+    tags: ["Open Source", "Linux", "Moderate"]
     labels:
       official: "https://fedoraproject.org/"
     color: "#294172"
@@ -37,21 +37,21 @@ data:
   -
     name: "Arch"
     desc: "Arch offers bleeding-edge updates with a more configurable option for users. Many looking to harden Linux themselves enjoy the flexibility offered by Arch."
-    tags: ["opensource", "linux", "advanced"]
+    tags: ["Open Source", "Linux", "Advanced"]
     labels:
       official: "https://www.archlinux.org/"
     color: "#1793D1"
   -
     name: "Debian"
     desc: "Debian offers stability above all else. While updates are generally slower, Debian still pushes frequent security updates."
-    tags: ["opensource", "linux", "moderate"]
+    tags: ["Open Source", "Linux", "Moderate"]
     labels:
       official: "https://www.debian.org/"
     color: "#C70737"
   -
     name: "MacOS"
     desc: "MacOS can be a reasonably private & secure OS for many threat models. Despite being proprietary, it offers strong protection and is a great alternative to Windows. Please refer to the device guides at the top of this page for more details."
-    tags: ["proprietary", "apple", "simple"]
+    tags: ["Proprietary", "Apple", "Simple"]
     labels:
       official: "https://www.apple.com/macos/what-is/"
     color: "#C70737"

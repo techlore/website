@@ -21,7 +21,7 @@ data:
   -
     name: "Proton Mail"
     desc: "Proton Mail checks all the right boxes when it comes to adding privacy & security protections over the inherently broken email system, all while seeking a simple experience."
-    tags: ["opensource", "Free tier"]
+    tags: ["Open Source", "Free tier"]
     affil: "https://go.getproton.me/SH12O"
     labels:
       official: "https://proton.me/mail"
@@ -30,7 +30,7 @@ data:
   -
     name: "Tuta"
     desc: "Tuta offers a transparent service with trust, security, and privacy as its focus."
-    tags: ["opensource", "Free tier"]
+    tags: ["Open Source", "Free tier"]
     labels:
       official: "https://tuta.com/"
     color: "#850122"

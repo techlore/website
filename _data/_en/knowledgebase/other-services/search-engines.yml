@@ -21,7 +21,7 @@ data:
   -
     name: "SearXNG"
     desc: "SearXNG is an open source, configurable, self-hostable, metasearch engine that compiles results from countless search engines in the same place."
-    tags: ["opensource", "Metasearch"]
+    tags: ["Open Source", "Metasearch"]
     labels:
       official: "https://docs.searxng.org/"
     color: "#ffffff"

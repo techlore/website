@@ -21,7 +21,7 @@ data:
   -
     name: "Whonix"
     desc: "Whonix offers both a virtual and live environment with a goal of anonymity. All activies are routed through Tor with strong privacy & security precautions."
-    tags: ["opensource", "virtualmachine", "liveos"]
+    tags: ["Open Source", "Virtual Machine", "Live OS"]
     labels:
       official: "https://www.whonix.org/"
     color: "#ffffff"
@@ -29,7 +29,7 @@ data:
   -
     name: "TailsOS"
     desc: "TailsOS offers a Tor-routed live environment for privacy & anonymity."
-    tags: ["opensource", "liveos"]
+    tags: ["Open Source", "Live OS"]
     labels:
       official: "https://tails.net/"
     color: "#56347C"

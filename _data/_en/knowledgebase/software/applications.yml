@@ -21,7 +21,7 @@ data:
   -
     name: "F-Droid"
     desc: "F-Droid is the go-to FOSS app store for all Android devices."
-    tags: ["opensource", "Android"]
+    tags: ["Open Source", "Android"]
     labels:
       android: "https://f-droid.org/"
     color: "#ffffff"
@@ -29,7 +29,7 @@ data:
   -
     name: "Aurora Store"
     desc: "Aurora Store allows users to download apps directly from the Google Play Store without a Google Account safely."
-    tags: [ "opensource", "Android" ]
+    tags: [ "Open Source", "Android" ]
     labels:
       android: "https://auroraoss.com/"
     color: "#6B62FF"
@@ -37,7 +37,7 @@ data:
   -
     name: "Exodus Privacy"
     desc: "Analyzes privacy concerns in Android applications. Many iOS applications will use similar trackers, so this is a useful tool to check trackers for applications before downloading."
-    tags: [ "opensource", "Android", "Web" ]
+    tags: [ "Open Source", "Android", "Web" ]
     labels:
       official: "https://exodus-privacy.eu.org/en/"
     color: "#684972"
@@ -45,7 +45,7 @@ data:
   -
     name: "AltStore"
     desc: "AltStore allows iOS users to install IPA files (apps) to their device without the App Store. Apple's restrictions, however, make this a generally limited experience."
-    tags: [ "opensource", "iOS" ]
+    tags: [ "Open Source", "iOS" ]
     labels:
       ios: "https://altstore.io/"
     color: "#358389"
