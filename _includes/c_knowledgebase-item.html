@@ -22,7 +22,7 @@
 			<h4 class="knowledgebase-item__title is-align-items-center is-flex is-gap-1">
 				{{ include.item.name }}
 				{% if include.item.favorite %}
-					{% include e_render-svg-icon.html icon="star" dimension="25" inline=true class="knowledgebase-item__favorite" %}
+					{% include e_render-svg-icon.html icon="star-solid" dimension="25" inline=true class="knowledgebase-item__favorite" %}
 				{% endif %}
 				<a href="{{ slugifiedName | prepend: "#" }}" class="knowledgebase-item__anchor anchor__hash">#</a>
 			</h4>
