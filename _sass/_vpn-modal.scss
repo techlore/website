@@ -1,0 +1,139 @@
+// TODO: Refactor
+.vpn-modal {
+	display: none;
+	position: fixed;
+	left: 50%;
+	bottom: var(--bulma-column-gap);
+	z-index: 30;
+	height: 45px;
+	translate: -50% 0;
+	text-align: center;
+}
+
+.vpn-modal.expand {
+	background-color: var(--bulma-primary);
+	box-shadow: 0 10px 30px rgba(0, 0, 0, .19), 0 6px 90px rgba(0, 0, 0, .17);
+	border-radius: var(--bulma-radius-large);
+	width: calc(100vw - 20px);
+	height: calc(100vh - 75px);
+	top: 50%;
+	max-width: 600px;
+	padding: 0;
+	translate: -50% -50%;
+	border: 2px solid var(--bulma-primary);
+}
+
+.vpn-modal .cmp-btn {
+	box-shadow: 0 10px 30px rgba(0, 0, 0, .19), 0 6px 90px rgba(0, 0, 0, .17);
+}
+
+.vpn-modal.expand .cmp-btn {
+	background-color: var(--bulma-black);
+	border-color: var(--bulma-border-weak);
+	box-shadow: none;
+	position: fixed;
+	left: 50%;
+	bottom: calc(var(--bulma-column-gap) / 1);
+	z-index: 20;
+	translate: -50% 0;
+}
+
+.vpn-modal .content {
+	width: 100%;
+	height: 100%;
+	text-align: left;
+	border-radius: var(--bulma-radius);
+}
+
+.vpn-modal .content .head {
+	padding-inline: var(--bulma-size-3);
+}
+
+.vpn-modal .content .head .title {
+	font-size: var(--bulma-size-3);
+	font-family: var(--bulma-family-secondary);
+	color: var(--bulma-white);
+	flex-grow: 1;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+
+	@media (max-width: $tablet) {
+		font-size: var(--bulma-size-5);
+	}
+}
+
+.vpn-modal .content .head .title[data-divider="2"] {
+	width: calc(100% / 2);
+
+	&:nth-child(2) {
+		border-left: 1px solid var(--bulma-white);
+	}
+}
+
+.vpn-modal .content .head .title[data-divider="3"] {
+	width: calc(100% / 3);
+
+	&:nth-child(2) {
+		border-inline: 1px solid var(--bulma-white);
+	}
+}
+
+.vpn-modal .content .tb {
+	display: block;
+	background-color: var(--bulma-white);
+	width: 100%;
+	max-height: calc(100% - (var(--bulma-size-1) * 2));
+	padding: var(--bulma-size-3);
+	overflow: auto;
+}
+
+#tb table {
+	width: 100%;
+}
+
+#tb .tb-b {
+	border: 0;
+}
+
+#tb table.rt2 td {
+	width: calc(100% / 2);
+
+	&:nth-child(2) {
+		border-left: 1px solid var(--bulma-primary-90);
+	}
+}
+
+#tb table.rt3 td {
+	width: calc(100% / 3);
+
+	&:nth-child(2) {
+		border-inline: 1px solid var(--bulma-primary-90);
+	}
+}
+
+#tb td:not(.tb-b) {
+	padding-inline: 0;
+	padding-bottom: var(--bulma-size-2);
+	vertical-align: middle;
+
+	@media (max-width: $tablet) {
+		font-size: var(--bulma-size-5);
+		word-break: break-all;
+	}
+}
+
+#tb tr,
+#tb td {
+	text-align: center;
+	border: 0;
+	color: var(--bulma-black);
+}
+
+#tb h5 {
+	color: var(--bulma-black);
+	background-color: var(--bulma-primary-95);
+	padding: var(--bulma-size-7);
+	border-radius: var(--bulma-radius);
+	margin-bottom: 0;
+}

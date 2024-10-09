@@ -3,8 +3,14 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	{% seo %}
-	{% comment %}THX https://realfavicongenerator.net/ {% endcomment %}
+
+	{% assign vpnPermalink = site.data._en.navigation.hiddenNav.vpnToolkit.url %}
+	{% if page.permalink == vpnPermalink %}
+		<link rel="stylesheet" href="{{ "/assets/vendors/tabulator/tabulator.min.css" | relative_url }}{{ 'now' | date: '%s' | prepend: "?" }}">
+	{% endif %}
 	<link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}{{ 'now' | date: '%s' | prepend: "?" }}">
+
+	{% comment %}THX https://realfavicongenerator.net/ {% endcomment %}
 	<link rel="apple-touch-icon" sizes="180x180" href="{{ "/apple-touch-icon.png" | relative_url }}">
 	<link rel="icon" type="image/png" sizes="32x32" href="{{ "/favicon-32x32.png" | relative_url }}">
 	<link rel="icon" type="image/png" sizes="16x16" href="{{ "/favicon-16x16.png" | relative_url }}">

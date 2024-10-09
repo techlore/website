@@ -1,0 +1,89 @@
+// TODO: Refactor
+.tabulator {
+	border-radius: var(--bulma-radius);
+	border: 1px solid var(--bulma-border);
+	text-align: left;
+	max-width: 98vw;
+	min-width: 100px;
+	margin: auto;
+
+	&:after {
+		content: '';
+		position: absolute;
+		inset: 0 0 0 auto;
+		width: calc(var(--bulma-size-5) * 5);
+		background: var(--bulma-black);
+		background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+		opacity: .4;
+		pointer-events: none;
+	}
+
+	&:hover {
+		.resizer-h {
+			opacity: 1;
+		}
+	}
+}
+
+.tabulator .resizer-h {
+	width: calc(var(--bulma-size-5) * 2);
+	border-right: calc(var(--bulma-size-5) / 4) solid var(--bulma-white);
+	background-color: transparent;
+	position: absolute;
+	right: calc(var(--bulma-size-5) / 4);
+	top: calc(var(--bulma-size-5) * 2);
+	bottom: calc(var(--bulma-size-5) * 2);
+	cursor: col-resize;
+	transition: border 350ms ease-in-out, opacity 350ms ease-in-out;
+	opacity: 0;
+	z-index: 5;
+
+	&:hover {
+		border-right-width: calc(var(--bulma-size-5) / 2);
+	}
+}
+
+.tabulator .tabulator-header {
+	border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+	color: var(--bulma-black);
+	font-family: var(--bulma-family-secondary);
+	font-size: var(--bulma-size-5);
+}
+
+.tabulator .tabulator-header .tabulator-col .tabulator-col-content {
+	background: var(--bulma-primary);
+	color: white;
+	padding: var(--bulma-size-7);
+}
+
+.tabulator-row .tabulator-cell.tabulator-frozen.tabulator-frozen-left {
+	display: inline-flex;
+	align-items: center;
+	gap: var(--bulma-column-gap);
+
+	& > span {
+		flex-grow: 1;
+	}
+}
+
+.tabulator .tabulator-frozen.tabulator-frozen-left {
+	font-family: var(--bulma-family-secondary);
+	font-weight: 900;
+}
+
+.tabulator-row.tabulator-selectable:hover {
+	background-color: var(--bulma-success-20-invert);
+}
+
+.tabulator .tabulator-row.tabulator-selected .tabulator-cell {
+	background-color: var(--bulma-success-75);
+}
+
+.tabulator-row .tabulator-cell {
+	text-align: center;
+	padding: var(--bulma-size-7);
+	border-right: none;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}

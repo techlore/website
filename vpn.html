@@ -1,0 +1,57 @@
+---
+layout: page
+title: "VPN Toolkit"
+permalink: /vpn
+---
+{% include variables.html %}
+{% include c_sub-hero.html title=page.title perex=t.vpn.perex %}
+
+<section>
+
+	<div class="vpn-modal">
+		<button class="cmp-btn button is-primary">Compare selected</button>
+		<div class="content">
+			<div class="head">
+			</div>
+			<div class="tb" id="tb">
+				<table>
+				</table>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="columns is-multiline">
+			<div class="column is-hidden">
+				<div class="select">
+					<select id="flt-field">
+						<option></option>
+						<option value="VPN" selected>VPN</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="column">
+				<div class="field has-addons">
+					<div class="control">
+						<input id="flt-value" class="_mt0 input" type="text" placeholder="Value to filter">
+					</div>
+					<div class="control">
+						<button id="flt-clear" class="button is-primary is-outlined">Clear filter</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="column is-full pt-0">
+				<div class="is-size-7 is-italic has-text-info">
+					Tip: Select up to 3 VPNs to compare them. Resize the chart using the black bar on the right.
+				</div>
+			</div>
+		</div>
+
+		<div id="vpn-table">
+			{% comment %} Filled with JS {% endcomment %}
+		</div>
+	</div>
+</section>
+
+

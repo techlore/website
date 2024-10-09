@@ -23,8 +23,10 @@
 				<h6 class="footer__column-title">{{ t.videos.title | upcase }}</h6>
 				<ul class="footer__list listless">
 					<li class="footer__list-item"><a href="{{ nav.mainNav.videos.url | absolute_url }}" class="footer__link is-touch-friendly">{{ t.videos.techlore.title }}</a></li>
-					<li class="footer__list-item"><a href="{{ nav.mainNav.videos.url | absolute_url }}#techlore-clips" class="footer__link is-touch-friendly">{{ t.videos.techloreClips.title }}</a></li>
-					<li class="footer__list-item"><a href="{{ nav.mainNav.videos.url | absolute_url }}#surveillance-report" class="footer__link is-touch-friendly">{{ t.videos.surveillanceReport.title }}</a></li>
+					<li class="footer__list-item"><a href="{{ nav.mainNav.videos.url | absolute_url }}#techlore-clips" class="footer__link is-touch-friendly">{{ t.videos.techloreClips.title }}</a>
+					</li>
+					<li class="footer__list-item">
+						<a href="{{ nav.mainNav.videos.url | absolute_url }}#surveillance-report" class="footer__link is-touch-friendly">{{ t.videos.surveillanceReport.title }}</a></li>
 					<li class="footer__list-item"><a href="{{ nav.mainNav.goincognito.url | absolute_url }}" class="footer__link is-touch-friendly">{{ t.goincognito.title }}</a></li>
 				</ul>
 			</div>
@@ -33,9 +35,11 @@
 				<ul class="footer__list listless">
 					<li class="footer__list-item"><a href="{{ nav.hiddenNav.spaQuiz.url | absolute_url }}" class="footer__link is-touch-friendly">{{ nav.hiddenNav.spaQuiz.title }}</a></li>
 					<li class="footer__list-item"><a href="{{ nav.hiddenNav.vpnToolkit.url | absolute_url }}" class="footer__link is-touch-friendly">{{ nav.hiddenNav.vpnToolkit.title }}</a></li>
-					<li class="footer__list-item"><a href="{{ nav.hiddenNav.plexus.url | absolute_url }}" class="footer__link is-touch-friendly" target="_blank">{{ nav.hiddenNav.plexus.title }}</a></li>
+					<li class="footer__list-item"><a href="{{ nav.hiddenNav.plexus.url | absolute_url }}" class="footer__link is-touch-friendly" target="_blank">{{ nav.hiddenNav.plexus.title }}</a>
+					</li>
 					<li class="footer__list-item">
-						<a href="{{ nav.mainNav.resources.url | absolute_url | append: '#techlore-guides' }}" class="footer__link is-touch-friendly" target="_blank">{{ t.videos.techloreGuides.title }}</a></li>
+						<a href="{{ nav.mainNav.resources.url | absolute_url | append: '#techlore-guides' }}" class="footer__link is-touch-friendly" target="_blank">{{ t.videos.techloreGuides.title }}</a>
+					</li>
 				</ul>
 			</div>
 			<div class="column is-full-tablet is-one-fifth-desktop is-flex is-flex-direction-column">
@@ -80,4 +84,42 @@
 		</div>
 	</div>
 </footer>
+
+{% assign vpnPermalink = site.data._en.navigation.hiddenNav.vpnToolkit.url %}
+{% if page.permalink == vpnPermalink %}
+	{% comment %}
+		TODO: Remove SvelteJS, rewrite with vanilla JS
+	{% endcomment %}
+	<script src="{{ "/assets/vendors/sveltejs/svelte.min.js" | relative_url }}{{ 'now' | date: '%s' | prepend: "?" }}"></script>
+	<script src="{{ "/assets/vendors/tabulator/tabulator.min.js" | relative_url }}{{ 'now' | date: '%s' | prepend: "?" }}"></script>
+	<script src="{{ "/assets/js/vpn-chart.js" | relative_url }}{{ 'now' | date: '%s' | prepend: "?" }}"></script>
+{% endif %}
+
 <script src="{{ "/assets/js/main.js" | relative_url }}{{ 'now' | date: '%s' | prepend: "?" }}"></script>
+
+{% comment %}
+TODO: Implement TOP button
+<script type="application/javascript">
+	const gt_btn = document.getElementById('gt-link');
+	// Let's set up a function that shows our scroll-to-top button if we scroll beyond the height of the initial window.
+	window.addEventListener("scroll", () => {
+		let y = window.scrollY;
+		if (y > 0) {
+			gt_btn.className = "gt-link show";
+		} else {
+			gt_btn.className = "gt-link hide";
+		}
+	});
+
+	gt_btn.onclick = function (e) {
+		e.preventDefault();
+		if (document.documentElement.scrollTop || document.body.scrollTop > 0) {
+			window.scroll({
+				top: 0,
+				left: 0,
+				behavior: 'smooth'
+			});
+		}
+	}
+</script>
+{% endcomment %}

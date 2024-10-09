@@ -204,6 +204,12 @@ support:
     desc: "And why do we passionately support these initiatives?"
 
 # -----------------------------------------
+# VPN TOOLKIT
+#
+vpn:
+  perex: "Open-Source Comparison Chart"
+
+# -----------------------------------------
 # ABOUT US section and page
 #
 about:
