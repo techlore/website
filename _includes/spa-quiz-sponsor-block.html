@@ -1,0 +1,10 @@
+{% include variables.html %}
+{% assign spaQuiz = site.data._en.spa-quiz.text %}
+
+<div class="spa-quiz__sponsor-block has-text-centered has-background has-radius-normal mt-6 pt-4 px-3 pb-3">
+	{{ spaQuiz.sponsorBlock.text | markdownify }}️
+
+	<a href="{{ spaQuiz.sponsorBlock.url }}️" class="button is-ghost has-text-warning" target="_blank">
+		{{ spaQuiz.sponsorBlock.button }}️
+	</a>
+</div>

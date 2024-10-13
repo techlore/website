@@ -1,0 +1,208 @@
+.tab,
+#zone_2,
+#zone_3,
+#result-box,
+#rs-info,
+#checks-box {
+	display: none;
+}
+
+.spa-quiz {
+	--_zone-color: var(--bulma-success);
+}
+
+div[data-active="zone2"] {
+	--_zone-color: var(--bulma-warning);
+}
+
+div[data-active="zone3"] {
+	--_zone-color: var(--bulma-danger);
+}
+
+.spa-quiz__label {
+	min-height: calc(var(--bulma-size-5) * 4);
+	box-shadow: none;
+	transition: box-shadow 550ms ease-in-out;
+
+	&:hover {
+		box-shadow: 0 0 60px -10px var(--_zone-color);
+	}
+}
+
+button[data-spa-visibility="hidden"] {
+	visibility: hidden;
+	pointer-events: none;
+}
+
+// GLITCH TITLE EFFECT
+.glitchEffect {
+	position: relative;
+
+	&::before,
+	&::after {
+		content: attr(data-text);
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.glitchEffect::before {
+	left: 2px;
+	clip: rect(79px, 1200px, 86px, 0);
+	text-shadow: -2px 0 #ff00fb;
+	background: transparent;
+	animation: glitchEffect-anim-2 1s infinite linear alternate-reverse;
+}
+
+.glitchEffect::after {
+	left: -2px;
+	clip: rect(79px, 1200px, 86px, 0);
+	text-shadow: 2px 0 #f4ff00;
+	background: transparent;
+	animation: glitchEffect-anim-1 1s infinite linear alternate-reverse;
+	animation-delay: -1s;
+}
+
+@keyframes glitchEffect-anim-1 {
+	0% {
+		clip: rect(0px, 1200px, 76px, 0);
+	}
+	20% {
+		clip: rect(19px, 1200px, 16px, 0);
+	}
+	40% {
+		clip: rect(16px, 1200px, 3px, 0);
+	}
+	60% {
+		clip: rect(62px, 1200px, 78px, 0);
+	}
+	80% {
+		clip: rect(25px, 1200px, 13px, 0);
+	}
+	100% {
+		clip: rect(53px, 1200px, 86px, 0);
+	}
+}
+
+@keyframes glitchEffect-anim-2 {
+	0% {
+		clip: rect(79px, 1200px, 86px, 0);
+	}
+	20% {
+		clip: rect(20px, 1200px, 30px, 0)
+	}
+	40% {
+		clip: rect(25px, 1200px, 5px, 0)
+	}
+	60% {
+		clip: rect(65px, 1200px, 85px, 0)
+	}
+	80% {
+		clip: rect(120px, 1200px, 145px, 0)
+	}
+	100% {
+		clip: rect(95px, 1200px, 75px, 0)
+	}
+}
+
+// SPONSOR BLOCK
+.spa-quiz__sponsor-block {
+	& > .button {
+		margin-top: calc(var(--bulma-size-7) * -1);
+	}
+}
+
+// STEPS
+.spa-quiz__step {
+	width: calc(var(--bulma-size-5) * .75);
+	aspect-ratio: 1;
+	transition: scale 600ms cubic-bezier(0.34, 1.56, 0.64, 1);
+
+	&.active {
+		background-color: var(--_zone-color);
+		scale: 1.75;
+		border: 0;
+	}
+}
+
+// SCORE
+.spa-quiz__score {
+	span {
+		position: relative;
+		cursor: default;
+
+		&:not(.is-active):hover {
+			&:after {
+				translate: -50% 125%;
+				opacity: 1;
+			}
+		}
+
+		// -- score description
+		&:after {
+			content: attr(data-title);
+			position: absolute;
+			font-weight: 300;
+			color: var(--bulma-warning);
+			inset: auto auto 0 50%;
+			white-space: nowrap;
+			translate: -50% 100%;
+			pointer-events: none;
+			opacity: 0;
+			transition: opacity 350ms ease-in-out, translate 350ms ease-in-out;
+		}
+	}
+}
+
+// CIRCLE PROGRESS custom
+.circle-progress-circle {
+	stroke-dasharray: 0.5 3;
+}
+
+.progressB .circle-progress {
+	width: 200px;
+	height: auto;
+}
+
+.circle-progress-value {
+	stroke-width: 4px;
+	stroke-linecap: round;
+
+	.progressB & {
+		stroke: var(--bulma-primary);
+	}
+
+	.progressG & {
+		stroke: var(--bulma-success);
+	}
+
+	.progressY & {
+		stroke: var(--bulma-warning);
+	}
+
+	.progressR & {
+		stroke: var(--bulma-danger);
+	}
+}
+
+.circle-progress-circle {
+	stroke-width: 4px;
+	stroke: #555;
+}
+
+.circle-progress-text {
+	font-family: var(--bulma-family-secondary);
+}
+
+.circle-progress-text-value {
+	fill: var(--bulma-white);
+	font-weight: 600;
+}
+
+.circle-progress-text-max {
+	font-size: var(--bulma-size-7);
+}
+

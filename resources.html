@@ -11,7 +11,7 @@ permalink: /resources
 		<div class="columns has-1-cols has-3-cols-tablet is-centered is-multiline">
 			<div class="column is-half-tablet is-one-third-desktop is-flex">
 				{% assign iconSpa = "list-select" %}
-				{% assign buttonLink = "TOOD" %}
+				{% assign buttonLink = site.data._en.navigation.hiddenNav.spaQuiz.url | absolute_url %}
 				{% include c_feature-box.html
 					icon=iconSpa
 					title=t.featureBox.techloreTools.spaQuiz.title

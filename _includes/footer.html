@@ -95,6 +95,13 @@
 	<script src="{{ "/assets/js/vpn-chart.js" | relative_url }}{{ 'now' | date: '%s' | prepend: "?" }}"></script>
 {% endif %}
 
+{% assign spaPermalink = site.data._en.navigation.hiddenNav.spaQuiz.url %}
+{% if page.permalink == spaPermalink %}
+	<script src="{{ "/assets/vendors/sveltejs/svelte.min.js" | relative_url }}{{ 'now' | date: '%s' | prepend: "?" }}"></script>
+	<script src="{{ "/assets/vendors/circle-progress/circle-progress.min.js" | relative_url }}{{ 'now' | date: '%s' | prepend: "?" }}"></script>
+	<script src="{{ "/assets/js/spa-quiz.js" | relative_url }}{{ 'now' | date: '%s' | prepend: "?" }}"></script>
+{% endif %}
+
 <script src="{{ "/assets/js/main.js" | relative_url }}{{ 'now' | date: '%s' | prepend: "?" }}"></script>
 
 {% comment %}

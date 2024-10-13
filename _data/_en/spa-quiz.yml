@@ -1,0 +1,267 @@
+# SPA Quiz - Anonymity Quiz
+#
+# Legend:
+#     - value (number): points/value of the answers in that zone
+#     - answer (string)
+#     - slide (number): slide/page of the particular zone that the answer will appear
+#     - button (optional)
+#         - text (string)
+#         - url (string): section of the "/resources page", eg. "password-managers" -OR- external link
+#         - external (boolean)
+
+text:
+  title: "Anonymity Quiz️"
+  desc: "Test your security, privacy and anonymity"
+  buttons:
+    start: "Start the quiz"
+    next: "Next question"
+    prev: "Previous question"
+    results: "Show results"
+  sponsorBlock:
+    text: "Your logo can be **here**."
+    button: "Become a sponsor!"
+    url: "https://discuss.techlore.tech/pub/sponsors"
+  zone1:
+    title: "Zone 1"
+    subtitle: "- the essentials -"
+  zone2:
+    title: "Zone 2"
+    subtitle: "- the enhanced level -"
+  zone3:
+    title: "Zone 3"
+    subtitle: "- the expert zone -"
+  score:
+    weak:
+      points: "0 - 50"
+      desc: "Weak"
+    belowAverage:
+      points: "50 - 150"
+      desc: "Below Average"
+    techloreApproved:
+      points: "150 - 220"
+      desc: "Techlore Approved"
+    aboveBeyond:
+      points: "220 - 300"
+      desc: "Above & Beyond"
+    techloreMax:
+      points: "300+"
+      desc: "Techlore Max"
+  toImprove:
+    title: "How can I improve my score?"
+    desc: "Here are guides and tools to raise your score and protect your privacy"
+data:
+  zone1:
+    value: 5
+    answers:
+      -
+        answer: "Use a password manager"
+        slide: 1
+        button:
+          text: "Password Managers"
+          url: "password-managers"
+      -
+        answer: "Use a strong password for device log-ins"
+        slide: 1
+      -
+        answer: "Use a strong router password"
+        slide: 1
+      -
+        answer: "Use 2FA on available services"
+        slide: 1
+        button:
+          text: "2FA Options"
+          url: "totp-2fa"
+      -
+        answer: "Disable Google tracking on MyActivity page"
+        slide: 2
+        button:
+          text: "My Activity Page"
+          url: "https://myactivity.google.com/"
+          external: true
+      -
+        answer: "Delete and minimize unused accounts"
+        slide: 2
+      -
+        answer: "Utilize privacy settings on all your accounts to stay safe"
+        slide: 2
+      -
+        answer: "Use a good, quality VPN and/or Tor"
+        slide: 2
+        button:
+          text: "VPN Options"
+          url: "vpns"
+      -
+        answer: "Use secure, end-to-end encrypted messaging"
+        slide: 3
+        button:
+          text: "Messengers"
+          url: "messengers"
+      -
+        answer: "Use secure and encrypted email"
+        slide: 3
+        button:
+          text: "Email providers"
+          url: "email"
+      -
+        answer: "Use only trusted web extensions"
+        slide: 3
+      -
+        answer: "Use a privacy-respecting search engine"
+        slide: 3
+        button:
+          text: "Search Engines"
+          url: "search-engines"
+      -
+        answer: "Frequently clear or never store browser data"
+        slide: 4
+      -
+        answer: "Utilize private & secure browser protections"
+        slide: 4
+      -
+        answer: "Opt out of phone OS analytics/tracking"
+        slide: 4
+      -
+        answer: "Disable unused phone radios <i>(NFC/WiFi/BT, etc.)</i>"
+        slide: 4
+      -
+        answer: "Disable and minimize unused phone functions"
+        slide: 5
+      -
+        answer: "Opt out of computer OS analytics/tracking"
+        slide: 5
+      -
+        answer: "Disable unused computer radios <i>(NFC/WiFi/BT,etc.)</i>"
+        slide: 5
+      -
+        answer: "Disable and minimize unused computer features"
+        slide: 5
+      -
+        answer: "Clear device temporary data <i>(Cache, Cookies, Logs, etc.)</i>"
+        slide: 5
+      -
+        answer: "Shred deleted files and data"
+        slide: 6
+      -
+        answer: "Backup your data consistently"
+        slide: 6
+      -
+        answer: "Avoid public computers"
+        slide: 6
+      -
+        answer: "Avoid IOT &Smart Devices"
+        slide: 6
+      -
+        answer: "Utilize a safe & shredder"
+        slide: 6
+  zone2:
+    value: 6
+    answers:
+      -
+        answer: "Disable all biometrics <i>(or have good reason to use them)</i>"
+        slide: 1
+      -
+        answer: "Delete Google altogether"
+        slide: 1
+      -
+        answer: "Utilize pseudonyms to offload personal data"
+        slide: 1
+      -
+        answer: "Use privately-obtained phone numbers and/or aliases"
+        slide: 1
+      -
+        answer: "Delete all personal social media"
+        slide: 1
+      -
+        answer: "Use only private and secure browsers"
+        slide: 2
+        button:
+          text: "Browsers"
+          url: "web-browsers"
+      -
+        answer: "Utilize multiple browsers for different tasks"
+        slide: 2
+        button:
+          text: "Browsers"
+          url: "web-browsers"
+      -
+        answer: "Move to as many FOSS alternatives as possible"
+        slide: 2
+        button:
+          text: "AlternativeTo.net"
+          url: "https://alternativeto.net/"
+          external: true
+      -
+        answer: "Ditch type 1 Android <i>(Samsung, HTC, etc.)</i>"
+        slide: 2
+      -
+        answer: "Secure your computer BIOS"
+        slide: 2
+      -
+        answer: "Use full disk encryption"
+        slide: 3
+      -
+        answer: "Spoof MAC address"
+        slide: 3
+      -
+        answer: "Strip all OS telemetry/analytics"
+        slide: 3
+      -
+        answer: "Ditch Windows"
+        slide: 3
+        button:
+          text: "Desktop OS"
+          url: "desktop"
+      -
+        answer: "Delete file metadata & EXIF"
+        slide: 3
+      -
+        answer: "Implement strong home security"
+        slide: 4
+      -
+        answer: "Use cable locks & intrusion kits for devices"
+        slide: 4
+      -
+        answer: "Completely ditch IOT & smart devices"
+        slide: 4
+      -
+        answer: "Use privacy screen protectors"
+        slide: 4
+      -
+        answer: "Use camera covers"
+        slide: 4
+  zone3:
+    value: 7
+    answers:
+      -
+        answer: "Fully clean & minimize your online digital footprint"
+        slide: 1
+      -
+        answer: "Delete all social media"
+        slide: 1
+      -
+        answer: "Utilize hardened and most trusted browsers"
+        slide: 1
+        button:
+          text: "Browsers"
+          url: "web-browsers"
+      -
+        answer: "Use Custom ROMs/Dumb Phones <i>(Be aware of their limitations especially regarding SMS)</i>"
+        slide: 1
+      -
+        answer: "Use Private/Secure Desktop OS(s)"
+        slide: 2
+        button:
+          text: "Desktop OS"
+          url: "desktop"
+      -
+        answer: "Shop online and in-person privately"
+        slide: 2
+        button:
+          text: "Eg. Privacy.com"
+          url: "privacy-com"
+      -
+        answer: "Physically remove cameras/mics"
+        slide: 2
+      -
+        answer: "Avoid facial recognition/AI in public"
+        slide: 2

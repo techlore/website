@@ -1,0 +1,204 @@
+---
+layout: page
+title: "SPA Quiz"
+permalink: /spa
+---
+{% include variables.html %}
+{% assign spaQuiz = site.data._en.spa-quiz.text %}
+
+<section>
+	<div class="container is-max-tablet">
+		<div class="spa-quiz">
+
+			<!-- START -->
+			<section id="main-box" class="spa-quiz__section spa-quiz__section--start has-text-centered">
+				<h1 class="glitchEffect mb-2" data-text="{{ spaQuiz.title }}️">{{ spaQuiz.title }}️</h1>
+				<h5>{{ spaQuiz.desc }}</h5>
+				<button class="play-button button is-primary mt-6" id="quiz-game-btn">{{ spaQuiz.buttons.start }}️</button>
+				{%- include spa-quiz-sponsor-block.html -%}
+			</section>
+
+			<!-- QUIZ -->
+			{% assign answersTotalCount = 0 %} {% comment %} for the unique IDs {% endcomment %}
+			<section id="checks-box" class="spa-quiz__section spa-quiz__section--aswers">
+				<div class="is-flex is-justify-content-center is-gap-1.5" id="steps">
+					<span class="spa-quiz__step has-radius-rounded has-background active"></span>
+					<span class="spa-quiz__step has-radius-rounded has-background"></span>
+				</div>
+
+				<!-- ZONE 1 -->
+				<div id="zone_1" data-max="130" data-steps="6" class="spa-quiz__zone mt-6">
+					<div class="has-text-centered">
+						<h2 class="mb-0">{{ spaQuiz.zone1.title }}️</h2>
+						<p>{{ spaQuiz.zone1.subtitle }}️</p>
+					</div>
+
+					{% assign zone1 = site.data._en.spa-quiz.data.zone1 %}
+					{% assign zone1Answers = zone1.answers %}
+					{% assign groupedZone1Answers = zone1Answers | group_by: "slide" %}
+
+					{%- for group in groupedZone1Answers -%}
+						<div class="tab mt-6">
+							{% for answer in group.items %}
+								{% include c_spa-quiz-item.html data=answer value=zone1.value %}
+
+								{% assign answersTotalCount = answersTotalCount | plus: 1 %}
+							{% endfor %}
+						</div>
+					{%- endfor -%}
+				</div>
+
+				<!-- ZONE 2 -->
+				<div id="zone_2" data-max="120" data-steps="4" class="spa-quiz__zone mt-6">
+					<div class="has-text-centered">
+						<h2 class="mb-0">{{ spaQuiz.zone2.title }}️</h2>
+						<p>{{ spaQuiz.zone2.subtitle }}️</p>
+					</div>
+
+					{% assign zone2 = site.data._en.spa-quiz.data.zone2 %}
+					{% assign zone2Answers = zone2.answers %}
+					{% assign groupedZone1Answers = zone2Answers | group_by: "slide" %}
+
+					{%- for group in groupedZone1Answers -%}
+						<div class="tab mt-6">
+							{% for answer in group.items %}
+								{% include c_spa-quiz-item.html data=answer value=zone2.value %}
+
+								{% assign answersTotalCount = answersTotalCount | plus: 1 %}
+							{% endfor %}
+						</div>
+					{%- endfor -%}
+				</div>
+
+				<!-- ZONE 3 -->
+				<div id="zone_3" data-max="56" data-steps="2" class="spa-quiz__zone mt-6">
+					<div class="has-text-centered">
+						<h2 class="mb-0">{{ spaQuiz.zone3.title }}️</h2>
+						<p>{{ spaQuiz.zone3.subtitle }}️</p>
+					</div>
+
+					{% assign zone3 = site.data._en.spa-quiz.data.zone3 %}
+					{% assign zone3Answers = zone3.answers %}
+					{% assign groupedZone1Answers = zone3Answers | group_by: "slide" %}
+
+					{%- for group in groupedZone1Answers -%}
+						<div class="tab mt-6">
+							{% for answer in group.items %}
+								{% include c_spa-quiz-item.html data=answer value=zone3.value %}
+
+								{% assign answersTotalCount = answersTotalCount | plus: 1 %}
+							{% endfor %}
+						</div>
+					{%- endfor -%}
+				</div>
+
+				<!-- CONTROL BUTTONS -->
+				<div class="is-flex is-justify-content-space-between mt-6">
+					<button type="button" class="button is-primary" id="prevBtn">{{ spaQuiz.buttons.prev }}️</button>
+					<button
+						type="button"
+						class="button is-primary"
+						id="nextBtn"
+						data-next="{{ spaQuiz.buttons.next }}"
+						data-results="{{ spaQuiz.buttons.results }}"
+					>
+						{{ spaQuiz.buttons.next }}
+					</button>
+				</div>
+			</section>
+
+			<!-- RESULTS -->
+			<section id="result-box" class="spa-quiz__section spa-quiz__section--results">
+				<div class="results has-text-centered">
+					{% comment %}TODO: Translations + classes refactor! {% endcomment %}
+
+					<h2 class="results__title mb-0">-</h2>
+
+					<div class="spa-quiz__score columns has-5-cols is-size-7 mt-3">
+						<div class="column">
+							<span id="result1" data-title="{{ spaQuiz.score.weak.desc }}️">{{ spaQuiz.score.weak.points }}</span>
+						</div>
+						<div class="column">
+							<span id="result2" data-title="{{ spaQuiz.score.belowAverage.desc }}">{{ spaQuiz.score.belowAverage.points }}</span>
+						</div>
+						<div class="column">
+							<span id="result3" data-title="{{ spaQuiz.score.techloreApproved.desc }}">{{ spaQuiz.score.techloreApproved.points }}</span>
+						</div>
+						<div class="column">
+							<span id="result4" data-title="{{ spaQuiz.score.aboveBeyond.desc }}">{{ spaQuiz.score.aboveBeyond.points }}</span>
+						</div>
+						<div class="column">
+							<span id="result5" data-title="{{ spaQuiz.score.techloreMax.desc }}">{{ spaQuiz.score.techloreMax.points }}</span>
+						</div>
+					</div>
+				</div>
+				<div class="progressB has-text-centered mt-6"></div>
+				<div class="columns mt-4 has-3-cols has-text-centered">
+					<div class="column">
+						<h3>{{ spaQuiz.zone1.title }}</h3>
+						<div class="progressG"></div>
+					</div>
+					<div class="column">
+						<h3>{{ spaQuiz.zone2.title }}</h3>
+						<div class="progressY"></div>
+					</div>
+					<div class="column">
+						<h3>{{ spaQuiz.zone3.title }}</h3>
+						<div class="progressR"></div>
+					</div>
+				</div>
+
+				<div id="rs-info" class="mt-6">
+					<div class="has-text-centered">
+						<h2 class="mb-0">{{ spaQuiz.toImprove.title }}️</h2>
+						<p>{{ spaQuiz.toImprove.desc }}️</p>
+					</div>
+
+					<div class="columns has-1-cols has-3-cols-tablet is-centered is-multiline">
+						<div class="column is-half-tablet is-one-third-desktop is-flex">
+							{% assign icon = "youtube" %}
+							{% assign buttonLink = "https://www.youtube.com/watch?v=a1i-3xwcSGA" %}
+							{% include c_feature-box.html
+								icon=icon
+								title="Become Anonymous"
+								desc="The ultimate & complete guide to becoming anonymous, private, and secure on the internet."
+								buttonText="Watch on YouTube"
+								buttonLink=buttonLink
+								class="is-box-danger has-no-background px-3 pt-6 pb-3"
+								buttonClass="is-danger"
+							%}
+						</div>
+						<div class="column is-half-tablet is-one-third-desktop is-flex">
+							{% assign icon = "bright-star" %}
+							{% assign buttonLink = site.data._en.navigation.mainNav.goincognito.url | absolute_url %}
+							{% include c_feature-box.html
+								icon=icon
+								title=t.featureBox.tryIncognito.title
+								desc=t.featureBox.tryIncognito.desc
+								buttonText=t.featureBox.tryIncognito.buttonText
+								buttonLink=buttonLink
+								class="is-box-warning has-no-background px-3 pt-6 pb-3"
+								buttonClass="is-warning"
+							%}
+						</div>
+						<div class="column is-half-tablet is-one-third-desktop is-flex">
+							{% assign icon = "server" %}
+							{% assign buttonLink = site.data._en.navigation.mainNav.resources.url | absolute_url %}
+							{% include c_feature-box.html
+								icon=icon
+								title=t.resources.section.tools.title
+								desc=t.resources.section.tools.desc
+								buttonText=t.resources.title
+								buttonLink=buttonLink
+								class="is-box-info has-no-background px-3 pt-6 pb-3"
+								buttonClass="is-info"
+							%}
+						</div>
+					</div>
+
+					{%- include spa-quiz-sponsor-block.html -%}
+				</div>
+			</section>
+		</div>
+	</div>
+</section>

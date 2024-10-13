@@ -1,0 +1,29 @@
+{% include variables.html %}
+
+{% assign answer = include.data %}
+
+<div class="spa-quiz__label-wrapper">
+	<label class="spa-quiz__label has-border p-3 has-radius-normal is-flex is-flex-wrap-wrap is-align-items-center is-gap-1 mt-1 is-clickable" for="ans{{ answersTotalCount }}">
+		<div class="is-flex-grow-1 is-flex is-align-items-baseline is-gap-1">
+			<input type="checkbox" value="{{ include.value }}" id="ans{{ answersTotalCount }}" class="ans">
+			<span>{{ answer.answer }}</span>
+		</div>
+
+		{% if answer.button %}
+			{% assign resourceUrl = site.answer._en.navigation.mainNav.resources.url | absolute_url %}
+			{% assign link = answer.button.url %}
+
+			{% unless answer.button.external %}
+				{% capture link %}
+					{{ resourceUrl }}{{ link | prepend: "#" }}
+				{% endcapture %}
+			{% endunless %}
+
+			<a href="{{ link }}" class="button is-ghost is-small is-gap-2" target="_blank">
+				{% include e_render-svg-icon.html icon="info-circle" dimension=25 inline=true class="icon" %}
+				{{ answer.button.text}}
+			</a>
+		{% endif %}
+
+	</label>
+</div>
