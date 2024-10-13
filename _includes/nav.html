@@ -10,7 +10,7 @@
 	<div class="navbar-brand">
 		<a class="navbar-item navbar-item--logo" href="{% link index.html %}" title="Back to home">
 			{% comment %}Edited logo required for the animation ;){% endcomment %}
-			{% include_relative assets/logos/techlore-logo-edit-by-figma.svg %}
+			{%- include_relative assets/logos/techlore-logo-edit-by-figma.svg -%}
 		</a>
 	</div>
 
@@ -26,20 +26,20 @@
 		<div class="navbar-start is-flex-grow-1">
 			<div class="is-flex-desktop is-justify-content-center">
 				<ul class="marginless listless is-flex-desktop is-family-secondary">
-					{% for navItem in site.data._en.navigation.mainNav %}
-						{% assign item = navItem[1] %}
+					{%- for navItem in site.data._en.navigation.mainNav -%}
+						{%- assign item = navItem[1] -%}
 						<li class="navbar-item is-flex{% if page.url == item.url %} is-active{% endif %}">
 							<a href="{{ item.url | absolute_url }}" class="is-flex is-align-items-center is-gap-1 is-touch-friendly" {% if item.external %}target="_blank"{% endif %}>
-								{% if item.external %}
-									{% include e_render-svg-icon.html icon="arrow-up-right" inline=true class="svg-icon--new-window" %}
-								{% endif %}
-								{% if item.icon.size > 0 %}
-									{% include e_render-svg-icon.html icon=item.icon inline=true class="icon" dimension=25 %}
-								{% endif %}
-								{{ item.title }}
+								{%- if item.external -%}
+									{%- include e_render-svg-icon.html icon="arrow-up-right" inline=true class="svg-icon--new-window" -%}
+								{%- endif -%}
+								{%- if item.icon.size > 0 -%}
+									{%- include e_render-svg-icon.html icon=item.icon inline=true class="icon" dimension=25 -%}
+								{%- endif -%}
+								{{- item.title -}}
 							</a>
 						</li>
-					{% endfor %}
+					{%- endfor -%}
 				</ul>
 			</div>
 		</div>
