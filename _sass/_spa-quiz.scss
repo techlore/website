@@ -130,9 +130,16 @@ button[data-spa-visibility="hidden"] {
 
 // SCORE
 .spa-quiz__score {
+	@media (max-width: 575px) {
+		.column {
+			min-width: calc(100% / 3);
+		}
+	}
+
 	span {
 		position: relative;
 		cursor: default;
+		white-space: nowrap;
 
 		&:not(.is-active):hover {
 			&:after {
@@ -153,6 +160,20 @@ button[data-spa-visibility="hidden"] {
 			pointer-events: none;
 			opacity: 0;
 			transition: opacity 350ms ease-in-out, translate 350ms ease-in-out;
+		}
+	}
+}
+
+#rs-info {
+	--_negative-margin: -10rem;
+
+	.columns {
+		@media (min-width: $desktop) {
+			margin-inline: var(--_negative-margin);
+		}
+
+		@media (min-width: $widescreen) {
+			--_negative-margin: -14rem;
 		}
 	}
 }
@@ -198,7 +219,7 @@ button[data-spa-visibility="hidden"] {
 }
 
 .circle-progress-text-value {
-	fill: var(--bulma-white);
+	fill: var(--custom-spa-quiz-text-value);
 	font-weight: 600;
 }
 

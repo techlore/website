@@ -110,11 +110,10 @@ permalink: /spa
 			<!-- RESULTS -->
 			<section id="result-box" class="spa-quiz__section spa-quiz__section--results">
 				<div class="results has-text-centered">
-					{% comment %}TODO: Translations + classes refactor! {% endcomment %}
 
 					<h2 class="results__title mb-0">-</h2>
 
-					<div class="spa-quiz__score columns has-5-cols is-size-7 mt-3">
+					<div class="spa-quiz__score columns has-5-cols is-size-7 mt-3 is-flex is-flex-wrap-wrap">
 						<div class="column">
 							<span id="result1" data-title="{{ spaQuiz.score.weak.desc }}️">{{ spaQuiz.score.weak.points }}</span>
 						</div>
@@ -154,7 +153,7 @@ permalink: /spa
 						<p>{{ spaQuiz.toImprove.desc }}️</p>
 					</div>
 
-					<div class="columns has-1-cols has-3-cols-tablet is-centered is-multiline">
+					<div class="columns has-1-cols has-3-cols-tablet is-centered is-multiline mt-4">
 						<div class="column is-half-tablet is-one-third-desktop is-flex">
 							{% assign icon = "youtube" %}
 							{% assign buttonLink = "https://www.youtube.com/watch?v=a1i-3xwcSGA" %}
@@ -164,7 +163,7 @@ permalink: /spa
 								desc="The ultimate & complete guide to becoming anonymous, private, and secure on the internet."
 								buttonText="Watch on YouTube"
 								buttonLink=buttonLink
-								class="is-box-danger has-no-background px-3 pt-6 pb-3"
+								class="is-box-danger has-no-background px-4 py-3"
 								buttonClass="is-danger"
 							%}
 						</div>
@@ -177,7 +176,7 @@ permalink: /spa
 								desc=t.featureBox.tryIncognito.desc
 								buttonText=t.featureBox.tryIncognito.buttonText
 								buttonLink=buttonLink
-								class="is-box-warning has-no-background px-3 pt-6 pb-3"
+								class="is-box-warning has-no-background px-4 py-3"
 								buttonClass="is-warning"
 							%}
 						</div>
@@ -190,7 +189,7 @@ permalink: /spa
 								desc=t.resources.section.tools.desc
 								buttonText=t.resources.title
 								buttonLink=buttonLink
-								class="is-box-info has-no-background px-3 pt-6 pb-3"
+								class="is-box-info has-no-background px-4 py-3"
 								buttonClass="is-info"
 							%}
 						</div>

@@ -50,6 +50,9 @@
 
 	// --- support
 	--custom-support-why-bg: var(--bulma-hr-background-color);
+
+	// --- spa quiz
+	--custom-spa-quiz-text-value: var(--bulma-white);
 }
 
 @media (prefers-color-scheme: light) {
@@ -76,6 +79,9 @@
 		// --- coaching
 		--custom-coaching-cta-bg: var(--bulma-warning-95);
 		--custom-coaching-cta-shadow: 0 0 50px -20px var(--bulma-warning);
+
+		// --- spa quiz
+		--custom-spa-quiz-text-value: var(--bulma-black);
 
 		[data-apply-light-theme-filter] {
 			filter: invert(.75);
@@ -107,6 +113,9 @@
 	// --- coaching
 	--custom-coaching-cta-bg: var(--bulma-warning-95);
 	--custom-coaching-cta-shadow: 0 0 50px -20px var(--bulma-warning);
+
+	// --- spa quiz
+	--custom-spa-quiz-text-value: var(--bulma-black);
 
 	[data-apply-light-theme-filter] {
 		filter: invert(.75);
