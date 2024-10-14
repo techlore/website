@@ -1,0 +1,43 @@
+.has-tooltip {
+	--_tooltip-color: var(--bulma-black);
+
+	position: relative;
+
+	&:hover {
+		&:before,
+		&:after {
+			opacity: 1;
+		}
+	}
+
+	&:before,
+	&:after {
+		content: '';
+		position: absolute;
+		inset: 0 auto auto 50%;
+		opacity: 0;
+		pointer-events: none;
+		transition: opacity 250ms ease-in-out;
+	}
+
+	// --- tooltip
+	&:before {
+		content: attr(data-tooltip);
+		background-color: var(--_tooltip-color);
+		padding: calc(var(--bulma-size-7)* .5) var(--bulma-size-5);
+		border-radius: var(--bulma-radius-medium);
+		translate: -50% -125%;
+		font-size: var(--bulma-size-7);
+		color: var(--bulma-white);
+	}
+
+	// --- arrow
+	&:after {
+		content: "";
+		width: var(--bulma-size-5);
+		aspect-ratio: 1;
+		border: calc(var(--bulma-size-5) * .5) solid transparent;
+		border-top-color: var(--_tooltip-color);
+		translate: -50% -65%;
+	}
+}

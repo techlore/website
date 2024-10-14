@@ -51,8 +51,9 @@
 							{% for link in socialLinks %}
 								{% assign url = link[1] %}
 								{% assign icon = link[0] %}
+								{% assign tooltipText = site.data._en.content.global.platforms[icon] %}
 								<li class="footer__list-item">
-									<a href="{{ url }}" class="footer__button button is-primary is-touch-friendly" target="_blank">
+									<a href="{{ url }}" class="footer__button button is-primary is-touch-friendly has-tooltip" target="_blank" data-tooltip="{{ tooltipText }}">
 										{% include e_render-svg-icon.html icon=icon dimension=25 inline=true class="icon" %}
 									</a>
 								</li>
@@ -68,8 +69,9 @@
 							{% for link in paymentLinks %}
 								{% assign url = link[1] %}
 								{% assign icon = link[0] %}
+								{% assign tooltipText = site.data._en.content.global.platforms[icon] %}
 								<li class="footer__list-item">
-									<a href="{{ url }}" class="button is-primary is-touch-friendly" target="_blank">
+									<a href="{{ url }}" class="footer__button button is-primary is-touch-friendly has-tooltip" target="_blank" data-tooltip="{{ tooltipText }}">
 										{% include e_render-svg-icon.html icon=icon dimension=25 inline=true class="icon" %}
 									</a>
 								</li>
