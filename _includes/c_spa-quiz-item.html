@@ -10,7 +10,7 @@
 		</div>
 
 		{% if answer.button %}
-			{% assign resourceUrl = site.answer._en.navigation.mainNav.resources.url | absolute_url %}
+			{% assign resourceUrl = site.data._en.navigation.mainNav.resources.url | absolute_url %}
 			{% assign link = answer.button.url %}
 
 			{% unless answer.button.external %}
