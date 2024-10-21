@@ -1,3 +1,7 @@
+# GoIncognito table
+#
+# The links should correspond to the one found in `_data/_en/navigation.yml` and `_content.yml`
+#
 free:
   icon: "tv"
   title: "watch FREE"
@@ -6,10 +10,10 @@ free:
   buttons:
     -
       text: "Watch on YouTube"
-      url: ""
+      url: "https://www.youtube.com/playlist?list=PL3KeV6Ui_4CayDGHw64OFXEPHgXLkrtJO"
     -
       text: "Watch on PeerTube"
-      url: ""
+      url: "https://neat.tube/w/p/5uVTtQrc9hpF88nxCR5JCW"
 premium:
   icon: "tv-star"
   title: "watch PREMIUM"
@@ -17,5 +21,5 @@ premium:
   sellingPoints: [ "No Ads", "Quizzes & Guides", "Checklists", "2021 Updates", "Best Video Quality", "Certificate" ]
   buttons:
     - text: "Enroll now!"
-      url: ""
+      url: "https://techlore.teachable.com/p/go-incognito"
   note: "Go Incognito v2 is being produced <strong>now</strong>. All premium students will be grandfathered into future versions of the project."
