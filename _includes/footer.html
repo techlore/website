@@ -52,8 +52,15 @@
 								{% assign url = link[1] %}
 								{% assign icon = link[0] %}
 								{% assign tooltipText = site.data._en.content.global.platforms[icon] %}
+								{% assign loopIndex = forloop.index0 %}
+
+								{%- capture ariaId -%}
+									footer-{{ tooltipText | slugify }}{{ loopIndex }}
+								{%- endcapture -%}
+
 								<li class="footer__list-item">
-									<a href="{{ url }}" class="footer__button button is-primary is-touch-friendly has-tooltip" target="_blank" data-tooltip="{{ tooltipText }}">
+									<a href="{{ url }}" class="footer__button button is-primary is-touch-friendly has-tooltip" target="_blank" data-tooltip="{{ tooltipText }}" aria-labelledby="{{ ariaId }}">
+										<span class="is-sr-only" id="{{ ariaId }}">{{ tooltipText }}</span>
 										{% include e_render-svg-icon.html icon=icon dimension=25 inline=true class="icon" %}
 									</a>
 								</li>
@@ -70,8 +77,15 @@
 								{% assign url = link[1] %}
 								{% assign icon = link[0] %}
 								{% assign tooltipText = site.data._en.content.global.platforms[icon] %}
+								{% assign loopIndex = forloop.index0 %}
+
+								{%- capture ariaId -%}
+									footer-{{ tooltipText | slugify }}{{ loopIndex }}
+								{%- endcapture -%}
+
 								<li class="footer__list-item">
-									<a href="{{ url }}" class="footer__button button is-primary is-touch-friendly has-tooltip" target="_blank" data-tooltip="{{ tooltipText }}">
+									<a href="{{ url }}" class="footer__button button is-primary is-touch-friendly has-tooltip" target="_blank" data-tooltip="{{ tooltipText }}" aria-labelledby="{{ ariaId }}">
+										<span class="is-sr-only" id="{{ ariaId }}">{{ tooltipText }}</span>
 										{% include e_render-svg-icon.html icon=icon dimension=25 inline=true class="icon" %}
 									</a>
 								</li>

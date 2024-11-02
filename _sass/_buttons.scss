@@ -2,6 +2,11 @@
 	--bulma-button-weight: var(--bulma-weight-bold);
 }
 
+// Tweak for a tooltip variant (screen readers)
+.button .is-sr-only + .icon:last-child:not(:first-child) {
+	margin-inline-start: calc(var(--bulma-button-padding-horizontal)* -.5);
+}
+
 // Custom "mobile/touch" friendly button
 .button.is-touch-friendly {
 	@extend .button;

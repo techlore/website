@@ -33,21 +33,26 @@
 				{{ include.desc | markdownify }}
 			</div>
 		{% endif %}
-		{% if include.buttonText and include.buttonLink %}
+		{%- if include.buttonText and include.buttonLink -%}
 			<a
 				href="{{ include.buttonLink }}"
 				class="feature-box__button button mt-5 {{ buttonClass }}{% if include.tooltip %} has-tooltip{% endif %}"
 				{% if include.buttonExternal %} target="_blank"{% endif %}
 				{% if include.tooltip %} data-tooltip="{{ include.buttonText }}"{% endif %}
 			>{{ include.buttonText }}</a>
-		{% elsif include.links %}
+		{%- elsif include.links -%}
 			<ul class="feature-box__links buttons is-centered is-gap-1 marginless listless mt-4">
 				{%- for link in include.links -%}
 					{% assign linkKey = link[0] %}
 					{% assign linkUrl = link[1] %}
+					{% assign loopIndex = forloop.index0 %}
 
 					{% if include.tooltip %}
 						{% assign tooltipText = site.data._en.content.global.platforms[linkKey] %}
+
+						{%- capture ariaId -%}
+							{{ tooltipText | slugify }}{{ loopIndex }}
+						{%- endcapture -%}
 					{% endif %}
 
 					<li class="feature-box__link-item marginless">
@@ -55,13 +60,14 @@
 							href="{{ linkUrl }}"
 							class="feature-box__link-button button is-touch-friendly {{ buttonClass }}{% if include.tooltip %} has-tooltip{% endif %}"
 							target="_blank"
-							{% if include.tooltip %} data-tooltip="{{ tooltipText }}"{% endif %}
+							{% if include.tooltip %} aria-labelledby="{{ ariaId }}" data-tooltip="{{ tooltipText }}"{% endif %}
 						>
+							{% if include.tooltip %}<span class="is-sr-only" id="{{ ariaId }}">{{ tooltipText }}</span>{% endif %}
 							{% include e_render-svg-icon.html icon=linkKey dimension=50 inline=true class="icon" %}
 						</a>
 					</li>
 				{%- endfor -%}
 			</ul>
-		{% endif %}
+		{%- endif -%}
 	</div>
 </div>
