@@ -113,7 +113,7 @@ const discussTopicsConstructor = async () => {
 						<span class="topic-list__text is-flex is-flex-direction-column">
 							<span class="topic-list__title">${title}</span>
 
-							<span class="topic-list__footer mt-1 is-flex is-gap-3">
+							<span class="topic-list__footer mt-1 is-flex is-gap-3 is-align-items-flex-start">
 								<span class="topic-list__views px-2 is-inline-flex is-gap-1 is-align-items-center">${views}</span>
 								<span class="topic-list__last-poster">
 									${lastPostedDateFormatted} by ${lastPosterUsername}
