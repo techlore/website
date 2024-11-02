@@ -1,0 +1,18 @@
+{% comment %}
+	NO JS MESSAGE -----------------------------------------
+    Info:
+        Displays message when JavaScript is disabled.
+	Parameters:
+		- title (optional, string):     page title, custom text
+{% endcomment %}
+
+
+	{% assign title = include.title | default: "this page" %}
+	<noscript>
+		<div class="message is-info">
+			<div class="message-body is-flex is-align-items-center is-gap-2 is-justify-content-center">
+				<img src="{% link assets/images/avatar-javascript.svg %}" width="48" height="48" alt="" loading="lazy" class="has-radius-rounded">
+				Apologies, but {{ title }} requires JavaScript to function.
+			</div>
+		</div>
+	</noscript>

@@ -44,6 +44,12 @@ title: Home
 				{%- include c_box-header.html title=t.home.hotTopics links=site.forum.links -%}
 
 				<div class="box">
+					<noscript>
+						<div class="has-text-weight-light">
+							{% include c_nojs-message.html title="this widget" %}
+						</div>
+					</noscript>
+
 					<ul class="topic-list listless marginless is-flex is-gap-2 is-flex-direction-column"
 						data-forum="https://discuss.techlore.tech"
 						data-feed="https://mocki.io/v1/bca1593d-b1b9-42eb-8ad6-dad5234e93ec"

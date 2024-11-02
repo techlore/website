@@ -7,6 +7,13 @@ permalink: /spa
 {% assign spaQuiz = site.data._en.spa-quiz.text %}
 
 <section>
+	<noscript>
+		<div class="container is-max-tablet has-text-centered">
+			<h1 class="glitchEffect mb-2" data-text="{{ spaQuiz.title }}️">{{ spaQuiz.title }}️</h1>
+			{% include c_nojs-message.html %}
+		</div>
+	</noscript>
+
 	<div class="container is-max-tablet">
 		<div class="spa-quiz">
 

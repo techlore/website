@@ -1,0 +1,20 @@
+.no-js {
+	// --- Hot topics on homepage
+	.topic-list {
+		& > .topic-list__item {
+			display: none;
+		}
+	}
+
+	// --- Theme switcher
+	.theme-toggle {
+		display: none;
+	}
+
+	// --- VPN toolkit, SPA Quiz
+	.vpn-control,
+	.vpn-control + div,
+	.spa-quiz #main-box {
+		display: none;
+	}
+}
