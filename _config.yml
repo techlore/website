@@ -110,9 +110,6 @@ collections:
   clips:
     output: true
     permalink: /clips/:name
-  goincognito:
-    output: true
-    permalink: /goincognito/:name
   surveillance-report:
     output: true
     permalink: /surveillance-report/:name
