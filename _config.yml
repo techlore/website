@@ -97,6 +97,7 @@ openalias: "crypto@techlore.tech"
 #theme: minima
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 #  - jekyll-feed
 
 sass:
@@ -122,6 +123,32 @@ collections:
     output: true
     permalink: /guides/:name
 collections_dir: videos
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "clips"
+    values:
+      sitemap: false
+  -
+    scope:
+      path: ""
+      type: "surveillance-report"
+    values:
+      sitemap: false
+  -
+    scope:
+      path: ""
+      type: "techlore"
+    values:
+      sitemap: false
+  -
+    scope:
+      path: ""
+      type: "guides"
+    values:
+      sitemap: false
 
 # paginate: 3
 
