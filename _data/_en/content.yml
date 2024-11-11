@@ -70,7 +70,6 @@ home:
 #
 resources:
   title: "Resources"
-  perex: "Techlore's Privacy & Security recommendations based on our strict <strong>criteria</strong>. For further assistance, we suggest our <strong>Go Incognito</strong> course and our coaching. There are external resources at the bottom for more recommendations."
   section:
     title: "Useful resources"
     learn:
@@ -130,18 +129,14 @@ resources:
 videos:
   title: "Videos"
   titleNewest: "Newest videos"
-  perex: "Explore our video library, featuring expert insights and practical tips on digital rights and privacy"
   techlore:
     title: "Techlore"
   techloreClips:
     title: "Techlore Clips"
-    perex: "Watch and share these short clips from our video series, packed with handy tips and insights on digital rights and privacy."
   techloreGuides:
     title: "Techlore Guides"
-    perex: "Get practical advice and step-by-step instructions with our in-depth guides to protecting your online presence"
   surveillanceReport:
     title: "Surveillance Report"
-    perex: "Weekly security and privacy news - Presented by Techlore & The New Oil."
 
 # -----------------------------------------
 # GO INCOGNITO section and page
@@ -150,7 +145,6 @@ goincognito:
   title: "Go Incognito"
   titleMore: "Want more?"
   related: "Related resources"
-  perex: "Dive into our comprehensive guide to security, privacy, and anonymity, and learn how to protect yourself online."
   premium:
     buttonText: "Go Incognito! Premium"
   course:
@@ -161,7 +155,6 @@ goincognito:
 #
 support:
   title: "Support us"
-  perex: "Help us defend online freedom and user autonomy - support our mission today!"
   whySection:
     title: "Why We Need You?"
     subtitle: "Techlore can <u>not</u> exist without our supporters. You all enable us to:"
@@ -204,12 +197,6 @@ support:
     desc: "And why do we passionately support these initiatives?"
 
 # -----------------------------------------
-# VPN TOOLKIT
-#
-vpn:
-  perex: "Open-Source Comparison Chart"
-
-# -----------------------------------------
 # ABOUT US section and page
 #
 about:
@@ -217,7 +204,6 @@ about:
     title: "And what is Techlore?"
     desc: "We're a small team educating people about digital rights, privacy, security, digital control, and other important topics to push the world towards a safer internet. We envision a world where technology works for us, not against us—and we want to prove to people they can make a real impact for themselves and others. You can find more information about Techlore on <a href=\"https://youtube.fandom.com/wiki/Techlore\" target=\"_blank\">our wiki</a>."
   buttonMore: "More about who we are"
-  perex: "Who's behind the scenes? Learn more about our mission, values, and team,  and why we're passionate about promoting digital rights and privacy."
   mission:
     line1: "Our vision is a world where technology works for us, not against us."
     line2: "Our mission is to prove to people they can make a real impact for themselves and others."
@@ -228,14 +214,12 @@ about:
 # AFFILIATES page
 #
 affiliates:
-  perex: "A curated list of trusted resources and partner organizations that offer software and services to help you safeguard your online security and freedom."
   desc: "Simply click an affiliate link before purchasing a service to support Techlore. These are always utilized under our <a href=\"https://discuss.techlore.tech/pub/sponsors-affiliates\" target=\"blank\">strict requirements</a> for utmost transparency. Please bear in mind these are not our formal privacy &amp; security resources—which can be located <a href=\"[[resources]]\">here.</a>"
 
 # -----------------------------------------
 # COACHING page
 #
 coaching:
-  perex: "Individual support, because you deserve to be safe and in control of your online experience."
   services:
     -
       title: "Identity Theft Prevention"
@@ -266,7 +250,6 @@ coaching:
 # CONTACT page
 #
 contact:
-  perex: "Have a question, concern, or idea? We're here to listen."
   section:
     title: "We do <u>NOT</u> respond to the following"
   doNot:

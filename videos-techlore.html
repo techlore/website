@@ -3,11 +3,10 @@ layout: page
 title: All Techlore videos
 permalink: /videos/all-techlore-videos
 sitemap: false
+description: "Get practical advice and step-by-step instructions with our in-depth guides to protecting your online presence"
 ---
 {% include variables.html %}
-
-{% assign perex = t.videos.perex %}
-{% include c_sub-hero.html title=page.title perex=perex %}
+{% include c_sub-hero.html title=page.title perex=page.description %}
 
 <section>
 	<div class="container">

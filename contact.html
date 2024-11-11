@@ -2,11 +2,10 @@
 layout: page
 title: Contact Techlore
 permalink: /contact
+description: "Have a question, concern, or idea? We're here to listen."
 ---
 {% include variables.html %}
-
-{% assign perex = t.contact.perex %}
-{% include c_sub-hero.html title=page.title perex=perex %}
+{% include c_sub-hero.html title=page.title perex=page.description %}
 
 
 <section>
@@ -70,7 +69,7 @@ permalink: /contact
 				</a>
 			</div>
 		</div>
-		
+
 		{%- capture mailto -%}
 			mailto:{{ site.email }}
 		{%- endcapture -%}

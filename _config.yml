@@ -22,9 +22,11 @@ name: "Techlore"
 title: "Techlore | Digital Rights for All"
 tagline: "Digital Rights for All"
 email: contact@techlore.tech
-description: >- # this means to ignore newlines until "baseurl:"
+description: >- # this means to ignore newlines until "twitter:"
   Techlore is educating people about digital rights, privacy, security,
   digital control, and other important topics to push the world towards a safer internet.
+twitter: "TechloreInc"
+ogImage: "/assets/images/og-image-techlore-1200x630.png"
 baseurl: "/techlore" # the subpath of your site, e.g. /blog
 url: "https://michalsvatos.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -94,11 +96,8 @@ xmrAddress: "49H4jTvUY5zaX8qLpVBstJFR7ayTMxxU3UyWpGqUoBM4UzM2zwUHA2sJ9i3AhQYdaqh
 openalias: "crypto@techlore.tech"
 
 # Build settings
-#theme: minima
 plugins:
-  - jekyll-seo-tag
   - jekyll-sitemap
-#  - jekyll-feed
 
 sass:
   sass_dir: _sass

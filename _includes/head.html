@@ -2,12 +2,40 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	{% seo %}
+	{%- capture title -%}
+		{%- unless page.title == "Home" -%}{{ page.title | append: " | " }}{%- endunless -%}{{ site.name }} - {{ site.tagline }}
+	{%- endcapture -%}
+	{% assign description = page.description | default: site.description | strip_html | truncate: 160 %}
+	{% assign url = page.permalink | default: "/" %}
+	<title>{{ title }}</title>
+	<meta name="description" content="{{ description }}">
+	<meta name="image" content="{{ site.ogImage | absolute_url }}">
+	<meta name="author" content="{{ site.name }}">
+	<link rel="canonical" href="{{ url | absolute_url }}">
+
+	<!-- Open Graph Meta Tags for Social Media -->
+	<meta property="og:site_name" content="{{ site.name }}">
+	<meta property="og:title" content="{{ title | truncate: 60 }}">
+	<meta property="og:description" content="{{ description | truncate: 160 }}">
+	<meta property="og:image" content="{{ site.ogImage | absolute_url }}">
+	<meta property="og:image:alt" content="{{ title | truncate: 60 }} (preview image)">
+	<meta property="og:image:width" content="1200">
+	<meta property="og:image:height" content="630">
+	<meta property="og:url" content="{{ url | absolute_url }}">
+	<meta property="og:type" content="article">
+
+	<!-- Twitter Card Meta Tags -->
+	<meta name="twitter:site" content="{{ site.twitter | prepend: "@" }}">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="{{ title | truncate: 60 }}">
+	<meta name="twitter:description" content="{{ description | truncate: 160 }}">
+	<meta name="twitter:image" content="{{ site.ogImage | absolute_url }}">
+	<meta name="twitter:image:alt" content="{{ title | truncate: 60 }} (preview image)">
 
 	{% assign vpnPermalink = site.data._en.navigation.hiddenNav.vpnToolkit.url %}
-	{% if page.permalink == vpnPermalink %}
+	{%- if page.permalink == vpnPermalink %}
 		<link rel="stylesheet" href="{{ "/assets/vendors/tabulator/tabulator.min.css" | relative_url }}{{ 'now' | date: '%s' | prepend: "?" }}">
-	{% endif %}
+	{%- endif %}
 	<link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}{{ 'now' | date: '%s' | prepend: "?" }}">
 
 	{% comment %}THX https://realfavicongenerator.net/ {% endcomment %}
@@ -18,9 +46,4 @@
 	<link rel="mask-icon" href="{{ "/safari-pinned-tab.svg" | relative_url }}" color="#5675e6">
 	<meta name="msapplication-TileColor" content="#2d89ef">
 	<meta name="theme-color" content="#5675e6">
-	{% comment %}
-		{%- if jekyll.environment == 'production' and site.google_analytics -%}
-			{%- include google-analytics.html -%}
-		{%- endif -%}
-	{% endcomment %}
 </head>

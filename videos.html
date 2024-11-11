@@ -2,12 +2,10 @@
 layout: page
 title: Videos
 permalink: /videos
+description: "Explore our video library, featuring expert insights and practical tips on digital rights and privacy."
 ---
 {% include variables.html %}
-
-{% assign perex = t.videos.perex %}
-{% include c_sub-hero.html title=page.title perex=t.videos.perex %}
-
+{% include c_sub-hero.html title=page.title perex=page.description %}
 
 <section>
 	<div class="container">

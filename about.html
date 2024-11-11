@@ -2,11 +2,10 @@
 layout: page
 title: About
 permalink: /about
+description: "Who's behind the scenes? Learn more about our mission, values, and team, and why we're passionate about promoting digital rights and privacy."
 ---
 {% include variables.html %}
-
-{% assign perex = t.about.perex %}
-{% include c_sub-hero.html title=page.title perex=perex %}
+{% include c_sub-hero.html title=page.title perex=page.description %}
 
 <section>
 	<div class="fixed-grid has-1-cols">

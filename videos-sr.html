@@ -3,11 +3,10 @@ layout: page
 title: All SR episodes
 permalink: /videos/all-surveillance-report-episodes
 sitemap: false
+description: "Weekly security and privacy news - Presented by Techlore & The New Oil."
 ---
 {% include variables.html %}
-
-{% assign perex = t.videos.surveillanceReport.perex %}
-{% include c_sub-hero.html title=page.title perex=perex %}
+{% include c_sub-hero.html title=page.title perex=page.description %}
 
 <section>
 	<div class="container">

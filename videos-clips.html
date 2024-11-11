@@ -3,11 +3,10 @@ layout: page
 title: All Techlore clips
 permalink: /videos/all-techlore-clips
 sitemap: false
+description: "Watch and share these short clips from our video series, packed with handy tips and insights on digital rights and privacy."
 ---
 {% include variables.html %}
-
-{% assign perex = t.videos.techloreClips.perex %}
-{% include c_sub-hero.html title=page.title perex=perex %}
+{% include c_sub-hero.html title=page.title perex=page.description %}
 
 <section>
 	<div class="container">
