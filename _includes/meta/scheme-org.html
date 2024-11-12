@@ -1,0 +1,28 @@
+<!-- Schema.org -->
+<script type="application/ld+json">
+	[
+		{
+			"@context": "https://schema.org",
+			"@type": "Organization",
+			"logo": "{{ "/android-chrome-256x256.png" | absolute_url }}",
+			"name": "{{ site.name }}",
+			"sameAs": [
+				"{{ site.techloreVideos.links.youtube }}",
+				"{{ site.techloreWeb.links.github }}",
+				"{{ site.wiki.links.wikidata }}",
+				"{{ site.socials.links.twitter }}",
+				"{{ site.socials.links.mastodon }}"
+			],
+			"url": "{{ "/" | absolute_url }}"
+		},
+		{
+			"@context": "https://schema.org",
+			"@type": "WebSite",
+			"name": "{{ site.name }}",
+			"sameAs": [
+				"{{ site.wiki.links.wikidata }}"
+			],
+			"url": "{{ "/" | absolute_url }}"
+		}
+	]
+</script>
