@@ -3,6 +3,11 @@
 
 <footer class="footer pt-0">
 	{% include wave.html isFooter=true %}
+
+	<a href="#top" class="footer__top-button js-go-top-button button is-primary" data-visibility="true">
+		{% include e_render-svg-icon.html icon="arrow-down" inline=true dimension=75 %}
+	</a>
+
 	<div class="container">
 		<div class="columns has-1-cols has-3-cols-tablet has-5-cols-desktop is-multiline">
 			<div class="footer__logos column is-full-tablet is-one-fifth-desktop is-flex">
@@ -120,29 +125,4 @@
 
 <script src="{{ "/assets/js/main.js" | relative_url }}{{ 'now' | date: '%s' | prepend: "?" }}"></script>
 
-{% comment %}
-TODO: Implement TOP button
-<script type="application/javascript">
-	const gt_btn = document.getElementById('gt-link');
-	// Let's set up a function that shows our scroll-to-top button if we scroll beyond the height of the initial window.
-	window.addEventListener("scroll", () => {
-		let y = window.scrollY;
-		if (y > 0) {
-			gt_btn.className = "gt-link show";
-		} else {
-			gt_btn.className = "gt-link hide";
-		}
-	});
 
-	gt_btn.onclick = function (e) {
-		e.preventDefault();
-		if (document.documentElement.scrollTop || document.body.scrollTop > 0) {
-			window.scroll({
-				top: 0,
-				left: 0,
-				behavior: 'smooth'
-			});
-		}
-	}
-</script>
-{% endcomment %}

@@ -131,3 +131,29 @@ const discussTopicsConstructor = async () => {
 }
 
 discussTopicsConstructor()
+
+
+// Go TOP button
+const goTopButton = document.querySelector('.js-go-top-button')
+const wave = document.querySelector('.wave')
+
+// --- default state
+goTopButton.setAttribute('data-visibility', 'false')
+
+if (goTopButton && wave) {
+	const observer = new IntersectionObserver((entries) => {
+		entries.forEach(entry => {
+			if (entry.isIntersecting) {
+				goTopButton.setAttribute('data-visibility', 'false')
+
+			} else {
+				goTopButton.setAttribute('data-visibility', 'true')
+
+			}
+		})
+	})
+
+	if (wave) {
+		observer.observe(wave)
+	}
+}

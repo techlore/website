@@ -51,3 +51,27 @@
 		margin-top: var(--bulma-size-5);
 	}
 }
+
+// --- Go TOP button
+.footer__top-button {
+	position: fixed;
+	inset: auto var(--bulma-column-gap) calc(var(--bulma-column-gap) * 3) auto;
+	z-index: 20;
+	border: 0;
+	transition: opacity 350ms ease-in-out, translate 350ms ease-in-out;
+
+	&[data-visibility="false"] {
+		pointer-events: none;
+		opacity: 0;
+		translate: 0 25%;
+	}
+
+	&[data-visibility="true"] {
+		opacity: 1;
+		translate: 0 0;
+	}
+
+	.svg-icon {
+		rotate: 180deg;
+	}
+}
