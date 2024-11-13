@@ -1,0 +1,52 @@
+.hero-banner {
+	@media (max-width: 767px) {
+		text-align: center;
+		margin-top: var(--bulma-size-1);
+	}
+}
+
+.hero-banner__scramble {
+	text-align: center;
+	overflow: hidden;
+	text-wrap: nowrap;
+	color: var(--custom-hero-banner-text-color);
+	animation: fadeIn 2000ms ease-in-out forwards;
+
+	@media (min-width: 768px) {
+		text-align: right;
+	}
+
+	& > span:first-child,
+	& > span:last-child {
+		opacity: .125;
+	}
+
+	& > span:nth-child(2),
+	& > span:nth-last-child(2) {
+		opacity: .25;
+	}
+
+	& > span:nth-child(3),
+	& > span:nth-last-child(3) {
+		opacity: .5;
+	}
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.hero-banner__scramble-text {
+	font-weight: 600;
+	padding-inline: calc(var(--bulma-column-gap) * .5);
+	color: var(--bulma-primary);
+}
+
+.js-scrambled-char {
+	opacity: .45;
+}

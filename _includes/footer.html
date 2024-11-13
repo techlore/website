@@ -123,6 +123,10 @@
 	<script src="{{ "/assets/js/spa-quiz.js" | relative_url }}{{ 'now' | date: '%s' | prepend: "?" }}"></script>
 {% endif %}
 
+{% if page.url == "/" %}
+	<script src="{{ "/assets/js/textscramble.js" | relative_url }}{{ 'now' | date: '%s' | prepend: "?" }}"></script>
+{% endif %}
+
 <script src="{{ "/assets/js/main.js" | relative_url }}{{ 'now' | date: '%s' | prepend: "?" }}"></script>
 
 

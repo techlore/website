@@ -1,5 +1,11 @@
 .patreons__tags {
     text-transform: none;
+
+	&--homepage {
+		@media (max-width: 767px) {
+			justify-content: center;
+		}
+	}
 }
 
 .patreons__icon {

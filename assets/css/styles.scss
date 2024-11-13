@@ -5,6 +5,8 @@
 	// --- typography
 	$family-primary: '"Montserrat", Segoe UI, Helvetica Neue, Arial, sans-serif',
 	$family-secondary: unquote('"Nunito", Lato, Arial, sans-serif'),
+	$family-monospace: unquote('"Source Code Pro", monospace'),
+	$family-code: unquote('"Source Code Pro", monospace'),
 	$button-family: unquote('"Nunito", Lato, Arial, sans-serif'),
 	$body-line-height: 1.62,
 
@@ -30,6 +32,7 @@
 @import "svg-icon";
 @import "nav";
 @import "wave";
+@import "hero-banner";
 @import "sub-hero";
 @import "box-header";
 @import "box-footer";

@@ -53,6 +53,9 @@
 
 	// --- spa quiz
 	--custom-spa-quiz-text-value: var(--bulma-white);
+
+	// --- hero banner
+	--custom-hero-banner-text-color: var(--bulma-grey-darker);
 }
 
 @media (prefers-color-scheme: light) {
@@ -82,6 +85,9 @@
 
 		// --- spa quiz
 		--custom-spa-quiz-text-value: var(--bulma-black);
+
+		// --- hero banner
+		--custom-hero-banner-text-color: var(--bulma-grey-lighter);
 
 		[data-apply-light-theme-filter] {
 			filter: invert(.75);
@@ -116,6 +122,9 @@
 
 	// --- spa quiz
 	--custom-spa-quiz-text-value: var(--bulma-black);
+
+	// --- hero banner
+	--custom-hero-banner-text-color: var(--bulma-grey-lighter);
 
 	[data-apply-light-theme-filter] {
 		filter: invert(.75);
