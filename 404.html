@@ -1,27 +1,35 @@
 ---
 layout: default
-title: "Page not found (404)"
+title: "Page not found"
 permalink: /404.html
 description: "The page you are looking for could not be found"
 ---
+{% include variables.html %}
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+<div class="container has-text-centered mt-6 is-max-tablet is-relative">
+	<h1 class="mt-0 is-size-2 has-text-text-on-scheme">{{ page.title }}</h1>
+	<div class="p404">
+		<h2 class="p404__title mb-0" data-text="0">4<span class="p404__title-zero">{%- include_relative assets/logos/techlore-logo-edit-by-figma.svg -%}0</span>4</h2>
+	</div>
 
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+	{% include c_feature-box.html
+		title=page.title
+		desc=t.p404.text
+		buttonText=t.global.back.backToHomepage
+		buttonLink=site.baseurl
+		class="is-box-danger has-no-background has-border"
+		buttonClass="is-danger"
+	%}
 </div>
+
+{% comment %}Safari ¯\_(ツ)_/¯ {% endcomment %}
+<script type="application/javascript">
+	window.onload = function() {
+		const svgElement = document.querySelector('.p404__title-zero > svg')
+		svgElement.style.display = 'none'
+
+		setTimeout(() => {
+			svgElement.style.display = 'block'
+		}, 0)
+	}
+</script>

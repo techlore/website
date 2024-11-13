@@ -271,6 +271,12 @@ contact:
       buttonLink: "https://discuss.techlore.tech/pub/sponsors"
 
 # -----------------------------------------
+# 404
+#
+p404:
+  text: "This page may be missing, but your online activity is still under surveillance!<br><br>Let’s get you back to learning how to protect it!"
+
+# -----------------------------------------
 # "Feature-box" sections (Support Us, Merchandise, Socials, Techlore Tools ...)
 #
 featureBox:

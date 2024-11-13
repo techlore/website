@@ -1,0 +1,42 @@
+.p404 {
+	--_p404-size: 6rem;
+
+	@media (min-width: 576px) {
+		--_p404-size: 10rem;
+	}
+
+	.p404__title {
+		font-size: var(--_p404-size);
+		font-weight: 400;
+	}
+}
+
+.p404__title-zero {
+	display: inline-block;
+	margin-inline: calc(var(--bulma-column-gap) * .25);
+	aspect-ratio: 1;
+	overflow: hidden;
+	position: relative;
+	text-indent: -47rem;
+	width: calc(var(--_p404-size) * .75);
+
+	svg {
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		aspect-ratio: 1;
+		z-index: 1;
+		scale: 1;
+
+		.logo-eye--left {
+			animation: eye-l 8s infinite;
+		}
+
+		.logo-eye--right {
+			animation: eye-r 8s infinite;
+		}
+	}
+}
+
