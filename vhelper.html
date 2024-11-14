@@ -1,0 +1,316 @@
+---
+layout: page
+title: "Video Markdown & Thumbnail Tool"
+permalink: /vhelper
+description: ""
+noindex: true
+---
+
+<style>
+	#vHelpLoader {
+		position: absolute;
+		inset: 0;
+		z-index: 1;
+		background-color: var(--bulma-grey);
+		color: var(--bulma-black);
+		font-weight: 600;
+		padding: 1rem;
+		border-radius: var(--bulma-radius);
+		display: none;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#vHelpThumbnail {
+		aspect-ratio: 16/9;
+		width: 100%;
+	}
+</style>
+
+<section class="mt-0">
+	<div class="container is-max-tablet">
+
+		<div class="message is-warning">
+			<div class="message-header">
+				{{ page.title }}
+			</div>
+			<div class="message-body">
+				This form serves as a primitive CMS tool designed for administrators to create and manage video information in Markdown format <code>(*.md)</code> and download a thumbnail image from
+				YouTube. The files can be easily downloaded and copied to a specific folders (eg. <code>_clips</code>, <code>_guides</code>, <code>_surveillance-report</code> or <code>_techlore</code>).
+			</div>
+		</div>
+
+		<form id="vHelp" action="#">
+			<div class="field">
+				<label class="label" for="vHelpTitle">Title <span class="has-text-danger">*</span></label>
+				<div class="control">
+					<input class="input" type="text" placeholder="Title" id="vHelpTitle" name="vHelpTitle" required>
+				</div>
+				<p class="help">Used as a title and the file name</p>
+			</div>
+
+			<div class="field">
+				<label class="label" for="vHelpDesc">Description</label>
+				<div class="control">
+					<textarea class="textarea" id="vHelpDesc" name="vHelpDesc"></textarea>
+				</div>
+			</div>
+
+			<div class="columns">
+				<div class="column is-half-tablet">
+					<div class="field">
+						<label class="label" for="vHelpDatePublished">datePublished <span class="has-text-danger">*</span></label>
+						<div class="control">
+							<input class="input" type="text" placeholder="YYYY-MM-DD" id="vHelpDatePublished" name="vHelpDatePublished">
+						</div>
+						<p class="help">format: YYYY-MM-DD</p>
+					</div>
+				</div>
+				<div class="column is-half-tablet">
+					<div class="field">
+						<label class="label" for="vHelpDateUpdated">dateUpdated <span class="has-text-danger">*</span></label>
+						<div class="control">
+							<input class="input" type="text" placeholder="YYYY-MM-DD" id="vHelpDateUpdated" name="vHelpDateUpdated">
+						</div>
+						<p class="help">format: YYYY-MM-DD</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="field">
+				<label class="label" for="vHelpYouTube">YouTube link <span class="has-text-danger">*</span></label>
+				<div class="control">
+					<input class="input" type="text" placeholder="Text input" required id="vHelpYouTube" name="vHelpYouTube">
+				</div>
+				<p class="help"><span class="has-text-danger">Required for the video ID</span>; both domains works: youtube.com, youtu.be</p>
+			</div>
+
+			<div class="field">
+				<label class="label" for="vHelpForum">Forum link</label>
+				<div class="control">
+					<input class="input" type="text" placeholder="optional" id="vHelpForum" name="vHelpForum">
+				</div>
+			</div>
+
+			<div class="field">
+				<label class="label" for="vHelpPeerTube">PeerTube link</label>
+				<div class="control">
+					<input class="input" type="text" placeholder="optional" id="vHelpPeerTube" name="vHelpPeerTube">
+				</div>
+			</div>
+
+			<div class="field">
+				<label class="label" for="vHelpOdysee">Odysee link</label>
+				<div class="control">
+					<input class="input" type="text" placeholder="optional" id="vHelpOdysee" name="vHelpOdysee">
+				</div>
+			</div>
+
+			<div class="field">
+				<label class="label" for="vHelpTags">Tags</label>
+				<div class="control">
+					<input class="input" type="text" placeholder="optional" id="vHelpTags" name="vHelpTags">
+				</div>
+				<p class="help">Example: clips, privacy, Q&A</p>
+			</div>
+
+			<hr class="mt-6">
+
+			<div class="field">
+				<label class="label" for="vHelpMdFileName">1. Download *.md file</label>
+			</div>
+
+			<div class="field has-addons">
+				<div class="control is-expanded">
+					<input class="input" type="text" placeholder="File name will appear here" id="vHelpMdFileName" name="vHelpMdFileName" disabled>
+				</div>
+				<div class="control">
+					<button class="button is-primary" id="vHelpButtonCreate">
+						Download
+					</button>
+				</div>
+			</div>
+
+			<div class="field">
+				<div class="message is-warning">
+					<div class="message-body">
+						<p>Cross-Origin Resource Sharing (CORS) does not allow us to download YouTube thumbnails directly. Therefore:</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="field">
+				<label class="label" for="vHelpThumbFileName">2. Copy file name</label>
+				<div class="control">
+					<input class="input" type="text" placeholder="File name will appear here" id="vHelpThumbFileName" name="vHelpThumbFileName">
+				</div>
+			</div>
+
+			<div class="field">
+				<label class="label">3. Right-click to save the thumbnail and paste the file name</label>
+				<div class="control is-relative">
+					<div id="vHelpLoader">Loading thumbnail from YouTube</div>
+					<img src="{% link assets/images/thumbnail-default.png %}" data-default="{% link assets/images/thumbnail-default.png %}" loading="lazy" alt="" id="vHelpThumbnail" class="has-radius-normal">
+				</div>
+			</div>
+
+			<hr class="mt-6">
+
+			<div class="field is-grouped is-grouped-centered">
+				<p class="control">
+					<button class="button is-danger" id="vHelpButtonReset">
+						Reset form for and start again
+					</button>
+				</p>
+			</div>
+		</form>
+	</div>
+</section>
+
+<script type="application/javascript">
+	// --- helper functions
+	const slugifyMe = str =>
+		str
+		.toLowerCase()
+		.trim()
+		.replace(/[\s]+/g, '-')
+		.replace(/[^\w\-]+/g, '')
+		.replace(/--+/g, '-')
+		.replace(/^-+|-+$/g, '')
+
+	const getTodaysDate = () => {
+		const today = new Date();
+		const year = today.getFullYear()
+		const month = String(today.getMonth() + 1).padStart(2, '0')
+		const day = String(today.getDate()).padStart(2, '0')
+
+		return `${year}-${month}-${day}`
+	}
+
+	const dowloadMarkdownFile = (info, fileName, date) => {
+		// --- md file
+		const blobMd = new Blob([info], {type: 'text/markdown'})
+		const urlMd = URL.createObjectURL(blobMd)
+
+		const linkMd = document.createElement('a')
+		linkMd.href = urlMd
+		linkMd.download = `${date}-${fileName}.md`
+
+		// --- append the link to the body (required for Firefox)
+		document.body.appendChild(linkMd)
+		linkMd.click()
+
+		// --- clean up and remove the link
+		document.body.removeChild(linkMd)
+
+		// --- free up memory
+		URL.revokeObjectURL(urlMd)
+	}
+
+	const extractVideoId = (url) => {
+		const regex = /(?:https?:\/\/)?(?:www\.)?(?:youtube\.com\/(?:[^\/\n\s]+\/\S+\/|(?:v|e(?:mbed)?)\/|.*[?&]v=)|youtu\.be\/)([a-zA-Z0-9_-]{11})/
+		const match = url.match(regex)
+		return match ? match[1] : null
+	}
+
+	const loadYouTubeThumbnail = (id) => {
+		if (!id) return
+
+		thumbnailLoader.style.display = 'flex'
+		thumbnailImage.src = `https://img.youtube.com/vi/${id}/maxresdefault.jpg`
+
+		thumbnailImage.onload = function() {
+			thumbnailLoader.style.display = 'none'
+		}
+
+		thumbnailImage.onerror = function() {
+			thumbnailLoader.innerText = 'Failed to load image. Check again the YouTube link.'
+		}
+	}
+
+	// --- empty variables
+	let slugifiedTitle
+	let videoInfo
+	let videoId
+
+	// --- fields
+	const title = document.querySelector('#vHelpTitle')
+	const description = document.querySelector('#vHelpDesc')
+	const datePublished = document.querySelector('#vHelpDatePublished')
+	const dateUpdated = document.querySelector('#vHelpDateUpdated')
+	const linkYouTube = document.querySelector('#vHelpYouTube')
+	const linkForum = document.querySelector('#vHelpForum')
+	const linkPeerTube = document.querySelector('#vHelpPeerTube')
+	const linkOdysee = document.querySelector('#vHelpOdysee')
+	const tags = document.querySelector('#vHelpTags')
+	const thumbnailImage = document.querySelector('#vHelpThumbnail')
+	const thumbnailLoader = document.querySelector('#vHelpLoader')
+	const mdFileNameInput = document.querySelector('#vHelpMdFileName')
+	const thumbFileNameInput = document.querySelector('#vHelpThumbFileName')
+
+	// --- buttons
+	const buttonCreate = document.querySelector('#vHelpButtonCreate')
+	const buttonReset = document.querySelector('#vHelpButtonReset')
+
+	// --- initialization procedures
+	datePublished.value = getTodaysDate()
+	dateUpdated.value = getTodaysDate()
+
+	// --- create files button
+	buttonCreate.addEventListener('click', (e) => {
+		e.preventDefault()
+
+		// --- strings preparation
+		slugifiedTitle = slugifyMe(title.value)
+		const tagsSplit = tags.value.split(", ").map(item => item.trim());
+		const tagsStringified = JSON.stringify(tagsSplit);
+
+		// --- MD file content
+		videoInfo = `---\n`
+		videoInfo += `${title.value ? 'title: "' + title.value + '"\n' : ''}`
+		videoInfo += `${description.value ? 'description: "' + description.value + '"\n' : ''}`
+		videoInfo += `${datePublished.value ? 'datePublished: ' + datePublished.value + '\n' : ''}`
+		videoInfo += `${dateUpdated.value ? 'dateUpdated: ' + dateUpdated.value + '\n' : ''}`
+		videoInfo += `${linkYouTube.value ? 'linkYouTube: "' + linkYouTube.value + '"\n' : ''}`
+		videoInfo += `${linkForum.value ? 'linkForum: "' + linkForum.value + '"\n' : ''}`
+		videoInfo += `${linkPeerTube.value ? 'linkPeerTube: "' + linkPeerTube.value + '"\n' : ''}`
+		videoInfo += `${linkOdysee.value ? 'linkOdysee: "' + linkOdysee.value + '"\n' : ''}`
+		videoInfo += `${tags.value ? 'tags: ' + tagsStringified + '\n' : ''}`
+		videoInfo += `---`
+
+		dowloadMarkdownFile(videoInfo, slugifiedTitle, datePublished.value)
+	})
+
+	// --- handling file names
+	title.addEventListener('change',  () => {
+		if (!title.value) return
+
+		let fileNameDate = datePublished.value
+		let fileNameTitle = slugifyMe(title.value)
+
+		mdFileNameInput.value = `${fileNameDate}-${fileNameTitle}.md`
+		thumbFileNameInput.value = `${fileNameDate}-${fileNameTitle}`
+	})
+
+	thumbFileNameInput.addEventListener('focus', (e) => {
+		e.target.select()
+	})
+
+	// --- loading youtube thumbnail
+	linkYouTube.addEventListener('change', () => {
+		if (!linkYouTube.value || !linkYouTube.value.includes('yout')) return
+
+		videoId = extractVideoId(linkYouTube.value)
+
+		loadYouTubeThumbnail(videoId)
+	})
+
+	// --- reset form
+	buttonReset.addEventListener('click', () => {
+		document.querySelector('#vHelp').reset()
+
+		datePublished.value = getTodaysDate()
+		dateUpdated.value = getTodaysDate()
+		thumbnailImage.src = thumbnailImage.dataset.default
+	})
+</script>
