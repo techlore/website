@@ -25,6 +25,12 @@ noindex: true
 		aspect-ratio: 16/9;
 		width: 100%;
 	}
+
+	#vHelpDatePublished:invalid,
+	#vHelpDateUpdated:invalid {
+		outline: 2px solid var(--bulma-danger);
+		box-shadow: 0 0 15px var(--bulma-danger);
+	}
 </style>
 
 <section class="mt-0">
@@ -61,7 +67,8 @@ noindex: true
 					<div class="field">
 						<label class="label" for="vHelpDatePublished">datePublished <span class="has-text-danger">*</span></label>
 						<div class="control">
-							<input class="input" type="text" placeholder="YYYY-MM-DD" id="vHelpDatePublished" name="vHelpDatePublished">
+							<input class="input" type="text" placeholder="YYYY-MM-DD" pattern="\d{4}-\d{2}-\d{2}"
+								maxlength="10" id="vHelpDatePublished" name="vHelpDatePublished">
 						</div>
 						<p class="help">format: YYYY-MM-DD</p>
 					</div>
@@ -70,7 +77,8 @@ noindex: true
 					<div class="field">
 						<label class="label" for="vHelpDateUpdated">dateUpdated <span class="has-text-danger">*</span></label>
 						<div class="control">
-							<input class="input" type="text" placeholder="YYYY-MM-DD" id="vHelpDateUpdated" name="vHelpDateUpdated">
+							<input class="input" type="text" placeholder="YYYY-MM-DD" pattern="\d{4}-\d{2}-\d{2}"
+								maxlength="10" id="vHelpDateUpdated" name="vHelpDateUpdated">
 						</div>
 						<p class="help">format: YYYY-MM-DD</p>
 					</div>
@@ -219,13 +227,17 @@ noindex: true
 		thumbnailLoader.style.display = 'flex'
 		thumbnailImage.src = `https://img.youtube.com/vi/${id}/maxresdefault.jpg`
 
-		thumbnailImage.onload = function() {
+		thumbnailImage.onload = function () {
 			thumbnailLoader.style.display = 'none'
 		}
 
-		thumbnailImage.onerror = function() {
+		thumbnailImage.onerror = function () {
 			thumbnailLoader.innerText = 'Failed to load image. Check again the YouTube link.'
 		}
+	}
+
+	const doubleQuotesToHtmlEntity = (string) => {
+		return string.replace(/"/g, '&quot;');
 	}
 
 	// --- empty variables
@@ -267,8 +279,8 @@ noindex: true
 
 		// --- MD file content
 		videoInfo = `---\n`
-		videoInfo += `${title.value ? 'title: "' + title.value + '"\n' : ''}`
-		videoInfo += `${description.value ? 'description: "' + description.value + '"\n' : ''}`
+		videoInfo += `${title.value ? 'title: "' + doubleQuotesToHtmlEntity(title.value) + '"\n' : ''}`
+		videoInfo += `${description.value ? 'description: "' + doubleQuotesToHtmlEntity(description.value) + '"\n' : ''}`
 		videoInfo += `${datePublished.value ? 'datePublished: ' + datePublished.value + '\n' : ''}`
 		videoInfo += `${dateUpdated.value ? 'dateUpdated: ' + dateUpdated.value + '\n' : ''}`
 		videoInfo += `${linkYouTube.value ? 'linkYouTube: "' + linkYouTube.value + '"\n' : ''}`
@@ -292,11 +304,11 @@ noindex: true
 	}
 
 	// --- handling file names
-	title.addEventListener('change',  () => {
+	title.addEventListener('change', () => {
 		updateNames()
 	})
 
-	datePublished.addEventListener('change',  () => {
+	datePublished.addEventListener('change', () => {
 		updateNames()
 	})
 
