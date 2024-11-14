@@ -281,15 +281,23 @@ noindex: true
 		dowloadMarkdownFile(videoInfo, slugifiedTitle, datePublished.value)
 	})
 
-	// --- handling file names
-	title.addEventListener('change',  () => {
-		if (!title.value) return
-
+	const updateNames = () => {
 		let fileNameDate = datePublished.value
 		let fileNameTitle = slugifyMe(title.value)
 
+		if (!fileNameTitle || !fileNameDate) return
+
 		mdFileNameInput.value = `${fileNameDate}-${fileNameTitle}.md`
 		thumbFileNameInput.value = `${fileNameDate}-${fileNameTitle}`
+	}
+
+	// --- handling file names
+	title.addEventListener('change',  () => {
+		updateNames()
+	})
+
+	datePublished.addEventListener('change',  () => {
+		updateNames()
 	})
 
 	thumbFileNameInput.addEventListener('focus', (e) => {
