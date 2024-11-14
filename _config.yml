@@ -105,6 +105,7 @@ plugins:
 sass:
   sass_dir: _sass
   style: compressed
+  sourcemap: development
 
 collections:
   videos:
