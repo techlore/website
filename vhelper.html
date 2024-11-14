@@ -46,7 +46,9 @@ noindex: true
 			</div>
 		</div>
 
-		<form id="vHelp" action="#">
+		{% include c_nojs-message.html title=page.title %}
+
+		<form id="vHelp" action="#" class="mt-5">
 			<div class="field">
 				<label class="label" for="vHelpTitle">Title <span class="has-text-danger">*</span></label>
 				<div class="control">
@@ -120,6 +122,10 @@ noindex: true
 					<input class="input" type="text" placeholder="optional" id="vHelpTags" name="vHelpTags">
 				</div>
 				<p class="help">Example: clips, privacy, Q&A</p>
+			</div>
+
+			<div class="field is-grouped is-grouped-multiline" id="vHelpTagButtons">
+				<!-- Filled with JS -->
 			</div>
 
 			<hr class="mt-6">
@@ -240,6 +246,19 @@ noindex: true
 		return string.replace(/"/g, '&quot;');
 	}
 
+	const addTags = (string) => {
+		if (!string) return
+		if (tags.value.includes(string)) return
+
+		if (!tags.value) {
+			tags.value = string
+
+		} else {
+			tags.value += `, ${string}`
+
+		}
+	}
+
 	// --- empty variables
 	let slugifiedTitle
 	let videoInfo
@@ -333,4 +352,35 @@ noindex: true
 		dateUpdated.value = getTodaysDate()
 		thumbnailImage.src = thumbnailImage.dataset.default
 	})
+
+	// --- generate tag buttons
+	const generateTagButtons = (tagButtonLabels, tagsContainer) => {
+		const container = document.getElementById(tagsContainer)
+		if (!container) return
+
+		container.innerHTML = '';
+
+		tagButtonLabels.forEach(label => {
+			const tagButtonWrapper = document.createElement('div')
+			const tagButton = document.createElement('button')
+
+			tagButtonWrapper.classList.add('control')
+
+			tagButton.setAttribute('class', 'button is-small')
+			tagButton.textContent = label
+			tagButton.setAttribute('data-label', label)
+			tagButtonWrapper.appendChild(tagButton)
+
+			tagButton.addEventListener('click', (e) => {
+				e.preventDefault()
+				addTags(label)
+			})
+
+			container.appendChild(tagButtonWrapper)
+		})
+	}
+
+	const tagLabels = ['SR', 'Q&A', 'Clips', 'Guide', 'Data breach', 'Security', 'Privacy']
+	generateTagButtons(tagLabels, 'vHelpTagButtons')
+
 </script>
