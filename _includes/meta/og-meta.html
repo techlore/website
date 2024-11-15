@@ -1,0 +1,10 @@
+<!-- Open Graph Meta Tags for Social Media -->
+<meta property="og:site_name" content="{{ site.name }}">
+<meta property="og:title" content="{{ include.title | truncate: 60 }}">
+<meta property="og:description" content="{{ include.description | truncate: 160 }}">
+<meta property="og:image" content="{{ site.ogImage | absolute_url }}">
+<meta property="og:image:alt" content="{{ include.title | truncate: 60 }} (preview image)">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="{{ url | absolute_url }}">
+<meta property="og:type" content="article">
