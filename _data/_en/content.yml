@@ -204,10 +204,14 @@ about:
     title: "And what is Techlore?"
     desc: "We're a small team educating people about digital rights, privacy, security, digital control, and other important topics to push the world towards a safer internet. We envision a world where technology works for us, not against us—and we want to prove to people they can make a real impact for themselves and others. You can find more information about Techlore on <a href=\"https://youtube.fandom.com/wiki/Techlore\" target=\"_blank\">our wiki</a>."
   buttonMore: "More about who we are"
-  mission:
-    line1: "Our vision is a world where technology works for us, not against us."
-    line2: "Our mission is to prove to people they can make a real impact for themselves and others."
-    line3: "We're a small team educating people about digital rights, privacy, security, digital control, and other important topics to push the world towards a safer internet."
+  claim:
+    vision:
+      title: "Our vision"
+      text: "is a world where technology works for us, not against us"
+    mission:
+      title: "Our mission"
+      text: "is to prove to people they can make a real impact for themselves and others"
+    tagline: "We're a small team educating people about digital rights, privacy, security, digital control, and other important topics to push the world towards a safer internet."
   personalWebsite: "Personal website"
 
 # -----------------------------------------

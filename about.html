@@ -10,17 +10,37 @@ description: "Who's behind the scenes? Learn more about our mission, values, and
 <section>
 	<div class="fixed-grid has-1-cols">
 		<div class="grid">
-			<div class="cell has-text-centered has-text-text-bold p-5">
+			<div class="cell _has-text-centered p-5">
 				<div class="container">
-					<img src="{% link assets/logos/techlore-logo-edit-by-figma.svg %}" style="width: calc(var(--bulma-size-5) * 10)" width="160" height="160" loading="lazy" alt="Logo - {{ site.name }}">
 
-					<div class="mission has-text-info has-text-weight-bold has-text-wrap-balance mt-6">
-						{% for line in t.about.mission %}
-							<p class="is-size-3">
-								{{ line[1] }}
-							</p>
-						{% endfor %}
+					<div class="columns is-align-items-center">
+						<div class="column is-one-third has-text-centered">
+							<img src="{% link assets/logos/techlore-logo-edit-by-figma.svg %}" width="260" height="260" loading="lazy" alt="Logo - {{ site.name }}">
+						</div>
+						<div class="column is-two-thirds is-size-3-mobile is-size-3-tablet is-size-2-desktop is-family-secondary has-text-warning has-text-weight-bold has-text-centered-mobile">
+							{{ t.about.claim.tagline }}
+						</div>
 					</div>
+
+					<div class="columns is-align-items-center mt-5-mobile">
+						<div class="column is-two-thirds-tablet is-offset-4-tablet is-size-3-mobile is-size-3-tablet has-text-centered-mobile">
+							<div class="columns is-desktop is-multiline">
+								<div class="column is-flex">
+									<div class="box is-box-info has-background has-glare p-6-custom-responsive is-flex-grow-1">
+										<h2>{{ t.about.claim.vision.title }}</h2>
+										<p>{{ t.about.claim.vision.text }}</p>
+									</div>
+								</div>
+								<div class="column is-flex">
+									<div class="box is-box-info has-background has-glare p-6-custom-responsive is-flex-grow-1">
+										<h2>{{ t.about.claim.mission.title }}</h2>
+										<p>{{ t.about.claim.mission.text }}</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
 				</div>
 			</div>
 		</div>
