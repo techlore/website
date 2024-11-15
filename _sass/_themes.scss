@@ -23,8 +23,9 @@
 	--bulma-radius-rounded: 100vmax;
 	--bulma-hover-background-l-delta: -10%;
 	--bulma-hover-border-l-delta: 3%;
+}
 
-	// --- CUSTOM
+@mixin dark-theme-vars {
 	// --- feature-box
 	--custom-box-warning-bg: transparent;
 	--custom-box-warning-color: var(--bulma-warning);
@@ -58,45 +59,7 @@
 	--custom-hero-banner-text-color: var(--bulma-grey-darker);
 }
 
-@media (prefers-color-scheme: light) {
-	:root {
-		// --- feature-box
-		--custom-box-warning-bg: var(--bulma-warning-95);
-		--custom-box-warning-border-color: transparent;
-
-		--custom-box-success-bg: var(--bulma-success-95);
-		--custom-box-success-border-color: transparent;
-
-		--custom-box-info-bg: var(--bulma-info-95);
-		--custom-box-info-border-color: transparent;
-
-		--custom-box-danger-bg: var(--bulma-danger-95);
-		--custom-box-danger-border-color: transparent;
-
-		// --- home
-		--custom-topic-list-info: var(--bulma-black);
-
-		// --- linkhub-dual
-		--custom-linkhub-arrow-color: var(--bulma-grey-light);
-
-		// --- coaching
-		--custom-coaching-cta-bg: var(--bulma-warning-95);
-		--custom-coaching-cta-shadow: 0 0 50px -20px var(--bulma-warning);
-
-		// --- spa quiz
-		--custom-spa-quiz-text-value: var(--bulma-black);
-
-		// --- hero banner
-		--custom-hero-banner-text-color: var(--bulma-grey-lighter);
-
-		[data-apply-light-theme-filter] {
-			filter: invert(.75);
-		}
-	}
-}
-
-[data-theme=light],
-.theme-light {
+@mixin light-theme-vars {
 	// --- feature-box
 	--custom-box-warning-bg: var(--bulma-warning-95);
 	--custom-box-warning-border-color: transparent;
@@ -129,4 +92,26 @@
 	[data-apply-light-theme-filter] {
 		filter: invert(.75);
 	}
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		@include light-theme-vars;
+	}
+}
+
+html[data-theme="light"],
+.theme-light {
+	@include light-theme-vars;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		@include dark-theme-vars;
+	}
+}
+
+html[data-theme="dark"],
+.theme-dark {
+	@include dark-theme-vars;
 }
