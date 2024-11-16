@@ -134,7 +134,7 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 			{% for item in site.data._en.knowledgebase.software %}
 				{% assign category = item[0] %}
 				{% assign order = site.data._en.knowledgebase.software[category].order %}
-				<a href="{{ category | prepend: "#" }}" class="knowledgebase-nav__button button is-primary" data-order="{{ order }}">{{ t.resources.knowledgebase.categories[category] }}</a>
+				<a href="{{ category | prepend: "#" }}" class="knowledgebase-nav__button button is-primary" style="--_order: {{ order }}">{{ t.resources.knowledgebase.categories[category] }}</a>
 			{% endfor %}
 		</div>
 	</div>
@@ -214,7 +214,7 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 			{% for item in site.data._en.knowledgebase.operating-systems %}
 				{% assign category = item[0] %}
 				{% assign order = site.data._en.knowledgebase.operating-systems[category].order %}
-				<a href="{{ category | prepend: "#" }}" class="knowledgebase-nav__button button is-primary" data-order="{{ order }}">{{ t.resources.knowledgebase.categories[category] }}</a>
+				<a href="{{ category | prepend: "#" }}" class="knowledgebase-nav__button button is-primary" style="--_order: {{ order }}">{{ t.resources.knowledgebase.categories[category] }}</a>
 			{% endfor %}
 		</div>
 	</div>
@@ -267,7 +267,7 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 			{% for item in site.data._en.knowledgebase.other-services %}
 				{% assign category = item[0] %}
 				{% assign order = site.data._en.knowledgebase.other-services[category].order %}
-				<a href="{{ category | prepend: "#" }}" class="knowledgebase-nav__button button is-primary" data-order="{{ order }}">{{ t.resources.knowledgebase.categories[category] }}</a>
+				<a href="{{ category | prepend: "#" }}" class="knowledgebase-nav__button button is-primary" style="--_order: {{ order }}">{{ t.resources.knowledgebase.categories[category] }}</a>
 			{% endfor %}
 		</div>
 	</div>
