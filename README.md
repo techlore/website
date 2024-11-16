@@ -1,12 +1,18 @@
-# WORK IN PROGRESS
+<h1>
+	<picture>
+	  <source media="(prefers-color-scheme: dark)" srcset="assets/images/github-readme-dark.png">
+	  <img alt="Techlore | Digital rights for all" src="assets/images/github-readme-light.png">
+	</picture>
+</h1>
 
-# Techlore
-![Techlore logo](https://github.com/MichalSvatos/techlore/raw/main/assets/logos/techlore-logo-edit-by-figma.svg)
+We're a small team educating people about digital rights, privacy, security, digital control, and other important topics to push the world towards a safer internet.
 
 ## Contributing
+
 This website is using HTML, vanilla JavaScript, [Bulma.io](https://bulma.io/) framework and its components and static website generator [Jekyll](https://jekyllrb.com/).
 
 #### Do you want to improve the project?
+
 - Fork this repository
 - Enable the Github Pages feature
 - Edit the project with the improvements and features
@@ -14,19 +20,24 @@ This website is using HTML, vanilla JavaScript, [Bulma.io](https://bulma.io/) fr
 - Wait for our team to evaluate the changes
 
 #### Have you found a bug or want to suggest a feature?
+
 - Create an issue
 - Fill the required questions in the form
 
 ## Installation and local development
+
 Because we are using a static website generator, the installation requires a little bit more work.
 
 ### Jekyll
+
 For Jekyll installation follow the instruction on the [Jekyll website](https://jekyllrb.com/docs/)
 
 ### Node.js 22.x:
+
 We also need Node to install the latest version of Bulma.
 
 #### MacOs / Linux
+
 > - installs nvm (Node Version Manager)
 	`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash`
 > - download and install Node.js (you may need to restart the terminal)
@@ -39,12 +50,15 @@ We also need Node to install the latest version of Bulma.
 ℹ️ _Installation instructions for all platforms are available on the [NodeJS.org website](https://nodejs.org/en/download/package-manager)_
 
 ### Bulma framework installation
+
 The final step is to run `npm install`.
 
 ### View website locally
+
 Run `bundle exec jekyll serve` and the site should be available at [http://localhost:4000](http://localhost:4000).
 
 ## Libraries & other projects included
+
 - [Iconoir](https://iconoir.com/) - A high-quality selection of free open source icons
 - [Jekyll](https://jekyllrb.com/) - Simple, blog-aware, static sites
 - Orbot icon by [Arcticons](https://github.com/Arcticons-Team/Arcticons)
