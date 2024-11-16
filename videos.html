@@ -43,7 +43,7 @@ description: "Explore our video library, featuring expert insights and practical
 <section>
 	<div class="container">
 		<div class="columns">
-			<div class="column is-full-mobile is-half">
+			<div class="column is-full-mobile is-half" id="techlore-clips">
 				{%- include c_box-header.html title=t.videos.techloreClips.title links=site.techloreClips.links -%}
 				{%- if site.clips.size > 0 -%}
 					<div class="box has-footer">
@@ -74,7 +74,7 @@ description: "Explore our video library, featuring expert insights and practical
 					%}
 				{%- endif -%}
 			</div>
-			<div class="column is-full-mobile is-half">
+			<div class="column is-full-mobile is-half" id="surveillance-report">
 				{%- include c_box-header.html title=t.videos.surveillanceReport.title links=site.surveillanceReport.links -%}
 				{%- if site.surveillance-report.size > 0 -%}
 					<div class="box has-footer">
