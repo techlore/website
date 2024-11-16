@@ -85,9 +85,9 @@ resources:
     external: "Explore our curated list of organizations and tools that offer valuable insights, advocacy, and support for protecting your online freedoms."
     sections:
       software: "Software, hardware and applications"
-      operatingSystems: "Operating systems"
-      other: "Other services"
-      external: "External resources"
+      operating-systems: "Operating systems"
+      other-services: "Other services"
+      external-resources: "External resources"
     categories:
       web-browsers: "Web Browsers"
       password-managers: "Password Managers"

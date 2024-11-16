@@ -157,3 +157,64 @@ if (goTopButton && wave) {
 		observer.observe(wave)
 	}
 }
+
+// Knowledgebase navigation
+const knowledgebaseSection = document.querySelector('[data-knowledgebase-navigation]')
+const knowledgebaseNavigation = document.querySelector('.knowledgebase-navigation-wrapper')
+
+if (knowledgebaseSection && knowledgebaseNavigation) {
+	// --- toggle
+	const knowledgebaseNavToggle = document.querySelector('#knowledgebaseNavToggle')
+
+	knowledgebaseNavToggle.addEventListener('click', e => {
+		e.preventDefault()
+
+		knowledgebaseNavigation.classList.toggle('is-active')
+	})
+
+	// --- sections
+	const observer = new IntersectionObserver((entries) => {
+		entries.forEach(entry => {
+			if (entry.isIntersecting) {
+				knowledgebaseNavigation.dataset.isVisible = true
+
+			} else {
+				knowledgebaseNavigation.dataset.isVisible = false
+				knowledgebaseNavigation.classList.remove('is-active')
+			}
+		})
+	}, {rootMargin: "0% 0% -75% 0%"})
+
+	observer.observe(knowledgebaseSection)
+
+	// --- hide scrollbar
+	const knowledgebaseScrollbarContainer = document.querySelector('.knowledgebase-navigation > .box')
+	knowledgebaseScrollbarContainer.style = `--_kb-scrollbar-width: ${knowledgebaseScrollbarContainer.offsetWidth - knowledgebaseScrollbarContainer.clientWidth}px`
+
+	// --- navigation menu items highlighting
+	const sections = knowledgebaseSection.querySelectorAll('[data-knowledgebase-section]')
+	const menuObserverOptions = {
+		root: null, // using the viewport as the root
+		rootMargin: '0px',
+		threshold: 0.33
+	}
+
+	const menuObserver = new IntersectionObserver((entries) => {
+		entries.forEach(entry => {
+			const id = entry.target.querySelector('h2').id
+			const link = knowledgebaseNavigation.querySelector(`a[href="#${id}"]`)
+
+			if (entry.isIntersecting) {
+				knowledgebaseNavigation.querySelectorAll('a').forEach((a) => {
+					a.classList.remove('is-active')
+				})
+
+				link.classList.add('is-active')
+			}
+		})
+	}, menuObserverOptions)
+
+	sections.forEach(section => {
+		menuObserver.observe(section)
+	})
+}

@@ -1,0 +1,140 @@
+.knowledgebase-navigation-wrapper {
+	--_kbtoggle-size: calc(var(--bulma-size-5) * 3.5);
+	--_layer: 1;
+
+	position: fixed;
+	inset: 0 0 calc(var(--bulma-navbar-height) * 2) auto;
+	width: 325px;
+	z-index: 20;
+	overflow: hidden;
+	padding-left: var(--_kbtoggle-size);
+	transition: translate 600ms cubic-bezier(0.22, 1, 0.36, 1);
+
+	@media (min-width: $desktop) {
+		inset: calc(var(--bulma-navbar-height) * 1.1) 0 calc(var(--bulma-navbar-height) * 2) auto;
+	}
+
+	// --- shadow
+	&:after {
+		content: '';
+		position: absolute;
+		inset: var(--bulma-size-2) 0 var(--bulma-size-2) var(--_kbtoggle-size);
+		background-color: var(--bulma-black);
+		box-shadow: none;
+		z-index: var(--_layer);
+		border-radius: var(--bulma-radius-large) 0 0 var(--bulma-radius-large);
+		transition: box-shadow 500ms cubic-bezier(0.22, 1, 0.36, 1);
+	}
+
+	&[data-is-visible="false"] {
+		translate: 105% 0;
+
+		&.is-active {
+			translate: 105% 0;
+		}
+	}
+
+	&[data-is-visible="true"] {
+		translate: calc(100% - var(--_kbtoggle-size)) 0;
+	}
+
+	&.is-active {
+		translate: 0 0;
+		z-index: 30;
+
+		&:after {
+			box-shadow: -10px 0 60px -30px #000, -10px 0 20px -20px #000;
+		}
+	}
+}
+
+.knowledgebase-navigation {
+	border-radius: 0 0 0 var(--bulma-radius-large);
+	padding-right: 0;
+	overflow: hidden;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	z-index: calc(var(--_layer) + 2);
+
+	@media (min-width: $desktop) {
+		border-top-left-radius: var(--bulma-radius-large);
+	}
+
+	& > .box {
+		height: 100%;
+		overflow-y: scroll;
+		width: calc(100% + var(--_kb-scrollbar-width, 0));
+		box-shadow: inset 0px -50px 30px -50px var(--bulma-link-35);
+	}
+}
+
+.knowledgebase-navigation__menu-label {
+	font-family: var(--bulma-family-secondary);
+	font-weight: 600;
+	color: var(--bulma-white);
+}
+
+ul.knowledgebase-navigation__menu-list {
+	margin-left: 0;
+}
+
+.knowledgebase-navigation__menu-item {
+	order: var(--_order, 0);
+
+	a {
+		background-color: transparent;
+		color: var(--bulma-white);
+
+		&:hover {
+			background-color: var(--bulma-link-55);
+		}
+
+		&.is-active {
+			background-color: var(--bulma-white);
+			color: var(--bulma-black);
+		}
+	}
+}
+
+.knowledgebase-navigation__toggle {
+	width: var(--_kbtoggle-size);
+	aspect-ratio: 1;
+	position: absolute;
+	left: 0;
+	top: var(--bulma-size-1);
+	background-color: var(--bulma-background);
+	border-radius: var(--bulma-radius) 0 0 var(--bulma-radius);
+	z-index: var(--_layer);
+
+	@media (min-width: $desktop) {
+		top: var(--bulma-size-2);
+	}
+
+	&:after {
+		content: '';
+		border-radius: var(--bulma-radius) 0 0 var(--bulma-radius);
+		background-color: var(--bulma-primary);
+		position: absolute;
+		inset: 0;
+		transform: scaleY(1);
+		opacity: .5;
+		z-index: -1;
+
+		[data-is-visible="true"] & {
+			animation: pulseBtn 1000ms ease-in-out 5 forwards;
+		}
+	}
+}
+
+@keyframes pulseBtn {
+	0% {
+		transform: scaleY(1);
+		opacity: .5;
+	}
+	100% {
+		transform: scaleY(2);
+		opacity: 0;
+	}
+}
