@@ -1,0 +1,16 @@
+{% comment %}
+	goincognitotable (Go Incognito courses) -----------------------------------------
+	Data source: 	_data/_en/goincognitotable.yml
+{% endcomment %}
+
+{% include variables.html %}
+
+<div class="goincognitotable columns has-2-columns">
+	<img src="{{ '/assets/logos/techlore-logo-incognito-v5.svg' | absolute_url }}" class="goincognitotable__logo has-radius-rounded" loading="lazy" alt="Logo - {{ t.goincognito.title }}">
+
+	{% assign dataFree = site.data._en.goincognitotable.free %}
+	{%- include c_goincognitotable-column.html data=dataFree -%}
+
+	{% assign dataPremium = site.data._en.goincognitotable.premium %}
+	{%- include c_goincognitotable-column.html data=dataPremium isPremium=true -%}
+</div>

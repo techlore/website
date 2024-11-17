@@ -98,7 +98,9 @@ wiki:
 xmrAddress: "49H4jTvUY5zaX8qLpVBstJFR7ayTMxxU3UyWpGqUoBM4UzM2zwUHA2sJ9i3AhQYdaqhFmS8PDfWKn1Tea4SKU6haMTXG8qD"
 openalias: "crypto@techlore.tech"
 
-# Build settings
+# -----------------------------------------
+# Plugin settings
+#
 plugins:
   - jekyll-sitemap
 
@@ -107,6 +109,9 @@ sass:
   style: compressed
   sourcemap: development
 
+# -----------------------------------------
+# Collection settings
+#
 collections:
   videos:
     output: true
@@ -124,6 +129,9 @@ collections:
     permalink: /guides/:name
 collections_dir: videos
 
+# -----------------------------------------
+# Sitemap configuration
+#
 defaults:
   -
     scope:
@@ -149,8 +157,6 @@ defaults:
       type: "guides"
     values:
       sitemap: false
-
-# paginate: 3
 
 # Exclude from processing.
 # The following items will not be processed, by default.

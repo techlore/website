@@ -8,14 +8,11 @@
 #                   In the template then utilize the "replace" filter.
 #                   Example:
 #                     {% assign affiliatesUrl = site.data._en.navigation.hiddenNav.affiliates.url | absolute_url %}
-#                     {{ t.resources.knowledgebase.disclaimer | replace: "[[affiliatesUrl]]", affiliatesUrl }}
+#                     {{ site.data._en.knowledgebase-text.disclaimer | replace: "[[affiliatesUrl]]", affiliatesUrl }}
 # Bold:             <strong>bold text</strong>
 # Italic:           <i>italic text</i>
 #
 global:
-  description: "Techlore is educating people about digital rights, privacy, security, digital control, and other important topics to push the world towards a safer internet."
-  patreons:
-    title: "Sending 🤍 to our gold [patreons]([[patreonLink]])"
   platforms:
     techlorian: "Techlorian"
     youtube: "YouTube"
@@ -59,7 +56,8 @@ global:
 # HOMEPAGE
 #
 home:
-  hero: ""
+  patreons:
+    title: "Sending 🤍 to our gold [patreons]([[patreonLink]])"
   newestVideos: "Newest videos"
   hotTopics: "Hot topics in our community"
   team:
@@ -67,6 +65,9 @@ home:
 
 # -----------------------------------------
 # RESOURCES section and page
+#
+# Knowledgebase sources:   - text in `knowledgebase.yml`
+#                          - data in `/knowledgebase` folder
 #
 resources:
   title: "Resources"
@@ -78,49 +79,6 @@ resources:
     tools:
       title: "Tools that can help you"
       desc: "Check out our curated list of useful resources to help you stay private and secure"
-  knowledgebase:
-    affil: "Affiliate link"
-    disclaimer: "Affiliate Link: Some services link to their official site, with a separate affiliate link if you choose to support Techlore. View our strict requirements <a href=\"https://discuss.techlore.tech/pub/sponsors-affiliates\" target=\"blank\">here</a>. To view all affiliates, visit <a href=\"[[affiliatesUrl]]\">here.</a>"
-    favorite: "marks a favorite. They don't represent every threat model and shouldn't be over-analyzed."
-    external: "Explore our curated list of organizations and tools that offer valuable insights, advocacy, and support for protecting your online freedoms."
-    sections:
-      software: "Software, hardware and applications"
-      operating-systems: "Operating systems"
-      other-services: "Other services"
-      external-resources: "External resources"
-    categories:
-      web-browsers: "Web Browsers"
-      password-managers: "Password Managers"
-      totp-2fa: "TOTP 2FA"
-      encryption: "Encryption"
-      firewalls: "Firewalls"
-      applications: "Applications"
-      desktop: "Desktop"
-      android: "Android"
-      expendable-liveos: "Expendable/LiveOS"
-      search-engines: "Search engines"
-      vpns: "VPNs"
-      dns: "DNS"
-      messengers: "Messengers"
-      email: "Email"
-      aliasing: "Aliasing"
-      cloud-providers: "Cloud providers"
-      notes-a-docs: "Notes & docs"
-      cryptocurrencies: "Cryptocurrencies"
-      hardware-2fa: "Hardware 2FA"
-      webhosting-vps: "Webhosting/VPS"
-      networking: "Networking"
-      other-tools: "Other tools"
-      guides: "Guides"
-      digital-rights: "Digital rights"
-      creators: "Creators"
-    labels:
-      android: "Android"
-      ios: "iOS"
-      desktop: "Desktop"
-      official: "Official web"
-      youtube: "YouTube channel"
-    related: "May come in handy"
 
 
 # -----------------------------------------

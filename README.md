@@ -7,15 +7,14 @@
 
 We're a small team educating people about digital rights, privacy, security, digital control, and other important topics to push the world towards a safer internet.
 
-## Contributing
-
 This website is using HTML, vanilla JavaScript, [Bulma.io](https://bulma.io/) framework and its components and static website generator [Jekyll](https://jekyllrb.com/).
 
-#### Do you want to improve the project?
+## Contributing
 
 - Fork this repository
-- Enable the Github Pages feature
-- Edit the project with the improvements and features
+- [Install and run it locally](#installation-and-local-development)
+- **Read our [contribution guide 📝](contribution/index.md)**
+- Edit the project to include improvements and/or features.
 - Make a pull request with detailed changes
 - Wait for our team to evaluate the changes
 
@@ -24,6 +23,7 @@ This website is using HTML, vanilla JavaScript, [Bulma.io](https://bulma.io/) fr
 - Create an issue
 - Fill the required questions in the form
 
+---
 ## Installation and local development
 
 Because we are using a static website generator, the installation requires a little bit more work.
@@ -57,6 +57,7 @@ The final step is to run `npm install`.
 
 Run `bundle exec jekyll serve` and the site should be available at [http://localhost:4000](http://localhost:4000).
 
+---
 ## Libraries & other projects included
 
 - [Iconoir](https://iconoir.com/) - A high-quality selection of free open source icons

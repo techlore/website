@@ -54,6 +54,8 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 	</div>
 </section>
 
+{% assign kbtext = site.data._en.knowledgebase-text %}
+
 <section>
 	<div class="container">
 		{%- include c_box-header.html title=t.videos.techloreGuides.title links=site.techloreVideos.links anchor=true -%}
@@ -91,7 +93,7 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 	</button>
 	<div class="knowledgebase-navigation menu">
 		<div class="box has-background-link p-5 is-radiusless">
-			{% for section in t.resources.knowledgebase.sections %}
+			{% for section in kbtext.sections %}
 				{% assign sectionKey = section[0] %}
 				<p class="knowledgebase-navigation__menu-label menu-label">{{ section[1] }}</p>
 
@@ -102,7 +104,7 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 						{% assign order = sectionGroup[category].order %}
 
 						<li class="knowledgebase-navigation__menu-item is-size-7 mt-0" style="--_order: {{ order }}">
-							<a href="{{ category | prepend: "#" }}">{{ t.resources.knowledgebase.categories[category] }}</a>
+							<a href="{{ category | prepend: "#" }}">{{ kbtext.categories[category] }}</a>
 						</li>
 
 					{% endfor %}
@@ -116,15 +118,15 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 	{% comment %} SOFTWARE, HW, APPS ============================================================= {% endcomment %}
 	<div class="container is-max-tablet">
 		<div class="has-text-centered">
-			<h2>{{ t.resources.knowledgebase.sections.software }}</h2>
+			<h2>{{ kbtext.sections.software }}</h2>
 			<p>
 				{% assign affiliatesUrl = site.data._en.navigation.hiddenNav.affiliates.url | absolute_url %}
 				{% include e_render-svg-icon.html icon="link" dimension="25" inline=true %}
-				{{ t.resources.knowledgebase.disclaimer | replace: "[[affiliatesUrl]]", affiliatesUrl }}
+				{{ kbtext.disclaimer | replace: "[[affiliatesUrl]]", affiliatesUrl }}
 			</p>
 			<p>
 				{% include e_render-svg-icon.html icon="star-solid" dimension="25" inline=true %}
-				{{ t.resources.knowledgebase.favorite }}
+				{{ kbtext.favorite }}
 			</p>
 		</div>
 	</div>
@@ -134,14 +136,14 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 			{% for item in site.data._en.knowledgebase.software %}
 				{% assign category = item[0] %}
 				{% assign order = site.data._en.knowledgebase.software[category].order %}
-				<a href="{{ category | prepend: "#" }}" class="knowledgebase-nav__button button is-primary" style="--_order: {{ order }}">{{ t.resources.knowledgebase.categories[category] }}</a>
+				<a href="{{ category | prepend: "#" }}" class="knowledgebase-nav__button button is-primary" style="--_order: {{ order }}">{{ kbtext.categories[category] }}</a>
 			{% endfor %}
 		</div>
 	</div>
 
 	<!-- Web browsers -->
 	<div class="container mt-6" data-knowledgebase-section>
-		{% assign title = t.resources.knowledgebase.categories.web-browsers %}
+		{% assign title = kbtext.categories.web-browsers %}
 		{% assign data = site.data._en.knowledgebase.software.web-browsers.data %}
 		{% assign relatedLinks = site.data._en.knowledgebase.software.web-browsers.related %}
 
@@ -150,7 +152,7 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 
 	<!-- Password managers -->
 	<div class="container mt-6" data-knowledgebase-section>
-		{% assign title = t.resources.knowledgebase.categories.password-managers %}
+		{% assign title = kbtext.categories.password-managers %}
 		{% assign data = site.data._en.knowledgebase.software.password-managers.data %}
 		{% assign relatedLinks = site.data._en.knowledgebase.software.password-managers.related %}
 
@@ -159,7 +161,7 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 
 	<!-- TOTP 2FA -->
 	<div class="container mt-6" data-knowledgebase-section>
-		{% assign title = t.resources.knowledgebase.categories.totp-2fa %}
+		{% assign title = kbtext.categories.totp-2fa %}
 		{% assign data = site.data._en.knowledgebase.software.totp-2fa.data %}
 		{% assign relatedLinks = site.data._en.knowledgebase.software.totp-2fa.related %}
 
@@ -168,7 +170,7 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 
 	<!-- Encryption -->
 	<div class="container mt-6" data-knowledgebase-section>
-		{% assign title = t.resources.knowledgebase.categories.encryption %}
+		{% assign title = kbtext.categories.encryption %}
 		{% assign data = site.data._en.knowledgebase.software.encryption.data %}
 		{% assign relatedLinks = site.data._en.knowledgebase.software.encryption.related %}
 
@@ -177,7 +179,7 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 
 	<!-- Firewalls -->
 	<div class="container mt-6" data-knowledgebase-section>
-		{% assign title = t.resources.knowledgebase.categories.firewalls %}
+		{% assign title = kbtext.categories.firewalls %}
 		{% assign data = site.data._en.knowledgebase.software.firewalls.data %}
 		{% assign relatedLinks = site.data._en.knowledgebase.software.firewalls.related %}
 
@@ -186,7 +188,7 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 
 	<!-- Applications -->
 	<div class="container mt-6" data-knowledgebase-section>
-		{% assign title = t.resources.knowledgebase.categories.applications %}
+		{% assign title = kbtext.categories.applications %}
 		{% assign data = site.data._en.knowledgebase.software.applications.data %}
 		{% assign relatedLinks = site.data._en.knowledgebase.software.applications.related %}
 
@@ -196,15 +198,15 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 	{% comment %} OPERATING SYSTEMS ============================================================= {% endcomment %}
 	<div class="container is-max-tablet mt-6">
 		<div class="has-text-centered">
-			<h2>{{ t.resources.knowledgebase.sections.operating-systems }}</h2>
+			<h2>{{ kbtext.sections.operating-systems }}</h2>
 			<p>
 				{% assign affiliatesUrl = site.data._en.navigation.hiddenNav.affiliates.url | absolute_url %}
 				{% include e_render-svg-icon.html icon="link" dimension="25" inline=true %}
-				{{ t.resources.knowledgebase.disclaimer | replace: "[[affiliatesUrl]]", affiliatesUrl }}
+				{{ kbtext.disclaimer | replace: "[[affiliatesUrl]]", affiliatesUrl }}
 			</p>
 			<p>
 				{% include e_render-svg-icon.html icon="star-solid" dimension="25" inline=true %}
-				{{ t.resources.knowledgebase.favorite }}
+				{{ kbtext.favorite }}
 			</p>
 		</div>
 	</div>
@@ -214,14 +216,14 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 			{% for item in site.data._en.knowledgebase.operating-systems %}
 				{% assign category = item[0] %}
 				{% assign order = site.data._en.knowledgebase.operating-systems[category].order %}
-				<a href="{{ category | prepend: "#" }}" class="knowledgebase-nav__button button is-primary" style="--_order: {{ order }}">{{ t.resources.knowledgebase.categories[category] }}</a>
+				<a href="{{ category | prepend: "#" }}" class="knowledgebase-nav__button button is-primary" style="--_order: {{ order }}">{{ kbtext.categories[category] }}</a>
 			{% endfor %}
 		</div>
 	</div>
 
 	<!-- OS/Desktop -->
 	<div class="container mt-6" data-knowledgebase-section>
-		{% assign title = t.resources.knowledgebase.categories.desktop %}
+		{% assign title = kbtext.categories.desktop %}
 		{% assign data = site.data._en.knowledgebase.operating-systems.desktop.data %}
 		{% assign relatedLinks = site.data._en.knowledgebase.operating-systems.desktop.related %}
 
@@ -230,7 +232,7 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 
 	<!-- OS/Expendable/LiveOS -->
 	<div class="container mt-6" data-knowledgebase-section>
-		{% assign title = t.resources.knowledgebase.categories.expendable-liveos %}
+		{% assign title = kbtext.categories.expendable-liveos %}
 		{% assign data = site.data._en.knowledgebase.operating-systems.expendable-liveos.data %}
 		{% assign relatedLinks = site.data._en.knowledgebase.operating-systems.expendable-liveos.related %}
 
@@ -239,7 +241,7 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 
 	<!-- OS/Android -->
 	<div class="container mt-6" data-knowledgebase-section>
-		{% assign title = t.resources.knowledgebase.categories.android %}
+		{% assign title = kbtext.categories.android %}
 		{% assign data = site.data._en.knowledgebase.operating-systems.android.data %}
 		{% assign relatedLinks = site.data._en.knowledgebase.operating-systems.android.related %}
 
@@ -249,15 +251,15 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 	{% comment %} OTHER SERVICES ============================================================= {% endcomment %}
 	<div class="container is-max-tablet mt-6">
 		<div class="has-text-centered">
-			<h2>{{ t.resources.knowledgebase.sections.other-services }}</h2>
+			<h2>{{ kbtext.sections.other-services }}</h2>
 			<p>
 				{% assign affiliatesUrl = site.data._en.navigation.hiddenNav.affiliates.url | absolute_url %}
 				{% include e_render-svg-icon.html icon="link" dimension="25" inline=true %}
-				{{ t.resources.knowledgebase.disclaimer | replace: "[[affiliatesUrl]]", affiliatesUrl }}
+				{{ kbtext.disclaimer | replace: "[[affiliatesUrl]]", affiliatesUrl }}
 			</p>
 			<p>
 				{% include e_render-svg-icon.html icon="star-solid" dimension="25" inline=true %}
-				{{ t.resources.knowledgebase.favorite }}
+				{{ kbtext.favorite }}
 			</p>
 		</div>
 	</div>
@@ -267,14 +269,14 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 			{% for item in site.data._en.knowledgebase.other-services %}
 				{% assign category = item[0] %}
 				{% assign order = site.data._en.knowledgebase.other-services[category].order %}
-				<a href="{{ category | prepend: "#" }}" class="knowledgebase-nav__button button is-primary" style="--_order: {{ order }}">{{ t.resources.knowledgebase.categories[category] }}</a>
+				<a href="{{ category | prepend: "#" }}" class="knowledgebase-nav__button button is-primary" style="--_order: {{ order }}">{{ kbtext.categories[category] }}</a>
 			{% endfor %}
 		</div>
 	</div>
 
 	<!-- Search Engines -->
 	<div class="container mt-6" data-knowledgebase-section>
-		{% assign title = t.resources.knowledgebase.categories.search-engines %}
+		{% assign title = kbtext.categories.search-engines %}
 		{% assign data = site.data._en.knowledgebase.other-services.search-engines.data %}
 		{% assign relatedLinks = site.data._en.knowledgebase.other-services.search-engines.related %}
 
@@ -283,7 +285,7 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 
 	<!-- VPNs -->
 	<div class="container mt-6" data-knowledgebase-section>
-		{% assign title = t.resources.knowledgebase.categories.vpns %}
+		{% assign title = kbtext.categories.vpns %}
 		{% assign data = site.data._en.knowledgebase.other-services.vpns.data %}
 		{% assign relatedLinks = site.data._en.knowledgebase.other-services.vpns.related %}
 
@@ -292,7 +294,7 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 
 	<!-- DNS -->
 	<div class="container mt-6" data-knowledgebase-section>
-		{% assign title = t.resources.knowledgebase.categories.dns %}
+		{% assign title = kbtext.categories.dns %}
 		{% assign data = site.data._en.knowledgebase.other-services.dns.data %}
 		{% assign relatedLinks = site.data._en.knowledgebase.other-services.dns.related %}
 
@@ -301,7 +303,7 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 
 	<!-- Messengers -->
 	<div class="container mt-6" data-knowledgebase-section>
-		{% assign title = t.resources.knowledgebase.categories.messengers %}
+		{% assign title = kbtext.categories.messengers %}
 		{% assign data = site.data._en.knowledgebase.other-services.messengers.data %}
 		{% assign relatedLinks = site.data._en.knowledgebase.other-services.messengers.related %}
 
@@ -310,7 +312,7 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 
 	<!-- Email -->
 	<div class="container mt-6" data-knowledgebase-section>
-		{% assign title = t.resources.knowledgebase.categories.email %}
+		{% assign title = kbtext.categories.email %}
 		{% assign data = site.data._en.knowledgebase.other-services.email.data %}
 		{% assign relatedLinks = site.data._en.knowledgebase.other-services.email.related %}
 
@@ -319,7 +321,7 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 
 	<!-- Aliasing -->
 	<div class="container mt-6" data-knowledgebase-section>
-		{% assign title = t.resources.knowledgebase.categories.aliasing %}
+		{% assign title = kbtext.categories.aliasing %}
 		{% assign data = site.data._en.knowledgebase.other-services.aliasing.data %}
 		{% assign relatedLinks = site.data._en.knowledgebase.other-services.aliasing.related %}
 
@@ -328,7 +330,7 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 
 	<!-- Cloud providers -->
 	<div class="container mt-6" data-knowledgebase-section>
-		{% assign title = t.resources.knowledgebase.categories.cloud-providers %}
+		{% assign title = kbtext.categories.cloud-providers %}
 		{% assign data = site.data._en.knowledgebase.other-services.cloud-providers.data %}
 		{% assign relatedLinks = site.data._en.knowledgebase.other-services.cloud-providers.related %}
 
@@ -337,7 +339,7 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 
 	<!--Notes & Docs -->
 	<div class="container mt-6" data-knowledgebase-section>
-		{% assign title = t.resources.knowledgebase.categories.notes-a-docs %}
+		{% assign title = kbtext.categories.notes-a-docs %}
 		{% assign data = site.data._en.knowledgebase.other-services.notes-a-docs.data %}
 		{% assign relatedLinks = site.data._en.knowledgebase.other-services.notes-a-docs.related %}
 
@@ -346,7 +348,7 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 
 	<!-- Cryptocurrencies -->
 	<div class="container mt-6" data-knowledgebase-section>
-		{% assign title = t.resources.knowledgebase.categories.cryptocurrencies %}
+		{% assign title = kbtext.categories.cryptocurrencies %}
 		{% assign data = site.data._en.knowledgebase.other-services.cryptocurrencies.data %}
 		{% assign relatedLinks = site.data._en.knowledgebase.other-services.cryptocurrencies.related %}
 
@@ -355,7 +357,7 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 
 	<!-- Hardware/2FA -->
 	<div class="container mt-6" data-knowledgebase-section>
-		{% assign title = t.resources.knowledgebase.categories.hardware-2fa %}
+		{% assign title = kbtext.categories.hardware-2fa %}
 		{% assign data = site.data._en.knowledgebase.other-services.hardware-2fa.data %}
 		{% assign relatedLinks = site.data._en.knowledgebase.other-services.hardware-2fa.related %}
 
@@ -364,7 +366,7 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 
 	<!-- Webhosting/VPS -->
 	<div class="container mt-6" data-knowledgebase-section>
-		{% assign title = t.resources.knowledgebase.categories.webhosting-vps %}
+		{% assign title = kbtext.categories.webhosting-vps %}
 		{% assign data = site.data._en.knowledgebase.other-services.webhosting-vps.data %}
 		{% assign relatedLinks = site.data._en.knowledgebase.other-services.webhosting-vps.related %}
 
@@ -373,7 +375,7 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 
 	<!-- Networking -->
 	<div class="container mt-6" data-knowledgebase-section>
-		{% assign title = t.resources.knowledgebase.categories.networking %}
+		{% assign title = kbtext.categories.networking %}
 		{% assign data = site.data._en.knowledgebase.other-services.networking.data %}
 		{% assign relatedLinks = site.data._en.knowledgebase.other-services.networking.related %}
 
@@ -382,7 +384,7 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 
 	<!-- Other tools -->
 	<div class="container mt-6" data-knowledgebase-section>
-		{% assign title = t.resources.knowledgebase.categories.other-tools %}
+		{% assign title = kbtext.categories.other-tools %}
 		{% assign data = site.data._en.knowledgebase.other-services.other-tools.data %}
 		{% assign relatedLinks = site.data._en.knowledgebase.other-services.other-tools.related %}
 
@@ -392,16 +394,16 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 	{% comment %} EXTERNAL RESOURCES ============================================================= {% endcomment %}
 	<div class="container is-max-tablet mt-6">
 		<div class="has-text-centered">
-			<h2>{{ t.resources.knowledgebase.sections.external-resources }}</h2>
+			<h2>{{ kbtext.sections.external-resources }}</h2>
 			<p>
-				{{ t.resources.knowledgebase.external }}
+				{{ kbtext.external }}
 			</p>
 		</div>
 	</div>
 
 	<!-- Guides -->
 	<div class="container mt-6" data-knowledgebase-section>
-		{% assign title = t.resources.knowledgebase.categories.guides %}
+		{% assign title = kbtext.categories.guides %}
 		{% assign data = site.data._en.knowledgebase.external-resources.guides.data %}
 		{% assign relatedLinks = site.data._en.knowledgebase.external-resources.guides.related %}
 
@@ -410,7 +412,7 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 
 	<!-- Digital rights -->
 	<div class="container mt-6" data-knowledgebase-section>
-		{% assign title = t.resources.knowledgebase.categories.digital-rights %}
+		{% assign title = kbtext.categories.digital-rights %}
 		{% assign data = site.data._en.knowledgebase.external-resources.digital-rights.data %}
 		{% assign relatedLinks = site.data._en.knowledgebase.external-resources.digital-rights.related %}
 
@@ -419,7 +421,7 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 
 	<!-- Creators -->
 	<div class="container mt-6" data-knowledgebase-section>
-		{% assign title = t.resources.knowledgebase.categories.creators %}
+		{% assign title = kbtext.categories.creators %}
 		{% assign data = site.data._en.knowledgebase.external-resources.creators.data %}
 		{% assign relatedLinks = site.data._en.knowledgebase.external-resources.creators.related %}
 

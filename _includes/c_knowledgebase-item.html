@@ -42,14 +42,14 @@
 				{% if include.item.affil %}
 					<a href="{{ include.item.affil }}" class="knowledgebase-item__affil button is-primary is-small is-gap-1.5 is-touch-friendly" target="_blank">
 						{% include e_render-svg-icon.html icon="link" dimension="25" class="icon" inline=true %}
-						{{ t.resources.knowledgebase.affil }}
+						{{ site.data._en.knowledgebase-text.affil }}
 					</a>
 				{% endif %}
 				{% if include.item.labels.size > 0 %}
 					{% for label in include.item.labels %}
 						{% assign link = label[1] %}
 						{% assign text = label[0] %}
-						<a href="{{ link }}" class="knowledgebase-item__button button is-primary is-outlined is-small is-touch-friendly" target="_blank">{{ t.resources.knowledgebase.labels[text] }}</a>
+						<a href="{{ link }}" class="knowledgebase-item__button button is-primary is-outlined is-small is-touch-friendly" target="_blank">{{ site.data._en.knowledgebase-text.labels[text] }}</a>
 					{% endfor %}
 				{% endif %}
 			</div>
