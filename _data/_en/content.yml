@@ -50,6 +50,8 @@ global:
     goBack: "Go back"
     backToVideos: "Back to videos"
     backToHomepage: "Back to homepage"
+  other:
+    viewMore: "View more"
 
 
 # -----------------------------------------
@@ -62,6 +64,7 @@ home:
   hotTopics: "Hot topics in our community"
   team:
     more: "... and others"
+
 
 # -----------------------------------------
 # RESOURCES section and page

@@ -61,7 +61,6 @@ support:
     techlorian: "https://discuss.techlore.tech/s"
     patreon: "https://www.patreon.com/techlore"
     paypal: "https://www.paypal.com/donate?hosted_button_id=B3GU7WNGBGQ4J"
-    kofi: "https://ko-fi.com/techlore"
     xmrchat: "https://xmrchat.com/techlore"
   extra:
     youtube: "https://www.youtube.com/channel/UCs6KfncB4OV6Vug4o_bzijg/join"
@@ -88,6 +87,8 @@ inactive:
     omglol: "https://techlore.omg.lol/"
     spring: "https://shop.techlore.tech/"
     bluesky: "https://bsky.app/profile/techlore.bsky.social"
+    kofi: "https://ko-fi.com/techlore"
+    liberapay: "https://liberapay.com/Techlore/"
 coaching:
   links:
     survey: "https://survey.techlore.tech/lR76"
