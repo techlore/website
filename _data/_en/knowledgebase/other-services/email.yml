@@ -25,6 +25,8 @@ data:
     affil: "https://go.getproton.me/SH12O"
     labels:
       official: "https://proton.me/mail"
+      android: "https://play.google.com/store/apps/details?id=ch.protonmail.android&"
+      ios: "https://apps.apple.com/us/app/proton-mail-encrypted-email/id979659905?ct=appbutton_download_page"
     color: "#1c1a24"
     favorite: true
   -
@@ -33,6 +35,8 @@ data:
     tags: ["Open Source", "Free tier"]
     labels:
       official: "https://tuta.com/"
+      android: "https://tuta.com/secure-email#android-download-modal"
+      ios: "https://tuta.com/secure-email#ios-download-modal"
     color: "#850122"
     favorite: true
   -

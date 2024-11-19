@@ -32,6 +32,8 @@ data:
     tags: ["Open Source", "Free", "Paid"]
     labels:
       official: "https://notesnook.com/"
+      android: "https://play.google.com/store/apps/details?id=com.streetwriters.notesnook"
+      ios: "https://apps.apple.com/us/app/notesnook-take-private-notes/id1544027013"
     color: "#000000"
     favorite: true
   -

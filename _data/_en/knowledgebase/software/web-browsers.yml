@@ -49,8 +49,8 @@ data:
     tags: ["Open Source", "Webkit"]
     labels:
       desktop: "https://brave.com/"
-      android: "https://brave.com/"
-      ios: "https://brave.com/"
+      android: "https://brave.com/android/"
+      ios: "https://brave.com/ios/"
     color: "#FB542B"
     favorite: true
   -
@@ -59,8 +59,8 @@ data:
     tags: ["Open Source", "Gecko", "Webkit"]
     labels:
       desktop: "https://firefox.com/"
-      android: "https://firefox.com/"
-      ios: "https://firefox.com/"
+      android: "https://www.mozilla.org/en-GB/firefox/browsers/mobile/android/"
+      ios: "https://www.mozilla.org/en-GB/firefox/browsers/mobile/ios/"
     color: "#FF7139"
     favorite: true
   -

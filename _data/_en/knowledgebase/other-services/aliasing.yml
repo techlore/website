@@ -25,6 +25,8 @@ data:
     affil: "https://simplelogin.io/?slref=techlore"
     labels:
       official: "https://simplelogin.io/"
+      android: "https://play.google.com/store/apps/details?id=io.simplelogin.android"
+      ios: "https://apps.apple.com/app/id1494359858"
     color: "#D13C8D"
     favorite: true
   -
@@ -40,6 +42,8 @@ data:
     tags: ["Proprietary", "Paid"]
     labels:
       official: "https://mysudo.com/"
+      android: "https://play.google.com/store/apps/details?id=com.anonyome.mysudo"
+      ios: "https://apps.apple.com/us/app/mysudo-private-secure/id1237892621"
     color: "#4C6EF3"
     favorite: true
   -
@@ -49,6 +53,8 @@ data:
     affil: "https://app.privacy.com/join/WYZ3N"
     labels:
       official: "https://privacy.com/"
+      android: "https://play.google.com/store/apps/details?id=com.privacy.pay"
+      ios: "https://apps.apple.com/us/app/privacy-com/id1040298266?mt=8"
     color: "#000000"
   -
     name: "Guerrilla Mail"

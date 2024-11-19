@@ -49,6 +49,8 @@ data:
     tags: ["Open Source", "Android", "iOS", "Desktop", "Free"]
     labels:
       official: "https://getsession.org/"
+      android: "https://getsession.org/download"
+      ios: "https://getsession.org/iphone"
     color: "#333132"
   -
     name: "Matrix"
