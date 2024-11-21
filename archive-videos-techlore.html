@@ -1,0 +1,87 @@
+---
+layout: page
+title: Archived Techlore videos
+permalink: /videos/archived-techlore-videos
+sitemap: false
+description: ""
+---
+{% include c_sub-hero.html title=page.title perex=page.description %}
+
+{% comment %}TEMP!{% endcomment %}
+<style>
+	@media (max-width: 1023px) {
+		.archive__item {
+			display: block;
+		}
+
+		.archive__buttons {
+			margin-top: var(--bulma-size-5);
+		}
+	}
+
+	@media (min-width: 1024px) {
+		.archive__buttons {
+			justify-content: right;
+		}
+	}
+
+	.archive__title {
+		transition: opacity 350ms ease-in-out;
+	}
+
+	.archive__item:hover .archive__title {
+		opacity: .65;
+	}
+
+	.archive__button {
+		min-width: calc(var(--bulma-size-5) * 7);
+	}
+</style>
+{% comment %}TEMP!{% endcomment %}
+
+<section>
+	<div class="container">
+		{%- if site.techlore.size > 0 -%}
+			{% assign sortedVideos = site.techlore | sort: "datePublished" | reverse %}
+			<ul class="listless marginless">
+				{% for video in sortedVideos offset: 15 %}
+					<li class="archive__item is-align-items-center media is-gap-2">
+						<div class="archive__content media-content is-flex is-flex-direction-column is-align-items-flex-start">
+							<h4 class="archive__title is-flex is-flex-direction-column mb-0">
+								{{ video.title }}
+							</h4>
+							<small>{{ video.datePublished | date: "%B %d, %Y" }}</small>
+						</div>
+
+						<div class="archive__buttons buttons">
+							{%- if video.linkForum -%}
+								<a href="{{ video.linkForum }}" class="archive__button button is-primary is-small is-gap-1.5" target="_blank">
+									{% include e_render-svg-icon.html icon="discuss" dimension=25 inline=true class="icon" %}
+									Forum
+								</a>
+							{%- endif -%}
+							{%- if video.linkPeerTube -%}
+								<a href="{{ video.linkPeerTube }}" class="archive__button button is-warning is-small is-gap-1.5" target="_blank">
+									{% include e_render-svg-icon.html icon="peertube" dimension=25 inline=true class="icon" %}
+									PeerTube
+								</a>
+							{%- endif -%}
+							{%- if video.linkOdysee -%}
+								<a href="{{ video.linkOdysee }}" class="archive__button button is-warning is-small is-gap-1.5" target="_blank">
+									{% include e_render-svg-icon.html icon="odysee" dimension=25 inline=true class="icon" %}
+									Odysee
+								</a>
+							{%- endif -%}
+							{%- if video.linkYouTube -%}
+								<a href="{{ video.linkYouTube }}" class="archive__button button is-danger is-small is-gap-1.5" target="_blank">
+									{% include e_render-svg-icon.html icon="youtube" dimension=25 inline=true class="icon" %}
+									YouTube
+								</a>
+							{%- endif -%}
+						</div>
+					</li>
+				{% endfor %}
+			</ul>
+		{%- endif -%}
+	</div>
+</section>
