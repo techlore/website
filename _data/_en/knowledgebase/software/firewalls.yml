@@ -35,6 +35,14 @@ data:
     color: "#ffffff"
     favorite: true
   -
+    name: "rethinkDNS"
+    desc: "Block malware, spyware, ads, and trackers across all apps with Rethink DNS. Servers in 300+ locations: Experience Blazing fast speeds."
+    tags: [ "Open Source" ]
+    labels:
+      official: "https://rethinkdns.com/"
+    color: "#ffffff"
+    favorite: true
+  -
     name: "NetGuard"
     desc: "Firewall program for Android (no root required) to give you finer control over what your device connects to. Warning: NetGuard by default takes the place of a VPN on Android."
     tags: [ "Open Source", "Android" ]

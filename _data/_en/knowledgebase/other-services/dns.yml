@@ -28,6 +28,14 @@ data:
     color: "#ffffff"
     favorite: true
   -
+    name: "Mullvad DNS"
+    desc: "Mullvad offers a private & secure DNS service."
+    tags: ["Free"]
+    labels:
+      official: "https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/"
+    color: "#192E45"
+    favorite: true
+  -
     name: "Quad 9"
     desc: "Quad9 offers a private & secure DNS service."
     tags: ["Free"]
@@ -35,13 +43,6 @@ data:
       official: "https://www.quad9.net/"
     color: "#282828"
     favorite: true
-  -
-    name: "Mullvad DNS"
-    desc: "Mullvad offers a private & secure DNS service."
-    tags: ["Free"]
-    labels:
-      official: "https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/"
-    color: "#192E45"
   -
     name: "CONTROL D"
     desc: "CONTROL D offers a highly customizable DNS solution for the upmost control across your devices"

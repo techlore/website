@@ -1,4 +1,4 @@
-# KNOWLEDGE BASE (Resources --> OS/Desktop) -----------------------------------------
+# KNOWLEDGE BASE (Resources --> OS/Desktop & Expandable/LiveOS) -----------------------------------------
 # Data structure:
 #     - name (string)
 #     - desc (string)
@@ -56,8 +56,27 @@ data:
       official: "https://www.apple.com/macos/what-is/"
     color: "#C70737"
     favorite: true
+  -
+    name: "Whonix"
+    desc: "Whonix offers both a virtual and live environment with a goal of anonymity. All activies are routed through Tor with strong privacy & security precautions."
+    tags: ["Open Source", "Virtual Machine", "Live OS"]
+    labels:
+      official: "https://www.whonix.org/"
+    color: "#ffffff"
+    favorite: true
+  -
+    name: "TailsOS"
+    desc: "TailsOS offers a Tor-routed live environment for privacy & anonymity."
+    tags: ["Open Source", "Live OS"]
+    labels:
+      official: "https://tails.net/"
+    color: "#56347C"
 related:
   -
     title: "Go Incognito 4.2"
     url: "https://www.youtube.com/watch?v=0wk_GlCtWW4"
+    type: "video"
+  -
+    title: "Go Incognito 4.4"
+    url: "https://www.youtube.com/watch?v=WptwYrSr8ag"
     type: "video"

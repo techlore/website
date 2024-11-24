@@ -19,6 +19,15 @@
 order: 6
 data:
   -
+    name: "Proton Pass"
+    desc: "Proton Pass is a password manager, which also <b>has Email aliasing built-in, eliminating the need for a separate SimpleLogin subscription</b>. Although it's currently limited in functionality, it's a decent option for those seeking a secure solution within an existing ecosystem."
+    tags: ["Open Source", "Free Tier"]
+    affil: "https://go.getproton.me/SH12Q"
+    labels:
+      official: "https://proton.me/pass"
+    color: "#6d49ff"
+    favorite: true
+  -
     name: "SimpleLogin"
     desc: "SimpleLogin makes email aliasing easier than ever, all built with privacy & security from the ground up. SimpleLogin can also be self-hosted."
     tags: ["Open Source", "Free tier"]

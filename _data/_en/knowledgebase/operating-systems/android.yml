@@ -33,6 +33,15 @@ data:
     labels:
       official: "https://divestos.org/"
     color: "#000000"
+    favorite: true
+  -
+    name: "GrapheneOS"
+    desc: "The private and secure mobile operating system with Android app compatibility. Developed as a non-profit open source project."
+    tags: ["Open Source", "Only Pixel line support"]
+    labels:
+      official: "https://grapheneos.org/"
+    color: "#ffffff"
+    favorite: true
   -
     name: "LineageOS"
     desc: "LineageOS has lower security than stock, but it does attempt to improve privacy & transparency. Users should consider pros/cons before using LineageOS over stock."

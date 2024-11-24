@@ -91,6 +91,13 @@ data:
     labels:
       official: "https://adguard.com/en/adguard-ios/overview.html"
     color: "#ffffff"
+  -
+    name: "Cromite"
+    desc: "Cromite is a Chromium fork based on Bromite with built-in support for ad blocking and an eye for privacy."
+    tags: [ "opensource", "Webkit"]
+    labels:
+      official: "https://github.com/uazo/cromite"
+    color: "#ffffff"
 related:
   -
     title: "PrivacyTests"

@@ -27,6 +27,20 @@ data:
     color: "#ff6600"
     favorite: true
   -
+    name: "Zcash"
+    desc: "Encrypted electronic cash. The first cryptocurrency to develop zero-knowledge encryption for private peer-to-peer payments."
+    tags: ["Open Source"]
+    labels:
+      official: "https://z.cash/"
+    color: "#f3b724"
+  -
+    name: "Haveno"
+    desc: "Haveno is a non-custodial, decentralized exchange platform for crypto and fiat currencies built on Tor and Monero."
+    tags: ["Open Source"]
+    labels:
+      official: "https://haveno.exchange/"
+    color: "#e8e7ec"
+  -
     name: "Bisq Network"
     desc: "Bisq is a P2P, KYC-free, decentralized Bitcoin exchange."
     tags: ["Open Source"]

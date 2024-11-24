@@ -1,4 +1,4 @@
-# KNOWLEDGE BASE (Resources --> Other/Notes & Docs) -----------------------------------------
+# KNOWLEDGE BASE (Resources --> Other/Notes, Docs & Photos) -----------------------------------------
 # Data structure:
 #     - name (string)
 #     - desc (string)
@@ -43,3 +43,11 @@ data:
     labels:
       official: "https://cryptpad.fr/"
     color: "#fff"
+  -
+    name: "Ente"
+    desc: "Safe Home for your photos and videos. Store, share, and discover your memories with absolute privacy."
+    tags: ["Open Source", "Free tier"]
+    labels:
+      official: "https://ente.io/"
+    color: "#00b33c"
+    favorite: true
