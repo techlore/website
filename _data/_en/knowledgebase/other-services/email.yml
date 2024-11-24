@@ -33,6 +33,7 @@ data:
     name: "Tuta"
     desc: "Tuta offers a transparent service with trust, security, and privacy as its focus."
     tags: ["Open Source", "Free tier"]
+    affil: "https://tuta.com/?t-src=techlore"
     labels:
       official: "https://tuta.com/"
       android: "https://tuta.com/secure-email#android-download-modal"

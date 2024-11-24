@@ -44,6 +44,17 @@
       text: "Non-affiliate"
       url: "https://proton.me/pass"
 -
+  name: "Tuta"
+  type: "E2EE Email"
+  buttons:
+    -
+      text: "Affiliate"
+      url: "https://tuta.com/?t-src=techlore"
+      affil: true
+    -
+      text: "Non-affiliate"
+      url: "https://tuta.com/"
+-
   name: "MEGA"
   type: "E2EE Cloud"
   buttons:
