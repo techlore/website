@@ -21,9 +21,9 @@ global:
     web: "Web"
     blog: "Blog"
     patreon: "Patreon"
-    liberapay: "LiberaPay"
+    liberapay: "Liberapay"
     paypal: "PayPal"
-    kofi: "Ko-Fi"
+    kofi: "Ko-fi"
     discuss: "Join our forum"
     forum: "Forum"
     github: "GitHub"
@@ -78,10 +78,10 @@ resources:
     title: "Useful resources"
     learn:
       title: "Let's learn"
-      desc: "Check out our courses, coaching and other resources to learn how to protect yourself online"
+      desc: "Check out our course Go Incognito, coaching and other resources to learn how to protect yourself online"
     tools:
       title: "Tools that can help you"
-      desc: "Check out our curated list of useful resources to help you stay private and secure"
+      desc: "Check out our curated list of tools to help you stay private and secure"
 
 
 # -----------------------------------------

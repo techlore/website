@@ -23,13 +23,13 @@ text:
     url: "https://discuss.techlore.tech/pub/sponsors"
   zone1:
     title: "Zone 1"
-    subtitle: "- the essentials -"
+    subtitle: "- essentials -"
   zone2:
     title: "Zone 2"
-    subtitle: "- the enhanced level -"
+    subtitle: "- enhanced level -"
   zone3:
     title: "Zone 3"
-    subtitle: "- the expert zone -"
+    subtitle: "- expert zone -"
   score:
     weak:
       points: "0 - 50"
