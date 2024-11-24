@@ -1,4 +1,3 @@
-// TODO: Bells&Whistles - fixed reveal?
 .footer {
 	background-color: var(--bulma-primary);
 }
@@ -34,6 +33,11 @@
 .footer__link {
 	&:hover {
 		text-decoration: underline;
+	}
+
+	&[target="_blank"] {
+		position: relative;
+
 	}
 }
 

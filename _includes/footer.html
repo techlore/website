@@ -20,6 +20,8 @@
 				<h6 class="footer__column-title">{{ site.name | upcase }}</h6>
 				<ul class="footer__list listless">
 					<li class="footer__list-item"><a href="{{ nav.mainNav.about.url | absolute_url }}" class="footer__link is-touch-friendly">{{ nav.mainNav.about.title }}</a></li>
+					<li class="footer__list-item"><a href="{{ nav.mainNav.forum.url | absolute_url }}" class="footer__link is-touch-friendly" target="_blank">{{ nav.mainNav.forum.title }}{%- include e_render-svg-icon.html icon="arrow-up-right" inline=true class="svg-icon--new-window" -%}</a></li>
+					<li class="footer__list-item"><a href="{{ nav.mainNav.blog.url | absolute_url }}" class="footer__link is-touch-friendly" target="_blank">{{ nav.mainNav.blog.title }}{%- include e_render-svg-icon.html icon="arrow-up-right" inline=true class="svg-icon--new-window" -%}</a></li>
 					<li class="footer__list-item"><a href="{{ nav.footerNav.contact.url | absolute_url }}" class="footer__link is-touch-friendly">{{ nav.footerNav.contact.title }}</a></li>
 					<li class="footer__list-item"><a href="{{ nav.hiddenNav.privacy.url | absolute_url }}" class="footer__link is-touch-friendly">{{ nav.hiddenNav.privacy.title }}</a></li>
 				</ul>
@@ -40,7 +42,7 @@
 				<ul class="footer__list listless">
 					<li class="footer__list-item"><a href="{{ nav.hiddenNav.spaQuiz.url | absolute_url }}" class="footer__link is-touch-friendly">{{ nav.hiddenNav.spaQuiz.title }}</a></li>
 					<li class="footer__list-item"><a href="{{ nav.hiddenNav.vpnToolkit.url | absolute_url }}" class="footer__link is-touch-friendly">{{ nav.hiddenNav.vpnToolkit.title }}</a></li>
-					<li class="footer__list-item"><a href="{{ nav.hiddenNav.plexus.url | absolute_url }}" class="footer__link is-touch-friendly" target="_blank">{{ nav.hiddenNav.plexus.title }}</a>
+					<li class="footer__list-item"><a href="{{ nav.hiddenNav.plexus.url | absolute_url }}" class="footer__link is-touch-friendly" target="_blank">{{ nav.hiddenNav.plexus.title }}{%- include e_render-svg-icon.html icon="arrow-up-right" inline=true class="svg-icon--new-window" -%}</a>
 					</li>
 					<li class="footer__list-item">
 						<a href="{{ nav.mainNav.resources.url | absolute_url | append: '#techlore-guides' }}" class="footer__link is-touch-friendly">{{ t.videos.techloreGuides.title }}</a>
