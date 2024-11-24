@@ -43,6 +43,7 @@ techloreVideos:
   extra:
     odysee: "https://odysee.com/@techlore:3"
     tiktok: "https://www.tiktok.com/@techlore"
+    learning: "https://learn.techlore.tech/"
     teachable: "https://techlore.teachable.com/"
 techloreClips:
   links:
@@ -67,12 +68,16 @@ support:
     githubSponsors: "https://github.com/sponsors/techlore"
     sponsors: "https://discuss.techlore.tech/pub/sponsors"
 socials:
-  links:
+  links: # these links also appear in the "feature box" on the homepage amd in the footer
     mastodon: "https://social.lol/@techlore"
+    signal: "https://discuss.techlore.tech/t/signal-usernames-are-here-join-our-exclusive-signal-group/7640"
     twitter: "https://twitter.com/TechloreInc"
-    reddit: "https://www.reddit.com/r/techlore/"
-    matrix: "https://matrix.to/#/%23techlore:matrix.org"
+    bluesky: "https://bsky.app/profile/techlore.bsky.social"
+    instagram: "https://www.instagram.com/techloreinc/"
+    facebook: "xxx"
     telegram: "https://t.me/techlorefeed"
+    matrix: "https://matrix.to/#/%23techlore:matrix.org"
+    reddit: "https://www.reddit.com/r/techlore/"
   extra:
     linkedin: "https://www.linkedin.com/company/techloreinc/"
 forum:
@@ -86,7 +91,6 @@ inactive:
   links:
     omglol: "https://techlore.omg.lol/"
     spring: "https://shop.techlore.tech/"
-    bluesky: "https://bsky.app/profile/techlore.bsky.social"
     kofi: "https://ko-fi.com/techlore"
     liberapay: "https://liberapay.com/Techlore/"
 coaching:

@@ -30,6 +30,7 @@ global:
     mastodon: "Mastodon"
     odysee: "Odysee"
     tiktok: "TikTok"
+    learning: "Techlore Learning"
     teachable: "Teachable"
     linkedin: "LinkedIn"
     matrix: "Matrix"
@@ -39,7 +40,10 @@ global:
     omglol: "omg.lol"
     spring: "Spring"
     bluesky: "Bluesky"
+    facebook: "Facebook"
+    instagram: "Instagram"
     xmrchat: "XMRChat"
+    signal: "Signal"
     titles:
       video: "Video platforms"
       core: "Core platforms"
