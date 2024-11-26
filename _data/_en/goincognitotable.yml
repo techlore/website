@@ -22,4 +22,4 @@ premium:
   buttons:
     - text: "Enroll now!"
       url: "https://techlore.teachable.com/p/go-incognito"
-  note: "Go Incognito v2 is being produced <strong>now</strong>. All premium students will be grandfathered into future versions of the project."
+  note: "Go Incognito v2 is being produced <a href='https://blog.techlore.tech/go_incognito_v2/' target='_blank' class='has-text-white'>now</a>. All premium students will be grandfathered into future versions of the project."

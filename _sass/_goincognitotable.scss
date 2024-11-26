@@ -38,7 +38,7 @@
 }
 
 .goincognitotable__logo {
-	background-color: var(--bulma-danger-30);
+	background-color: var(--custom-goincognito-logo-bg);
 	width: calc(var(--bulma-size-5) * 8);
 	position: absolute;
 	inset: 0 auto auto 50%;
@@ -46,6 +46,12 @@
 
 	@media (min-width: $tablet) {
 		translate: -50% -50%;
+	}
+}
+
+.goincognitotable__title {
+	.goincognitotable__column--premium & {
+		color: var(--custom-goincognito-title, --bulma-content-heading-color);
 	}
 }
 

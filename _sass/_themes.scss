@@ -57,6 +57,9 @@
 
 	// --- hero banner
 	--custom-hero-banner-text-color: var(--bulma-grey-darker);
+
+	// --- go incognito logo
+	--custom-goincognito-logo-bg: var(--bulma-danger-30);
 }
 
 @mixin light-theme-vars {
@@ -88,6 +91,10 @@
 
 	// --- hero banner
 	--custom-hero-banner-text-color: var(--bulma-grey-lighter);
+
+	// --- go incognito logo
+	--custom-goincognito-logo-bg: var(--bulma-danger);
+	--custom-goincognito-title: var(--bulma-white);
 
 	[data-apply-light-theme-filter] {
 		filter: invert(.75);
