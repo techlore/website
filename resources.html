@@ -54,7 +54,6 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 	</div>
 </section>
 
-{% assign kbtext = site.data._en.knowledgebase-text %}
 
 <section>
 	<div class="container">
@@ -87,6 +86,7 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 	</div>
 </section>
 
+{% assign kbtext = site.data._en.knowledgebase-text %}
 <aside class="knowledgebase-navigation-wrapper" data-is-visible="false">
 	<button id="knowledgebaseNavToggle" class="knowledgebase-navigation__toggle has-background-link is-flex is-justify-content-center is-align-items-center">
 		{% include e_render-svg-icon.html icon="list-select" dimension=75 class="icon has-text-white" inline=true %}
@@ -125,7 +125,7 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 				{{ kbtext.disclaimer | replace: "[[affiliatesUrl]]", affiliatesUrl }}
 			</p>
 			<p>
-				{% include e_render-svg-icon.html icon="star-solid" dimension="25" inline=true %}
+				{% include e_render-svg-icon.html icon="star-solid" dimension="25" inline=true class="has-text-warning" %}
 				{{ kbtext.favorite }}
 			</p>
 		</div>
@@ -205,7 +205,7 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 				{{ kbtext.disclaimer | replace: "[[affiliatesUrl]]", affiliatesUrl }}
 			</p>
 			<p>
-				{% include e_render-svg-icon.html icon="star-solid" dimension="25" inline=true %}
+				{% include e_render-svg-icon.html icon="star-solid" dimension="25" inline=true class="has-text-warning" %}
 				{{ kbtext.favorite }}
 			</p>
 		</div>
@@ -249,7 +249,7 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 				{{ kbtext.disclaimer | replace: "[[affiliatesUrl]]", affiliatesUrl }}
 			</p>
 			<p>
-				{% include e_render-svg-icon.html icon="star-solid" dimension="25" inline=true %}
+				{% include e_render-svg-icon.html icon="star-solid" dimension="25" inline=true class="has-text-warning" %}
 				{{ kbtext.favorite }}
 			</p>
 		</div>
