@@ -22,7 +22,7 @@
 			{% for link in include.links %}
 				{% assign slug = link[0] %}
 				<li class="box-header__item marginless">
-					<a href="{{ link[1] }}" class="box-header__link button is-ghost is-primary is-gap-1 is-small is-touch-friendly">
+					<a href="{{ link[1] }}" class="box-header__link button is-ghost is-primary is-gap-1.5 is-small is-touch-friendly">
 						{{ t.global.platforms[slug] }}
 						{% include e_render-svg-icon.html icon=slug class="box-header__icon icon" dimension=25 inline=true %}
 					</a>
