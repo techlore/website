@@ -77,6 +77,7 @@ support:
     sponsors: "https://discuss.techlore.tech/pub/sponsors"
 socials:
   links: # these links also appear in the "feature box" on the homepage amd in the footer
+    youtube: "https://www.youtube.com/@techlore"
     mastodon: "https://social.lol/@techlore"
     signal: "https://discuss.techlore.tech/t/signal-usernames-are-here-join-our-exclusive-signal-group/7640"
     twitter: "https://twitter.com/TechloreInc"
