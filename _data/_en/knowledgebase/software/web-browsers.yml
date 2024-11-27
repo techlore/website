@@ -80,21 +80,21 @@ data:
   -
     name: "Safari"
     desc: "Apple's Safari offers users in the Apple ecosystem a moderately safe default browser with basic privacy & security precautions out-of-the-box. Consider using AdGuard for further protections."
-    tags: [ "proprietary", "Webkit" ]
+    tags: [ "Proprietary", "Webkit" ]
     labels:
       official: "https://www.apple.com/safari/"
     color: "#ffffff"
   -
     name: "AdGuard"
     desc: "For those using Safari, AdGuard is a great option to block ads, trackers, phishing, custom DNS, and more."
-    tags: [ "opensource", "Free Tier" ]
+    tags: [ "Open Source", "Free Tier" ]
     labels:
       official: "https://adguard.com/en/adguard-ios/overview.html"
     color: "#ffffff"
   -
     name: "Cromite"
     desc: "Cromite is a Chromium fork based on Bromite with built-in support for ad blocking and an eye for privacy."
-    tags: [ "opensource", "Webkit"]
+    tags: [ "Open Source", "Webkit"]
     labels:
       official: "https://github.com/uazo/cromite"
     color: "#ffffff"
