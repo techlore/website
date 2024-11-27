@@ -11,13 +11,41 @@
 	{% assign description = page.description | default: site.description | strip_html | truncate: 160 %}
 	{% assign url = page.permalink | default: "/" %}
 	<title>{{ title }}</title>
+
+	{% comment %}Open Graph Images - source: _config.yml{% endcomment %}
+	{%- case url -%}
+		{% when site.data._en.navigation.mainNav.about.url %}
+			{% assign ogImage = site.ogImages.about %}
+
+		{% when site.data._en.navigation.mainNav.videos.url %}
+			{% assign ogImage = site.ogImages.videos %}
+
+		{% when site.data._en.navigation.mainNav.goincognito.url %}
+			{% assign ogImage = site.ogImages.goincognito %}
+
+		{% when site.data._en.navigation.mainNav.resources.url %}
+			{% assign ogImage = site.ogImages.resources %}
+
+		{% when site.data._en.navigation.mainNav.support.url %}
+			{% assign ogImage = site.ogImages.support %}
+
+		{% when site.data._en.navigation.hiddenNav.spaQuiz.url %}
+			{% assign ogImage = site.ogImages.spa %}
+
+		{% when site.data._en.navigation.hiddenNav.vpnToolkit.url %}
+			{% assign ogImage = site.ogImages.vpn %}
+
+		{% else %}
+			{% assign ogImage = site.ogImages.default %}
+
+	{%- endcase -%}
 	<meta name="description" content="{{ description }}">
-	<meta name="image" content="{{ site.ogImage | absolute_url }}">
+	<meta name="image" content="{{ ogImage | absolute_url }}">
 	<meta name="author" content="{{ site.name }}">
 	<link rel="canonical" href="{{ url | absolute_url }}">
 
-	{% include meta/og-meta.html title=title description=description -%}
-	{% include meta/twitter-meta.html title=title description=description -%}
+	{% include meta/og-meta.html title=title description=description ogImage=ogImage -%}
+	{% include meta/twitter-meta.html title=title description=description ogImage=ogImage -%}
 
 	{% assign vpnPermalink = site.data._en.navigation.hiddenNav.vpnToolkit.url %}
 	{%- if page.permalink == vpnPermalink %}

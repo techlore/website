@@ -26,7 +26,15 @@ description: >- # this means to ignore newlines until "twitter:"
   Techlore is educating people about digital rights, privacy, security,
   digital control, and other important topics to push the world towards a safer internet.
 twitter: "TechloreInc"
-ogImage: "/assets/images/og-image-techlore-1200x630.png"
+ogImages:
+  default:      "/assets/images/og-image-1200x630-default.png"
+  about:        "/assets/images/og-image-1200x630-about.png"
+  goincognito:  "/assets/images/og-image-1200x630-goincognito.png"
+  resources:    "/assets/images/og-image-1200x630-resources.png"
+  spa:          "/assets/images/og-image-1200x630-spa.png"
+  support:      "/assets/images/og-image-1200x630-support.png"
+  videos:       "/assets/images/og-image-1200x630-videos.png"
+  vpn:          "/assets/images/og-image-1200x630-vpn.png"
 baseurl: "/techlore" # the subpath of your site, e.g. /blog
 url: "https://michalsvatos.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
