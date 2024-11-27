@@ -1,16 +1,21 @@
 {% comment %}
 	BOX FOOTER -----------------------------------------
     Info:
-        Displays one button "glued" below the right bottom corner of the box.
+        Displays one/two button(s) "glued" below the right bottom corner of the box.
         Add the class "has-footer" to the ".box".
 	Parameters:
-		- title (optional)
-		- links (array, optional):		links with icon showed on the right side of the header
-		- class (optional):				custom class
+		- title, title2 (string, optional)
+		- link, link2 (string, optional)
+		- class (optional):					custom class
 {% endcomment %}
 
 {% if include.link and include.title %}
-	<div class="box-footer is-flex mt-2">
+	<div class="box-footer is-flex mt-2 buttons">
+		{% if include.link2 %}
+			<a href="{{ include.link2 | absolute_url }}" class="box-footer__button button is-small has-radius-normal{% if include.class %} {{ include.class }}{% endif %}">
+				{{ include.title2 }}
+			</a>
+		{% endif %}
 		<a href="{{ include.link | absolute_url }}" class="box-footer__button button is-small has-radius-normal{% if include.class %} {{ include.class }}{% endif %}">
 			{{ include.title }}
 		</a>

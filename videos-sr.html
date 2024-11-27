@@ -14,7 +14,7 @@ description: "Weekly security and privacy news - Presented by Techlore & The New
 			<div class="box has-footer">
 				<ul class="video-list marginless is-flex is-flex-direction-column is-gap-2 listless">
 					{% assign sortedVideos = site.surveillance-report | sort: "datePublished" | reverse %}
-					{% for video in sortedVideos %}
+					{% for video in sortedVideos limit: site.archive.itemsToShow %}
 						{% assign filename = video.path | split: "/" | last %}
 						{% assign videoThumbnail = "/surveillance-report/" | append: filename | replace: ".md", ".jpg" | relative_url %}
 
@@ -37,6 +37,8 @@ description: "Weekly security and privacy news - Presented by Techlore & The New
 			{% include c_box-footer.html
 				link=site.data._en.navigation.mainNav.videos.url
 				title=site.data._en.content.global.back.backToVideos
+				link2=site.data._en.navigation.hiddenNav.archivedSurveillanceReport.url
+				title2=site.data._en.navigation.hiddenNav.archivedSurveillanceReport.title
 			%}
 		{%- endif -%}
 	</div>

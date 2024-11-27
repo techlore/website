@@ -1,0 +1,27 @@
+@media (max-width: 1023px) {
+	.archive__item {
+		display: block;
+	}
+
+	.archive__buttons {
+		margin-top: var(--bulma-size-5);
+	}
+}
+
+@media (min-width: 1024px) {
+	.archive__buttons {
+		justify-content: right;
+	}
+}
+
+.archive__title {
+	transition: opacity 350ms ease-in-out;
+}
+
+.archive__item:hover .archive__title {
+	opacity: .65;
+}
+
+.archive__button {
+	min-width: calc(var(--bulma-size-5) * 7);
+}

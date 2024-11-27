@@ -143,6 +143,12 @@ collections:
 collections_dir: videos
 
 # -----------------------------------------
+# Archive settings
+#
+archive:
+  itemsToShow: 15
+
+# -----------------------------------------
 # Sitemap configuration
 #
 defaults:

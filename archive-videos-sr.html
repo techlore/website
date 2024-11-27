@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Archived Techlore videos
-permalink: /videos/archived-techlore-videos
+title: Archived SR episodes
+permalink: /videos/archived-sr-episodes
 sitemap: false
 description: ""
 ---
@@ -9,8 +9,8 @@ description: ""
 
 <section>
 	<div class="container">
-		{%- if site.techlore.size > 0 -%}
-			{% assign sortedVideos = site.techlore | sort: "datePublished" | reverse | slice: site.archive.itemsToShow, site.techlore.size %}
+		{%- if site.surveillance-report.size > 0 -%}
+			{% assign sortedVideos = site.surveillance-report | sort: "datePublished" | reverse | slice: site.archive.itemsToShow, site.surveillance-report.size %}
 			{% assign groupedVideos = "" %}
 
 			{%- for video in sortedVideos -%}
@@ -42,7 +42,7 @@ description: ""
 					</ul>
 				</div>
 				{% include c_box-footer.html
-					link=site.data._en.navigation.hiddenNav.allTechloreVideos.url
+					link=site.data._en.navigation.hiddenNav.archivedSurveillanceReport.url
 					title=site.data._en.content.global.back.backToVideos
 				%}
 			{%- endfor -%}

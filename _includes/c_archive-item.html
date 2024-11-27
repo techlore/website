@@ -1,0 +1,46 @@
+{% comment %}
+	ARCHIVE ITEM -----------------------------------------
+	Parameters:
+		- title (string)
+		- datePublished (string)
+		- linkForum, linkPeerTube, linkOdysee, linkYouTube (string)
+{% endcomment %}
+{% include variables.html %}
+
+{% if include.linkYouTube or include.linkForum %}
+	<li class="archive__item is-align-items-center media is-gap-2">
+		<div class="archive__content media-content is-flex is-flex-direction-column is-align-items-flex-start">
+			<h4 class="archive__title is-flex is-flex-direction-column mb-0">
+				{{ include.title }}
+			</h4>
+			<small>{{ include.datePublished | date: "%B %d, %Y" }}</small>
+		</div>
+
+		<div class="archive__buttons buttons">
+			{%- if include.linkForum -%}
+				<a href="{{ include.linkForum }}" class="archive__button button is-primary is-small is-gap-1.5" target="_blank">
+					{% include e_render-svg-icon.html icon="discuss" dimension=25 inline=true class="icon" %}
+					{{ t.global.platforms.forum }}
+				</a>
+			{%- endif -%}
+			{%- if include.linkPeerTube -%}
+				<a href="{{ include.linkPeerTube }}" class="archive__button button is-warning is-small is-gap-1.5" target="_blank">
+					{% include e_render-svg-icon.html icon="peertube" dimension=25 inline=true class="icon" %}
+					{{ t.global.platforms.peertube }}
+				</a>
+			{%- endif -%}
+			{%- if include.linkOdysee -%}
+				<a href="{{ include.linkOdysee }}" class="archive__button button is-warning is-small is-gap-1.5" target="_blank">
+					{% include e_render-svg-icon.html icon="odysee" dimension=25 inline=true class="icon" %}
+					{{ t.global.platforms.odysee }}
+				</a>
+			{%- endif -%}
+			{%- if include.linkYouTube -%}
+				<a href="{{ include.linkYouTube }}" class="archive__button button is-danger is-small is-gap-1.5" target="_blank">
+					{% include e_render-svg-icon.html icon="youtube" dimension=25 inline=true class="icon" %}
+					{{ t.global.platforms.youtube }}
+				</a>
+			{%- endif -%}
+		</div>
+	</li>
+{% endif %}

@@ -75,6 +75,15 @@ hiddenNav:
   allSurveillanceReport:
     title: "All SR Episodes"
     url: "/videos/all-surveillance-report-episodes"
+  archivedTechloreVideos:
+    title: "Archived Techlore videos"
+    url: "/videos/archived-techlore-videos"
+  archivedTechloreClips:
+    title: "Archived Techlore Clips"
+    url: "/videos/archived-techlore-clips"
+  archivedSurveillanceReport:
+    title: "Archived SR episodes"
+    url: "/videos/archived-sr-episodes"
   affiliates:
     title: "Techlore Tools & Affiliates"
     url: "/affiliates"

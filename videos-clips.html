@@ -14,7 +14,7 @@ description: "Watch and share these short clips from our video series, packed wi
 			<div class="box has-footer">
 				<ul class="video-list marginless is-flex is-flex-direction-column is-gap-2 listless">
 					{% assign sortedVideos = site.clips | sort: "datePublished" | reverse %}
-					{% for video in sortedVideos %}
+					{% for video in sortedVideos limit: site.archive.itemsToShow %}
 						{% assign filename = video.path | split: "/" | last %}
 						{% assign videoThumbnail = "/clips/" | append: filename | replace: ".md", ".jpg" | relative_url %}
 
@@ -37,6 +37,8 @@ description: "Watch and share these short clips from our video series, packed wi
 			{% include c_box-footer.html
 				link=site.data._en.navigation.mainNav.videos.url
 				title=site.data._en.content.global.back.backToVideos
+				link2=site.data._en.navigation.hiddenNav.archivedTechloreClips.url
+				title2=site.data._en.navigation.hiddenNav.archivedTechloreClips.title
 			%}
 		{%- endif -%}
 	</div>
