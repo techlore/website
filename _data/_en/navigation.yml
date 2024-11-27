@@ -11,6 +11,9 @@ mainNav:
   goincognito:
     title: "Go incognito"
     url: /goincognito
+  coaching:
+    title: "Coaching"
+    url: /coaching
   forum:
     title: "Forum"
     url: https://discuss.techlore.tech/
@@ -39,9 +42,6 @@ hiddenNav:
   vpnToolkit:
     title: "VPN Toolkit"
     url: /vpn
-  coaching:
-    title: "Coaching"
-    url: /coaching
   plexus:
     title: "Plexus app"
     url: https://plexus.techlore.tech
