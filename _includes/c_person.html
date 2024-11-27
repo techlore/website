@@ -6,13 +6,13 @@
 <div class="person is-flex is-flex-direction-column is-align-items-center is-flex-grow-1 box p-5 has-background" {% if include.isMini %}data-mini{% endif %}>
 	<div class="person__bg"{% if include.data.background %} style="background-image: url({% link assets/team/{{include.data.background}} %});"{% endif %}></div>
 
-	<img src="{% link assets/team/{{person.photo}} %}" class="person__photo is-block has-radius-rounded" loading="lazy" alt="{{ include.data.name | prepend: "Photo - " }}">
+	<img src="{% link assets/team/{{include.data.photo}} %}" class="person__photo is-block has-radius-rounded" loading="lazy" alt="{{ include.data.fullName | prepend: "Photo - " }}">
 
 	<h3 class="person__name">
-		{{ include.data.name }}
+		{{ include.data.fullName }}
 	</h3>
 	{% unless include.isMini %}
-		<a href="{{ include.data.web }}" class="button is-ghost" target="_blank">
+		<a href="{{ include.data.web }}" class="button is-ghost" target="_blank" aria-label="{{ include.data.name | append:"'s website" }}">
 			{{ include.data.web | remove: "https://" }}
 		</a>
 		<p class="person__bio is-flex-grow-1">
