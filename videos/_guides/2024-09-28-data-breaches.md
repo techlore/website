@@ -4,5 +4,6 @@ description: "If you just got caught in a data breach you've come to the right v
 datePublished: 2024-09-28
 dateUpdated: 2024-09-28
 linkYouTube: "https://www.youtube.com/watch?v=E12rBfbNOIg"
+linkPeerTube: "https://neat.tube/w/eganjzWczNYSuVD3MCNnzb"
 tags: ["privacy", "databreach", "dataprivacy"]
 ---

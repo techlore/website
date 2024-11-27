@@ -4,5 +4,6 @@ description: "The ultimate guide showing how to make MacOS as secure, private, a
 datePublished: 2021-05-28
 dateUpdated: 2021-05-28
 linkYouTube: "https://www.youtube.com/watch?v=lFx5icuE6Io"
+linkPeerTube: "https://neat.tube/w/k9VAm5zcVLhb6zHJ4rd39L"
 tags: ["macos", "privacy", "apple"]
 ---

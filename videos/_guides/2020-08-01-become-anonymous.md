@@ -4,5 +4,6 @@ description: "The ultimate & complete guide to becoming anonymous, private, and 
 datePublished: 2020-08-01
 dateUpdated: 2020-08-01
 linkYouTube: "https://www.youtube.com/watch?v=a1i-3xwcSGA"
+linkPeerTube: "https://neat.tube/w/6ydhGkQJBoXZRXo4waWLCZ"
 tags: ["threatmodel", "privacy", "security"]
 ---
