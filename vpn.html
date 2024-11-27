@@ -19,10 +19,7 @@ description: "Open-Source Comparison Chart"
 		<div class="content">
 			<div class="head">
 			</div>
-			<div class="tb" id="tb">
-				<table>
-				</table>
-			</div>
+			<div class="tb" id="tb"></div>
 		</div>
 	</div>
 	<div class="container">
@@ -54,7 +51,7 @@ description: "Open-Source Comparison Chart"
 			</div>
 		</div>
 
-		<div id="vpn-table">
+		<div id="vpn-table" data-source="{{ site.url }}{{ site.baseurl | append: "/vpn-chart/vpn-chart.csv" }}">
 			{% comment %} Filled with JS {% endcomment %}
 		</div>
 	</div>

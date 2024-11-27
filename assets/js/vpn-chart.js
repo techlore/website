@@ -1,5 +1,5 @@
-const linkIcon = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke-width="1" color="currentColor"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M3.34 17a10 10 0 0 0 17.32 0M3.34 7a10 10 0 0 1 17.32 0"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M13 21.95s1.4-1.85 2.3-4.95M13 2.05S14.4 3.9 15.3 7M11 21.95S9.6 20.1 8.7 17M11 2.05S9.6 3.9 8.7 7m.3 3 1.5 5 1.5-5 1.5 5 1.5-5M1 10l1.5 5L4 10l1.5 5L7 10m10 0 1.5 5 1.5-5 1.5 5 1.5-5"/></svg>';
-const linkIconAf = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke-width="1.5" color="currentColor"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M14 12c0-2.5-2.32-5-5.14-5H7.14A5.07 5.07 0 0 0 2 12a5.03 5.03 0 0 0 5.14 5"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M10 12c0 2.49 2.32 5 5.14 5h1.72A5.07 5.07 0 0 0 22 12a5.03 5.03 0 0 0-5.14-5"/></svg>';
+const linkIcon = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" class="icon"><path fill="currentColor" d="M5.553 6.37c-.134.161-.262.322-.385.493 1.725 1.945 4.076 4.099 6.653 6.091 2.025 1.565 4.088 2.958 5.968 4.024.316.176.627.348.927.503.134-.16.262-.321.385-.493.627-.862.97-1.778 1.249-2.871.042-.171.08-.343.112-.509.847-4.446-1.907-8.834-6.348-9.959a8.536 8.536 0 0 0-5.695.52A7.996 7.996 0 0 0 5.553 6.37Z"/><path fill="currentColor" d="M20.687 15.788c-.22.59-.396.938-.396.938.975 1.13 1.318 1.816 1.709 2.486.128.22.396.701.048.664a2.55 2.55 0 0 1-.295-.07c-1.14-.29-2.743-1.002-4.516-2.003-1.918-1.088-4.012-2.502-6.07-4.088C8.43 11.6 5.945 9.306 4.172 7.26c-.82-.943-1.478-1.832-1.912-2.566-.129-.22-.21-.338-.3-.557-.134-.332.268-.274.375-.247.798.204 1.875.53 3.118 1.275 0 0 .23-.257.744-.61-1.221-.825-2.39-1.484-3.493-1.902C1.466 2.18.502 2.288.16 2.85c-.654 1.066.75 3.873 3.498 7.071-1.152 4.607 1.64 9.284 6.24 10.447a8.576 8.576 0 0 0 6.258-.804 30.54 30.54 0 0 0 5.191 1.87c1.28.327 2.164.294 2.507-.263.595-.975-.648-2.775-3.166-5.384Z"/></svg>';
+const linkIconAf = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke-width="1.5" color="currentColor" viewBox="0 0 24 24" class="icon"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M14 12c0-2.5-2.32-5-5.14-5H7.14A5.07 5.07 0 0 0 2 12a5.03 5.03 0 0 0 5.14 5"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M10 12c0 2.49 2.32 5 5.14 5h1.72A5.07 5.07 0 0 0 22 12a5.03 5.03 0 0 0-5.14-5"/></svg>';
 
 
 function getCheckValue(cellValue) {
@@ -45,7 +45,7 @@ $("#info-nafl").html(linkIcon);
 function CSVToJSON(csvData) {
 	var data = CSVToArray(csvData);
 	var objData = [];
-	for (var i = 1; i < data.length; i++) {
+	for (var i = 1; i < data.length; i++) { // empty line appeard
 		objData[i - 1] = {};
 		for (var k = 0; k < data[0].length && k < data[i].length; k++) {
 			var key = data[0][k];
@@ -129,9 +129,10 @@ document.addEventListener("DOMContentLoaded", () => {
 		table.clearFilter();
 	});
 	//Get CSV data
-	// TODO: CSV to data-attribute!
 	var jsonData;
-	fetch("https://raw.githubusercontent.com/MichalSvatos/techlore/master/vpn-chart/vpn-chart.csv")
+	let source = document.querySelector('#vpn-table').dataset.source
+
+	fetch(source)
 	.then(response => response.text())
 	.then(text => {
 		//Use CSV text and convert to json
