@@ -214,6 +214,10 @@ coaching:
       - Individually work with Henry, Owner of Techlore
       - Education & Monero discounts available
     buttonText: "Apply for coaching"
+  testimonials:
+    title: "Testimonials"
+  faq:
+    title: "FAQ"
 
 # -----------------------------------------
 # CONTACT page

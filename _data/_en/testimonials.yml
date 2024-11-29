@@ -1,0 +1,11 @@
+# Testimonials (Coaching page)
+# You can have as many testimonials as you want, just consider the overall length on the page
+#
+-
+  name: "Matthew"
+  position: "Educator"
+  text: "Techlore Coaching helped me step by step in my privacy and security journey, most importantly, in helping me realize it is not an all or nothing approach and that the journey is never ending but worth pursuing."
+-
+  name: "Markus"
+  position: "Consultant"
+  text: "I Worked with Henry over 6 sessions and enjoyed the process. I learned a lot along the journey and got a sense of where all my data is floating around and who has access to it. I work at a consulting company and wanted to be protected from competitors. Although there was a big time zone difference between us we could always find the right time. I can just recommend working with him if you want the shortcut, the faster way to a better privacy. I didn’t have that much time and the time I had while working a lot I didn’t wanna invest in researching every little detail."

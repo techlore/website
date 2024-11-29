@@ -10,28 +10,28 @@ description: "Individual support, because you deserve to be safe and in control 
 <section>
 	<div class="container">
 		<div class="coaching columns is-multiline">
-			{% for service in site.data._en.content.coaching.services %}
+			{% for service in t.coaching.services %}
 				<div class="coaching__box column is-full-mobile is-half-tablet">
 					{% include c_feature-box.html
-							icon=service.icon
-							title=service.title
-							desc=service.desc
-							class="is-box-danger has-no-background has-border"
+						icon=service.icon
+						title=service.title
+						desc=service.desc
+						class="is-box-danger has-no-background has-border"
 					%}
 				</div>
 			{% endfor %}
 			<div class="coaching__box coaching__box--cta column is-two-thirds-tablet m-auto">
-				{% assign desc = site.data._en.content.coaching.getStarted.desc | markdownify %}
+				{% assign desc = t.coaching.getStarted.desc | markdownify %}
 
 				{% include c_feature-box.html
-						icon="star"
-						title=site.data._en.content.coaching.getStarted.title
-						desc=site.data._en.content.coaching.getStarted.desc
-						buttonText=site.data._en.content.coaching.getStarted.buttonText
-						buttonLink=site.coaching.links.survey
-						buttonExternal=true
-						class="is-box-warning has-no-background has-border has-glare has-content-text-align-left"
-						buttonClass="is-warning"
+					icon="star"
+					title=t.coaching.getStarted.title
+					desc=t.coaching.getStarted.desc
+					buttonText=t.coaching.getStarted.buttonText
+					buttonLink=site.coaching.links.survey
+					buttonExternal=true
+					class="is-box-warning has-no-background has-border has-glare has-content-text-align-left"
+					buttonClass="is-warning"
 				%}
 			</div>
 		</div>
@@ -39,9 +39,41 @@ description: "Individual support, because you deserve to be safe and in control 
 </section>
 
 <section>
+
 	<div class="container is-max-tablet">
 		<h2 class="has-text-centered">
-			FAQ
+			{{ t.coaching.testimonials.title }}
+		</h2>
+
+		{%- for testimonial in site.data._en.testimonials -%}
+			<div class="card is-shadowless">
+				<div class="card-content has-border">
+					<div class="media">
+						<div class="media-left">
+							<figure class="image is-48x48 has-text-link">
+								{%- include e_render-svg-icon.html icon="quote-solid" dimension=150 inline=true -%}
+							</figure>
+						</div>
+						<div class="media-content">
+							<p class="title is-4">{{- testimonial.name -}}</p>
+							<p class="subtitle is-6">{{- testimonial.position -}}</p>
+						</div>
+					</div>
+
+					<div class="content is-italic">
+						{{- testimonial.text | prepend: '"' | append: '"' -}}
+					</div>
+				</div>
+			</div>
+		{%- endfor -%}
+
+	</div>
+</section>
+
+<section>
+	<div class="container is-max-tablet">
+		<h2 class="has-text-centered">
+			{{ t.coaching.faq.title }}
 		</h2>
 
 		<div class="faq accordion">
