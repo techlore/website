@@ -46,25 +46,11 @@ description: "Individual support, because you deserve to be safe and in control 
 		</h2>
 
 		{%- for testimonial in site.data._en.testimonials -%}
-			<div class="card is-shadowless">
-				<div class="card-content has-border">
-					<div class="media">
-						<div class="media-left">
-							<figure class="image is-48x48 has-text-link">
-								{%- include e_render-svg-icon.html icon="quote-solid" dimension=150 inline=true -%}
-							</figure>
-						</div>
-						<div class="media-content">
-							<p class="title is-4">{{- testimonial.name -}}</p>
-							<p class="subtitle is-6">{{- testimonial.position -}}</p>
-						</div>
-					</div>
-
-					<div class="content is-italic">
-						{{- testimonial.text | prepend: '"' | append: '"' -}}
-					</div>
-				</div>
-			</div>
+			{%- include c_testimonial.html
+				name=testimonial.name
+				position=testimonial.position
+				text=testimonial.text
+			-%}
 		{%- endfor -%}
 
 	</div>
