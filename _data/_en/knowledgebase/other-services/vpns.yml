@@ -39,7 +39,7 @@ data:
   -
     name: "Proton VPN"
     desc: "Proton VPN is one of the most transparent providers with some of the most robust measures to keep users safe. Use the VPN Toolkit for more details."
-    tags: ["Proprietary", "Free tier"]
+    tags: ["Open Source", "Free tier"]
     affil: "https://go.getproton.me/SH12P"
     labels:
       official: "https://protonvpn.com/"
