@@ -35,12 +35,17 @@ ogImages:
   support:      "/assets/images/og-image-1200x630-support.png"
   videos:       "/assets/images/og-image-1200x630-videos.png"
   vpn:          "/assets/images/og-image-1200x630-vpn.png"
-baseurl: "/techlore" # the subpath of your site, e.g. /blog
-url: "https://michalsvatos.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Base URL
+# Used only for development environment.
+# During the deployment process it's overwritten (.github/workflows/jekyll.yml).
+baseurl: "/techlore"
+url: "https://techlore.tech" # the base hostname & protocol for your site, e.g. http://example.com
 
 # -----------------------------------------
 # Global links
 #
+forumJson: "https://discuss.techlore.tech/c/techlore/content/6.json" # only used in production environment
 techloreWeb:
   links:
     github: "https://github.com/techlore/website"

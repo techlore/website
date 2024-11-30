@@ -58,6 +58,8 @@ The names of the categories, titles and other text is located in `knowledgebase-
 >`support.yml` ([source file](../_data/_en/support.yml)) - section "We proudly support"
 >
 >`team.yml` ([source file](../_data/_en/team.yml))
+>
+>`testimonials.yml` ([source file](../_data/_en/testimonials.yml)) - Coaching testimonials
 
 
 ## Video Markdown & Thumbnail Tool
