@@ -1,0 +1,7 @@
+/.well-known/security.txt /security.txt 200
+
+# Other Redirects
+/vpnchart.html /vpn 301
+/vpnchart /vpn 301
+/affiliations /affiliates 301
+/sponsors https://discuss.techlore.tech/pub/sponsors

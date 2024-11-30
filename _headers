@@ -1,0 +1,9 @@
+/*
+  X-Frame-Options: SAMEORIGIN
+  X-XSS-Protection: 0
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer, strict-origin-when-cross-origin
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+
+https://:project.pages.dev/*
+  X-Robots-Tag: noindex

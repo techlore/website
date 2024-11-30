@@ -35,12 +35,7 @@ ogImages:
   support:      "/assets/images/og-image-1200x630-support.png"
   videos:       "/assets/images/og-image-1200x630-videos.png"
   vpn:          "/assets/images/og-image-1200x630-vpn.png"
-
-# Base URL
-# Used only for development environment.
-# During the deployment process it's overwritten (.github/workflows/jekyll.yml).
-baseurl: "/techlore"
-url: "https://techlore.tech" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.techlore.tech"
 
 # -----------------------------------------
 # Global links
@@ -182,6 +177,10 @@ defaults:
       type: "guides"
     values:
       sitemap: false
+
+include:
+  - _redirects
+  - _headers
 
 # Exclude from processing.
 # The following items will not be processed, by default.
