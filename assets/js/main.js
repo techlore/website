@@ -175,7 +175,7 @@ if (knowledgebaseSection && knowledgebaseNavigation) {
 	// --- sections
 	const observer = new IntersectionObserver((entries) => {
 		entries.forEach(entry => {
-			if (entry.isIntersecting) {
+			if (!entry.isIntersecting) {
 				knowledgebaseNavigation.dataset.isVisible = true
 
 			} else {
@@ -183,9 +183,9 @@ if (knowledgebaseSection && knowledgebaseNavigation) {
 				knowledgebaseNavigation.classList.remove('is-active')
 			}
 		})
-	}, {rootMargin: "0% 0% -75% 0%"})
+	}, {rootMargin: "-15% 0% 0% 0%"})
 
-	observer.observe(knowledgebaseSection)
+	observer.observe(wave)
 
 	// --- hide scrollbar
 	const knowledgebaseScrollbarContainer = document.querySelector('.knowledgebase-navigation > .box')
