@@ -36,7 +36,7 @@ data:
     favorite: true
   -
     name: "Whonix"
-    desc: "Whonix offers both a virtual and live environment with a goal of anonymity. All activies are routed through Tor with strong privacy & security precautions."
+    desc: "Whonix offers both a virtual and live environment with a goal of anonymity. All activities are routed through Tor with strong privacy & security precautions."
     tags: ["Open Source", "Virtual Machine", "Live OS"]
     labels:
       official: "https://www.whonix.org/"

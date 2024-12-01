@@ -46,7 +46,7 @@ data:
     color: "#ce3f2d"
   -
     name: "Cryptomator"
-    desc: "Cryptomator allows users to encrypt their files before uploading them to another mainstream cloud provider (Google Drive, Dropbox, iCloud etc.)"
+    desc: "Cryptomator allows users to encrypt their files before uploading them to another mainstream cloud provider (Google Drive, Dropbox, iCloud etc.) - it's a great way to still use the cloud provider of your choice with improved security."
     tags: ["Open Source", "Free"]
     labels:
       official: "https://cryptomator.org/"

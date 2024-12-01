@@ -48,7 +48,7 @@ data:
     color: "#ffffff"
   -
     name: "Windscribe"
-    desc: "Windscribe is a great VPN provider with an excellent value. Use the VPN Toolkit below to compare VPNs more thoroughly."
+    desc: "Windscribe is a great VPN provider for an excellent value. Use the VPN Toolkit below to compare VPNs more thoroughly."
     tags: ["Open Source", "Free tier"]
     labels:
       official: "https://windscribe.com/"
