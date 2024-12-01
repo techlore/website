@@ -1,7 +1,7 @@
 affil: "Affiliate link"
 disclaimer: "Affiliate Link: Some services link to their official site, with a separate affiliate link if you choose to support Techlore. View our strict requirements <a href=\"https://discuss.techlore.tech/pub/sponsors-affiliates\" target=\"blank\">here</a>. To view all affiliates, visit <a href=\"[[affiliatesUrl]]\">here.</a>"
 favorite: "marks a favorite. They don't represent every threat model and shouldn't be over-analyzed."
-external: "Explore our curated list of organizations and tools that offer valuable insights, advocacy, and support for protecting your online freedoms."
+external: "Explore our curated list of organizations and tools that offer valuable insights, advocacy, and support for protecting your online freedoms. We don't have all the answers and encourage everyone to get information from multiple places!"
 sections:
   software: "Software, hardware and applications"
   operating-systems: "Operating systems"
@@ -14,7 +14,7 @@ categories:
   encryption: "Encryption"
   firewalls: "Firewalls"
   applications: "Applications"
-  desktop-a-expendable-liveos: "Desktop & Expendable/LiveOS"
+  desktop-a-expendable-liveos: "Desktop Operating Systems"
   android: "Android"
   search-engines: "Search engines"
   vpns: "VPNs"

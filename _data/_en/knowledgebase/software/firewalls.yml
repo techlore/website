@@ -37,7 +37,7 @@ data:
   -
     name: "rethinkDNS"
     desc: "Block malware, spyware, ads, and trackers across all apps with Rethink DNS. Servers in 300+ locations: Experience Blazing fast speeds."
-    tags: [ "Open Source" ]
+    tags: [ "Open Source", "Android"]
     labels:
       official: "https://rethinkdns.com/"
     color: "#ffffff"

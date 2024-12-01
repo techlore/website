@@ -20,7 +20,7 @@ order: 6
 data:
   -
     name: "Proton Pass"
-    desc: "Proton Pass is a password manager integrated with the Proton ecosystem. It's a great option for those who need a secure option within an already existing ecosystem. Its built-in Email aliasing is an attracting feature."
+    desc: "Proton Pass is a password manager with built-in support for email aliasing via SimpleLogin."
     tags: ["Open Source", "Free Tier"]
     affil: "https://go.getproton.me/SH12Q"
     labels:
@@ -29,7 +29,7 @@ data:
     favorite: true
   -
     name: "SimpleLogin"
-    desc: "SimpleLogin makes email aliasing easier than ever, all built with privacy & security from the ground up. SimpleLogin can also be self-hosted."
+    desc: "SimpleLogin makes email aliasing easier than ever, all built with privacy & security from the ground up. SimpleLogin can also be self-hosted or utilized via Proton Pass."
     tags: ["Open Source", "Free tier"]
     affil: "https://simplelogin.io/?slref=techlore"
     labels:
@@ -40,7 +40,7 @@ data:
     favorite: true
   -
     name: "addy.io"
-    desc: "addy.io (previously AnonAddy) is a private & secure email aliasing service with a very generous free option."
+    desc: "addy.io (previously AnonAddy) is a private & secure email aliasing service with a very generous free option. It's the main alternative to SimpleLogin/Proton Pass."
     tags: ["Open Source", "Free tier"]
     labels:
       official: "https://addy.io/"

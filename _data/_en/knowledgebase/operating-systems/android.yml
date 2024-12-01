@@ -20,7 +20,7 @@ order: 3
 data:
   -
     name: "GrapheneOS"
-    desc: "The private and secure mobile operating system with Android app compatibility. Developed as a non-profit open source project."
+    desc: "A private and secure mobile operating system with Android app compatibility via Sandboxed Google Play Services. Developed as a non-profit open source project."
     tags: ["Open Source", "Only Pixel line support"]
     labels:
       official: "https://grapheneos.org/"
@@ -28,7 +28,7 @@ data:
     favorite: true
   -
     name: "CalyxOS"
-    desc: "CalyxOS maintains stock security, while balancing additional privacy & security features with usability."
+    desc: "CalyxOS maintains quality protection for most users, while offering many usability features via MicroG for app compatibility. Developed by a non-profit Calyx Institute with moderate device compatability."
     tags: ["Open Source", "Limited devices"]
     labels:
       official: "https://calyxos.org/"
@@ -36,19 +36,12 @@ data:
     favorite: true
   -
     name: "DivestOS"
-    desc: "DivestOS attempts to fix some security issues with LineageOS (like bringing verified boot to some devices) while maintaing large device compatability."
+    desc: "DivestOS attempts to fix some security issues with LineageOS (like bringing verified boot to some devices) while maintaing large device compatability & extra usability features."
     tags: ["Open Source", "Supports many devices"]
     labels:
       official: "https://divestos.org/"
     color: "#000000"
     favorite: true
-  -
-    name: "LineageOS"
-    desc: "LineageOS has lower security than stock, but it does attempt to improve privacy & transparency. Users should consider pros/cons before using LineageOS over stock."
-    tags: ["Open Source", "Supports many devices"]
-    labels:
-      official: "https://lineageos.org/"
-    color: "#167C80"
   -
     name: "MicroG"
     desc: "MicroG is an open source replacement to proprietary Google Play Services. It allows apps & services to work as intended in a more privacy-respecting & transparent fashion on most custom ROMs."
@@ -58,7 +51,7 @@ data:
     color: "#F2F2F2"
   -
     name: "Plexus"
-    desc: "While MicroG & de-googled ROMs try to maintain the compatability of Google Play Services, they are not perfect. Plexus allows you to check what apps do/don't work."
+    desc: "While MicroG & de-googled ROMs try to maintain the compatability of Google Play Services, they are not perfect. Plexus allows you to check what apps do/don't work, deveoped by us at Techlore."
     tags: ["Open Source"]
     labels:
       official: "https://plexus.techlore.tech/"

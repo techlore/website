@@ -55,17 +55,6 @@
       text: "Non-affiliate"
       url: "https://tuta.com/"
 -
-  name: "MEGA"
-  type: "E2EE Cloud"
-  buttons:
-    -
-      text: "Affiliate"
-      url: "https://mega.io/security?aff=Ki7nvbOsh6Q"
-      affil: true
-    -
-      text: "Non-affiliate"
-      url: "https://mega.io/"
--
   name: "Abine DeleteMe"
   type: "Privacy Service"
   buttons:

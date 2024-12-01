@@ -20,7 +20,7 @@ order: 3
 data:
   -
     name: "NextDNS"
-    desc: "NextDNS offers a highly customizable DNS solution for the upmost control across your devices."
+    desc: "NextDNS offers a highly customizable DNS solution for the upmost control across your devices in a simple interface."
     tags: ["Free", "Paid"]
     affil: "https://nextdns.io/?from=5v4be7mt"
     labels:
@@ -29,7 +29,7 @@ data:
     favorite: true
   -
     name: "Mullvad DNS"
-    desc: "Mullvad offers a private & secure DNS service."
+    desc: "Mullvad offers a free private & secure DNS service with several blocklist options for limited customization."
     tags: ["Free"]
     labels:
       official: "https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/"
@@ -45,7 +45,7 @@ data:
     favorite: true
   -
     name: "CONTROL D"
-    desc: "CONTROL D offers a highly customizable DNS solution for the upmost control across your devices"
+    desc: "CONTROL D offers a highly customizable DNS solution for the upmost control across your devices. There's a discount available for Windscribe customers as they are from the same company."
     tags: ["Paid"]
     labels:
       official: "https://controld.com/"

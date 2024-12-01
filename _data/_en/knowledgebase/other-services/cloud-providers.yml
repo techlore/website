@@ -20,7 +20,7 @@ order: 7
 data:
   -
     name: "NextCloud"
-    desc: "Nextcloud is a self-hostable suite for photos, documents, files, contacts, and more. It's a robust service, with the main drawback being an unpolished E2EE offering."
+    desc: "Nextcloud is a self-hostable suite for photos, documents, files, contacts, and more. It's a robust service, with the main drawback being an unpolished E2EE offering. You can either use a trusted organization to host your data, or ideally you host your own data."
     tags: ["Open Source", "Varying prices"]
     labels:
       official: "https://nextcloud.com/"
@@ -39,7 +39,6 @@ data:
     name: "MEGA"
     desc: "MEGA is a more traditional cloud provider with E2EE and usable, source-available clients."
     tags: ["Source-available", "Free", "Paid"]
-    affil: "https://mega.nz/privacycompany/aff=Ki7nvbOsh6Q"
     labels:
       official: "https://mega.io/"
       android: "https://play.google.com/store/apps/details?id=mega.privacy.android.app"
@@ -47,7 +46,7 @@ data:
     color: "#ce3f2d"
   -
     name: "Cryptomator"
-    desc: "Cryptomator allows users to encrypt their files before uploading them to another cloud provider (Google Drive, Dropbox etc.)"
+    desc: "Cryptomator allows users to encrypt their files before uploading them to another mainstream cloud provider (Google Drive, Dropbox, iCloud etc.)"
     tags: ["Open Source", "Free"]
     labels:
       official: "https://cryptomator.org/"

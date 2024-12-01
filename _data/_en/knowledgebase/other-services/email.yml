@@ -20,7 +20,7 @@ order: 5
 data:
   -
     name: "Proton Mail"
-    desc: "Proton Mail checks all the right boxes when it comes to adding privacy & security protections over the inherently broken email system, all while seeking a simple experience."
+    desc: "Proton Mail checks all the right boxes when it comes to adding privacy & security protections over the inherently broken email system, all while seeking a simple experience in a larger suite."
     tags: ["Open Source", "Free tier"]
     affil: "https://go.getproton.me/SH12O"
     labels:
@@ -31,7 +31,7 @@ data:
     favorite: true
   -
     name: "Tuta"
-    desc: "Tuta offers a transparent service with trust, security, and privacy as its focus."
+    desc: "Tuta offers a transparent service with trust, security, and privacy as its focus. They are open source and implement fantastic protections for their users."
     tags: ["Open Source", "Free tier"]
     affil: "https://tuta.com/?t-src=techlore"
     labels:
@@ -41,13 +41,6 @@ data:
     color: "#850122"
     favorite: true
   -
-    name: "Mailbox.org"
-    desc: "Mailbox.org offers privacy & security with an incredibly feature-rich experience. It may be overwhelming and cluttered to some, or a power user's dream."
-    tags: ["Proprietary", "Paid"]
-    labels:
-      official: "https://mailbox.org/"
-    color: "#76bc20"
-  -
     name: "StartMail"
     desc: "StartMail offers a polished web client with a feature-rich experience."
     tags: ["Proprietary", "Paid"]
@@ -56,9 +49,16 @@ data:
       official: "https://www.startmail.com/"
     color: "#ffffff"
   -
+    name: "Mailbox.org"
+    desc: "Mailbox.org offers privacy & security with an incredibly feature-rich experience. It may be overwhelming and cluttered to some, or a power user's dream."
+    tags: ["Proprietary", "Paid"]
+    labels:
+      official: "https://mailbox.org/"
+    color: "#76bc20"
+  -
     name: "Self-Host"
     desc: "Self-hosting is commonly touted as the safest email approach, but this isn't always the case. Self-hosting comes with risks you should read in the referenced link."
-    tags: ["Advanced"]
+    tags: ["Advanced", "Varying prices"]
     labels:
       official: "https://www.privacyguides.org/en/email/#self-hosting-email"
     color: "#2c3e50"

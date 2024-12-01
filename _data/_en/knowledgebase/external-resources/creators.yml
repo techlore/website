@@ -39,11 +39,6 @@ data:
       official: "https://www.optoutpod.com/"
     color: "#DD4345"
   -
-    name: "FOTP Guides & Training"
-    labels:
-      official: "https://freedom.press/training/"
-    color: "#ffffff"
-  -
     name: "Naomi Brockwell"
     labels:
       youtube: "https://www.youtube.com/@NaomiBrockwellTV"

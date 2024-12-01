@@ -44,7 +44,7 @@ data:
     favorite: true
   -
     name: "AltStore"
-    desc: "AltStore allows iOS users to install IPA files (apps) to their device without the App Store. Apple's restrictions, however, make this a generally limited experience."
+    desc: "AltStore allows iOS users to install IPA files (apps) to their device without the App Store. Apple's restrictions, however, make this a generally limited experience. Europeans can install AltStore PAL for an improved sideloading experience."
     tags: [ "Open Source", "iOS" ]
     labels:
       ios: "https://altstore.io/"

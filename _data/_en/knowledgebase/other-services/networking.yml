@@ -36,7 +36,7 @@ data:
     favorite: true
   -
     name: "Orbot"
-    desc: "Orbot allows users to connect to the Tor network on mobile devices."
+    desc: "Orbot allows users to connect to the Tor network on mobile devices via a system VPN connection."
     tags: ["Open Source", "Android", "iOS"]
     labels:
       official: "https://orbot.app/"

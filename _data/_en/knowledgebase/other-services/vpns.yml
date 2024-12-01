@@ -19,16 +19,8 @@
 order: 2
 data:
   -
-    name: "IVPN"
-    desc: "IVPN is one of the most transparent providers with some of the most robust measures to keep users safe. Use the VPN Toolkit for more details."
-    tags: ["Open Source", "Paid"]
-    labels:
-      official: "https://www.ivpn.net/"
-    color: "#FF3344"
-    favorite: true
-  -
     name: "Mullvad VPN"
-    desc: "Mullvad is one of the most transparent providers with some of the most robust measures to keep users safe. Use the VPN Toolkit for more details."
+    desc: "Mullvad is one of the most transparent providers with some of the most robust measures to keep users safe. Use the VPN Toolkit below to compare VPNs more thoroughly."
     tags: ["Open Source", "Paid"]
     labels:
       official: "https://mullvad.net/en/vpn"
@@ -37,8 +29,16 @@ data:
     color: "#192E45"
     favorite: true
   -
+    name: "IVPN"
+    desc: "IVPN, similar to Mullvad is one of the most transparent providers with some of the most robust measures to keep users safe. Use the VPN Toolkit below to compare VPNs more thoroughly."
+    tags: ["Open Source", "Paid"]
+    labels:
+      official: "https://www.ivpn.net/"
+    color: "#FF3344"
+    favorite: true
+  -
     name: "Proton VPN"
-    desc: "Proton VPN is one of the most transparent providers with some of the most robust measures to keep users safe. Use the VPN Toolkit for more details."
+    desc: "Proton VPN is included in the Proton ecosystem and offers a very safe experience. Use the VPN Toolkit below to compare VPNs more thoroughly."
     tags: ["Open Source", "Free tier"]
     affil: "https://go.getproton.me/SH12P"
     labels:
@@ -48,8 +48,8 @@ data:
     color: "#ffffff"
   -
     name: "Windscribe"
-    desc: "Windscribe is one of the most transparent providers with some of the most robust measures to keep users safe. Use the VPN Toolkit for more details."
-    tags: ["Partly open source", "Free tier"]
+    desc: "Windscribe is a great VPN provider with an excellent value. Use the VPN Toolkit below to compare VPNs more thoroughly."
+    tags: ["Open Source", "Free tier"]
     labels:
       official: "https://windscribe.com/"
     color: "#355CB3"

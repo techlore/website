@@ -19,19 +19,19 @@
 order: 3
 data:
   -
+    name: "Ente Auth"
+    desc: "Ente's E2EE 2FA app. A cross platform TOTP app with secure online backups on all major operating systems."
+    tags: [ "Open Source", "Free", "iOS", "Android", "Desktop", "Web" ]
+    labels:
+      official: "https://ente.io/auth/"
+    color: "#ffffff"
+    favorite: true
+  -
     name: "Aegis"
     desc: "Aegis is one of the most polished & simple TOTP services for Android."
     tags: ["Open Source", "Free"]
     labels:
       android: "https://getaegis.app/"
-    color: "#ffffff"
-    favorite: true
-  -
-    name: "Ente Auth"
-    desc: "Ente's 2FA app. A cross platform TOTP app with secure online backups."
-    tags: [ "Open Source", "Free", "iOS", "Android", "Web" ]
-    labels:
-      official: "https://github.com/ente-io/ente/blob/main/auth/README.md"
     color: "#ffffff"
 related:
   -

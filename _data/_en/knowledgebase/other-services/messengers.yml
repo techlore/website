@@ -21,14 +21,14 @@ data:
   -
     name: "Briar"
     desc: "Briar is a Tor-routed, E2EE, P2P, anonymity-oriented messenger with some of the most robust protections. It can even be used without internet access."
-    tags: ["Open Source", "Android only", "Desktop", "Free"]
+    tags: ["Open Source", "Android", "Desktop", "Free"]
     labels:
       official: "https://briarproject.org/"
     color: "#87C214"
     favorite: true
   -
     name: "Signal"
-    desc: "Signal is the gold standard for private & secure messaging, all with a simple interface. Threat modeling is necessary though, as Signal requires a phone number to register which may be problematic for some."
+    desc: "Signal is the gold standard for private & secure messaging, all with a simple interface. Threat modeling is necessary though, as Signal requires a phone number to register which may be problematic for some. We recommend using Signal with usernames for improved privacy. Use our hardening guide below for max safety."
     tags: ["Open Source", "Android", "iOS", "Desktop", "Free"]
     labels:
       official: "https://www.signal.org/"
@@ -63,4 +63,8 @@ related:
   -
     title: "Best Messaging Apps"
     url: "https://youtu.be/rPp4rQnrG44"
+    type: "video"
+  -
+    title: "Signal Hardening Guide"
+    url: "https://www.youtube.com/watch?v=DPjg3651oJM"
     type: "video"

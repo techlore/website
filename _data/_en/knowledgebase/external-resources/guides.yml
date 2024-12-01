@@ -19,25 +19,25 @@
 order: 1
 data:
   -
-    name: "The New Oil"
-    labels:
-      official: "https://thenewoil.org/"
-    color: "#000000"
-  -
     name: "Privacy Guides"
     labels:
       official: "https://privacyguides.org/"
     color: "#ffffff"
   -
-    name: "CR Security Planner"
-    labels:
-      official: "https://securityplanner.consumerreports.org/"
-    color: "#004a54"
-  -
     name: "EFF Surveillance Self-Defense"
     labels:
       official: "https://ssd.eff.org/"
     color: "#ffffff"
+  -
+    name: "The New Oil"
+    labels:
+      official: "https://thenewoil.org/"
+    color: "#000000"
+  -
+    name: "CR Security Planner"
+    labels:
+      official: "https://securityplanner.consumerreports.org/"
+    color: "#004a54"
   -
     name: "FOTP Guides & Training"
     labels:
