@@ -30,6 +30,7 @@ data:
     name: "Proton Drive"
     desc: "Proton's drive offering within the Proton ecosystem with security in mind. It's still not a complete suite for every operating system, but it has basic functionality for many use-cases."
     tags: ["Open Source", "Free", "Paid"]
+    affil: "https://go.getproton.me/SH1Hp"
     labels:
       official: "https://proton.me/drive"
       android: "https://play.google.com/store/apps/details?id=me.proton.android.drive"
