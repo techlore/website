@@ -21,7 +21,7 @@ data:
   -
     name: "NextDNS"
     desc: "NextDNS offers a highly customizable DNS solution for the upmost control across your devices in a simple interface."
-    tags: ["Free", "Paid"]
+    tags: ["Free tier"]
     affil: "https://nextdns.io/?from=5v4be7mt"
     labels:
       official: "https://nextdns.io/"
@@ -42,7 +42,6 @@ data:
     labels:
       official: "https://www.quad9.net/"
     color: "#282828"
-    favorite: true
   -
     name: "CONTROL D"
     desc: "CONTROL D offers a highly customizable DNS solution for the upmost control across your devices. There's a discount available for Windscribe customers as they are from the same company."

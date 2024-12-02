@@ -20,7 +20,7 @@ order: 9
 data:
   -
     name: "Monero"
-    desc: "Monero is one of the strongest, private-by-default cryptocurrencies to ensure the safety of transactions."
+    desc: "Monero is one of the strongest, private-by-default cryptocurrencies to ensure the safety of transactions. Its wide adoption & community-first approach to privacy makes it the gold standard for private digital transactions with FCMP++ coming soon."
     tags: ["Open Source"]
     labels:
       official: "https://www.getmonero.org/"
@@ -63,3 +63,9 @@ data:
     labels:
       official: "https://coincards.com/"
     color: "#ffffff"
+related:
+  -
+    title: "KYCNOT.me"
+    url: "https://kycnot.me/"
+    type: "web"
+

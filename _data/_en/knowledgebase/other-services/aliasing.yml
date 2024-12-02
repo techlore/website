@@ -58,7 +58,7 @@ data:
   -
     name: "Privacy.com"
     desc: "Privacy.com is a card aliasing solution for shopping online. Like most aliasing solutions, it's a transfer of trust from countless services to one."
-    tags: ["Proprietary", "Paid", "US only cards"]
+    tags: ["Proprietary", "Free tier", "US only"]
     affil: "https://app.privacy.com/join/WYZ3N"
     labels:
       official: "https://privacy.com/"

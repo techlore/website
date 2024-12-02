@@ -35,6 +35,13 @@ data:
     color: "#FB542B"
     favorite: true
   -
+    name: "Mullvad Leta"
+    desc: "Mullvad's Leta uses the Google Search API as a proxy to deliver Google results privately. It's a paid search engine that can only be accessed with an active Mullvad VPN subscription."
+    tags: ["Proprietary", "Metasearch"]
+    labels:
+      official: "https://leta.mullvad.net/"
+    color: "#192E45"
+  -
     name: "DuckDuckGo"
     desc: "DuckDuckGo is a metasearch engine with mainly Bing results and an emphasis on user privacy."
     tags: ["Proprietary", "Metasearch"]

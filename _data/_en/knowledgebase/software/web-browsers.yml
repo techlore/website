@@ -85,7 +85,7 @@ data:
     color: "#ffffff"
   -
     name: "AdGuard"
-    desc: "For those using Safari, AdGuard is a great option to block ads, trackers, phishing, custom DNS, and more."
+    desc: "For those using Safari, AdGuard is a great option to block ads, trackers, phishing, use custom DNS, and more."
     tags: [ "Open Source", "Free Tier" ]
     labels:
       official: "https://adguard.com/en/adguard-ios/overview.html"
@@ -93,7 +93,7 @@ data:
   -
     name: "Cromite"
     desc: "Cromite is a Chromium fork based on Bromite with built-in support for ad blocking and an eye for privacy. It is supported on Android, Windows, & Linux."
-    tags: [ "Open Source", "Webkit"]
+    tags: [ "Open Source", "Chromium"]
     labels:
       official: "https://github.com/uazo/cromite"
     color: "#ffffff"

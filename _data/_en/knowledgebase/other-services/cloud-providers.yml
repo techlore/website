@@ -29,7 +29,7 @@ data:
   -
     name: "Proton Drive"
     desc: "Proton's drive offering within the Proton ecosystem with security in mind. It's still not a complete suite for every operating system, but it has basic functionality for many use-cases."
-    tags: ["Open Source", "Free", "Paid"]
+    tags: ["Open Source", "Free tier"]
     affil: "https://go.getproton.me/SH1Hp"
     labels:
       official: "https://proton.me/drive"
@@ -39,7 +39,7 @@ data:
   -
     name: "MEGA"
     desc: "MEGA is a more traditional cloud provider with E2EE and usable, source-available clients."
-    tags: ["Source-available", "Free", "Paid"]
+    tags: ["Source-available", "Free tier"]
     labels:
       official: "https://mega.io/"
       android: "https://play.google.com/store/apps/details?id=mega.privacy.android.app"
