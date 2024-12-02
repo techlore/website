@@ -40,9 +40,9 @@
 
 	{%- endcase -%}
 	<meta name="description" content="{{ description }}">
-	<meta name="image" content="{{ ogImage | absolute_url }}">
+	<meta name="image" content="{{ ogImage | relative_url }}">
 	<meta name="author" content="{{ site.name }}">
-	<link rel="canonical" href="{{ url | absolute_url }}">
+	<link rel="canonical" href="{{ url | relative_url }}">
 
 	{% include meta/og-meta.html title=title description=description ogImage=ogImage -%}
 	{% include meta/twitter-meta.html title=title description=description ogImage=ogImage -%}

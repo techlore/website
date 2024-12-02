@@ -11,41 +11,41 @@
 	<div class="container">
 		<div class="columns has-1-cols has-3-cols-tablet has-5-cols-desktop is-multiline">
 			<div class="footer__logos column is-full-tablet is-one-fifth-desktop is-flex">
-				<img src="{{ '/assets/logos/techlore-logo-edit-by-figma.svg' | absolute_url }}" class="footer__logo" loading="lazy" alt="Logo - {{ site.name }}">
+				<img src="{{ '/assets/logos/techlore-logo-edit-by-figma.svg' | relative_url }}" class="footer__logo" loading="lazy" alt="Logo - {{ site.name }}">
 				<a href="https://www.eff.org/" target="_blank">
-					<img src="{{ '/assets/logos/eff-member.png' | absolute_url }}" class="footer__logo" loading="lazy" alt="EFF member">
+					<img src="{{ '/assets/logos/eff-member.png' | relative_url }}" class="footer__logo" loading="lazy" alt="EFF member">
 				</a>
 			</div>
 			<div class="column">
 				<h6 class="footer__column-title">{{ site.name | upcase }}</h6>
 				<ul class="footer__list listless">
-					<li class="footer__list-item"><a href="{{ nav.mainNav.about.url | absolute_url }}" class="footer__link is-touch-friendly">{{ nav.mainNav.about.title }}</a></li>
-					<li class="footer__list-item"><a href="{{ nav.mainNav.forum.url | absolute_url }}" class="footer__link is-touch-friendly" target="_blank">{{ nav.mainNav.forum.title }}{%- include e_render-svg-icon.html icon="arrow-up-right" inline=true class="svg-icon--new-window" -%}</a></li>
-					<li class="footer__list-item"><a href="{{ nav.mainNav.blog.url | absolute_url }}" class="footer__link is-touch-friendly" target="_blank">{{ nav.mainNav.blog.title }}{%- include e_render-svg-icon.html icon="arrow-up-right" inline=true class="svg-icon--new-window" -%}</a></li>
-					<li class="footer__list-item"><a href="{{ nav.footerNav.contact.url | absolute_url }}" class="footer__link is-touch-friendly">{{ nav.footerNav.contact.title }}</a></li>
-					<li class="footer__list-item"><a href="{{ nav.hiddenNav.privacy.url | absolute_url }}" class="footer__link is-touch-friendly">{{ nav.hiddenNav.privacy.title }}</a></li>
+					<li class="footer__list-item"><a href="{{ nav.mainNav.about.url | relative_url }}" class="footer__link is-touch-friendly">{{ nav.mainNav.about.title }}</a></li>
+					<li class="footer__list-item"><a href="{{ nav.mainNav.forum.url | relative_url }}" class="footer__link is-touch-friendly" target="_blank">{{ nav.mainNav.forum.title }}{%- include e_render-svg-icon.html icon="arrow-up-right" inline=true class="svg-icon--new-window" -%}</a></li>
+					<li class="footer__list-item"><a href="{{ nav.mainNav.blog.url | relative_url }}" class="footer__link is-touch-friendly" target="_blank">{{ nav.mainNav.blog.title }}{%- include e_render-svg-icon.html icon="arrow-up-right" inline=true class="svg-icon--new-window" -%}</a></li>
+					<li class="footer__list-item"><a href="{{ nav.footerNav.contact.url | relative_url }}" class="footer__link is-touch-friendly">{{ nav.footerNav.contact.title }}</a></li>
+					<li class="footer__list-item"><a href="{{ nav.hiddenNav.privacy.url | relative_url }}" class="footer__link is-touch-friendly">{{ nav.hiddenNav.privacy.title }}</a></li>
 				</ul>
 			</div>
 			<div class="column">
 				<h6 class="footer__column-title">{{ t.videos.title | upcase }}</h6>
 				<ul class="footer__list listless">
-					<li class="footer__list-item"><a href="{{ nav.mainNav.videos.url | absolute_url }}" class="footer__link is-touch-friendly">{{ t.videos.techlore.title }}</a></li>
-					<li class="footer__list-item"><a href="{{ nav.mainNav.videos.url | absolute_url }}#techlore-clips" class="footer__link is-touch-friendly">{{ t.videos.techloreClips.title }}</a>
+					<li class="footer__list-item"><a href="{{ nav.mainNav.videos.url | relative_url }}" class="footer__link is-touch-friendly">{{ t.videos.techlore.title }}</a></li>
+					<li class="footer__list-item"><a href="{{ nav.mainNav.videos.url | relative_url }}#techlore-clips" class="footer__link is-touch-friendly">{{ t.videos.techloreClips.title }}</a>
 					</li>
 					<li class="footer__list-item">
-						<a href="{{ nav.mainNav.videos.url | absolute_url }}#surveillance-report" class="footer__link is-touch-friendly">{{ t.videos.surveillanceReport.title }}</a></li>
-					<li class="footer__list-item"><a href="{{ nav.mainNav.goincognito.url | absolute_url }}" class="footer__link is-touch-friendly">{{ t.goincognito.title }}</a></li>
+						<a href="{{ nav.mainNav.videos.url | relative_url }}#surveillance-report" class="footer__link is-touch-friendly">{{ t.videos.surveillanceReport.title }}</a></li>
+					<li class="footer__list-item"><a href="{{ nav.mainNav.goincognito.url | relative_url }}" class="footer__link is-touch-friendly">{{ t.goincognito.title }}</a></li>
 				</ul>
 			</div>
 			<div class="column">
 				<h6 class="footer__column-title">{{ t.resources.title | upcase }}</h6>
 				<ul class="footer__list listless">
-					<li class="footer__list-item"><a href="{{ nav.hiddenNav.spaQuiz.url | absolute_url }}" class="footer__link is-touch-friendly">{{ nav.hiddenNav.spaQuiz.title }}</a></li>
-					<li class="footer__list-item"><a href="{{ nav.hiddenNav.vpnToolkit.url | absolute_url }}" class="footer__link is-touch-friendly">{{ nav.hiddenNav.vpnToolkit.title }}</a></li>
-					<li class="footer__list-item"><a href="{{ nav.hiddenNav.plexus.url | absolute_url }}" class="footer__link is-touch-friendly" target="_blank">{{ nav.hiddenNav.plexus.title }}{%- include e_render-svg-icon.html icon="arrow-up-right" inline=true class="svg-icon--new-window" -%}</a>
+					<li class="footer__list-item"><a href="{{ nav.hiddenNav.spaQuiz.url | relative_url }}" class="footer__link is-touch-friendly">{{ nav.hiddenNav.spaQuiz.title }}</a></li>
+					<li class="footer__list-item"><a href="{{ nav.hiddenNav.vpnToolkit.url | relative_url }}" class="footer__link is-touch-friendly">{{ nav.hiddenNav.vpnToolkit.title }}</a></li>
+					<li class="footer__list-item"><a href="{{ nav.hiddenNav.plexus.url | relative_url }}" class="footer__link is-touch-friendly" target="_blank">{{ nav.hiddenNav.plexus.title }}{%- include e_render-svg-icon.html icon="arrow-up-right" inline=true class="svg-icon--new-window" -%}</a>
 					</li>
 					<li class="footer__list-item">
-						<a href="{{ nav.mainNav.resources.url | absolute_url | append: '#techlore-guides' }}" class="footer__link is-touch-friendly">{{ t.videos.techloreGuides.title }}</a>
+						<a href="{{ nav.mainNav.resources.url | relative_url | append: '#techlore-guides' }}" class="footer__link is-touch-friendly">{{ t.videos.techloreGuides.title }}</a>
 					</li>
 				</ul>
 			</div>
@@ -130,5 +130,3 @@
 {% endif %}
 
 <script src="{{ "/assets/js/main.js" | relative_url }}{{ 'now' | date: '%s' | prepend: "?" }}"></script>
-
-

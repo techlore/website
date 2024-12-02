@@ -4,7 +4,7 @@
 {% if patreons.size > 0 %}
 	<div class="patreons is-flex is-gap-2 is-flex-direction-column">
 		<div class="patreons__title">
-			{% assign patreonLink = site.data._en.navigation.mainNav.support.url | absolute_url | append: '#paid' %}
+			{% assign patreonLink = site.data._en.navigation.mainNav.support.url | relative_url | append: '#paid' %}
 			{{ t.home.patreons.title | replace: "[[patreonLink]]", patreonLink | markdownify }}
 		</div>
 		<div class="patreons__tags{% if include.isHomepage %} patreons__tags--homepage{% endif %} tags">

@@ -6,7 +6,7 @@
 {% include variables.html %}
 
 <div class="goincognitotable columns has-2-columns">
-	<img src="{{ '/assets/logos/techlore-logo-incognito-v5.svg' | absolute_url }}" class="goincognitotable__logo has-radius-rounded" loading="lazy" alt="Logo - {{ t.goincognito.title }}">
+	<img src="{{ '/assets/logos/techlore-logo-incognito-v5.svg' | relative_url }}" class="goincognitotable__logo has-radius-rounded" loading="lazy" alt="Logo - {{ t.goincognito.title }}">
 
 	{% assign dataFree = site.data._en.goincognitotable.free %}
 	{%- include c_goincognitotable-column.html data=dataFree -%}

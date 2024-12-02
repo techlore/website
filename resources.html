@@ -13,7 +13,7 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 		<div class="columns has-1-cols has-3-cols-tablet is-centered is-multiline">
 			<div class="column is-half-tablet is-one-third-desktop is-flex">
 				{% assign iconSpa = "list-select" %}
-				{% assign buttonLink = site.data._en.navigation.hiddenNav.spaQuiz.url | absolute_url %}
+				{% assign buttonLink = site.data._en.navigation.hiddenNav.spaQuiz.url | relative_url %}
 				{% include c_feature-box.html
 					icon=iconSpa
 					title=t.featureBox.techloreTools.spaQuiz.title
@@ -26,7 +26,7 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 			</div>
 			<div class="column is-half-tablet is-one-third-desktop is-flex">
 				{% assign iconVpn = "server" %}
-				{% assign buttonLink = site.data._en.navigation.hiddenNav.vpnToolkit.url | absolute_url %}
+				{% assign buttonLink = site.data._en.navigation.hiddenNav.vpnToolkit.url | relative_url %}
 				{% include c_feature-box.html
 					icon=iconVpn
 					title=t.featureBox.techloreTools.vpnToolkit.title
@@ -119,7 +119,7 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 		<div class="has-text-centered">
 			<h2>{{ kbtext.sections.software }}</h2>
 			<p>
-				{% assign affiliatesUrl = site.data._en.navigation.hiddenNav.affiliates.url | absolute_url %}
+				{% assign affiliatesUrl = site.data._en.navigation.hiddenNav.affiliates.url | relative_url %}
 				{% include e_render-svg-icon.html icon="link" dimension="25" inline=true %}
 				{{ kbtext.disclaimer | replace: "[[affiliatesUrl]]", affiliatesUrl }}
 			</p>
@@ -199,7 +199,7 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 		<div class="has-text-centered">
 			<h2>{{ kbtext.sections.operating-systems }}</h2>
 			<p>
-				{% assign affiliatesUrl = site.data._en.navigation.hiddenNav.affiliates.url | absolute_url %}
+				{% assign affiliatesUrl = site.data._en.navigation.hiddenNav.affiliates.url | relative_url %}
 				{% include e_render-svg-icon.html icon="link" dimension="25" inline=true %}
 				{{ kbtext.disclaimer | replace: "[[affiliatesUrl]]", affiliatesUrl }}
 			</p>
@@ -243,7 +243,7 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 		<div class="has-text-centered">
 			<h2>{{ kbtext.sections.other-services }}</h2>
 			<p>
-				{% assign affiliatesUrl = site.data._en.navigation.hiddenNav.affiliates.url | absolute_url %}
+				{% assign affiliatesUrl = site.data._en.navigation.hiddenNav.affiliates.url | relative_url %}
 				{% include e_render-svg-icon.html icon="link" dimension="25" inline=true %}
 				{{ kbtext.disclaimer | replace: "[[affiliatesUrl]]", affiliatesUrl }}
 			</p>
