@@ -51,14 +51,9 @@ last_modified_at: 2024-11-01
 						</div>
 					</noscript>
 
-					{% assign forumPostsJson = "forum-posts-dummy-data.json" | absolute_url %}
-					{% if jekyll.environment == "production" %}
-						{% assign forumPostsJson = site.forumJson %}
-					{% endif %}
-
 					<ul class="topic-list listless marginless is-flex is-gap-2 is-flex-direction-column"
 						data-forum="https://discuss.techlore.tech"
-						data-feed="{{ forumPostsJson }}"
+						data-feed="{{ site.forumJson }}"
 						data-count="4"
 					>
 						<li class="topic-list__item">
