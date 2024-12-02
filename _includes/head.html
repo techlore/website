@@ -46,6 +46,8 @@
 
 	{% include meta/og-meta.html title=title description=description ogImage=ogImage -%}
 	{% include meta/twitter-meta.html title=title description=description ogImage=ogImage -%}
+	{% include meta/mastodon-meta.html -%}
+	{% include meta/schema-org.html -%}
 
 	{% assign vpnPermalink = site.data._en.navigation.hiddenNav.vpnToolkit.url %}
 	{%- if page.permalink == vpnPermalink %}
@@ -61,6 +63,4 @@
 	<link rel="mask-icon" href="{{ "/safari-pinned-tab.svg" | relative_url }}" color="#5675e6">
 	<meta name="msapplication-TileColor" content="#2d89ef">
 	<meta name="theme-color" content="#5675e6">
-
-	{% include meta/scheme-org.html %}
 </head>
