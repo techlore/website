@@ -1,0 +1,29 @@
+---
+layout: default
+---
+{% include variables.html %}
+
+{% capture description %}
+{% if page.description %}
+{{ page.description | markdownify }}
+{% endif %}
+{% if page.description and page.date %}
+<br>
+{% endif %}
+{% if page.date %}
+<em>{% if page.author %}By: {{ page.author }} — {% endif %}{{ page.date }}</em>
+{% endif %}
+{% endcapture %}
+
+
+{% include c_sub-hero.html title=page.title perex=description %}
+
+<article class="post">
+
+  <div class="post-content container is-max-tablet {% if page.numbered_headings %}has-titles-counted{% endif %}">
+    <section>
+      {{ content }}
+    </section>
+  </div>
+
+</article>

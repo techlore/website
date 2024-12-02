@@ -1,16 +1,9 @@
 ---
-layout: page
+layout: post
 title: "Privacy Policy"
 permalink: /privacy
+numbered_headings: true
 ---
-{% include variables.html %}
-{% include c_sub-hero.html title=page.title %}
-
-
-<section>
-	<div class="container is-max-tablet has-titles-counted">
-
-{% capture markdown_text %}
 Techlore, Inc. is committed to protecting the privacy of its users. Like everything we do, we've designed this policy to be simple and accessible to all. Unless otherwise indicated, it is applicable to any website that references the policy.
 
 “Service” refers to our services which can be accessed on our website at [https://www.techlore.tech](https://www.techlore.tech). The terms “we,” “us,” and “our” refer to Techlore, Inc. “You” refers to you, as a user of our services.
@@ -21,16 +14,15 @@ By accessing our website & Services, you accept our Privacy Policy and Terms of 
 
 Each time you visit our website, or use the Service, and any time you voluntarily provide us with information, you consent to our collection, use and disclosure of the information that you provide.
 
-
-## Information we colect
+## Information we collect
 
 **Our Goal Is To Not Know Who You Are**
 
 To protect our hinds, we will state: We may collect both “Non-Personal Information” and “Personal Information” about you.
 
 - “Non-Personal Information” includes information that cannot be directly used to personally identify you, such as basic browser information (Ex. Firefox on Linux) This is standard on most hosting services.
-- “Personal Information” includes information that can be used to personally identify you, such as your name and email address. This is never collected unless you optionally communicate with us by email or another contact method. We don't typically verify the information supplied, so you have every ability to use aliases when contacting us. We have several recommendations for aliasing services in our [resources](TODO: https://www.techlore.tech/resources#alias).
-- We do not utilize cookies, we don't track you through scripts, and we do not implement trackers on our website to analyze your behavior. The only exception to this is our YouTube content embedded on this website which may have the indirect ability of tracking users. We recommend using browser tools to block trackers that may be used by the embedded tool if this concerns you - or alternatively you may disable Javascript, though this may break some other tools on our site.
+- “Personal Information” includes information that can be used to personally identify you, such as your name and email address. This is never collected unless you optionally communicate with us by email or another contact method. We don't typically verify the information supplied, so you have every ability to use aliases when contacting us. We have several recommendations for aliasing services in our [resources]({% link resources.html %}#aliasing).
+- We do not utilize cookies, we don't track you through scripts, and we do not implement trackers on our website to analyze your behavior. The only exception to this is our YouTube content embedded on this website which may have the indirect ability of tracking users. We recommend using browser tools to block trackers that may be used by the embedded tool if this concerns you - or alternatively you may disable JavaScript, though this may break some other tools on our site.
 
 ## How we use and share information
 
@@ -39,7 +31,7 @@ To protect our hinds, we will state: We may collect both “Non-Personal Informa
 - In rare scenarios, a third-party may be involved in handling your information to provide a Service. Generally, these third-parties will only collect, use and disclose your information to the extent necessary to allow them to perform the required services. We always attempt to offer safer alternatives to users when available.
 - It's important to mention certain third-party service providers, such as payment processors, have their own privacy policies we have no control over. We recommend you read their privacy policies so that you can understand the manner in which your Personal Information will be handled by such providers. We aim to offer more private alternatives to users when the option is available.
 
-**In regards to how your information is used, the answer is simply to perform the Service you require. Unlike most companies, we don't have anything to gain from your data.**
+**In regard to how your information is used, the answer is simply to perform the Service you require. Unlike most companies, we don't have anything to gain from your data.**
 
 ## How we protect information
 
@@ -65,11 +57,6 @@ Based upon the Personal Information that you provide us, we may communicate with
 
 If you have any questions regarding this Privacy Policy or the practices of this Site, please contact us by sending an email to [contact@techlore.tech](mailto:contact@techlore.tech)
 
-|   |
-|:-:|
-| **Last Updated: This Privacy Policy was last updated on Tue June 06 2023.** |
-{% endcapture %}
-{{ markdown_text | markdownify }}
+---
 
-	</div>
-</section>
+**Last Updated: This Privacy Policy was last updated on Tue June 06, 2023.**
