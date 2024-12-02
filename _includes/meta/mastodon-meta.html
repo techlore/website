@@ -1,0 +1,6 @@
+<!-- Mastodon Meta Tags-->
+{% if page.mastodon.username and page.mastodon.server -%}
+<meta name="fediverse:creator" content="{{ page.mastodon.username | prepend: '@' }}{{ page.mastodon.server | prepend: '@'}}">
+{% else if site.mastodon.username and site.mastodon.server -%}
+<meta name="fediverse:creator" content="{{ site.mastodon.username | prepend: '@' }}{{ site.mastodon.server | prepend: '@'}}">
+{%- endif %}

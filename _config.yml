@@ -26,6 +26,9 @@ description: >- # this means to ignore newlines until "twitter:"
   Techlore is educating people about digital rights, privacy, security,
   digital control, and other important topics to push the world towards a safer internet.
 twitter: "TechloreInc"
+mastodon:
+  username: "techlore"
+  server: "social.lol"
 ogImages:
   default:      "/assets/images/og-image-1200x630-default.png"
   about:        "/assets/images/og-image-1200x630-about.png"
@@ -82,7 +85,7 @@ socials:
     rss: "/rss"
     signal: "https://discuss.techlore.tech/t/signal-usernames-are-here-join-our-exclusive-signal-group/7640"
     twitter: "https://twitter.com/TechloreInc"
-    bluesky: "https://bsky.app/profile/techlore.bsky.social"
+    bluesky: "https://bsky.app/profile/techlore.tech"
     instagram: "https://www.instagram.com/techloreinc/"
     facebook: "https://www.facebook.com/people/Techlore/61559410727510/"
     telegram: "https://t.me/techlorefeed"
