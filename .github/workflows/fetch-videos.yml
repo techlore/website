@@ -1,0 +1,31 @@
+name: Fetch videos
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 5 * * *'
+
+permissions: write-all
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out this repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+
+      - name: Fetch forum data
+        run: |
+          pip install pyyaml requests
+          python fetch-videos.py
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update latest data from forum"
+          file_pattern: _data/_en/forum/*.yml
+          commit_user_name: GitHub Actions
+          commit_user_email: 41898282+github-actions[bot]@users.noreply.github.com
+          commit_author: GitHub Actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
