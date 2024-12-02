@@ -1,5 +1,5 @@
-const linkIcon = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" class="icon"><path fill="currentColor" d="M5.553 6.37c-.134.161-.262.322-.385.493 1.725 1.945 4.076 4.099 6.653 6.091 2.025 1.565 4.088 2.958 5.968 4.024.316.176.627.348.927.503.134-.16.262-.321.385-.493.627-.862.97-1.778 1.249-2.871.042-.171.08-.343.112-.509.847-4.446-1.907-8.834-6.348-9.959a8.536 8.536 0 0 0-5.695.52A7.996 7.996 0 0 0 5.553 6.37Z"/><path fill="currentColor" d="M20.687 15.788c-.22.59-.396.938-.396.938.975 1.13 1.318 1.816 1.709 2.486.128.22.396.701.048.664a2.55 2.55 0 0 1-.295-.07c-1.14-.29-2.743-1.002-4.516-2.003-1.918-1.088-4.012-2.502-6.07-4.088C8.43 11.6 5.945 9.306 4.172 7.26c-.82-.943-1.478-1.832-1.912-2.566-.129-.22-.21-.338-.3-.557-.134-.332.268-.274.375-.247.798.204 1.875.53 3.118 1.275 0 0 .23-.257.744-.61-1.221-.825-2.39-1.484-3.493-1.902C1.466 2.18.502 2.288.16 2.85c-.654 1.066.75 3.873 3.498 7.071-1.152 4.607 1.64 9.284 6.24 10.447a8.576 8.576 0 0 0 6.258-.804 30.54 30.54 0 0 0 5.191 1.87c1.28.327 2.164.294 2.507-.263.595-.975-.648-2.775-3.166-5.384Z"/></svg>';
-const linkIconAf = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke-width="1.5" color="currentColor" viewBox="0 0 24 24" class="icon"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M14 12c0-2.5-2.32-5-5.14-5H7.14A5.07 5.07 0 0 0 2 12a5.03 5.03 0 0 0 5.14 5"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M10 12c0 2.49 2.32 5 5.14 5h1.72A5.07 5.07 0 0 0 22 12a5.03 5.03 0 0 0-5.14-5"/></svg>';
+const linkIcon = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="none" class="_icon" stroke-width="2" color="currentColor"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M6 19 19 6m0 0v12.48M19 6H6.52"/></svg>';
+// const linkIconAf = '';
 
 
 function getCheckValue(cellValue) {
@@ -20,13 +20,13 @@ Tabulator.extendModule("format", "formatters", {
 			return "None";
 		var r = cell.getRow().getData();
 		var s = "";
-		if (r["VPN Affiliate Link"] != "None") s = "  <a href='" + r["VPN Affiliate Link"] + "' target='_blank' class='button is-small is-warning is-outlined' title='Affiliate Link'>" + linkIconAf + "</a>";
-		return "<span>" + cell.getValue() + "</span>" + "  <a href='" + r["VPN Standard Link"] + "' target='_blank' class='button is-small is-primary is-outlined'>" + linkIcon + "</a>" + s;
+		// if (r["VPN Affiliate Link"] != "None") s = "  <a href='" + r["VPN Affiliate Link"] + "' target='_blank' class='button is-small is-warning is-outlined' title='Affiliate Link'>" + linkIconAf + "</a>";
+		return "<span>" + cell.getValue() + "</span>" + s;
 	},
 	link2: function (cell, formatterParams) {
 		if (cell.getValue() == "None")
 			return "None";
-		return "<a href='" + cell.getValue() + "' target='_blank'>" + cell.getValue() + "</a>";
+		return "<a href='" + cell.getValue() + "' target='_blank'>" + linkIcon + "</a>";
 	},
 	check: function (cell, formatterParams) {
 		return getCheckValue(cell.getValue())
@@ -36,10 +36,10 @@ Tabulator.extendModule("format", "formatters", {
 			return "None";
 		var h = cell.getRow().getData();
 		var i = "";
-		return "  <a href='" + h["History"] + "' target='_blank' class='button is-small is-primary is-outlined'>" + linkIcon + "</a>" + i;
+		return "  <a href='" + h["History"] + "' target='_blank'>" + linkIcon + "</a>" + i;
 	}
 });
-$("#info-afl").html(linkIconAf);
+// $("#info-afl").html(linkIconAf);
 $("#info-nafl").html(linkIcon);
 
 function CSVToJSON(csvData) {
@@ -161,8 +161,8 @@ document.addEventListener("DOMContentLoaded", () => {
 					resizable: false
 				},
 				{
-					field: "VPN Standard Link",
-					visible: false,
+					field: "Official web",
+          formatter: "link2",
 					resizable: false
 				},
 				{

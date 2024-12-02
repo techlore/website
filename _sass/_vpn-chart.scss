@@ -1,0 +1,9 @@
+div[id="vpn-table"] {
+  border: 0;
+
+  @media (max-width: $desktop - 1px) {
+  	border-radius: 0;
+    margin-inline: calc(var(--bulma-column-gap) * -1);
+    max-width: none;
+  }
+}

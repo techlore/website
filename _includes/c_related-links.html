@@ -14,7 +14,7 @@
 			<h4 class="related-links__title">{{ include.title }}</h4>
 		{% endif %}
 
-		<div class="columns has-3-cols-tablet">
+		<div class="columns has-3-cols-tablet is-multiline">
 			{% for link in include.links %}
 				{% assign linkIcon = "web" %}
 				{% if link.type == "video" %}
