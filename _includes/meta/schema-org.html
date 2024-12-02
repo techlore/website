@@ -4,7 +4,7 @@
 		{
 			"@context": "https://schema.org",
 			"@type": "Organization",
-			"logo": "{{ "/android-chrome-256x256.png" | relative_url }}",
+			"logo": "{{ "/android-chrome-256x256.png" | absolute_url }}",
 			"name": "{{ site.name }}",
 			"sameAs": [
 				"{{ site.techloreVideos.links.youtube }}",
@@ -14,7 +14,7 @@
 				"{{ site.socials.links.mastodon }}",
 				"{{ site.socials.links.bluesky }}"
 			],
-			"url": "{{ "/" | relative_url }}"
+			"url": "{{ "/" | absolute_url }}"
 		},
 		{
 			"@context": "https://schema.org",
@@ -23,7 +23,7 @@
 			"sameAs": [
 				"{{ site.wiki.links.wikidata }}"
 			],
-			"url": "{{ "/" | relative_url }}"
+			"url": "{{ "/" | absolute_url }}"
 		}
 	]
 </script>
