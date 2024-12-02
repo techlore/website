@@ -43,7 +43,7 @@ url: "https://www.techlore.tech"
 # -----------------------------------------
 # Global links
 #
-forumJson: "https://discuss.techlore.tech/c/techlore/content/6.json" # only used in production environment
+forumJson: "https://discuss.techlore.tech/top.json?period=weekly" # only used in production environment
 techloreWeb:
   links:
     github: "https://github.com/techlore/website"
