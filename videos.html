@@ -10,31 +10,25 @@ description: "Explore our video library, featuring expert insights and practical
 <section>
 	<div class="container">
 		{%- include c_box-header.html title=t.videos.titleNewest links=site.techloreVideos.links -%}
-		{%- if site.techlore.size > 0 -%}
-			<div class="box has-footer">
-				<ul class="video-list marginless listless columns">
-					{% assign sortedVideos = site.techlore | sort: "datePublished" | reverse %}
-					{% for video in sortedVideos limit: 4 %}
-						{% assign filename = video.path | split: "/" | last %}
-						{% assign videoThumbnail = "/techlore/" | append: filename | replace: ".md", ".jpg" | relative_url %}
+		<div class="box has-footer">
+			<ul class="video-list marginless listless columns">
+				{% for video in site.data._en.forum.latest-techlore-videos limit: 3 %}
+					{% assign forumLink = video.id | prepend: "https://discuss.techlore.tech/t/" %}
 
-						{%- include c_video.html
-							title=video.title
-							desc=video.description
-							link=video.linkForum
-							linkYouTube=video.linkYouTube
-							linkPeerTube=video.linkPeerTube
-							thumbnail=videoThumbnail
-							date=video.datePublished
-							tags=video.tags
-						-%}
+					{%- include c_video.html
+						title=video.fancy_title
+						desc=video.excerpt
+						link=forumLink
+						thumbnail=video.image_url
+						date=video.created_at
+						tags=video.tags
+					-%}
 
-					{% endfor %}
-				</ul>
-			</div>
-		{%- endif -%}
+				{% endfor %}
+			</ul>
+		</div>
 		{% include c_box-footer.html
-			link=site.data._en.navigation.hiddenNav.allTechloreVideos.url
+			link="/videos#older-videos"
 			title=t.global.other.viewMore
 		%}
 	</div>
@@ -45,66 +39,67 @@ description: "Explore our video library, featuring expert insights and practical
 		<div class="columns">
 			<div class="column is-full-mobile is-half" id="techlore-clips">
 				{%- include c_box-header.html title=t.videos.techloreClips.title links=site.techloreClips.links -%}
-				{%- if site.clips.size > 0 -%}
-					<div class="box has-footer">
-						<ul class="video-list marginless listless columns">
-							{% assign sortedVideos = site.clips | sort: "datePublished" | reverse %}
-							{% for video in sortedVideos limit: 2 %}
-								{% assign filename = video.path | split: "/" | last %}
-								{% assign videoThumbnail = "/clips/" | append: filename | replace: ".md", ".jpg" | relative_url %}
+				<div class="box has-footer">
+					<ul class="video-list marginless listless columns">
+						{% for video in site.data._en.forum.latest-techlore-clips-videos limit: 2 %}
+							{% assign forumLink = video.id | prepend: "https://discuss.techlore.tech/t/" %}
 
-								{%- include c_video.html
-									title=video.title
-									desc=video.description
-									link=video.linkForum
-									linkYouTube=video.linkYouTube
-									linkPeerTube=video.linkPeerTube
-									linkOdysee=video.linkOdysee
-									thumbnail=videoThumbnail
-									date=video.datePublished
-									tags=video.tags
-								-%}
+							{%- include c_video.html
+								title=video.fancy_title
+								desc=video.excerpt
+								link=forumLink
+								thumbnail=video.image_url
+								date=video.created_at
+								tags=video.tags
+							-%}
 
-							{% endfor %}
-						</ul>
-					</div>
-					{% include c_box-footer.html
-						link=site.data._en.navigation.hiddenNav.allTechloreClips.url
-						title=t.global.other.viewMore
-					%}
-				{%- endif -%}
+						{% endfor %}
+					</ul>
+				</div>
 			</div>
 			<div class="column is-full-mobile is-half" id="surveillance-report">
 				{%- include c_box-header.html title=t.videos.surveillanceReport.title links=site.surveillanceReport.links -%}
-				{%- if site.surveillance-report.size > 0 -%}
-					<div class="box has-footer">
-						<ul class="video-list marginless listless columns">
-							{% assign sortedVideos = site.surveillance-report | sort: "datePublished" | reverse %}
-							{% for video in sortedVideos limit: 2 %}
-								{% assign filename = video.path | split: "/" | last %}
-								{% assign videoThumbnail = "/surveillance-report/" | append: filename | replace: ".md", ".jpg" | relative_url %}
+				<div class="box has-footer">
+					<ul class="video-list marginless listless columns">
+						{% for video in site.data._en.forum.latest-surveillance-report-videos limit: 2 %}
+							{% assign forumLink = video.id | prepend: "https://discuss.techlore.tech/t/" %}
 
-								{%- include c_video.html
-									title=video.title
-									desc=video.description
-									link=video.linkForum
-									linkYouTube=video.linkYouTube
-									linkPeerTube=video.linkPeerTube
-									linkOdysee=video.linkOdysee
-									thumbnail=videoThumbnail
-									date=video.datePublished
-									tags=video.tags
-								-%}
+							{%- include c_video.html
+								title=video.fancy_title
+								desc=video.excerpt
+								link=forumLink
+								thumbnail=video.image_url
+								date=video.created_at
+								tags=video.tags
+							-%}
 
-							{% endfor %}
-						</ul>
-					</div>
-					{% include c_box-footer.html
-						link=site.data._en.navigation.hiddenNav.allSurveillanceReport.url
-						title=t.global.other.viewMore
-					%}
-				{%- endif -%}
+						{% endfor %}
+					</ul>
+				</div>
 			</div>
+		</div>
+	</div>
+</section>
+
+<section id="older-videos">
+	<div class="container">
+		{%- include c_box-header.html title=t.videos.titleArchive links=site.techloreVideos.links -%}
+		<div class="box has-footer">
+			<ul class="video-list marginless listless columns">
+				{% for video in site.data._en.forum.latest-techlore-videos offset:3 limit:24 %}
+					{% assign forumLink = video.id | prepend: "https://discuss.techlore.tech/t/" %}
+
+					{%- include c_video.html
+						title=video.fancy_title
+						desc=video.excerpt
+						link=forumLink
+						thumbnail=video.image_url
+						date=video.created_at
+						tags=video.tags
+					-%}
+
+				{% endfor %}
+			</ul>
 		</div>
 	</div>
 </section>

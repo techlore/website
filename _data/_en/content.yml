@@ -94,6 +94,7 @@ resources:
 videos:
   title: "Videos"
   titleNewest: "Newest videos"
+  titleArchive: "Older videos"
   techlore:
     title: "Techlore"
   techloreClips:

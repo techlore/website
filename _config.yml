@@ -130,17 +130,6 @@ sass:
 # Collection settings
 #
 collections:
-  videos:
-    output: true
-  clips:
-    output: true
-    permalink: /clips/:name
-  surveillance-report:
-    output: true
-    permalink: /surveillance-report/:name
-  techlore:
-    output: true
-    permalink: /techlore/:name
   guides:
     output: true
     permalink: /guides/:name
