@@ -44,7 +44,7 @@
   title: Your privacy & security questions answered! (Nov '24)
   unpinned: null
   unseen: false
-  views: 80
+  views: 81
   visible: true
 - archetype: regular
   archived: false
@@ -104,7 +104,7 @@
   title: Best Black Friday Deals to Protect Your Privacy!
   unpinned: null
   unseen: false
-  views: 525
+  views: 526
   visible: true
 - archetype: regular
   archived: false
@@ -329,7 +329,7 @@
   title: 'Kagi Search: Is Paying for a Search Engine Worth It?'
   unpinned: null
   unseen: false
-  views: 556
+  views: 557
   visible: true
 - archetype: regular
   archived: false
@@ -1410,4 +1410,6181 @@
   unpinned: null
   unseen: false
   views: 340
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2024-07-26T14:11:25.258Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2024-07-25T20:49:31.706Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/3QHAh9pdYfLBkK3iTRxkq8
+  fancy_title: 'Proton released&hellip;a Bitcoin wallet :face_with_raised_eyebrow:'
+  featured_link: https://neat.tube/w/3QHAh9pdYfLBkK3iTRxkq8
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 7
+  id: 9343
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/c/cab2f75274e4dccf4e0930c182fe8f493a249196.jpeg
+  last_posted_at: '2024-07-26T14:11:25.258Z'
+  last_poster_username: attempty
+  like_count: 18
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1180
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 2410
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1168
+  posts_count: 7
+  reply_count: 2
+  slug: proton-released-a-bitcoin-wallet
+  tags: []
+  tags_descriptions: {}
+  title: "Proton released...a Bitcoin wallet \U0001F928"
+  unpinned: null
+  unseen: false
+  views: 270
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2024-08-27T13:44:16.126Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2024-07-03T00:39:44.241Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/5exwnrrBZbvZmBkcDwECcR
+  fancy_title: Privacy-Friendly Security Cameras&hellip;Synology Did It!
+  featured_link: https://neat.tube/w/5exwnrrBZbvZmBkcDwECcR
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 12
+  id: 9120
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/1/13a1894866b564f358ab4fdba31599c6a45b2ac3.jpeg
+  last_posted_at: '2024-08-27T13:44:16.126Z'
+  last_poster_username: Henry
+  like_count: 19
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 1751
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1726
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 770
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 2
+  posts_count: 12
+  reply_count: 5
+  slug: privacy-friendly-security-cameras-synology-did-it
+  tags: []
+  tags_descriptions: {}
+  title: Privacy-Friendly Security Cameras...Synology Did It!
+  unpinned: null
+  unseen: false
+  views: 431
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2024-06-20T17:26:31.810Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2024-06-20T01:54:49.254Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/9y5jiWwukA8Lt85knw3jaL
+  fancy_title: 'Computex 2024 In 36 Seconds. #ai #computex #artificialintelligence'
+  featured_link: https://neat.tube/w/9y5jiWwukA8Lt85knw3jaL
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 4
+  id: 9000
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/8/8e5607be187bdfe2d051bfbc842fe05c15c4dd20.jpeg
+  last_posted_at: '2024-06-20T17:26:31.810Z'
+  last_poster_username: Ambrosio
+  like_count: 4
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1863
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 2397
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 447
+  posts_count: 4
+  reply_count: 1
+  slug: computex-2024-in-36-seconds-ai-computex-artificialintelligence
+  tags: []
+  tags_descriptions: {}
+  title: 'Computex 2024 In 36 Seconds. #ai #computex #artificialintelligence'
+  unpinned: null
+  unseen: false
+  views: 160
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2024-06-19T16:19:00.574Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2024-06-18T21:54:43.985Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/aZDw3ricXZw59LktPVwjzg
+  fancy_title: "Data Brokers Are Stealing Your Data\u2014Here\u2019s How To Stop Them"
+  featured_link: https://neat.tube/w/aZDw3ricXZw59LktPVwjzg
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 9
+  id: 8975
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/d/d8ce4e1a6a240e4cba56c7465ac98838518602b8.jpeg
+  last_posted_at: '2024-06-19T16:19:00.574Z'
+  last_poster_username: Onscreen5341
+  like_count: 8
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 2397
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 2255
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 2
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: 45
+    primary_group_id: 45
+    user_id: 2278
+  posts_count: 9
+  reply_count: 4
+  slug: data-brokers-are-stealing-your-data-here-s-how-to-stop-them
+  tags: []
+  tags_descriptions: {}
+  title: "Data Brokers Are Stealing Your Data\u2014Here\u2019s How To Stop Them"
+  unpinned: null
+  unseen: false
+  views: 270
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2024-06-01T07:54:16.927Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2024-06-01T07:54:16.886Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/7WnkP6pQSxf7orJb9tXgSF
+  fancy_title: Your privacy &amp; security questions answered! (May &lsquo;24)
+  featured_link: https://neat.tube/w/7WnkP6pQSxf7orJb9tXgSF
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 1
+  id: 8777
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/a/a357cd39c81ca37034771e841bd90c5641cb4aff.jpeg
+  last_posted_at: '2024-06-01T07:54:16.927Z'
+  last_poster_username: system
+  like_count: 1
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster, Most Recent Poster
+    extras: latest single
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  posts_count: 1
+  reply_count: 0
+  slug: your-privacy-security-questions-answered-may-24
+  tags: []
+  tags_descriptions: {}
+  title: Your privacy & security questions answered! (May '24)
+  unpinned: null
+  unseen: false
+  views: 144
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2024-05-02T08:58:05.857Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2024-05-01T22:04:53.335Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/aa6XARVVpioiA1DLHdTjPH
+  fancy_title: 'Privacy Dilemmas: Education, Toxicity, PWAs &amp; More w/ John Ozbay
+    [Part 2]'
+  featured_link: https://neat.tube/w/aa6XARVVpioiA1DLHdTjPH
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 5
+  id: 8372
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/e/e4c7f339318ef28f7af3e5a4cb94178ed46c6f19.jpeg
+  last_posted_at: '2024-05-02T08:58:05.857Z'
+  last_poster_username: polarcat
+  like_count: 10
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 2112
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1746
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1906
+  posts_count: 5
+  reply_count: 1
+  slug: privacy-dilemmas-education-toxicity-pwas-more-w-john-ozbay-part-2
+  tags: []
+  tags_descriptions: {}
+  title: 'Privacy Dilemmas: Education, Toxicity, PWAs & More w/ John Ozbay [Part 2]'
+  unpinned: null
+  unseen: false
+  views: 232
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2024-05-02T02:48:44.675Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2024-05-01T19:44:39.082Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/rnifAogEmQcG7t7m5QeiNG
+  fancy_title: Your privacy &amp; security questions answered! (Apr &lsquo;24)
+  featured_link: https://neat.tube/w/rnifAogEmQcG7t7m5QeiNG
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 8
+  id: 8366
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/7/7cba1863a8282c211b6f6216ba19971c36b710f1.jpeg
+  last_posted_at: '2024-05-02T02:48:44.675Z'
+  last_poster_username: anon70356902
+  like_count: 4
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 42
+    primary_group_id: 42
+    user_id: 576
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 447
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1518
+  posts_count: 8
+  reply_count: 0
+  slug: your-privacy-security-questions-answered-apr-24
+  tags: []
+  tags_descriptions: {}
+  title: Your privacy & security questions answered! (Apr '24)
+  unpinned: null
+  unseen: false
+  views: 180
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2024-04-24T18:41:13.209Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2024-04-24T17:32:59.746Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/6AVSgCPTKxp8oyukGKDxgi
+  fancy_title: "\u201CHow Secure is Big Tech?\u201D &amp; Other Digital Rights Dilemmas\
+    \ w/ John Ozbay"
+  featured_link: https://neat.tube/w/6AVSgCPTKxp8oyukGKDxgi
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 2
+  id: 8265
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/4/46293026c0df6379d68051b6ac996e091ffdb470.jpeg
+  last_posted_at: '2024-04-24T18:41:13.209Z'
+  last_poster_username: anon82669666
+  like_count: 6
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1746
+  posts_count: 2
+  reply_count: 0
+  slug: how-secure-is-big-tech-other-digital-rights-dilemmas-w-john-ozbay
+  tags: []
+  tags_descriptions: {}
+  title: "\u201CHow Secure is Big Tech?\u201D & Other Digital Rights Dilemmas w/ John\
+    \ Ozbay"
+  unpinned: null
+  unseen: false
+  views: 193
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2024-04-22T14:06:45.872Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2024-04-20T17:34:26.518Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/wxhe6FjfWLFwDsiNHtnsFF
+  fancy_title: The Ultimate Guide to Using Tor Browser Securely
+  featured_link: https://neat.tube/w/wxhe6FjfWLFwDsiNHtnsFF
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 3
+  id: 8217
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/1/10b5e4ff13cac2afd23f68ec3a5dd44572d01222.jpeg
+  last_posted_at: '2024-04-22T14:06:45.872Z'
+  last_poster_username: underrate
+  like_count: 7
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1660
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1584
+  posts_count: 3
+  reply_count: 0
+  slug: the-ultimate-guide-to-using-tor-browser-securely
+  tags: []
+  tags_descriptions: {}
+  title: The Ultimate Guide to Using Tor Browser Securely
+  unpinned: null
+  unseen: false
+  views: 267
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2024-04-04T18:04:56.578Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2024-04-02T23:09:17.321Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/bC9Q3cp8s1czjCvnFAHHaK
+  fancy_title: 'Ditching Chrome: My Journey to a Better Mobile Browser'
+  featured_link: https://neat.tube/w/bC9Q3cp8s1czjCvnFAHHaK
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 13
+  id: 7943
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/8/8920f20e6c2eb8705f89837fb1590227d756ba83.jpeg
+  last_posted_at: '2024-04-04T18:04:56.578Z'
+  last_poster_username: Tech-Trooper
+  like_count: 29
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 557
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 447
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 770
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1554
+  posts_count: 13
+  reply_count: 5
+  slug: ditching-chrome-my-journey-to-a-better-mobile-browser
+  tags: []
+  tags_descriptions: {}
+  title: 'Ditching Chrome: My Journey to a Better Mobile Browser'
+  unpinned: null
+  unseen: false
+  views: 753
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2024-04-01T15:17:04.969Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2024-03-31T12:24:08.136Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/3vDM7kKgMce94pAzKB6GWE
+  fancy_title: Your privacy &amp; security questions answered! (Mar &lsquo;24)
+  featured_link: https://neat.tube/w/3vDM7kKgMce94pAzKB6GWE
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 3
+  id: 7900
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/9/9b04687da99c253ad4b16e06e9351c6251b83697.jpeg
+  last_posted_at: '2024-04-01T15:17:04.969Z'
+  last_poster_username: amog
+  like_count: 6
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 2021
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1372
+  posts_count: 3
+  reply_count: 1
+  slug: your-privacy-security-questions-answered-mar-24
+  tags: []
+  tags_descriptions: {}
+  title: Your privacy & security questions answered! (Mar '24)
+  unpinned: null
+  unseen: false
+  views: 337
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2024-02-28T12:14:44.268Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2024-02-28T12:14:44.224Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/3k8HpivXKSQrPSvcb6jaF6
+  fancy_title: Your privacy &amp; security questions answered! (Feb &lsquo;24)
+  featured_link: https://neat.tube/w/3k8HpivXKSQrPSvcb6jaF6
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 1
+  id: 7479
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/5/548edcca490871121df2b743d93cde10c682a191.jpeg
+  last_posted_at: '2024-02-28T12:14:44.268Z'
+  last_poster_username: system
+  like_count: 3
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster, Most Recent Poster
+    extras: latest single
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  posts_count: 1
+  reply_count: 0
+  slug: your-privacy-security-questions-answered-feb-24
+  tags: []
+  tags_descriptions: {}
+  title: Your privacy & security questions answered! (Feb '24)
+  unpinned: null
+  unseen: false
+  views: 231
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2024-02-24T06:34:21.639Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2024-02-24T06:34:21.589Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/q6E5bV6fY3ZcfMZwwWSM51
+  fancy_title: VPNs vs DNS - Which Keeps You The Safest?
+  featured_link: https://neat.tube/w/q6E5bV6fY3ZcfMZwwWSM51
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 1
+  id: 7400
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/a/a8dff0942279511bd471fbfe6ed01a6773707654.jpeg
+  last_posted_at: '2024-02-24T06:34:21.639Z'
+  last_poster_username: system
+  like_count: 6
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster, Most Recent Poster
+    extras: latest single
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  posts_count: 1
+  reply_count: 0
+  slug: vpns-vs-dns-which-keeps-you-the-safest
+  tags: []
+  tags_descriptions: {}
+  title: VPNs vs DNS - Which Keeps You The Safest?
+  unpinned: null
+  unseen: false
+  views: 361
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2024-06-05T16:16:49.001Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2024-02-22T23:24:51.031Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/3UixS2K1RZvXsNLmTkJeo4
+  fancy_title: Signal Usernames Have Arrived!
+  featured_link: https://neat.tube/w/3UixS2K1RZvXsNLmTkJeo4
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 16
+  id: 7379
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/7/734f86a77c702607216ed02c77c04a2f25d21c37.jpeg
+  last_posted_at: '2024-06-05T16:16:49.001Z'
+  last_poster_username: Flinch2253
+  like_count: 15
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1372
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 1751
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 2026
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1141
+  posts_count: 16
+  reply_count: 13
+  slug: signal-usernames-have-arrived
+  tags: []
+  tags_descriptions: {}
+  title: Signal Usernames Have Arrived!
+  unpinned: null
+  unseen: false
+  views: 743
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2024-03-02T09:11:02.510Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2024-02-21T22:54:45.990Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/c8nHmgiGcjWgmyY2CRbYbc
+  fancy_title: Apple Is Trying to Kill the Open Internet!
+  featured_link: https://neat.tube/w/c8nHmgiGcjWgmyY2CRbYbc
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: true
+  highest_post_number: 74
+  id: 7360
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/e/ee73f3f04b23e361dd4be7d13972713f60d99bcb.jpeg
+  last_posted_at: '2024-03-02T09:11:02.510Z'
+  last_poster_username: theprivacydad
+  like_count: 142
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 42
+    primary_group_id: 42
+    user_id: 576
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 1751
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1746
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1177
+  posts_count: 64
+  reply_count: 39
+  slug: apple-is-trying-to-kill-the-open-internet
+  tags: []
+  tags_descriptions: {}
+  title: Apple Is Trying to Kill the Open Internet!
+  unpinned: null
+  unseen: false
+  views: 1266
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2024-02-24T14:23:07.101Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2024-02-19T09:29:38.025Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/bJJ37mjye1ANFWPkfcJCSY
+  fancy_title: Escape Big Tech With NextcloudPi - James Sundquist Interview
+  featured_link: https://neat.tube/w/bJJ37mjye1ANFWPkfcJCSY
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 9
+  id: 7323
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/7/73110a4159be406362ffde3f1279fd9aab46dc48.jpeg
+  last_posted_at: '2024-02-24T14:23:07.101Z'
+  last_poster_username: Perk1ns
+  like_count: 12
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 42
+    primary_group_id: 42
+    user_id: 576
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1744
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 1751
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 770
+  posts_count: 9
+  reply_count: 3
+  slug: escape-big-tech-with-nextcloudpi-james-sundquist-interview
+  tags: []
+  tags_descriptions: {}
+  title: Escape Big Tech With NextcloudPi - James Sundquist Interview
+  unpinned: null
+  unseen: false
+  views: 672
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2024-02-14T09:44:25.116Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2024-02-14T09:44:25.055Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/ffj1HYCCTaxDc5ydm9FuNP
+  fancy_title: Mixed Emotions&hellip;My Reaction to Mozilla Layoffs &amp; New CEO
+  featured_link: https://neat.tube/w/ffj1HYCCTaxDc5ydm9FuNP
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 1
+  id: 7238
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/f/f25b23dd083a2c4c2810ed24bf7aac2652d6aab0.jpeg
+  last_posted_at: '2024-02-14T09:44:25.116Z'
+  last_poster_username: system
+  like_count: 5
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster, Most Recent Poster
+    extras: latest single
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  posts_count: 1
+  reply_count: 0
+  slug: mixed-emotions-my-reaction-to-mozilla-layoffs-new-ceo
+  tags: []
+  tags_descriptions: {}
+  title: Mixed Emotions...My Reaction to Mozilla Layoffs & New CEO
+  unpinned: null
+  unseen: false
+  views: 251
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2024-02-14T05:16:57.446Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2024-02-13T02:59:08.703Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/aHDnpztgSWyD8XGYeHRNH3
+  fancy_title: 'Apple Vision Pro Alert: 3 Security Issues Explained'
+  featured_link: https://neat.tube/w/aHDnpztgSWyD8XGYeHRNH3
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 2
+  id: 7212
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/8/84a83d631889df84db27828f62e4367153551ef6.jpeg
+  last_posted_at: '2024-02-14T05:16:57.446Z'
+  last_poster_username: Jordan
+  like_count: 2
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 1751
+  posts_count: 2
+  reply_count: 0
+  slug: apple-vision-pro-alert-3-security-issues-explained
+  tags: []
+  tags_descriptions: {}
+  title: 'Apple Vision Pro Alert: 3 Security Issues Explained'
+  unpinned: null
+  unseen: false
+  views: 243
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2024-02-11T10:37:42.291Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2024-02-11T05:59:49.104Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/xeLmipxMsYQzotCW9Myp6f
+  fancy_title: The Death of Skiff &amp; Why It Matters
+  featured_link: https://neat.tube/w/xeLmipxMsYQzotCW9Myp6f
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 6
+  id: 7183
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/5/56829c8bcd47b22e3efa87f180818c58c88775a2.jpeg
+  last_posted_at: '2024-02-11T10:37:42.291Z'
+  last_poster_username: rollsicecream
+  like_count: 13
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1053
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1906
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1002
+  posts_count: 5
+  reply_count: 3
+  slug: the-death-of-skiff-why-it-matters
+  tags: []
+  tags_descriptions: {}
+  title: The Death of Skiff & Why It Matters
+  unpinned: null
+  unseen: false
+  views: 414
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2024-02-02T01:10:16.393Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2024-02-01T02:19:11.195Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/s3NtcXaiNPJBDzjoteRiaT
+  fancy_title: 'Beat Big Tech: 3 Simple Empowerment Strategies!'
+  featured_link: https://neat.tube/w/s3NtcXaiNPJBDzjoteRiaT
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 1
+  id: 7015
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/f/f5b6dcfd661965ccef37c6e63c04f0ae3e4fbc46.jpeg
+  last_posted_at: '2024-02-01T02:19:11.291Z'
+  last_poster_username: system
+  like_count: 3
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster, Most Recent Poster
+    extras: latest single
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  posts_count: 1
+  reply_count: 0
+  slug: beat-big-tech-3-simple-empowerment-strategies
+  tags: []
+  tags_descriptions: {}
+  title: 'Beat Big Tech: 3 Simple Empowerment Strategies!'
+  unpinned: null
+  unseen: false
+  views: 359
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2024-01-30T00:50:21.040Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2024-01-27T00:09:35.210Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/wiNqRPaF5CoR275FHNPwSp
+  fancy_title: WTF APPLE! - Techlore Talks 18
+  featured_link: https://neat.tube/w/wiNqRPaF5CoR275FHNPwSp
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 7
+  id: 6932
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/3/36834bde4dcd3698e73c52f9d5babf2f455b31da.jpeg
+  last_posted_at: '2024-01-30T00:50:21.040Z'
+  last_poster_username: dAnnyCap
+  like_count: 15
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 1751
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1086
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1204
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1828
+  posts_count: 6
+  reply_count: 0
+  slug: wtf-apple-techlore-talks-18
+  tags: []
+  tags_descriptions: {}
+  title: WTF APPLE! - Techlore Talks 18
+  unpinned: null
+  unseen: false
+  views: 381
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2024-01-26T17:28:06.444Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2024-01-26T12:34:50.994Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/8ftJbVgViqJpo5scSVyJTh
+  fancy_title: Your privacy &amp; security questions answered! (Jan &lsquo;24)
+  featured_link: https://neat.tube/w/8ftJbVgViqJpo5scSVyJTh
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 2
+  id: 6926
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/5/548edcca490871121df2b743d93cde10c682a191.jpeg
+  last_posted_at: '2024-01-26T17:28:06.444Z'
+  last_poster_username: Purple-Jump-Privacy
+  like_count: 4
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: 42
+    primary_group_id: 42
+    user_id: 576
+  posts_count: 2
+  reply_count: 0
+  slug: your-privacy-security-questions-answered-jan-24
+  tags: []
+  tags_descriptions: {}
+  title: Your privacy & security questions answered! (Jan '24)
+  unpinned: null
+  unseen: false
+  views: 239
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2024-02-01T17:31:30.137Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2024-01-24T07:19:31.502Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/a3bszg62Tr8VwfujTNjFZS
+  fancy_title: Why I Stopped Hardening Firefox
+  featured_link: https://neat.tube/w/a3bszg62Tr8VwfujTNjFZS
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 43
+  id: 6881
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/c/c1c6ed008a68ccfac69f44160cf1eb3042321539.jpeg
+  last_posted_at: '2024-02-01T17:31:30.137Z'
+  last_poster_username: anon14216741
+  like_count: 65
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1893
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1518
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1828
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1825
+  posts_count: 43
+  reply_count: 19
+  slug: why-i-stopped-hardening-firefox
+  tags: []
+  tags_descriptions: {}
+  title: Why I Stopped Hardening Firefox
+  unpinned: null
+  unseen: false
+  views: 3529
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2024-01-19T20:14:28.424Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2024-01-19T18:09:41.909Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/sruTfnQ52HKw3PQkXwPX5Q
+  fancy_title: Brave NUKES Privacy Feature! Should You Panic?
+  featured_link: https://neat.tube/w/sruTfnQ52HKw3PQkXwPX5Q
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 2
+  id: 6821
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/7/74450e4cacb7b943d67422169e8e580a4bdf8857.jpeg
+  last_posted_at: '2024-01-19T20:14:28.424Z'
+  last_poster_username: amog
+  like_count: 7
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1372
+  posts_count: 2
+  reply_count: 0
+  slug: brave-nukes-privacy-feature-should-you-panic
+  tags: []
+  tags_descriptions: {}
+  title: Brave NUKES Privacy Feature! Should You Panic?
+  unpinned: null
+  unseen: false
+  views: 423
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2024-01-19T22:05:05.670Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2024-01-18T01:35:14.121Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/76Xmhhb6b8pf23bUUwDchu
+  fancy_title: 'The 2024 VPN Tier List: Privacy &amp; Security Smackdown!'
+  featured_link: https://neat.tube/w/76Xmhhb6b8pf23bUUwDchu
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 4
+  id: 6801
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/c/ce6cbeb03f283730c9788e069104316db1c6a78b.jpeg
+  last_posted_at: '2024-01-19T22:05:05.670Z'
+  last_poster_username: amog
+  like_count: 19
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 2
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1889
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1372
+  posts_count: 4
+  reply_count: 1
+  slug: the-2024-vpn-tier-list-privacy-security-smackdown
+  tags: []
+  tags_descriptions: {}
+  title: 'The 2024 VPN Tier List: Privacy & Security Smackdown!'
+  unpinned: null
+  unseen: false
+  views: 601
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2024-01-15T18:47:50.386Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2024-01-12T00:39:12.488Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/92t3wi1s9mrdE4q5KUDCNG
+  fancy_title: Exploit vs Backdoor Discussion! - Techlore Talks 17
+  featured_link: https://neat.tube/w/92t3wi1s9mrdE4q5KUDCNG
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 6
+  id: 6722
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/6/6aa1c605be9d10458b25a0140426a3a5985de40f.jpeg
+  last_posted_at: '2024-01-15T18:47:50.386Z'
+  last_poster_username: bump
+  like_count: 12
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 108
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 45
+    primary_group_id: 45
+    user_id: 792
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1245
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1111
+  posts_count: 6
+  reply_count: 2
+  slug: exploit-vs-backdoor-discussion-techlore-talks-17
+  tags: []
+  tags_descriptions: {}
+  title: Exploit vs Backdoor Discussion! - Techlore Talks 17
+  unpinned: null
+  unseen: false
+  views: 349
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2024-01-05T19:47:44.240Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2024-01-05T17:19:26.900Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/wdtzDUFVhczqqCerzCHXbb
+  fancy_title: The Apple Backdoor Explained
+  featured_link: https://neat.tube/w/wdtzDUFVhczqqCerzCHXbb
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 3
+  id: 6638
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/e/e4aefd71f2a145a4d98dae62f99ed35a69621be0.jpeg
+  last_posted_at: '2024-01-05T19:47:44.240Z'
+  last_poster_username: Henry
+  like_count: 11
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1086
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 2
+  posts_count: 3
+  reply_count: 1
+  slug: the-apple-backdoor-explained
+  tags: []
+  tags_descriptions: {}
+  title: The Apple Backdoor Explained
+  unpinned: null
+  unseen: false
+  views: 416
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2024-01-09T11:24:19.271Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2024-01-04T23:54:36.085Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/6drLET9gTmJtYVsLv1pAcU
+  fancy_title: 'Facebook Alert: Disable This New Feature! #privacy #facebook #security'
+  featured_link: https://neat.tube/w/6drLET9gTmJtYVsLv1pAcU
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 12
+  id: 6625
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/4/47ce025d0894c5edc7904e5931ed418849f5f049.jpeg
+  last_posted_at: '2024-01-09T09:59:16.514Z'
+  last_poster_username: BigBrother
+  like_count: 15
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 1751
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1086
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1660
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 818
+  posts_count: 9
+  reply_count: 9
+  slug: facebook-alert-disable-this-new-feature-privacy-facebook-security
+  tags: []
+  tags_descriptions: {}
+  title: 'Facebook Alert: Disable This New Feature! #privacy #facebook #security'
+  unpinned: null
+  unseen: false
+  views: 468
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2024-01-03T08:53:19.761Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2024-01-02T23:44:33.809Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/1AcB8dp6wFtj2NYh3sLPJM
+  fancy_title: Digital Rights Awards 2023!
+  featured_link: https://neat.tube/w/1AcB8dp6wFtj2NYh3sLPJM
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 4
+  id: 6594
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/3/3b02ecc7493daaf41396827f5332387ae535c3d3.jpeg
+  last_posted_at: '2024-01-03T08:53:19.761Z'
+  last_poster_username: Henry
+  like_count: 7
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1204
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1086
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 2
+  posts_count: 4
+  reply_count: 1
+  slug: digital-rights-awards-2023
+  tags: []
+  tags_descriptions: {}
+  title: Digital Rights Awards 2023!
+  unpinned: null
+  unseen: false
+  views: 293
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-12-29T02:34:10.050Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-12-27T07:24:03.632Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/b3FEgsKDuK9snzfyrzs9vG
+  fancy_title: How To Avoid Falling For Honeypots!
+  featured_link: https://neat.tube/w/b3FEgsKDuK9snzfyrzs9vG
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 6
+  id: 6494
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/b/b2c3bd3794b0a5f3bdbfa3cc52712bb5b4f2003e.jpeg
+  last_posted_at: '2023-12-28T01:59:00.653Z'
+  last_poster_username: InternetGhost
+  like_count: 17
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1053
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1738
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 2
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 108
+  posts_count: 5
+  reply_count: 4
+  slug: how-to-avoid-falling-for-honeypots
+  tags: []
+  tags_descriptions: {}
+  title: How To Avoid Falling For Honeypots!
+  unpinned: null
+  unseen: false
+  views: 395
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-12-19T15:59:46.722Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-12-19T08:14:41.597Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/34xyQE31MbJVuEJ9AXbkj4
+  fancy_title: We Tried Signal&rsquo;s MobileCoin So You Never Have To
+  featured_link: https://neat.tube/w/34xyQE31MbJVuEJ9AXbkj4
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 7
+  id: 6408
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/4/464cd135f4999e1728a2cc549815143acb6b98dd.jpeg
+  last_posted_at: '2023-12-19T15:59:46.722Z'
+  last_poster_username: anon29736653
+  like_count: 7
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1086
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1576
+  posts_count: 7
+  reply_count: 4
+  slug: we-tried-signals-mobilecoin-so-you-never-have-to
+  tags: []
+  tags_descriptions: {}
+  title: We Tried Signal's MobileCoin So You Never Have To
+  unpinned: null
+  unseen: false
+  views: 353
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-12-18T10:20:09.969Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-12-18T09:39:30.809Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/9kwZ9g3fwByHWktfGrtm12
+  fancy_title: Why I &lsquo;Switched&rsquo; From IVPN To Mullvad VPN (Sorta)
+  featured_link: https://neat.tube/w/9kwZ9g3fwByHWktfGrtm12
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 2
+  id: 6398
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/3/32b6c0d3701d49023824c522e11dd9544e3add0f.jpeg
+  last_posted_at: '2023-12-18T10:20:09.969Z'
+  last_poster_username: AureliusPublius
+  like_count: 7
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 136
+  posts_count: 2
+  reply_count: 0
+  slug: why-i-switched-from-ivpn-to-mullvad-vpn-sorta
+  tags: []
+  tags_descriptions: {}
+  title: Why I 'Switched' From IVPN To Mullvad VPN (Sorta)
+  unpinned: null
+  unseen: false
+  views: 495
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-12-13T18:20:39.917Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-12-13T18:20:39.832Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/bJKMb2Nzvt6D6UkQjB6fhg
+  fancy_title: 'Governments Spying on Your Notifications: What You Need to Know #techlore
+    #smartphone #privacy'
+  featured_link: https://neat.tube/w/bJKMb2Nzvt6D6UkQjB6fhg
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 1
+  id: 6358
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/9/9eedc7fc9c275a8190c703b66cd22fbab1b179bd.jpeg
+  last_posted_at: '2023-12-13T18:20:39.917Z'
+  last_poster_username: system
+  like_count: 1
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster, Most Recent Poster
+    extras: latest single
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  posts_count: 1
+  reply_count: 0
+  slug: governments-spying-on-your-notifications-what-you-need-to-know-techlore-smartphone-privacy
+  tags: []
+  tags_descriptions: {}
+  title: 'Governments Spying on Your Notifications: What You Need to Know #techlore
+    #smartphone #privacy'
+  unpinned: null
+  unseen: false
+  views: 286
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-12-11T01:29:06.514Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-12-09T04:29:58.428Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/oQ2mqKe5keUa3FMKH7RxPG
+  fancy_title: Apple Confirms Government Spies on Notifications! - Techlore Talks
+    16
+  featured_link: https://neat.tube/w/oQ2mqKe5keUa3FMKH7RxPG
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 6
+  id: 6306
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/5/5772e28ac2121f228ee1b2e361036c2759d857eb.jpeg
+  last_posted_at: '2023-12-11T01:29:06.514Z'
+  last_poster_username: anon29736653
+  like_count: 10
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 108
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1002
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1372
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1576
+  posts_count: 6
+  reply_count: 2
+  slug: apple-confirms-government-spies-on-notifications-techlore-talks-16
+  tags: []
+  tags_descriptions: {}
+  title: Apple Confirms Government Spies on Notifications! - Techlore Talks 16
+  unpinned: null
+  unseen: false
+  views: 404
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-12-03T03:29:29.855Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-12-02T06:52:32.083Z'
+  excerpt: (manually posting due to a technical issue!)
+  fancy_title: All your privacy &amp; security questions answered! (Nov &lsquo;23)
+  featured_link: https://neat.tube/w/aR256etaoxjtu5z16peYJm
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 5
+  id: 6242
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/6/6e47f9b5900861b8f7e85e6cdded8078ee56f232.jpeg
+  last_posted_at: '2023-12-03T03:29:29.855Z'
+  last_poster_username: xe3
+  like_count: 17
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 1751
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 108
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1180
+  posts_count: 5
+  reply_count: 1
+  slug: all-your-privacy-security-questions-answered-nov-23
+  tags: []
+  tags_descriptions: {}
+  title: All your privacy & security questions answered! (Nov '23)
+  unpinned: null
+  unseen: false
+  views: 606
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-11-24T02:26:26.329Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-11-24T02:26:26.270Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/12gvyw2gXBaUnhcRMELDND
+  fancy_title: 'Black Friday Discounts for the Average Privacy Nerd :nerd_face:'
+  featured_link: https://neat.tube/w/12gvyw2gXBaUnhcRMELDND
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 1
+  id: 6157
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/0/099af32d4c95d8ddbe2e2004456f1232306b233e.jpeg
+  last_posted_at: '2023-11-24T02:26:26.329Z'
+  last_poster_username: system
+  like_count: 5
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster, Most Recent Poster
+    extras: latest single
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  posts_count: 1
+  reply_count: 0
+  slug: black-friday-discounts-for-the-average-privacy-nerd
+  tags: []
+  tags_descriptions: {}
+  title: "Black Friday Discounts for the Average Privacy Nerd \U0001F913"
+  unpinned: null
+  unseen: false
+  views: 522
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-11-22T23:06:55.582Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-11-22T07:44:30.096Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/x3XeE4EVXxVNataKBZyyX1
+  fancy_title: Apple is finally resolving its green messages problem. - Techlore Talks
+    15
+  featured_link: https://neat.tube/w/x3XeE4EVXxVNataKBZyyX1
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 5
+  id: 6151
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/f/f760c88ae8c368611793195648d70d562cd80b80.jpeg
+  last_posted_at: '2023-11-22T23:06:55.582Z'
+  last_poster_username: Purple-Jump-Privacy
+  like_count: 10
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 108
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 447
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1576
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: 42
+    primary_group_id: 42
+    user_id: 576
+  posts_count: 5
+  reply_count: 0
+  slug: apple-is-finally-resolving-its-green-messages-problem-techlore-talks-15
+  tags: []
+  tags_descriptions: {}
+  title: Apple is finally resolving its green messages problem. - Techlore Talks 15
+  unpinned: null
+  unseen: false
+  views: 364
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-11-19T22:19:02.226Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-11-19T06:10:13.604Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/1ukMoSvdULqT2vWHsd73cy
+  fancy_title: Matthias Kirschner on FSFE&rsquo;s Open Source Journey
+  featured_link: https://neat.tube/w/1ukMoSvdULqT2vWHsd73cy
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 2
+  id: 6121
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/5/54a2709e96e84cb6c4a13fa61172c2549ddee56c.jpeg
+  last_posted_at: '2023-11-19T22:19:02.226Z'
+  last_poster_username: Angler0982
+  like_count: 1
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1307
+  posts_count: 2
+  reply_count: 0
+  slug: matthias-kirschner-on-fsfes-open-source-journey
+  tags: []
+  tags_descriptions: {}
+  title: Matthias Kirschner on FSFE's Open Source Journey
+  unpinned: null
+  unseen: false
+  views: 264
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-11-29T06:58:33.191Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-11-14T12:49:44.248Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/ovLQTWQeWrydaEBoSBPspX
+  fancy_title: Signal Usernames Are FINALLY Coming!
+  featured_link: https://neat.tube/w/ovLQTWQeWrydaEBoSBPspX
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 11
+  id: 6069
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/7/7bc3ef8331c22171ae908286776995530a219bbc.jpeg
+  last_posted_at: '2023-11-29T06:58:33.191Z'
+  last_poster_username: Agreeably_Icy
+  like_count: 16
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 847
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1554
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1584
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 192
+  posts_count: 11
+  reply_count: 7
+  slug: signal-usernames-are-finally-coming
+  tags: []
+  tags_descriptions: {}
+  title: Signal Usernames Are FINALLY Coming!
+  unpinned: null
+  unseen: false
+  views: 947
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-11-08T22:15:45.709Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-11-03T21:04:44.640Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/6fCtiJSLrvWwPXH5te8ou2
+  fancy_title: 'Nextcloud 2023 Conference: Celebrating the Beauty of Open Source'
+  featured_link: https://neat.tube/w/6fCtiJSLrvWwPXH5te8ou2
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 11
+  id: 5960
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/9/9a7a914843896cbb9ce5ccb302c0a26bea357da9.jpeg
+  last_posted_at: '2023-11-08T22:15:45.709Z'
+  last_poster_username: Jonah
+  like_count: 14
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 2
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 770
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1584
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 1
+  posts_count: 11
+  reply_count: 5
+  slug: nextcloud-2023-conference-celebrating-the-beauty-of-open-source
+  tags: []
+  tags_descriptions: {}
+  title: 'Nextcloud 2023 Conference: Celebrating the Beauty of Open Source'
+  unpinned: null
+  unseen: false
+  views: 441
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-10-27T13:29:01.310Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-10-27T11:55:42.398Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/njjZVEtPiX9KAqBM5tXBYV
+  fancy_title: Disappointing Updates From Google! - Techlore Talks 14
+  featured_link: https://neat.tube/w/njjZVEtPiX9KAqBM5tXBYV
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 2
+  id: 5895
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/5/5a76f771ffbaadce61417b93329f5f251cbab53d.jpeg
+  last_posted_at: '2023-10-27T13:29:01.310Z'
+  last_poster_username: Ambrosio
+  like_count: 4
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 447
+  posts_count: 2
+  reply_count: 0
+  slug: disappointing-updates-from-google-techlore-talks-14
+  tags: []
+  tags_descriptions: {}
+  title: Disappointing Updates From Google! - Techlore Talks 14
+  unpinned: null
+  unseen: false
+  views: 400
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-10-15T18:24:17.543Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-10-15T06:40:27.921Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/cPQa2HgvA4VyP47GoQ9PfP
+  fancy_title: Exciting Updates from Google! - Techlore Talks 13
+  featured_link: https://neat.tube/w/cPQa2HgvA4VyP47GoQ9PfP
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 2
+  id: 5806
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/4/436f598a9ec31b3a5c8fbb6e92c7bc01e7e15dc4.jpeg
+  last_posted_at: '2023-10-15T18:24:17.543Z'
+  last_poster_username: alula
+  like_count: 2
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 411
+  posts_count: 2
+  reply_count: 0
+  slug: exciting-updates-from-google-techlore-talks-13
+  tags: []
+  tags_descriptions: {}
+  title: Exciting Updates from Google! - Techlore Talks 13
+  unpinned: null
+  unseen: false
+  views: 330
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-09-17T05:15:43.135Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-09-15T22:24:41.391Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/8Xvab9GZgSbPhrDGraj4Zq
+  fancy_title: Top 5 Safe VPNs for $0. (Yes, Really)
+  featured_link: https://neat.tube/w/8Xvab9GZgSbPhrDGraj4Zq
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 7
+  id: 5556
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/e/e59ecb75fd246921562483a618946de7220d685b.jpeg
+  last_posted_at: '2023-09-17T05:15:43.135Z'
+  last_poster_username: 0xvino
+  like_count: 20
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1248
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1328
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 43
+    primary_group_id: 43
+    user_id: 1571
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1599
+  posts_count: 7
+  reply_count: 0
+  slug: top-5-safe-vpns-for-0-yes-really
+  tags: []
+  tags_descriptions: {}
+  title: Top 5 Safe VPNs for $0. (Yes, Really)
+  unpinned: null
+  unseen: false
+  views: 696
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-09-06T18:09:37.000Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-09-04T00:50:43.914Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/p7j9UzmcAvtLB3dcka37Fy
+  fancy_title: Marking a Few Victories for Privacy! - Techlore Talks 12
+  featured_link: https://neat.tube/w/p7j9UzmcAvtLB3dcka37Fy
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 4
+  id: 5415
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/8/83610634e9cd78809c8219547ec229fb4875053e.jpeg
+  last_posted_at: '2023-09-06T18:09:37.000Z'
+  last_poster_username: Purple-Jump-Privacy
+  like_count: 4
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 1
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: 42
+    primary_group_id: 42
+    user_id: 576
+  posts_count: 4
+  reply_count: 2
+  slug: marking-a-few-victories-for-privacy-techlore-talks-12
+  tags: []
+  tags_descriptions: {}
+  title: Marking a Few Victories for Privacy! - Techlore Talks 12
+  unpinned: null
+  unseen: false
+  views: 363
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-09-04T17:13:06.386Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-09-02T15:39:51.277Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/ajhr3qPdkfSNXC7EmQ8Me9
+  fancy_title: 'Jitsi ended anonymous video meetings :frowning:'
+  featured_link: https://neat.tube/w/ajhr3qPdkfSNXC7EmQ8Me9
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 12
+  id: 5403
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/2/21e77081ac4c557ef437c445fce1f532ad180664.jpeg
+  last_posted_at: '2023-09-04T17:13:06.386Z'
+  last_poster_username: amog
+  like_count: 20
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 42
+    primary_group_id: 42
+    user_id: 576
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1554
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 12
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1372
+  posts_count: 12
+  reply_count: 5
+  slug: jitsi-ended-anonymous-video-meetings
+  tags: []
+  tags_descriptions: {}
+  title: Jitsi ended anonymous video meetings :(
+  unpinned: null
+  unseen: false
+  views: 548
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2024-09-25T17:01:15.161Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-09-02T07:00:23.743Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/do1qqZrbNSTgMXM6rECZPY
+  fancy_title: 'Simplifying w/Digital Minimalism: What&rsquo;s on My Phone'
+  featured_link: https://neat.tube/w/do1qqZrbNSTgMXM6rECZPY
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 19
+  id: 5399
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/0/0225812fd2c267b28134442257badb66e6ed8a12.jpeg
+  last_posted_at: '2024-09-25T17:01:15.161Z'
+  last_poster_username: ThePrivacyLurker
+  like_count: 41
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1168
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1372
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1181
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1608
+  posts_count: 19
+  reply_count: 11
+  slug: simplifying-w-digital-minimalism-whats-on-my-phone
+  tags: []
+  tags_descriptions: {}
+  title: 'Simplifying w/Digital Minimalism: What''s on My Phone'
+  unpinned: null
+  unseen: false
+  views: 1305
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2024-04-26T16:58:15.036Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-08-28T03:39:20.329Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/trV7L9qTeM6gvcN6mNi8G7
+  fancy_title: 'Get to know Punkt MP02: A Dumbphone w/Signal for your Privacy'
+  featured_link: https://neat.tube/w/trV7L9qTeM6gvcN6mNi8G7
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 27
+  id: 5352
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/4/43813724a562fa9b31ddb881c571370b5c90f043.jpeg
+  last_posted_at: '2024-04-26T16:58:15.036Z'
+  last_poster_username: theprivacydad
+  like_count: 72
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1372
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1002
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1700
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1177
+  posts_count: 26
+  reply_count: 16
+  slug: get-to-know-punkt-mp02-a-dumbphone-w-signal-for-your-privacy
+  tags: []
+  tags_descriptions: {}
+  title: 'Get to know Punkt MP02: A Dumbphone w/Signal for your Privacy'
+  unpinned: null
+  unseen: false
+  views: 1383
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-08-26T18:37:08.637Z'
+  can_vote: false
+  category_id: 20
+  closed: true
+  created_at: '2023-08-26T18:37:08.582Z'
+  excerpt: "Join the discussion and ask your questions in the dedicated thread: August\
+    \ Livestream Q&amp;A - Patreon Priority Thread! \U0001F64B | Patreon"
+  fancy_title: All your privacy &amp; security questions answered! (Livestream)
+  featured_link: https://youtube.com/live/XFiBnbJxUPs
+  featured_link_root_domain: youtube.com
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 3
+  id: 5324
+  image_url: null
+  last_posted_at: '2023-08-26T18:37:33.075Z'
+  last_poster_username: Henry
+  like_count: 5
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster, Most Recent Poster
+    extras: latest single
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 2
+  posts_count: 3
+  reply_count: 0
+  slug: all-your-privacy-security-questions-answered-livestream
+  tags:
+  - action-social-post
+  tags_descriptions: {}
+  title: All your privacy & security questions answered! (Livestream)
+  unpinned: null
+  unseen: false
+  views: 531
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-08-22T04:56:38.819Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-08-22T04:56:38.757Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/bKZRahK6PRNL7yH8hCosLW
+  fancy_title: Your VPN won&rsquo;t go to jail for you for $5
+  featured_link: https://neat.tube/w/bKZRahK6PRNL7yH8hCosLW
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 1
+  id: 5262
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/1/1dc5ea3c9becefbd34ae383fdd4371adb9984e13.jpeg
+  last_posted_at: '2023-08-22T04:56:38.819Z'
+  last_poster_username: system
+  like_count: 3
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster, Most Recent Poster
+    extras: latest single
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  posts_count: 1
+  reply_count: 0
+  slug: your-vpn-wont-go-to-jail-for-you-for-5
+  tags: []
+  tags_descriptions: {}
+  title: Your VPN won't go to jail for you for $5
+  unpinned: null
+  unseen: false
+  views: 332
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-08-02T08:39:35.964Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-07-30T21:29:54.204Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/2K83Nd5Q6XdgM5rtGAjSP3
+  fancy_title: 'Proton Drive&rsquo;s Desktop Version: First Impressions'
+  featured_link: https://neat.tube/w/2K83Nd5Q6XdgM5rtGAjSP3
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 3
+  id: 5086
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/a/a1ded499a1c9d521b33fab0183792bc681ea5dfe.jpeg
+  last_posted_at: '2023-08-02T08:39:35.964Z'
+  last_poster_username: atrum-uumbra
+  like_count: 2
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 770
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 417
+  posts_count: 3
+  reply_count: 0
+  slug: proton-drives-desktop-version-first-impressions
+  tags: []
+  tags_descriptions: {}
+  title: 'Proton Drive''s Desktop Version: First Impressions'
+  unpinned: null
+  unseen: false
+  views: 561
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-07-25T08:28:15.622Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-07-22T18:59:43.749Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/xxjxjQvhgdpncs9VZSJ2RF
+  fancy_title: 'Why Browser Wars Are Silly: Here&rsquo;s What Matters!'
+  featured_link: https://neat.tube/w/xxjxjQvhgdpncs9VZSJ2RF
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 16
+  id: 4934
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/6/6bb619c06097079e5cfcc284aa546f8847fd29bd.jpeg
+  last_posted_at: '2023-07-25T08:28:15.622Z'
+  last_poster_username: Purple-Jump-Privacy
+  like_count: 34
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 770
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 108
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1183
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: 42
+    primary_group_id: 42
+    user_id: 576
+  posts_count: 16
+  reply_count: 5
+  slug: why-browser-wars-are-silly-heres-what-matters
+  tags: []
+  tags_descriptions: {}
+  title: 'Why Browser Wars Are Silly: Here''s What Matters!'
+  unpinned: null
+  unseen: false
+  views: 1446
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-07-14T22:59:50.798Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-07-14T22:59:50.738Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/xsccgU1GCv1L1xaiVUgVKC
+  fancy_title: Unpacking the New Techlore Sponsor Program!
+  featured_link: https://neat.tube/w/xsccgU1GCv1L1xaiVUgVKC
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 1
+  id: 4799
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/7/7446dec68114113b26001dedfb55739d7448ab50.jpeg
+  last_posted_at: '2023-07-14T22:59:50.798Z'
+  last_poster_username: system
+  like_count: 5
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster, Most Recent Poster
+    extras: latest single
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  posts_count: 1
+  reply_count: 0
+  slug: unpacking-the-new-techlore-sponsor-program
+  tags: []
+  tags_descriptions: {}
+  title: Unpacking the New Techlore Sponsor Program!
+  unpinned: null
+  unseen: false
+  views: 282
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-07-13T00:35:32.357Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-07-07T04:45:39.326Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/2Rw4j9uUdGzj8sVyy8zcx5
+  fancy_title: "No Thanks\u2014Why I&rsquo;m Avoiding Instagram Threads"
+  featured_link: https://neat.tube/w/2Rw4j9uUdGzj8sVyy8zcx5
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 23
+  id: 4651
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/7/7c381235fbaf6f4457fda7c2047218058a92e1b8.jpeg
+  last_posted_at: '2023-07-13T00:35:32.357Z'
+  last_poster_username: Person901
+  like_count: 17
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 147
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 651
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 1
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1266
+  posts_count: 22
+  reply_count: 11
+  slug: no-thanks-why-im-avoiding-instagram-threads
+  tags: []
+  tags_descriptions: {}
+  title: "No Thanks\u2014Why I'm Avoiding Instagram Threads"
+  unpinned: null
+  unseen: false
+  views: 860
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-11-13T22:03:44.183Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-07-03T07:44:43.572Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/19r4YnE6fpce6e2B9MepnB
+  fancy_title: The ULTIMATE Guide to Mastering NextDNS!
+  featured_link: https://neat.tube/w/19r4YnE6fpce6e2B9MepnB
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: true
+  highest_post_number: 50
+  id: 4564
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/c/c05698112fbe7efaed34e5bbad5b06d95b1723e2.jpeg
+  last_posted_at: '2023-11-13T22:03:44.183Z'
+  last_poster_username: fr3akx_67
+  like_count: 65
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1204
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1014
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 2
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1706
+  posts_count: 50
+  reply_count: 30
+  slug: the-ultimate-guide-to-mastering-nextdns
+  tags: []
+  tags_descriptions: {}
+  title: The ULTIMATE Guide to Mastering NextDNS!
+  unpinned: null
+  unseen: false
+  views: 7565
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-07-01T00:41:47.372Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-06-30T16:54:43.632Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/mmymhFZCRn5FVt3GnAZPv7
+  fancy_title: Google Play Store is a Walled Garden - Here&rsquo;s How to Escape!
+  featured_link: https://neat.tube/w/mmymhFZCRn5FVt3GnAZPv7
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 4
+  id: 4497
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/8/802eb69fa1e44078f24de84c38a45f96bd142ca9.jpeg
+  last_posted_at: '2023-07-01T00:41:47.372Z'
+  last_poster_username: Yashir_Wynott
+  like_count: 9
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 147
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1221
+  posts_count: 4
+  reply_count: 2
+  slug: google-play-store-is-a-walled-garden-heres-how-to-escape
+  tags: []
+  tags_descriptions: {}
+  title: Google Play Store is a Walled Garden - Here's How to Escape!
+  unpinned: null
+  unseen: false
+  views: 433
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-07-05T14:32:58.086Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-06-29T02:34:32.038Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/49uEJbcxHT2pNkjmtneJzR
+  fancy_title: "Thoughts on Proton\u2019s New Password Manager! (I\u2019m Mixed\u2026\
+    )"
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 24
+  id: 4487
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/b/b78bdad81103b749d54feed5b274afff612bda83.jpeg
+  last_posted_at: '2023-07-05T14:32:58.086Z'
+  last_poster_username: Henry
+  like_count: 49
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1014
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 1751
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 884
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 2
+  posts_count: 23
+  reply_count: 8
+  slug: thoughts-on-proton-s-new-password-manager-i-m-mixed
+  tags: []
+  tags_descriptions: {}
+  title: "Thoughts on Proton\u2019s New Password Manager! (I\u2019m Mixed\u2026)"
+  unpinned: null
+  unseen: false
+  views: 1656
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-06-21T04:17:27.858Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-06-19T22:29:24.086Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/9qN8T2kx6Ara7nB4rEwcrk
+  fancy_title: My Primary Complaint with Signal
+  featured_link: https://neat.tube/w/9qN8T2kx6Ara7nB4rEwcrk
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 10
+  id: 4311
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/2/2d03fe1a26d9677cbc5907f92b97941cb7bec438.jpeg
+  last_posted_at: '2023-06-21T04:17:27.858Z'
+  last_poster_username: anon82764981
+  like_count: 10
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 142
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1256
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1221
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1118
+  posts_count: 10
+  reply_count: 2
+  slug: my-primary-complaint-with-signal
+  tags: []
+  tags_descriptions: {}
+  title: My Primary Complaint with Signal
+  unpinned: null
+  unseen: false
+  views: 703
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-06-20T19:21:10.058Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-06-18T07:39:36.153Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/fppDLrRd1JyJpTYXHLVdur
+  fancy_title: "YouTube\u2019s Bizarre Comment C\u0336e\u0336n\u0336s\u0336o\u0336\
+    r\u0336s\u0336h\u0336i\u0336p\u0336 Problem"
+  featured_link: https://neat.tube/w/fppDLrRd1JyJpTYXHLVdur
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 11
+  id: 4245
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/2/2be820b628d9183cfa33f11b682a8fe8d42185ca.jpeg
+  last_posted_at: '2023-06-20T19:21:10.058Z'
+  last_poster_username: orangensaft
+  like_count: 10
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1221
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 142
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1266
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1301
+  posts_count: 10
+  reply_count: 5
+  slug: youtube-s-bizarre-comment-c-e-n-s-o-r-s-h-i-p-problem
+  tags: []
+  tags_descriptions: {}
+  title: "YouTube\u2019s Bizarre Comment C\u0336e\u0336n\u0336s\u0336o\u0336r\u0336\
+    s\u0336h\u0336i\u0336p\u0336 Problem"
+  unpinned: null
+  unseen: false
+  views: 519
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-06-16T00:07:34.252Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-06-15T20:09:23.937Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/pBYNcrhFTTnStexTFXZwH6
+  fancy_title: How PrivacyTests Works - Arthur Edelstein Interview
+  featured_link: https://neat.tube/w/pBYNcrhFTTnStexTFXZwH6
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 3
+  id: 4205
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/c/c1744693a9aff16406535156dfb447e195a646d4.jpeg
+  last_posted_at: '2023-06-16T00:07:34.252Z'
+  last_poster_username: b-9
+  like_count: 12
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 2
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1204
+  posts_count: 3
+  reply_count: 0
+  slug: how-privacytests-works-arthur-edelstein-interview
+  tags: []
+  tags_descriptions: {}
+  title: How PrivacyTests Works - Arthur Edelstein Interview
+  unpinned: null
+  unseen: false
+  views: 380
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-06-14T16:20:25.582Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-06-14T16:20:25.520Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/qH1wbRZfFYED7ZbDqtGpAM
+  fancy_title: The Undiscussed Consequence To Reddit API Changes
+  featured_link: https://neat.tube/w/qH1wbRZfFYED7ZbDqtGpAM
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 1
+  id: 4168
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/d/d1737017271feca58aeeb58cc7b042bbd9847f42.jpeg
+  last_posted_at: '2023-06-14T16:20:25.582Z'
+  last_poster_username: system
+  like_count: 2
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster, Most Recent Poster
+    extras: latest single
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  posts_count: 1
+  reply_count: 0
+  slug: the-undiscussed-consequence-to-reddit-api-changes
+  tags: []
+  tags_descriptions: {}
+  title: The Undiscussed Consequence To Reddit API Changes
+  unpinned: null
+  unseen: false
+  views: 292
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-06-14T20:47:27.582Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-06-13T16:15:57.116Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/vZVbzZqbnPPMzZ1JzZFJne
+  fancy_title: "The Internet&rsquo;s Broken, Not Just Reddit \u2013 Techlore Talks\
+    \ 11"
+  featured_link: https://neat.tube/w/vZVbzZqbnPPMzZ1JzZFJne
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 12
+  id: 4145
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/f/f604c506cc5c55daabb6955621e5c308e1f7e3ab.jpeg
+  last_posted_at: '2023-06-14T20:47:27.582Z'
+  last_poster_username: Yashir_Wynott
+  like_count: 16
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 2
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 108
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1221
+  posts_count: 12
+  reply_count: 7
+  slug: the-internets-broken-not-just-reddit-techlore-talks-11
+  tags: []
+  tags_descriptions: {}
+  title: "The Internet's Broken, Not Just Reddit \u2013 Techlore Talks 11"
+  unpinned: null
+  unseen: false
+  views: 540
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-08-14T08:15:46.661Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-06-12T16:20:28.423Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/dRdnwqWR2mjwjXphnVWr43
+  fancy_title: What To Do When You Can&rsquo;t Delete An Account!
+  featured_link: https://neat.tube/w/dRdnwqWR2mjwjXphnVWr43
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 11
+  id: 4127
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/c/cc55a7162b0ca37f08e0a877961e82621be61781.jpeg
+  last_posted_at: '2023-08-14T08:15:46.661Z'
+  last_poster_username: bepart
+  like_count: 30
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1289
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1118
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 770
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1486
+  posts_count: 11
+  reply_count: 3
+  slug: what-to-do-when-you-cant-delete-an-account
+  tags: []
+  tags_descriptions: {}
+  title: What To Do When You Can't Delete An Account!
+  unpinned: null
+  unseen: false
+  views: 707
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-06-13T12:48:21.867Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-06-11T09:54:41.096Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/hUeGmAtDTNdWag2U7A2USu
+  fancy_title: Top 3 BEST Anonymous Operating Systems
+  featured_link: https://neat.tube/w/hUeGmAtDTNdWag2U7A2USu
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 16
+  id: 4108
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/5/589fe630e80fe3b3c9c51200b8aa2c3e59894b9f.jpeg
+  last_posted_at: '2023-06-13T12:48:21.867Z'
+  last_poster_username: Mohamad20ZX
+  like_count: 34
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 2
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1110
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1057
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 557
+  posts_count: 16
+  reply_count: 11
+  slug: top-3-best-anonymous-operating-systems
+  tags: []
+  tags_descriptions: {}
+  title: Top 3 BEST Anonymous Operating Systems
+  unpinned: null
+  unseen: false
+  views: 818
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-06-09T01:20:44.078Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-06-09T01:20:44.017Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/u8CQhqoc9b8cFUwzmdcYf9
+  fancy_title: 'Introducing Techlore Clips: Our New Channel!'
+  featured_link: https://neat.tube/w/u8CQhqoc9b8cFUwzmdcYf9
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 1
+  id: 4057
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/6/6a3c7b10ed6535cc9f199e97e42a63c8c76d4ee9.jpeg
+  last_posted_at: '2023-06-09T01:20:44.078Z'
+  last_poster_username: system
+  like_count: 2
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster, Most Recent Poster
+    extras: latest single
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  posts_count: 1
+  reply_count: 0
+  slug: introducing-techlore-clips-our-new-channel
+  tags: []
+  tags_descriptions: {}
+  title: 'Introducing Techlore Clips: Our New Channel!'
+  unpinned: null
+  unseen: false
+  views: 231
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-06-08T12:15:33.468Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-06-08T12:15:33.402Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/88UZHvcT7C8Vg9acr9KpWh
+  fancy_title: Why I Don&rsquo;t Use SimpleX Yet
+  featured_link: https://neat.tube/w/88UZHvcT7C8Vg9acr9KpWh
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 1
+  id: 4035
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/2/2fedcb95fe69a38c76c218b0eca8a8cbbda8fa5b.jpeg
+  last_posted_at: '2023-06-08T12:15:33.468Z'
+  last_poster_username: system
+  like_count: 4
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster, Most Recent Poster
+    extras: latest single
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  posts_count: 1
+  reply_count: 0
+  slug: why-i-dont-use-simplex-yet
+  tags: []
+  tags_descriptions: {}
+  title: Why I Don't Use SimpleX Yet
+  unpinned: null
+  unseen: false
+  views: 319
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-06-16T15:14:11.892Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-06-07T04:30:01.495Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/aAkCkj3TNdLdTuDTMVXSAh
+  fancy_title: All Privacy Updates From WWDC 2023! - Techlore Talks 10
+  featured_link: https://neat.tube/w/aAkCkj3TNdLdTuDTMVXSAh
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 15
+  id: 3995
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/d/d9b2420b8cc172825072785cfeacb00cfc2a67d1.jpeg
+  last_posted_at: '2023-06-16T15:14:11.892Z'
+  last_poster_username: b-9
+  like_count: 28
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1180
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1183
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 687
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1204
+  posts_count: 15
+  reply_count: 9
+  slug: all-privacy-updates-from-wwdc-2023-techlore-talks-10
+  tags: []
+  tags_descriptions: {}
+  title: All Privacy Updates From WWDC 2023! - Techlore Talks 10
+  unpinned: null
+  unseen: false
+  views: 503
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-06-15T14:53:52.536Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-06-05T22:24:41.059Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/sDXnDUtccpjejk2wpagbC3
+  fancy_title: The NAS That Permanently Changed My Privacy Life
+  featured_link: https://neat.tube/w/sDXnDUtccpjejk2wpagbC3
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 15
+  id: 3972
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/7/7a91305754830c7e561ba3fbc5b86ead206a9222.jpeg
+  last_posted_at: '2023-06-15T15:43:51.685Z'
+  last_poster_username: Jonah
+  like_count: 48
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 324
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1139
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1057
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 1
+  posts_count: 15
+  reply_count: 7
+  slug: the-nas-that-permanently-changed-my-privacy-life
+  tags: []
+  tags_descriptions: {}
+  title: The NAS That Permanently Changed My Privacy Life
+  unpinned: null
+  unseen: false
+  views: 1116
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-06-04T17:17:32.058Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-06-04T13:01:37.277Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/4Q8c4dSXSxodcNVkSmCzVK
+  fancy_title: "Reclaim Control with Vivaldi Browser! - J\xF3n von Tetzchner Interview"
+  featured_link: https://neat.tube/w/4Q8c4dSXSxodcNVkSmCzVK
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 3
+  id: 3955
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/f/fc9f41742b5b7829eb49b7ed161534b0cf21c190.jpeg
+  last_posted_at: '2023-06-04T17:17:32.058Z'
+  last_poster_username: vincentvd
+  like_count: 9
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 2
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: 42
+    primary_group_id: 42
+    user_id: 1160
+  posts_count: 3
+  reply_count: 0
+  slug: reclaim-control-with-vivaldi-browser-jon-von-tetzchner-interview
+  tags: []
+  tags_descriptions: {}
+  title: "Reclaim Control with Vivaldi Browser! - J\xF3n von Tetzchner Interview"
+  unpinned: null
+  unseen: false
+  views: 509
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-05-31T07:51:29.165Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-05-29T01:30:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/8gfy9HpHUrHnn3hgwrisnM
+  fancy_title: 'Aurora Users: Proceed with Caution!'
+  featured_link: https://neat.tube/w/8gfy9HpHUrHnn3hgwrisnM
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 7
+  id: 3879
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/4/48e4406b18be7e33f609c471661092939bc97699.jpeg
+  last_posted_at: '2023-05-31T07:51:29.165Z'
+  last_poster_username: Henry
+  like_count: 13
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1001
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 770
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 108
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 2
+  posts_count: 7
+  reply_count: 2
+  slug: aurora-users-proceed-with-caution
+  tags: []
+  tags_descriptions: {}
+  title: 'Aurora Users: Proceed with Caution!'
+  unpinned: null
+  unseen: false
+  views: 830
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-08-02T08:29:38.403Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-05-26T01:22:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=HWY8RAfUIuA
+  fancy_title: 'Flashing Android ROMS (almost) Made Easy! #shorts'
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 4
+  id: 3830
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/3/3fc69dbaa276b6252caa4375b9ccbf273421ca94_2_1024x576.jpeg
+  last_posted_at: '2023-08-02T08:29:38.403Z'
+  last_poster_username: atrum-uumbra
+  like_count: 2
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 2
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1057
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 417
+  posts_count: 4
+  reply_count: 0
+  slug: flashing-android-roms-almost-made-easy-shorts
+  tags: []
+  tags_descriptions: {}
+  title: 'Flashing Android ROMS (almost) Made Easy! #shorts'
+  unpinned: null
+  unseen: false
+  views: 357
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-05-28T15:15:41.103Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-05-25T23:42:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=XXgbhf80ys8
+  fancy_title: All your privacy &amp; security questions answered!
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 3
+  id: 3826
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/e/e8d9d2abc11e4608813969933295505dfd87bd6f_2_1024x576.jpeg
+  last_posted_at: '2023-05-28T15:10:23.704Z'
+  last_poster_username: Henry
+  like_count: 5
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 186
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 2
+  posts_count: 3
+  reply_count: 1
+  slug: all-your-privacy-security-questions-answered
+  tags: []
+  tags_descriptions: {}
+  title: All your privacy & security questions answered!
+  unpinned: null
+  unseen: false
+  views: 798
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-05-05T00:01:58.270Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-05-03T17:20:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=ZCnf03ukCig
+  fancy_title: Thwart Trackers - Uncovered Secrets to Stopping App Spies!
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 4
+  id: 3698
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/7/764b1ba8e4e4ec9bbb42223d45e2b6f491262a76_2_1024x576.jpeg
+  last_posted_at: '2023-05-05T00:01:58.270Z'
+  last_poster_username: InternetGhost
+  like_count: 7
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 2
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1080
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 108
+  posts_count: 4
+  reply_count: 0
+  slug: thwart-trackers-uncovered-secrets-to-stopping-app-spies
+  tags: []
+  tags_descriptions: {}
+  title: Thwart Trackers - Uncovered Secrets to Stopping App Spies!
+  unpinned: null
+  unseen: false
+  views: 465
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-04-29T17:53:55.016Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-04-28T23:43:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=epiduqAStlE
+  fancy_title: Google Authenticator is a Literal Meme - TT9
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 4
+  id: 3664
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/5/58bfc45a6c8aefc39fe17a7c34a92e5d202f4a8d_2_1024x576.jpeg
+  last_posted_at: '2023-04-29T17:53:55.016Z'
+  last_poster_username: Arken
+  like_count: 9
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 2
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1014
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1080
+  posts_count: 4
+  reply_count: 0
+  slug: google-authenticator-is-a-literal-meme-tt9
+  tags: []
+  tags_descriptions: {}
+  title: Google Authenticator is a Literal Meme - TT9
+  unpinned: null
+  unseen: false
+  views: 433
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-05-10T09:03:39.798Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-04-26T16:56:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=8Y77o23q_tg
+  fancy_title: Here&rsquo;s Why I Moved to Security Keys for 2FA
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 6
+  id: 3646
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/2/26cc8e0db0678754c17ea8e8951dd551157ce2bd_2_1024x576.jpeg
+  last_posted_at: '2023-05-10T09:03:39.798Z'
+  last_poster_username: gnu
+  like_count: 15
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 2
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 847
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1110
+  posts_count: 6
+  reply_count: 3
+  slug: heres-why-i-moved-to-security-keys-for-2fa
+  tags: []
+  tags_descriptions: {}
+  title: Here's Why I Moved to Security Keys for 2FA
+  unpinned: null
+  unseen: false
+  views: 467
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2024-02-23T21:35:25.759Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-04-22T10:04:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=M5-Ldu6YyBo
+  fancy_title: 'Proton Privacy: A Review to Determine its Full Potential!'
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 7
+  id: 3609
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/d/d8ccda7a682553a0675d56a10b0606ef1895670a_2_1024x576.jpeg
+  last_posted_at: '2024-02-23T21:35:25.759Z'
+  last_poster_username: PrivacyFounder
+  like_count: 17
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 108
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1057
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1053
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: 45
+    primary_group_id: 45
+    user_id: 1206
+  posts_count: 7
+  reply_count: 2
+  slug: proton-privacy-a-review-to-determine-its-full-potential
+  tags: []
+  tags_descriptions: {}
+  title: 'Proton Privacy: A Review to Determine its Full Potential!'
+  unpinned: null
+  unseen: false
+  views: 580
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-04-17T14:52:24.520Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-04-13T23:50:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=q1CrvY_of_8
+  fancy_title: Asking ChatGPT Tough Privacy Questions
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 3
+  id: 3557
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/5/51c738fefdb5c9c8b220606ea6f459b9374efd5e_2_1024x576.jpeg
+  last_posted_at: '2023-04-17T14:52:24.520Z'
+  last_poster_username: anon91504691
+  like_count: 4
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 2
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 12
+  posts_count: 3
+  reply_count: 0
+  slug: asking-chatgpt-tough-privacy-questions
+  tags: []
+  tags_descriptions: {}
+  title: Asking ChatGPT Tough Privacy Questions
+  unpinned: null
+  unseen: false
+  views: 323
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-04-10T00:10:11.551Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-04-08T12:50:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=tsrt1elZ9FE
+  fancy_title: Mullvad Released a Browser, and It ROCKS!
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 3
+  id: 3495
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/7/7ee72c8840cffa19a44138e786af6a26ba938387_2_1024x576.jpeg
+  last_posted_at: '2023-04-10T00:10:11.551Z'
+  last_poster_username: Wrench3160
+  like_count: 9
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 2
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 38
+  posts_count: 3
+  reply_count: 0
+  slug: mullvad-released-a-browser-and-it-rocks
+  tags: []
+  tags_descriptions: {}
+  title: Mullvad Released a Browser, and It ROCKS!
+  unpinned: null
+  unseen: false
+  views: 587
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-04-01T14:58:15.506Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-03-31T14:09:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=DlLl3CZoyKM
+  fancy_title: How to CRUSH DATA BROKERS with Rob Shavell from DeleteMe
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 4
+  id: 3446
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/e/eac7b752648497d6881fbfeab3bbc47fa0949f05_2_1024x576.jpeg
+  last_posted_at: '2023-04-01T14:52:51.498Z'
+  last_poster_username: Perk1ns
+  like_count: 4
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 2
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 770
+  posts_count: 4
+  reply_count: 0
+  slug: how-to-crush-data-brokers-with-rob-shavell-from-deleteme
+  tags: []
+  tags_descriptions: {}
+  title: How to CRUSH DATA BROKERS with Rob Shavell from DeleteMe
+  unpinned: null
+  unseen: false
+  views: 385
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-04-09T05:02:32.434Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-03-23T20:05:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=7FLobfFLhdg
+  fancy_title: Linus Tech Tips Hacked, What Happened!? - Techlore Talks 8
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 6
+  id: 3406
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/a/aae50d71b8adaf4048b8ad5b25fb93403a073610_2_1024x576.jpeg
+  last_posted_at: '2023-04-09T05:02:32.434Z'
+  last_poster_username: Arken
+  like_count: 14
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 626
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 447
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 1
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1080
+  posts_count: 6
+  reply_count: 2
+  slug: linus-tech-tips-hacked-what-happened-techlore-talks-8
+  tags: []
+  tags_descriptions: {}
+  title: Linus Tech Tips Hacked, What Happened!? - Techlore Talks 8
+  unpinned: null
+  unseen: false
+  views: 384
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-03-18T16:24:41.705Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-03-17T15:46:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=-eKg2N4DjX0
+  fancy_title: Can You Use Discord Privately?! | Q&amp;A
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 7
+  id: 3360
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/f/f30e29ed5357616c329b4a9ff88f59136e0d14b8_2_1024x576.jpeg
+  last_posted_at: '2023-03-18T16:24:41.705Z'
+  last_poster_username: ewEfA2jy
+  like_count: 1
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 2
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 557
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1034
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 831
+  posts_count: 7
+  reply_count: 2
+  slug: can-you-use-discord-privately-q-a
+  tags: []
+  tags_descriptions: {}
+  title: Can You Use Discord Privately?! | Q&A
+  unpinned: null
+  unseen: false
+  views: 621
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-03-18T19:43:32.904Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-03-15T14:31:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=6_eWS5-QZ9M
+  fancy_title: Here&amp;#39;s Why Monero is So Powerful w/ Seth For Privacy
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 2
+  id: 3349
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/6/65f90cc804fc5ca234e7ef4212273c501c32bdd1_2_1024x576.jpeg
+  last_posted_at: '2023-03-18T19:43:32.904Z'
+  last_poster_username: Perk1ns
+  like_count: 0
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 770
+  posts_count: 2
+  reply_count: 0
+  slug: here-39-s-why-monero-is-so-powerful-w-seth-for-privacy
+  tags: []
+  tags_descriptions: {}
+  title: Here&#39;s Why Monero is So Powerful w/ Seth For Privacy
+  unpinned: null
+  unseen: false
+  views: 281
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-03-11T18:35:22.680Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-03-11T02:07:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=k7tFnSeqnJY
+  fancy_title: Quad9 vs Sony, &amp; The State of Linux Phones! - Techlore Talks 7
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 2
+  id: 3332
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/5/5e47d12dc404b8cfa59d77a68c0221fbb0fc5091_2_1024x576.jpeg
+  last_posted_at: '2023-03-11T18:35:22.680Z'
+  last_poster_username: Mohamad20ZX
+  like_count: 2
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 557
+  posts_count: 2
+  reply_count: 0
+  slug: quad9-vs-sony-the-state-of-linux-phones-techlore-talks-7
+  tags: []
+  tags_descriptions: {}
+  title: Quad9 vs Sony, & The State of Linux Phones! - Techlore Talks 7
+  unpinned: null
+  unseen: false
+  views: 281
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-03-10T07:50:37.127Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-03-08T16:01:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=hSjWWL9mzR4
+  fancy_title: "Privacy is FUTILE\u2026unless\u2026?"
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 3
+  id: 3311
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/5/5cf31ced5a776ed135545989adaf23a4b4827252_2_1024x576.jpeg
+  last_posted_at: '2023-03-10T07:50:37.127Z'
+  last_poster_username: L_ishere670
+  like_count: 5
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 185
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 652
+  posts_count: 3
+  reply_count: 1
+  slug: privacy-is-futile-unless
+  tags: []
+  tags_descriptions: {}
+  title: "Privacy is FUTILE\u2026unless\u2026?"
+  unpinned: null
+  unseen: false
+  views: 334
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-03-03T13:22:57.316Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-02-27T12:05:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=25wG173PL3U
+  fancy_title: Stop iPhone Data Thefts Now!
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 3
+  id: 3259
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/6/6fcb7466c5b8ecd59e5a23764455a1ec9e89e3fd_2_1024x576.jpeg
+  last_posted_at: '2023-03-03T12:30:37.474Z'
+  last_poster_username: Joules
+  like_count: 10
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 45
+    primary_group_id: 45
+    user_id: 792
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 387
+  posts_count: 3
+  reply_count: 0
+  slug: stop-iphone-data-thefts-now
+  tags: []
+  tags_descriptions: {}
+  title: Stop iPhone Data Thefts Now!
+  unpinned: null
+  unseen: false
+  views: 321
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-10-08T14:46:58.545Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-02-22T10:30:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=Pwc8MGS8l40
+  fancy_title: Escaping Financial Surveillance with Tools Like Monero! (Douglas Tuman
+    Interview)
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 19
+  id: 3217
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/6/648bc353da767e4e20cea9e9f7ed04350647cdc6_2_1024x576.jpeg
+  last_posted_at: '2023-10-08T13:54:47.223Z'
+  last_poster_username: Perk1ns
+  like_count: 13
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 108
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 2
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 947
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 770
+  posts_count: 19
+  reply_count: 9
+  slug: escaping-financial-surveillance-with-tools-like-monero-douglas-tuman-interview
+  tags: []
+  tags_descriptions: {}
+  title: Escaping Financial Surveillance with Tools Like Monero! (Douglas Tuman Interview)
+  unpinned: null
+  unseen: false
+  views: 744
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-02-25T11:35:29.251Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-02-21T01:43:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=py9RtY2fYaA
+  fancy_title: My Even DEEPER Dive into Custom DNS Across VPNs
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 6
+  id: 3202
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/9/9fa6524f91d0456302fb9d29899021265c500e06_2_1024x576.jpeg
+  last_posted_at: '2023-02-25T11:03:43.545Z'
+  last_poster_username: hulksmack
+  like_count: 9
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 2
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1002
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 913
+  posts_count: 5
+  reply_count: 3
+  slug: my-even-deeper-dive-into-custom-dns-across-vpns
+  tags: []
+  tags_descriptions: {}
+  title: My Even DEEPER Dive into Custom DNS Across VPNs
+  unpinned: null
+  unseen: false
+  views: 443
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2024-01-02T05:53:55.735Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-02-15T10:30:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=xIXG3cFT6O4
+  fancy_title: FINALLY! The VPN Configuration I&rsquo;ve Been Looking For!
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 46
+  id: 3112
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/9/98256cf22e19163db8fb7647af329b94dbecadaa_2_1024x576.jpeg
+  last_posted_at: '2024-01-02T05:53:55.735Z'
+  last_poster_username: L_ishere670
+  like_count: 66
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 982
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 651
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 950
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 652
+  posts_count: 46
+  reply_count: 32
+  slug: finally-the-vpn-configuration-ive-been-looking-for
+  tags: []
+  tags_descriptions: {}
+  title: FINALLY! The VPN Configuration I've Been Looking For!
+  unpinned: null
+  unseen: false
+  views: 3081
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-02-16T09:20:25.382Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-02-09T14:00:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=ujJciKxvn6g
+  fancy_title: "Can iod\xE9OS take down stock Android? Let&rsquo;s Find Out!"
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 24
+  id: 3072
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/3/33e65f73024359047ffaf82ed792d2711e446fa2_2_1024x576.jpeg
+  last_posted_at: '2023-02-16T09:20:25.382Z'
+  last_poster_username: sec76
+  like_count: 10
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 770
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 108
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 651
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 918
+  posts_count: 24
+  reply_count: 16
+  slug: can-iodeos-take-down-stock-android-lets-find-out
+  tags: []
+  tags_descriptions: {}
+  title: "Can iod\xE9OS take down stock Android? Let's Find Out!"
+  unpinned: null
+  unseen: false
+  views: 838
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: false
+  bumped_at: '2023-01-28T14:56:00.000Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-01-28T14:56:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=CtJgUNbzHAQ
+  fancy_title: Techlore Privacy Q&amp;amp;A!
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 1
+  id: 2959
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/2/23cd836a883f01391b241a1855a7b6243799cffd_2_1024x576.jpeg
+  last_posted_at: '2023-01-28T14:56:00.000Z'
+  last_poster_username: system
+  like_count: 1
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster, Most Recent Poster
+    extras: latest single
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  posts_count: 1
+  reply_count: 0
+  slug: techlore-privacy-q-amp-a
+  tags: []
+  tags_descriptions: {}
+  title: Techlore Privacy Q&amp;A!
+  unpinned: null
+  unseen: false
+  views: 261
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: false
+  bumped_at: '2023-01-13T11:30:00.000Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-01-13T11:30:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=at3nJpSrFNc
+  fancy_title: 'Is There an Oversaturation of FOSS Projects?! - Techlore Talks #6'
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 1
+  id: 2869
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/0/019ba5d69d6ff9512a70ccfc8e3133ae85135106_2_1024x576.jpeg
+  last_posted_at: '2023-01-13T11:30:00.000Z'
+  last_poster_username: system
+  like_count: 1
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster, Most Recent Poster
+    extras: latest single
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  posts_count: 1
+  reply_count: 0
+  slug: is-there-an-oversaturation-of-foss-projects-techlore-talks-6
+  tags: []
+  tags_descriptions: {}
+  title: 'Is There an Oversaturation of FOSS Projects?! - Techlore Talks #6'
+  unpinned: null
+  unseen: false
+  views: 226
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2024-01-06T19:23:28.468Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-01-11T14:56:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=ENuGWhz10UY
+  fancy_title: "I Used Apple\u2019s Lockdown Mode So You Don\u2019t Have To"
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 6
+  id: 2864
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/8/8ad2818cc2408d8bc7216915439bab7f736f902d_2_1024x576.jpeg
+  last_posted_at: '2024-01-06T19:23:28.468Z'
+  last_poster_username: Chive2633
+  like_count: 13
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 2
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1204
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1660
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1086
+  posts_count: 6
+  reply_count: 2
+  slug: i-used-apple-s-lockdown-mode-so-you-don-t-have-to
+  tags: []
+  tags_descriptions: {}
+  title: "I Used Apple\u2019s Lockdown Mode So You Don\u2019t Have To"
+  unpinned: null
+  unseen: false
+  views: 479
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-01-11T19:23:20.563Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2023-01-04T10:00:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=I9ibGRNjK3E
+  fancy_title: Diving Into The World of Open Source Note-Taking! - (Notesnook Interview)
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 7
+  id: 2833
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/d/de323bd738ffce626590664836ed862256be9184_2_1024x576.jpeg
+  last_posted_at: '2023-01-11T19:23:20.563Z'
+  last_poster_username: Henry
+  like_count: 17
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 884
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 770
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 108
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 2
+  posts_count: 7
+  reply_count: 1
+  slug: diving-into-the-world-of-open-source-note-taking-notesnook-interview
+  tags: []
+  tags_descriptions: {}
+  title: Diving Into The World of Open Source Note-Taking! - (Notesnook Interview)
+  unpinned: null
+  unseen: false
+  views: 719
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-06-22T16:40:15.283Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2022-12-20T18:22:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=u-uj_dLXu5s
+  fancy_title: "The VPN You Use Probably Sucks - Here\u2019s Why"
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 19
+  id: 2715
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/2/2f9b20f147e0fcfcc20c0c45dcb3edace3d69f3b_2_1024x576.jpeg
+  last_posted_at: '2023-06-22T16:39:33.016Z'
+  last_poster_username: anon89964105
+  like_count: 29
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 45
+    primary_group_id: 45
+    user_id: 223
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1183
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 417
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1256
+  posts_count: 19
+  reply_count: 11
+  slug: the-vpn-you-use-probably-sucks-here-s-why
+  tags: []
+  tags_descriptions: {}
+  title: "The VPN You Use Probably Sucks - Here\u2019s Why"
+  unpinned: null
+  unseen: false
+  views: 803
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: false
+  bumped_at: '2022-12-10T09:06:00.000Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2022-12-10T09:06:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=mZuUig3ZnR8
+  fancy_title: 'Did Apple Just Fix iCloud&amp;#39;s Security?! - Techlore Talks #5'
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 1
+  id: 2620
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/c/ce45e5d4046e95f34c39c4663ac292305328c6a5_2_1024x576.jpeg
+  last_posted_at: '2022-12-10T09:06:00.000Z'
+  last_poster_username: system
+  like_count: 5
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster, Most Recent Poster
+    extras: latest single
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  posts_count: 1
+  reply_count: 0
+  slug: did-apple-just-fix-icloud-39-s-security-techlore-talks-5
+  tags: []
+  tags_descriptions: {}
+  title: 'Did Apple Just Fix iCloud&#39;s Security?! - Techlore Talks #5'
+  unpinned: null
+  unseen: false
+  views: 225
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2022-11-27T01:00:12.378Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2022-11-17T20:15:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=BkRkTdm9efs
+  fancy_title: 5 Reasons to DITCH TWITTER For Mastodon!
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 9
+  id: 2440
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/d/d19463e53d3cfed24a9d9c9013014f4e0f672ea3_2_1024x576.jpeg
+  last_posted_at: '2022-11-27T01:00:12.378Z'
+  last_poster_username: ewEfA2jy
+  like_count: 31
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 447
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 108
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 535
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 831
+  posts_count: 9
+  reply_count: 1
+  slug: 5-reasons-to-ditch-twitter-for-mastodon
+  tags: []
+  tags_descriptions: {}
+  title: 5 Reasons to DITCH TWITTER For Mastodon!
+  unpinned: null
+  unseen: false
+  views: 425
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2022-11-11T21:31:10.389Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2022-11-11T14:15:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=y9UJEn81UVw
+  fancy_title: See If Your Browser Is Private with THIS Tool!
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 2
+  id: 2388
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/6/63e25d5d0ab0493430e4bed72ffb0789734728d4_2_1024x576.jpeg
+  last_posted_at: '2022-11-11T21:01:36.989Z'
+  last_poster_username: Henry
+  like_count: 6
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 2
+  posts_count: 2
+  reply_count: 1
+  slug: see-if-your-browser-is-private-with-this-tool
+  tags: []
+  tags_descriptions: {}
+  title: See If Your Browser Is Private with THIS Tool!
+  unpinned: null
+  unseen: false
+  views: 351
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2022-10-31T22:52:30.528Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2022-10-28T17:24:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=e8mchGi9DVk
+  fancy_title: 'The Struggle of Moderating the Internet! - Techlore Talks #4'
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 9
+  id: 2240
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/b/b264f5e29f12014aaacc651fff0021f6584ce92a_2_1024x576.jpeg
+  last_posted_at: '2022-10-31T22:52:30.528Z'
+  last_poster_username: InternetGhost
+  like_count: 16
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 633
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 826
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 108
+  posts_count: 9
+  reply_count: 3
+  slug: the-struggle-of-moderating-the-internet-techlore-talks-4
+  tags: []
+  tags_descriptions: {}
+  title: 'The Struggle of Moderating the Internet! - Techlore Talks #4'
+  unpinned: null
+  unseen: false
+  views: 379
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: false
+  bumped_at: '2022-10-27T17:30:00.000Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2022-10-27T17:30:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=EuBLdKBdlLo
+  fancy_title: Twitter banned me!
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 1
+  id: 2216
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/7/7922c61bf81cb4536c00b3639b72a8625bf6bd59_2_1024x576.jpeg
+  last_posted_at: '2022-10-27T17:30:00.000Z'
+  last_poster_username: system
+  like_count: 1
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster, Most Recent Poster
+    extras: latest single
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  posts_count: 1
+  reply_count: 0
+  slug: twitter-banned-me
+  tags: []
+  tags_descriptions: {}
+  title: Twitter banned me!
+  unpinned: null
+  unseen: false
+  views: 304
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2022-10-13T20:23:24.802Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2022-10-12T13:28:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=Myn2MiCV1oU
+  fancy_title: Dispelling Myths of VPN Alternatives w/ Safing!
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 2
+  id: 1902
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/2/290598c598a66156b1e503c967a58b65719c115d_2_1024x576.jpeg
+  last_posted_at: '2022-10-13T20:23:24.802Z'
+  last_poster_username: Cdf
+  like_count: 2
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 713
+  posts_count: 2
+  reply_count: 0
+  slug: dispelling-myths-of-vpn-alternatives-w-safing
+  tags: []
+  tags_descriptions: {}
+  title: Dispelling Myths of VPN Alternatives w/ Safing!
+  unpinned: null
+  unseen: false
+  views: 306
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2022-10-10T14:32:15.554Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2022-10-09T11:00:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=E8Pzhpyf-Ow
+  fancy_title: 'Cognitive Dissonance &amp;amp; Confirmation Bias - Techlore Talks
+    #3'
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 3
+  id: 1857
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/0/067c861d905c766250d01d4474ff46ec07aabb0f_2_1024x576.jpeg
+  last_posted_at: '2022-10-10T14:32:15.554Z'
+  last_poster_username: InternetGhost
+  like_count: 8
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 447
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 108
+  posts_count: 3
+  reply_count: 0
+  slug: cognitive-dissonance-amp-confirmation-bias-techlore-talks-3
+  tags: []
+  tags_descriptions: {}
+  title: 'Cognitive Dissonance &amp; Confirmation Bias - Techlore Talks #3'
+  unpinned: null
+  unseen: false
+  views: 340
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2022-11-13T18:58:15.016Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2022-10-07T15:00:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=VHwIyR6ca4o
+  fancy_title: Ditch Chrome - Use THESE Instead!
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 39
+  id: 1834
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/e/e3266062be467d8b92d994e6bdc1f52f3a07c89c_2_1024x576.jpeg
+  last_posted_at: '2022-11-13T18:58:15.016Z'
+  last_poster_username: anon66741405
+  like_count: 29
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 2
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 702
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 645
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 855
+  posts_count: 39
+  reply_count: 30
+  slug: ditch-chrome-use-these-instead
+  tags: []
+  tags_descriptions: {}
+  title: Ditch Chrome - Use THESE Instead!
+  unpinned: null
+  unseen: false
+  views: 1384
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2022-10-05T13:18:56.361Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2022-10-05T02:35:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=FAnwEpb5jlc
+  fancy_title: My Apologies
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 3
+  id: 1809
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/f/f1ce448b0afde2ae0912b3b1e8175589a0629b1d_2_1024x576.jpeg
+  last_posted_at: '2022-10-05T13:18:56.361Z'
+  last_poster_username: InternetGhost
+  like_count: 18
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 16
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 108
+  posts_count: 3
+  reply_count: 0
+  slug: my-apologies
+  tags: []
+  tags_descriptions: {}
+  title: My Apologies
+  unpinned: null
+  unseen: false
+  views: 425
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2022-10-05T15:26:55.419Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2022-10-01T14:04:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=n6-tM8YAgQ4
+  fancy_title: 'Is Facebook FINALLY Dying?! - Techlore Talks #2'
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 6
+  id: 1771
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/0/0a1b9b63c005399a62c01e80f4e8d5957dc03b67_2_1024x576.jpeg
+  last_posted_at: '2022-10-05T15:26:55.419Z'
+  last_poster_username: Henry
+  like_count: 9
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 324
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 108
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 2
+  posts_count: 5
+  reply_count: 1
+  slug: is-facebook-finally-dying-techlore-talks-2
+  tags: []
+  tags_descriptions: {}
+  title: 'Is Facebook FINALLY Dying?! - Techlore Talks #2'
+  unpinned: null
+  unseen: false
+  views: 452
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2022-09-24T05:23:57.898Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2022-09-22T11:52:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=prNeLzMbytU
+  fancy_title: I Regret Buying a Librem 5 - Here&rsquo;s Why!
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 8
+  id: 1676
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/c/c76dfdc0825637eab2a05be2650eff572f746298_2_1024x576.jpeg
+  last_posted_at: '2022-09-24T05:23:57.898Z'
+  last_poster_username: atrum-uumbra
+  like_count: 4
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 107
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 324
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 651
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 417
+  posts_count: 8
+  reply_count: 3
+  slug: i-regret-buying-a-librem-5-heres-why
+  tags: []
+  tags_descriptions: {}
+  title: I Regret Buying a Librem 5 - Here's Why!
+  unpinned: null
+  unseen: false
+  views: 524
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2022-09-14T22:45:58.047Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2022-09-14T11:44:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=hf5d1L6qfes
+  fancy_title: 'Unpacking the iOS 16 Privacy/Security Hype! - Techlore Talks #1'
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 13
+  id: 1523
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/c/c2f066ca979c10a53ca4af9dcfb821ba677aa1b7_2_1024x576.jpeg
+  last_posted_at: '2022-09-14T22:45:58.047Z'
+  last_poster_username: InternetGhost
+  like_count: 18
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 447
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 299
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 2
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 108
+  posts_count: 12
+  reply_count: 7
+  slug: unpacking-the-ios-16-privacy-security-hype-techlore-talks-1
+  tags: []
+  tags_descriptions: {}
+  title: 'Unpacking the iOS 16 Privacy/Security Hype! - Techlore Talks #1'
+  unpinned: null
+  unseen: false
+  views: 595
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2022-09-03T10:11:50.241Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2022-09-02T12:00:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=A3eOoBchc6w
+  fancy_title: Our Newest Privacy Community is FINALLY HERE!
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 7
+  id: 806
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/4/42c1bb0becb0f0346ce12ae95685ba63845c13cd_2_1024x576.jpeg
+  last_posted_at: '2022-09-03T10:11:50.241Z'
+  last_poster_username: PowerfullyMax
+  like_count: 16
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 378
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 29
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 2
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 253
+  posts_count: 7
+  reply_count: 3
+  slug: our-newest-privacy-community-is-finally-here
+  tags: []
+  tags_descriptions: {}
+  title: Our Newest Privacy Community is FINALLY HERE!
+  unpinned: null
+  unseen: false
+  views: 433
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2022-09-02T20:31:38.235Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2022-08-27T13:00:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=3kc71Ewcldo
+  fancy_title: Proton vs Tutanota - Which is the BEST?!
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 9
+  id: 745
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/6/636e6c8fea48bd87c37442ebe4043389d1d7dd4b_2_1024x576.jpeg
+  last_posted_at: '2022-09-02T20:31:38.235Z'
+  last_poster_username: Archie
+  like_count: 11
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 11
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 30
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 29
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 341
+  posts_count: 9
+  reply_count: 2
+  slug: proton-vs-tutanota-which-is-the-best
+  tags: []
+  tags_descriptions: {}
+  title: Proton vs Tutanota - Which is the BEST?!
+  unpinned: null
+  unseen: false
+  views: 904
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: false
+  bumped_at: '2022-08-09T21:00:00.000Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2022-08-09T21:00:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=gFIg2ycs5-s
+  fancy_title: THIS new service let us use cryptocurrency for an entire day!
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 1
+  id: 670
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/1/1982454b1e9215f8d1a66482c8a9dcf5123e2a26_2_1024x576.jpeg
+  last_posted_at: '2022-08-09T21:00:00.000Z'
+  last_poster_username: system
+  like_count: 2
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster, Most Recent Poster
+    extras: latest single
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  posts_count: 1
+  reply_count: 0
+  slug: this-new-service-let-us-use-cryptocurrency-for-an-entire-day
+  tags: []
+  tags_descriptions: {}
+  title: THIS new service let us use cryptocurrency for an entire day!
+  unpinned: null
+  unseen: false
+  views: 428
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2022-07-20T01:22:20.312Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2022-07-18T00:22:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=84f9A646CAI
+  fancy_title: This Game Teaches People About Privacy &amp;amp; Security!
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 3
+  id: 596
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/5/5734459f481c56e6db1f8d61d6c54c9c1a6837a4_2_1024x576.jpeg
+  last_posted_at: '2022-07-20T01:22:20.312Z'
+  last_poster_username: InternetGhost
+  like_count: 6
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 107
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 108
+  posts_count: 3
+  reply_count: 1
+  slug: this-game-teaches-people-about-privacy-amp-security
+  tags: []
+  tags_descriptions: {}
+  title: This Game Teaches People About Privacy &amp; Security!
+  unpinned: null
+  unseen: false
+  views: 373
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2022-11-01T11:48:36.525Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2022-07-12T13:58:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=LJXFqM2OC1Q
+  fancy_title: "I\u2019m Leaving Custom ROMs - Here\u2019s Why"
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 15
+  id: 576
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/a/a0ac1fe664719d8c807f2f352f4cd7a4f084cb8e_2_1024x576.jpeg
+  last_posted_at: '2022-11-01T11:48:36.525Z'
+  last_poster_username: InternetGhost
+  like_count: 28
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 132
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 142
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 108
+  posts_count: 12
+  reply_count: 7
+  slug: i-m-leaving-custom-roms-here-s-why
+  tags: []
+  tags_descriptions: {}
+  title: "I\u2019m Leaving Custom ROMs - Here\u2019s Why"
+  unpinned: null
+  unseen: false
+  views: 1705
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2022-07-04T13:44:24.030Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2022-06-22T18:50:57.783Z'
+  excerpt: My speech from Monerokon in Lisbon, Portugal. Was an absolute honor to
+    be there around such incredible people &lt;3
+  fancy_title: Henry - Reducing Monero&rsquo;s Friction Points for Rapid Widespread
+    Adoption
+  featured_link: https://www.youtube.com/watch?v=r_vH-NyOYAg
+  featured_link_root_domain: youtube.com
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 3
+  id: 417
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/6/6d5540499091dbc0177d7e45ec06deb713fb629f_2_1024x576.jpeg
+  last_posted_at: '2022-07-04T13:44:24.030Z'
+  last_poster_username: BugsBunny
+  like_count: 13
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 2
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 127
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 142
+  posts_count: 3
+  reply_count: 1
+  slug: henry-reducing-moneros-friction-points-for-rapid-widespread-adoption
+  tags:
+  - video
+  tags_descriptions: {}
+  title: Henry - Reducing Monero's Friction Points for Rapid Widespread Adoption
+  unpinned: null
+  unseen: false
+  views: 494
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2022-07-08T18:14:46.987Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2022-06-10T23:11:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=-GubGbuWBfk
+  fancy_title: Beginning Your Privacy Journey! (w/ Carey Parker)
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 10
+  id: 260
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/e/ec10953f99ec5a001e9dcae943decc98f0e2ff56_2_1024x576.jpeg
+  last_posted_at: '2022-07-08T18:14:46.987Z'
+  last_poster_username: bazurk
+  like_count: 26
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 46
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 146
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 106
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 29
+  posts_count: 10
+  reply_count: 4
+  slug: beginning-your-privacy-journey-w-carey-parker
+  tags: []
+  tags_descriptions: {}
+  title: Beginning Your Privacy Journey! (w/ Carey Parker)
+  unpinned: null
+  unseen: false
+  views: 565
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2023-04-27T12:23:45.215Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2022-06-04T07:15:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=ntiGOx4iBxU
+  fancy_title: Chris Titus Tech&rsquo;s FAVORITE Privacy Tools!
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 3
+  id: 154
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/c/c259e2d0c8de53e9f864a7917debba5054a2fa21_2_1024x576.jpeg
+  last_posted_at: '2023-04-27T12:23:45.215Z'
+  last_poster_username: anonymoususer
+  like_count: 1
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 108
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1107
+  posts_count: 3
+  reply_count: 1
+  slug: chris-titus-techs-favorite-privacy-tools
+  tags: []
+  tags_descriptions: {}
+  title: Chris Titus Tech's FAVORITE Privacy Tools!
+  unpinned: null
+  unseen: false
+  views: 692
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: false
+  bumped_at: '2022-05-26T01:25:00.000Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2022-05-26T01:25:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=RbaLDX6WQQU
+  fancy_title: Proton&amp;#39;s BIGGEST Revamp Yet! Here&amp;#39;s What&amp;#39;s
+    New
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 1
+  id: 51
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/e/efb19217702656d6ebc30a6832bf26dc32db57d6_2_1024x576.jpeg
+  last_posted_at: '2022-05-26T01:25:00.000Z'
+  last_poster_username: system
+  like_count: 0
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster, Most Recent Poster
+    extras: latest single
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  posts_count: 1
+  reply_count: 0
+  slug: proton-39-s-biggest-revamp-yet-here-39-s-what-39-s-new
+  tags: []
+  tags_descriptions: {}
+  title: Proton&#39;s BIGGEST Revamp Yet! Here&#39;s What&#39;s New
+  unpinned: null
+  unseen: false
+  views: 367
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: false
+  bumped_at: '2022-05-06T15:00:00.000Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2022-05-06T15:00:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=QVSKXygroCI
+  fancy_title: The ONE operating system to rule them all
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 1
+  id: 48
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/e/e0e2d839e67dab877ec9b251dab2a7ef54eead82_2_1024x576.jpeg
+  last_posted_at: '2022-05-06T15:00:00.000Z'
+  last_poster_username: system
+  like_count: 2
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster, Most Recent Poster
+    extras: latest single
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  posts_count: 1
+  reply_count: 0
+  slug: the-one-operating-system-to-rule-them-all
+  tags: []
+  tags_descriptions: {}
+  title: The ONE operating system to rule them all
+  unpinned: null
+  unseen: false
+  views: 433
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: false
+  bumped_at: '2022-04-29T16:00:00.000Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2022-04-29T16:00:00.000Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=GHGp7RMtub4
+  fancy_title: The Undiscussed Secret To Sustainable Privacy! (Monerotopia Recap)
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 1
+  id: 47
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/e/e0847308238536bfd231d079e3adac791fb38603_2_1024x576.jpeg
+  last_posted_at: '2022-04-29T16:00:00.000Z'
+  last_poster_username: system
+  like_count: 0
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster, Most Recent Poster
+    extras: latest single
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  posts_count: 1
+  reply_count: 0
+  slug: the-undiscussed-secret-to-sustainable-privacy-monerotopia-recap
+  tags: []
+  tags_descriptions: {}
+  title: The Undiscussed Secret To Sustainable Privacy! (Monerotopia Recap)
+  unpinned: null
+  unseen: false
+  views: 347
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2022-10-26T12:33:49.659Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2022-04-05T15:00:00.000Z'
+  excerpt: "The MOST PRIVATE Music Streaming Options in 2022 - YouTube \n\nThis is\
+    \ a companion discussion topic for the original entry at https://www.youtube.com/watch?v=wrAdpoGbJd8"
+  fancy_title: The MOST PRIVATE Music Streaming Options in 2022
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 7
+  id: 43
+  image_url: null
+  last_posted_at: '2022-10-26T12:33:49.659Z'
+  last_poster_username: darkvadd7
+  like_count: 10
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 2
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 185
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 1
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 132
+  posts_count: 7
+  reply_count: 4
+  slug: the-most-private-music-streaming-options-in-2022
+  tags: []
+  tags_descriptions: {}
+  title: The MOST PRIVATE Music Streaming Options in 2022
+  unpinned: null
+  unseen: false
+  views: 954
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: false
+  bumped_at: '2022-04-01T16:13:00.000Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2022-04-01T16:13:00.000Z'
+  excerpt: "The ULTIMATE Guide to using Matrix! - YouTube \n\nThis is a companion\
+    \ discussion topic for the original entry at https://www.youtube.com/watch?v=2Qgy43j-3lA"
+  fancy_title: The ULTIMATE Guide to using Matrix!
+  featured_link: null
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 1
+  id: 41
+  image_url: null
+  last_posted_at: '2022-04-01T16:13:00.000Z'
+  last_poster_username: system
+  like_count: 1
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster, Most Recent Poster
+    extras: latest single
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  posts_count: 1
+  reply_count: 0
+  slug: the-ultimate-guide-to-using-matrix
+  tags: []
+  tags_descriptions: {}
+  title: The ULTIMATE Guide to using Matrix!
+  unpinned: null
+  unseen: false
+  views: 427
   visible: true
