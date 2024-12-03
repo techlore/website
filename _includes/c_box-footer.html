@@ -12,11 +12,11 @@
 {% if include.link and include.title %}
 	<div class="box-footer is-flex mt-2 buttons">
 		{% if include.link2 %}
-			<a href="{{ include.link2 | absolute_url }}" class="box-footer__button button is-small has-radius-normal{% if include.class %} {{ include.class }}{% endif %}">
+			<a href="{{ include.link2 | relative_url }}" class="box-footer__button button is-small has-radius-normal{% if include.class %} {{ include.class }}{% endif %}">
 				{{ include.title2 }}
 			</a>
 		{% endif %}
-		<a href="{{ include.link | absolute_url }}" class="box-footer__button button is-small has-radius-normal{% if include.class %} {{ include.class }}{% endif %}">
+		<a href="{{ include.link | relative_url }}" class="box-footer__button button is-small has-radius-normal{% if include.class %} {{ include.class }}{% endif %}">
 			{{ include.title }}
 		</a>
 	</div>

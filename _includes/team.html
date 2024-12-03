@@ -41,7 +41,7 @@
 
 		{% if bigTeam and include.isHomepage %}
 			<p class="has-text-centered">
-				<a href="{{ site.data._en.navigation.mainNav.about.url | absolute_url | append: "#team" }}" class="is-touch-friendly">{{ t.home.team.more }}</a>
+				<a href="{{ site.data._en.navigation.mainNav.about.url | relative_url | append: "#team" }}" class="is-touch-friendly">{{ t.home.team.more }}</a>
 			</p>
 		{% endif %}
 	</div>

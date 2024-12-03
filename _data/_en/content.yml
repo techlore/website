@@ -7,7 +7,7 @@
 # Local link:       <a href=\"[[localLink]]\" target=\"_blank\">Local link</a>
 #                   In the template then utilize the "replace" filter.
 #                   Example:
-#                     {% assign affiliatesUrl = site.data._en.navigation.hiddenNav.affiliates.url | absolute_url %}
+#                     {% assign affiliatesUrl = site.data._en.navigation.hiddenNav.affiliates.url | relative_url %}
 #                     {{ site.data._en.knowledgebase-text.disclaimer | replace: "[[affiliatesUrl]]", affiliatesUrl }}
 # Bold:             <strong>bold text</strong>
 # Italic:           <i>italic text</i>

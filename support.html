@@ -51,17 +51,17 @@ description: "Help us defend online freedom and user autonomy - support our miss
 			<div class="columns is-multiline p-3">
 				<div class="column is-full-tablet is-one-quarter-desktop">
 					<p>{{ t.support.howSection.choices.affiliate }}</p>
-					<a href="{{ site.data._en.navigation.hiddenNav.affiliates.url | absolute_url }}" class="button is-primary is-outlined">{{ site.data._en.navigation.hiddenNav.affiliates.title }}</a>
+					<a href="{{ site.data._en.navigation.hiddenNav.affiliates.url | relative_url }}" class="button is-primary is-outlined">{{ site.data._en.navigation.hiddenNav.affiliates.title }}</a>
 				</div>
 				<div class="column is-full-tablet is-half-desktop">
 					<p>{{ t.support.howSection.choices.contributors }}</p>
 					<div class="buttons is is-centered">
 						<a href="#" class="button is-success is-outlined">Website</a>
-						<a href="{{ site.data._en.navigation.hiddenNav.vpnToolkit.url | absolute_url }}" class="button is-success is-outlined">
+						<a href="{{ site.data._en.navigation.hiddenNav.vpnToolkit.url | relative_url }}" class="button is-success is-outlined">
 							{{ site.data._en.navigation.hiddenNav.vpnToolkit.title }}
 						</a>
 						<a href="{{ site.data._en.navigation.hiddenNav.plexus.url }}" class="button is-success is-outlined" target="_blank">{{ site.data._en.navigation.hiddenNav.plexus.title }}</a>
-						<a href="{{ site.data._en.navigation.mainNav.goincognito.url | absolute_url }}" class="button is-success is-outlined">{{ site.data._en.navigation.mainNav.goincognito.title }}</a>
+						<a href="{{ site.data._en.navigation.mainNav.goincognito.url | relative_url }}" class="button is-success is-outlined">{{ site.data._en.navigation.mainNav.goincognito.title }}</a>
 					</div>
 				</div>
 				<div class="column is-full-tablet is-one-quarter-desktop">
@@ -103,7 +103,7 @@ description: "Help us defend online freedom and user autonomy - support our miss
 					</p>
 					<p class="is-flex is-flex-direction-column is-gap-2">
 						{{ t.support.paidSection.choices.goincognito }}
-						<a href="{{ site.data._en.navigation.mainNav.goincognito.url | absolute_url }}" class="button is-outlined is-primary is-gap-2">
+						<a href="{{ site.data._en.navigation.mainNav.goincognito.url | relative_url }}" class="button is-outlined is-primary is-gap-2">
 							{% include e_render-svg-icon.html icon="star-solid" dimension=25 class="icon has-text-warning" inline=true %} {{ t.goincognito.premium.buttonText }}
 						</a>
 					</p>

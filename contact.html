@@ -37,7 +37,7 @@ description: "Have a question, concern, or idea? We're here to listen."
 				<p>{{ site.data._en.content.contact.doNot.consulting.desc | markdownify }}</p>
 			</div>
 			<div class="column has-text-right is-one-third">
-				{% assign consultingBtn = site.data._en.navigation.mainNav.coaching.url | absolute_url %}
+				{% assign consultingBtn = site.data._en.navigation.mainNav.coaching.url | relative_url %}
 
 				<a href="{{ consultingBtn }}" class="button is-warning is-outlined">
 					{{ site.data._en.content.contact.doNot.consulting.buttonText }}
@@ -85,4 +85,3 @@ description: "Have a question, concern, or idea? We're here to listen."
 		%}
 	</div>
 </section>
-

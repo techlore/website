@@ -78,7 +78,7 @@ description: "Individual support, because you deserve to be safe and in control 
 					<div class="accordion__content message-body" aria-labelledby="{{ id }}">
 						{% comment %} Local URL handling {% endcomment %}
 						{% if item.desc contains "[[privacyPolicyUrl]]" %}
-							{% assign privacyPolicyUrl = site.data._en.navigation.hiddenNav.privacy.url | absolute_url %}
+							{% assign privacyPolicyUrl = site.data._en.navigation.hiddenNav.privacy.url | relative_url %}
 							{{ item.desc | replace: "[[privacyPolicyUrl]]", privacyPolicyUrl | markdownify }}
 
 						{% else %}

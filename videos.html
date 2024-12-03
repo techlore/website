@@ -111,7 +111,7 @@ description: "Explore our video library, featuring expert insights and practical
 		{% endif %}
 
 		{% assign iconEngage = "iris-scan" %}
-		{% assign buttonLink = site.data._en.navigation.mainNav.goincognito.url | absolute_url %}
+		{% assign buttonLink = site.data._en.navigation.mainNav.goincognito.url | relative_url %}
 		{% include c_feature-box.html
 			icon=iconEngage
 			title=t.featureBox.tryIncognito.title

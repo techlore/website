@@ -11,7 +11,7 @@
 	{% for link in include.links %}
 		{% assign url = link.url %}
 		{% unless link.external %}
-			{% assign url = link.url | absolute_url %}
+			{% assign url = link.url | relative_url %}
 		{% endunless %}
 		<a href="{{ url }}" class="linkhub-dual__button button {% if include.class %}{{ include.class }}{% endif %}">{{ link.title }}</a>
 	{% endfor %}

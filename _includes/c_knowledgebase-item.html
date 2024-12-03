@@ -15,7 +15,7 @@
 	<div class="columns has-2-cols is-flex is-flex-wrap-nowrap">
 		<div class="column is-flex-grow-0">
 			<i class="knowledgebase-item__icon is-flex is-justify-content-center is-align-items-center has-radius-rounded is-overflow-hidden has-text-warning" {% if iconColor %}style="background-color: {{ iconColor }};{% endif %}">
-				<img src="{{ '/assets/knowledgebase/icons/' | append: slugifiedName | append: '.svg' | absolute_url }}" loading="lazy" alt="Icon - {{ include.item.name }}">
+				<img src="{{ '/assets/knowledgebase/icons/' | append: slugifiedName | append: '.svg' | relative_url }}" loading="lazy" alt="Icon - {{ include.item.name }}">
 			</i>
 		</div>
 		<div class="column is-flex is-flex-direction-column anchor">
