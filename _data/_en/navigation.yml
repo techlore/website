@@ -66,24 +66,9 @@ hiddenNav:
     title: "Watch our explanation video"
     url: "https://youtu.be/RbSy-lZHLYw"
     external: true
-  allTechloreVideos:
-    title: "All Techlore videos"
-    url: "/videos/all-techlore-videos"
-  allTechloreClips:
-    title: "All Techlore clips"
-    url: "/videos/all-techlore-clips"
-  allSurveillanceReport:
-    title: "All SR Episodes"
-    url: "/videos/all-surveillance-report-episodes"
-  archivedTechloreVideos:
-    title: "Archived Techlore videos"
-    url: "/videos/archived-techlore-videos"
-  archivedTechloreClips:
-    title: "Archived Techlore Clips"
-    url: "/videos/archived-techlore-clips"
-  archivedSurveillanceReport:
-    title: "Archived SR episodes"
-    url: "/videos/archived-sr-episodes"
+  allTechloreGuides:
+    title: "All Techlore guides"
+    url: "/resources#techlore-guides"
   affiliates:
     title: "Techlore Tools & Affiliates"
     url: "/affiliates"
