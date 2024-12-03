@@ -36,6 +36,58 @@ description: "Explore our video library, featuring expert insights and practical
 
 <section>
 	<div class="container">
+		{%- include c_box-header.html title=t.videos.titleFeatured -%}
+		<div class="box has-footer">
+			<ul class="video-list marginless listless columns">
+				{% assign sortedVideos = site.guides | sort: "datePublished" | reverse %}
+					{% for video in sortedVideos limit: 4 %}
+						{% assign filename = video.path | split: "/" | last %}
+						{% assign videoThumbnail = "/guides/" | append: filename | replace: ".md", ".jpg" | relative_url %}
+
+						{%- include c_video.html
+								title=video.title
+								desc=video.description
+								link=video.linkForum
+								linkYouTube=video.linkYouTube
+								linkPeerTube=video.linkPeerTube
+								thumbnail=videoThumbnail
+								date=video.datePublished
+								tags=video.tags
+						-%}
+
+				{% endfor %}
+			</ul>
+		</div>
+		{% include c_box-footer.html
+			link=site.data._en.navigation.hiddenNav.allTechloreGuides.url
+			title=t.global.other.viewMore
+		%}
+	</div>
+</section>
+
+<section>
+	<div class="container is-max-tablet">
+		{% if t.goincognito.engageUser.title %}
+			<h2 class="has-text-centered">{{ t.goincognito.titleMore }}</h2>
+		{% endif %}
+
+		{% assign iconEngage = "iris-scan" %}
+		{% assign buttonLink = site.data._en.navigation.mainNav.goincognito.url | relative_url %}
+		{% include c_feature-box.html
+			icon=iconEngage
+			title=t.featureBox.tryIncognito.title
+			desc=t.featureBox.tryIncognito.desc
+			buttonText=t.featureBox.tryIncognito.buttonText
+			buttonLink=buttonLink
+			class="is-box-warning has-no-background has-border"
+			buttonClass="is-warning"
+		%}
+	</div>
+</section>
+
+
+<section>
+	<div class="container">
 		<div class="columns">
 			<div class="column is-full-mobile is-half" id="techlore-clips">
 				{%- include c_box-header.html title=t.videos.techloreClips.title links=site.techloreClips.links -%}
@@ -101,25 +153,5 @@ description: "Explore our video library, featuring expert insights and practical
 				{% endfor %}
 			</ul>
 		</div>
-	</div>
-</section>
-
-<section>
-	<div class="container is-max-tablet">
-		{% if t.goincognito.engageUser.title %}
-			<h2 class="has-text-centered">{{ t.goincognito.titleMore }}</h2>
-		{% endif %}
-
-		{% assign iconEngage = "iris-scan" %}
-		{% assign buttonLink = site.data._en.navigation.mainNav.goincognito.url | relative_url %}
-		{% include c_feature-box.html
-			icon=iconEngage
-			title=t.featureBox.tryIncognito.title
-			desc=t.featureBox.tryIncognito.desc
-			buttonText=t.featureBox.tryIncognito.buttonText
-			buttonLink=buttonLink
-			class="is-box-warning has-no-background has-border"
-			buttonClass="is-warning"
-		%}
 	</div>
 </section>
