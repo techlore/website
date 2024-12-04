@@ -19,6 +19,14 @@
 order: 13
 data:
   -
+    name: "EasyOptOuts"
+    desc: "Easy & affordable data removal service. Nothing matches its value and we appreciate the transparency of the two owners."
+    tags: ["Proprietary", "Web"]
+    labels:
+      official: "https://easyoptouts.com/"
+    color: "#86FCBB"
+    favorite: true
+  -
     name: "BleachBit"
     desc: "BleachBit is a file shredding and data removal tool."
     tags: ["Open Source", "Desktop"]
@@ -37,7 +45,7 @@ data:
   -
     name: "AlternativeTo"
     desc: "AlternativeTo allows users to find more privacy-respecting alternatives to the software they use."
-    tags: ["Proprietary", "Web only"]
+    tags: ["Proprietary", "Web"]
     labels:
       official: "https://alternativeto.net/"
     color: "#2C4961"
