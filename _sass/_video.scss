@@ -1,25 +1,66 @@
 .video-list {
-	&:has(.video-list__item--minimal) {
-		display: grid;
-  		grid-template-columns: repeat(auto-fit, minmax(calc(var(--bulma-size-5) * 12), 1fr));
-  		gap: var(--bulma-size-5);
-	}
+	display: flex;
 
 	li + li {
 		margin-top: 0;
 	}
+
+	&--3-videos {
+		justify-content: center;
+	}
 }
 
 .video-list__item {
+	flex-basis: 100%;
+
+	&:hover {
+		.video-list__link {
+			&:before {
+				opacity: 1;
+			}
+		}
+
+		.video-list__link-icon {
+			translate: -50% -50%;
+			opacity: 1;
+		}
+	}
+
+	@media (min-width: 476px) {
+		width: calc((100% / 2) - var(--bulma-column-gap));
+		flex-grow: 0;
+		flex-basis: auto;
+	}
+
+	@media (min-width: $tablet) {
+		width: calc((100% / 4) - var(--bulma-column-gap));
+	}
+
+	// --- 3 main videos
+	.video-list--3-videos & {
+		@media (min-width: $tablet) {
+			width: calc((100% / 3) - (var(--bulma-column-gap) * .95));
+		}
+	}
+
+	// --- 50% container
+	.video-list--50 & {
+		@media (min-width: $tablet) {
+			width: calc((100% / 2) - (var(--bulma-column-gap) - (var(--bulma-column-gap) * .25)));
+		}
+	}
+
 	// --- Minimal (Home, Videos)
 	&--minimal {
 		border-radius: var(--bulma-radius);
 		border: 1px solid var(--bulma-border-weak);
 	}
 
-	// --- Detailed ("all videos" version)
+	// --- Detailed ("Guides" version)
 	&--detailed {
-		@media (max-width: 500px) {
+		width: 100%;
+
+		@media (max-width: 519px) {
 			flex-direction: column;
 		}
 	}
@@ -35,47 +76,70 @@
 		&:before {
 			content: '';
 			position: absolute;
-			background-image: linear-gradient(0, rgba(0 0 0 / 0), rgba(0 0 0 / 50%));
+			background-color:  rgba(0 0 0 / 50%);
 			inset: 0;
 			border-radius: var(--bulma-radius);
 			opacity: 0;
 			transition: opacity 350ms ease-in-out;
+			z-index: 2;
 		}
 	}
 
 	&:hover {
 		text-decoration: underline;
-
-		&:before {
-			opacity: 1;
-		}
-
-		.video-list__tags {
-			translate: 0 0;
-		}
 	}
 
 	.video-list__item--minimal & {
-		border-bottom-right-radius: 0;
-		border-bottom-left-radius: 0;
 		border: 0;
 	}
 
 	// --- Detailed ("all videos" version)
 	.video-list__item--detailed & {
-		@media (min-width: 500px) {
+		@media (min-width: 520px) {
 			flex-shrink: 0;
 		}
 	}
 }
 
+.video-list__link--thumb {
+	aspect-ratio: 16 / 9;
+	width: 100%;
+	background-color: var(--bulma-background-hover);
+
+	.video-list__item--detailed & {
+		width: auto;
+	}
+
+	&:after {
+		content: '';
+		width: 15px;
+		aspect-ratio: 1;
+		border-radius: 50%;
+		animation: thumbLoader 1s infinite linear alternate;
+		position: absolute;
+		inset: 50% auto auto 50%;
+		translate: -50% -50%;
+		z-index: 0;
+	}
+}
+
+@keyframes thumbLoader {
+	0%  {box-shadow: 20px 0 var(--bulma-background), -20px 0 var(--bulma-background-active);background: var(--bulma-background) }
+	33% {box-shadow: 20px 0 var(--bulma-background), -20px 0 var(--bulma-background-active);background: var(--bulma-background-active)}
+	66% {box-shadow: 20px 0 var(--bulma-background-active),-20px 0 var(--bulma-background); background: var(--bulma-background-active)}
+	100%{box-shadow: 20px 0 var(--bulma-background-active),-20px 0 var(--bulma-background); background: var(--bulma-background) }
+}
+
 .video-list__thumb {
 	display: block;
+	position: relative;
+	z-index: 1;
+
 	aspect-ratio: 16 / 9;
 	object-fit: cover;
 
 	.video-list__item--detailed & {
-		@media (min-width: 500px) {
+		@media (min-width: 520px) {
 			width: calc(var(--bulma-size-5) * 10);
 		}
 
@@ -100,7 +164,7 @@
 }
 
 .video-list__title {
-	font-weight: 900;
+	font-weight: var(--bulma-weight-bold);
 	line-height: 1.4;
 }
 
@@ -109,22 +173,18 @@
 	padding-right: var(--bulma-size-5);
 }
 
-.video-list__tags {
-	.video-list__item--minimal & {
-		padding: calc(var(--bulma-size-7) * .5);
-		position: absolute;
-		inset: 0 0 auto 0;
-		translate: 0 -100%;
-		transition: translate .6s cubic-bezier(0.34, 1.56, 0.64, 1);
-	}
-}
+.video-list__link-icon {
+	position: absolute;
+	inset: auto 0 0 auto;
+	top: 50%;
+	left: 50%;
+	translate: -50% -25%;
+	opacity: 0;
+	z-index: 5;
+	color: var(--bulma-white);
+	transition: opacity 350ms ease-in-out, translate 350ms ease-in-out;
 
-.video-list__tag {
-	.video-list__item--detailed & {
-		background-color: transparent;
-	}
-
-	.video-list__item--minimal & {
-		padding-inline: .75em;
+	path {
+		stroke-width: 4px;
 	}
 }
