@@ -43,3 +43,8 @@ data:
     labels:
       official: "https://epic.org/"
     color: "#ffffff"
+  -
+    name: "noyb"
+    labels:
+      official: "https://noyb.eu/"
+    color: "#9c0c7e"
