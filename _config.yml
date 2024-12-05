@@ -133,7 +133,6 @@ collections:
   guides:
     output: true
     permalink: /guides/:name
-collections_dir: videos
 
 # -----------------------------------------
 # Archive settings

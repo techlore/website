@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "10 Privacy Tools I Can’t Live Without"
-permalink: /blog/10-privacy-tools
 date: 10-09-2024
 author: Henry Fisher
 ---
