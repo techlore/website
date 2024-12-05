@@ -1,5 +1,6 @@
 .column:has(> .box-header),
-.container:has(> .box-header) {
+.container:has(> .box-header),
+.container > .is-flex:has(> .box-header){
 	container-type: inline-size;
 }
 
@@ -11,6 +12,10 @@
 
 	@container (min-width: 576px) {
 		flex-direction: row;
+	}
+
+	&.has-order-1 {
+		order: -1;
 	}
 
 	& + * {

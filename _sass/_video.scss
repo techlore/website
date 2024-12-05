@@ -8,6 +8,10 @@
 	&--3-videos {
 		justify-content: center;
 	}
+
+	&:empty {
+		display: none;
+	}
 }
 
 .video-list__item {

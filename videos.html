@@ -140,6 +140,7 @@ description: "Explore our video library, featuring expert insights and practical
 
 		{% assign sortedVideos = site.data._en.forum.latest-techlore-videos %}
 		{% assign groupedVideos = "" %}
+		{% assign headerLinks = site.techloreVideos.links %}
 
 		{%- for video in sortedVideos -%}
 			{% assign videoDate = video.last_posted_at | date: "%B %Y" %}
@@ -149,29 +150,36 @@ description: "Explore our video library, featuring expert insights and practical
 		{% assign monthArray = groupedVideos | split: "," | uniq %}
 
 		{%- for month in monthArray -%}
-			{% assign title = month | date: "%B, %Y" %}
-			{%- include c_box-header.html title=title links=site.techloreVideos.links -%}
-			<div class="box mb-6 pb-6">
-				<ul class="video-list marginless listless columns is-multiline is-gap-2">
-					{%- for video in sortedVideos -%}
-						{% assign videoDate = video.last_posted_at | date: "%B %Y" %}
-						{% assign forumLink = video.id | prepend: "https://discuss.techlore.tech/t/" %}
-						{% if videoDate == month %}
-							{%- include c_video.html
-								title=video.fancy_title
-								desc=video.excerpt
-								link=forumLink
-								thumbnail=video.image_url
-								date=video.created_at
-							-%}
-						{% endif %}
-					{%- endfor -%}
-				</ul>
+			<div class="is-flex is-flex-direction-column">
+
+				{% comment %} Hide header by default; not to show an empty month {% endcomment %}
+				{% assign showHeader = false %}
+				<div class="box">
+					<ul class="video-list marginless listless columns is-multiline is-gap-2 mb-6 pb-6">
+						{%- for video in sortedVideos offset: 3 -%}
+							{%- assign videoDate = video.last_posted_at | date: "%B %Y" -%}
+							{%- assign forumLink = video.id | prepend: "https://discuss.techlore.tech/t/" -%}
+							{%- if videoDate == month and video.size > 0 -%}
+								{%- include c_video.html
+									title=video.fancy_title
+									desc=video.excerpt
+									link=forumLink
+									thumbnail=video.image_url
+									date=video.created_at
+								-%}
+								{%- assign showHeader = true -%}
+							{%- endif -%}
+						{%- endfor -%}
+					</ul>
+				</div>
+				{%- if showHeader -%}
+					{% assign title = month | date: "%B, %Y" %}
+					{%- include c_box-header.html title=title links=headerLinks class="has-order-1 mb-4" -%}
+
+					{% comment %} Disable header links after the first loop {% endcomment %}
+					{% assign headerLinks = "" %}
+				{%- endif -%}
 			</div>
-			{% include c_box-footer.html
-				link=site.data._en.navigation.hiddenNav.allTechloreVideos.url
-				title=site.data._en.content.global.back.backToVideos
-			%}
 		{%- endfor -%}
 	</div>
 </section>
