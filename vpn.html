@@ -51,7 +51,7 @@ description: "Open-Source Comparison Chart"
 			</div>
 		</div>
 
-		<div id="vpn-table" data-source="{{ site.url }}{{ site.baseurl | append: "/vpn-chart/vpn-chart.csv" }}">
+		<div id="vpn-table" data-source="{{ site.url }}{{ site.baseurl | append: "/vpn-chart/vpn-chart.csv" }}{{ 'now' | date: '%s' | prepend: "?" }}">
 			{% comment %} Filled with JS {% endcomment %}
 		</div>
 	</div>
