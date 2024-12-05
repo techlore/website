@@ -16,16 +16,12 @@
 {% endif %}
 
 
-<li class="video-list__item is-flex is-align-items-flex-start {{ classes }}">
-	<a class="video-list__link has-overlay has-border has-radius-normal" href="{{ link }}" target="_blank">
-		{% if include.tags.size > 0 and (isDetailed == null) %}
-			<span class="video-list__tags tags">
-				{% for tag in include.tags %}
-					<span class="video-list__tag tag has-background-white has-text-black">{{ tag | prepend: "#" }}</span>
-				{% endfor %}
-			</span>
+<li class="video-list__item is-flex is-align-items-center column p-0 {{ classes }}">
+	<a class="video-list__link video-list__link--thumb has-radius-normal{% unless include.disableHover %} has-overlay{% endunless %}" href="{{ link }}" target="_blank">
+		{% include e_render-svg-icon.html icon="arrow-up-right" class="video-list__link-icon" dimension=200 inline=true %}
+		{% if include.thumbnail %}
+			<img src="{{ include.thumbnail }}" class="video-list__thumb" alt="Video thumbnail - {{ include.title }}" loading="lazy">
 		{% endif %}
-		<img src="{{ include.thumbnail }}" class="video-list__thumb" alt="Video thumbnail - {{ include.title }}" loading="lazy">
 	</a>
 
 	<div class="video-list__content">
@@ -40,14 +36,6 @@
 					<div class="video-list__date mt-2">
 						{% assign date = include.date | date: "%Y-%m-%d" %}
 						{{ date | date: "%B %d, %Y" }}
-					</div>
-				{% endif %}
-
-				{% if include.tags.size > 0 %}
-					<div class="video-list__tags tags mt-2">
-						{% for tag in include.tags %}
-							<span class="video-list__tag tag">{{ tag | prepend: "#" }}</span>
-						{% endfor %}
 					</div>
 				{% endif %}
 			</div>
