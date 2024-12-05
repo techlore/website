@@ -5,6 +5,46 @@
   archived: false
   bookmarked: null
   bumped: true
+  bumped_at: '2024-12-04T18:04:17.330Z'
+  can_vote: false
+  category_id: 19
+  closed: false
+  created_at: '2024-12-04T18:04:17.291Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=zQ0Mtsq_JQE
+  fancy_title: iPhones Just Got A Stealthy Security Update!
+  featured_link: https://www.youtube.com/watch?v=zQ0Mtsq_JQE
+  featured_link_root_domain: youtube.com
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 1
+  id: 11014
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/6/6946fe26720bc589777db2cde92c08b9fbb8abe7_2_1024x576.jpeg
+  last_posted_at: '2024-12-04T18:04:17.330Z'
+  last_poster_username: system
+  like_count: 0
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster, Most Recent Poster
+    extras: latest single
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  posts_count: 1
+  reply_count: 0
+  slug: iphones-just-got-a-stealthy-security-update
+  tags: []
+  tags_descriptions: {}
+  title: iPhones Just Got A Stealthy Security Update!
+  unpinned: null
+  unseen: false
+  views: 2
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
   bumped_at: '2024-12-02T18:03:43.987Z'
   can_vote: false
   category_id: 19
@@ -39,7 +79,7 @@
   title: Is Bluesky Actually Decentralized?
   unpinned: null
   unseen: false
-  views: 4
+  views: 5
   visible: true
 - archetype: regular
   archived: false
@@ -1161,44 +1201,4 @@
   unpinned: null
   unseen: false
   views: 1
-  visible: true
-- archetype: regular
-  archived: false
-  bookmarked: null
-  bumped: true
-  bumped_at: '2024-09-18T19:04:45.928Z'
-  can_vote: false
-  category_id: 19
-  closed: false
-  created_at: '2024-09-18T19:04:45.886Z'
-  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=Ld3hA--NGm4
-  fancy_title: Which Private Search Engine is the Best?
-  featured_link: https://www.youtube.com/watch?v=Ld3hA--NGm4
-  featured_link_root_domain: youtube.com
-  has_accepted_answer: false
-  has_summary: false
-  highest_post_number: 1
-  id: 10032
-  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/f/f5c33377550b58a4dcbc9e74b193fa419f85dce4_2_1024x576.jpeg
-  last_posted_at: '2024-09-18T19:04:45.928Z'
-  last_poster_username: system
-  like_count: 0
-  liked: null
-  pinned: false
-  pinned_globally: false
-  posters:
-  - description: Original Poster, Most Recent Poster
-    extras: latest single
-    flair_group_id: null
-    primary_group_id: null
-    user_id: -1
-  posts_count: 1
-  reply_count: 0
-  slug: which-private-search-engine-is-the-best
-  tags: []
-  tags_descriptions: {}
-  title: Which Private Search Engine is the Best?
-  unpinned: null
-  unseen: false
-  views: 3
   visible: true

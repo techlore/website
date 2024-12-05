@@ -4,6 +4,66 @@
 - archetype: regular
   archived: false
   bookmarked: null
+  bumped: true
+  bumped_at: '2024-12-04T17:39:14.137Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2024-12-04T09:05:00.437Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/8G6T7UBCuPYwE8dpjpmLCy
+  fancy_title: 5 Easy Ways to Improve Privacy!
+  featured_link: https://neat.tube/w/8G6T7UBCuPYwE8dpjpmLCy
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 6
+  id: 11010
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/c/cde99d4ea5591c9adf6c06512f8cae951ee3dcd0.jpeg
+  last_posted_at: '2024-12-04T17:39:14.137Z'
+  last_poster_username: nixberry
+  like_count: 5
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 2410
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 2
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 2538
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 2809
+  posts_count: 6
+  reply_count: 3
+  slug: 5-easy-ways-to-improve-privacy
+  tags: []
+  tags_descriptions: {}
+  title: 5 Easy Ways to Improve Privacy!
+  unpinned: null
+  unseen: false
+  views: 90
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
   bumped: false
   bumped_at: '2024-11-30T00:15:30.823Z'
   can_vote: false
@@ -44,7 +104,7 @@
   title: Your privacy & security questions answered! (Nov '24)
   unpinned: null
   unseen: false
-  views: 91
+  views: 97
   visible: true
 - archetype: regular
   archived: false
@@ -104,7 +164,7 @@
   title: Best Black Friday Deals to Protect Your Privacy!
   unpinned: null
   unseen: false
-  views: 555
+  views: 571
   visible: true
 - archetype: regular
   archived: false
@@ -269,7 +329,7 @@
   title: Your privacy & security questions answered! (Oct '24)
   unpinned: null
   unseen: false
-  views: 161
+  views: 163
   visible: true
 - archetype: regular
   archived: false
@@ -329,7 +389,7 @@
   title: 'Kagi Search: Is Paying for a Search Engine Worth It?'
   unpinned: null
   unseen: false
-  views: 563
+  views: 566
   visible: true
 - archetype: regular
   archived: false
@@ -684,7 +744,7 @@
   title: 'Molly: A More Secure Signal'
   unpinned: null
   unseen: false
-  views: 182
+  views: 183
   visible: true
 - archetype: regular
   archived: false
@@ -1129,7 +1189,7 @@
   title: 'Lock Down Your Signal: Ultimate Hardening Guide'
   unpinned: null
   unseen: false
-  views: 325
+  views: 343
   visible: true
 - archetype: regular
   archived: false
@@ -1409,7 +1469,7 @@
   title: Why I'm Concerned About Signal
   unpinned: null
   unseen: false
-  views: 340
+  views: 341
   visible: true
 - archetype: regular
   archived: false
@@ -2612,7 +2672,7 @@
   title: Why I Stopped Hardening Firefox
   unpinned: null
   unseen: false
-  views: 3539
+  views: 3547
   visible: true
 - archetype: regular
   archived: false
@@ -4248,7 +4308,7 @@
   title: The ULTIMATE Guide to Mastering NextDNS!
   unpinned: null
   unseen: false
-  views: 7567
+  views: 7569
   visible: true
 - archetype: regular
   archived: false
@@ -6014,7 +6074,7 @@
   title: FINALLY! The VPN Configuration I've Been Looking For!
   unpinned: null
   unseen: false
-  views: 3083
+  views: 3086
   visible: true
 - archetype: regular
   archived: false
@@ -7060,7 +7120,7 @@
   title: Proton vs Tutanota - Which is the BEST?!
   unpinned: null
   unseen: false
-  views: 904
+  views: 905
   visible: true
 - archetype: regular
   archived: false
