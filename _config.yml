@@ -127,6 +127,11 @@ sass:
   sourcemap: development
 
 # -----------------------------------------
+# Blog settings
+#
+permalink: /blog/:title/
+
+# -----------------------------------------
 # Collection settings
 #
 collections:

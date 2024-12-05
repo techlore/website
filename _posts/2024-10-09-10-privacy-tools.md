@@ -1,12 +1,11 @@
 ---
 layout: post
 title: "10 Privacy Tools I Can’t Live Without"
-date: 10-09-2024
 author: Henry Fisher
 ---
 
 
-![final](https://bear-images.sfo2.cdn.digitaloceanspaces.com/techlore/final-1.webp)
+![final](/assets/blog/10-privacy-tools/final-1.webp)
 
 Data is the new oil, and taking your privacy and security seriously is one of the best things you can do to tackle the issue. Normally, I create  [resources](https://techlore.tech/resources)  to help people figure out what they need to take to reclaim control of their data, but today I wanted to share 10 of the tools I use in  _my_  daily life! Hopefully it sparks some ideas for you, or maybe this is all just an excuse for me to talk about myself.  **Disclosure: Some links below use affiliate links (✧) as a way to support our site!**
 
@@ -14,7 +13,7 @@ Data is the new oil, and taking your privacy and security seriously is one of th
 
 The first tool(s) I use are both multifactor authentication (MFA) methods. In the unfortunate event my email and/or password are breached, MFA is a second verification step to help protect my data from threat actors. I use two MFA methods for most of my accounts, beginning with security keys.
 
-![10 Privacy Tools I Cannot Live Without-0001 Large](https://bear-images.sfo2.cdn.digitaloceanspaces.com/techlore/10-privacy-tools-i-cannot-live-without-0001-large.webp)
+![10 Privacy Tools I Cannot Live Without-0001 Large](/assets/blog/10-privacy-tools/10-privacy-tools-i-cannot-live-without-0001-large.webp)
 
 ### Security Keys (Yubikey)
 
@@ -27,7 +26,7 @@ I made a  [video](https://youtu.be/8Y77o23q_tg)  on security keys and why I swit
 
 [Yubikey✧](https://amzn.to/3XrAm9S)  is who I went with given their solid reputation. There are a few other notable security keys like OnlyKey, SoloKeys, and Nitrokey—but Yubikey is what worked best for me.
 
-![10 Privacy Tools I Cannot Live Without-0002](https://bear-images.sfo2.cdn.digitaloceanspaces.com/techlore/10-privacy-tools-i-cannot-live-without-0002.webp)
+![10 Privacy Tools I Cannot Live Without-0002](/assets/blog/10-privacy-tools/10-privacy-tools-i-cannot-live-without-0002.webp)
 
 ### TOTP Application (Ente Auth)
 
@@ -49,7 +48,7 @@ Both of these multifactor authentication options improve my security without sac
 
 ## 2. Password Manager 🔏
 
-![Screenshot 2024-10-09 at 20](https://bear-images.sfo2.cdn.digitaloceanspaces.com/techlore/03.webp)
+![Screenshot 2024-10-09 at 20](/assets/blog/10-privacy-tools/03.webp)
 
 My password manager is another tool that I use daily, if not hourly. Password managers:
 
@@ -73,13 +72,13 @@ While KeePass and Proton Pass are my favorite password managers, I think it's im
 
 ## 3. Privacy Screen Protector 👀
 
-![10 Privacy Tools I Cannot Live Without-0003 Large](https://bear-images.sfo2.cdn.digitaloceanspaces.com/techlore/10-privacy-tools-i-cannot-live-without-0003-large.webp)
+![10 Privacy Tools I Cannot Live Without-0003 Large](/assets/blog/10-privacy-tools/10-privacy-tools-i-cannot-live-without-0003-large.webp)
 
 If you've never seen one of these...what  [privacy screen protectors✧](https://amzn.to/3NFAv6i)  do is they restrict the ability to view your device's screen from side angles. While there are concerns like shoulder-surfing attacks  _(when someone looks over your shoulder to view your sensitive information)_, my reasoning for using one is for general peace of mind. I hate having strangers looking at what I'm doing on my phone, and these screen protectors make me feel like I have more privacy in public. Worth every penny, and it protects my screen!
 
 ## 4. E2EE Messenger 💬
 
-![10 Privacy Tools I Cannot Live Without-0004](https://bear-images.sfo2.cdn.digitaloceanspaces.com/techlore/10-privacy-tools-i-cannot-live-without-0004.webp)
+![10 Privacy Tools I Cannot Live Without-0004](/assets/blog/10-privacy-tools/10-privacy-tools-i-cannot-live-without-0004.webp)
 
 Communication! I use a variety of messengers for different purposes, but my main messenger is  [Signal](https://signal.org/)  for the following reasons:
 
@@ -97,7 +96,7 @@ With that said, I just recently made a  [Signal Hardening Guide](https://youtu.b
 
 ## 5. NAS 📁
 
-![10 Privacy Tools I Cannot Live Without-0005](https://bear-images.sfo2.cdn.digitaloceanspaces.com/techlore/10-privacy-tools-i-cannot-live-without-0005.webp)
+![10 Privacy Tools I Cannot Live Without-0005](/assets/blog/10-privacy-tools/10-privacy-tools-i-cannot-live-without-0005.webp)
 
 Storing data is tricky. The options generally come down to:
 
@@ -112,7 +111,7 @@ With that said, it's a middle-ground! It's still not as easy and convenient as u
 
 ## 6. VPN 🛜
 
-![Screenshot 2024-10-09 at 20](https://bear-images.sfo2.cdn.digitaloceanspaces.com/techlore/31.webp)
+![Screenshot 2024-10-09 at 20](/assets/blog/10-privacy-tools/31.webp)
 
 A  _lot_  of misinformation exists around VPNs. Before touching on privacy, I want to expand on an issue with the NAS:
 
@@ -128,7 +127,7 @@ While  [VPNs are oversold](https://youtu.be/u-uj_dLXu5s), they still offer some 
 
 I think browser wars are  [silly](https://youtu.be/1eRlAbyjKfU)  because there's no good reason to not use multiple browsers and lean into their various strengths. My two core browsers are:
 
-![Screenshot 2024-10-09 at 20](https://bear-images.sfo2.cdn.digitaloceanspaces.com/techlore/22.webp)
+![Screenshot 2024-10-09 at 20](/assets/blog/10-privacy-tools/22.webp)
 
 #### Mullvad Browser
 
@@ -136,7 +135,7 @@ My default browser is Mullvad Browser. Mullvad Browser is their official collabo
 
 Note: Mullvad Browser is a disposable browser, so it will not save your browsing history on exit. This makes it a fantastic option for my default browser when I click random links that I don't want to be mixed with my personal web traffic. Overall, it's a fantastic browser for maximizing privacy without sacrificing  _too_  much convenience.
 
-![10 Privacy Tools I Cannot Live Without-0006](https://bear-images.sfo2.cdn.digitaloceanspaces.com/techlore/10-privacy-tools-i-cannot-live-without-0006.webp)
+![10 Privacy Tools I Cannot Live Without-0006](/assets/blog/10-privacy-tools/10-privacy-tools-i-cannot-live-without-0006.webp)
 
 #### Brave Browser
 
@@ -153,7 +152,7 @@ With this workflow, I'm able to reap the benefits of two browsers with fewer dra
 
 ## 8. Extensions 🙅
 
-![Screenshot 2024-10-09 at 20](https://bear-images.sfo2.cdn.digitaloceanspaces.com/techlore/34-1.webp)
+![Screenshot 2024-10-09 at 20](/assets/blog/10-privacy-tools/34-1.webp)
 
 Extensions can increase your attack surface, make you more unique when you browse, and increase the chances of you installing something malicious in your browser.
 
@@ -169,7 +168,7 @@ The only issue is uBlock Origin doesn't exist for Safari. That's where  [AdGuard
 
 ## 9. Aliasing 🕵️‍♀️
 
-![pexels-hikaique-36675](https://bear-images.sfo2.cdn.digitaloceanspaces.com/techlore/pexels-hikaique-36675.webp)
+![pexels-hikaique-36675](/assets/blog/10-privacy-tools/pexels-hikaique-36675.webp)
 
 Aliasing is the primary way I protect my personal information from countless websites. Aliasing means I put my trust in a single party to no longer have to trust others. I use three core aliasing tools:
 
@@ -191,7 +190,7 @@ When I put all three tools together, I am left with a situation where most servi
 
 ## 10. DNS 🚥
 
-![Screenshot 2024-10-09 at 20](https://bear-images.sfo2.cdn.digitaloceanspaces.com/techlore/55.webp)
+![Screenshot 2024-10-09 at 20](/assets/blog/10-privacy-tools/55.webp)
 
 Yes I'm going to lean into cliches...DNS is like a phone book for the internet, allowing you to type a domain like 'techlore.tech' and not have to memorize the actual IP address of the site. The DNS provider you use has a lot of insight into your web traffic.
 
