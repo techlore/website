@@ -17,7 +17,7 @@ last_modified_at: 2024-11-01
 			<div class="column">
 				{%- include c_box-header.html title=t.videos.titleNewest links=site.techloreVideos.links -%}
 				<div class="box">
-					<ul class="video-list video-list--50 marginless listless columns">
+					<ul class="video-list video-list--50 marginless listless columns is-multiline is-gap-2 is-justify-content-space-between">
 						{% for video in site.data._en.forum.latest-techlore-videos limit: 2 %}
 							{% assign forumLink = video.id | prepend: "https://discuss.techlore.tech/t/" %}
 
