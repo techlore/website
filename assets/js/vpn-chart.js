@@ -1,4 +1,4 @@
-const linkIcon = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="none" class="_icon" stroke-width="2" color="currentColor"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M6 19 19 6m0 0v12.48M19 6H6.52"/></svg>';
+const linkIcon = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke-width="2" color="currentColor"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M6 19 19 6m0 0v12.48M19 6H6.52"/></svg>';
 // const linkIconAf = '';
 
 
@@ -9,6 +9,10 @@ function getCheckValue(cellValue) {
 		return '<svg class="has-text-success-45" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke-width="1" color="currentColor"><path fill="currentColor" fill-rule="evenodd" d="M12 1.25a10.75 10.75 0 1 0 0 21.5 10.75 10.75 0 0 0 0-21.5ZM7.53 11.97a.75.75 0 0 0-1.06 1.06l3 3c.3.3.77.3 1.06 0l7-7a.75.75 0 0 0-1.06-1.06L10 14.44l-2.47-2.47Z" clip-rule="evenodd"/></svg>';
 	else if (cellValue === "??")
 		return '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke-width="1.5" color="currentColor"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M7.9 8.08c0-4.77 7.5-4.77 7.5 0 0 3.4-3.4 2.73-3.4 6.82m0 4.11.01-.01"/></svg>';
+	else if (cellValue.includes(".kumu."))
+		return `<a href="${cellValue}" target="_blank">Kumu ${linkIcon}</a>`
+	else if (cellValue.includes("https:"))
+		return `<a href="${cellValue}" target="_blank">Web ${linkIcon}</a>`
 	else
 		return cellValue;
 }
