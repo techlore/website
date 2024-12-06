@@ -1,13 +1,33 @@
+{% comment %}
+	SUB HERO -----------------------------------------
+	Info:
+			Displays title and description of the page and optional quick access buttons (#anchor)
+	Parameters:
+		- title (string)
+		- perex (string, optional)
+		- buttons (array, optional):	locally linked buttons with an arrow icon showed on the right side
+{% endcomment %}
 <div class="container">
-	<div class="sub-hero columns is-justify-content-space-between">
+	<div class="sub-hero columns is-justify-content-space-between is-align-items-flex-end">
 		<div class="column is-half-tablet">
-			{% if include.title %}
-				<h1 class="sub-hero__title">{{ include.title }}</h1>
-			{% endif %}
-			{% if include.perex %}
-				<p class="sub-hero__desc">{{ include.perex }}</p>
-			{% endif %}
+			{%- if include.title -%}
+				<h1 class="sub-hero__title">{{- include.title -}}</h1>
+			{%- endif %}
+			{%- if include.perex -%}
+				<p class="sub-hero__desc">{{- include.perex -}}</p>
+			{%- endif -%}
 		</div>
-		<div class="columm is-one-fifth-mobile"></div>
+		<div class="column is-half-tablet">
+			{%- if include.buttons -%}
+				<div class="sub-hero__buttons buttons">
+					{%- for button in include.buttons -%}
+						<a href="{{- button.url -}}" class="button is-large is-gap-1.5{{ button.class | prepend: " " }}">
+							{{- button.text -}}
+							{%- include e_render-svg-icon.html icon="arrow-down" inline=true dimension=25 classes="icon" -%}
+						</a>
+					{%- endfor -%}
+				</div>
+			{%- endif -%}
+		</div>
 	</div>
 </div>

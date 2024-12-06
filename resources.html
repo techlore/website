@@ -2,11 +2,11 @@
 layout: page
 title: Resources
 permalink: /resources
-description: "Techlore's Privacy & Security recommendations based on our strict <strong>criteria</strong>. For further assistance, we suggest our <strong>Go Incognito</strong> course and our coaching. There are external resources at the bottom for more recommendations."
+description: "Techlore's Privacy & Security recommendations based on our strict <a href='https://discuss.techlore.tech/pub/criteria' target='_blank'>criteria</a>. For further assistance, we suggest our <a href='/goincognito'>Go Incognito</a> course and our coaching. There are <a href='#external-resources'>external resources</a> at the bottom for more recommendations."
 ---
-{% include variables.html %}
+{%- include variables.html -%}
 
-{% include c_sub-hero.html title=page.title perex=page.description %}
+{%- include c_sub-hero.html title=page.title perex=page.description buttons=t.resources.subHeroButtons -%}
 
 <section>
 	<div class="container">
@@ -114,7 +114,7 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 
 <section data-knowledgebase-navigation>
 	{% comment %} SOFTWARE, HW, APPS ============================================================= {% endcomment %}
-	<div class="container is-max-tablet">
+	<div class="container is-max-tablet" id="all-resources">
 		<div class="has-text-centered">
 			<h2>{{ kbtext.sections.software }}</h2>
 			<p>
@@ -381,7 +381,7 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 	</div>
 
 	{% comment %} EXTERNAL RESOURCES ============================================================= {% endcomment %}
-	<div class="container is-max-tablet mt-6">
+	<div class="container is-max-tablet mt-6" id="external-resources">
 		<div class="has-text-centered">
 			<h2>{{ kbtext.sections.external-resources }}</h2>
 			<p>

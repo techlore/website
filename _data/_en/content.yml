@@ -73,11 +73,21 @@ home:
 # -----------------------------------------
 # RESOURCES section and page
 #
-# Knowledgebase sources:   - text in `knowledgebase.yml`
+# Knowledgebase sources:   - text in `knowledgebase-text.yml`
 #                          - data in `/knowledgebase` folder
 #
+# subHeroButtons.class:    - based on Bulma classes (.is-primary, .is-success, .is-danger, .is-warning, .is-info)
 resources:
   title: "Resources"
+  subHeroButtons:
+    -
+      text: "Guides"
+      url: "#techlore-guides"
+      class: "is-danger"
+    -
+      text: "All resources"
+      url: "#all-resources"
+      class: "is-primary"
   section:
     title: "Useful resources"
     learn:
