@@ -19,3 +19,12 @@
 .sub-hero__desc {
 	text-wrap: balance;
 }
+
+.sub-hero__buttons {
+		justify-content: flex-end;
+
+	@media (max-width: $tablet) {
+		justify-content: center;
+		margin-top: var(--bulma-size-5);
+	}
+}
