@@ -11,7 +11,7 @@
 
 text:
   title: "Anonymity Quiz️"
-  desc: "Test your security, privacy and anonymity"
+  desc: "Test your security, privacy and anonymity. 3 Zones, how will you score?"
   buttons:
     start: "Start the quiz"
     next: "Next question"
@@ -54,16 +54,16 @@ data:
     value: 5
     answers:
       -
-        answer: "Use a password manager"
+        answer: "Use a trusted password manager"
         slide: 1
         button:
           text: "Password Managers"
           url: "password-managers"
       -
-        answer: "Use a strong password for device log-ins"
+        answer: "Use a strong password for device user accounts"
         slide: 1
       -
-        answer: "Use a strong router password"
+        answer: "Use a strong password on your router"
         slide: 1
       -
         answer: "Use 2FA on available services"
@@ -72,17 +72,17 @@ data:
           text: "2FA Options"
           url: "totp-2fa"
       -
-        answer: "Disable Google tracking on MyActivity page"
+        answer: "Delete, or disable Google tracking on MyActivity page"
         slide: 2
         button:
           text: "My Activity Page"
           url: "https://myactivity.google.com/"
           external: true
       -
-        answer: "Delete and minimize unused accounts"
+        answer: "Delete and minimize unused accounts and software"
         slide: 2
       -
-        answer: "Utilize privacy settings on all your accounts to stay safe"
+        answer: "Utilize privacy settings on all your accounts when possible"
         slide: 2
       -
         answer: "Use a good, quality VPN and/or Tor"
@@ -103,8 +103,11 @@ data:
           text: "Email providers"
           url: "email"
       -
-        answer: "Use only trusted web extensions"
+        answer: "Use a select few, trusted web extensions"
         slide: 3
+        button:
+          text: "Extensions"
+          url: "web-browsers"
       -
         answer: "Use a privacy-respecting search engine"
         slide: 3
@@ -136,7 +139,7 @@ data:
         answer: "Disable and minimize unused computer features"
         slide: 5
       -
-        answer: "Clear device temporary data <i>(Cache, Cookies, Logs, etc.)</i>"
+        answer: "Frequently clear device temporary data <i>(Cache, Cookies, Logs, etc.)</i>"
         slide: 5
       -
         answer: "Shred deleted files and data"
@@ -145,10 +148,10 @@ data:
         answer: "Backup your data consistently"
         slide: 6
       -
-        answer: "Avoid public computers"
+        answer: "Avoid public computers for sensitive tasks"
         slide: 6
       -
-        answer: "Avoid IOT &Smart Devices"
+        answer: "Avoid IOT & Smart Devices"
         slide: 6
       -
         answer: "Utilize a safe & shredder"
@@ -157,7 +160,7 @@ data:
     value: 6
     answers:
       -
-        answer: "Disable all biometrics <i>(or have good reason to use them)</i>"
+        answer: "Decide between biometric & traditional passwords <i>(requires threat modeling)</i>"
         slide: 1
       -
         answer: "Delete Google altogether"
@@ -166,8 +169,11 @@ data:
         answer: "Utilize pseudonyms to offload personal data"
         slide: 1
       -
-        answer: "Use privately-obtained phone numbers and/or aliases"
+        answer: "Use phone, email, & payment aliasing to hide personal information"
         slide: 1
+        button:
+          text: "Aliasing Services"
+          url: "aliasing"
       -
         answer: "Delete all personal social media"
         slide: 1
@@ -197,7 +203,7 @@ data:
         answer: "Secure your computer BIOS"
         slide: 2
       -
-        answer: "Use full disk encryption"
+        answer: "Utilize full disk encryption"
         slide: 3
       -
         answer: "Spoof MAC address"
@@ -236,7 +242,7 @@ data:
         answer: "Fully clean & minimize your online digital footprint"
         slide: 1
       -
-        answer: "Delete all social media"
+        answer: "Delete all social media & other problematic accounts."
         slide: 1
       -
         answer: "Utilize hardened and most trusted browsers"
@@ -245,10 +251,13 @@ data:
           text: "Browsers"
           url: "web-browsers"
       -
-        answer: "Use Custom ROMs/Dumb Phones <i>(Be aware of their limitations especially regarding SMS)</i>"
+        answer: "Use open source, trusted mobile operating systems"
         slide: 1
+        button:
+          text: "Android Options"
+          url: "android"
       -
-        answer: "Use Private/Secure Desktop OS(s)"
+        answer: "Use open source, trusted desktop operating systems"
         slide: 2
         button:
           text: "Desktop OS"
@@ -260,7 +269,7 @@ data:
           text: "Eg. Privacy.com"
           url: "privacy-com"
       -
-        answer: "Physically remove cameras/mics"
+        answer: "Physically remove cameras& mics from devices"
         slide: 2
       -
         answer: "Avoid facial recognition/AI in public"
