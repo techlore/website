@@ -29,20 +29,19 @@
       url: "https://amzn.to/3qYYuo3"
       affil: true
     -
-      text: "Newegg"
+      text: "Newegg, Coming Soon"
       url: "https://howl.me/cj7claO9VLo"
       affil: true
     -
       text: "Non-affiliate"
       url: "https://www.synology.com/en-us/products/DS923+"
 -
-  name: "Sony A7 III"
+  name: "Fujifilm X100V"
   type: "Camera"
-  whiteIcon: true
   buttons:
     -
       text: "Amazon"
-      url: "https://amzn.to/3XOekhK"
+      url: "https://amzn.to/49sMVYr"
       affil: true
     -
       text: "Newegg"
@@ -50,46 +49,14 @@
       affil: true
     -
       text: "Non-affiliate"
-      url: "https://electronics.sony.com/imaging/interchangeable-lens-cameras/full-frame/p/ilce7m3-b"
+      url: "https://fujifilm-x.com/en-us/products/cameras/x100v/"
 -
-  name: "Prime Lens"
-  type: "Lens"
-  whiteIcon: true
+  name: "DJI Mic 2"
+  type: "Lav Mic"
   buttons:
     -
       text: "Amazon"
-      url: "https://amzn.to/44BTuEg"
-      affil: true
-    -
-      text: "Newegg"
-      url: "https://howl.me/cj697dVmQbQ"
-      affil: true
-    -
-      text: "Non-affiliate"
-      url: "https://electronics.sony.com/imaging/lenses/all-e-mount/p/sel35f18f"
--
-  name: "Zoom Lens"
-  type: "Lens"
-  buttons:
-    -
-      text: "Amazon"
-      url: "https://amzn.to/3D0JlW6"
-      affil: true
-    -
-      text: "Newegg"
-      url: "https://howl.me/cj7acIrbVBv"
-      affil: true
-    -
-      text: "Non-affiliate"
-      url: "https://electronics.sony.com/imaging/lenses/full-frame-e-mount/p/sel2470z"
--
-  name: "Sennheiser MKE 600"
-  type: "Shotgun Mic"
-  whiteIcon: true
-  buttons:
-    -
-      text: "Amazon"
-      url: "https://amzn.to/3PN13DR"
+      url: "https://amzn.to/3Bk0FrI"
       affil: true
     -
       text: "Newegg"
@@ -97,25 +64,26 @@
       affil: true
     -
       text: "Non-affiliate"
-      url: "https://www.sennheiser.com/en-us/catalog/products/microphones/mke-600/mke-600-505453"
+      url: "https://www.dji.com/mic-2"
 -
-  name: "Blue Yeti"
-  type: "USB Mic"
+  name: "Sennheiser Momentum 4"
+  type: "Casual Headphones"
+  whiteIcon: true
   buttons:
     -
       text: "Amazon"
-      url: "https://amzn.to/44d04S7"
+      url: "https://amzn.to/3VnIAQf"
       affil: true
     -
       text: "Newegg"
-      url: "https://howl.me/cj7azQ3Trxd"
+      url: "https://howl.me/cj7aDmaJ22n"
       affil: true
     -
       text: "Non-affiliate"
-      url: "https://www.logitechg.com/en-us/products/streaming-gear/yeti-premium-usb-microphone.988-000103.html"
+      url: "https://www.sennheiser-hearing.com/en-US/p/momentum-4-wireless/"
 -
-  name: "Senheiser HD600"
-  type: "Headphones"
+  name: "Sennheiser HD600"
+  type: "Editing Headphones"
   whiteIcon: true
   buttons:
     -
@@ -164,7 +132,7 @@
       url: "https://www.hetzner.com/"
 -
   name: "omg.lol"
-  type: "Personal Websites"
+  type: "Personal Site & Mastodon"
   buttons:
     -
       text: "Affiliate"
