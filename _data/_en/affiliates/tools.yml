@@ -10,7 +10,7 @@
 # affil (boolean):      Shows a distinct button with an icon
 #
 -
-  name: "Proton mail"
+  name: "Proton Mail"
   type: "E2EE Email"
   buttons:
     -
@@ -20,29 +20,6 @@
     -
       text: "Non-affiliate"
       url: "https://proton.me/mail"
--
-  name: "Proton VPN"
-  type: "VPN Provider"
-  buttons:
-    -
-      text: "Affiliate"
-      url: "https://go.getproton.me/SH12P"
-      affil: true
-    -
-      text: "Non-affiliate"
-      url: "https://protonvpn.com/"
--
-  name: "Proton Pass"
-  type: "Password Manager"
-  whiteIcon: true
-  buttons:
-    -
-      text: "Affiliate"
-      url: "https://go.getproton.me/SH12Q"
-      affil: true
-    -
-      text: "Non-affiliate"
-      url: "https://proton.me/pass"
 -
   name: "Tuta"
   type: "E2EE Email"
@@ -55,17 +32,6 @@
       text: "Non-affiliate"
       url: "https://tuta.com/"
 -
-  name: "Abine DeleteMe"
-  type: "Privacy Service"
-  buttons:
-    -
-      text: "Affiliate"
-      url: "https://www.anrdoezrs.net/click-100370169-13794293"
-      affil: true
-    -
-      text: "Non-affiliate"
-      url: "https://joindeleteme.com/"
--
   name: "StartMail"
   type: "E2EE Email"
   buttons:
@@ -76,6 +42,41 @@
     -
       text: "Non-affiliate"
       url: "https://www.startmail.com/"
+-
+  name: "Proton VPN"
+  type: "VPN Provider"
+  buttons:
+    -
+      text: "Affiliate"
+      url: "https://go.getproton.me/SH1Ip"
+      affil: true
+    -
+      text: "Non-affiliate"
+      url: "https://protonvpn.com/"
+-
+  name: "Proton Pass"
+  type: "Password Manager"
+  whiteIcon: true
+  buttons:
+    -
+      text: "Affiliate"
+      url: "https://go.getproton.me/SH1Iq"
+      affil: true
+    -
+      text: "Non-affiliate"
+      url: "https://proton.me/pass"
+-
+  name: "Proton Drive"
+  type: "Cloud Storage"
+  whiteIcon: true
+  buttons:
+    -
+      text: "Affiliate"
+      url: "https://go.getproton.me/SH12Q"
+      affil: true
+    -
+      text: "Non-affiliate"
+      url: "https://proton.me/drive"
 -
   name: "SimpleLogin"
   type: "Email Aliasing"
@@ -141,7 +142,7 @@
       url: "https://amzn.to/3XrAm9S"
       affil: true
     -
-      text: "Newegg"
+      text: "Newegg, Coming Soon"
       url: "https://howl.me/cj7bam00yEI"
       affil: true
     -
@@ -156,7 +157,7 @@
       url: "https://amzn.to/3NdeHgE"
       affil: true
     -
-      text: "Newegg"
+      text: "Newegg, Coming Soon"
       url: "https://howl.me/cj7bfFqCSFo"
       affil: true
     -
@@ -171,11 +172,11 @@
       url: "https://amzn.to/3pfMWw3"
       affil: true
     -
-      text: "Best Buy"
+      text: "Best Buy, Coming Soon"
       url: "https://howl.me/cj7coGHNAVc"
       affil: true
     -
-      text: "Newegg"
+      text: "Newegg, Coming Soon"
       url: "https://howl.me/cj7bgmh0cF7"
       affil: true
     -
@@ -191,11 +192,11 @@
       url: "https://amzn.to/3NFAv6i"
       affil: true
     -
-      text: "Best Buy"
+      text: "Best Buy, Coming Soon"
       url: "https://howl.me/cj7cn0CvjI2"
       affil: true
     -
-      text: "Newegg"
+      text: "Newegg, Coming Soon"
       url: "https://howl.me/cj7bhcX89fu"
       affil: true
     -
@@ -210,31 +211,16 @@
       url: "https://amzn.to/3ph2wrq"
       affil: true
     -
-      text: "Best Buy"
+      text: "Best Buy, Coming Soon"
       url: "https://howl.me/cj7cnfshk8b"
       affil: true
     -
-      text: "Newegg"
+      text: "Newegg, Coming Soon"
       url: "https://howl.me/cj7bhJnBVnt"
       affil: true
     -
       text: "Non-affiliate"
       url: "https://www.newegg.com/p/pl?d=webcam+cover"
--
-  name: "Laptop"
-  type: "Qubes Compatible"
-  buttons:
-    -
-      text: "Amazon"
-      url: "https://amzn.to/3XEVE3S"
-      affil: true
-    -
-      text: "Newegg"
-      url: "https://howl.me/cj7cjbo3d25"
-      affil: true
-    -
-      text: "Non-affiliate"
-      url: "https://www.insight.com/en_US/search.html?country=US&q=lenovo-thinkpad+x1+carbon+7th+gen&instockOnly=false&start=0&salesOrg=2400&sessionId=6E46EF2B2E8EAACF5B4C092C54855097.appprd6-1&lang=en_US&rows=50&userSegment=CES&tabType=products"
 -
   name: "Router"
   type: "OpenWRT Compatible"
@@ -245,12 +231,12 @@
       url: "https://amzn.to/43f482O"
       affil: true
     -
-      text: "Newegg"
+      text: "Newegg, Coming Soon"
       url: "https://howl.me/cj7ckkGM2q9"
       affil: true
     -
       text: "Non-affiliate"
-      url: "https://www.linksys.com/dual-band-ax3200-wifi-6-router/E8450.html"
+      url: "https://support.linksys.com/kb/article/504-en/"
 -
   name: "Safe"
   type: "Home Security"
