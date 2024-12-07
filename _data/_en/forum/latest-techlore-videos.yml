@@ -5,7 +5,7 @@
   archived: false
   bookmarked: null
   bumped: true
-  bumped_at: '2024-12-04T17:39:14.137Z'
+  bumped_at: '2024-12-06T12:30:03.701Z'
   can_vote: false
   category_id: 20
   closed: false
@@ -16,12 +16,12 @@
   featured_link_root_domain: neat.tube
   has_accepted_answer: false
   has_summary: false
-  highest_post_number: 6
+  highest_post_number: 7
   id: 11010
   image_url: https://discuss.techlore.tech/uploads/default/original/2X/c/cde99d4ea5591c9adf6c06512f8cae951ee3dcd0.jpeg
-  last_posted_at: '2024-12-04T17:39:14.137Z'
-  last_poster_username: nixberry
-  like_count: 5
+  last_posted_at: '2024-12-06T12:30:03.701Z'
+  last_poster_username: ignoramous
+  like_count: 8
   liked: null
   pinned: false
   pinned_globally: false
@@ -48,18 +48,18 @@
     user_id: 2538
   - description: Most Recent Poster
     extras: latest
-    flair_group_id: null
-    primary_group_id: null
-    user_id: 2809
-  posts_count: 6
-  reply_count: 3
+    flair_group_id: 43
+    primary_group_id: 43
+    user_id: 1571
+  posts_count: 7
+  reply_count: 4
   slug: 5-easy-ways-to-improve-privacy
   tags: []
   tags_descriptions: {}
   title: 5 Easy Ways to Improve Privacy!
   unpinned: null
   unseen: false
-  views: 126
+  views: 184
   visible: true
 - archetype: regular
   archived: false
@@ -164,7 +164,7 @@
   title: Best Black Friday Deals to Protect Your Privacy!
   unpinned: null
   unseen: false
-  views: 574
+  views: 577
   visible: true
 - archetype: regular
   archived: false
@@ -224,7 +224,7 @@
   title: How to Stay Private on a Budget!
   unpinned: null
   unseen: false
-  views: 681
+  views: 687
   visible: true
 - archetype: regular
   archived: false
@@ -389,7 +389,7 @@
   title: 'Kagi Search: Is Paying for a Search Engine Worth It?'
   unpinned: null
   unseen: false
-  views: 567
+  views: 571
   visible: true
 - archetype: regular
   archived: false
@@ -829,7 +829,7 @@
   title: Break Free From Subscription Hell! 3 Ways to Own Your Stuff Again
   unpinned: null
   unseen: false
-  views: 238
+  views: 239
   visible: true
 - archetype: regular
   archived: false
@@ -909,7 +909,7 @@
   title: 'Beyond the Tech: iOS vs Android Privacy Showdown'
   unpinned: null
   unseen: false
-  views: 155
+  views: 156
   visible: true
 - archetype: regular
   archived: false
@@ -1189,7 +1189,7 @@
   title: 'Lock Down Your Signal: Ultimate Hardening Guide'
   unpinned: null
   unseen: false
-  views: 353
+  views: 364
   visible: true
 - archetype: regular
   archived: false
@@ -1409,7 +1409,7 @@
   title: It Seems AI Isn't Going Anywhere
   unpinned: null
   unseen: false
-  views: 112
+  views: 113
   visible: true
 - archetype: regular
   archived: false
@@ -1469,7 +1469,7 @@
   title: Why I'm Concerned About Signal
   unpinned: null
   unseen: false
-  views: 341
+  views: 342
   visible: true
 - archetype: regular
   archived: false
@@ -1529,7 +1529,7 @@
   title: "Proton released...a Bitcoin wallet \U0001F928"
   unpinned: null
   unseen: false
-  views: 270
+  views: 271
   visible: true
 - archetype: regular
   archived: false
@@ -1704,7 +1704,7 @@
   title: "Data Brokers Are Stealing Your Data\u2014Here\u2019s How To Stop Them"
   unpinned: null
   unseen: false
-  views: 272
+  views: 273
   visible: true
 - archetype: regular
   archived: false
@@ -2672,7 +2672,7 @@
   title: Why I Stopped Hardening Firefox
   unpinned: null
   unseen: false
-  views: 3559
+  views: 3571
   visible: true
 - archetype: regular
   archived: false
@@ -3896,7 +3896,7 @@
   title: 'Simplifying w/Digital Minimalism: What''s on My Phone'
   unpinned: null
   unseen: false
-  views: 1305
+  views: 1307
   visible: true
 - archetype: regular
   archived: false
@@ -4308,7 +4308,7 @@
   title: The ULTIMATE Guide to Mastering NextDNS!
   unpinned: null
   unseen: false
-  views: 7570
+  views: 7572
   visible: true
 - archetype: regular
   archived: false
@@ -5011,7 +5011,7 @@
   title: The NAS That Permanently Changed My Privacy Life
   unpinned: null
   unseen: false
-  views: 1117
+  views: 1118
   visible: true
 - archetype: regular
   archived: false
@@ -6074,7 +6074,7 @@
   title: FINALLY! The VPN Configuration I've Been Looking For!
   unpinned: null
   unseen: false
-  views: 3086
+  views: 3088
   visible: true
 - archetype: regular
   archived: false
@@ -6329,7 +6329,7 @@
   title: Diving Into The World of Open Source Note-Taking! - (Notesnook Interview)
   unpinned: null
   unseen: false
-  views: 722
+  views: 725
   visible: true
 - archetype: regular
   archived: false
@@ -6388,7 +6388,7 @@
   title: "The VPN You Use Probably Sucks - Here\u2019s Why"
   unpinned: null
   unseen: false
-  views: 803
+  views: 804
   visible: true
 - archetype: regular
   archived: false
@@ -6672,7 +6672,7 @@
   title: Dispelling Myths of VPN Alternatives w/ Safing!
   unpinned: null
   unseen: false
-  views: 306
+  views: 307
   visible: true
 - archetype: regular
   archived: false
@@ -7061,7 +7061,7 @@
   title: Our Newest Privacy Community is FINALLY HERE!
   unpinned: null
   unseen: false
-  views: 433
+  views: 434
   visible: true
 - archetype: regular
   archived: false
