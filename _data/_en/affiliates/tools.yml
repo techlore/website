@@ -68,7 +68,6 @@
 -
   name: "Proton Drive"
   type: "Cloud Storage"
-  whiteIcon: true
   buttons:
     -
       text: "Affiliate"

@@ -53,7 +53,6 @@
 -
   name: "DJI Mic 2"
   type: "Lav Mic"
-  whiteIcon: true
   buttons:
     -
       text: "Amazon"
@@ -133,7 +132,7 @@
       url: "https://www.hetzner.com/"
 -
   name: "omg.lol"
-  type: "Personal Websites"
+  type: "Personal Site & Mastodon"
   buttons:
     -
       text: "Affiliate"
