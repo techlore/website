@@ -97,6 +97,7 @@ data:
     labels:
       official: "https://ublockorigin.com/"
     color: "#ffffff"
+    favorite: true
   -
     name: "AdGuard"
     desc: "For those using Safari, AdGuard is a great option to block ads, trackers, phishing, use custom DNS, and more."
