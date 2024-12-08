@@ -92,7 +92,7 @@ data:
     color: "#ffffff"
   -
     name: "uBlock Origin"
-    desc: "The king of browser extensions. Just installing it will make any browser much more private & secure, and you can customize it to your heart's content. Install UBO in any browser for yourself or a loved one to make an immediate impact on their safety (and sanity!) online."
+    desc: "The king of browser extensions. Just installing it will make any browser far more private & secure, and you can customize it to your heart's content. Install UBO in any browser for yourself or a loved one to make an immediate impact on their safety (and sanity!) online."
     tags: [ "Open Source", "Extension", "Free"]
     labels:
       official: "https://ublockorigin.com/"
