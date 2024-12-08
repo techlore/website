@@ -53,6 +53,13 @@ data:
     labels:
       official: "https://windscribe.com/"
     color: "#355CB3"
+  -
+    name: "Orbot"
+    desc: "While not a traditional VPN, Orbot allows users to connect to the Tor network on mobile devices via a system VPN connection. It does not offer the same anonymity the Tor Network provides in other contexts, but it's a free and easy way to protect your traffic and connect to onion sites on mobile."
+    tags: ["Open Source", "Android", "iOS"]
+    labels:
+      official: "https://orbot.app/"
+    color: "#4f3663"
 related:
   -
     title: "Techlore VPN Toolkit"

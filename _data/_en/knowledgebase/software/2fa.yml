@@ -1,4 +1,4 @@
-# KNOWLEDGE BASE (Resources --> TOTP 2FA) -----------------------------------------
+# KNOWLEDGE BASE (Resources --> 2FA) -----------------------------------------
 # Data structure:
 #     - name (string)
 #     - desc (string)
@@ -32,6 +32,28 @@ data:
     tags: ["Open Source", "Free"]
     labels:
       android: "https://getaegis.app/"
+    color: "#ffffff"
+  -
+    name: "Yubikey"
+    desc: "Yubikey is one of the most polished and trusted U2F solutions."
+    tags: ["Proprietary"]
+    labels:
+      official: "https://www.yubico.com/"
+    color: "#9ACB3D"
+    favorite: true
+  -
+    name: "SoloKeys"
+    desc: "SoloKeys provide affordable, open source U2F hardware."
+    tags: ["Open Source"]
+    labels:
+      official: "https://solokeys.com/"
+    color: "#ffffff"
+  -
+    name: "Nitrokey"
+    desc: "Nitrokey provides affordable, open source U2F hardware and more private payment methods."
+    tags: ["Open Source"]
+    labels:
+      official: "https://www.nitrokey.com/"
     color: "#ffffff"
 related:
   -

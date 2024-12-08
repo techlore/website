@@ -70,7 +70,7 @@ data:
         slide: 1
         button:
           text: "2FA Options"
-          url: "totp-2fa"
+          url: "2fa"
       -
         answer: "Delete, or disable Google tracking on MyActivity page"
         slide: 2
