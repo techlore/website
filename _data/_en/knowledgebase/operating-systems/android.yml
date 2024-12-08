@@ -59,6 +59,10 @@ data:
     color: "#000000"
 related:
   -
+    title: "Android Hardening Guide"
+    url: "https://youtu.be/dMWEym0KPcA"
+    type: "video"
+  -
     title: "Go Incognito 4.3"
     url: "https://www.youtube.com/watch?v=WZCBJ6lVk8Q"
     type: "video"

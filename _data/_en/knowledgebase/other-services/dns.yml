@@ -51,6 +51,10 @@ data:
     color: "#010818"
 related:
   -
+    title: "VPN vs DNS Explained"
+    url: "https://youtu.be/wlfnIXL63tw"
+    type: "video"
+  -
     title: "PrivacyGuides DNS Guide"
     url: "https://www.privacyguides.org/en/dns/"
     type: "web"
