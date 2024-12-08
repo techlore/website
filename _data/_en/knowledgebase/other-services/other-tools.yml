@@ -65,22 +65,6 @@ data:
       official: "https://objective-see.org/"
     color: "#ffffff"
     favorite: true
-  -
-    name: "OnionShare"
-    desc: "OnionShare allows users to share files, websites, chats, and more over the Tor network directly from their system with no central parties for absolute safety."
-    tags: ["Open Source", "Desktop"]
-    labels:
-      official: "https://onionshare.org/"
-    color: "#4E0D4E"
-    favorite: true
-  -
-    name: "Syncthing"
-    desc: "Syncthing allows users to easily sync files between devices without needing to upload them to the internet."
-    tags: ["Open Source", "All devices"]
-    labels:
-      official: "https://syncthing.net/"
-    color: "#1aa1d4"
-    favorite: true
 related:
   -
     title: "Big Ass Data Broker Opt-Out List"
