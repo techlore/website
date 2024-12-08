@@ -29,7 +29,7 @@ data:
     favorite: true
   -
     name: "Mullvad Browser"
-    desc: "Mullvad Browser offers a fantastic middle-ground between the strong protections of a hardened Firefox, and the advantages of Tor Browser in a central place. It's co-developed by Mullvad & the official Tor Project."
+    desc: "Mullvad Browser offers a fantastic middle-ground between the strong protections of a hardened Firefox, and the advantages of Tor Browser for desktop. It's co-developed by Mullvad & the official Tor Project."
     tags: ["Open Source", "Gecko"]
     labels:
       desktop: "https://mullvad.net/browser"
@@ -47,7 +47,7 @@ data:
     favorite: true
   -
     name: "Firefox/Focus"
-    desc: "Firefox is a fantastic alternative to the Chromium monopoly. Mozilla is a non-profit which aims to provide digital rights to everybody."
+    desc: "Firefox is a fantastic alternative to the Chromium monopoly. Mozilla is a non-profit which aims to provide digital rights to everybody. We have a Firefox hardening guide below."
     tags: ["Open Source", "Gecko", "Webkit - iOS"]
     labels:
       desktop: "https://firefox.com/"
@@ -57,24 +57,31 @@ data:
     favorite: true
   -
     name: "Onion Browser"
-    desc: "Onion Browser is an unofficial Tor Browser. Due to iOS limitations, it should not be considered as safe as the official Tor Browser, though it still offers users a layer of anonymity."
+    desc: "Onion Browser is an unofficial Tor Browser application for iOS. Due to iOS limitations, it should not be considered as safe as the official Tor Browser, though it still offers users a layer of anonymity."
     tags: ["Open Source", "Webkit"]
     labels:
       ios: "https://onionbrowser.com/"
     color: "#7E4798"
   -
     name: "Mull"
-    desc: "Mull is the closest thing to a pre-hardened Firefox on Android. It brings many features from the Tor Uplift Project, the Arkenfox project, & more! It is recommended to install 'uBlock Origin' after installing."
+    desc: "Mull is the closest thing to a pre-hardened Firefox on Android. It brings many features from the Tor Uplift Project, the Arkenfox project, & more! It is recommended to install uBlock Origin after installing."
     tags: ["Open Source", "Gecko"]
     labels:
       android: "https://f-droid.org/en/packages/us.spotco.fennec_dos/"
     color: "#ffffff"
   -
     name: "LibreWolf"
-    desc: "LibreWolf tackles most Firefox hardening out-of-the-box & does a decent job of maintaining security updates. Be aware that using forks of projects come with concerns regarding trusting a new party, in addition to trusting them to maintain security updates."
+    desc: "LibreWolf tackles most Firefox hardening out-of-the-box & does a decent job of maintaining security updates."
     tags: ["Open Source", "Gecko"]
     labels:
       desktop: "https://librewolf.net/"
+    color: "#ffffff"
+  -
+    name: "Cromite"
+    desc: "Cromite is a Chromium fork based on Bromite with built-in support for ad blocking and an eye for privacy. It is currently supported on Android, Windows, & Linux."
+    tags: [ "Open Source", "Chromium"]
+    labels:
+      official: "https://github.com/uazo/cromite"
     color: "#ffffff"
   -
     name: "Safari"
@@ -84,18 +91,18 @@ data:
       official: "https://www.apple.com/safari/"
     color: "#ffffff"
   -
-    name: "AdGuard"
-    desc: "For those using Safari, AdGuard is a great option to block ads, trackers, phishing, use custom DNS, and more."
-    tags: [ "Open Source", "Free Tier" ]
+    name: "uBlock Origin"
+    desc: "The king of browser extensions. Just installing it will make any browser much more private & secure, and you can customize it to your heart's content. Install UBO in any browser for yourself or a loved one to make an immediate impact on their safety (and sanity!) online."
+    tags: [ "Open Source", "Extension", "Free"]
     labels:
-      official: "https://adguard.com/en/adguard-ios/overview.html"
+      official: "https://ublockorigin.com/"
     color: "#ffffff"
   -
-    name: "Cromite"
-    desc: "Cromite is a Chromium fork based on Bromite with built-in support for ad blocking and an eye for privacy. It is supported on Android, Windows, & Linux."
-    tags: [ "Open Source", "Chromium"]
+    name: "AdGuard"
+    desc: "For those using Safari, AdGuard is a great option to block ads, trackers, phishing, use custom DNS, and more."
+    tags: [ "Open Source", "Extension", "Free Tier" ]
     labels:
-      official: "https://github.com/uazo/cromite"
+      official: "https://adguard.com/en/adguard-ios/overview.html"
     color: "#ffffff"
 related:
   -
