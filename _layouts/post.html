@@ -11,7 +11,7 @@ layout: default
 <br>
 {% endif %}
 {% if page.date %}
-<em>{% if page.author %}By: {{ page.author }} — {% endif %}{{ page.date }}</em>
+<em>{% if page.author %}By: {{ page.author }} — {% endif %}{{ page.date | date: "%B %-d, %Y" }}</em>
 {% endif %}
 {% endcapture %}
 
