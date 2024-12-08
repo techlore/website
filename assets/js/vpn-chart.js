@@ -167,12 +167,14 @@ document.addEventListener("DOMContentLoaded", () => {
 				{
 					field: "Official web",
           formatter: "link2",
-					resizable: false
+					resizable: false,
+					headerSort: false
 				},
 				{
 					field: "History",
 					formatter: "history",
-					resizable: false
+					resizable: false,
+					headerSort: false
 				},
 				{
 					field: "OpenVPN",
@@ -259,7 +261,6 @@ document.addEventListener("DOMContentLoaded", () => {
 					formatter: "check",
 					resizable: false
 				},
-
 				{
 					field: "Anon Registration",
 					formatter: "check",

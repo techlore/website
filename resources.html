@@ -2,7 +2,7 @@
 layout: page
 title: Resources
 permalink: /resources
-description: "Techlore's Privacy & Security recommendations based on our strict <a href='https://discuss.techlore.tech/pub/criteria' target='_blank'>criteria</a>. For further assistance, we suggest our <a href='/goincognito'>Go Incognito</a> course and our coaching. There are <a href='#external-resources'>external resources</a> at the bottom for more recommendations."
+description: "Techlore's Privacy & Security recommendations based on our strict <a href='https://discuss.techlore.tech/pub/criteria' target='_blank'>criteria</a>. For further assistance, we suggest our <a href='/goincognito'>Go Incognito</a> course and our <a href='/coaching'>coaching</a>. There are <a href='#external-resources'>external resources</a> at the bottom for more recommendations."
 ---
 {%- include variables.html -%}
 
@@ -157,11 +157,11 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 		{% include c_knowledgebase.html title=title data=data related=relatedLinks %}
 	</div>
 
-	<!-- TOTP 2FA -->
+	<!-- 2FA -->
 	<div class="container mt-6" data-knowledgebase-section>
-		{% assign title = kbtext.categories.totp-2fa %}
-		{% assign data = site.data._en.knowledgebase.software.totp-2fa.data %}
-		{% assign relatedLinks = site.data._en.knowledgebase.software.totp-2fa.related %}
+		{% assign title = kbtext.categories["2fa"] %}
+		{% assign data = site.data._en.knowledgebase.software["2fa"].data %}
+		{% assign relatedLinks = site.data._en.knowledgebase.software["2fa"].related %}
 
 		{% include c_knowledgebase.html title=title data=data related=relatedLinks %}
 	</div>
@@ -317,11 +317,11 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 		{% include c_knowledgebase.html title=title data=data related=relatedLinks %}
 	</div>
 
-	<!-- Cloud providers -->
+	<!-- Cloud -->
 	<div class="container mt-6" data-knowledgebase-section>
-		{% assign title = kbtext.categories.cloud-providers %}
-		{% assign data = site.data._en.knowledgebase.other-services.cloud-providers.data %}
-		{% assign relatedLinks = site.data._en.knowledgebase.other-services.cloud-providers.related %}
+		{% assign title = kbtext.categories.cloud %}
+		{% assign data = site.data._en.knowledgebase.other-services.cloud.data %}
+		{% assign relatedLinks = site.data._en.knowledgebase.other-services.cloud.related %}
 
 		{% include c_knowledgebase.html title=title data=data related=relatedLinks %}
 	</div>
@@ -340,24 +340,6 @@ description: "Techlore's Privacy & Security recommendations based on our strict 
 		{% assign title = kbtext.categories.cryptocurrencies %}
 		{% assign data = site.data._en.knowledgebase.other-services.cryptocurrencies.data %}
 		{% assign relatedLinks = site.data._en.knowledgebase.other-services.cryptocurrencies.related %}
-
-		{% include c_knowledgebase.html title=title data=data related=relatedLinks %}
-	</div>
-
-	<!-- Hardware/2FA -->
-	<div class="container mt-6" data-knowledgebase-section>
-		{% assign title = kbtext.categories.hardware-2fa %}
-		{% assign data = site.data._en.knowledgebase.other-services.hardware-2fa.data %}
-		{% assign relatedLinks = site.data._en.knowledgebase.other-services.hardware-2fa.related %}
-
-		{% include c_knowledgebase.html title=title data=data related=relatedLinks %}
-	</div>
-
-	<!-- Webhosting/VPS -->
-	<div class="container mt-6" data-knowledgebase-section>
-		{% assign title = kbtext.categories.webhosting-vps %}
-		{% assign data = site.data._en.knowledgebase.other-services.webhosting-vps.data %}
-		{% assign relatedLinks = site.data._en.knowledgebase.other-services.webhosting-vps.related %}
 
 		{% include c_knowledgebase.html title=title data=data related=relatedLinks %}
 	</div>
