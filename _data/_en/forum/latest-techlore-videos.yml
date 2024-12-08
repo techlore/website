@@ -21,7 +21,7 @@
   image_url: https://discuss.techlore.tech/uploads/default/original/2X/c/cde99d4ea5591c9adf6c06512f8cae951ee3dcd0.jpeg
   last_posted_at: '2024-12-06T12:30:03.701Z'
   last_poster_username: ignoramous
-  like_count: 8
+  like_count: 9
   liked: null
   pinned: false
   pinned_globally: false
@@ -59,7 +59,7 @@
   title: 5 Easy Ways to Improve Privacy!
   unpinned: null
   unseen: false
-  views: 184
+  views: 215
   visible: true
 - archetype: regular
   archived: false
@@ -104,7 +104,7 @@
   title: Your privacy & security questions answered! (Nov '24)
   unpinned: null
   unseen: false
-  views: 103
+  views: 106
   visible: true
 - archetype: regular
   archived: false
@@ -224,7 +224,7 @@
   title: How to Stay Private on a Budget!
   unpinned: null
   unseen: false
-  views: 687
+  views: 691
   visible: true
 - archetype: regular
   archived: false
@@ -479,7 +479,7 @@
   title: "Why I switched from Firefox\u2026"
   unpinned: null
   unseen: false
-  views: 427
+  views: 429
   visible: true
 - archetype: regular
   archived: false
@@ -524,7 +524,7 @@
   title: "10 Privacy Tools I Can\u2019t Live Without"
   unpinned: null
   unseen: false
-  views: 360
+  views: 361
   visible: true
 - archetype: regular
   archived: false
@@ -869,7 +869,7 @@
   title: The Future of Notes is Private! - Abdullah Atta/Notesnook Interview
   unpinned: null
   unseen: false
-  views: 93
+  views: 94
   visible: true
 - archetype: regular
   archived: false
@@ -1189,7 +1189,7 @@
   title: 'Lock Down Your Signal: Ultimate Hardening Guide'
   unpinned: null
   unseen: false
-  views: 364
+  views: 372
   visible: true
 - archetype: regular
   archived: false
@@ -2672,7 +2672,7 @@
   title: Why I Stopped Hardening Firefox
   unpinned: null
   unseen: false
-  views: 3571
+  views: 3577
   visible: true
 - archetype: regular
   archived: false
@@ -2772,7 +2772,7 @@
   title: 'The 2024 VPN Tier List: Privacy & Security Smackdown!'
   unpinned: null
   unseen: false
-  views: 602
+  views: 603
   visible: true
 - archetype: regular
   archived: false
@@ -3896,7 +3896,7 @@
   title: 'Simplifying w/Digital Minimalism: What''s on My Phone'
   unpinned: null
   unseen: false
-  views: 1307
+  views: 1310
   visible: true
 - archetype: regular
   archived: false
@@ -3956,7 +3956,7 @@
   title: 'Get to know Punkt MP02: A Dumbphone w/Signal for your Privacy'
   unpinned: null
   unseen: false
-  views: 1384
+  views: 1388
   visible: true
 - archetype: regular
   archived: false
@@ -4308,7 +4308,7 @@
   title: The ULTIMATE Guide to Mastering NextDNS!
   unpinned: null
   unseen: false
-  views: 7572
+  views: 7574
   visible: true
 - archetype: regular
   archived: false
@@ -4418,7 +4418,7 @@
   title: "Thoughts on Proton\u2019s New Password Manager! (I\u2019m Mixed\u2026)"
   unpinned: null
   unseen: false
-  views: 1658
+  views: 1659
   visible: true
 - archetype: regular
   archived: false
@@ -6074,7 +6074,7 @@
   title: FINALLY! The VPN Configuration I've Been Looking For!
   unpinned: null
   unseen: false
-  views: 3088
+  views: 3092
   visible: true
 - archetype: regular
   archived: false
@@ -6388,7 +6388,7 @@
   title: "The VPN You Use Probably Sucks - Here\u2019s Why"
   unpinned: null
   unseen: false
-  views: 804
+  views: 807
   visible: true
 - archetype: regular
   archived: false
@@ -6943,7 +6943,7 @@
   title: I Regret Buying a Librem 5 - Here's Why!
   unpinned: null
   unseen: false
-  views: 524
+  views: 525
   visible: true
 - archetype: regular
   archived: false
