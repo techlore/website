@@ -59,7 +59,7 @@
   title: 5 Easy Ways to Improve Privacy!
   unpinned: null
   unseen: false
-  views: 281
+  views: 293
   visible: true
 - archetype: regular
   archived: false
@@ -104,7 +104,7 @@
   title: Your privacy & security questions answered! (Nov '24)
   unpinned: null
   unseen: false
-  views: 116
+  views: 117
   visible: true
 - archetype: regular
   archived: false
@@ -224,7 +224,7 @@
   title: How to Stay Private on a Budget!
   unpinned: null
   unseen: false
-  views: 697
+  views: 699
   visible: true
 - archetype: regular
   archived: false
@@ -329,7 +329,7 @@
   title: Your privacy & security questions answered! (Oct '24)
   unpinned: null
   unseen: false
-  views: 163
+  views: 164
   visible: true
 - archetype: regular
   archived: false
@@ -389,7 +389,7 @@
   title: 'Kagi Search: Is Paying for a Search Engine Worth It?'
   unpinned: null
   unseen: false
-  views: 579
+  views: 582
   visible: true
 - archetype: regular
   archived: false
@@ -479,7 +479,7 @@
   title: "Why I switched from Firefox\u2026"
   unpinned: null
   unseen: false
-  views: 432
+  views: 433
   visible: true
 - archetype: regular
   archived: false
@@ -1189,7 +1189,7 @@
   title: 'Lock Down Your Signal: Ultimate Hardening Guide'
   unpinned: null
   unseen: false
-  views: 418
+  views: 421
   visible: true
 - archetype: regular
   archived: false
@@ -2672,7 +2672,7 @@
   title: Why I Stopped Hardening Firefox
   unpinned: null
   unseen: false
-  views: 3604
+  views: 3616
   visible: true
 - archetype: regular
   archived: false
@@ -2717,7 +2717,7 @@
   title: Brave NUKES Privacy Feature! Should You Panic?
   unpinned: null
   unseen: false
-  views: 430
+  views: 431
   visible: true
 - archetype: regular
   archived: false
@@ -2772,7 +2772,7 @@
   title: 'The 2024 VPN Tier List: Privacy & Security Smackdown!'
   unpinned: null
   unseen: false
-  views: 603
+  views: 605
   visible: true
 - archetype: regular
   archived: false
@@ -3516,7 +3516,7 @@
   title: Signal Usernames Are FINALLY Coming!
   unpinned: null
   unseen: false
-  views: 948
+  views: 949
   visible: true
 - archetype: regular
   archived: false
@@ -3956,7 +3956,7 @@
   title: 'Get to know Punkt MP02: A Dumbphone w/Signal for your Privacy'
   unpinned: null
   unseen: false
-  views: 1393
+  views: 1395
   visible: true
 - archetype: regular
   archived: false
@@ -4148,7 +4148,7 @@
   title: 'Why Browser Wars Are Silly: Here''s What Matters!'
   unpinned: null
   unseen: false
-  views: 1447
+  views: 1448
   visible: true
 - archetype: regular
   archived: false
@@ -4308,7 +4308,7 @@
   title: The ULTIMATE Guide to Mastering NextDNS!
   unpinned: null
   unseen: false
-  views: 7584
+  views: 7585
   visible: true
 - archetype: regular
   archived: false
@@ -4418,7 +4418,7 @@
   title: "Thoughts on Proton\u2019s New Password Manager! (I\u2019m Mixed\u2026)"
   unpinned: null
   unseen: false
-  views: 1661
+  views: 1662
   visible: true
 - archetype: regular
   archived: false
@@ -5450,7 +5450,7 @@
   title: 'Proton Privacy: A Review to Determine its Full Potential!'
   unpinned: null
   unseen: false
-  views: 580
+  views: 581
   visible: true
 - archetype: regular
   archived: false
@@ -6074,7 +6074,7 @@
   title: FINALLY! The VPN Configuration I've Been Looking For!
   unpinned: null
   unseen: false
-  views: 3094
+  views: 3095
   visible: true
 - archetype: regular
   archived: false
@@ -6830,7 +6830,7 @@
   title: My Apologies
   unpinned: null
   unseen: false
-  views: 425
+  views: 426
   visible: true
 - archetype: regular
   archived: false
@@ -7081,7 +7081,7 @@
   id: 745
   image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/6/636e6c8fea48bd87c37442ebe4043389d1d7dd4b_2_1024x576.jpeg
   last_posted_at: '2022-09-02T20:31:38.235Z'
-  last_poster_username: Archie
+  last_poster_username: Jacob
   like_count: 11
   liked: null
   pinned: false

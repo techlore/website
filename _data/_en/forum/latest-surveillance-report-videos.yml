@@ -5,6 +5,46 @@
   archived: false
   bookmarked: null
   bumped: true
+  bumped_at: '2024-12-12T16:46:48.888Z'
+  can_vote: false
+  category_id: 21
+  closed: false
+  created_at: '2024-12-12T16:46:48.839Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/irCG1Rx6PQ8gZdag1Wj4Np
+  fancy_title: 'Q&amp;A: What&rsquo;s the Best Antirivus for Linux?'
+  featured_link: https://neat.tube/w/irCG1Rx6PQ8gZdag1Wj4Np
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 1
+  id: 11113
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/9/9af5dfd3f25596390af9b082e59e55cc4f0403e9.jpeg
+  last_posted_at: '2024-12-12T16:46:48.888Z'
+  last_poster_username: system
+  like_count: 1
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster, Most Recent Poster
+    extras: latest single
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  posts_count: 1
+  reply_count: 0
+  slug: q-a-whats-the-best-antirivus-for-linux
+  tags: []
+  tags_descriptions: {}
+  title: 'Q&A: What''s the Best Antirivus for Linux?'
+  unpinned: null
+  unseen: false
+  views: 21
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
   bumped_at: '2024-11-28T23:26:33.759Z'
   can_vote: false
   category_id: 21
@@ -894,7 +934,7 @@
   title: 'Q&A: Does Global Privacy Control ACTUALLY Work?'
   unpinned: null
   unseen: false
-  views: 66
+  views: 67
   visible: true
 - archetype: regular
   archived: false
@@ -1315,54 +1355,4 @@
   unpinned: null
   unseen: false
   views: 169
-  visible: true
-- archetype: regular
-  archived: false
-  bookmarked: null
-  bumped: true
-  bumped_at: '2024-07-22T12:05:34.410Z'
-  can_vote: false
-  category_id: 21
-  closed: false
-  created_at: '2024-07-22T06:26:54.166Z'
-  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/86QKjaDV6k7ueCBEAzWeqv
-  fancy_title: THESE Are The Phones Cellebrite Can Hack!
-  featured_link: https://neat.tube/w/86QKjaDV6k7ueCBEAzWeqv
-  featured_link_root_domain: neat.tube
-  has_accepted_answer: false
-  has_summary: false
-  highest_post_number: 5
-  id: 9300
-  image_url: https://discuss.techlore.tech/uploads/default/original/2X/b/bdc01dc7f74c5b991231658a6184909e749bff21.jpeg
-  last_posted_at: '2024-07-22T12:05:34.410Z'
-  last_poster_username: Onscreen5341
-  like_count: 1
-  liked: null
-  pinned: false
-  pinned_globally: false
-  posters:
-  - description: Original Poster
-    extras: null
-    flair_group_id: null
-    primary_group_id: null
-    user_id: -1
-  - description: Frequent Poster
-    extras: null
-    flair_group_id: null
-    primary_group_id: null
-    user_id: 847
-  - description: Most Recent Poster
-    extras: latest
-    flair_group_id: 45
-    primary_group_id: 45
-    user_id: 2278
-  posts_count: 5
-  reply_count: 3
-  slug: these-are-the-phones-cellebrite-can-hack
-  tags: []
-  tags_descriptions: {}
-  title: THESE Are The Phones Cellebrite Can Hack!
-  unpinned: null
-  unseen: false
-  views: 198
   visible: true
