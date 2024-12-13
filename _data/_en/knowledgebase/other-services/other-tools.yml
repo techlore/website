@@ -4,7 +4,8 @@
 #     - desc (string)
 #     - tags (array of strings):        contains misc info, eg. rendering engine, FOSS or proprietary, etc.
 #     - affil (string, optional):       affiliate link
-#     - labels:                         links to the official web (official) and different versions of the software (desktop, android, ios);
+#     - labels:                         links to the official web (web), YouTube channel (youtube)
+#                                       or anything for which there is an icon in `assets/icons/` (eg. github);
 #                                       see "_data/_en/content.yml --> resources --> knowledgebase --> labels"
 #     - color (string, optional):       color of the icon background (preferably in HEX format - #BADA55)
 #     - favorite (boolean, optional):   marks a favorite and show a "star" icon next to the name
@@ -14,7 +15,7 @@
 #
 #     - title (string)
 #     - url (string)
-#     - type (string): show the corresponding icon in front of the title (web, video, youtube)
+#     - type (string): show the corresponding icon in front of the title (eg. web, video, github); any icon from the `assets/icons/` folder
 #
 order: 13
 data:
@@ -23,7 +24,7 @@ data:
     desc: "Easy & affordable data removal service. Nothing currently matches its value and transparency. Demonstrated to be effective through independent Consumer Reports research. Refer to BADBOOL below for manual instructions!"
     tags: ["Paid", "Proprietary", "Web", "US-Only"]
     labels:
-      official: "https://easyoptouts.com/"
+      web: "https://easyoptouts.com/"
     color: "#86FCBB"
     favorite: true
   -
@@ -31,14 +32,14 @@ data:
     desc: "Optery's paid plan is also effective, but far pricier than EasyOptOuts. We enjoy Optery's free plan to scan sites for your information to assist in manual opt-outs, or to double-check your data is removed from another automated service. Demonstrated to be effective through independent Consumer Reports research. Refer to BADBOOL below for manual instructions!"
     tags: ["Free-tier", "Proprietary", "Web", "US-Only"]
     labels:
-      official: "https://www.optery.com/"
+      web: "https://www.optery.com/"
     color: "#ffffff"
   -
     name: "BleachBit"
     desc: "BleachBit is a file shredding and data removal tool."
     tags: ["Open Source", "Desktop"]
     labels:
-      official: "https://www.bleachbit.org/"
+      web: "https://www.bleachbit.org/"
     color: "#385199"
     favorite: true
   -
@@ -46,7 +47,7 @@ data:
     desc: "Dangerzone is a program to safely open potentially suspicious attachments."
     tags: ["Open Source", "Desktop"]
     labels:
-      official: "https://dangerzone.rocks/"
+      web: "https://dangerzone.rocks/"
     color: "#6c3402"
     favorite: true
   -
@@ -54,7 +55,7 @@ data:
     desc: "AlternativeTo allows users to find more privacy-respecting alternatives to the software they use."
     tags: ["Proprietary", "Web"]
     labels:
-      official: "https://alternativeto.net/"
+      web: "https://alternativeto.net/"
     color: "#2C4961"
     favorite: true
   -
@@ -62,11 +63,11 @@ data:
     desc: "Objective-See offers a suite of open source security & privacy tools for MacOS."
     tags: ["Open Source", "macOS"]
     labels:
-      official: "https://objective-see.org/"
+      web: "https://objective-see.org/"
     color: "#ffffff"
     favorite: true
 related:
   -
     title: "Big Ass Data Broker Opt-Out List"
     url: "https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List"
-    type: "web"
+    type: "github"

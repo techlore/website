@@ -26,22 +26,25 @@
 }
 
 .knowledgebase-item__title {
-	position: relative;
+	flex-direction: column;
+	align-items: flex-start;
 
-	.knowledgebase-item:has(.knowledgebase-item__desc) & {
-		&:after {
-			content: '';
-			width: calc(var(--bulma-size-5) * 4);
-			height: calc(var(--bulma-size-5) * .25);
-			background-color: var(--bulma-primary);
-			position: absolute;
-			inset: calc(var(--bulma-size-5) * 4) auto auto 0;
-			border-radius: 100vmax;
-		}
+	@media (min-width: 400px) {
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
 	}
 
 	.content & {
 		margin-bottom: 0;
+	}
+}
+
+.knowledgebase-item__title-link {
+	color: var(--custom-knowledgebase-item-link);
+
+	&:hover {
+		color: var(--custom-knowledgebase-item-link-hover);
 	}
 }
 
@@ -60,9 +63,14 @@
 	padding: calc(var(--bulma-size-5) * .45) calc(var(--bulma-size-5) * .45);
 	aspect-ratio: 1;
 	outline: 1px solid var(--bulma-border-weak);
+	transition: outline 200ms ease-in-out;
+
+	&:hover {
+		outline: 3px solid var(--bulma-primary);
+	}
 
 	@media (min-width: $fullhd) {
-		width: calc(var(--bulma-size-5) * 4);
+		width: calc(var(--bulma-size-5) * 4.35);
 		padding: calc(var(--bulma-size-5) * .75) calc(var(--bulma-size-5) * .75);
 	}
 }
@@ -72,11 +80,31 @@
 }
 
 .knowledgebase-item__tags {
+	position: relative;
+	background-color: var(--custom-knowledgebase-tags-bg);
+	padding: calc(var(--bulma-size-5) * .25) calc(var(--bulma-size-5) * .75);
+	border-radius: var(--bulma-size-5);
+	margin-top: calc(var(--bulma-size-5) * .5);
 
+	&:after {
+		content: '';
+		width: calc(var(--bulma-size-5) * 4);
+		height: calc(var(--bulma-size-5) * .25);
+		background-color: var(--bulma-primary);
+		position: absolute;
+		inset: auto auto calc(var(--bulma-size-5) * -1.6) 0;
+		border-radius: 100vmax;
+	}
 }
 
-.knowledgebase-item__tag:not(:last-child) {
+.knowledgebase-item__tag:not(:last-child):not(.knowledgebase-item__tag--icon) {
 	&:after {
-		content: ', ';
+		content: ' \2022  ';
 	}
+}
+
+.knowledgebase-item__tag--icon {
+	aspect-ratio: 1;
+	display: inline-flex;
+	padding: calc(var(--bulma-size-5) * .25);
 }

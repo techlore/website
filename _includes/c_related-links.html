@@ -16,10 +16,8 @@
 
 		<div class="columns has-3-cols-tablet is-multiline">
 			{% for link in include.links %}
-				{% assign linkIcon = "web" %}
-				{% if link.type == "video" %}
-					{% assign linkIcon = "youtube" %}
-				{% endif %}
+				{% assign linkIcon = link.type | default: "web" %}
+
 				<div class="column">
 					<a href="{{ link.url }}" class="related-links__link button is-ghost is-gap-2" target="_blank">
 						{% include e_render-svg-icon.html icon=linkIcon dimension=50 inline=true class="icon" %} {{ link.title }}

@@ -4,7 +4,8 @@
 #     - desc (string)
 #     - tags (array of strings):        contains misc info, eg. rendering engine, FOSS or proprietary, etc.
 #     - affil (string, optional):       affiliate link
-#     - labels:                         links to the official web (official) and different versions of the software (desktop, android, ios);
+#     - labels:                         links to the official web (web), YouTube channel (youtube)
+#                                       or anything for which there is an icon in `assets/icons/` (eg. github);
 #                                       see "_data/_en/content.yml --> resources --> knowledgebase --> labels"
 #     - color (string, optional):       color of the icon background (preferably in HEX format - #BADA55)
 #     - favorite (boolean, optional):   marks a favorite and show a "star" icon next to the name
@@ -14,7 +15,7 @@
 #
 #     - title (string)
 #     - url (string)
-#     - type (string): show the corresponding icon in front of the title (web, video, youtube)
+#     - type (string): show the corresponding icon in front of the title (eg. web, video, github); any icon from the `assets/icons/` folder
 #
 order: 7
 data:
@@ -23,7 +24,7 @@ data:
     desc: "Nextcloud is a self-hostable suite for photos, documents, files, contacts, and more. It's a robust service, with the main drawback being an unpolished E2EE offering. You can either use a trusted organization to host your data, or ideally you host your own data."
     tags: ["Open Source", "Varying prices"]
     labels:
-      official: "https://nextcloud.com/"
+      web: "https://nextcloud.com/"
     color: "#0082C9"
     favorite: true
   -
@@ -32,32 +33,28 @@ data:
     tags: ["Open Source", "Free tier"]
     affil: "https://go.getproton.me/SH1Hp"
     labels:
-      official: "https://proton.me/drive"
-      android: "https://play.google.com/store/apps/details?id=me.proton.android.drive"
-      ios: "https://apps.apple.com/app/id1509667851"
+      web: "https://proton.me/drive"
     color: "#ffffff"
   -
     name: "MEGA"
     desc: "MEGA is a more traditional cloud provider with E2EE and usable, source-available clients."
     tags: ["Source-available", "Free tier"]
     labels:
-      official: "https://mega.io/"
-      android: "https://play.google.com/store/apps/details?id=mega.privacy.android.app"
-      ios: "https://apps.apple.com/app/mega/id706857885"
+      web: "https://mega.io/"
     color: "#ce3f2d"
   -
     name: "Cryptomator"
     desc: "Cryptomator allows users to encrypt their files before uploading them to another mainstream cloud provider (Google Drive, Dropbox, iCloud etc.) - it's a great way to still use the cloud provider of your choice with improved security."
     tags: ["Open Source", "Free"]
     labels:
-      official: "https://cryptomator.org/"
+      web: "https://cryptomator.org/"
     color: "#ffffff"
   -
     name: "OnionShare"
     desc: "OnionShare allows users to share files, websites, chats, and more over the Tor network directly from their system with no central parties for absolute safety."
     tags: ["Open Source", "Desktop"]
     labels:
-      official: "https://onionshare.org/"
+      web: "https://onionshare.org/"
     color: "#4E0D4E"
     favorite: true
   -
@@ -65,7 +62,7 @@ data:
     desc: "Syncthing allows users to easily sync files between devices without needing to upload them to the internet."
     tags: ["Open Source", "All devices"]
     labels:
-      official: "https://syncthing.net/"
+      web: "https://syncthing.net/"
     color: "#1aa1d4"
     favorite: true
 related:

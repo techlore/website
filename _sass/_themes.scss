@@ -60,6 +60,11 @@
 
 	// --- go incognito logo
 	--custom-goincognito-logo-bg: var(--bulma-danger-30);
+
+	// --- knowledge base
+	--custom-knowledgebase-item-link: var(--bulma-white);
+	--custom-knowledgebase-item-link-hover: var(--bulma-primary);
+	--custom-knowledgebase-tags-bg: var(--bulma-background);
 }
 
 @mixin light-theme-vars {
@@ -95,6 +100,11 @@
 	// --- go incognito logo
 	--custom-goincognito-logo-bg: var(--bulma-danger);
 	--custom-goincognito-title: var(--bulma-white);
+
+	// --- knowledge base
+	--custom-knowledgebase-item-link: var(--bulma-content-heading-color);
+	--custom-knowledgebase-item-link-hover: var(--bulma-primary);
+	--custom-knowledgebase-tags-bg: var(--bulma-white);
 
 	[data-apply-light-theme-filter] {
 		filter: invert(.75);

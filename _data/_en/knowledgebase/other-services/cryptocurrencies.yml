@@ -4,7 +4,8 @@
 #     - desc (string)
 #     - tags (array of strings):        contains misc info, eg. rendering engine, FOSS or proprietary, etc.
 #     - affil (string, optional):       affiliate link
-#     - labels:                         links to the official web (official) and different versions of the software (desktop, android, ios);
+#     - labels:                         links to the official web (web), YouTube channel (youtube)
+#                                       or anything for which there is an icon in `assets/icons/` (eg. github);
 #                                       see "_data/_en/content.yml --> resources --> knowledgebase --> labels"
 #     - color (string, optional):       color of the icon background (preferably in HEX format - #BADA55)
 #     - favorite (boolean, optional):   marks a favorite and show a "star" icon next to the name
@@ -14,7 +15,7 @@
 #
 #     - title (string)
 #     - url (string)
-#     - type (string): show the corresponding icon in front of the title (web, video, youtube)
+#     - type (string): show the corresponding icon in front of the title (eg. web, video, github); any icon from the `assets/icons/` folder
 #
 order: 9
 data:
@@ -23,7 +24,7 @@ data:
     desc: "Monero is one of the strongest, private-by-default cryptocurrencies to ensure the safety of transactions. Its wide adoption & community-first approach to privacy makes it the gold standard for private digital transactions with FCMP++ coming soon."
     tags: ["Open Source"]
     labels:
-      official: "https://www.getmonero.org/"
+      web: "https://www.getmonero.org/"
     color: "#ff6600"
     favorite: true
   -
@@ -31,28 +32,28 @@ data:
     desc: "Encrypted electronic cash. The first cryptocurrency to develop zero-knowledge encryption for private peer-to-peer payments."
     tags: ["Open Source"]
     labels:
-      official: "https://z.cash/"
+      web: "https://z.cash/"
     color: "#f3b724"
   -
     name: "Haveno"
     desc: "Haveno is a non-custodial, decentralized exchange platform for crypto and fiat currencies built on Tor and Monero."
     tags: ["Open Source"]
     labels:
-      official: "https://haveno.exchange/"
+      web: "https://haveno.exchange/"
     color: "#e8e7ec"
   -
     name: "Bisq Network"
     desc: "Bisq is a P2P, KYC-free, decentralized Bitcoin exchange."
     tags: ["Open Source"]
     labels:
-      official: "https://bisq.network/"
+      web: "https://bisq.network/"
     color: "#24B135"
   -
     name: "Cake Wallet"
     desc: "Cake Wallet is a wallet to store your Bitcoin, Monero, & Litecoin in a trusted place."
     tags: ["Open Source"]
     labels:
-      official: "https://cakewallet.com/"
+      web: "https://cakewallet.com/"
     color: "#ffffff"
     favorite: true
   -
@@ -61,7 +62,7 @@ data:
     tags: ["Proprietary"]
     affil: "https://coincards.com/us/?ref=techlore"
     labels:
-      official: "https://coincards.com/"
+      web: "https://coincards.com/"
     color: "#ffffff"
 related:
   -

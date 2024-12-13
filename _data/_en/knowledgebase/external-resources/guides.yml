@@ -4,7 +4,8 @@
 #     - desc (string)
 #     - tags (array of strings):        contains misc info, eg. rendering engine, FOSS or proprietary, etc.
 #     - affil (string, optional):       affiliate link
-#     - labels:                         links to the official web (official) and different versions of the software (desktop, android, ios);
+#     - labels:                         links to the official web (web), YouTube channel (youtube)
+#                                       or anything for which there is an icon in `assets/icons/` (eg. github);
 #                                       see "_data/_en/content.yml --> resources --> knowledgebase --> labels"
 #     - color (string, optional):       color of the icon background (preferably in HEX format - #BADA55)
 #     - favorite (boolean, optional):   marks a favorite and show a "star" icon next to the name
@@ -14,42 +15,42 @@
 #
 #     - title (string)
 #     - url (string)
-#     - type (string): show the corresponding icon in front of the title (web, video, youtube)
+#     - type (string): show the corresponding icon in front of the title (eg. web, video, github); any icon from the `assets/icons/` folder
 #
 order: 1
 data:
   -
     name: "Privacy Guides"
     labels:
-      official: "https://privacyguides.org/"
+      web: "https://privacyguides.org/"
     color: "#ffffff"
   -
     name: "EFF Surveillance Self-Defense"
     labels:
-      official: "https://ssd.eff.org/"
+      web: "https://ssd.eff.org/"
     color: "#ffffff"
   -
     name: "The New Oil"
     labels:
-      official: "https://thenewoil.org/"
+      web: "https://thenewoil.org/"
     color: "#000000"
   -
     name: "CR Security Planner"
     labels:
-      official: "https://securityplanner.consumerreports.org/"
+      web: "https://securityplanner.consumerreports.org/"
     color: "#004a54"
   -
     name: "FOTP Guides & Training"
     labels:
-      official: "https://freedom.press/training/"
+      web: "https://freedom.press/training/"
     color: "#ffffff"
   -
     name: "Privacy Not Included"
     labels:
-      official: "https://foundation.mozilla.org/en/privacynotincluded/"
+      web: "https://foundation.mozilla.org/en/privacynotincluded/"
     color: "#ffffff"
   -
     name: "Hitchhiker's Guide"
     labels:
-      official: "https://anonymousplanet.org/"
+      web: "https://anonymousplanet.org/"
     color: "#000000"

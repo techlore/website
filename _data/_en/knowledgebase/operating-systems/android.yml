@@ -4,7 +4,8 @@
 #     - desc (string)
 #     - tags (array of strings):        contains misc info, eg. rendering engine, FOSS or proprietary, etc.
 #     - affil (string, optional):       affiliate link
-#     - labels:                         links to the official web (official) and different versions of the software (desktop, android, ios);
+#     - labels:                         links to the official web (web), YouTube channel (youtube)
+#                                       or anything for which there is an icon in `assets/icons/` (eg. github);
 #                                       see "_data/_en/content.yml --> resources --> knowledgebase --> labels"
 #     - color (string, optional):       color of the icon background (preferably in HEX format - #BADA55)
 #     - favorite (boolean, optional):   marks a favorite and show a "star" icon next to the name
@@ -14,7 +15,7 @@
 #
 #     - title (string)
 #     - url (string)
-#     - type (string): show the corresponding icon in front of the title (web, video, youtube)
+#     - type (string): show the corresponding icon in front of the title (eg. web, video, github); any icon from the `assets/icons/` folder
 #
 order: 3
 data:
@@ -23,7 +24,7 @@ data:
     desc: "A private and secure mobile operating system with Android app compatibility via Sandboxed Google Play Services. Developed as a non-profit open source project."
     tags: ["Open Source", "Only Pixel line support"]
     labels:
-      official: "https://grapheneos.org/"
+      web: "https://grapheneos.org/"
     color: "#ffffff"
     favorite: true
   -
@@ -31,7 +32,7 @@ data:
     desc: "CalyxOS maintains quality protection for most users, while offering many usability features via MicroG for app compatibility. Developed by a non-profit Calyx Institute with moderate device compatability."
     tags: ["Open Source", "Limited devices"]
     labels:
-      official: "https://calyxos.org/"
+      web: "https://calyxos.org/"
     color: "#9BCC01"
     favorite: true
   -
@@ -39,7 +40,7 @@ data:
     desc: "DivestOS attempts to fix some security issues with LineageOS (like bringing verified boot to some devices) while maintaing large device compatability & extra usability features."
     tags: ["Open Source", "Supports many devices"]
     labels:
-      official: "https://divestos.org/"
+      web: "https://divestos.org/"
     color: "#000000"
     favorite: true
   -
@@ -47,15 +48,14 @@ data:
     desc: "MicroG is an open source replacement to proprietary Google Play Services. It allows apps & services to work as intended in a more privacy-respecting & transparent fashion on most custom ROMs."
     tags: ["Open Source"]
     labels:
-      official: "https://microg.org/"
+      web: "https://microg.org/"
     color: "#F2F2F2"
   -
     name: "Plexus"
     desc: "While MicroG & de-googled ROMs try to maintain the compatability of Google Play Services, they are not perfect. Plexus allows you to check what apps do/don't work, deveoped by us at Techlore."
     tags: ["Open Source"]
     labels:
-      official: "https://plexus.techlore.tech/"
-      android: "https://github.com/techlore/Plexus-app?tab=readme-ov-file#download"
+      web: "https://plexus.techlore.tech/"
     color: "#000000"
 related:
   -

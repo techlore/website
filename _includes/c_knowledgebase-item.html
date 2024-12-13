@@ -12,47 +12,58 @@
 {% assign iconColor = include.item.color %}
 
 <div class="knowledgebase-item cell is-flex" id="{{ slugifiedName }}">
-	<div class="columns has-2-cols is-flex is-flex-wrap-nowrap">
+	<div class="columns has-2-cols is-flex is-flex-wrap-nowrap is-flex-grow-1">
 		<div class="column is-flex-grow-0">
-			<i class="knowledgebase-item__icon is-flex is-justify-content-center is-align-items-center has-radius-rounded is-overflow-hidden has-text-warning" {% if iconColor %}style="background-color: {{ iconColor }};{% endif %}">
-				<img src="{{ '/assets/knowledgebase/icons/' | append: slugifiedName | append: '.svg' | relative_url }}" loading="lazy" alt="Icon - {{ include.item.name }}">
-			</i>
+			{%- if include.item.labels.size > 0 -%}
+				{%- for label in include.item.labels -%}
+					<a href="{{ label[1] }}" class="knowledgebase-item__icon is-flex is-justify-content-center is-align-items-center has-radius-rounded is-overflow-hidden has-text-warning" {% if iconColor %}style="background-color: {{ iconColor }};{% endif %}" target="_blank">
+						<img src="{{ '/assets/knowledgebase/icons/' | append: slugifiedName | append: '.svg' | relative_url }}" loading="lazy" alt="Icon - {{ include.item.name }}">
+					</a>
+				{%- endfor -%}
+			{%- endif -%}
 		</div>
-		<div class="column is-flex is-flex-direction-column anchor">
-			<h4 class="knowledgebase-item__title is-align-items-center is-flex is-gap-1">
-				{{ include.item.name }}
-				{% if include.item.favorite %}
-					{% include e_render-svg-icon.html icon="star-solid" dimension="25" inline=true class="knowledgebase-item__favorite" %}
-				{% endif %}
-				<a href="{{ slugifiedName | prepend: "#" }}" class="knowledgebase-item__anchor anchor__hash">#</a>
+		<div class="column is-flex is-flex-direction-column anchor{% unless include.item.desc and include.item.tags %} is-align-self-center{% endunless %}">
+			<h4 class="knowledgebase-item__title is-flex is-gap-1">
+				<span>
+					{%- if include.item.labels.size > 0 -%}
+						{%- for label in include.item.labels -%}
+							<a href="{{ label[1] }}" class="knowledgebase-item__title-link mr-2">{{- include.item.name -}}</a>
+						{%- endfor -%}
+					{%- endif -%}
+					{%- if include.item.favorite -%}
+						{%- include e_render-svg-icon.html icon="star-solid" dimension="25" inline=true class="knowledgebase-item__favorite" -%}
+					{%- endif -%}
+					<a href="{{ slugifiedName | prepend: "#" }}" class="knowledgebase-item__anchor anchor__hash">#</a>
+				</span>
+				<span class="is-inline-flex is-gap-1">
+					{%- if include.item.affil -%}
+						<a href="{{ include.item.affil }}" class="knowledgebase-item__affil button is-primary has-radius-rounded has-tooltip" data-tooltip="{{ site.data._en.knowledgebase-text.affil }}" target="_blank">
+							{%- include e_render-svg-icon.html icon="link" dimension="25" inline=true -%}
+						</a>
+					{%- endif -%}
+					{%- if include.item.labels.size > 0 -%}
+						{%- for label in include.item.labels -%}
+							{%- assign link = label[1] -%}
+							{%- assign text = label[0] -%}
+							{%- assign tooltip = site.data._en.knowledgebase-text.labels[text] -%}
+
+							<a href="{{ link }}" class="knowledgebase-item__button button is-primary is-outlined has-radius-rounded{% if tooltip.size > 0 %} has-tooltip{% endif %}" data-tooltip="{{ tooltip }}" target="_blank">
+								{%- include e_render-svg-icon.html icon=text dimension="25" inline=true -%}
+							</a>
+						{%- endfor -%}
+					{%- endif -%}
+				</span>
 			</h4>
-			<div class="knowledgebase-item__tags is-size-7 is-italic">
-				{% if include.item.tags.size > 0 %}
-					{% for tag in include.item.tags %}
-						<span class="knowledgebase-item__tag">{{ tag  }}</span>
-					{% endfor %}
-				{% endif %}
-			</div>
+			{% if include.item.tags.size > 0 %}
+				<div class="knowledgebase-item__tags is-size-7 is-family-monospace">
+					{% for tag in include.item.tags -%}<span class="knowledgebase-item__tag">{{ tag  }}</span>{%- endfor %}
+				</div>
+			{% endif %}
 			{% if include.item.desc %}
 				<p class="knowledgebase-item__desc mt-6 mb-0 is-flex-grow-1">
 					{{ include.item.desc }}
 				</p>
 			{% endif %}
-			<div class="knowledgebase-item__links mt-4">
-				{% if include.item.affil %}
-					<a href="{{ include.item.affil }}" class="knowledgebase-item__affil button is-primary is-small is-gap-1.5 is-touch-friendly" target="_blank">
-						{% include e_render-svg-icon.html icon="link" dimension="25" class="icon" inline=true %}
-						{{ site.data._en.knowledgebase-text.affil }}
-					</a>
-				{% endif %}
-				{% if include.item.labels.size > 0 %}
-					{% for label in include.item.labels %}
-						{% assign link = label[1] %}
-						{% assign text = label[0] %}
-						<a href="{{ link }}" class="knowledgebase-item__button button is-primary is-outlined is-small is-touch-friendly" target="_blank">{{ site.data._en.knowledgebase-text.labels[text] }}</a>
-					{% endfor %}
-				{% endif %}
-			</div>
 		</div>
 	</div>
 </div>

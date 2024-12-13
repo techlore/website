@@ -4,7 +4,8 @@
 #     - desc (string)
 #     - tags (array of strings):        contains misc info, eg. rendering engine, FOSS or proprietary, etc.
 #     - affil (string, optional):       affiliate link
-#     - labels:                         links to the official web (official) and different versions of the software (desktop, android, ios);
+#     - labels:                         links to the official web (web), YouTube channel (youtube)
+#                                       or anything for which there is an icon in `assets/icons/` (eg. github);
 #                                       see "_data/_en/content.yml --> resources --> knowledgebase --> labels"
 #     - color (string, optional):       color of the icon background (preferably in HEX format - #BADA55)
 #     - favorite (boolean, optional):   marks a favorite and show a "star" icon next to the name
@@ -14,37 +15,37 @@
 #
 #     - title (string)
 #     - url (string)
-#     - type (string): show the corresponding icon in front of the title (web, video, youtube)
+#     - type (string): show the corresponding icon in front of the title (eg. web, video, github); any icon from the `assets/icons/` folder
 #
 order: 2
 data:
   -
     name: "The Electronic Frontier Foundation (EFF)"
     labels:
-      official: "https://www.eff.org/"
+      web: "https://www.eff.org/"
     color: "#ED1E1E"
   -
     name: "European Digital Rights (EDRi)"
     labels:
-      official: "https://edri.org/"
+      web: "https://edri.org/"
     color: "#ffffff"
   -
     name: "Calyx Institute"
     labels:
-      official: "https://calyxinstitute.org/"
+      web: "https://calyxinstitute.org/"
     color: "#7BAB2B"
   -
     name: "Privacy International"
     labels:
-      official: "https://privacyinternational.org/"
+      web: "https://privacyinternational.org/"
     color: "#09DEFE"
   -
     name: "Electronic Privacy Information Center (EPIC)"
     labels:
-      official: "https://epic.org/"
+      web: "https://epic.org/"
     color: "#ffffff"
   -
     name: "noyb"
     labels:
-      official: "https://noyb.eu/"
+      web: "https://noyb.eu/"
     color: "#9c0c7e"

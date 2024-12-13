@@ -4,7 +4,8 @@
 #     - desc (string)
 #     - tags (array of strings):        contains misc info, eg. rendering engine, FOSS or proprietary, etc.
 #     - affil (string, optional):       affiliate link
-#     - labels:                         links to the official web (official) and different versions of the software (desktop, android, ios);
+#     - labels:                         links to the official web (web), YouTube channel (youtube)
+#                                       or anything for which there is an icon in `assets/icons/` (eg. github);
 #                                       see "_data/_en/content.yml --> resources --> knowledgebase --> labels"
 #     - color (string, optional):       color of the icon background (preferably in HEX format - #BADA55)
 #     - favorite (boolean, optional):   marks a favorite and show a "star" icon next to the name
@@ -14,7 +15,7 @@
 #
 #     - title (string)
 #     - url (string)
-#     - type (string): show the corresponding icon in front of the title (web, video, youtube)
+#     - type (string): show the corresponding icon in front of the title (eg. web, video, github); any icon from the `assets/icons/` folder
 #
 order: 2
 data:
@@ -23,9 +24,7 @@ data:
     desc: "Mullvad is one of the most transparent providers with some of the most robust measures to keep users safe. Use the VPN Toolkit below to compare VPNs more thoroughly."
     tags: ["Open Source", "Paid"]
     labels:
-      official: "https://mullvad.net/en/vpn"
-      android: "https://mullvad.net/en/download/vpn/android"
-      ios: "https://mullvad.net/en/download/vpn/ios"
+      web: "https://mullvad.net/en/vpn"
     color: "#192E45"
     favorite: true
   -
@@ -33,7 +32,7 @@ data:
     desc: "IVPN, similar to Mullvad is one of the most transparent providers with some of the most robust measures to keep users safe. Use the VPN Toolkit below to compare VPNs more thoroughly."
     tags: ["Open Source", "Paid"]
     labels:
-      official: "https://www.ivpn.net/"
+      web: "https://www.ivpn.net/"
     color: "#FF3344"
     favorite: true
   -
@@ -42,23 +41,21 @@ data:
     tags: ["Open Source", "Free tier"]
     affil: "https://go.getproton.me/SH12P"
     labels:
-      official: "https://protonvpn.com/"
-      android: "https://protonvpn.com/download-android"
-      ios: "https://protonvpn.com/download-ios"
+      web: "https://protonvpn.com/"
     color: "#ffffff"
   -
     name: "Windscribe"
     desc: "Windscribe is a great VPN provider for an excellent value. Use the VPN Toolkit below to compare VPNs more thoroughly."
     tags: ["Open Source", "Free tier"]
     labels:
-      official: "https://windscribe.com/"
+      web: "https://windscribe.com/"
     color: "#355CB3"
   -
     name: "Orbot"
     desc: "While not a traditional VPN, Orbot allows users to connect to the Tor network on mobile devices via a system VPN connection. It does not offer the same anonymity the Tor Network provides in other contexts, but it's a free and easy way to protect your traffic and connect to onion sites on mobile."
     tags: ["Open Source", "Android", "iOS"]
     labels:
-      official: "https://orbot.app/"
+      web: "https://orbot.app/"
     color: "#4f3663"
 related:
   -

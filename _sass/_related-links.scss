@@ -13,3 +13,11 @@
 		border-radius: 100vmax;
 	}
 }
+
+.related-links__link {
+	text-align: left;
+
+	@media (max-width: $tablet) {
+		white-space: normal;
+	}
+}
