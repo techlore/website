@@ -21,7 +21,7 @@
   image_url: https://discuss.techlore.tech/uploads/default/original/2X/9/9af5dfd3f25596390af9b082e59e55cc4f0403e9.jpeg
   last_posted_at: '2024-12-12T16:46:48.888Z'
   last_poster_username: system
-  like_count: 1
+  like_count: 2
   liked: null
   pinned: false
   pinned_globally: false
@@ -39,7 +39,7 @@
   title: 'Q&A: What''s the Best Antirivus for Linux?'
   unpinned: null
   unseen: false
-  views: 21
+  views: 31
   visible: true
 - archetype: regular
   archived: false
@@ -79,7 +79,7 @@
   title: 'Q&A: Undoing Years of Not Caring About Privacy'
   unpinned: null
   unseen: false
-  views: 123
+  views: 124
   visible: true
 - archetype: regular
   archived: false
@@ -534,7 +534,7 @@
   title: Windows Recall Is Back! Did Microsoft Fix It?
   unpinned: null
   unseen: false
-  views: 109
+  views: 110
   visible: true
 - archetype: regular
   archived: false

@@ -5,6 +5,46 @@
   archived: false
   bookmarked: null
   bumped: true
+  bumped_at: '2024-12-13T18:03:49.563Z'
+  can_vote: false
+  category_id: 19
+  closed: false
+  created_at: '2024-12-13T18:03:49.516Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=M-yEgeGcMl4
+  fancy_title: Is Your Old Phone a Security Risk? Should You Upgrade?
+  featured_link: https://www.youtube.com/watch?v=M-yEgeGcMl4
+  featured_link_root_domain: youtube.com
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 1
+  id: 11147
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/7/7416e1e5189081df938c36141bd0f0e64ab1f2e2_2_1024x576.jpeg
+  last_posted_at: '2024-12-13T18:03:49.563Z'
+  last_poster_username: system
+  like_count: 0
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster, Most Recent Poster
+    extras: latest single
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  posts_count: 1
+  reply_count: 0
+  slug: is-your-old-phone-a-security-risk-should-you-upgrade
+  tags: []
+  tags_descriptions: {}
+  title: Is Your Old Phone a Security Risk? Should You Upgrade?
+  unpinned: null
+  unseen: false
+  views: 0
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
   bumped_at: '2024-12-11T18:08:17.953Z'
   can_vote: false
   category_id: 19
@@ -39,7 +79,7 @@
   title: Proton Needs These Essential Features!
   unpinned: null
   unseen: false
-  views: 1
+  views: 4
   visible: true
 - archetype: regular
   archived: false
@@ -79,7 +119,7 @@
   title: Brave's Questionable Partnership
   unpinned: null
   unseen: false
-  views: 5
+  views: 7
   visible: true
 - archetype: regular
   archived: false
@@ -119,7 +159,7 @@
   title: Australia Cracks Down on Social Media
   unpinned: null
   unseen: false
-  views: 5
+  views: 6
   visible: true
 - archetype: regular
   archived: false
@@ -1157,47 +1197,6 @@
   tags: []
   tags_descriptions: {}
   title: Linux Vulnerability Situation is Wild
-  unpinned: null
-  unseen: false
-  views: 3
-  visible: true
-- archetype: regular
-  archived: false
-  bookmarked: null
-  bumped: true
-  bumped_at: '2024-09-27T19:03:48.006Z'
-  can_vote: false
-  category_id: 19
-  closed: false
-  created_at: '2024-09-27T19:03:47.966Z'
-  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=tVdlKJKoX8g
-  fancy_title: Lawyer Explains What You CAN (and Can&rsquo;t) Do for Privacy ft. Jonathan
-    Steele
-  featured_link: https://www.youtube.com/watch?v=tVdlKJKoX8g
-  featured_link_root_domain: youtube.com
-  has_accepted_answer: false
-  has_summary: false
-  highest_post_number: 1
-  id: 10145
-  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/e/eae82c8d5d22932f1ed8cd275b691e5806f6f0e6_2_1024x576.jpeg
-  last_posted_at: '2024-09-27T19:03:48.006Z'
-  last_poster_username: system
-  like_count: 0
-  liked: null
-  pinned: false
-  pinned_globally: false
-  posters:
-  - description: Original Poster, Most Recent Poster
-    extras: latest single
-    flair_group_id: null
-    primary_group_id: null
-    user_id: -1
-  posts_count: 1
-  reply_count: 0
-  slug: lawyer-explains-what-you-can-and-cant-do-for-privacy-ft-jonathan-steele
-  tags: []
-  tags_descriptions: {}
-  title: Lawyer Explains What You CAN (and Can't) Do for Privacy ft. Jonathan Steele
   unpinned: null
   unseen: false
   views: 3
