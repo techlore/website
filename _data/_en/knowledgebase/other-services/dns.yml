@@ -4,7 +4,8 @@
 #     - desc (string)
 #     - tags (array of strings):        contains misc info, eg. rendering engine, FOSS or proprietary, etc.
 #     - affil (string, optional):       affiliate link
-#     - labels:                         links to the official web (official) and different versions of the software (desktop, android, ios);
+#     - labels:                         links to the official web (web), YouTube channel (youtube)
+#                                       or anything for which there is an icon in `assets/icons/` (eg. github);
 #                                       see "_data/_en/content.yml --> resources --> knowledgebase --> labels"
 #     - color (string, optional):       color of the icon background (preferably in HEX format - #BADA55)
 #     - favorite (boolean, optional):   marks a favorite and show a "star" icon next to the name
@@ -14,7 +15,7 @@
 #
 #     - title (string)
 #     - url (string)
-#     - type (string): show the corresponding icon in front of the title (web, video, youtube)
+#     - type (string): show the corresponding icon in front of the title (eg. web, video, github); any icon from the `assets/icons/` folder
 #
 order: 3
 data:
@@ -24,7 +25,7 @@ data:
     tags: ["Free tier"]
     affil: "https://nextdns.io/?from=5v4be7mt"
     labels:
-      official: "https://nextdns.io/"
+      web: "https://nextdns.io/"
     color: "#ffffff"
     favorite: true
   -
@@ -32,7 +33,7 @@ data:
     desc: "Mullvad offers a free private & secure DNS service with several blocklist options for limited customization."
     tags: ["Free"]
     labels:
-      official: "https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/"
+      web: "https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/"
     color: "#192E45"
     favorite: true
   -
@@ -40,14 +41,14 @@ data:
     desc: "Quad9 offers a private & secure DNS service."
     tags: ["Free"]
     labels:
-      official: "https://www.quad9.net/"
+      web: "https://www.quad9.net/"
     color: "#282828"
   -
     name: "CONTROL D"
     desc: "CONTROL D offers a highly customizable DNS solution for the upmost control across your devices. There's a discount available for Windscribe customers as they are from the same company."
     tags: ["Paid"]
     labels:
-      official: "https://controld.com/"
+      web: "https://controld.com/"
     color: "#010818"
 related:
   -

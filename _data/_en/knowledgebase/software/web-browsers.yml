@@ -4,7 +4,8 @@
 #     - desc (string)
 #     - tags (array of strings):        contains misc info, eg. rendering engine, FOSS or proprietary, etc.
 #     - affil (string, optional):       affiliate link
-#     - labels:                         links to the official web (official) and different versions of the software (desktop, android, ios);
+#     - labels:                         links to the official web (web), YouTube channel (youtube)
+#                                       or anything for which there is an icon in `assets/icons/` (eg. github);
 #                                       see "_data/_en/content.yml --> resources --> knowledgebase --> labels"
 #     - color (string, optional):       color of the icon background (preferably in HEX format - #BADA55)
 #     - favorite (boolean, optional):   marks a favorite and show a "star" icon next to the name
@@ -14,7 +15,7 @@
 #
 #     - title (string)
 #     - url (string)
-#     - type (string): show the corresponding icon in front of the title (web, video, youtube)
+#     - type (string): show the corresponding icon in front of the title (eg. web, video, github); any icon from the `assets/icons/` folder
 #
 order: 1
 data:
@@ -23,8 +24,7 @@ data:
     desc: "The Tor Browser is one of the safest browsing experiences by prioritizing anonymity & freedom of information above all else. It's one of the most effective and accessible anonymity tools."
     tags: ["Open Source", "Gecko"]
     labels:
-      desktop: "https://www.torproject.org/"
-      android: "https://www.torproject.org/download/#android"
+      web: "https://www.torproject.org/"
     color: "#7E4798"
     favorite: true
   -
@@ -32,7 +32,7 @@ data:
     desc: "Mullvad Browser offers a fantastic middle-ground between the strong protections of a hardened Firefox, and the advantages of Tor Browser for desktop. It's co-developed by Mullvad & the official Tor Project."
     tags: ["Open Source", "Gecko"]
     labels:
-      desktop: "https://mullvad.net/browser"
+      web: "https://mullvad.net/browser"
     color: "#192E45"
     favorite: true
   -
@@ -40,9 +40,7 @@ data:
     desc: "Brave attempts to offer a familiar browser experience with privacy & security by default. Brave does many neat things for users out-of-the-box, but a possible annoyance is the cryptocurrency features. (Can be disabled)"
     tags: ["Open Source", "Chromium", "Webkit - iOS"]
     labels:
-      desktop: "https://brave.com/"
-      android: "https://brave.com/android/"
-      ios: "https://brave.com/ios/"
+      web: "https://brave.com/"
     color: "#FB542B"
     favorite: true
   -
@@ -50,9 +48,7 @@ data:
     desc: "Firefox is a fantastic alternative to the Chromium monopoly. Mozilla is a non-profit which aims to provide digital rights to everybody. We have a Firefox hardening guide below."
     tags: ["Open Source", "Gecko", "Webkit - iOS"]
     labels:
-      desktop: "https://firefox.com/"
-      android: "https://www.mozilla.org/en-GB/firefox/browsers/mobile/android/"
-      ios: "https://www.mozilla.org/en-GB/firefox/browsers/mobile/ios/"
+      web: "https://firefox.com/"
     color: "#FF7139"
     favorite: true
   -
@@ -60,42 +56,42 @@ data:
     desc: "Onion Browser is an unofficial Tor Browser application for iOS. Due to iOS limitations, it should not be considered as safe as the official Tor Browser, though it still offers users a layer of anonymity."
     tags: ["Open Source", "Webkit"]
     labels:
-      ios: "https://onionbrowser.com/"
+      web: "https://onionbrowser.com/"
     color: "#7E4798"
   -
     name: "Mull"
     desc: "Mull is the closest thing to a pre-hardened Firefox on Android. It brings many features from the Tor Uplift Project, the Arkenfox project, & more! It is recommended to install uBlock Origin after installing."
     tags: ["Open Source", "Gecko"]
     labels:
-      android: "https://f-droid.org/en/packages/us.spotco.fennec_dos/"
+      fdroid: "https://f-droid.org/en/packages/us.spotco.fennec_dos/"
     color: "#ffffff"
   -
     name: "LibreWolf"
     desc: "LibreWolf tackles most Firefox hardening out-of-the-box & does a decent job of maintaining security updates."
     tags: ["Open Source", "Gecko"]
     labels:
-      desktop: "https://librewolf.net/"
+      web: "https://librewolf.net/"
     color: "#ffffff"
   -
     name: "Cromite"
     desc: "Cromite is a Chromium fork based on Bromite with built-in support for ad blocking and an eye for privacy. It is currently supported on Android, Windows, & Linux."
     tags: [ "Open Source", "Chromium"]
     labels:
-      official: "https://github.com/uazo/cromite"
+      github: "https://github.com/uazo/cromite"
     color: "#ffffff"
   -
     name: "Safari"
     desc: "Apple's Safari offers users in the Apple ecosystem a moderately safe default browser with basic privacy & security precautions out-of-the-box. Consider using AdGuard for further protections. We strongly recommend Safari specifically to users using 'Lockdown Mode' on iOS, as it's the way only to exclude trusted websites."
     tags: [ "Proprietary", "Webkit" ]
     labels:
-      official: "https://www.apple.com/safari/"
+      web: "https://www.apple.com/safari/"
     color: "#ffffff"
   -
     name: "uBlock Origin"
     desc: "The king of browser extensions. Just installing it will make any browser far more private & secure, and you can customize it to your heart's content. Install UBO in any browser for yourself or a loved one to make an immediate impact on their safety (and sanity!) online."
     tags: [ "Open Source", "Extension", "Free"]
     labels:
-      official: "https://ublockorigin.com/"
+      web: "https://ublockorigin.com/"
     color: "#ffffff"
     favorite: true
   -
@@ -103,16 +99,18 @@ data:
     desc: "For those using Safari, AdGuard is a great option to block ads, trackers, phishing, use custom DNS, and more."
     tags: [ "Open Source", "Extension", "Free Tier" ]
     labels:
-      official: "https://adguard.com/en/adguard-ios/overview.html"
+      web: "https://adguard.com/en/adguard-ios/overview.html"
     color: "#ffffff"
 related:
   -
     title: "PrivacyTests"
     url: "https://privacytests.org/"
     type: "web"
-  - title: "Choosing a browser"
+  -
+    title: "Choosing a browser"
     url: "https://youtu.be/-CDVNW2MD0g"
     type: "video"
-  - title: "Firefox hardening"
+  -
+    title: "Firefox hardening"
     url: "https://youtu.be/F7-bW2y6lcI"
     type: "video"

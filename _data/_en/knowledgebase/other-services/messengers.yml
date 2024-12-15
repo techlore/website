@@ -4,7 +4,8 @@
 #     - desc (string)
 #     - tags (array of strings):        contains misc info, eg. rendering engine, FOSS or proprietary, etc.
 #     - affil (string, optional):       affiliate link
-#     - labels:                         links to the official web (official) and different versions of the software (desktop, android, ios);
+#     - labels:                         links to the official web (web), YouTube channel (youtube)
+#                                       or anything for which there is an icon in `assets/icons/` (eg. github);
 #                                       see "_data/_en/content.yml --> resources --> knowledgebase --> labels"
 #     - color (string, optional):       color of the icon background (preferably in HEX format - #BADA55)
 #     - favorite (boolean, optional):   marks a favorite and show a "star" icon next to the name
@@ -14,7 +15,7 @@
 #
 #     - title (string)
 #     - url (string)
-#     - type (string): show the corresponding icon in front of the title (web, video, youtube)
+#     - type (string): show the corresponding icon in front of the title (eg. web, video, github); any icon from the `assets/icons/` folder
 #
 order: 4
 data:
@@ -23,7 +24,7 @@ data:
     desc: "Briar is a Tor-routed, E2EE, P2P, anonymity-oriented messenger with some of the most robust protections. It can even be used without internet access."
     tags: ["Open Source", "Android", "Desktop", "Free"]
     labels:
-      official: "https://briarproject.org/"
+      web: "https://briarproject.org/"
     color: "#87C214"
     favorite: true
   -
@@ -31,9 +32,7 @@ data:
     desc: "Signal is the gold standard for private & secure messaging, all with a simple interface. Threat modeling is necessary though, as Signal requires a phone number to register which may be problematic for some. We recommend using Signal with usernames for improved privacy. Use our hardening guide below for max safety."
     tags: ["Open Source", "Android", "iOS", "Desktop", "Free"]
     labels:
-      official: "https://www.signal.org/"
-      android: "https://signal.org/install"
-      ios: "https://signal.org/install"
+      web: "https://www.signal.org/"
     color: "#3a76f0"
     favorite: true
   -
@@ -41,23 +40,21 @@ data:
     desc: "SimpleX prides itself on requiring no identifiers, is decentralized, and is audited with fairly competitive features. Your data is your own with no central servers."
     tags: ["Open Source", "Android", "iOS", "Desktop", "Free"]
     labels:
-      official: "https://simplex.chat/"
+      web: "https://simplex.chat/"
     color: "#ffffff"
   -
     name: "Session"
     desc: "Session strives for a balance between privacy, security, anonymity, & usability."
     tags: ["Open Source", "Android", "iOS", "Desktop", "Free"]
     labels:
-      official: "https://getsession.org/"
-      android: "https://getsession.org/download"
-      ios: "https://getsession.org/iphone"
+      web: "https://getsession.org/"
     color: "#333132"
   -
     name: "Matrix"
     desc: "Matrix is a federated protocol with the option for E2EE. There is a degree of trust with each homeserver, especially regarding metadata. Its federation is both a pro & a con that users should be aware of before using."
     tags: ["Open Source", "Android", "iOS", "Desktop", "Free"]
     labels:
-      official: "https://matrix.org/"
+      web: "https://matrix.org/"
     color: "#ffffff"
 related:
   -

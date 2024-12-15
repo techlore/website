@@ -29,6 +29,11 @@
 		translate: -50% -125%;
 		font-size: var(--bulma-size-7);
 		color: var(--bulma-white);
+		white-space: normal;
+
+		@media (min-width: $tablet) {
+			white-space: nowrap;
+		}
 	}
 
 	// --- arrow

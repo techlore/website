@@ -4,7 +4,8 @@
 #     - desc (string)
 #     - tags (array of strings):        contains misc info, eg. rendering engine, FOSS or proprietary, etc.
 #     - affil (string, optional):       affiliate link
-#     - labels:                         links to the official web (official) and different versions of the software (desktop, android, ios);
+#     - labels:                         links to the official web (web), YouTube channel (youtube)
+#                                       or anything for which there is an icon in `assets/icons/` (eg. github);
 #                                       see "_data/_en/content.yml --> resources --> knowledgebase --> labels"
 #     - color (string, optional):       color of the icon background (preferably in HEX format - #BADA55)
 #     - favorite (boolean, optional):   marks a favorite and show a "star" icon next to the name
@@ -14,7 +15,7 @@
 #
 #     - title (string)
 #     - url (string)
-#     - type (string): show the corresponding icon in front of the title (web, video, youtube)
+#     - type (string): show the corresponding icon in front of the title (eg. web, video, github); any icon from the `assets/icons/` folder
 #
 order: 8
 data:
@@ -23,7 +24,7 @@ data:
     desc: "Cryptee offers E2EE notes, documents, & photos with a modern theme as a PWA. It is not collaborative nor designed for external sharing. "
     tags: ["Open Source", "Free tier"]
     labels:
-      official: "https://crypt.ee/"
+      web: "https://crypt.ee/"
     color: "#ffffff"
     favorite: true
   -
@@ -31,9 +32,7 @@ data:
     desc: "Notesnook offers E2EE notes & documents for people looking for a feature-filled experience in their workflow."
     tags: ["Open Source", "Free tier"]
     labels:
-      official: "https://notesnook.com/"
-      android: "https://play.google.com/store/apps/details?id=com.streetwriters.notesnook"
-      ios: "https://apps.apple.com/us/app/notesnook-take-private-notes/id1544027013"
+      web: "https://notesnook.com/"
     color: "#000000"
     favorite: true
   -
@@ -41,13 +40,13 @@ data:
     desc: "CryptPad is an E2EE, document collaboration platform."
     tags: ["Open Source", "Free tier"]
     labels:
-      official: "https://cryptpad.fr/"
+      web: "https://cryptpad.fr/"
     color: "#fff"
   -
     name: "Ente"
     desc: "Safe Home for your photos and videos. Store, share, and discover your memories with absolute privacy."
     tags: ["Open Source", "Free tier"]
     labels:
-      official: "https://ente.io/"
+      web: "https://ente.io/"
     color: "#00b33c"
     favorite: true

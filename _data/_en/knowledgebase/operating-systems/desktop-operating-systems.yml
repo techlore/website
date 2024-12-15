@@ -4,7 +4,8 @@
 #     - desc (string)
 #     - tags (array of strings):        contains misc info, eg. rendering engine, FOSS or proprietary, etc.
 #     - affil (string, optional):       affiliate link
-#     - labels:                         links to the official web (official) and different versions of the software (desktop, android, ios);
+#     - labels:                         links to the official web (web), YouTube channel (youtube)
+#                                       or anything for which there is an icon in `assets/icons/` (eg. github);
 #                                       see "_data/_en/content.yml --> resources --> knowledgebase --> labels"
 #     - color (string, optional):       color of the icon background (preferably in HEX format - #BADA55)
 #     - favorite (boolean, optional):   marks a favorite and show a "star" icon next to the name
@@ -14,7 +15,7 @@
 #
 #     - title (string)
 #     - url (string)
-#     - type (string): show the corresponding icon in front of the title (web, video, youtube)
+#     - type (string): show the corresponding icon in front of the title (eg. web, video, github); any icon from the `assets/icons/` folder
 #
 order: 1
 data:
@@ -23,7 +24,7 @@ data:
     desc: "Fedora has strong out-of-the-box privacy & security practices, all backed by a trustworthy and commited team. Use Fedora Silverblue for an even more secure, atomic experience."
     tags: ["Open Source", "Linux", "Moderate"]
     labels:
-      official: "https://fedoraproject.org/"
+      web: "https://fedoraproject.org/"
     color: "#294172"
     favorite: true
   -
@@ -31,7 +32,7 @@ data:
     desc: "Qubes separates programs & operating systems into secure environments for maximum safety. It can be slower and may have compatibility issues with certain hardware."
     tags: ["Open Source", "Xen", "Advanced"]
     labels:
-      official: "https://www.qubes-os.org/"
+      web: "https://www.qubes-os.org/"
     color: "#3874d8"
     favorite: true
   -
@@ -39,28 +40,28 @@ data:
     desc: "Whonix offers both a virtual and live environment with a goal of anonymity. All activities are routed through Tor with strong privacy & security precautions."
     tags: ["Open Source", "Virtual Machine", "Live OS"]
     labels:
-      official: "https://www.whonix.org/"
+      web: "https://www.whonix.org/"
     color: "#ffffff"
   -
     name: "TailsOS"
     desc: "TailsOS offers a Tor-routed live environment for privacy & anonymity."
     tags: ["Open Source", "Live OS"]
     labels:
-      official: "https://tails.net/"
+      web: "https://tails.net/"
     color: "#56347C"
   -
     name: "Arch"
     desc: "Arch offers bleeding-edge updates with a more configurable option for users. Many looking to harden Linux themselves enjoy the flexibility offered by Arch."
     tags: ["Open Source", "Linux", "Advanced"]
     labels:
-      official: "https://www.archlinux.org/"
+      web: "https://www.archlinux.org/"
     color: "#1793D1"
   -
     name: "MacOS"
     desc: "For users unable to use Linux for one reason or another: MacOS can be a reasonably private & secure option for many threat models. Despite being proprietary, it offers decent protection and is a great alternative to Windows. Please refer to the guide below for our MacOS hardening guide."
     tags: ["Proprietary", "Apple", "Simple"]
     labels:
-      official: "https://www.apple.com/macos/what-is/"
+      web: "https://www.apple.com/macos/what-is/"
     color: "#C70737"
     favorite: true
 related:

@@ -4,7 +4,8 @@
 #     - desc (string)
 #     - tags (array of strings):        contains misc info, eg. rendering engine, FOSS or proprietary, etc.
 #     - affil (string, optional):       affiliate link
-#     - labels:                         links to the official web (official) and different versions of the software (desktop, android, ios);
+#     - labels:                         links to the official web (web), YouTube channel (youtube)
+#                                       or anything for which there is an icon in `assets/icons/` (eg. github);
 #                                       see "_data/_en/content.yml --> resources --> knowledgebase --> labels"
 #     - color (string, optional):       color of the icon background (preferably in HEX format - #BADA55)
 #     - favorite (boolean, optional):   marks a favorite and show a "star" icon next to the name
@@ -14,7 +15,7 @@
 #
 #     - title (string)
 #     - url (string)
-#     - type (string): show the corresponding icon in front of the title (web, video, youtube)
+#     - type (string): show the corresponding icon in front of the title (eg. web, video, github); any icon from the `assets/icons/` folder
 #
 order: 5
 data:
@@ -23,7 +24,7 @@ data:
     desc: "Powerful (& beautiful) firewall program for Windows & Linux to give you finer control over what your device connects to."
     tags: [ "Open Source", "Windows", "Linux" ]
     labels:
-      official: "https://safing.io/"
+      web: "https://safing.io/"
     color: "#000000"
     favorite: true
   -
@@ -31,7 +32,7 @@ data:
     desc: "Firewall program for MacOS to give you finer control over what your device connects to. "
     tags: [ "Open Source", "macOS" ]
     labels:
-      official: "https://objective-see.org/products/lulu.html"
+      web: "https://objective-see.org/products/lulu.html"
     color: "#ffffff"
     favorite: true
   -
@@ -39,7 +40,7 @@ data:
     desc: "Block malware, spyware, ads, and trackers across all apps with Rethink DNS. Servers in 300+ locations: Experience Blazing fast speeds."
     tags: [ "Open Source", "Android"]
     labels:
-      official: "https://rethinkdns.com/"
+      web: "https://rethinkdns.com/"
     color: "#ffffff"
     favorite: true
   -
@@ -47,5 +48,5 @@ data:
     desc: "Firewall program for Android (no root required) to give you finer control over what your device connects to. Warning: NetGuard by default takes the place of a VPN on Android."
     tags: [ "Open Source", "Android" ]
     labels:
-      android: "https://netguard.me/"
+      web: "https://netguard.me/"
     color: "#333333"

@@ -4,7 +4,8 @@
 #     - desc (string)
 #     - tags (array of strings):        contains misc info, eg. rendering engine, FOSS or proprietary, etc.
 #     - affil (string, optional):       affiliate link
-#     - labels:                         links to the official web (official) and different versions of the software (desktop, android, ios);
+#     - labels:                         links to the official web (web), YouTube channel (youtube)
+#                                       or anything for which there is an icon in `assets/icons/` (eg. github);
 #                                       see "_data/_en/content.yml --> resources --> knowledgebase --> labels"
 #     - color (string, optional):       color of the icon background (preferably in HEX format - #BADA55)
 #     - favorite (boolean, optional):   marks a favorite and show a "star" icon next to the name
@@ -14,7 +15,7 @@
 #
 #     - title (string)
 #     - url (string)
-#     - type (string): show the corresponding icon in front of the title (web, video, youtube)
+#     - type (string): show the corresponding icon in front of the title (eg. web, video, github); any icon from the `assets/icons/` folder
 #
 order: 4
 data:
@@ -23,7 +24,7 @@ data:
     desc: "Veracrypt offers users encrypted volumes, and on some operating systems full disk encryption. It is a great option for those needing maximum security."
     tags: [ "Open Source" ]
     labels:
-      official: "https://www.veracrypt.fr/"
+      web: "https://www.veracrypt.fr/"
     color: "#ffffff"
     favorite: true
   -
@@ -31,14 +32,14 @@ data:
     desc: "GnuPG offers flexible encryption options across different mediums for users needing a more versatile option, at the cost of generally being more advanced."
     tags: [ "Open Source" ]
     labels:
-      official: "https://gnupg.org/"
+      web: "https://gnupg.org/"
     color: "#ffffff"
   -
     name: "7-zip"
     desc: "7-Zip is an archiving tool with basic file encryption options. It is not as robust as the other options and should be used with caution for sensitive tasks."
     tags: [ "Open Source" ]
     labels:
-      official: "https://www.7-zip.org/"
+      web: "https://www.7-zip.org/"
     color: "#ffffff"
 related:
   -

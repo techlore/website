@@ -4,7 +4,8 @@
 #     - desc (string)
 #     - tags (array of strings):        contains misc info, eg. rendering engine, FOSS or proprietary, etc.
 #     - affil (string, optional):       affiliate link
-#     - labels:                         links to the official web (official) and different versions of the software (desktop, android, ios);
+#     - labels:                         links to the official web (web), YouTube channel (youtube)
+#                                       or anything for which there is an icon in `assets/icons/` (eg. github);
 #                                       see "_data/_en/content.yml --> resources --> knowledgebase --> labels"
 #     - color (string, optional):       color of the icon background (preferably in HEX format - #BADA55)
 #     - favorite (boolean, optional):   marks a favorite and show a "star" icon next to the name
@@ -14,7 +15,7 @@
 #
 #     - title (string)
 #     - url (string)
-#     - type (string): show the corresponding icon in front of the title (web, video, youtube)
+#     - type (string): show the corresponding icon in front of the title (eg. web, video, github); any icon from the `assets/icons/` folder
 #
 order: 3
 data:
@@ -23,7 +24,7 @@ data:
     desc: "Ente's E2EE 2FA app. A cross platform TOTP app with secure online backups on all major operating systems."
     tags: [ "Open Source", "Free", "iOS", "Android", "Desktop", "Web" ]
     labels:
-      official: "https://ente.io/auth/"
+      web: "https://ente.io/auth/"
     color: "#ffffff"
     favorite: true
   -
@@ -31,14 +32,14 @@ data:
     desc: "Aegis is one of the most polished & simple TOTP services for Android."
     tags: ["Open Source", "Free"]
     labels:
-      android: "https://getaegis.app/"
+      web: "https://getaegis.app/"
     color: "#ffffff"
   -
     name: "Yubikey"
     desc: "Yubikey is one of the most polished and trusted U2F solutions."
     tags: ["Proprietary"]
     labels:
-      official: "https://www.yubico.com/"
+      web: "https://www.yubico.com/"
     color: "#9ACB3D"
     favorite: true
   -
@@ -46,14 +47,14 @@ data:
     desc: "SoloKeys provide affordable, open source U2F hardware."
     tags: ["Open Source"]
     labels:
-      official: "https://solokeys.com/"
+      web: "https://solokeys.com/"
     color: "#ffffff"
   -
     name: "Nitrokey"
     desc: "Nitrokey provides affordable, open source U2F hardware and more private payment methods."
     tags: ["Open Source"]
     labels:
-      official: "https://www.nitrokey.com/"
+      web: "https://www.nitrokey.com/"
     color: "#ffffff"
 related:
   -
