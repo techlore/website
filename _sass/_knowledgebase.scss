@@ -81,11 +81,10 @@
 
 .knowledgebase-item__tags {
 	position: relative;
-	background-color: var(--custom-knowledgebase-tags-bg);
-	padding: calc(var(--bulma-size-5) * .25) calc(var(--bulma-size-5) * .75);
-	border-radius: var(--bulma-size-5);
 	margin-top: calc(var(--bulma-size-5) * .5);
+	flex-wrap: wrap;
 
+	// --- blue line
 	&:after {
 		content: '';
 		width: calc(var(--bulma-size-5) * 4);
@@ -97,14 +96,9 @@
 	}
 }
 
-.knowledgebase-item__tag:not(:last-child):not(.knowledgebase-item__tag--icon) {
-	&:after {
-		content: ' \2022  ';
-	}
-}
-
-.knowledgebase-item__tag--icon {
-	aspect-ratio: 1;
-	display: inline-flex;
-	padding: calc(var(--bulma-size-5) * .25);
+.knowledgebase-item__tag {
+	background-color: var(--custom-knowledgebase-tags-bg);
+	padding: calc(var(--bulma-size-5) * .25) calc(var(--bulma-size-5) * .75);
+	border-radius: var(--bulma-size-5);
+	white-space: nowrap;
 }
