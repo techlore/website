@@ -5,6 +5,56 @@
   archived: false
   bookmarked: null
   bumped: true
+  bumped_at: '2024-12-16T00:16:12.290Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2024-12-15T13:04:55.890Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/1sqnxztLDDSCto9A5KQ8vc
+  fancy_title: "Why You Don\u2019t Need An Antivirus"
+  featured_link: https://neat.tube/w/1sqnxztLDDSCto9A5KQ8vc
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 5
+  id: 11164
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/f/f60aaa301c92e060d37f0f4e82ee8b85e9569bdb.jpeg
+  last_posted_at: '2024-12-15T23:14:54.131Z'
+  last_poster_username: Terrance
+  like_count: 3
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 3058
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 2883
+  posts_count: 5
+  reply_count: 1
+  slug: why-you-don-t-need-an-antivirus
+  tags: []
+  tags_descriptions: {}
+  title: "Why You Don\u2019t Need An Antivirus"
+  unpinned: null
+  unseen: false
+  views: 79
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
   bumped_at: '2024-12-06T12:30:03.701Z'
   can_vote: false
   category_id: 20
@@ -59,7 +109,7 @@
   title: 5 Easy Ways to Improve Privacy!
   unpinned: null
   unseen: false
-  views: 311
+  views: 324
   visible: true
 - archetype: regular
   archived: false
@@ -104,7 +154,7 @@
   title: Your privacy & security questions answered! (Nov '24)
   unpinned: null
   unseen: false
-  views: 127
+  views: 128
   visible: true
 - archetype: regular
   archived: false
@@ -164,7 +214,7 @@
   title: Best Black Friday Deals to Protect Your Privacy!
   unpinned: null
   unseen: false
-  views: 580
+  views: 583
   visible: true
 - archetype: regular
   archived: false
@@ -224,7 +274,7 @@
   title: How to Stay Private on a Budget!
   unpinned: null
   unseen: false
-  views: 702
+  views: 703
   visible: true
 - archetype: regular
   archived: false
@@ -279,7 +329,7 @@
   title: PrivacyPost - Protecting Your Real Life Privacy!
   unpinned: null
   unseen: false
-  views: 323
+  views: 325
   visible: true
 - archetype: regular
   archived: false
@@ -389,7 +439,7 @@
   title: 'Kagi Search: Is Paying for a Search Engine Worth It?'
   unpinned: null
   unseen: false
-  views: 589
+  views: 592
   visible: true
 - archetype: regular
   archived: false
@@ -524,7 +574,7 @@
   title: "10 Privacy Tools I Can\u2019t Live Without"
   unpinned: null
   unseen: false
-  views: 363
+  views: 365
   visible: true
 - archetype: regular
   archived: false
@@ -1189,7 +1239,7 @@
   title: 'Lock Down Your Signal: Ultimate Hardening Guide'
   unpinned: null
   unseen: false
-  views: 434
+  views: 443
   visible: true
 - archetype: regular
   archived: false
@@ -1469,7 +1519,7 @@
   title: Why I'm Concerned About Signal
   unpinned: null
   unseen: false
-  views: 343
+  views: 344
   visible: true
 - archetype: regular
   archived: false
@@ -1529,7 +1579,7 @@
   title: "Proton released...a Bitcoin wallet \U0001F928"
   unpinned: null
   unseen: false
-  views: 271
+  views: 272
   visible: true
 - archetype: regular
   archived: false
@@ -1957,7 +2007,7 @@
   title: The Ultimate Guide to Using Tor Browser Securely
   unpinned: null
   unseen: false
-  views: 267
+  views: 269
   visible: true
 - archetype: regular
   archived: false
@@ -2672,7 +2722,7 @@
   title: Why I Stopped Hardening Firefox
   unpinned: null
   unseen: false
-  views: 3624
+  views: 3631
   visible: true
 - archetype: regular
   archived: false
@@ -2717,7 +2767,7 @@
   title: Brave NUKES Privacy Feature! Should You Panic?
   unpinned: null
   unseen: false
-  views: 431
+  views: 432
   visible: true
 - archetype: regular
   archived: false
@@ -2772,7 +2822,7 @@
   title: 'The 2024 VPN Tier List: Privacy & Security Smackdown!'
   unpinned: null
   unseen: false
-  views: 608
+  views: 609
   visible: true
 - archetype: regular
   archived: false
@@ -3152,7 +3202,7 @@
   title: Why I 'Switched' From IVPN To Mullvad VPN (Sorta)
   unpinned: null
   unseen: false
-  views: 499
+  views: 500
   visible: true
 - archetype: regular
   archived: false
@@ -3836,7 +3886,7 @@
   title: Jitsi ended anonymous video meetings :(
   unpinned: null
   unseen: false
-  views: 549
+  views: 550
   visible: true
 - archetype: regular
   archived: false
@@ -4308,7 +4358,7 @@
   title: The ULTIMATE Guide to Mastering NextDNS!
   unpinned: null
   unseen: false
-  views: 7594
+  views: 7596
   visible: true
 - archetype: regular
   archived: false
@@ -5061,7 +5111,7 @@
   title: "Reclaim Control with Vivaldi Browser! - J\xF3n von Tetzchner Interview"
   unpinned: null
   unseen: false
-  views: 510
+  views: 511
   visible: true
 - archetype: regular
   archived: false
@@ -5450,7 +5500,7 @@
   title: 'Proton Privacy: A Review to Determine its Full Potential!'
   unpinned: null
   unseen: false
-  views: 582
+  views: 583
   visible: true
 - archetype: regular
   archived: false
@@ -5715,7 +5765,7 @@
   title: Can You Use Discord Privately?! | Q&A
   unpinned: null
   unseen: false
-  views: 625
+  views: 626
   visible: true
 - archetype: regular
   archived: false
@@ -6329,7 +6379,7 @@
   title: Diving Into The World of Open Source Note-Taking! - (Notesnook Interview)
   unpinned: null
   unseen: false
-  views: 728
+  views: 729
   visible: true
 - archetype: regular
   archived: false
@@ -7120,7 +7170,7 @@
   title: Proton vs Tutanota - Which is the BEST?!
   unpinned: null
   unseen: false
-  views: 906
+  views: 907
   visible: true
 - archetype: regular
   archived: false
