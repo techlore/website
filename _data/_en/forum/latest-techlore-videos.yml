@@ -5,7 +5,7 @@
   archived: false
   bookmarked: null
   bumped: true
-  bumped_at: '2024-12-16T00:16:12.290Z'
+  bumped_at: '2024-12-16T13:37:03.660Z'
   can_vote: false
   category_id: 20
   closed: false
@@ -16,12 +16,12 @@
   featured_link_root_domain: neat.tube
   has_accepted_answer: false
   has_summary: false
-  highest_post_number: 5
+  highest_post_number: 24
   id: 11164
   image_url: https://discuss.techlore.tech/uploads/default/original/2X/f/f60aaa301c92e060d37f0f4e82ee8b85e9569bdb.jpeg
-  last_posted_at: '2024-12-15T23:14:54.131Z'
-  last_poster_username: Terrance
-  like_count: 3
+  last_posted_at: '2024-12-16T13:37:03.660Z'
+  last_poster_username: Onscreen5341
+  like_count: 16
   liked: null
   pinned: false
   pinned_globally: false
@@ -36,20 +36,30 @@
     flair_group_id: null
     primary_group_id: null
     user_id: 3058
-  - description: Most Recent Poster
-    extras: latest
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 45
+    primary_group_id: 45
+    user_id: 1929
+  - description: Frequent Poster
+    extras: null
     flair_group_id: null
     primary_group_id: null
     user_id: 2883
-  posts_count: 5
-  reply_count: 1
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: 45
+    primary_group_id: 45
+    user_id: 2278
+  posts_count: 24
+  reply_count: 20
   slug: why-you-don-t-need-an-antivirus
   tags: []
   tags_descriptions: {}
   title: "Why You Don\u2019t Need An Antivirus"
   unpinned: null
   unseen: false
-  views: 79
+  views: 158
   visible: true
 - archetype: regular
   archived: false
@@ -109,7 +119,7 @@
   title: 5 Easy Ways to Improve Privacy!
   unpinned: null
   unseen: false
-  views: 324
+  views: 336
   visible: true
 - archetype: regular
   archived: false
@@ -274,7 +284,7 @@
   title: How to Stay Private on a Budget!
   unpinned: null
   unseen: false
-  views: 703
+  views: 705
   visible: true
 - archetype: regular
   archived: false
@@ -439,7 +449,7 @@
   title: 'Kagi Search: Is Paying for a Search Engine Worth It?'
   unpinned: null
   unseen: false
-  views: 592
+  views: 594
   visible: true
 - archetype: regular
   archived: false
@@ -529,7 +539,7 @@
   title: "Why I switched from Firefox\u2026"
   unpinned: null
   unseen: false
-  views: 434
+  views: 437
   visible: true
 - archetype: regular
   archived: false
@@ -574,7 +584,7 @@
   title: "10 Privacy Tools I Can\u2019t Live Without"
   unpinned: null
   unseen: false
-  views: 365
+  views: 366
   visible: true
 - archetype: regular
   archived: false
@@ -1239,7 +1249,7 @@
   title: 'Lock Down Your Signal: Ultimate Hardening Guide'
   unpinned: null
   unseen: false
-  views: 443
+  views: 447
   visible: true
 - archetype: regular
   archived: false
@@ -2179,7 +2189,7 @@
   image_url: https://discuss.techlore.tech/uploads/default/original/2X/a/a8dff0942279511bd471fbfe6ed01a6773707654.jpeg
   last_posted_at: '2024-02-24T06:34:21.639Z'
   last_poster_username: system
-  like_count: 6
+  like_count: 7
   liked: null
   pinned: false
   pinned_globally: false
@@ -2197,7 +2207,7 @@
   title: VPNs vs DNS - Which Keeps You The Safest?
   unpinned: null
   unseen: false
-  views: 361
+  views: 363
   visible: true
 - archetype: regular
   archived: false
@@ -2722,7 +2732,7 @@
   title: Why I Stopped Hardening Firefox
   unpinned: null
   unseen: false
-  views: 3631
+  views: 3635
   visible: true
 - archetype: regular
   archived: false
@@ -2822,7 +2832,7 @@
   title: 'The 2024 VPN Tier List: Privacy & Security Smackdown!'
   unpinned: null
   unseen: false
-  views: 609
+  views: 610
   visible: true
 - archetype: regular
   archived: false
@@ -2932,7 +2942,7 @@
   title: The Apple Backdoor Explained
   unpinned: null
   unseen: false
-  views: 416
+  views: 417
   visible: true
 - archetype: regular
   archived: false
@@ -3776,7 +3786,7 @@
   title: Top 5 Safe VPNs for $0. (Yes, Really)
   unpinned: null
   unseen: false
-  views: 700
+  views: 701
   visible: true
 - archetype: regular
   archived: false
@@ -3946,7 +3956,7 @@
   title: 'Simplifying w/Digital Minimalism: What''s on My Phone'
   unpinned: null
   unseen: false
-  views: 1319
+  views: 1320
   visible: true
 - archetype: regular
   archived: false
@@ -4358,7 +4368,7 @@
   title: The ULTIMATE Guide to Mastering NextDNS!
   unpinned: null
   unseen: false
-  views: 7596
+  views: 7598
   visible: true
 - archetype: regular
   archived: false
@@ -4528,7 +4538,7 @@
   title: My Primary Complaint with Signal
   unpinned: null
   unseen: false
-  views: 706
+  views: 708
   visible: true
 - archetype: regular
   archived: false
@@ -5171,7 +5181,7 @@
   title: 'Aurora Users: Proceed with Caution!'
   unpinned: null
   unseen: false
-  views: 830
+  views: 831
   visible: true
 - archetype: regular
   archived: false
@@ -5441,7 +5451,7 @@
   title: Here's Why I Moved to Security Keys for 2FA
   unpinned: null
   unseen: false
-  views: 467
+  views: 468
   visible: true
 - archetype: regular
   archived: false
@@ -5500,7 +5510,7 @@
   title: 'Proton Privacy: A Review to Determine its Full Potential!'
   unpinned: null
   unseen: false
-  views: 583
+  views: 584
   visible: true
 - archetype: regular
   archived: false
@@ -5809,7 +5819,7 @@
   title: Here&#39;s Why Monero is So Powerful w/ Seth For Privacy
   unpinned: null
   unseen: false
-  views: 281
+  views: 282
   visible: true
 - archetype: regular
   archived: false
@@ -6071,7 +6081,7 @@
   archived: false
   bookmarked: null
   bumped: true
-  bumped_at: '2024-01-02T05:53:55.735Z'
+  bumped_at: '2024-12-17T00:22:36.014Z'
   can_vote: false
   category_id: 20
   closed: false
@@ -6081,12 +6091,12 @@
   featured_link: null
   has_accepted_answer: false
   has_summary: false
-  highest_post_number: 46
+  highest_post_number: 48
   id: 3112
   image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/9/98256cf22e19163db8fb7647af329b94dbecadaa_2_1024x576.jpeg
-  last_posted_at: '2024-01-02T05:53:55.735Z'
-  last_poster_username: L_ishere670
-  like_count: 66
+  last_posted_at: '2024-12-17T00:22:36.014Z'
+  last_poster_username: Henry
+  like_count: 67
   liked: null
   pinned: false
   pinned_globally: false
@@ -6113,18 +6123,18 @@
     user_id: 950
   - description: Most Recent Poster
     extras: latest
-    flair_group_id: null
-    primary_group_id: null
-    user_id: 652
-  posts_count: 46
-  reply_count: 32
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 2
+  posts_count: 48
+  reply_count: 33
   slug: finally-the-vpn-configuration-ive-been-looking-for
   tags: []
   tags_descriptions: {}
   title: FINALLY! The VPN Configuration I've Been Looking For!
   unpinned: null
   unseen: false
-  views: 3097
+  views: 3136
   visible: true
 - archetype: regular
   archived: false
@@ -6379,7 +6389,7 @@
   title: Diving Into The World of Open Source Note-Taking! - (Notesnook Interview)
   unpinned: null
   unseen: false
-  views: 729
+  views: 730
   visible: true
 - archetype: regular
   archived: false
@@ -6438,7 +6448,7 @@
   title: "The VPN You Use Probably Sucks - Here\u2019s Why"
   unpinned: null
   unseen: false
-  views: 808
+  views: 809
   visible: true
 - archetype: regular
   archived: false
@@ -6831,7 +6841,7 @@
   title: Ditch Chrome - Use THESE Instead!
   unpinned: null
   unseen: false
-  views: 1388
+  views: 1389
   visible: true
 - archetype: regular
   archived: false
@@ -7052,7 +7062,7 @@
   title: 'Unpacking the iOS 16 Privacy/Security Hype! - Techlore Talks #1'
   unpinned: null
   unseen: false
-  views: 595
+  views: 596
   visible: true
 - archetype: regular
   archived: false
@@ -7696,5 +7706,5 @@
   title: The ULTIMATE Guide to using Matrix!
   unpinned: null
   unseen: false
-  views: 427
+  views: 428
   visible: true

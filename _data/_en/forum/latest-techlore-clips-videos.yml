@@ -5,6 +5,46 @@
   archived: false
   bookmarked: null
   bumped: true
+  bumped_at: '2024-12-16T18:03:51.732Z'
+  can_vote: false
+  category_id: 19
+  closed: false
+  created_at: '2024-12-16T18:03:51.697Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=EMKAEXKsi20
+  fancy_title: Are Google Pixels Hardware Backdoored?
+  featured_link: https://www.youtube.com/watch?v=EMKAEXKsi20
+  featured_link_root_domain: youtube.com
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 1
+  id: 11184
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/f/f327f8cb5fbe5ea64716c1781f94fbead8bd4f06_2_1024x576.jpeg
+  last_posted_at: '2024-12-16T18:03:51.732Z'
+  last_poster_username: system
+  like_count: 0
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster, Most Recent Poster
+    extras: latest single
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  posts_count: 1
+  reply_count: 0
+  slug: are-google-pixels-hardware-backdoored
+  tags: []
+  tags_descriptions: {}
+  title: Are Google Pixels Hardware Backdoored?
+  unpinned: null
+  unseen: false
+  views: 2
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
   bumped_at: '2024-12-13T18:03:49.563Z'
   can_vote: false
   category_id: 19
@@ -39,7 +79,7 @@
   title: Is Your Old Phone a Security Risk? Should You Upgrade?
   unpinned: null
   unseen: false
-  views: 5
+  views: 6
   visible: true
 - archetype: regular
   archived: false
@@ -1157,46 +1197,6 @@
   tags: []
   tags_descriptions: {}
   title: Could Zen Browser Be the Next Big Browser?
-  unpinned: null
-  unseen: false
-  views: 3
-  visible: true
-- archetype: regular
-  archived: false
-  bookmarked: null
-  bumped: true
-  bumped_at: '2024-10-02T22:48:34.599Z'
-  can_vote: false
-  category_id: 19
-  closed: false
-  created_at: '2024-10-02T22:48:34.560Z'
-  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=duxX2ChgVQ0
-  fancy_title: Linux Vulnerability Situation is Wild
-  featured_link: https://www.youtube.com/watch?v=duxX2ChgVQ0
-  featured_link_root_domain: youtube.com
-  has_accepted_answer: false
-  has_summary: false
-  highest_post_number: 1
-  id: 10207
-  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/2/20b5557be06799b75929391556e2b38791604119_2_1024x576.jpeg
-  last_posted_at: '2024-10-02T22:48:34.599Z'
-  last_poster_username: system
-  like_count: 0
-  liked: null
-  pinned: false
-  pinned_globally: false
-  posters:
-  - description: Original Poster, Most Recent Poster
-    extras: latest single
-    flair_group_id: null
-    primary_group_id: null
-    user_id: -1
-  posts_count: 1
-  reply_count: 0
-  slug: linux-vulnerability-situation-is-wild
-  tags: []
-  tags_descriptions: {}
-  title: Linux Vulnerability Situation is Wild
   unpinned: null
   unseen: false
   views: 3
