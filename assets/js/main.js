@@ -172,6 +172,14 @@ if (knowledgebaseSection && knowledgebaseNavigation) {
 		knowledgebaseNavigation.classList.toggle('is-active')
 	})
 
+	// --- close the nav with the esc key
+	document.addEventListener('keydown', (e) => {
+		if (e.key === "Escape") {
+			knowledgebaseNavigation.classList.remove('is-active')
+			knowledgebaseNavToggle.blur()
+		}
+	})
+
 	// --- sections
 	const observer = new IntersectionObserver((entries) => {
 		entries.forEach(entry => {
