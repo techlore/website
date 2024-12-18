@@ -5,6 +5,46 @@
   archived: false
   bookmarked: null
   bumped: true
+  bumped_at: '2024-12-17T10:21:49.445Z'
+  can_vote: false
+  category_id: 21
+  closed: false
+  created_at: '2024-12-17T10:21:49.408Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/bHqiWr5ERjDoMnZ32C5y9U
+  fancy_title: How is Recall STILL This Bad?!
+  featured_link: https://neat.tube/w/bHqiWr5ERjDoMnZ32C5y9U
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 1
+  id: 11192
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/7/75fc56672c3b80df51024d527314c50141a73957.jpeg
+  last_posted_at: '2024-12-17T10:21:49.445Z'
+  last_poster_username: system
+  like_count: 2
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster, Most Recent Poster
+    extras: latest single
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  posts_count: 1
+  reply_count: 0
+  slug: how-is-recall-still-this-bad
+  tags: []
+  tags_descriptions: {}
+  title: How is Recall STILL This Bad?!
+  unpinned: null
+  unseen: false
+  views: 29
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
   bumped_at: '2024-12-12T16:46:48.888Z'
   can_vote: false
   category_id: 21
@@ -39,7 +79,7 @@
   title: 'Q&A: What''s the Best Antirivus for Linux?'
   unpinned: null
   unseen: false
-  views: 39
+  views: 40
   visible: true
 - archetype: regular
   archived: false
@@ -79,7 +119,7 @@
   title: 'Q&A: Undoing Years of Not Caring About Privacy'
   unpinned: null
   unseen: false
-  views: 125
+  views: 126
   visible: true
 - archetype: regular
   archived: false
@@ -119,7 +159,7 @@
   title: Another Phone Hacking Software Exposed!
   unpinned: null
   unseen: false
-  views: 96
+  views: 97
   visible: true
 - archetype: regular
   archived: false
@@ -159,7 +199,7 @@
   title: Apple's Unannounced Security Game-Changer!
   unpinned: null
   unseen: false
-  views: 222
+  views: 223
   visible: true
 - archetype: regular
   archived: false
@@ -534,7 +574,7 @@
   title: Windows Recall Is Back! Did Microsoft Fix It?
   unpinned: null
   unseen: false
-  views: 112
+  views: 113
   visible: true
 - archetype: regular
   archived: false
@@ -1300,59 +1340,4 @@
   unpinned: null
   unseen: false
   views: 85
-  visible: true
-- archetype: regular
-  archived: false
-  bookmarked: null
-  bumped: true
-  bumped_at: '2024-07-27T15:43:09.777Z'
-  can_vote: false
-  category_id: 21
-  closed: false
-  created_at: '2024-07-25T01:01:45.931Z'
-  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/rNHRGC1NucZXAmyDCYpyDi
-  fancy_title: 'Q&amp;A: Would We Move Countries For Better Privacy?'
-  featured_link: https://neat.tube/w/rNHRGC1NucZXAmyDCYpyDi
-  featured_link_root_domain: neat.tube
-  has_accepted_answer: false
-  has_summary: false
-  highest_post_number: 6
-  id: 9337
-  image_url: https://discuss.techlore.tech/uploads/default/original/2X/9/9664059350c923a2f27a65d37a1ef1b63f99b147.jpeg
-  last_posted_at: '2024-07-27T15:43:09.777Z'
-  last_poster_username: securitybrahh
-  like_count: 3
-  liked: null
-  pinned: false
-  pinned_globally: false
-  posters:
-  - description: Original Poster
-    extras: null
-    flair_group_id: null
-    primary_group_id: null
-    user_id: -1
-  - description: Frequent Poster
-    extras: null
-    flair_group_id: null
-    primary_group_id: null
-    user_id: 847
-  - description: Frequent Poster
-    extras: null
-    flair_group_id: null
-    primary_group_id: null
-    user_id: 1372
-  - description: Most Recent Poster
-    extras: latest
-    flair_group_id: null
-    primary_group_id: null
-    user_id: 2554
-  posts_count: 6
-  reply_count: 3
-  slug: q-a-would-we-move-countries-for-better-privacy
-  tags: []
-  tags_descriptions: {}
-  title: 'Q&A: Would We Move Countries For Better Privacy?'
-  unpinned: null
-  unseen: false
-  views: 169
   visible: true
