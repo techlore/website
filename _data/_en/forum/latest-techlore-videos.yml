@@ -21,7 +21,7 @@
   image_url: https://discuss.techlore.tech/uploads/default/original/2X/f/f60aaa301c92e060d37f0f4e82ee8b85e9569bdb.jpeg
   last_posted_at: '2024-12-17T15:13:15.627Z'
   last_poster_username: Terrance
-  like_count: 18
+  like_count: 19
   liked: null
   pinned: false
   pinned_globally: false
@@ -59,7 +59,7 @@
   title: "Why You Don\u2019t Need An Antivirus"
   unpinned: null
   unseen: false
-  views: 259
+  views: 280
   visible: true
 - archetype: regular
   archived: false
@@ -119,7 +119,7 @@
   title: 5 Easy Ways to Improve Privacy!
   unpinned: null
   unseen: false
-  views: 358
+  views: 368
   visible: true
 - archetype: regular
   archived: false
@@ -449,7 +449,7 @@
   title: 'Kagi Search: Is Paying for a Search Engine Worth It?'
   unpinned: null
   unseen: false
-  views: 607
+  views: 610
   visible: true
 - archetype: regular
   archived: false
@@ -1249,7 +1249,7 @@
   title: 'Lock Down Your Signal: Ultimate Hardening Guide'
   unpinned: null
   unseen: false
-  views: 458
+  views: 461
   visible: true
 - archetype: regular
   archived: false
@@ -2732,7 +2732,7 @@
   title: Why I Stopped Hardening Firefox
   unpinned: null
   unseen: false
-  views: 3644
+  views: 3648
   visible: true
 - archetype: regular
   archived: false
@@ -3836,7 +3836,7 @@
   title: Marking a Few Victories for Privacy! - Techlore Talks 12
   unpinned: null
   unseen: false
-  views: 363
+  views: 364
   visible: true
 - archetype: regular
   archived: false
@@ -3956,7 +3956,7 @@
   title: 'Simplifying w/Digital Minimalism: What''s on My Phone'
   unpinned: null
   unseen: false
-  views: 1324
+  views: 1326
   visible: true
 - archetype: regular
   archived: false
@@ -4016,7 +4016,7 @@
   title: 'Get to know Punkt MP02: A Dumbphone w/Signal for your Privacy'
   unpinned: null
   unseen: false
-  views: 1398
+  views: 1399
   visible: true
 - archetype: regular
   archived: false
@@ -4208,7 +4208,7 @@
   title: 'Why Browser Wars Are Silly: Here''s What Matters!'
   unpinned: null
   unseen: false
-  views: 1450
+  views: 1451
   visible: true
 - archetype: regular
   archived: false
@@ -4368,7 +4368,7 @@
   title: The ULTIMATE Guide to Mastering NextDNS!
   unpinned: null
   unseen: false
-  views: 7612
+  views: 7614
   visible: true
 - archetype: regular
   archived: false
@@ -5510,7 +5510,7 @@
   title: 'Proton Privacy: A Review to Determine its Full Potential!'
   unpinned: null
   unseen: false
-  views: 584
+  views: 585
   visible: true
 - archetype: regular
   archived: false
@@ -6134,7 +6134,7 @@
   title: FINALLY! The VPN Configuration I've Been Looking For!
   unpinned: null
   unseen: false
-  views: 3231
+  views: 3235
   visible: true
 - archetype: regular
   archived: false

@@ -5,6 +5,56 @@
   archived: false
   bookmarked: null
   bumped: true
+  bumped_at: '2024-12-20T15:05:19.773Z'
+  can_vote: false
+  category_id: 21
+  closed: false
+  created_at: '2024-12-20T07:31:22.718Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/rYZLMZUJrdU3seDFBiLHF1
+  fancy_title: 'Q&amp;A: How to REALLY Secure Your Password Manager'
+  featured_link: https://neat.tube/w/rYZLMZUJrdU3seDFBiLHF1
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 3
+  id: 11254
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/1/11de3beb831c7dab5599f7378bd6b320c4ba5b18.jpeg
+  last_posted_at: '2024-12-20T15:05:19.773Z'
+  last_poster_username: delosmzp
+  like_count: 1
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 557
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 2410
+  posts_count: 3
+  reply_count: 1
+  slug: q-a-how-to-really-secure-your-password-manager
+  tags: []
+  tags_descriptions: {}
+  title: 'Q&A: How to REALLY Secure Your Password Manager'
+  unpinned: null
+  unseen: false
+  views: 60
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
   bumped_at: '2024-12-17T10:21:49.445Z'
   can_vote: false
   category_id: 21
@@ -39,7 +89,7 @@
   title: How is Recall STILL This Bad?!
   unpinned: null
   unseen: false
-  views: 40
+  views: 44
   visible: true
 - archetype: regular
   archived: false
@@ -654,7 +704,7 @@
   title: New Discord Feature is a HUGE Privacy Win! But
   unpinned: null
   unseen: false
-  views: 122
+  views: 123
   visible: true
 - archetype: regular
   archived: false
@@ -754,7 +804,7 @@
   title: Google's New Feature Threatens Privacy & Freedom!
   unpinned: null
   unseen: false
-  views: 173
+  views: 174
   visible: true
 - archetype: regular
   archived: false
@@ -1300,44 +1350,4 @@
   unpinned: null
   unseen: false
   views: 80
-  visible: true
-- archetype: regular
-  archived: false
-  bookmarked: null
-  bumped: true
-  bumped_at: '2024-07-30T21:11:03.339Z'
-  can_vote: false
-  category_id: 21
-  closed: false
-  created_at: '2024-07-30T21:11:03.303Z'
-  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/mUBozreQ3htB9NU7s4yA5P
-  fancy_title: Cookies? Ad-Tech? Google Says Both!
-  featured_link: https://neat.tube/w/mUBozreQ3htB9NU7s4yA5P
-  featured_link_root_domain: neat.tube
-  has_accepted_answer: false
-  has_summary: false
-  highest_post_number: 1
-  id: 9428
-  image_url: https://discuss.techlore.tech/uploads/default/original/2X/4/472f68ae7096876f08f77199b55d3428fcb704d1.jpeg
-  last_posted_at: '2024-07-30T21:11:03.339Z'
-  last_poster_username: system
-  like_count: 0
-  liked: null
-  pinned: false
-  pinned_globally: false
-  posters:
-  - description: Original Poster, Most Recent Poster
-    extras: latest single
-    flair_group_id: null
-    primary_group_id: null
-    user_id: -1
-  posts_count: 1
-  reply_count: 0
-  slug: cookies-ad-tech-google-says-both
-  tags: []
-  tags_descriptions: {}
-  title: Cookies? Ad-Tech? Google Says Both!
-  unpinned: null
-  unseen: false
-  views: 85
   visible: true
