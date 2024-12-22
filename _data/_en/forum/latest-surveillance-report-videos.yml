@@ -49,7 +49,7 @@
   title: 'Q&A: How to REALLY Secure Your Password Manager'
   unpinned: null
   unseen: false
-  views: 60
+  views: 74
   visible: true
 - archetype: regular
   archived: false
@@ -71,7 +71,7 @@
   image_url: https://discuss.techlore.tech/uploads/default/original/2X/7/75fc56672c3b80df51024d527314c50141a73957.jpeg
   last_posted_at: '2024-12-17T10:21:49.445Z'
   last_poster_username: system
-  like_count: 2
+  like_count: 3
   liked: null
   pinned: false
   pinned_globally: false
@@ -89,7 +89,7 @@
   title: How is Recall STILL This Bad?!
   unpinned: null
   unseen: false
-  views: 44
+  views: 47
   visible: true
 - archetype: regular
   archived: false
@@ -459,7 +459,7 @@
   title: 'Q&A: Why No Love For Beeper?'
   unpinned: null
   unseen: false
-  views: 222
+  views: 223
   visible: true
 - archetype: regular
   archived: false
