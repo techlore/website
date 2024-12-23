@@ -36,14 +36,6 @@ data:
     color: "#9BCC01"
     favorite: true
   -
-    name: "DivestOS"
-    desc: "DivestOS attempts to fix some security issues with LineageOS (like bringing verified boot to some devices) while maintaing large device compatability & extra usability features."
-    tags: ["Open Source", "Supports many devices"]
-    labels:
-      web: "https://divestos.org/"
-    color: "#000000"
-    favorite: true
-  -
     name: "MicroG"
     desc: "MicroG is an open source replacement to proprietary Google Play Services. It allows apps & services to work as intended in a more privacy-respecting & transparent fashion on most custom ROMs."
     tags: ["Open Source"]
