@@ -44,7 +44,7 @@
   title: What Are Our Favourite Password Managers?
   unpinned: null
   unseen: false
-  views: 1
+  views: 2
   visible: true
 - archetype: regular
   archived: false
@@ -84,7 +84,7 @@
   title: Is Cash Still King? Secure Payment Options Outside the US
   unpinned: null
   unseen: false
-  views: 4
+  views: 5
   visible: true
 - archetype: regular
   archived: false
@@ -564,7 +564,7 @@
   title: Does Google Really Delete Your Data?
   unpinned: null
   unseen: false
-  views: 2
+  views: 3
   visible: true
 - archetype: regular
   archived: false
@@ -884,7 +884,7 @@
   title: Is Bitwarden No Longer FOSS?
   unpinned: null
   unseen: false
-  views: 2
+  views: 3
   visible: true
 - archetype: regular
   archived: false
