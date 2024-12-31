@@ -49,7 +49,7 @@
   title: 'Q&A: How to REALLY Secure Your Password Manager'
   unpinned: null
   unseen: false
-  views: 136
+  views: 140
   visible: true
 - archetype: regular
   archived: false
@@ -743,8 +743,8 @@
     user_id: 1002
   - description: Frequent Poster
     extras: null
-    flair_group_id: 45
-    primary_group_id: 45
+    flair_group_id: null
+    primary_group_id: null
     user_id: 1206
   - description: Frequent Poster
     extras: null
@@ -884,7 +884,7 @@
   title: Are You Vulnerable To This New Yubikey Attack?
   unpinned: null
   unseen: false
-  views: 75
+  views: 76
   visible: true
 - archetype: regular
   archived: false
@@ -939,7 +939,7 @@
   title: 'Q&A: The Best Browser Extensions'
   unpinned: null
   unseen: false
-  views: 221
+  views: 222
   visible: true
 - archetype: regular
   archived: false
@@ -984,7 +984,7 @@
   title: Is This An Attack On Privacy?
   unpinned: null
   unseen: false
-  views: 162
+  views: 163
   visible: true
 - archetype: regular
   archived: false
@@ -1024,7 +1024,7 @@
   title: 'Q&A: Does Global Privacy Control ACTUALLY Work?'
   unpinned: null
   unseen: false
-  views: 67
+  views: 68
   visible: true
 - archetype: regular
   archived: false
