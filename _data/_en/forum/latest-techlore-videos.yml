@@ -59,7 +59,7 @@
   title: "Why You Don\u2019t Need An Antivirus"
   unpinned: null
   unseen: false
-  views: 379
+  views: 388
   visible: true
 - archetype: regular
   archived: false
@@ -119,7 +119,7 @@
   title: 5 Easy Ways to Improve Privacy!
   unpinned: null
   unseen: false
-  views: 453
+  views: 464
   visible: true
 - archetype: regular
   archived: false
@@ -164,7 +164,7 @@
   title: Your privacy & security questions answered! (Nov '24)
   unpinned: null
   unseen: false
-  views: 138
+  views: 139
   visible: true
 - archetype: regular
   archived: false
@@ -284,7 +284,7 @@
   title: How to Stay Private on a Budget!
   unpinned: null
   unseen: false
-  views: 710
+  views: 711
   visible: true
 - archetype: regular
   archived: false
@@ -389,7 +389,7 @@
   title: Your privacy & security questions answered! (Oct '24)
   unpinned: null
   unseen: false
-  views: 170
+  views: 171
   visible: true
 - archetype: regular
   archived: false
@@ -449,7 +449,7 @@
   title: 'Kagi Search: Is Paying for a Search Engine Worth It?'
   unpinned: null
   unseen: false
-  views: 637
+  views: 639
   visible: true
 - archetype: regular
   archived: false
@@ -539,7 +539,7 @@
   title: "Why I switched from Firefox\u2026"
   unpinned: null
   unseen: false
-  views: 452
+  views: 453
   visible: true
 - archetype: regular
   archived: false
@@ -1249,7 +1249,7 @@
   title: 'Lock Down Your Signal: Ultimate Hardening Guide'
   unpinned: null
   unseen: false
-  views: 538
+  views: 543
   visible: true
 - archetype: regular
   archived: false
@@ -1899,8 +1899,8 @@
     user_id: 1
   - description: Frequent Poster
     extras: null
-    flair_group_id: 42
-    primary_group_id: 42
+    flair_group_id: null
+    primary_group_id: null
     user_id: 576
   - description: Frequent Poster
     extras: null
@@ -2127,7 +2127,7 @@
   title: Your privacy & security questions answered! (Mar '24)
   unpinned: null
   unseen: false
-  views: 337
+  views: 338
   visible: true
 - archetype: regular
   archived: false
@@ -2301,8 +2301,8 @@
     user_id: -1
   - description: Frequent Poster
     extras: null
-    flair_group_id: 42
-    primary_group_id: 42
+    flair_group_id: null
+    primary_group_id: null
     user_id: 576
   - description: Frequent Poster
     extras: null
@@ -2361,8 +2361,8 @@
     user_id: -1
   - description: Frequent Poster
     extras: null
-    flair_group_id: 42
-    primary_group_id: 42
+    flair_group_id: null
+    primary_group_id: null
     user_id: 576
   - description: Frequent Poster
     extras: null
@@ -2661,8 +2661,8 @@
     user_id: -1
   - description: Most Recent Poster
     extras: latest
-    flair_group_id: 42
-    primary_group_id: 42
+    flair_group_id: null
+    primary_group_id: null
     user_id: 576
   posts_count: 2
   reply_count: 0
@@ -2732,7 +2732,7 @@
   title: Why I Stopped Hardening Firefox
   unpinned: null
   unseen: false
-  views: 3728
+  views: 3733
   visible: true
 - archetype: regular
   archived: false
@@ -2777,7 +2777,7 @@
   title: Brave NUKES Privacy Feature! Should You Panic?
   unpinned: null
   unseen: false
-  views: 436
+  views: 437
   visible: true
 - archetype: regular
   archived: false
@@ -3460,8 +3460,8 @@
     user_id: 1576
   - description: Most Recent Poster
     extras: latest
-    flair_group_id: 42
-    primary_group_id: 42
+    flair_group_id: null
+    primary_group_id: null
     user_id: 576
   posts_count: 5
   reply_count: 0
@@ -3576,7 +3576,7 @@
   title: Signal Usernames Are FINALLY Coming!
   unpinned: null
   unseen: false
-  views: 952
+  views: 953
   visible: true
 - archetype: regular
   archived: false
@@ -3825,8 +3825,8 @@
     user_id: 1
   - description: Most Recent Poster
     extras: latest
-    flair_group_id: 42
-    primary_group_id: 42
+    flair_group_id: null
+    primary_group_id: null
     user_id: 576
   posts_count: 4
   reply_count: 2
@@ -3870,8 +3870,8 @@
     user_id: -1
   - description: Frequent Poster
     extras: null
-    flair_group_id: 42
-    primary_group_id: 42
+    flair_group_id: null
+    primary_group_id: null
     user_id: 576
   - description: Frequent Poster
     extras: null
@@ -3956,7 +3956,7 @@
   title: 'Simplifying w/Digital Minimalism: What''s on My Phone'
   unpinned: null
   unseen: false
-  views: 1334
+  views: 1337
   visible: true
 - archetype: regular
   archived: false
@@ -4197,8 +4197,8 @@
     user_id: 1183
   - description: Most Recent Poster
     extras: latest
-    flair_group_id: 42
-    primary_group_id: 42
+    flair_group_id: null
+    primary_group_id: null
     user_id: 576
   posts_count: 16
   reply_count: 5
@@ -4368,7 +4368,7 @@
   title: The ULTIMATE Guide to Mastering NextDNS!
   unpinned: null
   unseen: false
-  views: 7666
+  views: 7672
   visible: true
 - archetype: regular
   archived: false
@@ -4538,7 +4538,7 @@
   title: My Primary Complaint with Signal
   unpinned: null
   unseen: false
-  views: 716
+  views: 717
   visible: true
 - archetype: regular
   archived: false
@@ -5392,7 +5392,7 @@
   title: Google Authenticator is a Literal Meme - TT9
   unpinned: null
   unseen: false
-  views: 433
+  views: 434
   visible: true
 - archetype: regular
   archived: false
@@ -6134,7 +6134,7 @@
   title: FINALLY! The VPN Configuration I've Been Looking For!
   unpinned: null
   unseen: false
-  views: 3267
+  views: 3273
   visible: true
 - archetype: regular
   archived: false
@@ -6389,7 +6389,7 @@
   title: Diving Into The World of Open Source Note-Taking! - (Notesnook Interview)
   unpinned: null
   unseen: false
-  views: 740
+  views: 741
   visible: true
 - archetype: regular
   archived: false
@@ -6448,7 +6448,7 @@
   title: "The VPN You Use Probably Sucks - Here\u2019s Why"
   unpinned: null
   unseen: false
-  views: 812
+  views: 815
   visible: true
 - archetype: regular
   archived: false
@@ -6841,7 +6841,7 @@
   title: Ditch Chrome - Use THESE Instead!
   unpinned: null
   unseen: false
-  views: 1393
+  views: 1394
   visible: true
 - archetype: regular
   archived: false
@@ -7180,7 +7180,7 @@
   title: Proton vs Tutanota - Which is the BEST?!
   unpinned: null
   unseen: false
-  views: 910
+  views: 912
   visible: true
 - archetype: regular
   archived: false
@@ -7327,7 +7327,7 @@
   title: "I\u2019m Leaving Custom ROMs - Here\u2019s Why"
   unpinned: null
   unseen: false
-  views: 1712
+  views: 1713
   visible: true
 - archetype: regular
   archived: false
