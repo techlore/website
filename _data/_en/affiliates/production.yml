@@ -18,6 +18,11 @@
       url: "https://amzn.to/42WfmJn"
       affil: true
     -
+      text: "Newegg"
+      url: "https://howl.link/cdqw2zvbo1fhe"
+      affil: true      
+    -
+
       text: "Non-affiliate"
       url: "https://www.blackmagicdesign.com/products/davinciresolve"
 -
@@ -29,8 +34,8 @@
       url: "https://amzn.to/3qYYuo3"
       affil: true
     -
-      text: "Newegg, Coming Soon"
-      url: "https://howl.me/cj7claO9VLo"
+      text: "Newegg"
+      url: "https://howl.link/27urz6v6uy1xo"
       affil: true
     -
       text: "Non-affiliate"
@@ -44,10 +49,6 @@
       url: "https://amzn.to/49sMVYr"
       affil: true
     -
-      text: "Newegg"
-      url: "https://howl.me/cj7cl4obQZ4"
-      affil: true
-    -
       text: "Non-affiliate"
       url: "https://fujifilm-x.com/en-us/products/cameras/x100v/"
 -
@@ -57,10 +58,6 @@
     -
       text: "Amazon"
       url: "https://amzn.to/3Bk0FrI"
-      affil: true
-    -
-      text: "Newegg"
-      url: "https://howl.me/cj7amiPhNkt"
       affil: true
     -
       text: "Non-affiliate"
@@ -76,7 +73,7 @@
       affil: true
     -
       text: "Newegg"
-      url: "https://howl.me/cj7aDmaJ22n"
+      url: "https://howl.link/4xpo99xxfja0e"
       affil: true
     -
       text: "Non-affiliate"
@@ -92,7 +89,7 @@
       affil: true
     -
       text: "Newegg"
-      url: "https://howl.me/cj7aDmaJ22n"
+      url: "https://howl.link/ik8ctll7pgpok"
       affil: true
     -
       text: "Non-affiliate"
