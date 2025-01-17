@@ -334,7 +334,7 @@
   title: Is Your Workout Compromising Your Privacy?
   unpinned: null
   unseen: false
-  views: 105
+  views: 106
   visible: true
 - archetype: regular
   archived: false
@@ -928,8 +928,8 @@
     user_id: 2242
   - description: Most Recent Poster
     extras: latest
-    flair_group_id: 45
-    primary_group_id: 45
+    flair_group_id: null
+    primary_group_id: null
     user_id: 223
   posts_count: 6
   reply_count: 3
