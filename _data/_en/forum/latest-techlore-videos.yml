@@ -1707,11 +1707,11 @@
   has_accepted_answer: false
   has_summary: false
   highest_post_number: 1
-  id: 12054
+  id: 12075
   image_url: null
   last_posted_at: '2024-07-23T05:00:00.000Z'
   last_poster_username: system
-  like_count: 1
+  like_count: 0
   liked: null
   pinned: false
   pinned_globally: false
@@ -1729,7 +1729,7 @@
   title: Who Runs Your Email? Revealing Tuta's Security with Hanna Bozakov
   unpinned: null
   unseen: false
-  views: 66
+  views: 1
   visible: true
 - archetype: regular
   archived: false
