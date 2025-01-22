@@ -5,6 +5,51 @@
   archived: false
   bookmarked: null
   bumped: true
+  bumped_at: '2025-01-22T02:39:51.928Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2025-01-22T02:34:45.205Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/sRkFue3cH924j6Q1nuUAZG
+  fancy_title: 'BusKill: Secure Your Laptop in Seconds'
+  featured_link: https://neat.tube/w/sRkFue3cH924j6Q1nuUAZG
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 2
+  id: 12077
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/8/8c30fcc424305e9ff8313ec5838b4aaa85338d37.jpeg
+  last_posted_at: '2025-01-22T02:39:51.928Z'
+  last_poster_username: delosmzp
+  like_count: 1
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 2410
+  posts_count: 2
+  reply_count: 0
+  slug: buskill-secure-your-laptop-in-seconds
+  tags: []
+  tags_descriptions: {}
+  title: 'BusKill: Secure Your Laptop in Seconds'
+  unpinned: null
+  unseen: false
+  views: 12
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
   bumped_at: '2025-01-20T20:36:04.422Z'
   can_vote: false
   category_id: 20
@@ -21,7 +66,7 @@
   image_url: https://discuss.techlore.tech/uploads/default/original/2X/1/13ebab0879493c841b58c246f8d13ecb02711062.jpeg
   last_posted_at: '2025-01-20T20:15:19.924Z'
   last_poster_username: OncommingStorm
-  like_count: 26
+  like_count: 27
   liked: null
   pinned: false
   pinned_globally: false
@@ -59,7 +104,7 @@
   title: "Lunatask: The Best Productivity Tool I\u2019ve Ever Used"
   unpinned: null
   unseen: false
-  views: 104
+  views: 111
   visible: true
 - archetype: regular
   archived: false
@@ -99,7 +144,7 @@
   title: The ULTIMATE Windows Privacy & Security Guide!
   unpinned: null
   unseen: false
-  views: 48
+  views: 52
   visible: true
 - archetype: regular
   archived: false
@@ -589,7 +634,7 @@
   title: "Chrome\u2019s New War: Killing Ad Blockers"
   unpinned: null
   unseen: false
-  views: 119
+  views: 120
   visible: true
 - archetype: regular
   archived: false
@@ -2707,7 +2752,7 @@
   title: The Death of Skiff & Why It Matters
   unpinned: null
   unseen: false
-  views: 414
+  views: 415
   visible: true
 - archetype: regular
   archived: false
@@ -2912,7 +2957,7 @@
   title: Why I Stopped Hardening Firefox
   unpinned: null
   unseen: false
-  views: 3870
+  views: 3872
   visible: true
 - archetype: regular
   archived: false
@@ -2957,7 +3002,7 @@
   title: Brave NUKES Privacy Feature! Should You Panic?
   unpinned: null
   unseen: false
-  views: 459
+  views: 460
   visible: true
 - archetype: regular
   archived: false
@@ -4718,7 +4763,7 @@
   title: My Primary Complaint with Signal
   unpinned: null
   unseen: false
-  views: 734
+  views: 735
   visible: true
 - archetype: regular
   archived: false
@@ -7668,45 +7713,5 @@
   title: Chris Titus Tech's FAVORITE Privacy Tools!
   unpinned: null
   unseen: false
-  views: 693
-  visible: true
-- archetype: regular
-  archived: false
-  bookmarked: null
-  bumped: false
-  bumped_at: '2022-05-26T01:25:00.000Z'
-  can_vote: false
-  category_id: 20
-  closed: false
-  created_at: '2022-05-26T01:25:00.000Z'
-  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=RbaLDX6WQQU
-  fancy_title: Proton&amp;#39;s BIGGEST Revamp Yet! Here&amp;#39;s What&amp;#39;s
-    New
-  featured_link: null
-  has_accepted_answer: false
-  has_summary: false
-  highest_post_number: 1
-  id: 51
-  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/e/efb19217702656d6ebc30a6832bf26dc32db57d6_2_1024x576.jpeg
-  last_posted_at: '2022-05-26T01:25:00.000Z'
-  last_poster_username: system
-  like_count: 0
-  liked: null
-  pinned: false
-  pinned_globally: false
-  posters:
-  - description: Original Poster, Most Recent Poster
-    extras: latest single
-    flair_group_id: null
-    primary_group_id: null
-    user_id: -1
-  posts_count: 1
-  reply_count: 0
-  slug: proton-39-s-biggest-revamp-yet-here-39-s-what-39-s-new
-  tags: []
-  tags_descriptions: {}
-  title: Proton&#39;s BIGGEST Revamp Yet! Here&#39;s What&#39;s New
-  unpinned: null
-  unseen: false
-  views: 368
+  views: 694
   visible: true
