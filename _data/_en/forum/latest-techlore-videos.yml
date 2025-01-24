@@ -5,7 +5,7 @@
   archived: false
   bookmarked: null
   bumped: true
-  bumped_at: '2025-01-22T02:39:51.928Z'
+  bumped_at: '2025-01-24T03:26:22.278Z'
   can_vote: false
   category_id: 20
   closed: false
@@ -16,12 +16,12 @@
   featured_link_root_domain: neat.tube
   has_accepted_answer: false
   has_summary: false
-  highest_post_number: 2
+  highest_post_number: 8
   id: 12077
   image_url: https://discuss.techlore.tech/uploads/default/original/2X/8/8c30fcc424305e9ff8313ec5838b4aaa85338d37.jpeg
-  last_posted_at: '2025-01-22T02:39:51.928Z'
-  last_poster_username: delosmzp
-  like_count: 3
+  last_posted_at: '2025-01-24T03:25:11.844Z'
+  last_poster_username: maltfield
+  like_count: 6
   liked: null
   pinned: false
   pinned_globally: false
@@ -31,20 +31,25 @@
     flair_group_id: null
     primary_group_id: null
     user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 2410
   - description: Most Recent Poster
     extras: latest
     flair_group_id: null
     primary_group_id: null
-    user_id: 2410
-  posts_count: 2
-  reply_count: 0
+    user_id: 1936
+  posts_count: 8
+  reply_count: 1
   slug: buskill-secure-your-laptop-in-seconds
   tags: []
   tags_descriptions: {}
   title: 'BusKill: Secure Your Laptop in Seconds'
   unpinned: null
   unseen: false
-  views: 76
+  views: 94
   visible: true
 - archetype: regular
   archived: false
@@ -66,7 +71,7 @@
   image_url: https://discuss.techlore.tech/uploads/default/original/2X/1/13ebab0879493c841b58c246f8d13ecb02711062.jpeg
   last_posted_at: '2025-01-22T15:46:57.018Z'
   last_poster_username: Sandbag6736
-  like_count: 32
+  like_count: 35
   liked: null
   pinned: false
   pinned_globally: false
@@ -104,7 +109,7 @@
   title: "Lunatask: The Best Productivity Tool I\u2019ve Ever Used"
   unpinned: null
   unseen: false
-  views: 190
+  views: 232
   visible: true
 - archetype: regular
   archived: false
@@ -204,7 +209,7 @@
   title: "Why You Don\u2019t Need An Antivirus"
   unpinned: null
   unseen: false
-  views: 555
+  views: 556
   visible: true
 - archetype: regular
   archived: false
@@ -264,7 +269,7 @@
   title: 5 Easy Ways to Improve Privacy!
   unpinned: null
   unseen: false
-  views: 612
+  views: 614
   visible: true
 - archetype: regular
   archived: false
@@ -429,7 +434,7 @@
   title: How to Stay Private on a Budget!
   unpinned: null
   unseen: false
-  views: 723
+  views: 724
   visible: true
 - archetype: regular
   archived: false
@@ -594,7 +599,7 @@
   title: 'Kagi Search: Is Paying for a Search Engine Worth It?'
   unpinned: null
   unseen: false
-  views: 714
+  views: 717
   visible: true
 - archetype: regular
   archived: false
@@ -684,7 +689,7 @@
   title: "Why I switched from Firefox\u2026"
   unpinned: null
   unseen: false
-  views: 474
+  views: 475
   visible: true
 - archetype: regular
   archived: false
@@ -1394,7 +1399,7 @@
   title: 'Lock Down Your Signal: Ultimate Hardening Guide'
   unpinned: null
   unseen: false
-  views: 662
+  views: 664
   visible: true
 - archetype: regular
   archived: false
@@ -1674,7 +1679,7 @@
   title: Why I'm Concerned About Signal
   unpinned: null
   unseen: false
-  views: 351
+  views: 353
   visible: true
 - archetype: regular
   archived: false
@@ -2085,7 +2090,7 @@
   title: 'Privacy Dilemmas: Education, Toxicity, PWAs & More w/ John Ozbay [Part 2]'
   unpinned: null
   unseen: false
-  views: 234
+  views: 235
   visible: true
 - archetype: regular
   archived: false
@@ -2242,7 +2247,7 @@
   title: The Ultimate Guide to Using Tor Browser Securely
   unpinned: null
   unseen: false
-  views: 273
+  views: 274
   visible: true
 - archetype: regular
   archived: false
@@ -2957,7 +2962,7 @@
   title: Why I Stopped Hardening Firefox
   unpinned: null
   unseen: false
-  views: 3879
+  views: 3883
   visible: true
 - archetype: regular
   archived: false
@@ -3392,7 +3397,7 @@
   title: We Tried Signal's MobileCoin So You Never Have To
   unpinned: null
   unseen: false
-  views: 355
+  views: 356
   visible: true
 - archetype: regular
   archived: false
@@ -3801,7 +3806,7 @@
   title: Signal Usernames Are FINALLY Coming!
   unpinned: null
   unseen: false
-  views: 960
+  views: 961
   visible: true
 - archetype: regular
   archived: false
@@ -4181,7 +4186,7 @@
   title: 'Simplifying w/Digital Minimalism: What''s on My Phone'
   unpinned: null
   unseen: false
-  views: 1352
+  views: 1353
   visible: true
 - archetype: regular
   archived: false
@@ -4533,7 +4538,7 @@
   title: "No Thanks\u2014Why I'm Avoiding Instagram Threads"
   unpinned: null
   unseen: false
-  views: 862
+  views: 863
   visible: true
 - archetype: regular
   archived: false
@@ -4593,7 +4598,7 @@
   title: The ULTIMATE Guide to Mastering NextDNS!
   unpinned: null
   unseen: false
-  views: 7752
+  views: 7755
   visible: true
 - archetype: regular
   archived: false
@@ -5096,7 +5101,7 @@
   title: Top 3 BEST Anonymous Operating Systems
   unpinned: null
   unseen: false
-  views: 840
+  views: 841
   visible: true
 - archetype: regular
   archived: false
@@ -5346,7 +5351,7 @@
   title: "Reclaim Control with Vivaldi Browser! - J\xF3n von Tetzchner Interview"
   unpinned: null
   unseen: false
-  views: 517
+  views: 518
   visible: true
 - archetype: regular
   archived: false
@@ -5509,7 +5514,7 @@
   title: All your privacy & security questions answered!
   unpinned: null
   unseen: false
-  views: 800
+  views: 801
   visible: true
 - archetype: regular
   archived: false
@@ -6359,7 +6364,7 @@
   title: FINALLY! The VPN Configuration I've Been Looking For!
   unpinned: null
   unseen: false
-  views: 3326
+  views: 3328
   visible: true
 - archetype: regular
   archived: false
@@ -6614,7 +6619,7 @@
   title: Diving Into The World of Open Source Note-Taking! - (Notesnook Interview)
   unpinned: null
   unseen: false
-  views: 757
+  views: 759
   visible: true
 - archetype: regular
   archived: false
@@ -7066,7 +7071,7 @@
   title: Ditch Chrome - Use THESE Instead!
   unpinned: null
   unseen: false
-  views: 1412
+  views: 1413
   visible: true
 - archetype: regular
   archived: false
@@ -7552,7 +7557,7 @@
   title: "I\u2019m Leaving Custom ROMs - Here\u2019s Why"
   unpinned: null
   unseen: false
-  views: 1719
+  views: 1720
   visible: true
 - archetype: regular
   archived: false
