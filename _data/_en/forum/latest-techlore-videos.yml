@@ -5,7 +5,47 @@
   archived: false
   bookmarked: null
   bumped: true
-  bumped_at: '2025-01-24T03:26:22.278Z'
+  bumped_at: '2025-01-25T01:44:47.158Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2025-01-25T01:44:47.107Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/2M5j6CkwHdKd6MsWChfLVX
+  fancy_title: 'Upgrade Your Security: 4 Best Password Managers'
+  featured_link: https://neat.tube/w/2M5j6CkwHdKd6MsWChfLVX
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 1
+  id: 12119
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/3/3226fa9e6ad5275c66cf14a9d0eb316fb2ad90e0.jpeg
+  last_posted_at: '2025-01-25T01:44:47.158Z'
+  last_poster_username: system
+  like_count: 0
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster, Most Recent Poster
+    extras: latest single
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  posts_count: 1
+  reply_count: 0
+  slug: upgrade-your-security-4-best-password-managers
+  tags: []
+  tags_descriptions: {}
+  title: 'Upgrade Your Security: 4 Best Password Managers'
+  unpinned: null
+  unseen: false
+  views: 14
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2025-01-24T19:33:07.064Z'
   can_vote: false
   category_id: 20
   closed: false
@@ -16,12 +56,12 @@
   featured_link_root_domain: neat.tube
   has_accepted_answer: false
   has_summary: false
-  highest_post_number: 8
+  highest_post_number: 11
   id: 12077
   image_url: https://discuss.techlore.tech/uploads/default/original/2X/8/8c30fcc424305e9ff8313ec5838b4aaa85338d37.jpeg
-  last_posted_at: '2025-01-24T03:25:11.844Z'
-  last_poster_username: maltfield
-  like_count: 6
+  last_posted_at: '2025-01-24T19:33:07.064Z'
+  last_poster_username: delosmzp
+  like_count: 7
   liked: null
   pinned: false
   pinned_globally: false
@@ -35,27 +75,37 @@
     extras: null
     flair_group_id: null
     primary_group_id: null
-    user_id: 2410
+    user_id: 1936
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 1751
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 2
   - description: Most Recent Poster
     extras: latest
     flair_group_id: null
     primary_group_id: null
-    user_id: 1936
-  posts_count: 8
-  reply_count: 1
+    user_id: 2410
+  posts_count: 11
+  reply_count: 4
   slug: buskill-secure-your-laptop-in-seconds
   tags: []
   tags_descriptions: {}
   title: 'BusKill: Secure Your Laptop in Seconds'
   unpinned: null
   unseen: false
-  views: 94
+  views: 147
   visible: true
 - archetype: regular
   archived: false
   bookmarked: null
   bumped: true
-  bumped_at: '2025-01-22T15:46:57.018Z'
+  bumped_at: '2025-01-24T13:59:43.417Z'
   can_vote: false
   category_id: 20
   closed: false
@@ -66,12 +116,12 @@
   featured_link_root_domain: neat.tube
   has_accepted_answer: false
   has_summary: false
-  highest_post_number: 25
+  highest_post_number: 26
   id: 12050
   image_url: https://discuss.techlore.tech/uploads/default/original/2X/1/13ebab0879493c841b58c246f8d13ecb02711062.jpeg
-  last_posted_at: '2025-01-22T15:46:57.018Z'
-  last_poster_username: Sandbag6736
-  like_count: 35
+  last_posted_at: '2025-01-24T13:59:43.417Z'
+  last_poster_username: Hary06
+  like_count: 38
   liked: null
   pinned: false
   pinned_globally: false
@@ -100,16 +150,16 @@
     extras: latest
     flair_group_id: null
     primary_group_id: null
-    user_id: 1522
-  posts_count: 25
-  reply_count: 0
+    user_id: 2716
+  posts_count: 26
+  reply_count: 1
   slug: lunatask-the-best-productivity-tool-i-ve-ever-used
   tags: []
   tags_descriptions: {}
   title: "Lunatask: The Best Productivity Tool I\u2019ve Ever Used"
   unpinned: null
   unseen: false
-  views: 232
+  views: 289
   visible: true
 - archetype: regular
   archived: false
@@ -149,7 +199,7 @@
   title: The ULTIMATE Windows Privacy & Security Guide!
   unpinned: null
   unseen: false
-  views: 53
+  views: 58
   visible: true
 - archetype: regular
   archived: false
@@ -209,7 +259,7 @@
   title: "Why You Don\u2019t Need An Antivirus"
   unpinned: null
   unseen: false
-  views: 556
+  views: 558
   visible: true
 - archetype: regular
   archived: false
@@ -269,7 +319,7 @@
   title: 5 Easy Ways to Improve Privacy!
   unpinned: null
   unseen: false
-  views: 614
+  views: 617
   visible: true
 - archetype: regular
   archived: false
@@ -434,7 +484,7 @@
   title: How to Stay Private on a Budget!
   unpinned: null
   unseen: false
-  views: 724
+  views: 725
   visible: true
 - archetype: regular
   archived: false
@@ -489,7 +539,7 @@
   title: PrivacyPost - Protecting Your Real Life Privacy!
   unpinned: null
   unseen: false
-  views: 338
+  views: 340
   visible: true
 - archetype: regular
   archived: false
@@ -599,7 +649,7 @@
   title: 'Kagi Search: Is Paying for a Search Engine Worth It?'
   unpinned: null
   unseen: false
-  views: 717
+  views: 719
   visible: true
 - archetype: regular
   archived: false
@@ -639,7 +689,7 @@
   title: "Chrome\u2019s New War: Killing Ad Blockers"
   unpinned: null
   unseen: false
-  views: 120
+  views: 121
   visible: true
 - archetype: regular
   archived: false
@@ -734,7 +784,7 @@
   title: "10 Privacy Tools I Can\u2019t Live Without"
   unpinned: null
   unseen: false
-  views: 381
+  views: 383
   visible: true
 - archetype: regular
   archived: false
@@ -954,7 +1004,7 @@
   title: 'Molly: A More Secure Signal'
   unpinned: null
   unseen: false
-  views: 191
+  views: 192
   visible: true
 - archetype: regular
   archived: false
@@ -1039,7 +1089,7 @@
   title: Break Free From Subscription Hell! 3 Ways to Own Your Stuff Again
   unpinned: null
   unseen: false
-  views: 248
+  views: 249
   visible: true
 - archetype: regular
   archived: false
@@ -1294,7 +1344,7 @@
   title: 'Data Removal Services: A Costly Myth?'
   unpinned: null
   unseen: false
-  views: 110
+  views: 111
   visible: true
 - archetype: regular
   archived: false
@@ -1399,7 +1449,7 @@
   title: 'Lock Down Your Signal: Ultimate Hardening Guide'
   unpinned: null
   unseen: false
-  views: 664
+  views: 666
   visible: true
 - archetype: regular
   archived: false
@@ -1619,7 +1669,7 @@
   title: It Seems AI Isn't Going Anywhere
   unpinned: null
   unseen: false
-  views: 114
+  views: 115
   visible: true
 - archetype: regular
   archived: false
@@ -1679,7 +1729,7 @@
   title: Why I'm Concerned About Signal
   unpinned: null
   unseen: false
-  views: 353
+  views: 354
   visible: true
 - archetype: regular
   archived: false
@@ -1739,7 +1789,7 @@
   title: "Proton released...a Bitcoin wallet \U0001F928"
   unpinned: null
   unseen: false
-  views: 281
+  views: 282
   visible: true
 - archetype: regular
   archived: false
@@ -1779,7 +1829,7 @@
   title: Who Runs Your Email? Revealing Tuta's Security with Hanna Bozakov
   unpinned: null
   unseen: false
-  views: 2
+  views: 3
   visible: true
 - archetype: regular
   archived: false
@@ -1819,7 +1869,7 @@
   title: I think I finally found a new password manager!
   unpinned: null
   unseen: false
-  views: 3
+  views: 4
   visible: true
 - archetype: regular
   archived: false
@@ -1879,7 +1929,7 @@
   title: Privacy-Friendly Security Cameras...Synology Did It!
   unpinned: null
   unseen: false
-  views: 441
+  views: 442
   visible: true
 - archetype: regular
   archived: false
@@ -1994,7 +2044,7 @@
   title: "Data Brokers Are Stealing Your Data\u2014Here\u2019s How To Stop Them"
   unpinned: null
   unseen: false
-  views: 277
+  views: 278
   visible: true
 - archetype: regular
   archived: false
@@ -2034,7 +2084,7 @@
   title: Your privacy & security questions answered! (May '24)
   unpinned: null
   unseen: false
-  views: 146
+  views: 147
   visible: true
 - archetype: regular
   archived: false
@@ -2657,7 +2707,7 @@
   title: Mixed Emotions...My Reaction to Mozilla Layoffs & New CEO
   unpinned: null
   unseen: false
-  views: 252
+  views: 253
   visible: true
 - archetype: regular
   archived: false
@@ -2857,7 +2907,7 @@
   title: WTF APPLE! - Techlore Talks 18
   unpinned: null
   unseen: false
-  views: 381
+  views: 382
   visible: true
 - archetype: regular
   archived: false
@@ -2962,7 +3012,7 @@
   title: Why I Stopped Hardening Firefox
   unpinned: null
   unseen: false
-  views: 3883
+  views: 3887
   visible: true
 - archetype: regular
   archived: false
@@ -3062,7 +3112,7 @@
   title: 'The 2024 VPN Tier List: Privacy & Security Smackdown!'
   unpinned: null
   unseen: false
-  views: 636
+  views: 637
   visible: true
 - archetype: regular
   archived: false
@@ -4246,7 +4296,7 @@
   title: 'Get to know Punkt MP02: A Dumbphone w/Signal for your Privacy'
   unpinned: null
   unseen: false
-  views: 1448
+  views: 1451
   visible: true
 - archetype: regular
   archived: false
@@ -4598,7 +4648,7 @@
   title: The ULTIMATE Guide to Mastering NextDNS!
   unpinned: null
   unseen: false
-  views: 7755
+  views: 7760
   visible: true
 - archetype: regular
   archived: false
@@ -4708,7 +4758,7 @@
   title: "Thoughts on Proton\u2019s New Password Manager! (I\u2019m Mixed\u2026)"
   unpinned: null
   unseen: false
-  views: 1677
+  views: 1678
   visible: true
 - archetype: regular
   archived: false
@@ -5887,7 +5937,7 @@
   title: How to CRUSH DATA BROKERS with Rob Shavell from DeleteMe
   unpinned: null
   unseen: false
-  views: 386
+  views: 387
   visible: true
 - archetype: regular
   archived: false
@@ -6005,7 +6055,7 @@
   title: Can You Use Discord Privately?! | Q&A
   unpinned: null
   unseen: false
-  views: 636
+  views: 637
   visible: true
 - archetype: regular
   archived: false
@@ -6364,7 +6414,7 @@
   title: FINALLY! The VPN Configuration I've Been Looking For!
   unpinned: null
   unseen: false
-  views: 3328
+  views: 3329
   visible: true
 - archetype: regular
   archived: false
@@ -6423,7 +6473,7 @@
   title: "Can iod\xE9OS take down stock Android? Let's Find Out!"
   unpinned: null
   unseen: false
-  views: 853
+  views: 854
   visible: true
 - archetype: regular
   archived: false
@@ -6619,7 +6669,7 @@
   title: Diving Into The World of Open Source Note-Taking! - (Notesnook Interview)
   unpinned: null
   unseen: false
-  views: 759
+  views: 760
   visible: true
 - archetype: regular
   archived: false
@@ -6678,7 +6728,7 @@
   title: "The VPN You Use Probably Sucks - Here\u2019s Why"
   unpinned: null
   unseen: false
-  views: 822
+  views: 823
   visible: true
 - archetype: regular
   archived: false
@@ -6776,7 +6826,7 @@
   title: 5 Reasons to DITCH TWITTER For Mastodon!
   unpinned: null
   unseen: false
-  views: 427
+  views: 429
   visible: true
 - archetype: regular
   archived: false
@@ -7071,7 +7121,7 @@
   title: Ditch Chrome - Use THESE Instead!
   unpinned: null
   unseen: false
-  views: 1413
+  views: 1414
   visible: true
 - archetype: regular
   archived: false
@@ -7670,53 +7720,4 @@
   unpinned: null
   unseen: false
   views: 567
-  visible: true
-- archetype: regular
-  archived: false
-  bookmarked: null
-  bumped: true
-  bumped_at: '2023-04-27T12:23:45.215Z'
-  can_vote: false
-  category_id: 20
-  closed: false
-  created_at: '2022-06-04T07:15:00.000Z'
-  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=ntiGOx4iBxU
-  fancy_title: Chris Titus Tech&rsquo;s FAVORITE Privacy Tools!
-  featured_link: null
-  has_accepted_answer: false
-  has_summary: false
-  highest_post_number: 3
-  id: 154
-  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/c/c259e2d0c8de53e9f864a7917debba5054a2fa21_2_1024x576.jpeg
-  last_posted_at: '2023-04-27T12:23:45.215Z'
-  last_poster_username: anonymoususer
-  like_count: 1
-  liked: null
-  pinned: false
-  pinned_globally: false
-  posters:
-  - description: Original Poster
-    extras: null
-    flair_group_id: null
-    primary_group_id: null
-    user_id: -1
-  - description: Frequent Poster
-    extras: null
-    flair_group_id: null
-    primary_group_id: null
-    user_id: 108
-  - description: Most Recent Poster
-    extras: latest
-    flair_group_id: null
-    primary_group_id: null
-    user_id: 1107
-  posts_count: 3
-  reply_count: 1
-  slug: chris-titus-techs-favorite-privacy-tools
-  tags: []
-  tags_descriptions: {}
-  title: Chris Titus Tech's FAVORITE Privacy Tools!
-  unpinned: null
-  unseen: false
-  views: 694
   visible: true
