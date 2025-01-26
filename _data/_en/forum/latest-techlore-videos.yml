@@ -5,7 +5,7 @@
   archived: false
   bookmarked: null
   bumped: true
-  bumped_at: '2025-01-25T01:44:47.158Z'
+  bumped_at: '2025-01-25T06:28:32.854Z'
   can_vote: false
   category_id: 20
   closed: false
@@ -16,22 +16,27 @@
   featured_link_root_domain: neat.tube
   has_accepted_answer: false
   has_summary: false
-  highest_post_number: 1
+  highest_post_number: 2
   id: 12119
   image_url: https://discuss.techlore.tech/uploads/default/original/2X/3/3226fa9e6ad5275c66cf14a9d0eb316fb2ad90e0.jpeg
-  last_posted_at: '2025-01-25T01:44:47.158Z'
-  last_poster_username: system
-  like_count: 0
+  last_posted_at: '2025-01-25T06:28:32.854Z'
+  last_poster_username: andbenn
+  like_count: 4
   liked: null
   pinned: false
   pinned_globally: false
   posters:
-  - description: Original Poster, Most Recent Poster
-    extras: latest single
+  - description: Original Poster
+    extras: null
     flair_group_id: null
     primary_group_id: null
     user_id: -1
-  posts_count: 1
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1252
+  posts_count: 2
   reply_count: 0
   slug: upgrade-your-security-4-best-password-managers
   tags: []
@@ -39,13 +44,13 @@
   title: 'Upgrade Your Security: 4 Best Password Managers'
   unpinned: null
   unseen: false
-  views: 14
+  views: 95
   visible: true
 - archetype: regular
   archived: false
   bookmarked: null
   bumped: true
-  bumped_at: '2025-01-24T19:33:07.064Z'
+  bumped_at: '2025-01-25T16:37:59.125Z'
   can_vote: false
   category_id: 20
   closed: false
@@ -56,12 +61,12 @@
   featured_link_root_domain: neat.tube
   has_accepted_answer: false
   has_summary: false
-  highest_post_number: 11
+  highest_post_number: 16
   id: 12077
   image_url: https://discuss.techlore.tech/uploads/default/original/2X/8/8c30fcc424305e9ff8313ec5838b4aaa85338d37.jpeg
-  last_posted_at: '2025-01-24T19:33:07.064Z'
+  last_posted_at: '2025-01-25T16:37:59.125Z'
   last_poster_username: delosmzp
-  like_count: 7
+  like_count: 13
   liked: null
   pinned: false
   pinned_globally: false
@@ -73,11 +78,6 @@
     user_id: -1
   - description: Frequent Poster
     extras: null
-    flair_group_id: null
-    primary_group_id: null
-    user_id: 1936
-  - description: Frequent Poster
-    extras: null
     flair_group_id: 41
     primary_group_id: 41
     user_id: 1751
@@ -86,20 +86,25 @@
     flair_group_id: 41
     primary_group_id: 41
     user_id: 2
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1936
   - description: Most Recent Poster
     extras: latest
     flair_group_id: null
     primary_group_id: null
     user_id: 2410
-  posts_count: 11
-  reply_count: 4
+  posts_count: 16
+  reply_count: 9
   slug: buskill-secure-your-laptop-in-seconds
   tags: []
   tags_descriptions: {}
   title: 'BusKill: Secure Your Laptop in Seconds'
   unpinned: null
   unseen: false
-  views: 147
+  views: 177
   visible: true
 - archetype: regular
   archived: false
@@ -159,7 +164,7 @@
   title: "Lunatask: The Best Productivity Tool I\u2019ve Ever Used"
   unpinned: null
   unseen: false
-  views: 289
+  views: 323
   visible: true
 - archetype: regular
   archived: false
@@ -259,7 +264,7 @@
   title: "Why You Don\u2019t Need An Antivirus"
   unpinned: null
   unseen: false
-  views: 558
+  views: 560
   visible: true
 - archetype: regular
   archived: false
@@ -364,7 +369,7 @@
   title: Your privacy & security questions answered! (Nov '24)
   unpinned: null
   unseen: false
-  views: 146
+  views: 147
   visible: true
 - archetype: regular
   archived: false
@@ -649,7 +654,7 @@
   title: 'Kagi Search: Is Paying for a Search Engine Worth It?'
   unpinned: null
   unseen: false
-  views: 719
+  views: 720
   visible: true
 - archetype: regular
   archived: false
@@ -739,7 +744,7 @@
   title: "Why I switched from Firefox\u2026"
   unpinned: null
   unseen: false
-  views: 475
+  views: 476
   visible: true
 - archetype: regular
   archived: false
@@ -964,7 +969,7 @@
   title: 'Private Homeownership: Your Options Explained w/ Jonathan Steele'
   unpinned: null
   unseen: false
-  views: 110
+  views: 111
   visible: true
 - archetype: regular
   archived: false
@@ -1089,7 +1094,7 @@
   title: Break Free From Subscription Hell! 3 Ways to Own Your Stuff Again
   unpinned: null
   unseen: false
-  views: 249
+  views: 250
   visible: true
 - archetype: regular
   archived: false
@@ -1344,7 +1349,7 @@
   title: 'Data Removal Services: A Costly Myth?'
   unpinned: null
   unseen: false
-  views: 111
+  views: 112
   visible: true
 - archetype: regular
   archived: false
@@ -1449,7 +1454,7 @@
   title: 'Lock Down Your Signal: Ultimate Hardening Guide'
   unpinned: null
   unseen: false
-  views: 666
+  views: 672
   visible: true
 - archetype: regular
   archived: false
@@ -1729,7 +1734,7 @@
   title: Why I'm Concerned About Signal
   unpinned: null
   unseen: false
-  views: 354
+  views: 355
   visible: true
 - archetype: regular
   archived: false
@@ -2807,7 +2812,7 @@
   title: The Death of Skiff & Why It Matters
   unpinned: null
   unseen: false
-  views: 415
+  views: 416
   visible: true
 - archetype: regular
   archived: false
@@ -3012,7 +3017,7 @@
   title: Why I Stopped Hardening Firefox
   unpinned: null
   unseen: false
-  views: 3887
+  views: 3893
   visible: true
 - archetype: regular
   archived: false
@@ -3112,7 +3117,7 @@
   title: 'The 2024 VPN Tier List: Privacy & Security Smackdown!'
   unpinned: null
   unseen: false
-  views: 637
+  views: 639
   visible: true
 - archetype: regular
   archived: false
@@ -3492,7 +3497,7 @@
   title: Why I 'Switched' From IVPN To Mullvad VPN (Sorta)
   unpinned: null
   unseen: false
-  views: 521
+  views: 523
   visible: true
 - archetype: regular
   archived: false
@@ -3916,7 +3921,7 @@
   title: 'Nextcloud 2023 Conference: Celebrating the Beauty of Open Source'
   unpinned: null
   unseen: false
-  views: 441
+  views: 442
   visible: true
 - archetype: regular
   archived: false
@@ -4236,7 +4241,7 @@
   title: 'Simplifying w/Digital Minimalism: What''s on My Phone'
   unpinned: null
   unseen: false
-  views: 1353
+  views: 1354
   visible: true
 - archetype: regular
   archived: false
@@ -4296,7 +4301,7 @@
   title: 'Get to know Punkt MP02: A Dumbphone w/Signal for your Privacy'
   unpinned: null
   unseen: false
-  views: 1451
+  views: 1454
   visible: true
 - archetype: regular
   archived: false
@@ -4488,7 +4493,7 @@
   title: 'Why Browser Wars Are Silly: Here''s What Matters!'
   unpinned: null
   unseen: false
-  views: 1457
+  views: 1459
   visible: true
 - archetype: regular
   archived: false
@@ -4648,7 +4653,7 @@
   title: The ULTIMATE Guide to Mastering NextDNS!
   unpinned: null
   unseen: false
-  views: 7760
+  views: 7765
   visible: true
 - archetype: regular
   archived: false
@@ -5151,7 +5156,7 @@
   title: Top 3 BEST Anonymous Operating Systems
   unpinned: null
   unseen: false
-  views: 841
+  views: 842
   visible: true
 - archetype: regular
   archived: false
@@ -5351,7 +5356,7 @@
   title: The NAS That Permanently Changed My Privacy Life
   unpinned: null
   unseen: false
-  views: 1129
+  views: 1130
   visible: true
 - archetype: regular
   archived: false
@@ -6414,7 +6419,7 @@
   title: FINALLY! The VPN Configuration I've Been Looking For!
   unpinned: null
   unseen: false
-  views: 3329
+  views: 3330
   visible: true
 - archetype: regular
   archived: false
@@ -6473,7 +6478,7 @@
   title: "Can iod\xE9OS take down stock Android? Let's Find Out!"
   unpinned: null
   unseen: false
-  views: 854
+  views: 855
   visible: true
 - archetype: regular
   archived: false
@@ -7121,7 +7126,7 @@
   title: Ditch Chrome - Use THESE Instead!
   unpinned: null
   unseen: false
-  views: 1414
+  views: 1415
   visible: true
 - archetype: regular
   archived: false
@@ -7548,7 +7553,7 @@
   title: This Game Teaches People About Privacy &amp; Security!
   unpinned: null
   unseen: false
-  views: 374
+  views: 375
   visible: true
 - archetype: regular
   archived: false
