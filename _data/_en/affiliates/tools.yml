@@ -88,6 +88,17 @@
       text: "Non-affiliate"
       url: "https://simplelogin.io/"
 -
+  name: "1Password"
+  type: "Password Manager"
+  buttons:
+    -
+      text: "Affiliate"
+      url: "https://www.anrdoezrs.net/click-100370169-14308408"
+      affil: true
+    -
+      text: "Non-affiliate"
+      url: "https://1password.com/"
+-
   name: "OrangeWebsite"
   type: "Web Host & VPS"
   buttons:
