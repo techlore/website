@@ -5,6 +5,61 @@
   archived: false
   bookmarked: null
   bumped: true
+  bumped_at: '2025-01-31T03:25:33.145Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2025-01-30T05:14:29.903Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/xxR7ENBMFZvzsBwwiSG4oV
+  fancy_title: The ULTIMATE macOS Privacy &amp; Security Guide!
+  featured_link: https://neat.tube/w/xxR7ENBMFZvzsBwwiSG4oV
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 7
+  id: 12186
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/2/2b0231813d8654b1e5c67f45b48b5d7d08daa13d.jpeg
+  last_posted_at: '2025-01-31T03:25:33.145Z'
+  last_poster_username: janusjanus223
+  like_count: 3
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 2
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 2410
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 3256
+  posts_count: 7
+  reply_count: 4
+  slug: the-ultimate-macos-privacy-security-guide
+  tags: []
+  tags_descriptions: {}
+  title: The ULTIMATE macOS Privacy & Security Guide!
+  unpinned: null
+  unseen: false
+  views: 76
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
   bumped_at: '2025-01-25T06:28:32.854Z'
   can_vote: false
   category_id: 20
@@ -44,7 +99,7 @@
   title: 'Upgrade Your Security: 4 Best Password Managers'
   unpinned: null
   unseen: false
-  views: 170
+  views: 184
   visible: true
 - archetype: regular
   archived: false
@@ -104,7 +159,7 @@
   title: 'BusKill: Secure Your Laptop in Seconds'
   unpinned: null
   unseen: false
-  views: 215
+  views: 222
   visible: true
 - archetype: regular
   archived: false
@@ -164,7 +219,7 @@
   title: "Lunatask: The Best Productivity Tool I\u2019ve Ever Used"
   unpinned: null
   unseen: false
-  views: 386
+  views: 395
   visible: true
 - archetype: regular
   archived: false
@@ -264,7 +319,7 @@
   title: "Why You Don\u2019t Need An Antivirus"
   unpinned: null
   unseen: false
-  views: 564
+  views: 565
   visible: true
 - archetype: regular
   archived: false
@@ -324,7 +379,7 @@
   title: 5 Easy Ways to Improve Privacy!
   unpinned: null
   unseen: false
-  views: 619
+  views: 621
   visible: true
 - archetype: regular
   archived: false
@@ -489,7 +544,7 @@
   title: How to Stay Private on a Budget!
   unpinned: null
   unseen: false
-  views: 731
+  views: 732
   visible: true
 - archetype: regular
   archived: false
@@ -594,7 +649,7 @@
   title: Your privacy & security questions answered! (Oct '24)
   unpinned: null
   unseen: false
-  views: 174
+  views: 175
   visible: true
 - archetype: regular
   archived: false
@@ -654,7 +709,7 @@
   title: 'Kagi Search: Is Paying for a Search Engine Worth It?'
   unpinned: null
   unseen: false
-  views: 734
+  views: 742
   visible: true
 - archetype: regular
   archived: false
@@ -744,7 +799,7 @@
   title: "Why I switched from Firefox\u2026"
   unpinned: null
   unseen: false
-  views: 479
+  views: 480
   visible: true
 - archetype: regular
   archived: false
@@ -924,7 +979,7 @@
   title: 'iOS 18 & macOS Sequoia: Top New Privacy & Security Features'
   unpinned: null
   unseen: false
-  views: 111
+  views: 113
   visible: true
 - archetype: regular
   archived: false
@@ -1094,7 +1149,7 @@
   title: Break Free From Subscription Hell! 3 Ways to Own Your Stuff Again
   unpinned: null
   unseen: false
-  views: 251
+  views: 252
   visible: true
 - archetype: regular
   archived: false
@@ -1349,7 +1404,7 @@
   title: 'Data Removal Services: A Costly Myth?'
   unpinned: null
   unseen: false
-  views: 113
+  views: 114
   visible: true
 - archetype: regular
   archived: false
@@ -1454,7 +1509,7 @@
   title: 'Lock Down Your Signal: Ultimate Hardening Guide'
   unpinned: null
   unseen: false
-  views: 701
+  views: 709
   visible: true
 - archetype: regular
   archived: false
@@ -1734,7 +1789,7 @@
   title: Why I'm Concerned About Signal
   unpinned: null
   unseen: false
-  views: 356
+  views: 357
   visible: true
 - archetype: regular
   archived: false
@@ -2049,7 +2104,7 @@
   title: "Data Brokers Are Stealing Your Data\u2014Here\u2019s How To Stop Them"
   unpinned: null
   unseen: false
-  views: 278
+  views: 280
   visible: true
 - archetype: regular
   archived: false
@@ -2552,7 +2607,7 @@
   title: Signal Usernames Have Arrived!
   unpinned: null
   unseen: false
-  views: 748
+  views: 749
   visible: true
 - archetype: regular
   archived: false
@@ -2672,7 +2727,7 @@
   title: Escape Big Tech With NextcloudPi - James Sundquist Interview
   unpinned: null
   unseen: false
-  views: 677
+  views: 678
   visible: true
 - archetype: regular
   archived: false
@@ -3017,7 +3072,7 @@
   title: Why I Stopped Hardening Firefox
   unpinned: null
   unseen: false
-  views: 3923
+  views: 3929
   visible: true
 - archetype: regular
   archived: false
@@ -3117,7 +3172,7 @@
   title: 'The 2024 VPN Tier List: Privacy & Security Smackdown!'
   unpinned: null
   unseen: false
-  views: 640
+  views: 641
   visible: true
 - archetype: regular
   archived: false
@@ -4301,7 +4356,7 @@
   title: 'Get to know Punkt MP02: A Dumbphone w/Signal for your Privacy'
   unpinned: null
   unseen: false
-  views: 1464
+  views: 1468
   visible: true
 - archetype: regular
   archived: false
@@ -4653,7 +4708,7 @@
   title: The ULTIMATE Guide to Mastering NextDNS!
   unpinned: null
   unseen: false
-  views: 7773
+  views: 7777
   visible: true
 - archetype: regular
   archived: false
@@ -6419,7 +6474,7 @@
   title: FINALLY! The VPN Configuration I've Been Looking For!
   unpinned: null
   unseen: false
-  views: 3338
+  views: 3340
   visible: true
 - archetype: regular
   archived: false
@@ -6478,7 +6533,7 @@
   title: "Can iod\xE9OS take down stock Android? Let's Find Out!"
   unpinned: null
   unseen: false
-  views: 860
+  views: 862
   visible: true
 - archetype: regular
   archived: false
@@ -6674,7 +6729,7 @@
   title: Diving Into The World of Open Source Note-Taking! - (Notesnook Interview)
   unpinned: null
   unseen: false
-  views: 763
+  views: 765
   visible: true
 - archetype: regular
   archived: false
@@ -7126,7 +7181,7 @@
   title: Ditch Chrome - Use THESE Instead!
   unpinned: null
   unseen: false
-  views: 1417
+  views: 1418
   visible: true
 - archetype: regular
   archived: false
@@ -7666,63 +7721,4 @@
   unpinned: null
   unseen: false
   views: 494
-  visible: true
-- archetype: regular
-  archived: false
-  bookmarked: null
-  bumped: true
-  bumped_at: '2022-07-08T18:14:46.987Z'
-  can_vote: false
-  category_id: 20
-  closed: false
-  created_at: '2022-06-10T23:11:00.000Z'
-  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=-GubGbuWBfk
-  fancy_title: Beginning Your Privacy Journey! (w/ Carey Parker)
-  featured_link: null
-  has_accepted_answer: false
-  has_summary: false
-  highest_post_number: 10
-  id: 260
-  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/e/ec10953f99ec5a001e9dcae943decc98f0e2ff56_2_1024x576.jpeg
-  last_posted_at: '2022-07-08T18:14:46.987Z'
-  last_poster_username: bazurk
-  like_count: 26
-  liked: null
-  pinned: false
-  pinned_globally: false
-  posters:
-  - description: Original Poster
-    extras: null
-    flair_group_id: null
-    primary_group_id: null
-    user_id: -1
-  - description: Frequent Poster
-    extras: null
-    flair_group_id: null
-    primary_group_id: null
-    user_id: 46
-  - description: Frequent Poster
-    extras: null
-    flair_group_id: null
-    primary_group_id: null
-    user_id: 146
-  - description: Frequent Poster
-    extras: null
-    flair_group_id: null
-    primary_group_id: null
-    user_id: 106
-  - description: Most Recent Poster
-    extras: latest
-    flair_group_id: null
-    primary_group_id: null
-    user_id: 29
-  posts_count: 10
-  reply_count: 4
-  slug: beginning-your-privacy-journey-w-carey-parker
-  tags: []
-  tags_descriptions: {}
-  title: Beginning Your Privacy Journey! (w/ Carey Parker)
-  unpinned: null
-  unseen: false
-  views: 567
   visible: true
