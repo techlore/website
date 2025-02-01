@@ -54,7 +54,7 @@
   title: The ULTIMATE macOS Privacy & Security Guide!
   unpinned: null
   unseen: false
-  views: 76
+  views: 125
   visible: true
 - archetype: regular
   archived: false
@@ -99,7 +99,7 @@
   title: 'Upgrade Your Security: 4 Best Password Managers'
   unpinned: null
   unseen: false
-  views: 184
+  views: 192
   visible: true
 - archetype: regular
   archived: false
@@ -159,7 +159,7 @@
   title: 'BusKill: Secure Your Laptop in Seconds'
   unpinned: null
   unseen: false
-  views: 222
+  views: 225
   visible: true
 - archetype: regular
   archived: false
@@ -219,7 +219,7 @@
   title: "Lunatask: The Best Productivity Tool I\u2019ve Ever Used"
   unpinned: null
   unseen: false
-  views: 395
+  views: 403
   visible: true
 - archetype: regular
   archived: false
@@ -259,7 +259,7 @@
   title: The ULTIMATE Windows Privacy & Security Guide!
   unpinned: null
   unseen: false
-  views: 63
+  views: 64
   visible: true
 - archetype: regular
   archived: false
@@ -379,7 +379,7 @@
   title: 5 Easy Ways to Improve Privacy!
   unpinned: null
   unseen: false
-  views: 621
+  views: 623
   visible: true
 - archetype: regular
   archived: false
@@ -544,7 +544,7 @@
   title: How to Stay Private on a Budget!
   unpinned: null
   unseen: false
-  views: 732
+  views: 733
   visible: true
 - archetype: regular
   archived: false
@@ -599,7 +599,7 @@
   title: PrivacyPost - Protecting Your Real Life Privacy!
   unpinned: null
   unseen: false
-  views: 345
+  views: 346
   visible: true
 - archetype: regular
   archived: false
@@ -709,7 +709,7 @@
   title: 'Kagi Search: Is Paying for a Search Engine Worth It?'
   unpinned: null
   unseen: false
-  views: 742
+  views: 746
   visible: true
 - archetype: regular
   archived: false
@@ -799,7 +799,7 @@
   title: "Why I switched from Firefox\u2026"
   unpinned: null
   unseen: false
-  views: 480
+  views: 482
   visible: true
 - archetype: regular
   archived: false
@@ -844,7 +844,7 @@
   title: "10 Privacy Tools I Can\u2019t Live Without"
   unpinned: null
   unseen: false
-  views: 384
+  views: 386
   visible: true
 - archetype: regular
   archived: false
@@ -1064,7 +1064,7 @@
   title: 'Molly: A More Secure Signal'
   unpinned: null
   unseen: false
-  views: 192
+  views: 193
   visible: true
 - archetype: regular
   archived: false
@@ -1189,7 +1189,7 @@
   title: The Future of Notes is Private! - Abdullah Atta/Notesnook Interview
   unpinned: null
   unseen: false
-  views: 100
+  views: 101
   visible: true
 - archetype: regular
   archived: false
@@ -1509,7 +1509,7 @@
   title: 'Lock Down Your Signal: Ultimate Hardening Guide'
   unpinned: null
   unseen: false
-  views: 709
+  views: 714
   visible: true
 - archetype: regular
   archived: false
@@ -1789,7 +1789,7 @@
   title: Why I'm Concerned About Signal
   unpinned: null
   unseen: false
-  views: 357
+  views: 358
   visible: true
 - archetype: regular
   archived: false
@@ -1849,7 +1849,7 @@
   title: "Proton released...a Bitcoin wallet \U0001F928"
   unpinned: null
   unseen: false
-  views: 283
+  views: 285
   visible: true
 - archetype: regular
   archived: false
@@ -1889,7 +1889,7 @@
   title: Who Runs Your Email? Revealing Tuta's Security with Hanna Bozakov
   unpinned: null
   unseen: false
-  views: 3
+  views: 4
   visible: true
 - archetype: regular
   archived: false
@@ -2357,7 +2357,7 @@
   title: The Ultimate Guide to Using Tor Browser Securely
   unpinned: null
   unseen: false
-  views: 275
+  views: 277
   visible: true
 - archetype: regular
   archived: false
@@ -2507,7 +2507,7 @@
   title: Your privacy & security questions answered! (Feb '24)
   unpinned: null
   unseen: false
-  views: 232
+  views: 233
   visible: true
 - archetype: regular
   archived: false
@@ -2907,7 +2907,7 @@
   title: 'Beat Big Tech: 3 Simple Empowerment Strategies!'
   unpinned: null
   unseen: false
-  views: 360
+  views: 361
   visible: true
 - archetype: regular
   archived: false
@@ -3072,7 +3072,7 @@
   title: Why I Stopped Hardening Firefox
   unpinned: null
   unseen: false
-  views: 3929
+  views: 3938
   visible: true
 - archetype: regular
   archived: false
@@ -3172,7 +3172,7 @@
   title: 'The 2024 VPN Tier List: Privacy & Security Smackdown!'
   unpinned: null
   unseen: false
-  views: 641
+  views: 642
   visible: true
 - archetype: regular
   archived: false
@@ -4126,7 +4126,7 @@
   title: Top 5 Safe VPNs for $0. (Yes, Really)
   unpinned: null
   unseen: false
-  views: 723
+  views: 724
   visible: true
 - archetype: regular
   archived: false
@@ -4296,7 +4296,7 @@
   title: 'Simplifying w/Digital Minimalism: What''s on My Phone'
   unpinned: null
   unseen: false
-  views: 1360
+  views: 1362
   visible: true
 - archetype: regular
   archived: false
@@ -4356,7 +4356,7 @@
   title: 'Get to know Punkt MP02: A Dumbphone w/Signal for your Privacy'
   unpinned: null
   unseen: false
-  views: 1468
+  views: 1469
   visible: true
 - archetype: regular
   archived: false
@@ -4708,7 +4708,7 @@
   title: The ULTIMATE Guide to Mastering NextDNS!
   unpinned: null
   unseen: false
-  views: 7777
+  views: 7781
   visible: true
 - archetype: regular
   archived: false
@@ -4940,7 +4940,7 @@
     s\u0336h\u0336i\u0336p\u0336 Problem"
   unpinned: null
   unseen: false
-  views: 522
+  views: 523
   visible: true
 - archetype: regular
   archived: false
@@ -5461,7 +5461,7 @@
   title: "Reclaim Control with Vivaldi Browser! - J\xF3n von Tetzchner Interview"
   unpinned: null
   unseen: false
-  views: 518
+  views: 519
   visible: true
 - archetype: regular
   archived: false
@@ -7181,7 +7181,7 @@
   title: Ditch Chrome - Use THESE Instead!
   unpinned: null
   unseen: false
-  views: 1418
+  views: 1419
   visible: true
 - archetype: regular
   archived: false
