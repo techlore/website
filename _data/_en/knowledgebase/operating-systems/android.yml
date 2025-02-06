@@ -44,7 +44,7 @@ data:
     color: "#F2F2F2"
   -
     name: "Plexus"
-    desc: "While MicroG & de-googled ROMs try to maintain the compatability of Google Play Services, they are not perfect. Plexus allows you to check what apps do/don't work, deveoped by us at Techlore."
+    desc: "While MicroG & de-googled ROMs try to maintain the compatability of Google Play Services, they are not perfect. Plexus allows you to check what apps do/don't work, developed by us at Techlore."
     tags: ["Open Source"]
     labels:
       web: "https://plexus.techlore.tech/"
