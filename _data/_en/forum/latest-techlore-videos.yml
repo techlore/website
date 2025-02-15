@@ -5,6 +5,66 @@
   archived: false
   bookmarked: null
   bumped: true
+  bumped_at: '2025-02-14T22:38:02.638Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2025-02-14T22:29:54.134Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/ie5v87xxKeE8W7d8yNTyBb
+  fancy_title: How Enshittification Ruins Tech
+  featured_link: https://neat.tube/w/ie5v87xxKeE8W7d8yNTyBb
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 9
+  id: 12459
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/f/f22a764fb7969ae01d279636f4566a54a997b4cd.jpeg
+  last_posted_at: '2025-02-14T22:29:54.177Z'
+  last_poster_username: system
+  like_count: 8
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster, Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 2
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 45
+    primary_group_id: 45
+    user_id: 1929
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 30
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1141
+  posts_count: 8
+  reply_count: 0
+  slug: how-enshittification-ruins-tech
+  tags: []
+  tags_descriptions: {}
+  title: How Enshittification Ruins Tech
+  unpinned: null
+  unseen: false
+  views: 32
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
   bumped_at: '2025-01-31T03:25:33.145Z'
   can_vote: false
   category_id: 20
@@ -54,7 +114,7 @@
   title: The ULTIMATE macOS Privacy & Security Guide!
   unpinned: null
   unseen: false
-  views: 326
+  views: 343
   visible: true
 - archetype: regular
   archived: false
@@ -99,7 +159,7 @@
   title: 'Upgrade Your Security: 4 Best Password Managers'
   unpinned: null
   unseen: false
-  views: 320
+  views: 333
   visible: true
 - archetype: regular
   archived: false
@@ -159,7 +219,7 @@
   title: 'BusKill: Secure Your Laptop in Seconds'
   unpinned: null
   unseen: false
-  views: 238
+  views: 241
   visible: true
 - archetype: regular
   archived: false
@@ -219,7 +279,7 @@
   title: "Lunatask: The Best Productivity Tool I\u2019ve Ever Used"
   unpinned: null
   unseen: false
-  views: 464
+  views: 470
   visible: true
 - archetype: regular
   archived: false
@@ -259,7 +319,7 @@
   title: The ULTIMATE Windows Privacy & Security Guide!
   unpinned: null
   unseen: false
-  views: 74
+  views: 75
   visible: true
 - archetype: regular
   archived: false
@@ -319,7 +379,7 @@
   title: "Why You Don\u2019t Need An Antivirus"
   unpinned: null
   unseen: false
-  views: 574
+  views: 575
   visible: true
 - archetype: regular
   archived: false
@@ -544,7 +604,7 @@
   title: How to Stay Private on a Budget!
   unpinned: null
   unseen: false
-  views: 743
+  views: 744
   visible: true
 - archetype: regular
   archived: false
@@ -649,7 +709,7 @@
   title: Your privacy & security questions answered! (Oct '24)
   unpinned: null
   unseen: false
-  views: 175
+  views: 176
   visible: true
 - archetype: regular
   archived: false
@@ -709,7 +769,7 @@
   title: 'Kagi Search: Is Paying for a Search Engine Worth It?'
   unpinned: null
   unseen: false
-  views: 809
+  views: 812
   visible: true
 - archetype: regular
   archived: false
@@ -799,7 +859,7 @@
   title: "Why I switched from Firefox\u2026"
   unpinned: null
   unseen: false
-  views: 497
+  views: 499
   visible: true
 - archetype: regular
   archived: false
@@ -1229,7 +1289,7 @@
   title: 'Beyond the Tech: iOS vs Android Privacy Showdown'
   unpinned: null
   unseen: false
-  views: 159
+  views: 160
   visible: true
 - archetype: regular
   archived: false
@@ -1324,7 +1384,7 @@
   title: Your privacy & security questions answered! (July '24)
   unpinned: null
   unseen: false
-  views: 94
+  views: 95
   visible: true
 - archetype: regular
   archived: false
@@ -1509,7 +1569,7 @@
   title: 'Lock Down Your Signal: Ultimate Hardening Guide'
   unpinned: null
   unseen: false
-  views: 806
+  views: 816
   visible: true
 - archetype: regular
   archived: false
@@ -1789,7 +1849,7 @@
   title: Why I'm Concerned About Signal
   unpinned: null
   unseen: false
-  views: 363
+  views: 365
   visible: true
 - archetype: regular
   archived: false
@@ -1929,7 +1989,7 @@
   title: I think I finally found a new password manager!
   unpinned: null
   unseen: false
-  views: 5
+  views: 6
   visible: true
 - archetype: regular
   archived: false
@@ -2104,7 +2164,7 @@
   title: "Data Brokers Are Stealing Your Data\u2014Here\u2019s How To Stop Them"
   unpinned: null
   unseen: false
-  views: 284
+  views: 285
   visible: true
 - archetype: regular
   archived: false
@@ -2417,7 +2477,7 @@
   title: 'Ditching Chrome: My Journey to a Better Mobile Browser'
   unpinned: null
   unseen: false
-  views: 764
+  views: 765
   visible: true
 - archetype: regular
   archived: false
@@ -3072,7 +3132,7 @@
   title: Why I Stopped Hardening Firefox
   unpinned: null
   unseen: false
-  views: 4037
+  views: 4043
   visible: true
 - archetype: regular
   archived: false
@@ -3172,7 +3232,7 @@
   title: 'The 2024 VPN Tier List: Privacy & Security Smackdown!'
   unpinned: null
   unseen: false
-  views: 649
+  views: 650
   visible: true
 - archetype: regular
   archived: false
@@ -3750,7 +3810,7 @@
   title: "Black Friday Discounts for the Average Privacy Nerd \U0001F913"
   unpinned: null
   unseen: false
-  views: 525
+  views: 526
   visible: true
 - archetype: regular
   archived: false
@@ -4296,7 +4356,7 @@
   title: 'Simplifying w/Digital Minimalism: What''s on My Phone'
   unpinned: null
   unseen: false
-  views: 1379
+  views: 1380
   visible: true
 - archetype: regular
   archived: false
@@ -4356,7 +4416,7 @@
   title: 'Get to know Punkt MP02: A Dumbphone w/Signal for your Privacy'
   unpinned: null
   unseen: false
-  views: 1500
+  views: 1503
   visible: true
 - archetype: regular
   archived: false
@@ -4708,7 +4768,7 @@
   title: The ULTIMATE Guide to Mastering NextDNS!
   unpinned: null
   unseen: false
-  views: 7823
+  views: 7826
   visible: true
 - archetype: regular
   archived: false
@@ -5411,7 +5471,7 @@
   title: The NAS That Permanently Changed My Privacy Life
   unpinned: null
   unseen: false
-  views: 1136
+  views: 1138
   visible: true
 - archetype: regular
   archived: false
@@ -6474,7 +6534,7 @@
   title: FINALLY! The VPN Configuration I've Been Looking For!
   unpinned: null
   unseen: false
-  views: 3357
+  views: 3359
   visible: true
 - archetype: regular
   archived: false
@@ -6533,7 +6593,7 @@
   title: "Can iod\xE9OS take down stock Android? Let's Find Out!"
   unpinned: null
   unseen: false
-  views: 865
+  views: 866
   visible: true
 - archetype: regular
   archived: false
@@ -6788,7 +6848,7 @@
   title: "The VPN You Use Probably Sucks - Here\u2019s Why"
   unpinned: null
   unseen: false
-  views: 829
+  views: 830
   visible: true
 - archetype: regular
   archived: false
@@ -6886,7 +6946,7 @@
   title: 5 Reasons to DITCH TWITTER For Mastodon!
   unpinned: null
   unseen: false
-  views: 433
+  views: 434
   visible: true
 - archetype: regular
   archived: false
@@ -7668,57 +7728,4 @@
   unpinned: null
   unseen: false
   views: 1723
-  visible: true
-- archetype: regular
-  archived: false
-  bookmarked: null
-  bumped: true
-  bumped_at: '2022-07-04T13:44:24.030Z'
-  can_vote: false
-  category_id: 20
-  closed: false
-  created_at: '2022-06-22T18:50:57.783Z'
-  excerpt: My speech from Monerokon in Lisbon, Portugal. Was an absolute honor to
-    be there around such incredible people &lt;3
-  fancy_title: Henry - Reducing Monero&rsquo;s Friction Points for Rapid Widespread
-    Adoption
-  featured_link: https://www.youtube.com/watch?v=r_vH-NyOYAg
-  featured_link_root_domain: youtube.com
-  has_accepted_answer: false
-  has_summary: false
-  highest_post_number: 3
-  id: 417
-  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/6/6d5540499091dbc0177d7e45ec06deb713fb629f_2_1024x576.jpeg
-  last_posted_at: '2022-07-04T13:44:24.030Z'
-  last_poster_username: BugsBunny
-  like_count: 13
-  liked: null
-  pinned: false
-  pinned_globally: false
-  posters:
-  - description: Original Poster
-    extras: null
-    flair_group_id: 41
-    primary_group_id: 41
-    user_id: 2
-  - description: Frequent Poster
-    extras: null
-    flair_group_id: null
-    primary_group_id: null
-    user_id: 127
-  - description: Most Recent Poster
-    extras: latest
-    flair_group_id: null
-    primary_group_id: null
-    user_id: 142
-  posts_count: 3
-  reply_count: 1
-  slug: henry-reducing-moneros-friction-points-for-rapid-widespread-adoption
-  tags:
-  - video
-  tags_descriptions: {}
-  title: Henry - Reducing Monero's Friction Points for Rapid Widespread Adoption
-  unpinned: null
-  unseen: false
-  views: 494
   visible: true
