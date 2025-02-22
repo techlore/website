@@ -5,6 +5,56 @@
   archived: false
   bookmarked: null
   bumped: true
+  bumped_at: '2025-02-22T04:53:30.837Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2025-02-22T03:59:49.082Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/kjkUdf6c1GrWtvAh5Dw4vQ
+  fancy_title: 'Apple Removes iCloud E2EE in UK: What You Need to Know'
+  featured_link: https://neat.tube/w/kjkUdf6c1GrWtvAh5Dw4vQ
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 5
+  id: 12554
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/6/607b5cb3731fedcb11a32d43926040495f7027c4.jpeg
+  last_posted_at: '2025-02-22T04:53:30.837Z'
+  last_poster_username: delosmzp
+  like_count: 2
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 45
+    primary_group_id: 45
+    user_id: 792
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 2410
+  posts_count: 5
+  reply_count: 3
+  slug: apple-removes-icloud-e2ee-in-uk-what-you-need-to-know
+  tags: []
+  tags_descriptions: {}
+  title: 'Apple Removes iCloud E2EE in UK: What You Need to Know'
+  unpinned: null
+  unseen: false
+  views: 7
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
   bumped_at: '2025-02-20T01:26:06.838Z'
   can_vote: false
   category_id: 20
@@ -59,7 +109,7 @@
   title: How Enshittification Ruins Tech
   unpinned: null
   unseen: false
-  views: 208
+  views: 228
   visible: true
 - archetype: regular
   archived: false
@@ -114,7 +164,7 @@
   title: The ULTIMATE macOS Privacy & Security Guide!
   unpinned: null
   unseen: false
-  views: 413
+  views: 424
   visible: true
 - archetype: regular
   archived: false
@@ -159,7 +209,7 @@
   title: 'Upgrade Your Security: 4 Best Password Managers'
   unpinned: null
   unseen: false
-  views: 348
+  views: 351
   visible: true
 - archetype: regular
   archived: false
@@ -279,7 +329,7 @@
   title: "Lunatask: The Best Productivity Tool I\u2019ve Ever Used"
   unpinned: null
   unseen: false
-  views: 493
+  views: 500
   visible: true
 - archetype: regular
   archived: false
@@ -319,7 +369,7 @@
   title: The ULTIMATE Windows Privacy & Security Guide!
   unpinned: null
   unseen: false
-  views: 75
+  views: 77
   visible: true
 - archetype: regular
   archived: false
@@ -439,7 +489,7 @@
   title: 5 Easy Ways to Improve Privacy!
   unpinned: null
   unseen: false
-  views: 636
+  views: 637
   visible: true
 - archetype: regular
   archived: false
@@ -769,7 +819,7 @@
   title: 'Kagi Search: Is Paying for a Search Engine Worth It?'
   unpinned: null
   unseen: false
-  views: 933
+  views: 951
   visible: true
 - archetype: regular
   archived: false
@@ -904,7 +954,7 @@
   title: "10 Privacy Tools I Can\u2019t Live Without"
   unpinned: null
   unseen: false
-  views: 396
+  views: 397
   visible: true
 - archetype: regular
   archived: false
@@ -1124,7 +1174,7 @@
   title: 'Molly: A More Secure Signal'
   unpinned: null
   unseen: false
-  views: 200
+  views: 201
   visible: true
 - archetype: regular
   archived: false
@@ -1209,7 +1259,7 @@
   title: Break Free From Subscription Hell! 3 Ways to Own Your Stuff Again
   unpinned: null
   unseen: false
-  views: 256
+  views: 257
   visible: true
 - archetype: regular
   archived: false
@@ -1464,7 +1514,7 @@
   title: 'Data Removal Services: A Costly Myth?'
   unpinned: null
   unseen: false
-  views: 118
+  views: 119
   visible: true
 - archetype: regular
   archived: false
@@ -1519,7 +1569,7 @@
   title: 'Why I Left Adobe: A Plea for Better Tech'
   unpinned: null
   unseen: false
-  views: 142
+  views: 143
   visible: true
 - archetype: regular
   archived: false
@@ -1569,7 +1619,7 @@
   title: 'Lock Down Your Signal: Ultimate Hardening Guide'
   unpinned: null
   unseen: false
-  views: 850
+  views: 861
   visible: true
 - archetype: regular
   archived: false
@@ -2727,7 +2777,7 @@
   title: Apple Is Trying to Kill the Open Internet!
   unpinned: null
   unseen: false
-  views: 1278
+  views: 1279
   visible: true
 - archetype: regular
   archived: false
@@ -3132,7 +3182,7 @@
   title: Why I Stopped Hardening Firefox
   unpinned: null
   unseen: false
-  views: 4087
+  views: 4097
   visible: true
 - archetype: regular
   archived: false
@@ -3232,7 +3282,7 @@
   title: 'The 2024 VPN Tier List: Privacy & Security Smackdown!'
   unpinned: null
   unseen: false
-  views: 652
+  views: 653
   visible: true
 - archetype: regular
   archived: false
@@ -4356,7 +4406,7 @@
   title: 'Simplifying w/Digital Minimalism: What''s on My Phone'
   unpinned: null
   unseen: false
-  views: 1383
+  views: 1384
   visible: true
 - archetype: regular
   archived: false
@@ -4416,7 +4466,7 @@
   title: 'Get to know Punkt MP02: A Dumbphone w/Signal for your Privacy'
   unpinned: null
   unseen: false
-  views: 1512
+  views: 1514
   visible: true
 - archetype: regular
   archived: false
@@ -4768,7 +4818,7 @@
   title: The ULTIMATE Guide to Mastering NextDNS!
   unpinned: null
   unseen: false
-  views: 7840
+  views: 7841
   visible: true
 - archetype: regular
   archived: false
@@ -4818,7 +4868,7 @@
   title: Google Play Store is a Walled Garden - Here's How to Escape!
   unpinned: null
   unseen: false
-  views: 436
+  views: 437
   visible: true
 - archetype: regular
   archived: false
@@ -5581,7 +5631,7 @@
   title: 'Aurora Users: Proceed with Caution!'
   unpinned: null
   unseen: false
-  views: 839
+  views: 840
   visible: true
 - archetype: regular
   archived: false
@@ -5910,7 +5960,7 @@
   title: 'Proton Privacy: A Review to Determine its Full Potential!'
   unpinned: null
   unseen: false
-  views: 597
+  views: 599
   visible: true
 - archetype: regular
   archived: false
@@ -6789,7 +6839,7 @@
   title: Diving Into The World of Open Source Note-Taking! - (Notesnook Interview)
   unpinned: null
   unseen: false
-  views: 774
+  views: 776
   visible: true
 - archetype: regular
   archived: false
@@ -7241,7 +7291,7 @@
   title: Ditch Chrome - Use THESE Instead!
   unpinned: null
   unseen: false
-  views: 1428
+  views: 1429
   visible: true
 - archetype: regular
   archived: false
@@ -7669,63 +7719,4 @@
   unpinned: null
   unseen: false
   views: 376
-  visible: true
-- archetype: regular
-  archived: false
-  bookmarked: null
-  bumped: true
-  bumped_at: '2022-11-01T11:48:36.525Z'
-  can_vote: false
-  category_id: 20
-  closed: false
-  created_at: '2022-07-12T13:58:00.000Z'
-  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=LJXFqM2OC1Q
-  fancy_title: "I\u2019m Leaving Custom ROMs - Here\u2019s Why"
-  featured_link: null
-  has_accepted_answer: false
-  has_summary: false
-  highest_post_number: 15
-  id: 576
-  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/a/a0ac1fe664719d8c807f2f352f4cd7a4f084cb8e_2_1024x576.jpeg
-  last_posted_at: '2022-11-01T11:48:36.525Z'
-  last_poster_username: InternetGhost
-  like_count: 28
-  liked: null
-  pinned: false
-  pinned_globally: false
-  posters:
-  - description: Original Poster
-    extras: null
-    flair_group_id: null
-    primary_group_id: null
-    user_id: -1
-  - description: Frequent Poster
-    extras: null
-    flair_group_id: null
-    primary_group_id: null
-    user_id: 132
-  - description: Frequent Poster
-    extras: null
-    flair_group_id: 41
-    primary_group_id: 41
-    user_id: 1
-  - description: Frequent Poster
-    extras: null
-    flair_group_id: null
-    primary_group_id: null
-    user_id: 142
-  - description: Most Recent Poster
-    extras: latest
-    flair_group_id: null
-    primary_group_id: null
-    user_id: 108
-  posts_count: 12
-  reply_count: 7
-  slug: i-m-leaving-custom-roms-here-s-why
-  tags: []
-  tags_descriptions: {}
-  title: "I\u2019m Leaving Custom ROMs - Here\u2019s Why"
-  unpinned: null
-  unseen: false
-  views: 1726
   visible: true
