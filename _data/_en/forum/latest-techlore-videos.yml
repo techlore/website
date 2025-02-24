@@ -21,7 +21,7 @@
   image_url: https://discuss.techlore.tech/uploads/default/original/2X/b/b41ab1b62d6c2e075120a7cff4fda1be4313761b.jpeg
   last_posted_at: '2025-02-23T01:04:28.801Z'
   last_poster_username: system
-  like_count: 0
+  like_count: 2
   liked: null
   pinned: false
   pinned_globally: false
@@ -39,7 +39,7 @@
   title: Moving From iCloud to Ente Photos - Privacy Wins Of The Week!
   unpinned: null
   unseen: false
-  views: 11
+  views: 97
   visible: true
 - archetype: regular
   archived: false
@@ -61,7 +61,7 @@
   image_url: https://discuss.techlore.tech/uploads/default/original/2X/6/607b5cb3731fedcb11a32d43926040495f7027c4.jpeg
   last_posted_at: '2025-02-22T05:26:38.275Z'
   last_poster_username: delosmzp
-  like_count: 7
+  like_count: 8
   liked: null
   pinned: false
   pinned_globally: false
@@ -89,7 +89,7 @@
   title: 'Apple Removes iCloud E2EE in UK: What You Need to Know'
   unpinned: null
   unseen: false
-  views: 219
+  views: 288
   visible: true
 - archetype: regular
   archived: false
@@ -149,7 +149,7 @@
   title: How Enshittification Ruins Tech
   unpinned: null
   unseen: false
-  views: 261
+  views: 268
   visible: true
 - archetype: regular
   archived: false
@@ -369,7 +369,7 @@
   title: "Lunatask: The Best Productivity Tool I\u2019ve Ever Used"
   unpinned: null
   unseen: false
-  views: 505
+  views: 510
   visible: true
 - archetype: regular
   archived: false
@@ -469,7 +469,7 @@
   title: "Why You Don\u2019t Need An Antivirus"
   unpinned: null
   unseen: false
-  views: 584
+  views: 587
   visible: true
 - archetype: regular
   archived: false
@@ -529,7 +529,7 @@
   title: 5 Easy Ways to Improve Privacy!
   unpinned: null
   unseen: false
-  views: 637
+  views: 638
   visible: true
 - archetype: regular
   archived: false
@@ -574,7 +574,7 @@
   title: Your privacy & security questions answered! (Nov '24)
   unpinned: null
   unseen: false
-  views: 152
+  views: 153
   visible: true
 - archetype: regular
   archived: false
@@ -694,7 +694,7 @@
   title: How to Stay Private on a Budget!
   unpinned: null
   unseen: false
-  views: 748
+  views: 750
   visible: true
 - archetype: regular
   archived: false
@@ -859,7 +859,7 @@
   title: 'Kagi Search: Is Paying for a Search Engine Worth It?'
   unpinned: null
   unseen: false
-  views: 959
+  views: 966
   visible: true
 - archetype: regular
   archived: false
@@ -994,7 +994,7 @@
   title: "10 Privacy Tools I Can\u2019t Live Without"
   unpinned: null
   unseen: false
-  views: 398
+  views: 401
   visible: true
 - archetype: regular
   archived: false
@@ -1089,7 +1089,7 @@
   title: 'Ditch Credit Monitoring: The Ultimate Guide to Data Breaches'
   unpinned: null
   unseen: false
-  views: 124
+  views: 125
   visible: true
 - archetype: regular
   archived: false
@@ -1174,7 +1174,7 @@
   title: 'Private Homeownership: Your Options Explained w/ Jonathan Steele'
   unpinned: null
   unseen: false
-  views: 112
+  views: 113
   visible: true
 - archetype: regular
   archived: false
@@ -1254,7 +1254,7 @@
   title: 'Ford''s Big Brother Patent: Ads from Your Conversations'
   unpinned: null
   unseen: false
-  views: 95
+  views: 97
   visible: true
 - archetype: regular
   archived: false
@@ -1339,7 +1339,7 @@
   title: The Future of Notes is Private! - Abdullah Atta/Notesnook Interview
   unpinned: null
   unseen: false
-  views: 105
+  views: 106
   visible: true
 - archetype: regular
   archived: false
@@ -1379,7 +1379,7 @@
   title: 'Beyond the Tech: iOS vs Android Privacy Showdown'
   unpinned: null
   unseen: false
-  views: 160
+  views: 162
   visible: true
 - archetype: regular
   archived: false
@@ -1554,7 +1554,7 @@
   title: 'Data Removal Services: A Costly Myth?'
   unpinned: null
   unseen: false
-  views: 119
+  views: 120
   visible: true
 - archetype: regular
   archived: false
@@ -1659,7 +1659,7 @@
   title: 'Lock Down Your Signal: Ultimate Hardening Guide'
   unpinned: null
   unseen: false
-  views: 897
+  views: 909
   visible: true
 - archetype: regular
   archived: false
@@ -2039,7 +2039,7 @@
   title: Who Runs Your Email? Revealing Tuta's Security with Hanna Bozakov
   unpinned: null
   unseen: false
-  views: 5
+  views: 6
   visible: true
 - archetype: regular
   archived: false
@@ -2139,7 +2139,7 @@
   title: Privacy-Friendly Security Cameras...Synology Did It!
   unpinned: null
   unseen: false
-  views: 448
+  views: 449
   visible: true
 - archetype: regular
   archived: false
@@ -2457,7 +2457,7 @@
     \ Ozbay"
   unpinned: null
   unseen: false
-  views: 197
+  views: 198
   visible: true
 - archetype: regular
   archived: false
@@ -2817,7 +2817,7 @@
   title: Apple Is Trying to Kill the Open Internet!
   unpinned: null
   unseen: false
-  views: 1281
+  views: 1282
   visible: true
 - archetype: regular
   archived: false
@@ -3222,7 +3222,7 @@
   title: Why I Stopped Hardening Firefox
   unpinned: null
   unseen: false
-  views: 4109
+  views: 4121
   visible: true
 - archetype: regular
   archived: false
@@ -3322,7 +3322,7 @@
   title: 'The 2024 VPN Tier List: Privacy & Security Smackdown!'
   unpinned: null
   unseen: false
-  views: 654
+  views: 655
   visible: true
 - archetype: regular
   archived: false
@@ -4446,7 +4446,7 @@
   title: 'Simplifying w/Digital Minimalism: What''s on My Phone'
   unpinned: null
   unseen: false
-  views: 1385
+  views: 1386
   visible: true
 - archetype: regular
   archived: false
@@ -4858,7 +4858,7 @@
   title: The ULTIMATE Guide to Mastering NextDNS!
   unpinned: null
   unseen: false
-  views: 7844
+  views: 7848
   visible: true
 - archetype: regular
   archived: false
@@ -5561,7 +5561,7 @@
   title: The NAS That Permanently Changed My Privacy Life
   unpinned: null
   unseen: false
-  views: 1142
+  views: 1144
   visible: true
 - archetype: regular
   archived: false
@@ -6624,7 +6624,7 @@
   title: FINALLY! The VPN Configuration I've Been Looking For!
   unpinned: null
   unseen: false
-  views: 3367
+  views: 3369
   visible: true
 - archetype: regular
   archived: false
@@ -6938,7 +6938,7 @@
   title: "The VPN You Use Probably Sucks - Here\u2019s Why"
   unpinned: null
   unseen: false
-  views: 832
+  views: 833
   visible: true
 - archetype: regular
   archived: false
