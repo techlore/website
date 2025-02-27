@@ -5,6 +5,46 @@
   archived: false
   bookmarked: null
   bumped: true
+  bumped_at: '2025-02-26T18:04:10.840Z'
+  can_vote: false
+  category_id: 19
+  closed: false
+  created_at: '2025-02-26T18:04:10.798Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=BcdBcpWTZZ0
+  fancy_title: Ditch iCloud Photos for THIS Secure Alternative!
+  featured_link: https://www.youtube.com/watch?v=BcdBcpWTZZ0
+  featured_link_root_domain: youtube.com
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 1
+  id: 12656
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/9/933ac19474da3513e4baa4fe5347a24c678b5be0_2_1024x576.jpeg
+  last_posted_at: '2025-02-26T18:04:10.840Z'
+  last_poster_username: system
+  like_count: 0
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster, Most Recent Poster
+    extras: latest single
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  posts_count: 1
+  reply_count: 0
+  slug: ditch-icloud-photos-for-this-secure-alternative
+  tags: []
+  tags_descriptions: {}
+  title: Ditch iCloud Photos for THIS Secure Alternative!
+  unpinned: null
+  unseen: false
+  views: 1
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
   bumped_at: '2025-02-24T18:04:32.104Z'
   can_vote: false
   category_id: 19
@@ -39,7 +79,7 @@
   title: 'They''re All Stealing Your Data: Here''s What to Do'
   unpinned: null
   unseen: false
-  views: 4
+  views: 5
   visible: true
 - archetype: regular
   archived: false
@@ -324,7 +364,7 @@
   title: Brave's Questionable Partnership
   unpinned: null
   unseen: false
-  views: 7
+  views: 8
   visible: true
 - archetype: regular
   archived: false
@@ -1165,44 +1205,4 @@
   unpinned: null
   unseen: false
   views: 1
-  visible: true
-- archetype: regular
-  archived: false
-  bookmarked: null
-  bumped: true
-  bumped_at: '2024-10-14T18:03:53.745Z'
-  can_vote: false
-  category_id: 19
-  closed: false
-  created_at: '2024-10-14T18:03:53.707Z'
-  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=ftgHV8ejnb0
-  fancy_title: Why We Don&rsquo;t Recommend Vivaldi for Privacy
-  featured_link: https://www.youtube.com/watch?v=ftgHV8ejnb0
-  featured_link_root_domain: youtube.com
-  has_accepted_answer: false
-  has_summary: false
-  highest_post_number: 1
-  id: 10330
-  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/5/5eca3ae5571bcc284a6c0ce7d5c9e350c4b2ef85_2_1024x576.jpeg
-  last_posted_at: '2024-10-14T18:03:53.745Z'
-  last_poster_username: system
-  like_count: 0
-  liked: null
-  pinned: false
-  pinned_globally: false
-  posters:
-  - description: Original Poster, Most Recent Poster
-    extras: latest single
-    flair_group_id: null
-    primary_group_id: null
-    user_id: -1
-  posts_count: 1
-  reply_count: 0
-  slug: why-we-dont-recommend-vivaldi-for-privacy
-  tags: []
-  tags_descriptions: {}
-  title: Why We Don't Recommend Vivaldi for Privacy
-  unpinned: null
-  unseen: false
-  views: 4
   visible: true
