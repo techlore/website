@@ -5,7 +5,7 @@
   archived: false
   bookmarked: null
   bumped: true
-  bumped_at: '2025-02-27T05:00:26.304Z'
+  bumped_at: '2025-02-28T01:54:34.376Z'
   can_vote: false
   category_id: 20
   closed: false
@@ -16,12 +16,12 @@
   featured_link_root_domain: neat.tube
   has_accepted_answer: false
   has_summary: false
-  highest_post_number: 3
+  highest_post_number: 11
   id: 12661
   image_url: https://discuss.techlore.tech/uploads/default/original/2X/0/0710837d0eb276c6f9bfc99df64a537061d6e0fe.jpeg
-  last_posted_at: '2025-02-27T05:00:26.304Z'
-  last_poster_username: basenote
-  like_count: 0
+  last_posted_at: '2025-02-28T01:54:34.376Z'
+  last_poster_username: LightningToaster
+  like_count: 16
   liked: null
   pinned: false
   pinned_globally: false
@@ -31,20 +31,35 @@
     flair_group_id: null
     primary_group_id: null
     user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 2
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 30
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 2358
   - description: Most Recent Poster
     extras: latest
     flair_group_id: null
     primary_group_id: null
-    user_id: 2410
-  posts_count: 3
-  reply_count: 0
+    user_id: 3415
+  posts_count: 11
+  reply_count: 5
   slug: the-2025-linux-tier-list
   tags: []
   tags_descriptions: {}
   title: The 2025 Linux Tier List
   unpinned: null
   unseen: false
-  views: 1
+  views: 96
   visible: true
 - archetype: regular
   archived: false
@@ -94,7 +109,7 @@
   title: 'Encrypt Your Cloud Data with Cryptomator: Security 101'
   unpinned: null
   unseen: false
-  views: 147
+  views: 167
   visible: true
 - archetype: regular
   archived: false
@@ -134,7 +149,7 @@
   title: Moving From iCloud to Ente Photos - Privacy Wins Of The Week!
   unpinned: null
   unseen: false
-  views: 196
+  views: 203
   visible: true
 - archetype: regular
   archived: false
@@ -156,7 +171,7 @@
   image_url: https://discuss.techlore.tech/uploads/default/original/2X/6/607b5cb3731fedcb11a32d43926040495f7027c4.jpeg
   last_posted_at: '2025-02-27T04:42:13.244Z'
   last_poster_username: basenote
-  like_count: 13
+  like_count: 24
   liked: null
   pinned: false
   pinned_globally: false
@@ -194,7 +209,7 @@
   title: 'Apple Removes iCloud E2EE in UK: What You Need to Know'
   unpinned: null
   unseen: false
-  views: 463
+  views: 496
   visible: true
 - archetype: regular
   archived: false
@@ -254,7 +269,7 @@
   title: How Enshittification Ruins Tech
   unpinned: null
   unseen: false
-  views: 319
+  views: 321
   visible: true
 - archetype: regular
   archived: false
@@ -474,7 +489,7 @@
   title: "Lunatask: The Best Productivity Tool I\u2019ve Ever Used"
   unpinned: null
   unseen: false
-  views: 519
+  views: 523
   visible: true
 - archetype: regular
   archived: false
@@ -854,7 +869,7 @@
   title: PrivacyPost - Protecting Your Real Life Privacy!
   unpinned: null
   unseen: false
-  views: 363
+  views: 364
   visible: true
 - archetype: regular
   archived: false
@@ -964,7 +979,7 @@
   title: 'Kagi Search: Is Paying for a Search Engine Worth It?'
   unpinned: null
   unseen: false
-  views: 985
+  views: 990
   visible: true
 - archetype: regular
   archived: false
@@ -1054,7 +1069,7 @@
   title: "Why I switched from Firefox\u2026"
   unpinned: null
   unseen: false
-  views: 509
+  views: 510
   visible: true
 - archetype: regular
   archived: false
@@ -1194,7 +1209,7 @@
   title: 'Ditch Credit Monitoring: The Ultimate Guide to Data Breaches'
   unpinned: null
   unseen: false
-  views: 125
+  views: 126
   visible: true
 - archetype: regular
   archived: false
@@ -1764,7 +1779,7 @@
   title: 'Lock Down Your Signal: Ultimate Hardening Guide'
   unpinned: null
   unseen: false
-  views: 943
+  views: 954
   visible: true
 - archetype: regular
   archived: false
@@ -2862,7 +2877,7 @@
   title: Signal Usernames Have Arrived!
   unpinned: null
   unseen: false
-  views: 752
+  views: 753
   visible: true
 - archetype: regular
   archived: false
@@ -3327,7 +3342,7 @@
   title: Why I Stopped Hardening Firefox
   unpinned: null
   unseen: false
-  views: 4144
+  views: 4156
   visible: true
 - archetype: regular
   archived: false
@@ -3597,7 +3612,7 @@
   title: 'Facebook Alert: Disable This New Feature! #privacy #facebook #security'
   unpinned: null
   unseen: false
-  views: 469
+  views: 470
   visible: true
 - archetype: regular
   archived: false
@@ -4171,7 +4186,7 @@
   title: Signal Usernames Are FINALLY Coming!
   unpinned: null
   unseen: false
-  views: 967
+  views: 968
   visible: true
 - archetype: regular
   archived: false
@@ -4551,7 +4566,7 @@
   title: 'Simplifying w/Digital Minimalism: What''s on My Phone'
   unpinned: null
   unseen: false
-  views: 1391
+  views: 1393
   visible: true
 - archetype: regular
   archived: false
@@ -4611,7 +4626,7 @@
   title: 'Get to know Punkt MP02: A Dumbphone w/Signal for your Privacy'
   unpinned: null
   unseen: false
-  views: 1518
+  views: 1519
   visible: true
 - archetype: regular
   archived: false
@@ -4963,7 +4978,7 @@
   title: The ULTIMATE Guide to Mastering NextDNS!
   unpinned: null
   unseen: false
-  views: 7860
+  views: 7862
   visible: true
 - archetype: regular
   archived: false
@@ -5073,7 +5088,7 @@
   title: "Thoughts on Proton\u2019s New Password Manager! (I\u2019m Mixed\u2026)"
   unpinned: null
   unseen: false
-  views: 1693
+  views: 1694
   visible: true
 - archetype: regular
   archived: false
@@ -5666,7 +5681,7 @@
   title: The NAS That Permanently Changed My Privacy Life
   unpinned: null
   unseen: false
-  views: 1144
+  views: 1145
   visible: true
 - archetype: regular
   archived: false
@@ -5879,7 +5894,7 @@
   title: All your privacy & security questions answered!
   unpinned: null
   unseen: false
-  views: 802
+  views: 803
   visible: true
 - archetype: regular
   archived: false
@@ -6788,7 +6803,7 @@
   title: "Can iod\xE9OS take down stock Android? Let's Find Out!"
   unpinned: null
   unseen: false
-  views: 869
+  views: 870
   visible: true
 - archetype: regular
   archived: false
@@ -6984,7 +6999,7 @@
   title: Diving Into The World of Open Source Note-Taking! - (Notesnook Interview)
   unpinned: null
   unseen: false
-  views: 779
+  views: 780
   visible: true
 - archetype: regular
   archived: false
