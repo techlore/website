@@ -5,6 +5,46 @@
   archived: false
   bookmarked: null
   bumped: true
+  bumped_at: '2025-02-28T18:04:09.746Z'
+  can_vote: false
+  category_id: 19
+  closed: false
+  created_at: '2025-02-28T18:04:09.701Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=eBAWRsGPkZk
+  fancy_title: This is the BEST Argument for Switching to Linux!
+  featured_link: https://www.youtube.com/watch?v=eBAWRsGPkZk
+  featured_link_root_domain: youtube.com
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 1
+  id: 12681
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/2/2da050a7f12c6605c694a69d1c2f14b7bfc5b6d9_2_1024x576.jpeg
+  last_posted_at: '2025-02-28T18:04:09.746Z'
+  last_poster_username: system
+  like_count: 0
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster, Most Recent Poster
+    extras: latest single
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  posts_count: 1
+  reply_count: 0
+  slug: this-is-the-best-argument-for-switching-to-linux
+  tags: []
+  tags_descriptions: {}
+  title: This is the BEST Argument for Switching to Linux!
+  unpinned: null
+  unseen: false
+  views: 2
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
   bumped_at: '2025-02-26T18:04:10.840Z'
   can_vote: false
   category_id: 19
@@ -79,7 +119,7 @@
   title: 'They''re All Stealing Your Data: Here''s What to Do'
   unpinned: null
   unseen: false
-  views: 7
+  views: 8
   visible: true
 - archetype: regular
   archived: false
@@ -1165,44 +1205,4 @@
   unpinned: null
   unseen: false
   views: 4
-  visible: true
-- archetype: regular
-  archived: false
-  bookmarked: null
-  bumped: true
-  bumped_at: '2024-10-16T18:04:20.248Z'
-  can_vote: false
-  category_id: 19
-  closed: false
-  created_at: '2024-10-16T18:04:20.181Z'
-  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=YDcjzSS6AG8
-  fancy_title: Can You Support Open Source Without Sacrificing Privacy?
-  featured_link: https://www.youtube.com/watch?v=YDcjzSS6AG8
-  featured_link_root_domain: youtube.com
-  has_accepted_answer: false
-  has_summary: false
-  highest_post_number: 1
-  id: 10359
-  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/4/406c93bee63e47212edd99ddf7b9b0ed7d081cfc_2_1024x576.jpeg
-  last_posted_at: '2024-10-16T18:04:20.248Z'
-  last_poster_username: system
-  like_count: 0
-  liked: null
-  pinned: false
-  pinned_globally: false
-  posters:
-  - description: Original Poster, Most Recent Poster
-    extras: latest single
-    flair_group_id: null
-    primary_group_id: null
-    user_id: -1
-  posts_count: 1
-  reply_count: 0
-  slug: can-you-support-open-source-without-sacrificing-privacy
-  tags: []
-  tags_descriptions: {}
-  title: Can You Support Open Source Without Sacrificing Privacy?
-  unpinned: null
-  unseen: false
-  views: 1
   visible: true

@@ -21,7 +21,7 @@
   image_url: https://discuss.techlore.tech/uploads/default/original/2X/0/0710837d0eb276c6f9bfc99df64a537061d6e0fe.jpeg
   last_posted_at: '2025-02-28T01:54:34.376Z'
   last_poster_username: LightningToaster
-  like_count: 16
+  like_count: 23
   liked: null
   pinned: false
   pinned_globally: false
@@ -59,7 +59,7 @@
   title: The 2025 Linux Tier List
   unpinned: null
   unseen: false
-  views: 96
+  views: 163
   visible: true
 - archetype: regular
   archived: false
@@ -109,7 +109,7 @@
   title: 'Encrypt Your Cloud Data with Cryptomator: Security 101'
   unpinned: null
   unseen: false
-  views: 167
+  views: 182
   visible: true
 - archetype: regular
   archived: false
@@ -149,7 +149,7 @@
   title: Moving From iCloud to Ente Photos - Privacy Wins Of The Week!
   unpinned: null
   unseen: false
-  views: 203
+  views: 208
   visible: true
 - archetype: regular
   archived: false
@@ -209,7 +209,7 @@
   title: 'Apple Removes iCloud E2EE in UK: What You Need to Know'
   unpinned: null
   unseen: false
-  views: 496
+  views: 508
   visible: true
 - archetype: regular
   archived: false
@@ -269,7 +269,7 @@
   title: How Enshittification Ruins Tech
   unpinned: null
   unseen: false
-  views: 321
+  views: 322
   visible: true
 - archetype: regular
   archived: false
@@ -324,7 +324,7 @@
   title: The ULTIMATE macOS Privacy & Security Guide!
   unpinned: null
   unseen: false
-  views: 439
+  views: 440
   visible: true
 - archetype: regular
   archived: false
@@ -369,7 +369,7 @@
   title: 'Upgrade Your Security: 4 Best Password Managers'
   unpinned: null
   unseen: false
-  views: 358
+  views: 359
   visible: true
 - archetype: regular
   archived: false
@@ -489,7 +489,7 @@
   title: "Lunatask: The Best Productivity Tool I\u2019ve Ever Used"
   unpinned: null
   unseen: false
-  views: 523
+  views: 527
   visible: true
 - archetype: regular
   archived: false
@@ -589,7 +589,7 @@
   title: "Why You Don\u2019t Need An Antivirus"
   unpinned: null
   unseen: false
-  views: 590
+  views: 591
   visible: true
 - archetype: regular
   archived: false
@@ -979,7 +979,7 @@
   title: 'Kagi Search: Is Paying for a Search Engine Worth It?'
   unpinned: null
   unseen: false
-  views: 990
+  views: 992
   visible: true
 - archetype: regular
   archived: false
@@ -1069,7 +1069,7 @@
   title: "Why I switched from Firefox\u2026"
   unpinned: null
   unseen: false
-  views: 510
+  views: 512
   visible: true
 - archetype: regular
   archived: false
@@ -1209,7 +1209,7 @@
   title: 'Ditch Credit Monitoring: The Ultimate Guide to Data Breaches'
   unpinned: null
   unseen: false
-  views: 126
+  views: 127
   visible: true
 - archetype: regular
   archived: false
@@ -1729,7 +1729,7 @@
   title: 'Why I Left Adobe: A Plea for Better Tech'
   unpinned: null
   unseen: false
-  views: 144
+  views: 145
   visible: true
 - archetype: regular
   archived: false
@@ -1779,7 +1779,7 @@
   title: 'Lock Down Your Signal: Ultimate Hardening Guide'
   unpinned: null
   unseen: false
-  views: 954
+  views: 965
   visible: true
 - archetype: regular
   archived: false
@@ -2414,7 +2414,7 @@
   title: Your privacy & security questions answered! (May '24)
   unpinned: null
   unseen: false
-  views: 149
+  views: 150
   visible: true
 - archetype: regular
   archived: false
@@ -3342,7 +3342,7 @@
   title: Why I Stopped Hardening Firefox
   unpinned: null
   unseen: false
-  views: 4156
+  views: 4166
   visible: true
 - archetype: regular
   archived: false
@@ -3442,7 +3442,7 @@
   title: 'The 2024 VPN Tier List: Privacy & Security Smackdown!'
   unpinned: null
   unseen: false
-  views: 657
+  views: 660
   visible: true
 - archetype: regular
   archived: false
@@ -4566,7 +4566,7 @@
   title: 'Simplifying w/Digital Minimalism: What''s on My Phone'
   unpinned: null
   unseen: false
-  views: 1393
+  views: 1395
   visible: true
 - archetype: regular
   archived: false
@@ -4626,7 +4626,7 @@
   title: 'Get to know Punkt MP02: A Dumbphone w/Signal for your Privacy'
   unpinned: null
   unseen: false
-  views: 1519
+  views: 1520
   visible: true
 - archetype: regular
   archived: false
@@ -4978,7 +4978,7 @@
   title: The ULTIMATE Guide to Mastering NextDNS!
   unpinned: null
   unseen: false
-  views: 7862
+  views: 7867
   visible: true
 - archetype: regular
   archived: false
@@ -5731,7 +5731,7 @@
   title: "Reclaim Control with Vivaldi Browser! - J\xF3n von Tetzchner Interview"
   unpinned: null
   unseen: false
-  views: 523
+  views: 525
   visible: true
 - archetype: regular
   archived: false
@@ -5791,7 +5791,7 @@
   title: 'Aurora Users: Proceed with Caution!'
   unpinned: null
   unseen: false
-  views: 840
+  views: 841
   visible: true
 - archetype: regular
   archived: false
@@ -6631,7 +6631,7 @@
   title: Escaping Financial Surveillance with Tools Like Monero! (Douglas Tuman Interview)
   unpinned: null
   unseen: false
-  views: 748
+  views: 749
   visible: true
 - archetype: regular
   archived: false
@@ -6999,7 +6999,7 @@
   title: Diving Into The World of Open Source Note-Taking! - (Notesnook Interview)
   unpinned: null
   unseen: false
-  views: 780
+  views: 781
   visible: true
 - archetype: regular
   archived: false
@@ -7058,7 +7058,7 @@
   title: "The VPN You Use Probably Sucks - Here\u2019s Why"
   unpinned: null
   unseen: false
-  views: 836
+  views: 837
   visible: true
 - archetype: regular
   archived: false
