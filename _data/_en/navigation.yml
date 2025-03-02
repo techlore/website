@@ -62,10 +62,6 @@ hiddenNav:
     title: "Behind the scenes"
     url: https://www.youtube.com/playlist?list=PL3KeV6Ui_4CayDGHw64OFXEPHgXLkrtJO
     external: true
-  proudlySupportExplained:
-    title: "Watch our explanation video"
-    url: "https://youtu.be/RbSy-lZHLYw"
-    external: true
   allTechloreGuides:
     title: "All Techlore guides"
     url: "/resources#techlore-guides"
