@@ -8,14 +8,8 @@
 		{% include e_render-svg-icon.html icon="arrow-down" inline=true dimension=75 %}
 	</a>
 
-	<div class="container">
+	<div class="container is-max-desktop">
 		<div class="columns has-1-cols has-3-cols-tablet has-5-cols-desktop is-multiline">
-			<div class="footer__logos column is-full-tablet is-one-fifth-desktop is-flex">
-				<img src="{{ '/assets/logos/techlore-logo-edit-by-figma.svg' | relative_url }}" class="footer__logo" loading="lazy" alt="Logo - {{ site.name }}">
-				<a href="https://www.eff.org/" target="_blank">
-					<img src="{{ '/assets/logos/eff-member.png' | relative_url }}" class="footer__logo" loading="lazy" alt="EFF member">
-				</a>
-			</div>
 			<div class="column">
 				<h6 class="footer__column-title">{{ site.name | upcase }}</h6>
 				<ul class="footer__list listless">
