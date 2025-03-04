@@ -5,6 +5,46 @@
   archived: false
   bookmarked: null
   bumped: true
+  bumped_at: '2025-03-03T18:04:15.450Z'
+  can_vote: false
+  category_id: 19
+  closed: false
+  created_at: '2025-03-03T18:04:15.406Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=RZR4-ui-2NQ
+  fancy_title: Why I&rsquo;m Excited for Zen Browser
+  featured_link: https://www.youtube.com/watch?v=RZR4-ui-2NQ
+  featured_link_root_domain: youtube.com
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 1
+  id: 12734
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/6/68cb79bc9af20d4df7b2d1e502546c5b8628590c_2_1024x576.jpeg
+  last_posted_at: '2025-03-03T18:04:15.450Z'
+  last_poster_username: system
+  like_count: 0
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster, Most Recent Poster
+    extras: latest single
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  posts_count: 1
+  reply_count: 0
+  slug: why-im-excited-for-zen-browser
+  tags: []
+  tags_descriptions: {}
+  title: Why I'm Excited for Zen Browser
+  unpinned: null
+  unseen: false
+  views: 2
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
   bumped_at: '2025-02-28T18:04:09.746Z'
   can_vote: false
   category_id: 19
@@ -39,7 +79,7 @@
   title: This is the BEST Argument for Switching to Linux!
   unpinned: null
   unseen: false
-  views: 5
+  views: 7
   visible: true
 - archetype: regular
   archived: false
@@ -79,7 +119,7 @@
   title: Ditch iCloud Photos for THIS Secure Alternative!
   unpinned: null
   unseen: false
-  views: 6
+  views: 7
   visible: true
 - archetype: regular
   archived: false
@@ -1165,44 +1205,4 @@
   unpinned: null
   unseen: false
   views: 1
-  visible: true
-- archetype: regular
-  archived: false
-  bookmarked: null
-  bumped: true
-  bumped_at: '2024-10-18T18:03:45.574Z'
-  can_vote: false
-  category_id: 19
-  closed: false
-  created_at: '2024-10-18T18:03:45.534Z'
-  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=BHgHEO9AL28
-  fancy_title: The Problem with Federated Social Media
-  featured_link: https://www.youtube.com/watch?v=BHgHEO9AL28
-  featured_link_root_domain: youtube.com
-  has_accepted_answer: false
-  has_summary: false
-  highest_post_number: 1
-  id: 10380
-  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/f/fd73360a6662d2292b8446df783c2542205f012d_2_1024x576.jpeg
-  last_posted_at: '2024-10-18T18:03:45.574Z'
-  last_poster_username: system
-  like_count: 0
-  liked: null
-  pinned: false
-  pinned_globally: false
-  posters:
-  - description: Original Poster, Most Recent Poster
-    extras: latest single
-    flair_group_id: null
-    primary_group_id: null
-    user_id: -1
-  posts_count: 1
-  reply_count: 0
-  slug: the-problem-with-federated-social-media
-  tags: []
-  tags_descriptions: {}
-  title: The Problem with Federated Social Media
-  unpinned: null
-  unseen: false
-  views: 4
   visible: true
