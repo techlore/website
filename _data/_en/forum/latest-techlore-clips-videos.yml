@@ -5,6 +5,46 @@
   archived: false
   bookmarked: null
   bumped: true
+  bumped_at: '2025-03-05T18:04:37.812Z'
+  can_vote: false
+  category_id: 19
+  closed: false
+  created_at: '2025-03-05T18:04:37.750Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=LqIu-SrYXvk
+  fancy_title: The Truth About Firefox&rsquo;s New Privacy Policy
+  featured_link: https://www.youtube.com/watch?v=LqIu-SrYXvk
+  featured_link_root_domain: youtube.com
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 1
+  id: 12754
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/b/bec9066044dc6d166940425e56bede4fc09d7acf_2_1024x576.jpeg
+  last_posted_at: '2025-03-05T18:04:37.812Z'
+  last_poster_username: system
+  like_count: 0
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster, Most Recent Poster
+    extras: latest single
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  posts_count: 1
+  reply_count: 0
+  slug: the-truth-about-firefoxs-new-privacy-policy
+  tags: []
+  tags_descriptions: {}
+  title: The Truth About Firefox's New Privacy Policy
+  unpinned: null
+  unseen: false
+  views: 2
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
   bumped_at: '2025-03-03T18:04:15.450Z'
   can_vote: false
   category_id: 19
@@ -39,7 +79,7 @@
   title: Why I'm Excited for Zen Browser
   unpinned: null
   unseen: false
-  views: 6
+  views: 8
   visible: true
 - archetype: regular
   archived: false
@@ -724,7 +764,7 @@
   title: Does Google Really Delete Your Data?
   unpinned: null
   unseen: false
-  views: 3
+  views: 4
   visible: true
 - archetype: regular
   archived: false
@@ -1165,44 +1205,4 @@
   unpinned: null
   unseen: false
   views: 2
-  visible: true
-- archetype: regular
-  archived: false
-  bookmarked: null
-  bumped: true
-  bumped_at: '2024-10-21T18:04:15.080Z'
-  can_vote: false
-  category_id: 19
-  closed: false
-  created_at: '2024-10-21T18:04:15.044Z'
-  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=ZSNjJ0BWB8s
-  fancy_title: What Are Our Favourite Apple Products?
-  featured_link: https://www.youtube.com/watch?v=ZSNjJ0BWB8s
-  featured_link_root_domain: youtube.com
-  has_accepted_answer: false
-  has_summary: false
-  highest_post_number: 1
-  id: 10413
-  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/e/e01a3fc597eb418ff6b0ca3e572e6f9a7620aa46_2_1024x576.jpeg
-  last_posted_at: '2024-10-21T18:04:15.080Z'
-  last_poster_username: system
-  like_count: 0
-  liked: null
-  pinned: false
-  pinned_globally: false
-  posters:
-  - description: Original Poster, Most Recent Poster
-    extras: latest single
-    flair_group_id: null
-    primary_group_id: null
-    user_id: -1
-  posts_count: 1
-  reply_count: 0
-  slug: what-are-our-favourite-apple-products
-  tags: []
-  tags_descriptions: {}
-  title: What Are Our Favourite Apple Products?
-  unpinned: null
-  unseen: false
-  views: 1
   visible: true
