@@ -165,6 +165,7 @@ support:
       sponsors: "Become a sponsor of Techlore and showcase your brand to our audience!"
       sponsorsButton: "Sponsors"
       monero: "Directly sending us Monero"
+      usdomain: "Our XMR Domain"
       openalias: "Our XMR OpenAlias"
   section:
     title: "Spread the word or support us directly"
