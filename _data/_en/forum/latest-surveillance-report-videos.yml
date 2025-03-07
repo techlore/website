@@ -5,6 +5,56 @@
   archived: false
   bookmarked: null
   bumped: true
+  bumped_at: '2025-03-07T00:25:31.419Z'
+  can_vote: false
+  category_id: 21
+  closed: false
+  created_at: '2025-03-06T18:31:35.240Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/4HLqLkZnE4Mi8WGX8r247R
+  fancy_title: Is It Time to Ditch Firefox?
+  featured_link: https://neat.tube/w/4HLqLkZnE4Mi8WGX8r247R
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 9
+  id: 12763
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/8/84f48a28858e5f1d5822c38eec6e3d68abc4a872.jpeg
+  last_posted_at: '2025-03-07T00:25:31.419Z'
+  last_poster_username: basenote
+  like_count: 4
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 408
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 2410
+  posts_count: 9
+  reply_count: 7
+  slug: is-it-time-to-ditch-firefox
+  tags: []
+  tags_descriptions: {}
+  title: Is It Time to Ditch Firefox?
+  unpinned: null
+  unseen: false
+  views: 71
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
   bumped_at: '2024-12-22T15:08:55.609Z'
   can_vote: false
   category_id: 21
@@ -49,7 +99,7 @@
   title: 'Q&A: How to REALLY Secure Your Password Manager'
   unpinned: null
   unseen: false
-  views: 177
+  views: 178
   visible: true
 - archetype: regular
   archived: false
@@ -1305,49 +1355,4 @@
   unpinned: null
   unseen: false
   views: 60
-  visible: true
-- archetype: regular
-  archived: false
-  bookmarked: null
-  bumped: true
-  bumped_at: '2024-08-07T17:19:12.694Z'
-  can_vote: false
-  category_id: 21
-  closed: false
-  created_at: '2024-08-06T07:51:49.577Z'
-  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/msDz279bQN6fKtfvTFcSat
-  fancy_title: Dating Apps Can Give Stalkers Your EXACT LOCATION!
-  featured_link: https://neat.tube/w/msDz279bQN6fKtfvTFcSat
-  featured_link_root_domain: neat.tube
-  has_accepted_answer: false
-  has_summary: false
-  highest_post_number: 2
-  id: 9495
-  image_url: https://discuss.techlore.tech/uploads/default/original/2X/b/bdf8a5b3e69a662911f60042e2dbc36b80c7cf61.jpeg
-  last_posted_at: '2024-08-07T17:19:12.694Z'
-  last_poster_username: amog
-  like_count: 1
-  liked: null
-  pinned: false
-  pinned_globally: false
-  posters:
-  - description: Original Poster
-    extras: null
-    flair_group_id: null
-    primary_group_id: null
-    user_id: -1
-  - description: Most Recent Poster
-    extras: latest
-    flair_group_id: null
-    primary_group_id: null
-    user_id: 1372
-  posts_count: 2
-  reply_count: 0
-  slug: dating-apps-can-give-stalkers-your-exact-location
-  tags: []
-  tags_descriptions: {}
-  title: Dating Apps Can Give Stalkers Your EXACT LOCATION!
-  unpinned: null
-  unseen: false
-  views: 80
   visible: true
