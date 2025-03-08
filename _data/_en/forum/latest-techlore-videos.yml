@@ -5,7 +5,7 @@
   archived: false
   bookmarked: null
   bumped: true
-  bumped_at: '2025-03-06T18:21:12.319Z'
+  bumped_at: '2025-03-07T18:59:14.596Z'
   can_vote: false
   category_id: 20
   closed: false
@@ -16,12 +16,12 @@
   featured_link_root_domain: neat.tube
   has_accepted_answer: false
   has_summary: false
-  highest_post_number: 2
+  highest_post_number: 6
   id: 12761
   image_url: https://discuss.techlore.tech/uploads/default/original/2X/5/5a4a08a8a3da5d453e62e5badcf450a28d121164.jpeg
-  last_posted_at: '2025-03-06T18:21:12.319Z'
-  last_poster_username: basenote
-  like_count: 1
+  last_posted_at: '2025-03-07T18:59:14.596Z'
+  last_poster_username: Henry
+  like_count: 4
   liked: null
   pinned: false
   pinned_globally: false
@@ -31,20 +31,35 @@
     flair_group_id: null
     primary_group_id: null
     user_id: -1
-  - description: Most Recent Poster
-    extras: latest
+  - description: Frequent Poster
+    extras: null
     flair_group_id: null
     primary_group_id: null
     user_id: 2410
-  posts_count: 2
-  reply_count: 0
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 1751
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 2421
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 2
+  posts_count: 6
+  reply_count: 1
   slug: breaking-apple-battles-the-uk-encryption-backdoor
   tags: []
   tags_descriptions: {}
   title: 'Breaking: Apple Battles the UK Encryption Backdoor'
   unpinned: null
   unseen: false
-  views: 19
+  views: 83
   visible: true
 - archetype: regular
   archived: false
@@ -104,7 +119,7 @@
   title: The 2025 Linux Tier List
   unpinned: null
   unseen: false
-  views: 361
+  views: 380
   visible: true
 - archetype: regular
   archived: false
@@ -154,7 +169,7 @@
   title: 'Encrypt Your Cloud Data with Cryptomator: Security 101'
   unpinned: null
   unseen: false
-  views: 241
+  views: 243
   visible: true
 - archetype: regular
   archived: false
@@ -194,7 +209,7 @@
   title: Moving From iCloud to Ente Photos - Privacy Wins Of The Week!
   unpinned: null
   unseen: false
-  views: 216
+  views: 217
   visible: true
 - archetype: regular
   archived: false
@@ -314,7 +329,7 @@
   title: How Enshittification Ruins Tech
   unpinned: null
   unseen: false
-  views: 328
+  views: 329
   visible: true
 - archetype: regular
   archived: false
@@ -369,7 +384,7 @@
   title: The ULTIMATE macOS Privacy & Security Guide!
   unpinned: null
   unseen: false
-  views: 447
+  views: 448
   visible: true
 - archetype: regular
   archived: false
@@ -534,7 +549,7 @@
   title: "Lunatask: The Best Productivity Tool I\u2019ve Ever Used"
   unpinned: null
   unseen: false
-  views: 550
+  views: 556
   visible: true
 - archetype: regular
   archived: false
@@ -694,7 +709,7 @@
   title: 5 Easy Ways to Improve Privacy!
   unpinned: null
   unseen: false
-  views: 639
+  views: 640
   visible: true
 - archetype: regular
   archived: false
@@ -1024,7 +1039,7 @@
   title: 'Kagi Search: Is Paying for a Search Engine Worth It?'
   unpinned: null
   unseen: false
-  views: 1031
+  views: 1036
   visible: true
 - archetype: regular
   archived: false
@@ -1114,7 +1129,7 @@
   title: "Why I switched from Firefox\u2026"
   unpinned: null
   unseen: false
-  views: 513
+  views: 515
   visible: true
 - archetype: regular
   archived: false
@@ -1159,7 +1174,7 @@
   title: "10 Privacy Tools I Can\u2019t Live Without"
   unpinned: null
   unseen: false
-  views: 409
+  views: 411
   visible: true
 - archetype: regular
   archived: false
@@ -1254,7 +1269,7 @@
   title: 'Ditch Credit Monitoring: The Ultimate Guide to Data Breaches'
   unpinned: null
   unseen: false
-  views: 128
+  views: 129
   visible: true
 - archetype: regular
   archived: false
@@ -1294,7 +1309,7 @@
   title: 'iOS 18 & macOS Sequoia: Top New Privacy & Security Features'
   unpinned: null
   unseen: false
-  views: 116
+  views: 117
   visible: true
 - archetype: regular
   archived: false
@@ -1824,7 +1839,7 @@
   title: 'Lock Down Your Signal: Ultimate Hardening Guide'
   unpinned: null
   unseen: false
-  views: 1009
+  views: 1016
   visible: true
 - archetype: regular
   archived: false
@@ -1864,7 +1879,7 @@
   title: 'Safari''s Privacy Doesn''t Even Podium! #apple #safari #privacy'
   unpinned: null
   unseen: false
-  views: 151
+  views: 152
   visible: true
 - archetype: regular
   archived: false
@@ -1954,7 +1969,7 @@
   title: 'Linux Going To The Moon! #alltimehigh #linux #opensource'
   unpinned: null
   unseen: false
-  views: 151
+  views: 152
   visible: true
 - archetype: regular
   archived: false
@@ -2244,7 +2259,7 @@
   title: I think I finally found a new password manager!
   unpinned: null
   unseen: false
-  views: 10
+  views: 12
   visible: true
 - archetype: regular
   archived: false
@@ -2304,7 +2319,7 @@
   title: Privacy-Friendly Security Cameras...Synology Did It!
   unpinned: null
   unseen: false
-  views: 452
+  views: 453
   visible: true
 - archetype: regular
   archived: false
@@ -2732,7 +2747,7 @@
   title: 'Ditching Chrome: My Journey to a Better Mobile Browser'
   unpinned: null
   unseen: false
-  views: 776
+  views: 777
   visible: true
 - archetype: regular
   archived: false
@@ -3387,7 +3402,7 @@
   title: Why I Stopped Hardening Firefox
   unpinned: null
   unseen: false
-  views: 4233
+  views: 4242
   visible: true
 - archetype: regular
   archived: false
@@ -3657,7 +3672,7 @@
   title: 'Facebook Alert: Disable This New Feature! #privacy #facebook #security'
   unpinned: null
   unseen: false
-  views: 471
+  views: 472
   visible: true
 - archetype: regular
   archived: false
@@ -4441,7 +4456,7 @@
   title: Top 5 Safe VPNs for $0. (Yes, Really)
   unpinned: null
   unseen: false
-  views: 729
+  views: 730
   visible: true
 - archetype: regular
   archived: false
@@ -4611,7 +4626,7 @@
   title: 'Simplifying w/Digital Minimalism: What''s on My Phone'
   unpinned: null
   unseen: false
-  views: 1402
+  views: 1403
   visible: true
 - archetype: regular
   archived: false
@@ -4671,7 +4686,7 @@
   title: 'Get to know Punkt MP02: A Dumbphone w/Signal for your Privacy'
   unpinned: null
   unseen: false
-  views: 1532
+  views: 1533
   visible: true
 - archetype: regular
   archived: false
@@ -5023,7 +5038,7 @@
   title: The ULTIMATE Guide to Mastering NextDNS!
   unpinned: null
   unseen: false
-  views: 7887
+  views: 7890
   visible: true
 - archetype: regular
   archived: false
@@ -7044,7 +7059,7 @@
   title: Diving Into The World of Open Source Note-Taking! - (Notesnook Interview)
   unpinned: null
   unseen: false
-  views: 786
+  views: 787
   visible: true
 - archetype: regular
   archived: false
