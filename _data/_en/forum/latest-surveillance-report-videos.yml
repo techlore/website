@@ -5,7 +5,7 @@
   archived: false
   bookmarked: null
   bumped: true
-  bumped_at: '2025-03-07T00:25:31.419Z'
+  bumped_at: '2025-03-08T17:34:59.423Z'
   can_vote: false
   category_id: 21
   closed: false
@@ -16,12 +16,12 @@
   featured_link_root_domain: neat.tube
   has_accepted_answer: false
   has_summary: false
-  highest_post_number: 9
+  highest_post_number: 11
   id: 12763
   image_url: https://discuss.techlore.tech/uploads/default/original/2X/8/84f48a28858e5f1d5822c38eec6e3d68abc4a872.jpeg
-  last_posted_at: '2025-03-07T00:25:31.419Z'
-  last_poster_username: basenote
-  like_count: 5
+  last_posted_at: '2025-03-08T17:34:59.423Z'
+  last_poster_username: Tourma
+  like_count: 12
   liked: null
   pinned: false
   pinned_globally: false
@@ -36,20 +36,30 @@
     flair_group_id: null
     primary_group_id: null
     user_id: 408
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 2410
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1268
   - description: Most Recent Poster
     extras: latest
     flair_group_id: null
     primary_group_id: null
-    user_id: 2410
-  posts_count: 9
-  reply_count: 7
+    user_id: 2394
+  posts_count: 11
+  reply_count: 9
   slug: is-it-time-to-ditch-firefox
   tags: []
   tags_descriptions: {}
   title: Is It Time to Ditch Firefox?
   unpinned: null
   unseen: false
-  views: 121
+  views: 199
   visible: true
 - archetype: regular
   archived: false
@@ -99,7 +109,7 @@
   title: 'Q&A: How to REALLY Secure Your Password Manager'
   unpinned: null
   unseen: false
-  views: 178
+  views: 180
   visible: true
 - archetype: regular
   archived: false
@@ -624,7 +634,7 @@
   title: 'Q&A: Why Should People Use Signal?'
   unpinned: null
   unseen: false
-  views: 153
+  views: 154
   visible: true
 - archetype: regular
   archived: false
@@ -989,7 +999,7 @@
   title: 'Q&A: The Best Browser Extensions'
   unpinned: null
   unseen: false
-  views: 228
+  views: 229
   visible: true
 - archetype: regular
   archived: false
