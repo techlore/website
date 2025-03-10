@@ -21,7 +21,7 @@
   image_url: https://discuss.techlore.tech/uploads/default/original/2X/5/5a4a08a8a3da5d453e62e5badcf450a28d121164.jpeg
   last_posted_at: '2025-03-08T10:16:50.810Z'
   last_poster_username: Quantum
-  like_count: 6
+  like_count: 8
   liked: null
   pinned: false
   pinned_globally: false
@@ -59,7 +59,7 @@
   title: 'Breaking: Apple Battles the UK Encryption Backdoor'
   unpinned: null
   unseen: false
-  views: 118
+  views: 135
   visible: true
 - archetype: regular
   archived: false
@@ -119,7 +119,7 @@
   title: The 2025 Linux Tier List
   unpinned: null
   unseen: false
-  views: 388
+  views: 401
   visible: true
 - archetype: regular
   archived: false
@@ -169,7 +169,7 @@
   title: 'Encrypt Your Cloud Data with Cryptomator: Security 101'
   unpinned: null
   unseen: false
-  views: 245
+  views: 251
   visible: true
 - archetype: regular
   archived: false
@@ -209,7 +209,7 @@
   title: Moving From iCloud to Ente Photos - Privacy Wins Of The Week!
   unpinned: null
   unseen: false
-  views: 218
+  views: 221
   visible: true
 - archetype: regular
   archived: false
@@ -269,7 +269,7 @@
   title: 'Apple Removes iCloud E2EE in UK: What You Need to Know'
   unpinned: null
   unseen: false
-  views: 523
+  views: 525
   visible: true
 - archetype: regular
   archived: false
@@ -329,7 +329,7 @@
   title: How Enshittification Ruins Tech
   unpinned: null
   unseen: false
-  views: 330
+  views: 331
   visible: true
 - archetype: regular
   archived: false
@@ -429,7 +429,7 @@
   title: 'Upgrade Your Security: 4 Best Password Managers'
   unpinned: null
   unseen: false
-  views: 372
+  views: 374
   visible: true
 - archetype: regular
   archived: false
@@ -489,13 +489,13 @@
   title: 'BusKill: Secure Your Laptop in Seconds'
   unpinned: null
   unseen: false
-  views: 268
+  views: 269
   visible: true
 - archetype: regular
   archived: false
   bookmarked: null
   bumped: true
-  bumped_at: '2025-01-24T13:59:43.417Z'
+  bumped_at: '2025-03-09T12:17:09.801Z'
   can_vote: false
   category_id: 20
   closed: false
@@ -506,12 +506,12 @@
   featured_link_root_domain: neat.tube
   has_accepted_answer: false
   has_summary: false
-  highest_post_number: 26
+  highest_post_number: 28
   id: 12050
   image_url: https://discuss.techlore.tech/uploads/default/original/2X/1/13ebab0879493c841b58c246f8d13ecb02711062.jpeg
-  last_posted_at: '2025-01-24T13:59:43.417Z'
-  last_poster_username: Hary06
-  like_count: 38
+  last_posted_at: '2025-03-09T12:17:09.801Z'
+  last_poster_username: Rulle_K
+  like_count: 43
   liked: null
   pinned: false
   pinned_globally: false
@@ -540,16 +540,16 @@
     extras: latest
     flair_group_id: null
     primary_group_id: null
-    user_id: 2716
-  posts_count: 26
-  reply_count: 1
+    user_id: 3488
+  posts_count: 28
+  reply_count: 2
   slug: lunatask-the-best-productivity-tool-i-ve-ever-used
   tags: []
   tags_descriptions: {}
   title: "Lunatask: The Best Productivity Tool I\u2019ve Ever Used"
   unpinned: null
   unseen: false
-  views: 560
+  views: 607
   visible: true
 - archetype: regular
   archived: false
@@ -874,7 +874,7 @@
   title: How to Stay Private on a Budget!
   unpinned: null
   unseen: false
-  views: 757
+  views: 758
   visible: true
 - archetype: regular
   archived: false
@@ -1039,7 +1039,7 @@
   title: 'Kagi Search: Is Paying for a Search Engine Worth It?'
   unpinned: null
   unseen: false
-  views: 1046
+  views: 1048
   visible: true
 - archetype: regular
   archived: false
@@ -1839,7 +1839,7 @@
   title: 'Lock Down Your Signal: Ultimate Hardening Guide'
   unpinned: null
   unseen: false
-  views: 1028
+  views: 1039
   visible: true
 - archetype: regular
   archived: false
@@ -2937,7 +2937,7 @@
   title: Signal Usernames Have Arrived!
   unpinned: null
   unseen: false
-  views: 754
+  views: 755
   visible: true
 - archetype: regular
   archived: false
@@ -3402,7 +3402,7 @@
   title: Why I Stopped Hardening Firefox
   unpinned: null
   unseen: false
-  views: 4250
+  views: 4252
   visible: true
 - archetype: regular
   archived: false
@@ -3612,7 +3612,7 @@
   title: The Apple Backdoor Explained
   unpinned: null
   unseen: false
-  views: 420
+  views: 421
   visible: true
 - archetype: regular
   archived: false
@@ -4626,7 +4626,7 @@
   title: 'Simplifying w/Digital Minimalism: What''s on My Phone'
   unpinned: null
   unseen: false
-  views: 1404
+  views: 1408
   visible: true
 - archetype: regular
   archived: false
@@ -4878,7 +4878,7 @@
   title: 'Why Browser Wars Are Silly: Here''s What Matters!'
   unpinned: null
   unseen: false
-  views: 1464
+  views: 1465
   visible: true
 - archetype: regular
   archived: false
@@ -5038,7 +5038,7 @@
   title: The ULTIMATE Guide to Mastering NextDNS!
   unpinned: null
   unseen: false
-  views: 7893
+  views: 7902
   visible: true
 - archetype: regular
   archived: false
@@ -6582,7 +6582,7 @@
   title: "Privacy is FUTILE\u2026unless\u2026?"
   unpinned: null
   unseen: false
-  views: 336
+  views: 337
   visible: true
 - archetype: regular
   archived: false
@@ -6804,7 +6804,7 @@
   title: FINALLY! The VPN Configuration I've Been Looking For!
   unpinned: null
   unseen: false
-  views: 3380
+  views: 3381
   visible: true
 - archetype: regular
   archived: false
@@ -7059,7 +7059,7 @@
   title: Diving Into The World of Open Source Note-Taking! - (Notesnook Interview)
   unpinned: null
   unseen: false
-  views: 787
+  views: 788
   visible: true
 - archetype: regular
   archived: false
