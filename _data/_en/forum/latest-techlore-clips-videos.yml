@@ -5,6 +5,46 @@
   archived: false
   bookmarked: null
   bumped: true
+  bumped_at: '2025-03-10T18:04:28.533Z'
+  can_vote: false
+  category_id: 19
+  closed: false
+  created_at: '2025-03-10T18:04:28.493Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=87LE_24THeY
+  fancy_title: Let&rsquo;s Talk About Proton and Politics
+  featured_link: https://www.youtube.com/watch?v=87LE_24THeY
+  featured_link_root_domain: youtube.com
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 1
+  id: 12836
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/a/ae642294e00aa0304f6ad6c6b21ffe104390ec72_2_1024x576.jpeg
+  last_posted_at: '2025-03-10T18:04:28.533Z'
+  last_poster_username: system
+  like_count: 0
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster, Most Recent Poster
+    extras: latest single
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  posts_count: 1
+  reply_count: 0
+  slug: lets-talk-about-proton-and-politics
+  tags: []
+  tags_descriptions: {}
+  title: Let's Talk About Proton and Politics
+  unpinned: null
+  unseen: false
+  views: 3
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
   bumped_at: '2025-03-07T18:03:53.329Z'
   can_vote: false
   category_id: 19
@@ -79,7 +119,7 @@
   title: The Truth About Firefox's New Privacy Policy
   unpinned: null
   unseen: false
-  views: 11
+  views: 13
   visible: true
 - archetype: regular
   archived: false
@@ -1162,46 +1202,6 @@
   tags: []
   tags_descriptions: {}
   title: Why We Don't Recommend Telegram
-  unpinned: null
-  unseen: false
-  views: 4
-  visible: true
-- archetype: regular
-  archived: false
-  bookmarked: null
-  bumped: true
-  bumped_at: '2024-10-25T18:03:42.604Z'
-  can_vote: false
-  category_id: 19
-  closed: false
-  created_at: '2024-10-25T18:03:42.527Z'
-  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=Tvh_mKyfq0Y
-  fancy_title: SMS 2FA Is it Worth the Risk?
-  featured_link: https://www.youtube.com/watch?v=Tvh_mKyfq0Y
-  featured_link_root_domain: youtube.com
-  has_accepted_answer: false
-  has_summary: false
-  highest_post_number: 1
-  id: 10464
-  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/2/253e9ae520c1c0727c21eccb713b4e868e655a80_2_1024x576.jpeg
-  last_posted_at: '2024-10-25T18:03:42.604Z'
-  last_poster_username: system
-  like_count: 0
-  liked: null
-  pinned: false
-  pinned_globally: false
-  posters:
-  - description: Original Poster, Most Recent Poster
-    extras: latest single
-    flair_group_id: null
-    primary_group_id: null
-    user_id: -1
-  posts_count: 1
-  reply_count: 0
-  slug: sms-2fa-is-it-worth-the-risk
-  tags: []
-  tags_descriptions: {}
-  title: SMS 2FA Is it Worth the Risk?
   unpinned: null
   unseen: false
   views: 4
