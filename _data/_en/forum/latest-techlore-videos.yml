@@ -5,6 +5,61 @@
   archived: false
   bookmarked: null
   bumped: true
+  bumped_at: '2025-03-12T21:14:05.444Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2025-03-12T05:19:56.750Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/6EC8Bb5tyUNUuhzoF7c14y
+  fancy_title: 8 Must-Try Alternatives to Firefox
+  featured_link: https://neat.tube/w/6EC8Bb5tyUNUuhzoF7c14y
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 7
+  id: 12874
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/d/dd08ca115ca148c1ca31856a5027c4f6b2ab39e6.jpeg
+  last_posted_at: '2025-03-12T21:14:05.444Z'
+  last_poster_username: basenote
+  like_count: 6
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: 41
+    primary_group_id: 41
+    user_id: 1751
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 3001
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 2410
+  posts_count: 7
+  reply_count: 4
+  slug: 8-must-try-alternatives-to-firefox
+  tags: []
+  tags_descriptions: {}
+  title: 8 Must-Try Alternatives to Firefox
+  unpinned: null
+  unseen: false
+  views: 125
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
   bumped_at: '2025-03-08T10:16:50.810Z'
   can_vote: false
   category_id: 20
@@ -21,7 +76,7 @@
   image_url: https://discuss.techlore.tech/uploads/default/original/2X/5/5a4a08a8a3da5d453e62e5badcf450a28d121164.jpeg
   last_posted_at: '2025-03-08T10:16:50.810Z'
   last_poster_username: Quantum
-  like_count: 9
+  like_count: 10
   liked: null
   pinned: false
   pinned_globally: false
@@ -59,7 +114,7 @@
   title: 'Breaking: Apple Battles the UK Encryption Backdoor'
   unpinned: null
   unseen: false
-  views: 146
+  views: 151
   visible: true
 - archetype: regular
   archived: false
@@ -119,7 +174,7 @@
   title: The 2025 Linux Tier List
   unpinned: null
   unseen: false
-  views: 425
+  views: 440
   visible: true
 - archetype: regular
   archived: false
@@ -169,7 +224,7 @@
   title: 'Encrypt Your Cloud Data with Cryptomator: Security 101'
   unpinned: null
   unseen: false
-  views: 257
+  views: 259
   visible: true
 - archetype: regular
   archived: false
@@ -269,7 +324,7 @@
   title: 'Apple Removes iCloud E2EE in UK: What You Need to Know'
   unpinned: null
   unseen: false
-  views: 527
+  views: 528
   visible: true
 - archetype: regular
   archived: false
@@ -384,7 +439,7 @@
   title: The ULTIMATE macOS Privacy & Security Guide!
   unpinned: null
   unseen: false
-  views: 449
+  views: 451
   visible: true
 - archetype: regular
   archived: false
@@ -429,7 +484,7 @@
   title: 'Upgrade Your Security: 4 Best Password Managers'
   unpinned: null
   unseen: false
-  views: 375
+  views: 376
   visible: true
 - archetype: regular
   archived: false
@@ -489,7 +544,7 @@
   title: 'BusKill: Secure Your Laptop in Seconds'
   unpinned: null
   unseen: false
-  views: 271
+  views: 272
   visible: true
 - archetype: regular
   archived: false
@@ -549,7 +604,7 @@
   title: "Lunatask: The Best Productivity Tool I\u2019ve Ever Used"
   unpinned: null
   unseen: false
-  views: 646
+  views: 655
   visible: true
 - archetype: regular
   archived: false
@@ -589,7 +644,7 @@
   title: The ULTIMATE Windows Privacy & Security Guide!
   unpinned: null
   unseen: false
-  views: 89
+  views: 90
   visible: true
 - archetype: regular
   archived: false
@@ -874,7 +929,7 @@
   title: How to Stay Private on a Budget!
   unpinned: null
   unseen: false
-  views: 758
+  views: 759
   visible: true
 - archetype: regular
   archived: false
@@ -929,7 +984,7 @@
   title: PrivacyPost - Protecting Your Real Life Privacy!
   unpinned: null
   unseen: false
-  views: 367
+  views: 368
   visible: true
 - archetype: regular
   archived: false
@@ -1039,7 +1094,7 @@
   title: 'Kagi Search: Is Paying for a Search Engine Worth It?'
   unpinned: null
   unseen: false
-  views: 1056
+  views: 1057
   visible: true
 - archetype: regular
   archived: false
@@ -1559,7 +1614,7 @@
   title: 'Beyond the Tech: iOS vs Android Privacy Showdown'
   unpinned: null
   unseen: false
-  views: 165
+  views: 166
   visible: true
 - archetype: regular
   archived: false
@@ -1839,7 +1894,7 @@
   title: 'Lock Down Your Signal: Ultimate Hardening Guide'
   unpinned: null
   unseen: false
-  views: 1059
+  views: 1073
   visible: true
 - archetype: regular
   archived: false
@@ -2259,7 +2314,7 @@
   title: I think I finally found a new password manager!
   unpinned: null
   unseen: false
-  views: 12
+  views: 13
   visible: true
 - archetype: regular
   archived: false
@@ -3402,7 +3457,7 @@
   title: Why I Stopped Hardening Firefox
   unpinned: null
   unseen: false
-  views: 4259
+  views: 4270
   visible: true
 - archetype: regular
   archived: false
@@ -4040,7 +4095,7 @@
   title: All your privacy & security questions answered! (Nov '23)
   unpinned: null
   unseen: false
-  views: 609
+  views: 610
   visible: true
 - archetype: regular
   archived: false
@@ -4566,7 +4621,7 @@
   title: Jitsi ended anonymous video meetings :(
   unpinned: null
   unseen: false
-  views: 560
+  views: 561
   visible: true
 - archetype: regular
   archived: false
@@ -4626,7 +4681,7 @@
   title: 'Simplifying w/Digital Minimalism: What''s on My Phone'
   unpinned: null
   unseen: false
-  views: 1410
+  views: 1413
   visible: true
 - archetype: regular
   archived: false
@@ -4686,7 +4741,7 @@
   title: 'Get to know Punkt MP02: A Dumbphone w/Signal for your Privacy'
   unpinned: null
   unseen: false
-  views: 1537
+  views: 1538
   visible: true
 - archetype: regular
   archived: false
@@ -5148,7 +5203,7 @@
   title: "Thoughts on Proton\u2019s New Password Manager! (I\u2019m Mixed\u2026)"
   unpinned: null
   unseen: false
-  views: 1695
+  views: 1696
   visible: true
 - archetype: regular
   archived: false
@@ -5851,7 +5906,7 @@
   title: 'Aurora Users: Proceed with Caution!'
   unpinned: null
   unseen: false
-  views: 842
+  views: 843
   visible: true
 - archetype: regular
   archived: false
@@ -6804,7 +6859,7 @@
   title: FINALLY! The VPN Configuration I've Been Looking For!
   unpinned: null
   unseen: false
-  views: 3385
+  views: 3390
   visible: true
 - archetype: regular
   archived: false
@@ -7059,7 +7114,7 @@
   title: Diving Into The World of Open Source Note-Taking! - (Notesnook Interview)
   unpinned: null
   unseen: false
-  views: 791
+  views: 792
   visible: true
 - archetype: regular
   archived: false
@@ -7674,63 +7729,4 @@
   unpinned: null
   unseen: false
   views: 532
-  visible: true
-- archetype: regular
-  archived: false
-  bookmarked: null
-  bumped: true
-  bumped_at: '2022-09-14T22:45:58.047Z'
-  can_vote: false
-  category_id: 20
-  closed: false
-  created_at: '2022-09-14T11:44:00.000Z'
-  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=hf5d1L6qfes
-  fancy_title: 'Unpacking the iOS 16 Privacy/Security Hype! - Techlore Talks #1'
-  featured_link: null
-  has_accepted_answer: false
-  has_summary: false
-  highest_post_number: 13
-  id: 1523
-  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/c/c2f066ca979c10a53ca4af9dcfb821ba677aa1b7_2_1024x576.jpeg
-  last_posted_at: '2022-09-14T22:45:58.047Z'
-  last_poster_username: InternetGhost
-  like_count: 18
-  liked: null
-  pinned: false
-  pinned_globally: false
-  posters:
-  - description: Original Poster
-    extras: null
-    flair_group_id: null
-    primary_group_id: null
-    user_id: -1
-  - description: Frequent Poster
-    extras: null
-    flair_group_id: null
-    primary_group_id: null
-    user_id: 447
-  - description: Frequent Poster
-    extras: null
-    flair_group_id: null
-    primary_group_id: null
-    user_id: 299
-  - description: Frequent Poster
-    extras: null
-    flair_group_id: 41
-    primary_group_id: 41
-    user_id: 2
-  - description: Most Recent Poster
-    extras: latest
-    flair_group_id: null
-    primary_group_id: null
-    user_id: 108
-  posts_count: 12
-  reply_count: 7
-  slug: unpacking-the-ios-16-privacy-security-hype-techlore-talks-1
-  tags: []
-  tags_descriptions: {}
-  title: 'Unpacking the iOS 16 Privacy/Security Hype! - Techlore Talks #1'
-  unpinned: null
-  unseen: false
-  views: 596
   visible: true
