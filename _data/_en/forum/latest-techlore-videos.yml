@@ -21,7 +21,7 @@
   image_url: https://discuss.techlore.tech/uploads/default/original/2X/d/dd08ca115ca148c1ca31856a5027c4f6b2ab39e6.jpeg
   last_posted_at: '2025-03-12T21:14:05.444Z'
   last_poster_username: basenote
-  like_count: 6
+  like_count: 7
   liked: null
   pinned: false
   pinned_globally: false
@@ -54,7 +54,7 @@
   title: 8 Must-Try Alternatives to Firefox
   unpinned: null
   unseen: false
-  views: 125
+  views: 196
   visible: true
 - archetype: regular
   archived: false
@@ -114,7 +114,7 @@
   title: 'Breaking: Apple Battles the UK Encryption Backdoor'
   unpinned: null
   unseen: false
-  views: 151
+  views: 158
   visible: true
 - archetype: regular
   archived: false
@@ -174,7 +174,7 @@
   title: The 2025 Linux Tier List
   unpinned: null
   unseen: false
-  views: 440
+  views: 445
   visible: true
 - archetype: regular
   archived: false
@@ -224,7 +224,7 @@
   title: 'Encrypt Your Cloud Data with Cryptomator: Security 101'
   unpinned: null
   unseen: false
-  views: 259
+  views: 262
   visible: true
 - archetype: regular
   archived: false
@@ -384,7 +384,7 @@
   title: How Enshittification Ruins Tech
   unpinned: null
   unseen: false
-  views: 332
+  views: 334
   visible: true
 - archetype: regular
   archived: false
@@ -439,7 +439,7 @@
   title: The ULTIMATE macOS Privacy & Security Guide!
   unpinned: null
   unseen: false
-  views: 451
+  views: 453
   visible: true
 - archetype: regular
   archived: false
@@ -550,7 +550,7 @@
   archived: false
   bookmarked: null
   bumped: true
-  bumped_at: '2025-03-09T12:17:09.801Z'
+  bumped_at: '2025-03-13T20:42:08.529Z'
   can_vote: false
   category_id: 20
   closed: false
@@ -561,12 +561,12 @@
   featured_link_root_domain: neat.tube
   has_accepted_answer: false
   has_summary: false
-  highest_post_number: 28
+  highest_post_number: 39
   id: 12050
   image_url: https://discuss.techlore.tech/uploads/default/original/2X/1/13ebab0879493c841b58c246f8d13ecb02711062.jpeg
-  last_posted_at: '2025-03-09T12:17:09.801Z'
-  last_poster_username: Rulle_K
-  like_count: 43
+  last_posted_at: '2025-03-13T20:42:08.529Z'
+  last_poster_username: basenote
+  like_count: 61
   liked: null
   pinned: false
   pinned_globally: false
@@ -588,23 +588,23 @@
     user_id: 3164
   - description: Frequent Poster
     extras: null
-    flair_group_id: null
-    primary_group_id: null
-    user_id: 2410
+    flair_group_id: 43
+    primary_group_id: 43
+    user_id: 1571
   - description: Most Recent Poster
     extras: latest
     flair_group_id: null
     primary_group_id: null
-    user_id: 3488
-  posts_count: 28
-  reply_count: 2
+    user_id: 2410
+  posts_count: 39
+  reply_count: 13
   slug: lunatask-the-best-productivity-tool-i-ve-ever-used
   tags: []
   tags_descriptions: {}
   title: "Lunatask: The Best Productivity Tool I\u2019ve Ever Used"
   unpinned: null
   unseen: false
-  views: 655
+  views: 698
   visible: true
 - archetype: regular
   archived: false
@@ -704,7 +704,7 @@
   title: "Why You Don\u2019t Need An Antivirus"
   unpinned: null
   unseen: false
-  views: 602
+  views: 604
   visible: true
 - archetype: regular
   archived: false
@@ -929,7 +929,7 @@
   title: How to Stay Private on a Budget!
   unpinned: null
   unseen: false
-  views: 759
+  views: 760
   visible: true
 - archetype: regular
   archived: false
@@ -1094,7 +1094,7 @@
   title: 'Kagi Search: Is Paying for a Search Engine Worth It?'
   unpinned: null
   unseen: false
-  views: 1057
+  views: 1060
   visible: true
 - archetype: regular
   archived: false
@@ -1409,7 +1409,7 @@
   title: 'Private Homeownership: Your Options Explained w/ Jonathan Steele'
   unpinned: null
   unseen: false
-  views: 118
+  views: 119
   visible: true
 - archetype: regular
   archived: false
@@ -1894,7 +1894,7 @@
   title: 'Lock Down Your Signal: Ultimate Hardening Guide'
   unpinned: null
   unseen: false
-  views: 1073
+  views: 1082
   visible: true
 - archetype: regular
   archived: false
@@ -2174,7 +2174,7 @@
   title: Why I'm Concerned About Signal
   unpinned: null
   unseen: false
-  views: 377
+  views: 378
   visible: true
 - archetype: regular
   archived: false
@@ -3457,7 +3457,7 @@
   title: Why I Stopped Hardening Firefox
   unpinned: null
   unseen: false
-  views: 4270
+  views: 4278
   visible: true
 - archetype: regular
   archived: false
@@ -4511,7 +4511,7 @@
   title: Top 5 Safe VPNs for $0. (Yes, Really)
   unpinned: null
   unseen: false
-  views: 731
+  views: 732
   visible: true
 - archetype: regular
   archived: false
@@ -4741,7 +4741,7 @@
   title: 'Get to know Punkt MP02: A Dumbphone w/Signal for your Privacy'
   unpinned: null
   unseen: false
-  views: 1538
+  views: 1539
   visible: true
 - archetype: regular
   archived: false
@@ -5093,7 +5093,7 @@
   title: The ULTIMATE Guide to Mastering NextDNS!
   unpinned: null
   unseen: false
-  views: 7907
+  views: 7910
   visible: true
 - archetype: regular
   archived: false
@@ -5203,7 +5203,7 @@
   title: "Thoughts on Proton\u2019s New Password Manager! (I\u2019m Mixed\u2026)"
   unpinned: null
   unseen: false
-  views: 1696
+  views: 1697
   visible: true
 - archetype: regular
   archived: false
@@ -6746,7 +6746,7 @@
   title: Escaping Financial Surveillance with Tools Like Monero! (Douglas Tuman Interview)
   unpinned: null
   unseen: false
-  views: 750
+  views: 751
   visible: true
 - archetype: regular
   archived: false
@@ -6859,7 +6859,7 @@
   title: FINALLY! The VPN Configuration I've Been Looking For!
   unpinned: null
   unseen: false
-  views: 3390
+  views: 3392
   visible: true
 - archetype: regular
   archived: false
@@ -6918,7 +6918,7 @@
   title: "Can iod\xE9OS take down stock Android? Let's Find Out!"
   unpinned: null
   unseen: false
-  views: 871
+  views: 873
   visible: true
 - archetype: regular
   archived: false
@@ -7173,7 +7173,7 @@
   title: "The VPN You Use Probably Sucks - Here\u2019s Why"
   unpinned: null
   unseen: false
-  views: 837
+  views: 838
   visible: true
 - archetype: regular
   archived: false
@@ -7566,7 +7566,7 @@
   title: Ditch Chrome - Use THESE Instead!
   unpinned: null
   unseen: false
-  views: 1434
+  views: 1437
   visible: true
 - archetype: regular
   archived: false
