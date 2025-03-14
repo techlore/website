@@ -8,23 +8,23 @@ mainNav:
   videos:
     title: "Videos"
     url: /videos
-  goincognito:
-    title: "Go incognito"
-    url: /goincognito
-  coaching:
-    title: "Coaching"
-    url: /coaching
+  resources:
+    title: "Resources"
+    url: /resources
+  blog:
+    title: "Blog"
+    url: /blog
   forum:
     title: "Forum"
     url: https://discuss.techlore.tech/
     external: true
-  blog:
-    title: "Blog"
-    url: https://blog.techlore.tech/
-    external: true
-  resources:
-    title: "Resources"
-    url: /resources
+  goincognito:
+    title: "Go Incognito"
+    url: /goincognito
+  coaching:
+    title: "Coaching"
+    url: /coaching
+
   support:
     title: "Support Us"
     url: /support
