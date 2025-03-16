@@ -5,6 +5,56 @@
   archived: false
   bookmarked: null
   bumped: true
+  bumped_at: '2025-03-15T19:50:24.411Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2025-03-15T17:24:19.569Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/4u8xyGSr6f2y8twmSpfHTe
+  fancy_title: Privacy WIN! Apple &amp; Android Unite for Secure Messaging
+  featured_link: https://neat.tube/w/4u8xyGSr6f2y8twmSpfHTe
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 3
+  id: 12936
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/b/bc96a8a6dd5ceb2f656de770804d14ab7f4cb6d4.jpeg
+  last_posted_at: '2025-03-15T19:50:24.411Z'
+  last_poster_username: GorujoCY
+  like_count: 1
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 2410
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: 45
+    primary_group_id: 45
+    user_id: 1929
+  posts_count: 3
+  reply_count: 0
+  slug: privacy-win-apple-android-unite-for-secure-messaging
+  tags: []
+  tags_descriptions: {}
+  title: Privacy WIN! Apple & Android Unite for Secure Messaging
+  unpinned: null
+  unseen: false
+  views: 46
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
   bumped_at: '2025-03-12T21:14:05.444Z'
   can_vote: false
   category_id: 20
@@ -54,7 +104,7 @@
   title: 8 Must-Try Alternatives to Firefox
   unpinned: null
   unseen: false
-  views: 231
+  views: 268
   visible: true
 - archetype: regular
   archived: false
@@ -114,7 +164,7 @@
   title: 'Breaking: Apple Battles the UK Encryption Backdoor'
   unpinned: null
   unseen: false
-  views: 160
+  views: 165
   visible: true
 - archetype: regular
   archived: false
@@ -174,7 +224,7 @@
   title: The 2025 Linux Tier List
   unpinned: null
   unseen: false
-  views: 447
+  views: 449
   visible: true
 - archetype: regular
   archived: false
@@ -264,7 +314,7 @@
   title: Moving From iCloud to Ente Photos - Privacy Wins Of The Week!
   unpinned: null
   unseen: false
-  views: 229
+  views: 230
   visible: true
 - archetype: regular
   archived: false
@@ -544,7 +594,7 @@
   title: 'BusKill: Secure Your Laptop in Seconds'
   unpinned: null
   unseen: false
-  views: 272
+  views: 273
   visible: true
 - archetype: regular
   archived: false
@@ -604,7 +654,7 @@
   title: "Lunatask: The Best Productivity Tool I\u2019ve Ever Used"
   unpinned: null
   unseen: false
-  views: 726
+  views: 733
   visible: true
 - archetype: regular
   archived: false
@@ -644,7 +694,7 @@
   title: The ULTIMATE Windows Privacy & Security Guide!
   unpinned: null
   unseen: false
-  views: 90
+  views: 91
   visible: true
 - archetype: regular
   archived: false
@@ -704,7 +754,7 @@
   title: "Why You Don\u2019t Need An Antivirus"
   unpinned: null
   unseen: false
-  views: 604
+  views: 605
   visible: true
 - archetype: regular
   archived: false
@@ -929,7 +979,7 @@
   title: How to Stay Private on a Budget!
   unpinned: null
   unseen: false
-  views: 761
+  views: 763
   visible: true
 - archetype: regular
   archived: false
@@ -1094,7 +1144,7 @@
   title: 'Kagi Search: Is Paying for a Search Engine Worth It?'
   unpinned: null
   unseen: false
-  views: 1063
+  views: 1065
   visible: true
 - archetype: regular
   archived: false
@@ -1184,7 +1234,7 @@
   title: "Why I switched from Firefox\u2026"
   unpinned: null
   unseen: false
-  views: 518
+  views: 519
   visible: true
 - archetype: regular
   archived: false
@@ -1449,7 +1499,7 @@
   title: 'Molly: A More Secure Signal'
   unpinned: null
   unseen: false
-  views: 210
+  views: 211
   visible: true
 - archetype: regular
   archived: false
@@ -1534,7 +1584,7 @@
   title: Break Free From Subscription Hell! 3 Ways to Own Your Stuff Again
   unpinned: null
   unseen: false
-  views: 263
+  views: 264
   visible: true
 - archetype: regular
   archived: false
@@ -1894,7 +1944,7 @@
   title: 'Lock Down Your Signal: Ultimate Hardening Guide'
   unpinned: null
   unseen: false
-  views: 1091
+  views: 1103
   visible: true
 - archetype: regular
   archived: false
@@ -2024,7 +2074,7 @@
   title: 'Linux Going To The Moon! #alltimehigh #linux #opensource'
   unpinned: null
   unseen: false
-  views: 152
+  views: 153
   visible: true
 - archetype: regular
   archived: false
@@ -2274,7 +2324,7 @@
   title: Who Runs Your Email? Revealing Tuta's Security with Hanna Bozakov
   unpinned: null
   unseen: false
-  views: 8
+  views: 9
   visible: true
 - archetype: regular
   archived: false
@@ -3457,7 +3507,7 @@
   title: Why I Stopped Hardening Firefox
   unpinned: null
   unseen: false
-  views: 4285
+  views: 4291
   visible: true
 - archetype: regular
   archived: false
@@ -3557,7 +3607,7 @@
   title: 'The 2024 VPN Tier List: Privacy & Security Smackdown!'
   unpinned: null
   unseen: false
-  views: 665
+  views: 666
   visible: true
 - archetype: regular
   archived: false
@@ -4681,7 +4731,7 @@
   title: 'Simplifying w/Digital Minimalism: What''s on My Phone'
   unpinned: null
   unseen: false
-  views: 1414
+  views: 1415
   visible: true
 - archetype: regular
   archived: false
@@ -5093,7 +5143,7 @@
   title: The ULTIMATE Guide to Mastering NextDNS!
   unpinned: null
   unseen: false
-  views: 7914
+  views: 7917
   visible: true
 - archetype: regular
   archived: false
@@ -6859,7 +6909,7 @@
   title: FINALLY! The VPN Configuration I've Been Looking For!
   unpinned: null
   unseen: false
-  views: 3392
+  views: 3394
   visible: true
 - archetype: regular
   archived: false
@@ -7173,7 +7223,7 @@
   title: "The VPN You Use Probably Sucks - Here\u2019s Why"
   unpinned: null
   unseen: false
-  views: 838
+  views: 840
   visible: true
 - archetype: regular
   archived: false
@@ -7670,63 +7720,4 @@
   unpinned: null
   unseen: false
   views: 454
-  visible: true
-- archetype: regular
-  archived: false
-  bookmarked: null
-  bumped: true
-  bumped_at: '2022-09-24T05:23:57.898Z'
-  can_vote: false
-  category_id: 20
-  closed: false
-  created_at: '2022-09-22T11:52:00.000Z'
-  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=prNeLzMbytU
-  fancy_title: I Regret Buying a Librem 5 - Here&rsquo;s Why!
-  featured_link: null
-  has_accepted_answer: false
-  has_summary: false
-  highest_post_number: 8
-  id: 1676
-  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/c/c76dfdc0825637eab2a05be2650eff572f746298_2_1024x576.jpeg
-  last_posted_at: '2022-09-24T05:23:57.898Z'
-  last_poster_username: atrum-uumbra
-  like_count: 4
-  liked: null
-  pinned: false
-  pinned_globally: false
-  posters:
-  - description: Original Poster
-    extras: null
-    flair_group_id: null
-    primary_group_id: null
-    user_id: -1
-  - description: Frequent Poster
-    extras: null
-    flair_group_id: null
-    primary_group_id: null
-    user_id: 107
-  - description: Frequent Poster
-    extras: null
-    flair_group_id: null
-    primary_group_id: null
-    user_id: 324
-  - description: Frequent Poster
-    extras: null
-    flair_group_id: null
-    primary_group_id: null
-    user_id: 651
-  - description: Most Recent Poster
-    extras: latest
-    flair_group_id: null
-    primary_group_id: null
-    user_id: 417
-  posts_count: 8
-  reply_count: 3
-  slug: i-regret-buying-a-librem-5-heres-why
-  tags: []
-  tags_descriptions: {}
-  title: I Regret Buying a Librem 5 - Here's Why!
-  unpinned: null
-  unseen: false
-  views: 532
   visible: true
