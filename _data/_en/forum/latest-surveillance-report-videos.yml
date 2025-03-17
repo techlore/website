@@ -21,7 +21,7 @@
   image_url: https://discuss.techlore.tech/uploads/default/original/2X/f/f8c10206924375fcbe39056881e4baa0a5f03bf7.jpeg
   last_posted_at: '2025-03-14T13:02:55.936Z'
   last_poster_username: unknownghost
-  like_count: 0
+  like_count: 1
   liked: null
   pinned: false
   pinned_globally: false
@@ -44,7 +44,7 @@
   title: 'Android Backdoor Exposed: 1 Million Devices at Risk'
   unpinned: null
   unseen: false
-  views: 61
+  views: 67
   visible: true
 - archetype: regular
   archived: false
@@ -104,7 +104,7 @@
   title: Is It Time to Ditch Firefox?
   unpinned: null
   unseen: false
-  views: 379
+  views: 381
   visible: true
 - archetype: regular
   archived: false
