@@ -5,6 +5,46 @@
   archived: false
   bookmarked: null
   bumped: true
+  bumped_at: '2025-03-17T18:03:53.036Z'
+  can_vote: false
+  category_id: 19
+  closed: false
+  created_at: '2025-03-17T18:03:52.986Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=xHEX6wWYgS0
+  fancy_title: 'Storing 2FA in Your Password Manager: Is it Safe?'
+  featured_link: https://www.youtube.com/watch?v=xHEX6wWYgS0
+  featured_link_root_domain: youtube.com
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 1
+  id: 12973
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/2/2618c1128c158a4b70e42d631bf8de7561d85dc6_2_1024x576.jpeg
+  last_posted_at: '2025-03-17T18:03:53.036Z'
+  last_poster_username: system
+  like_count: 0
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster, Most Recent Poster
+    extras: latest single
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  posts_count: 1
+  reply_count: 0
+  slug: storing-2fa-in-your-password-manager-is-it-safe
+  tags: []
+  tags_descriptions: {}
+  title: 'Storing 2FA in Your Password Manager: Is it Safe?'
+  unpinned: null
+  unseen: false
+  views: 3
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
   bumped_at: '2025-03-14T18:09:17.559Z'
   can_vote: false
   category_id: 19
@@ -359,7 +399,7 @@
   title: 'They''re All Stealing Your Data: Here''s What to Do'
   unpinned: null
   unseen: false
-  views: 8
+  views: 9
   visible: true
 - archetype: regular
   archived: false
@@ -1162,46 +1202,6 @@
   tags: []
   tags_descriptions: {}
   title: I Finally Found My Perfect Productivity App
-  unpinned: null
-  unseen: false
-  views: 2
-  visible: true
-- archetype: regular
-  archived: false
-  bookmarked: null
-  bumped: true
-  bumped_at: '2024-11-04T18:04:22.145Z'
-  can_vote: false
-  category_id: 19
-  closed: false
-  created_at: '2024-11-04T18:04:22.110Z'
-  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=8WkQxJlfrs0
-  fancy_title: The WordPress Security Threat You Didn&rsquo;t See Coming
-  featured_link: https://www.youtube.com/watch?v=8WkQxJlfrs0
-  featured_link_root_domain: youtube.com
-  has_accepted_answer: false
-  has_summary: false
-  highest_post_number: 1
-  id: 10569
-  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/7/7ae5ed8ba16bab996e5d18870afbc7e3bfda537e_2_1024x576.jpeg
-  last_posted_at: '2024-11-04T18:04:22.145Z'
-  last_poster_username: system
-  like_count: 0
-  liked: null
-  pinned: false
-  pinned_globally: false
-  posters:
-  - description: Original Poster, Most Recent Poster
-    extras: latest single
-    flair_group_id: null
-    primary_group_id: null
-    user_id: -1
-  posts_count: 1
-  reply_count: 0
-  slug: the-wordpress-security-threat-you-didnt-see-coming
-  tags: []
-  tags_descriptions: {}
-  title: The WordPress Security Threat You Didn't See Coming
   unpinned: null
   unseen: false
   views: 2
