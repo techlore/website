@@ -39,7 +39,7 @@
   title: 'Storing 2FA in Your Password Manager: Is it Safe?'
   unpinned: null
   unseen: false
-  views: 3
+  views: 7
   visible: true
 - archetype: regular
   archived: false
@@ -79,7 +79,7 @@
   title: Is It Time To Leave Apple's Walled Garden?
   unpinned: null
   unseen: false
-  views: 6
+  views: 7
   visible: true
 - archetype: regular
   archived: false
@@ -964,7 +964,7 @@
   title: Does Google Really Delete Your Data?
   unpinned: null
   unseen: false
-  views: 5
+  views: 6
   visible: true
 - archetype: regular
   archived: false
