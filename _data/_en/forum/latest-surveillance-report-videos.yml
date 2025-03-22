@@ -39,7 +39,7 @@
   title: Amazon Echo Somehow Gets Worse
   unpinned: null
   unseen: false
-  views: 31
+  views: 33
   visible: true
 - archetype: regular
   archived: false
@@ -84,7 +84,7 @@
   title: 'Android Backdoor Exposed: 1 Million Devices at Risk'
   unpinned: null
   unseen: false
-  views: 78
+  views: 80
   visible: true
 - archetype: regular
   archived: false
@@ -144,7 +144,7 @@
   title: Is It Time to Ditch Firefox?
   unpinned: null
   unseen: false
-  views: 385
+  views: 388
   visible: true
 - archetype: regular
   archived: false
@@ -659,7 +659,7 @@
   title: 'Telegram''s U-Turn: Years of Privacy Lies Exposed!'
   unpinned: null
   unseen: false
-  views: 182
+  views: 183
   visible: true
 - archetype: regular
   archived: false
@@ -1073,8 +1073,8 @@
     user_id: 2242
   - description: Most Recent Poster
     extras: latest
-    flair_group_id: null
-    primary_group_id: null
+    flair_group_id: 45
+    primary_group_id: 45
     user_id: 223
   posts_count: 6
   reply_count: 3

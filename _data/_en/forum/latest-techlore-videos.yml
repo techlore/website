@@ -5,6 +5,46 @@
   archived: false
   bookmarked: null
   bumped: true
+  bumped_at: '2025-03-22T04:19:29.109Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2025-03-22T04:19:29.038Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/oPrughBa7TrwnTZkdRUswB
+  fancy_title: Debloat Brave Browser in Minutes! | Minimal Brave Tutorial
+  featured_link: https://neat.tube/w/oPrughBa7TrwnTZkdRUswB
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 1
+  id: 13051
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/4/46d69fff5068d0f02001c9e5cea5e246b47f4005.jpeg
+  last_posted_at: '2025-03-22T04:19:29.109Z'
+  last_poster_username: system
+  like_count: 0
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster, Most Recent Poster
+    extras: latest single
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  posts_count: 1
+  reply_count: 0
+  slug: debloat-brave-browser-in-minutes-minimal-brave-tutorial
+  tags: []
+  tags_descriptions: {}
+  title: Debloat Brave Browser in Minutes! | Minimal Brave Tutorial
+  unpinned: null
+  unseen: false
+  views: 2
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
   bumped_at: '2025-03-18T20:10:04.019Z'
   can_vote: false
   category_id: 20
@@ -59,7 +99,7 @@
   title: Privacy WIN! Apple & Android Unite for Secure Messaging
   unpinned: null
   unseen: false
-  views: 239
+  views: 261
   visible: true
 - archetype: regular
   archived: false
@@ -114,7 +154,7 @@
   title: 8 Must-Try Alternatives to Firefox
   unpinned: null
   unseen: false
-  views: 376
+  views: 398
   visible: true
 - archetype: regular
   archived: false
@@ -174,7 +214,7 @@
   title: 'Breaking: Apple Battles the UK Encryption Backdoor'
   unpinned: null
   unseen: false
-  views: 166
+  views: 167
   visible: true
 - archetype: regular
   archived: false
@@ -234,7 +274,7 @@
   title: The 2025 Linux Tier List
   unpinned: null
   unseen: false
-  views: 460
+  views: 462
   visible: true
 - archetype: regular
   archived: false
@@ -363,8 +403,8 @@
     user_id: 2286
   - description: Frequent Poster
     extras: null
-    flair_group_id: null
-    primary_group_id: null
+    flair_group_id: 45
+    primary_group_id: 45
     user_id: 223
   - description: Frequent Poster
     extras: null
@@ -499,7 +539,7 @@
   title: The ULTIMATE macOS Privacy & Security Guide!
   unpinned: null
   unseen: false
-  views: 460
+  views: 462
   visible: true
 - archetype: regular
   archived: false
@@ -664,7 +704,7 @@
   title: "Lunatask: The Best Productivity Tool I\u2019ve Ever Used"
   unpinned: null
   unseen: false
-  views: 751
+  views: 754
   visible: true
 - archetype: regular
   archived: false
@@ -764,7 +804,7 @@
   title: "Why You Don\u2019t Need An Antivirus"
   unpinned: null
   unseen: false
-  views: 607
+  views: 608
   visible: true
 - archetype: regular
   archived: false
@@ -824,7 +864,7 @@
   title: 5 Easy Ways to Improve Privacy!
   unpinned: null
   unseen: false
-  views: 645
+  views: 646
   visible: true
 - archetype: regular
   archived: false
@@ -984,7 +1024,7 @@
   title: How to Stay Private on a Budget!
   unpinned: null
   unseen: false
-  views: 764
+  views: 766
   visible: true
 - archetype: regular
   archived: false
@@ -1133,8 +1173,8 @@
     user_id: 2
   - description: Frequent Poster
     extras: null
-    flair_group_id: null
-    primary_group_id: null
+    flair_group_id: 45
+    primary_group_id: 45
     user_id: 223
   - description: Most Recent Poster
     extras: latest
@@ -1149,7 +1189,7 @@
   title: 'Kagi Search: Is Paying for a Search Engine Worth It?'
   unpinned: null
   unseen: false
-  views: 1094
+  views: 1098
   visible: true
 - archetype: regular
   archived: false
@@ -1419,7 +1459,7 @@
   title: 'iOS 18 & macOS Sequoia: Top New Privacy & Security Features'
   unpinned: null
   unseen: false
-  views: 117
+  views: 118
   visible: true
 - archetype: regular
   archived: false
@@ -1589,7 +1629,7 @@
   title: Break Free From Subscription Hell! 3 Ways to Own Your Stuff Again
   unpinned: null
   unseen: false
-  views: 266
+  views: 267
   visible: true
 - archetype: regular
   archived: false
@@ -1949,7 +1989,7 @@
   title: 'Lock Down Your Signal: Ultimate Hardening Guide'
   unpinned: null
   unseen: false
-  views: 1141
+  views: 1143
   visible: true
 - archetype: regular
   archived: false
@@ -2797,7 +2837,7 @@
   title: The Ultimate Guide to Using Tor Browser Securely
   unpinned: null
   unseen: false
-  views: 283
+  views: 284
   visible: true
 - archetype: regular
   archived: false
@@ -2857,7 +2897,7 @@
   title: 'Ditching Chrome: My Journey to a Better Mobile Browser'
   unpinned: null
   unseen: false
-  views: 780
+  views: 783
   visible: true
 - archetype: regular
   archived: false
@@ -3512,7 +3552,7 @@
   title: Why I Stopped Hardening Firefox
   unpinned: null
   unseen: false
-  views: 4315
+  views: 4316
   visible: true
 - archetype: regular
   archived: false
@@ -3612,7 +3652,7 @@
   title: 'The 2024 VPN Tier List: Privacy & Security Smackdown!'
   unpinned: null
   unseen: false
-  views: 669
+  views: 671
   visible: true
 - archetype: regular
   archived: false
@@ -4356,7 +4396,7 @@
   title: Signal Usernames Are FINALLY Coming!
   unpinned: null
   unseen: false
-  views: 975
+  views: 976
   visible: true
 - archetype: regular
   archived: false
@@ -4736,7 +4776,7 @@
   title: 'Simplifying w/Digital Minimalism: What''s on My Phone'
   unpinned: null
   unseen: false
-  views: 1419
+  views: 1420
   visible: true
 - archetype: regular
   archived: false
@@ -4796,7 +4836,7 @@
   title: 'Get to know Punkt MP02: A Dumbphone w/Signal for your Privacy'
   unpinned: null
   unseen: false
-  views: 1550
+  views: 1555
   visible: true
 - archetype: regular
   archived: false
@@ -4988,7 +5028,7 @@
   title: 'Why Browser Wars Are Silly: Here''s What Matters!'
   unpinned: null
   unseen: false
-  views: 1467
+  views: 1468
   visible: true
 - archetype: regular
   archived: false
@@ -5148,7 +5188,7 @@
   title: The ULTIMATE Guide to Mastering NextDNS!
   unpinned: null
   unseen: false
-  views: 7933
+  views: 7934
   visible: true
 - archetype: regular
   archived: false
@@ -5731,7 +5771,7 @@
   title: Why I Don't Use SimpleX Yet
   unpinned: null
   unseen: false
-  views: 322
+  views: 323
   visible: true
 - archetype: regular
   archived: false
@@ -6290,7 +6330,7 @@
   title: 'Proton Privacy: A Review to Determine its Full Potential!'
   unpinned: null
   unseen: false
-  views: 602
+  views: 603
   visible: true
 - archetype: regular
   archived: false
@@ -6914,7 +6954,7 @@
   title: FINALLY! The VPN Configuration I've Been Looking For!
   unpinned: null
   unseen: false
-  views: 3395
+  views: 3396
   visible: true
 - archetype: regular
   archived: false
@@ -7202,8 +7242,8 @@
     user_id: -1
   - description: Frequent Poster
     extras: null
-    flair_group_id: null
-    primary_group_id: null
+    flair_group_id: 45
+    primary_group_id: 45
     user_id: 223
   - description: Frequent Poster
     extras: null
@@ -7671,58 +7711,4 @@
   unpinned: null
   unseen: false
   views: 427
-  visible: true
-- archetype: regular
-  archived: false
-  bookmarked: null
-  bumped: true
-  bumped_at: '2022-10-05T15:26:55.419Z'
-  can_vote: false
-  category_id: 20
-  closed: false
-  created_at: '2022-10-01T14:04:00.000Z'
-  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=n6-tM8YAgQ4
-  fancy_title: 'Is Facebook FINALLY Dying?! - Techlore Talks #2'
-  featured_link: null
-  has_accepted_answer: false
-  has_summary: false
-  highest_post_number: 6
-  id: 1771
-  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/0/0a1b9b63c005399a62c01e80f4e8d5957dc03b67_2_1024x576.jpeg
-  last_posted_at: '2022-10-05T15:26:55.419Z'
-  last_poster_username: Henry
-  like_count: 9
-  liked: null
-  pinned: false
-  pinned_globally: false
-  posters:
-  - description: Original Poster
-    extras: null
-    flair_group_id: null
-    primary_group_id: null
-    user_id: -1
-  - description: Frequent Poster
-    extras: null
-    flair_group_id: null
-    primary_group_id: null
-    user_id: 324
-  - description: Frequent Poster
-    extras: null
-    flair_group_id: null
-    primary_group_id: null
-    user_id: 108
-  - description: Most Recent Poster
-    extras: latest
-    flair_group_id: 41
-    primary_group_id: 41
-    user_id: 2
-  posts_count: 5
-  reply_count: 1
-  slug: is-facebook-finally-dying-techlore-talks-2
-  tags: []
-  tags_descriptions: {}
-  title: 'Is Facebook FINALLY Dying?! - Techlore Talks #2'
-  unpinned: null
-  unseen: false
-  views: 454
   visible: true
