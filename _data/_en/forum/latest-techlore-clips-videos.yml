@@ -39,7 +39,7 @@
   title: 'Signal vs. Session: Which Secure Messenger is Best?'
   unpinned: null
   unseen: false
-  views: 4
+  views: 6
   visible: true
 - archetype: regular
   archived: false
@@ -84,7 +84,7 @@
   title: You Don't NEED to Self-Host for Privacy & Security
   unpinned: null
   unseen: false
-  views: 5
+  views: 6
   visible: true
 - archetype: regular
   archived: false
@@ -1129,7 +1129,7 @@
   title: Is iCloud Private Relay Good Enough?
   unpinned: null
   unseen: false
-  views: 5
+  views: 6
   visible: true
 - archetype: regular
   archived: false
