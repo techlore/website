@@ -5,6 +5,91 @@
   archived: false
   bookmarked: null
   bumped: true
+  bumped_at: '2025-03-25T03:19:43.978Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2025-03-25T03:19:43.922Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/jsN4h1K8sA6g5QJXJNBwq5
+  fancy_title: Stuck on Windows 10? Here&rsquo;s How To Upgrade Anyway
+  featured_link: https://neat.tube/w/jsN4h1K8sA6g5QJXJNBwq5
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 1
+  id: 13094
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/4/456c27c84cf6fa6d3e2821007d7fe77e2dfa3df7.jpeg
+  last_posted_at: '2025-03-25T03:19:43.978Z'
+  last_poster_username: system
+  like_count: 0
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster, Most Recent Poster
+    extras: latest single
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  posts_count: 1
+  reply_count: 0
+  slug: stuck-on-windows-10-heres-how-to-upgrade-anyway
+  tags: []
+  tags_descriptions: {}
+  title: Stuck on Windows 10? Here's How To Upgrade Anyway
+  unpinned: null
+  unseen: false
+  views: 1
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
+  bumped_at: '2025-03-25T03:20:51.453Z'
+  can_vote: false
+  category_id: 20
+  closed: false
+  created_at: '2025-03-25T03:04:56.123Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/3hydHWa6S3vuF7crabneMm
+  fancy_title: 'Finally! True Privacy in a Laptop: NovaCustom Review'
+  featured_link: https://neat.tube/w/3hydHWa6S3vuF7crabneMm
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 2
+  id: 13093
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/9/92a2a686fa39503b32dd98365f0dfa9b35006832.jpeg
+  last_posted_at: '2025-03-25T03:20:51.453Z'
+  last_poster_username: basenote
+  like_count: 1
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 2410
+  posts_count: 2
+  reply_count: 0
+  slug: finally-true-privacy-in-a-laptop-novacustom-review
+  tags: []
+  tags_descriptions: {}
+  title: 'Finally! True Privacy in a Laptop: NovaCustom Review'
+  unpinned: null
+  unseen: false
+  views: 8
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
   bumped_at: '2025-03-22T21:37:13.692Z'
   can_vote: false
   category_id: 20
@@ -54,7 +139,7 @@
   title: Debloat Brave Browser in Minutes! | Minimal Brave Tutorial
   unpinned: null
   unseen: false
-  views: 239
+  views: 288
   visible: true
 - archetype: regular
   archived: false
@@ -114,7 +199,7 @@
   title: Privacy WIN! Apple & Android Unite for Secure Messaging
   unpinned: null
   unseen: false
-  views: 310
+  views: 323
   visible: true
 - archetype: regular
   archived: false
@@ -169,7 +254,7 @@
   title: 8 Must-Try Alternatives to Firefox
   unpinned: null
   unseen: false
-  views: 410
+  views: 414
   visible: true
 - archetype: regular
   archived: false
@@ -289,7 +374,7 @@
   title: The 2025 Linux Tier List
   unpinned: null
   unseen: false
-  views: 465
+  views: 466
   visible: true
 - archetype: regular
   archived: false
@@ -439,7 +524,7 @@
   title: 'Apple Removes iCloud E2EE in UK: What You Need to Know'
   unpinned: null
   unseen: false
-  views: 530
+  views: 532
   visible: true
 - archetype: regular
   archived: false
@@ -554,7 +639,7 @@
   title: The ULTIMATE macOS Privacy & Security Guide!
   unpinned: null
   unseen: false
-  views: 466
+  views: 467
   visible: true
 - archetype: regular
   archived: false
@@ -599,7 +684,7 @@
   title: 'Upgrade Your Security: 4 Best Password Managers'
   unpinned: null
   unseen: false
-  views: 385
+  views: 387
   visible: true
 - archetype: regular
   archived: false
@@ -659,7 +744,7 @@
   title: 'BusKill: Secure Your Laptop in Seconds'
   unpinned: null
   unseen: false
-  views: 276
+  views: 277
   visible: true
 - archetype: regular
   archived: false
@@ -719,7 +804,7 @@
   title: "Lunatask: The Best Productivity Tool I\u2019ve Ever Used"
   unpinned: null
   unseen: false
-  views: 766
+  views: 770
   visible: true
 - archetype: regular
   archived: false
@@ -1204,7 +1289,7 @@
   title: 'Kagi Search: Is Paying for a Search Engine Worth It?'
   unpinned: null
   unseen: false
-  views: 1111
+  views: 1113
   visible: true
 - archetype: regular
   archived: false
@@ -1294,7 +1379,7 @@
   title: "Why I switched from Firefox\u2026"
   unpinned: null
   unseen: false
-  views: 522
+  views: 523
   visible: true
 - archetype: regular
   archived: false
@@ -1339,7 +1424,7 @@
   title: "10 Privacy Tools I Can\u2019t Live Without"
   unpinned: null
   unseen: false
-  views: 417
+  views: 418
   visible: true
 - archetype: regular
   archived: false
@@ -1559,7 +1644,7 @@
   title: 'Molly: A More Secure Signal'
   unpinned: null
   unseen: false
-  views: 219
+  views: 220
   visible: true
 - archetype: regular
   archived: false
@@ -1684,7 +1769,7 @@
   title: The Future of Notes is Private! - Abdullah Atta/Notesnook Interview
   unpinned: null
   unseen: false
-  views: 109
+  views: 110
   visible: true
 - archetype: regular
   archived: false
@@ -2004,7 +2089,7 @@
   title: 'Lock Down Your Signal: Ultimate Hardening Guide'
   unpinned: null
   unseen: false
-  views: 1163
+  views: 1176
   visible: true
 - archetype: regular
   archived: false
@@ -2284,7 +2369,7 @@
   title: Why I'm Concerned About Signal
   unpinned: null
   unseen: false
-  views: 381
+  views: 382
   visible: true
 - archetype: regular
   archived: false
@@ -2424,7 +2509,7 @@
   title: I think I finally found a new password manager!
   unpinned: null
   unseen: false
-  views: 14
+  views: 15
   visible: true
 - archetype: regular
   archived: false
@@ -2912,7 +2997,7 @@
   title: 'Ditching Chrome: My Journey to a Better Mobile Browser'
   unpinned: null
   unseen: false
-  views: 784
+  views: 785
   visible: true
 - archetype: regular
   archived: false
@@ -3567,7 +3652,7 @@
   title: Why I Stopped Hardening Firefox
   unpinned: null
   unseen: false
-  views: 4323
+  views: 4330
   visible: true
 - archetype: regular
   archived: false
@@ -4791,7 +4876,7 @@
   title: 'Simplifying w/Digital Minimalism: What''s on My Phone'
   unpinned: null
   unseen: false
-  views: 1424
+  views: 1425
   visible: true
 - archetype: regular
   archived: false
@@ -4851,7 +4936,7 @@
   title: 'Get to know Punkt MP02: A Dumbphone w/Signal for your Privacy'
   unpinned: null
   unseen: false
-  views: 1557
+  views: 1559
   visible: true
 - archetype: regular
   archived: false
@@ -5203,7 +5288,7 @@
   title: The ULTIMATE Guide to Mastering NextDNS!
   unpinned: null
   unseen: false
-  views: 7939
+  views: 7942
   visible: true
 - archetype: regular
   archived: false
@@ -5313,7 +5398,7 @@
   title: "Thoughts on Proton\u2019s New Password Manager! (I\u2019m Mixed\u2026)"
   unpinned: null
   unseen: false
-  views: 1699
+  views: 1701
   visible: true
 - archetype: regular
   archived: false
@@ -6969,7 +7054,7 @@
   title: FINALLY! The VPN Configuration I've Been Looking For!
   unpinned: null
   unseen: false
-  views: 3397
+  views: 3398
   visible: true
 - archetype: regular
   archived: false
@@ -7028,7 +7113,7 @@
   title: "Can iod\xE9OS take down stock Android? Let's Find Out!"
   unpinned: null
   unseen: false
-  views: 879
+  views: 881
   visible: true
 - archetype: regular
   archived: false
@@ -7618,112 +7703,4 @@
   unpinned: null
   unseen: false
   views: 343
-  visible: true
-- archetype: regular
-  archived: false
-  bookmarked: null
-  bumped: true
-  bumped_at: '2022-11-13T18:58:15.016Z'
-  can_vote: false
-  category_id: 20
-  closed: false
-  created_at: '2022-10-07T15:00:00.000Z'
-  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=VHwIyR6ca4o
-  fancy_title: Ditch Chrome - Use THESE Instead!
-  featured_link: null
-  has_accepted_answer: false
-  has_summary: false
-  highest_post_number: 39
-  id: 1834
-  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/e/e3266062be467d8b92d994e6bdc1f52f3a07c89c_2_1024x576.jpeg
-  last_posted_at: '2022-11-13T18:58:15.016Z'
-  last_poster_username: anon66741405
-  like_count: 29
-  liked: null
-  pinned: false
-  pinned_globally: false
-  posters:
-  - description: Original Poster
-    extras: null
-    flair_group_id: null
-    primary_group_id: null
-    user_id: -1
-  - description: Frequent Poster
-    extras: null
-    flair_group_id: 41
-    primary_group_id: 41
-    user_id: 2
-  - description: Frequent Poster
-    extras: null
-    flair_group_id: null
-    primary_group_id: null
-    user_id: 702
-  - description: Frequent Poster
-    extras: null
-    flair_group_id: null
-    primary_group_id: null
-    user_id: 645
-  - description: Most Recent Poster
-    extras: latest
-    flair_group_id: null
-    primary_group_id: null
-    user_id: 855
-  posts_count: 39
-  reply_count: 30
-  slug: ditch-chrome-use-these-instead
-  tags: []
-  tags_descriptions: {}
-  title: Ditch Chrome - Use THESE Instead!
-  unpinned: null
-  unseen: false
-  views: 1439
-  visible: true
-- archetype: regular
-  archived: false
-  bookmarked: null
-  bumped: true
-  bumped_at: '2022-10-05T13:18:56.361Z'
-  can_vote: false
-  category_id: 20
-  closed: false
-  created_at: '2022-10-05T02:35:00.000Z'
-  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=FAnwEpb5jlc
-  fancy_title: My Apologies
-  featured_link: null
-  has_accepted_answer: false
-  has_summary: false
-  highest_post_number: 3
-  id: 1809
-  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/f/f1ce448b0afde2ae0912b3b1e8175589a0629b1d_2_1024x576.jpeg
-  last_posted_at: '2022-10-05T13:18:56.361Z'
-  last_poster_username: InternetGhost
-  like_count: 18
-  liked: null
-  pinned: false
-  pinned_globally: false
-  posters:
-  - description: Original Poster
-    extras: null
-    flair_group_id: null
-    primary_group_id: null
-    user_id: -1
-  - description: Frequent Poster
-    extras: null
-    flair_group_id: null
-    primary_group_id: null
-    user_id: 16
-  - description: Most Recent Poster
-    extras: latest
-    flair_group_id: null
-    primary_group_id: null
-    user_id: 108
-  posts_count: 3
-  reply_count: 0
-  slug: my-apologies
-  tags: []
-  tags_descriptions: {}
-  title: My Apologies
-  unpinned: null
-  unseen: false
-  views: 427
   visible: true
