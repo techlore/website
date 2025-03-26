@@ -21,7 +21,7 @@
   image_url: https://discuss.techlore.tech/uploads/default/original/2X/4/456c27c84cf6fa6d3e2821007d7fe77e2dfa3df7.jpeg
   last_posted_at: '2025-03-25T03:19:43.978Z'
   last_poster_username: system
-  like_count: 0
+  like_count: 3
   liked: null
   pinned: false
   pinned_globally: false
@@ -39,7 +39,7 @@
   title: Stuck on Windows 10? Here's How To Upgrade Anyway
   unpinned: null
   unseen: false
-  views: 1
+  views: 26
   visible: true
 - archetype: regular
   archived: false
@@ -61,7 +61,7 @@
   image_url: https://discuss.techlore.tech/uploads/default/original/2X/9/92a2a686fa39503b32dd98365f0dfa9b35006832.jpeg
   last_posted_at: '2025-03-25T03:20:51.453Z'
   last_poster_username: basenote
-  like_count: 1
+  like_count: 4
   liked: null
   pinned: false
   pinned_globally: false
@@ -84,13 +84,13 @@
   title: 'Finally! True Privacy in a Laptop: NovaCustom Review'
   unpinned: null
   unseen: false
-  views: 8
+  views: 58
   visible: true
 - archetype: regular
   archived: false
   bookmarked: null
   bumped: true
-  bumped_at: '2025-03-22T21:37:13.692Z'
+  bumped_at: '2025-03-25T13:44:54.384Z'
   can_vote: false
   category_id: 20
   closed: false
@@ -101,12 +101,12 @@
   featured_link_root_domain: neat.tube
   has_accepted_answer: false
   has_summary: false
-  highest_post_number: 5
+  highest_post_number: 7
   id: 13051
   image_url: https://discuss.techlore.tech/uploads/default/original/2X/4/46d69fff5068d0f02001c9e5cea5e246b47f4005.jpeg
-  last_posted_at: '2025-03-22T21:37:13.692Z'
-  last_poster_username: LightningToaster
-  like_count: 3
+  last_posted_at: '2025-03-25T11:11:21.609Z'
+  last_poster_username: Terrance
+  like_count: 4
   liked: null
   pinned: false
   pinned_globally: false
@@ -126,20 +126,25 @@
     flair_group_id: null
     primary_group_id: null
     user_id: 2410
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 3415
   - description: Most Recent Poster
     extras: latest
     flair_group_id: null
     primary_group_id: null
-    user_id: 3415
-  posts_count: 5
-  reply_count: 2
+    user_id: 3391
+  posts_count: 7
+  reply_count: 3
   slug: debloat-brave-browser-in-minutes-minimal-brave-tutorial
   tags: []
   tags_descriptions: {}
   title: Debloat Brave Browser in Minutes! | Minimal Brave Tutorial
   unpinned: null
   unseen: false
-  views: 288
+  views: 352
   visible: true
 - archetype: regular
   archived: false
@@ -199,7 +204,7 @@
   title: Privacy WIN! Apple & Android Unite for Secure Messaging
   unpinned: null
   unseen: false
-  views: 323
+  views: 325
   visible: true
 - archetype: regular
   archived: false
@@ -254,7 +259,7 @@
   title: 8 Must-Try Alternatives to Firefox
   unpinned: null
   unseen: false
-  views: 414
+  views: 417
   visible: true
 - archetype: regular
   archived: false
@@ -374,7 +379,7 @@
   title: The 2025 Linux Tier List
   unpinned: null
   unseen: false
-  views: 466
+  views: 471
   visible: true
 - archetype: regular
   archived: false
@@ -424,7 +429,7 @@
   title: 'Encrypt Your Cloud Data with Cryptomator: Security 101'
   unpinned: null
   unseen: false
-  views: 276
+  views: 277
   visible: true
 - archetype: regular
   archived: false
@@ -524,7 +529,7 @@
   title: 'Apple Removes iCloud E2EE in UK: What You Need to Know'
   unpinned: null
   unseen: false
-  views: 532
+  views: 533
   visible: true
 - archetype: regular
   archived: false
@@ -744,7 +749,7 @@
   title: 'BusKill: Secure Your Laptop in Seconds'
   unpinned: null
   unseen: false
-  views: 277
+  views: 278
   visible: true
 - archetype: regular
   archived: false
@@ -804,7 +809,7 @@
   title: "Lunatask: The Best Productivity Tool I\u2019ve Ever Used"
   unpinned: null
   unseen: false
-  views: 770
+  views: 775
   visible: true
 - archetype: regular
   archived: false
@@ -844,7 +849,7 @@
   title: The ULTIMATE Windows Privacy & Security Guide!
   unpinned: null
   unseen: false
-  views: 95
+  views: 96
   visible: true
 - archetype: regular
   archived: false
@@ -904,7 +909,7 @@
   title: "Why You Don\u2019t Need An Antivirus"
   unpinned: null
   unseen: false
-  views: 610
+  views: 611
   visible: true
 - archetype: regular
   archived: false
@@ -1124,7 +1129,7 @@
   title: How to Stay Private on a Budget!
   unpinned: null
   unseen: false
-  views: 767
+  views: 768
   visible: true
 - archetype: regular
   archived: false
@@ -1179,7 +1184,7 @@
   title: PrivacyPost - Protecting Your Real Life Privacy!
   unpinned: null
   unseen: false
-  views: 375
+  views: 377
   visible: true
 - archetype: regular
   archived: false
@@ -1289,7 +1294,7 @@
   title: 'Kagi Search: Is Paying for a Search Engine Worth It?'
   unpinned: null
   unseen: false
-  views: 1113
+  views: 1117
   visible: true
 - archetype: regular
   archived: false
@@ -1379,7 +1384,7 @@
   title: "Why I switched from Firefox\u2026"
   unpinned: null
   unseen: false
-  views: 523
+  views: 524
   visible: true
 - archetype: regular
   archived: false
@@ -1984,7 +1989,7 @@
   title: 'Data Removal Services: A Costly Myth?'
   unpinned: null
   unseen: false
-  views: 126
+  views: 127
   visible: true
 - archetype: regular
   archived: false
@@ -2089,7 +2094,7 @@
   title: 'Lock Down Your Signal: Ultimate Hardening Guide'
   unpinned: null
   unseen: false
-  views: 1176
+  views: 1184
   visible: true
 - archetype: regular
   archived: false
@@ -2309,7 +2314,7 @@
   title: It Seems AI Isn't Going Anywhere
   unpinned: null
   unseen: false
-  views: 119
+  views: 120
   visible: true
 - archetype: regular
   archived: false
@@ -2369,7 +2374,7 @@
   title: Why I'm Concerned About Signal
   unpinned: null
   unseen: false
-  views: 382
+  views: 383
   visible: true
 - archetype: regular
   archived: false
@@ -2469,7 +2474,7 @@
   title: Who Runs Your Email? Revealing Tuta's Security with Hanna Bozakov
   unpinned: null
   unseen: false
-  views: 9
+  views: 11
   visible: true
 - archetype: regular
   archived: false
@@ -2509,7 +2514,7 @@
   title: I think I finally found a new password manager!
   unpinned: null
   unseen: false
-  views: 15
+  views: 16
   visible: true
 - archetype: regular
   archived: false
@@ -3652,7 +3657,7 @@
   title: Why I Stopped Hardening Firefox
   unpinned: null
   unseen: false
-  views: 4330
+  views: 4338
   visible: true
 - archetype: regular
   archived: false
@@ -4556,7 +4561,7 @@
   title: 'Nextcloud 2023 Conference: Celebrating the Beauty of Open Source'
   unpinned: null
   unseen: false
-  views: 442
+  views: 443
   visible: true
 - archetype: regular
   archived: false
@@ -4876,7 +4881,7 @@
   title: 'Simplifying w/Digital Minimalism: What''s on My Phone'
   unpinned: null
   unseen: false
-  views: 1425
+  views: 1428
   visible: true
 - archetype: regular
   archived: false
@@ -4936,7 +4941,7 @@
   title: 'Get to know Punkt MP02: A Dumbphone w/Signal for your Privacy'
   unpinned: null
   unseen: false
-  views: 1559
+  views: 1561
   visible: true
 - archetype: regular
   archived: false
@@ -5288,7 +5293,7 @@
   title: The ULTIMATE Guide to Mastering NextDNS!
   unpinned: null
   unseen: false
-  views: 7942
+  views: 7943
   visible: true
 - archetype: regular
   archived: false
@@ -5931,7 +5936,7 @@
   title: All Privacy Updates From WWDC 2023! - Techlore Talks 10
   unpinned: null
   unseen: false
-  views: 507
+  views: 508
   visible: true
 - archetype: regular
   archived: false
@@ -7054,7 +7059,7 @@
   title: FINALLY! The VPN Configuration I've Been Looking For!
   unpinned: null
   unseen: false
-  views: 3398
+  views: 3399
   visible: true
 - archetype: regular
   archived: false
