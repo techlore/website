@@ -5,6 +5,46 @@
   archived: false
   bookmarked: null
   bumped: true
+  bumped_at: '2025-03-26T18:03:42.471Z'
+  can_vote: false
+  category_id: 19
+  closed: false
+  created_at: '2025-03-26T18:03:42.423Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=CvCSlixw79I
+  fancy_title: Why I&rsquo;m Mad at Microsoft
+  featured_link: https://www.youtube.com/watch?v=CvCSlixw79I
+  featured_link_root_domain: youtube.com
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 1
+  id: 13132
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/f/f0b7c62b41f23d0c6c6566e8b2c4ddbccb3cbae1_2_1024x576.jpeg
+  last_posted_at: '2025-03-26T18:03:42.471Z'
+  last_poster_username: system
+  like_count: 0
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster, Most Recent Poster
+    extras: latest single
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  posts_count: 1
+  reply_count: 0
+  slug: why-im-mad-at-microsoft
+  tags: []
+  tags_descriptions: {}
+  title: Why I'm Mad at Microsoft
+  unpinned: null
+  unseen: false
+  views: 2
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
   bumped_at: '2025-03-24T18:04:09.849Z'
   can_vote: false
   category_id: 19
@@ -129,7 +169,7 @@
   title: You Don't NEED to Self-Host for Privacy & Security
   unpinned: null
   unseen: false
-  views: 9
+  views: 10
   visible: true
 - archetype: regular
   archived: false
@@ -1175,44 +1215,4 @@
   unpinned: null
   unseen: false
   views: 6
-  visible: true
-- archetype: regular
-  archived: false
-  bookmarked: null
-  bumped: true
-  bumped_at: '2024-11-13T18:00:07.677Z'
-  can_vote: false
-  category_id: 19
-  closed: false
-  created_at: '2024-11-13T18:00:07.641Z'
-  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=1ptZBgNz5Jg
-  fancy_title: Is Linux Less Secure Than Windows &amp; Mac?
-  featured_link: https://www.youtube.com/watch?v=1ptZBgNz5Jg
-  featured_link_root_domain: youtube.com
-  has_accepted_answer: false
-  has_summary: false
-  highest_post_number: 1
-  id: 10713
-  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/6/6ebfe03c13509b214e60024cee7cfed9ecbc3e9a_2_1024x576.jpeg
-  last_posted_at: '2024-11-13T18:00:07.677Z'
-  last_poster_username: system
-  like_count: 0
-  liked: null
-  pinned: false
-  pinned_globally: false
-  posters:
-  - description: Original Poster, Most Recent Poster
-    extras: latest single
-    flair_group_id: null
-    primary_group_id: null
-    user_id: -1
-  posts_count: 1
-  reply_count: 0
-  slug: is-linux-less-secure-than-windows-mac
-  tags: []
-  tags_descriptions: {}
-  title: Is Linux Less Secure Than Windows & Mac?
-  unpinned: null
-  unseen: false
-  views: 7
   visible: true
