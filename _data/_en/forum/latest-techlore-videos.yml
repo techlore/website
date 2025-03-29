@@ -39,7 +39,7 @@
   title: Stuck on Windows 10? Here's How To Upgrade Anyway
   unpinned: null
   unseen: false
-  views: 50
+  views: 60
   visible: true
 - archetype: regular
   archived: false
@@ -84,7 +84,7 @@
   title: 'Finally! True Privacy in a Laptop: NovaCustom Review'
   unpinned: null
   unseen: false
-  views: 99
+  views: 109
   visible: true
 - archetype: regular
   archived: false
@@ -144,7 +144,7 @@
   title: Debloat Brave Browser in Minutes! | Minimal Brave Tutorial
   unpinned: null
   unseen: false
-  views: 390
+  views: 399
   visible: true
 - archetype: regular
   archived: false
@@ -259,7 +259,7 @@
   title: 8 Must-Try Alternatives to Firefox
   unpinned: null
   unseen: false
-  views: 422
+  views: 425
   visible: true
 - archetype: regular
   archived: false
@@ -379,7 +379,7 @@
   title: The 2025 Linux Tier List
   unpinned: null
   unseen: false
-  views: 477
+  views: 479
   visible: true
 - archetype: regular
   archived: false
@@ -421,7 +421,7 @@
     flair_group_id: null
     primary_group_id: null
     user_id: 2410
-  posts_count: 5
+  posts_count: 4
   reply_count: 9
   slug: encrypt-your-cloud-data-with-cryptomator-security-101
   tags: []
@@ -429,7 +429,7 @@
   title: 'Encrypt Your Cloud Data with Cryptomator: Security 101'
   unpinned: null
   unseen: false
-  views: 282
+  views: 283
   visible: true
 - archetype: regular
   archived: false
@@ -529,7 +529,7 @@
   title: 'Apple Removes iCloud E2EE in UK: What You Need to Know'
   unpinned: null
   unseen: false
-  views: 533
+  views: 534
   visible: true
 - archetype: regular
   archived: false
@@ -749,7 +749,7 @@
   title: 'BusKill: Secure Your Laptop in Seconds'
   unpinned: null
   unseen: false
-  views: 278
+  views: 279
   visible: true
 - archetype: regular
   archived: false
@@ -809,7 +809,7 @@
   title: "Lunatask: The Best Productivity Tool I\u2019ve Ever Used"
   unpinned: null
   unseen: false
-  views: 787
+  views: 790
   visible: true
 - archetype: regular
   archived: false
@@ -849,7 +849,7 @@
   title: The ULTIMATE Windows Privacy & Security Guide!
   unpinned: null
   unseen: false
-  views: 97
+  views: 98
   visible: true
 - archetype: regular
   archived: false
@@ -909,7 +909,7 @@
   title: "Why You Don\u2019t Need An Antivirus"
   unpinned: null
   unseen: false
-  views: 612
+  views: 613
   visible: true
 - archetype: regular
   archived: false
@@ -1129,7 +1129,7 @@
   title: How to Stay Private on a Budget!
   unpinned: null
   unseen: false
-  views: 769
+  views: 770
   visible: true
 - archetype: regular
   archived: false
@@ -1294,7 +1294,7 @@
   title: 'Kagi Search: Is Paying for a Search Engine Worth It?'
   unpinned: null
   unseen: false
-  views: 1125
+  views: 1131
   visible: true
 - archetype: regular
   archived: false
@@ -1334,7 +1334,7 @@
   title: "Chrome\u2019s New War: Killing Ad Blockers"
   unpinned: null
   unseen: false
-  views: 122
+  views: 123
   visible: true
 - archetype: regular
   archived: false
@@ -1384,7 +1384,7 @@
   title: "Why I switched from Firefox\u2026"
   unpinned: null
   unseen: false
-  views: 525
+  views: 526
   visible: true
 - archetype: regular
   archived: false
@@ -1649,7 +1649,7 @@
   title: 'Molly: A More Secure Signal'
   unpinned: null
   unseen: false
-  views: 220
+  views: 224
   visible: true
 - archetype: regular
   archived: false
@@ -1689,7 +1689,7 @@
   title: 'Ford''s Big Brother Patent: Ads from Your Conversations'
   unpinned: null
   unseen: false
-  views: 99
+  views: 100
   visible: true
 - archetype: regular
   archived: false
@@ -2094,7 +2094,7 @@
   title: 'Lock Down Your Signal: Ultimate Hardening Guide'
   unpinned: null
   unseen: false
-  views: 1197
+  views: 1205
   visible: true
 - archetype: regular
   archived: false
@@ -2134,7 +2134,7 @@
   title: 'Safari''s Privacy Doesn''t Even Podium! #apple #safari #privacy'
   unpinned: null
   unseen: false
-  views: 155
+  views: 156
   visible: true
 - archetype: regular
   archived: false
@@ -3002,7 +3002,7 @@
   title: 'Ditching Chrome: My Journey to a Better Mobile Browser'
   unpinned: null
   unseen: false
-  views: 785
+  views: 786
   visible: true
 - archetype: regular
   archived: false
@@ -3657,7 +3657,7 @@
   title: Why I Stopped Hardening Firefox
   unpinned: null
   unseen: false
-  views: 4349
+  views: 4355
   visible: true
 - archetype: regular
   archived: false
@@ -3757,7 +3757,7 @@
   title: 'The 2024 VPN Tier List: Privacy & Security Smackdown!'
   unpinned: null
   unseen: false
-  views: 671
+  views: 672
   visible: true
 - archetype: regular
   archived: false
@@ -4092,7 +4092,7 @@
   title: We Tried Signal's MobileCoin So You Never Have To
   unpinned: null
   unseen: false
-  views: 361
+  views: 362
   visible: true
 - archetype: regular
   archived: false
@@ -4477,23 +4477,23 @@
     extras: null
     flair_group_id: null
     primary_group_id: null
+    user_id: 859
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
     user_id: 847
   - description: Frequent Poster
     extras: null
     flair_group_id: null
     primary_group_id: null
     user_id: 1554
-  - description: Frequent Poster
-    extras: null
-    flair_group_id: null
-    primary_group_id: null
-    user_id: 1584
   - description: Most Recent Poster
     extras: latest
     flair_group_id: null
     primary_group_id: null
     user_id: 192
-  posts_count: 11
+  posts_count: 9
   reply_count: 7
   slug: signal-usernames-are-finally-coming
   tags: []
@@ -4501,7 +4501,7 @@
   title: Signal Usernames Are FINALLY Coming!
   unpinned: null
   unseen: false
-  views: 980
+  views: 982
   visible: true
 - archetype: regular
   archived: false
@@ -4881,7 +4881,7 @@
   title: 'Simplifying w/Digital Minimalism: What''s on My Phone'
   unpinned: null
   unseen: false
-  views: 1431
+  views: 1432
   visible: true
 - archetype: regular
   archived: false
@@ -4941,7 +4941,7 @@
   title: 'Get to know Punkt MP02: A Dumbphone w/Signal for your Privacy'
   unpinned: null
   unseen: false
-  views: 1567
+  views: 1569
   visible: true
 - archetype: regular
   archived: false
@@ -5293,7 +5293,7 @@
   title: The ULTIMATE Guide to Mastering NextDNS!
   unpinned: null
   unseen: false
-  views: 7955
+  views: 7959
   visible: true
 - archetype: regular
   archived: false
@@ -6106,7 +6106,7 @@
   title: 'Aurora Users: Proceed with Caution!'
   unpinned: null
   unseen: false
-  views: 845
+  views: 846
   visible: true
 - archetype: regular
   archived: false
@@ -7118,7 +7118,7 @@
   title: "Can iod\xE9OS take down stock Android? Let's Find Out!"
   unpinned: null
   unseen: false
-  views: 881
+  views: 882
   visible: true
 - archetype: regular
   archived: false
@@ -7314,7 +7314,7 @@
   title: Diving Into The World of Open Source Note-Taking! - (Notesnook Interview)
   unpinned: null
   unseen: false
-  views: 798
+  views: 799
   visible: true
 - archetype: regular
   archived: false
