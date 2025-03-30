@@ -5,6 +5,46 @@
   archived: false
   bookmarked: null
   bumped: true
+  bumped_at: '2025-03-28T18:04:13.562Z'
+  can_vote: false
+  category_id: 19
+  closed: false
+  created_at: '2025-03-28T18:04:13.524Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=BtTaw6Zl4wI
+  fancy_title: Can Google/Apple Access Data in Encrypted Apps?
+  featured_link: https://www.youtube.com/watch?v=BtTaw6Zl4wI
+  featured_link_root_domain: youtube.com
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 1
+  id: 13159
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/c/cbb2796b95dd76edd5172a7af81910a3d79f08bd_2_1024x576.jpeg
+  last_posted_at: '2025-03-28T18:04:13.562Z'
+  last_poster_username: system
+  like_count: 0
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster, Most Recent Poster
+    extras: latest single
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  posts_count: 1
+  reply_count: 0
+  slug: can-google-apple-access-data-in-encrypted-apps
+  tags: []
+  tags_descriptions: {}
+  title: Can Google/Apple Access Data in Encrypted Apps?
+  unpinned: null
+  unseen: false
+  views: 1
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
   bumped_at: '2025-03-26T18:03:42.471Z'
   can_vote: false
   category_id: 19
@@ -119,7 +159,7 @@
   title: 'Signal vs. Session: Which Secure Messenger is Best?'
   unpinned: null
   unseen: false
-  views: 9
+  views: 10
   visible: true
 - archetype: regular
   archived: false
@@ -209,7 +249,7 @@
   title: 'Storing 2FA in Your Password Manager: Is it Safe?'
   unpinned: null
   unseen: false
-  views: 12
+  views: 13
   visible: true
 - archetype: regular
   archived: false
@@ -1175,44 +1215,4 @@
   unpinned: null
   unseen: false
   views: 4
-  visible: true
-- archetype: regular
-  archived: false
-  bookmarked: null
-  bumped: true
-  bumped_at: '2024-11-15T18:04:37.913Z'
-  can_vote: false
-  category_id: 19
-  closed: false
-  created_at: '2024-11-15T18:04:37.865Z'
-  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=QShpT1m7WEk
-  fancy_title: Is iCloud Private Relay Good Enough?
-  featured_link: https://www.youtube.com/watch?v=QShpT1m7WEk
-  featured_link_root_domain: youtube.com
-  has_accepted_answer: false
-  has_summary: false
-  highest_post_number: 1
-  id: 10758
-  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/3/383a460f45824b65d5e66e9ab54164615dc1fd63_2_1024x576.jpeg
-  last_posted_at: '2024-11-15T18:04:37.913Z'
-  last_poster_username: system
-  like_count: 0
-  liked: null
-  pinned: false
-  pinned_globally: false
-  posters:
-  - description: Original Poster, Most Recent Poster
-    extras: latest single
-    flair_group_id: null
-    primary_group_id: null
-    user_id: -1
-  posts_count: 1
-  reply_count: 0
-  slug: is-icloud-private-relay-good-enough
-  tags: []
-  tags_descriptions: {}
-  title: Is iCloud Private Relay Good Enough?
-  unpinned: null
-  unseen: false
-  views: 6
   visible: true

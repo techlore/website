@@ -84,7 +84,7 @@
   title: 'Android Backdoor Exposed: 1 Million Devices at Risk'
   unpinned: null
   unseen: false
-  views: 85
+  views: 86
   visible: true
 - archetype: regular
   archived: false
@@ -144,7 +144,7 @@
   title: Is It Time to Ditch Firefox?
   unpinned: null
   unseen: false
-  views: 392
+  views: 394
   visible: true
 - archetype: regular
   archived: false
@@ -1364,5 +1364,5 @@
   title: 'Q&A: What Search Engine(s) Do We Use?'
   unpinned: null
   unseen: false
-  views: 147
+  views: 148
   visible: true
