@@ -5,7 +5,7 @@
   archived: false
   bookmarked: null
   bumped: true
-  bumped_at: '2025-03-31T18:04:31.706Z'
+  bumped_at: '2025-04-02T01:46:42.382Z'
   can_vote: false
   category_id: 19
   closed: false
@@ -16,22 +16,27 @@
   featured_link_root_domain: youtube.com
   has_accepted_answer: false
   has_summary: false
-  highest_post_number: 1
+  highest_post_number: 3
   id: 13218
   image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/3/3798841525dc9b67d86c5415d46d67128ca650ea_2_1024x576.jpeg
-  last_posted_at: '2025-03-31T18:04:31.706Z'
-  last_poster_username: system
+  last_posted_at: '2025-04-02T01:46:42.382Z'
+  last_poster_username: LightningToaster
   like_count: 0
   liked: null
   pinned: false
   pinned_globally: false
   posters:
-  - description: Original Poster, Most Recent Poster
-    extras: latest single
+  - description: Original Poster
+    extras: null
     flair_group_id: null
     primary_group_id: null
     user_id: -1
-  posts_count: 1
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 3415
+  posts_count: 3
   reply_count: 0
   slug: discord-keeps-getting-worse
   tags: []
@@ -39,7 +44,7 @@
   title: Discord Keeps Getting Worse
   unpinned: null
   unseen: false
-  views: 3
+  views: 7
   visible: true
 - archetype: regular
   archived: false

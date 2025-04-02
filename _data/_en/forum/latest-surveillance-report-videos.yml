@@ -5,6 +5,46 @@
   archived: false
   bookmarked: null
   bumped: true
+  bumped_at: '2025-04-01T23:41:17.106Z'
+  can_vote: false
+  category_id: 21
+  closed: false
+  created_at: '2025-04-01T23:41:17.050Z'
+  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/p23aNzZSsJThFngseF5WoG
+  fancy_title: 'Q&amp;A: Keeping Passwords Safe From Malware'
+  featured_link: https://neat.tube/w/p23aNzZSsJThFngseF5WoG
+  featured_link_root_domain: neat.tube
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 1
+  id: 13243
+  image_url: https://discuss.techlore.tech/uploads/default/original/2X/7/76d73dbd68ca4e80c73c7d76160f0eea42150e29.jpeg
+  last_posted_at: '2025-04-01T23:41:17.106Z'
+  last_poster_username: system
+  like_count: 0
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster, Most Recent Poster
+    extras: latest single
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  posts_count: 1
+  reply_count: 0
+  slug: q-a-keeping-passwords-safe-from-malware
+  tags: []
+  tags_descriptions: {}
+  title: 'Q&A: Keeping Passwords Safe From Malware'
+  unpinned: null
+  unseen: false
+  views: 11
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
   bumped_at: '2025-03-18T01:16:50.787Z'
   can_vote: false
   category_id: 21
@@ -84,7 +124,7 @@
   title: 'Android Backdoor Exposed: 1 Million Devices at Risk'
   unpinned: null
   unseen: false
-  views: 87
+  views: 88
   visible: true
 - archetype: regular
   archived: false
@@ -144,7 +184,7 @@
   title: Is It Time to Ditch Firefox?
   unpinned: null
   unseen: false
-  views: 396
+  views: 398
   visible: true
 - archetype: regular
   archived: false
@@ -659,7 +699,7 @@
   title: 'Telegram''s U-Turn: Years of Privacy Lies Exposed!'
   unpinned: null
   unseen: false
-  views: 183
+  views: 184
   visible: true
 - archetype: regular
   archived: false
@@ -1209,7 +1249,7 @@
   title: 3.2 Million WhatsApp Profiles EXPOSED!
   unpinned: null
   unseen: false
-  views: 169
+  views: 170
   visible: true
 - archetype: regular
   archived: false
@@ -1320,49 +1360,4 @@
   unpinned: null
   unseen: false
   views: 175
-  visible: true
-- archetype: regular
-  archived: false
-  bookmarked: null
-  bumped: true
-  bumped_at: '2024-08-15T22:51:30.747Z'
-  can_vote: false
-  category_id: 21
-  closed: false
-  created_at: '2024-08-15T16:16:29.769Z'
-  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/kGBR8SF3FA8NcgbytdBg9p
-  fancy_title: 'Q&amp;A: What Search Engine(s) Do We Use?'
-  featured_link: https://neat.tube/w/kGBR8SF3FA8NcgbytdBg9p
-  featured_link_root_domain: neat.tube
-  has_accepted_answer: false
-  has_summary: false
-  highest_post_number: 2
-  id: 9630
-  image_url: https://discuss.techlore.tech/uploads/default/original/2X/1/13e1aec23fc2fec4e01d499f8a75dd42159111c1.jpeg
-  last_posted_at: '2024-08-15T22:51:30.747Z'
-  last_poster_username: Tourma
-  like_count: 0
-  liked: null
-  pinned: false
-  pinned_globally: false
-  posters:
-  - description: Original Poster
-    extras: null
-    flair_group_id: null
-    primary_group_id: null
-    user_id: -1
-  - description: Most Recent Poster
-    extras: latest
-    flair_group_id: null
-    primary_group_id: null
-    user_id: 2394
-  posts_count: 2
-  reply_count: 0
-  slug: q-a-what-search-engine-s-do-we-use
-  tags: []
-  tags_descriptions: {}
-  title: 'Q&A: What Search Engine(s) Do We Use?'
-  unpinned: null
-  unseen: false
-  views: 148
   visible: true
