@@ -5,7 +5,7 @@
   archived: false
   bookmarked: null
   bumped: true
-  bumped_at: '2025-04-01T23:41:17.106Z'
+  bumped_at: '2025-04-02T06:01:48.958Z'
   can_vote: false
   category_id: 21
   closed: false
@@ -16,22 +16,27 @@
   featured_link_root_domain: neat.tube
   has_accepted_answer: false
   has_summary: false
-  highest_post_number: 1
+  highest_post_number: 2
   id: 13243
   image_url: https://discuss.techlore.tech/uploads/default/original/2X/7/76d73dbd68ca4e80c73c7d76160f0eea42150e29.jpeg
-  last_posted_at: '2025-04-01T23:41:17.106Z'
-  last_poster_username: system
-  like_count: 0
+  last_posted_at: '2025-04-02T06:01:48.958Z'
+  last_poster_username: unknownghost
+  like_count: 1
   liked: null
   pinned: false
   pinned_globally: false
   posters:
-  - description: Original Poster, Most Recent Poster
-    extras: latest single
+  - description: Original Poster
+    extras: null
     flair_group_id: null
     primary_group_id: null
     user_id: -1
-  posts_count: 1
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1863
+  posts_count: 2
   reply_count: 0
   slug: q-a-keeping-passwords-safe-from-malware
   tags: []
@@ -39,7 +44,7 @@
   title: 'Q&A: Keeping Passwords Safe From Malware'
   unpinned: null
   unseen: false
-  views: 11
+  views: 47
   visible: true
 - archetype: regular
   archived: false
@@ -479,7 +484,7 @@
   title: 'Q&A: Understanding Threat Modeling'
   unpinned: null
   unseen: false
-  views: 181
+  views: 182
   visible: true
 - archetype: regular
   archived: false
