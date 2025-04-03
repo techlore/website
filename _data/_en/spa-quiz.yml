@@ -216,7 +216,7 @@ data:
         slide: 3
         button:
           text: "Desktop OS"
-          url: "desktop"
+          url: "desktop-operating-systems"
       -
         answer: "Delete file metadata & EXIF"
         slide: 3
@@ -261,7 +261,7 @@ data:
         slide: 2
         button:
           text: "Desktop OS"
-          url: "desktop"
+          url: "desktop-operating-systems"
       -
         answer: "Shop online and in-person privately"
         slide: 2
