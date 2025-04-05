@@ -54,7 +54,7 @@ data:
     color: "#76bc20"
   -
     name: "Fastmail"
-    desc: "User-friendly email with better privacy than Gmail, though it lacks E2EE and other advanced privacy features. However, it's generally considered the most feature-rich option on this list."
+    desc: "User-friendly email with better privacy than Gmail. It lacks E2EE and advanced privacy features, but it's generally considered the most feature-rich option on this list."
     tags: ["Proprietary", "Paid"]
     affil: "https://join.fastmail.com/4eefa5abf01c"
     labels:

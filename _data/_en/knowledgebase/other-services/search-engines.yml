@@ -58,7 +58,7 @@ data:
     color: "#ffffff"
   -
     name: "Kagi"
-    desc: "Kagi is a paid search engine that promises privacy with an advertised sustainable business model. No ads, no tracking."
+    desc: "Kagi is a paid search engine that promises privacy with a sustainable business model. No ads, no tracking."
     tags: ["Proprietary", "Crawler", "Paid"]
     labels:
       web: "https://kagi.com/"

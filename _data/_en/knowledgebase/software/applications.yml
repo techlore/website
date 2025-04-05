@@ -37,7 +37,7 @@ data:
     favorite: true
   -
     name: "Obtainium"
-    desc: "Obtainium lets you install & update apps directly from developers, no app stores necessary,"
+    desc: "Obtainium enables you to install & update apps directly from developers, no app stores necessary."
     tags: [ "Open Source", "Android" ]
     labels:
       web: "https://obtainium.imranr.dev/"
