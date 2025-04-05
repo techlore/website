@@ -54,7 +54,7 @@ data:
     tags: ["Open Source"]
     labels:
       web: "https://cakewallet.com/"
-    color: "#ffffff"
+    color: "#e9edf1"
     favorite: true
   -
     name: "Coincards"
