@@ -57,6 +57,13 @@ data:
       web: "https://www.archlinux.org/"
     color: "#1793D1"
   -
+    name: "Linux"
+    desc: "Not every Linux distro is created equal. But almost all guarantee better privacy, digital control, and open source values. Click to use Distrochooser to help you find which distro makes sense for you."
+    tags: ["Open Source", "Linux", "Variable"]
+    labels:
+      web: "https://distrochooser.de/"
+    color: "#f7bb0a"
+  -
     name: "MacOS"
     desc: "For users unable to use Linux for one reason or another: MacOS can be a reasonably private & secure option for many threat models. Despite being proprietary, it offers decent protection and is a great alternative to Windows. Please refer to the guide below for our MacOS hardening guide."
     tags: ["Proprietary", "Apple", "Simple"]
@@ -74,10 +81,10 @@ related:
     url: "https://www.youtube.com/watch?v=lFx5icuE6Io"
     type: "video"
   -
+    title: "Distrochooser"
+    url: "https://distrochooser.de/"
+    type: "web"
+  -
     title: "Go Incognito 4.2"
     url: "https://www.youtube.com/watch?v=0wk_GlCtWW4"
-    type: "video"
-  -
-    title: "Go Incognito 4.4"
-    url: "https://www.youtube.com/watch?v=WptwYrSr8ag"
     type: "video"

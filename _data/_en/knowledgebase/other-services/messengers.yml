@@ -36,6 +36,13 @@ data:
     color: "#3a76f0"
     favorite: true
   -
+    name: "Molly"
+    desc: "Molly is an independent Signal fork for Android. You can use it alongside your regular Signal account for extra features & security perks. Keep in mind it's not officially endorsed by Signal and introduces a new party to trust."
+    tags: ["Open Source", "Android", "Free"]
+    labels:
+      web: "https://molly.im/"
+    color: "#7152FF"
+  -
     name: "SimpleX"
     desc: "SimpleX prides itself on requiring no identifiers, is decentralized, and is audited with fairly competitive features. Your data is your own with no central servers."
     tags: ["Open Source", "Android", "iOS", "Desktop", "Free"]
@@ -56,6 +63,13 @@ data:
     labels:
       web: "https://matrix.org/"
     color: "#ffffff"
+  -
+    name: "Threema"
+    desc: "Pay once, chat forever. E2EE messenger with solid practices. Open Source."
+    tags: ["Open Source", "Android", "iOS", "Desktop", "Paid"]
+    labels:
+      web: "https://threema.ch/"
+    color: "#2e2e2e"
 related:
   -
     title: "Best Messaging Apps"

@@ -53,8 +53,16 @@ data:
       web: "https://mailbox.org/"
     color: "#76bc20"
   -
+    name: "Fastmail"
+    desc: "User-friendly email with better privacy than Gmail. It lacks E2EE and advanced privacy features, but it's generally considered the most feature-rich option on this list."
+    tags: ["Proprietary", "Paid"]
+    affil: "https://join.fastmail.com/4eefa5abf01c"
+    labels:
+      web: "https://www.fastmail.com/"
+    color: "#ffffff"
+  -
     name: "Self-Host"
-    desc: "Self-hosting is commonly touted as the safest email approach, but this isn't always the case. Self-hosting comes with risks you should read in the referenced link."
+    desc: "Self-hosting is commonly touted as the safest email approach, but this isn't always the case. Self-hosting comes with risks you should read in the referenced link. Generally speaking, we do not recommend self hosting to many people."
     tags: ["Advanced", "Varying prices"]
     labels:
       web: "https://www.privacyguides.org/en/email/#self-hosting-email"
