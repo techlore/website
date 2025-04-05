@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="966px" height="966px" viewBox="0 0 966 966" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="920" height="920" rx="74"></rect>
+        <filter x="-4.0%" y="-3.5%" width="107.9%" height="107.9%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="11.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.1262427   0 0 0 0 0.233431828   0 0 0 0 0.344866071  0 0 0 0.262964221 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(23.000000, 19.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Rectangle-2">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <path d="M8,0 L912,0 C916.418278,-8.11624501e-16 920,3.581722 920,8 L920,279 C920,283.418278 916.418278,287 912,287 L627.936508,287 L8,287 C3.581722,287 3.19348364e-14,283.418278 0,279 L0,8 C-5.41083001e-16,3.581722 3.581722,8.11624501e-16 8,0 Z" id="Rectangle-4" fill="#086DD6" mask="url(#mask-2)"></path>
+            <rect id="Rectangle-5" fill="#086DD6" mask="url(#mask-2)" x="0" y="261" width="920" height="29"></rect>
+            <rect id="Rectangle-6" fill="#F2F2F2" mask="url(#mask-2)" x="99" y="388" width="719" height="71"></rect>
+            <rect id="Rectangle-6-Copy" fill="#F2F2F2" mask="url(#mask-2)" x="99" y="504" width="516" height="71"></rect>
+            <rect id="Rectangle-6-Copy-2" fill="#F2F2F2" mask="url(#mask-2)" x="99" y="614" width="639" height="71"></rect>
+            <rect id="Rectangle-6-Copy-3" fill="#F2F2F2" mask="url(#mask-2)" x="99" y="728" width="409" height="71"></rect>
+        </g>
+    </g>
+</svg>

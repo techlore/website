@@ -28,6 +28,14 @@ data:
     color: "#0082C9"
     favorite: true
   -
+    name: "Filen"
+    desc: "Open source, E2EE cloud storage with many advanced features in a fresh UI. Beyond documents, they also support photos, chats, and more!"
+    tags: ["Open Source", "Free tier"]
+    labels:
+      web: "https://filen.io/"
+    color: "#FFFFFF"
+    favorite: true
+  -
     name: "Proton Drive"
     desc: "Proton's drive offering within the Proton ecosystem with security in mind. It's still not a complete suite for every operating system, but it has basic functionality for many use-cases."
     tags: ["Open Source", "Free tier"]
@@ -49,6 +57,7 @@ data:
     labels:
       web: "https://cryptomator.org/"
     color: "#ffffff"
+    favorite: true
   -
     name: "OnionShare"
     desc: "OnionShare allows users to share files, websites, chats, and more over the Tor network directly from their system with no central parties for absolute safety."

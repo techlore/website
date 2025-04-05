@@ -36,6 +36,13 @@ data:
     color: "#000000"
     favorite: true
   -
+    name: "Standard Notes"
+    desc: "Standard Notes is a secure note-taking app with end-to-end encryption, privacy, and cross-platform syncing on unlimited devices."
+    tags: ["Open Source", "Free tier"]
+    labels:
+      web: "https://standardnotes.com/"
+    color: "#FFFFFF"
+  -
     name: "CryptPad"
     desc: "CryptPad is an E2EE, document collaboration platform."
     tags: ["Open Source", "Free tier"]

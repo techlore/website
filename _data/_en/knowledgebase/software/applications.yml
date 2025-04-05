@@ -36,6 +36,13 @@ data:
     color: "#6B62FF"
     favorite: true
   -
+    name: "Obtainium"
+    desc: "Obtainium lets you install & update apps directly from developers, no app stores necessary,"
+    tags: [ "Open Source", "Android" ]
+    labels:
+      web: "https://obtainium.imranr.dev/"
+    color: "#ebe1ff"
+  -
     name: "Exodus Privacy"
     desc: "Analyzes privacy concerns in Android applications. Many iOS applications will use similar trackers, so this is a useful tool to check trackers for applications before downloading."
     tags: [ "Open Source", "Android", "Web" ]

@@ -22,7 +22,7 @@ data:
   -
     name: "GrapheneOS"
     desc: "A private and secure mobile operating system with Android app compatibility via Sandboxed Google Play Services. Developed as a non-profit open source project."
-    tags: ["Open Source", "Only Pixel line support"]
+    tags: ["Open Source", "Only Pixels"]
     labels:
       web: "https://grapheneos.org/"
     color: "#ffffff"
@@ -30,11 +30,18 @@ data:
   -
     name: "CalyxOS"
     desc: "CalyxOS maintains quality protection for most users, while offering many usability features via MicroG for app compatibility. Developed by a non-profit Calyx Institute with moderate device compatability."
-    tags: ["Open Source", "Limited devices"]
+    tags: ["Open Source", "Some devices"]
     labels:
       web: "https://calyxos.org/"
     color: "#9BCC01"
     favorite: true
+  -
+    name: "LineageOS"
+    desc: "LineageOS is an option for those chasing a de-Googled device, with large device compatibility. Less security than GrapheneOS & CalyxOS, but also introduces OS security updates to EOL devices."
+    tags: ["Open Source", "Many devices"]
+    labels:
+      web: "https://lineageos.org/"
+    color: "#167c7f"
   -
     name: "MicroG"
     desc: "MicroG is an open source replacement to proprietary Google Play Services. It allows apps & services to work as intended in a more privacy-respecting & transparent fashion on most custom ROMs."

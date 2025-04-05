@@ -22,7 +22,7 @@ data:
   -
     name: "SearXNG"
     desc: "SearXNG is an open source, configurable, self-hostable, metasearch engine that compiles results from countless search engines in the same place."
-    tags: ["Open Source", "Metasearch"]
+    tags: ["Open Source", "Metasearch", "Free"]
     labels:
       web: "https://docs.searxng.org/"
     color: "#ffffff"
@@ -30,32 +30,39 @@ data:
   -
     name: "Brave Search"
     desc: "Brave Search indexes its own results with Brave's crawlers while respecting user privacy."
-    tags: ["Proprietary", "Crawler"]
+    tags: ["Proprietary", "Crawler", "Free"]
     labels:
       web: "https://search.brave.com/"
     color: "#FB542B"
     favorite: true
   -
     name: "Mullvad Leta"
-    desc: "Mullvad's Leta uses the Google Search API as a proxy to deliver Google results privately. It can only be accessed with an active Mullvad VPN subscription."
-    tags: ["Proprietary", "Metasearch"]
+    desc: "Mullvad's Leta uses the Google Search API as a proxy to deliver Google results privately. It also proxies Brave Search results."
+    tags: ["Proprietary", "Metasearch", "Free"]
     labels:
       web: "https://leta.mullvad.net/"
     color: "#192E45"
   -
     name: "DuckDuckGo"
     desc: "DuckDuckGo is a metasearch engine with mainly Bing results and an emphasis on user privacy."
-    tags: ["Proprietary", "Metasearch"]
+    tags: ["Proprietary", "Metasearch", "Free"]
     labels:
       web: "https://duckduckgo.com/"
     color: "#DE5833"
   -
     name: "Startpage"
     desc: "Startpage is a metasearch engine with privately proxied Google and Bing results."
-    tags: ["Proprietary", "Metasearch"]
+    tags: ["Proprietary", "Metasearch", "Free"]
     labels:
       web: "https://www.startpage.com/"
     color: "#ffffff"
+  -
+    name: "Kagi"
+    desc: "Kagi is a paid search engine that promises privacy with an advertised sustainable business model. No ads, no tracking."
+    tags: ["Proprietary", "Crawler", "Paid"]
+    labels:
+      web: "https://kagi.com/"
+    color: "#ffb318"
 related:
   -
     title: "Go Incognito 3.6"
