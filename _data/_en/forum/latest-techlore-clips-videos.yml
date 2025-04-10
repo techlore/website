@@ -5,6 +5,46 @@
   archived: false
   bookmarked: null
   bumped: true
+  bumped_at: '2025-04-09T19:03:32.763Z'
+  can_vote: false
+  category_id: 19
+  closed: false
+  created_at: '2025-04-09T19:03:32.713Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=1qz-3JHCjDk
+  fancy_title: Should You Use A VPN?
+  featured_link: https://www.youtube.com/watch?v=1qz-3JHCjDk
+  featured_link_root_domain: youtube.com
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 1
+  id: 13345
+  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/f/f4c399af8c478410bd70a49e1ab580c39507640c_2_1024x576.jpeg
+  last_posted_at: '2025-04-09T19:03:32.763Z'
+  last_poster_username: system
+  like_count: 0
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster, Most Recent Poster
+    extras: latest single
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  posts_count: 1
+  reply_count: 0
+  slug: should-you-use-a-vpn
+  tags: []
+  tags_descriptions: {}
+  title: Should You Use A VPN?
+  unpinned: null
+  unseen: false
+  views: 4
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
   bumped_at: '2025-04-07T19:08:07.506Z'
   can_vote: false
   category_id: 19
@@ -39,13 +79,13 @@
   title: Private Maps on Android (Leaving Apple/Google Behind)
   unpinned: null
   unseen: false
-  views: 5
+  views: 6
   visible: true
 - archetype: regular
   archived: false
   bookmarked: null
   bumped: true
-  bumped_at: '2025-04-04T22:44:50.720Z'
+  bumped_at: '2025-04-09T19:56:37.509Z'
   can_vote: false
   category_id: 19
   closed: false
@@ -56,10 +96,10 @@
   featured_link_root_domain: youtube.com
   has_accepted_answer: false
   has_summary: false
-  highest_post_number: 2
+  highest_post_number: 4
   id: 13273
   image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/a/a2e8d68bf7594d81bc318c3654acebf0cf06d6e4_2_1024x576.jpeg
-  last_posted_at: '2025-04-04T22:44:50.720Z'
+  last_posted_at: '2025-04-09T19:56:37.509Z'
   last_poster_username: Perpetual
   like_count: 0
   liked: null
@@ -71,20 +111,25 @@
     flair_group_id: null
     primary_group_id: null
     user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 2680
   - description: Most Recent Poster
     extras: latest
     flair_group_id: null
     primary_group_id: null
     user_id: 3348
-  posts_count: 2
-  reply_count: 0
+  posts_count: 4
+  reply_count: 1
   slug: proton-vs-tuta-why-i-cant-switch-yet
   tags: []
   tags_descriptions: {}
   title: 'Proton vs. Tuta: Why I Can''t Switch (Yet)'
   unpinned: null
   unseen: false
-  views: 16
+  views: 23
   visible: true
 - archetype: regular
   archived: false
@@ -329,7 +374,7 @@
   title: 'Signal vs. Session: Which Secure Messenger is Best?'
   unpinned: null
   unseen: false
-  views: 10
+  views: 11
   visible: true
 - archetype: regular
   archived: false
@@ -1182,46 +1227,6 @@
   tags: []
   tags_descriptions: {}
   title: Is Bluesky Actually Decentralized?
-  unpinned: null
-  unseen: false
-  views: 6
-  visible: true
-- archetype: regular
-  archived: false
-  bookmarked: null
-  bumped: true
-  bumped_at: '2024-11-27T18:03:49.850Z'
-  can_vote: false
-  category_id: 19
-  closed: false
-  created_at: '2024-11-27T18:03:49.808Z'
-  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=vY-Mv1lUR74
-  fancy_title: Is Apple Losing Its Innovation Edge?
-  featured_link: https://www.youtube.com/watch?v=vY-Mv1lUR74
-  featured_link_root_domain: youtube.com
-  has_accepted_answer: false
-  has_summary: false
-  highest_post_number: 1
-  id: 10922
-  image_url: https://discuss.techlore.tech/uploads/default/optimized/2X/7/778f37eccd7c3de348443162a69171efdf9368e7_2_1024x576.jpeg
-  last_posted_at: '2024-11-27T18:03:49.850Z'
-  last_poster_username: system
-  like_count: 0
-  liked: null
-  pinned: false
-  pinned_globally: false
-  posters:
-  - description: Original Poster, Most Recent Poster
-    extras: latest single
-    flair_group_id: null
-    primary_group_id: null
-    user_id: -1
-  posts_count: 1
-  reply_count: 0
-  slug: is-apple-losing-its-innovation-edge
-  tags: []
-  tags_descriptions: {}
-  title: Is Apple Losing Its Innovation Edge?
   unpinned: null
   unseen: false
   views: 6
