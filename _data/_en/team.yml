@@ -10,13 +10,6 @@
   photo: "henry.jpg"
   background: "henry-bg.jpg"
 -
-  name: "Jonah"
-  fullName: "Jonah Aragon"
-  bio: "Jonah is a passionate advocate for privacy, security, and digital freedom. He co-hosts the <a href=\"https://www.youtube.com/playlist?list=PL3KeV6Ui_4CZRb5Z4qZjsIGZrUWbDc3Mn\" target=\"_blank\">Techlore Talks</a> podcast, contributes to various projects, and runs the Techlore Discussions web forum. He's also known for his work outside Techlore with the <a href=\"https://www.privacyguides.org/en/\" target=\"_blank\">Privacy Guides</a> non-profit.</p>"
-  web: "https://jonaharagon.com"
-  photo: "jonah.jpg"
-  background: "jonah-bg.jpg"
--
   name: "Jordan"
   fullName: "Jordan Warne"
   bio: "Jordan is deeply interested in technology, design, and the fight for digital rights. As an editor at Techlore, they are motivated by the goal of making complex tech topics understandable and fostering discussions about online freedom."
