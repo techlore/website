@@ -126,13 +126,17 @@ sass:
   sourcemap: development
 
 # -----------------------------------------
+# Blog settings
+#
+permalink: /blog/:title/
+
+# -----------------------------------------
 # Collection settings
 #
 collections:
   guides:
     output: true
     permalink: /guides/:name
-collections_dir: videos
 
 # -----------------------------------------
 # Archive settings
