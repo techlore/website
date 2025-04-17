@@ -39,7 +39,7 @@
   title: Should You Use A VPN?
   unpinned: null
   unseen: false
-  views: 6
+  views: 8
   visible: true
 - archetype: regular
   archived: false
@@ -79,7 +79,7 @@
   title: Private Maps on Android (Leaving Apple/Google Behind)
   unpinned: null
   unseen: false
-  views: 9
+  views: 11
   visible: true
 - archetype: regular
   archived: false
@@ -374,7 +374,7 @@
   title: 'Signal vs. Session: Which Secure Messenger is Best?'
   unpinned: null
   unseen: false
-  views: 11
+  views: 12
   visible: true
 - archetype: regular
   archived: false
