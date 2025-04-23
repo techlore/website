@@ -39,7 +39,7 @@
   title: Stuck on Windows 10? Here's How To Upgrade Anyway
   unpinned: null
   unseen: false
-  views: 243
+  views: 252
   visible: true
 - archetype: regular
   archived: false
@@ -94,7 +94,7 @@
   title: 'Finally! True Privacy in a Laptop: NovaCustom Review'
   unpinned: null
   unseen: false
-  views: 453
+  views: 459
   visible: true
 - archetype: regular
   archived: false
@@ -154,7 +154,7 @@
   title: Debloat Brave Browser in Minutes! | Minimal Brave Tutorial
   unpinned: null
   unseen: false
-  views: 565
+  views: 573
   visible: true
 - archetype: regular
   archived: false
@@ -214,7 +214,7 @@
   title: Privacy WIN! Apple & Android Unite for Secure Messaging
   unpinned: null
   unseen: false
-  views: 362
+  views: 363
   visible: true
 - archetype: regular
   archived: false
@@ -269,7 +269,7 @@
   title: 8 Must-Try Alternatives to Firefox
   unpinned: null
   unseen: false
-  views: 464
+  views: 466
   visible: true
 - archetype: regular
   archived: false
@@ -329,7 +329,7 @@
   title: 'Breaking: Apple Battles the UK Encryption Backdoor'
   unpinned: null
   unseen: false
-  views: 171
+  views: 172
   visible: true
 - archetype: regular
   archived: false
@@ -389,7 +389,7 @@
   title: The 2025 Linux Tier List
   unpinned: null
   unseen: false
-  views: 516
+  views: 517
   visible: true
 - archetype: regular
   archived: false
@@ -654,7 +654,7 @@
   title: The ULTIMATE macOS Privacy & Security Guide!
   unpinned: null
   unseen: false
-  views: 481
+  views: 483
   visible: true
 - archetype: regular
   archived: false
@@ -699,7 +699,7 @@
   title: 'Upgrade Your Security: 4 Best Password Managers'
   unpinned: null
   unseen: false
-  views: 407
+  views: 409
   visible: true
 - archetype: regular
   archived: false
@@ -819,7 +819,7 @@
   title: "Lunatask: The Best Productivity Tool I\u2019ve Ever Used"
   unpinned: null
   unseen: false
-  views: 895
+  views: 896
   visible: true
 - archetype: regular
   archived: false
@@ -919,7 +919,7 @@
   title: "Why You Don\u2019t Need An Antivirus"
   unpinned: null
   unseen: false
-  views: 624
+  views: 625
   visible: true
 - archetype: regular
   archived: false
@@ -1079,7 +1079,7 @@
   title: Best Black Friday Deals to Protect Your Privacy!
   unpinned: null
   unseen: false
-  views: 601
+  views: 602
   visible: true
 - archetype: regular
   archived: false
@@ -1304,7 +1304,7 @@
   title: 'Kagi Search: Is Paying for a Search Engine Worth It?'
   unpinned: null
   unseen: false
-  views: 1230
+  views: 1232
   visible: true
 - archetype: regular
   archived: false
@@ -1784,7 +1784,7 @@
   title: The Future of Notes is Private! - Abdullah Atta/Notesnook Interview
   unpinned: null
   unseen: false
-  views: 111
+  views: 112
   visible: true
 - archetype: regular
   archived: false
@@ -1904,7 +1904,7 @@
   - description: Frequent Poster
     extras: null
     flair_group_id: 43
-    primary_group_id: 43
+    primary_group_id: 41
     user_id: 1
   - description: Most Recent Poster
     extras: latest
@@ -2104,7 +2104,7 @@
   title: 'Lock Down Your Signal: Ultimate Hardening Guide'
   unpinned: null
   unseen: false
-  views: 1423
+  views: 1430
   visible: true
 - archetype: regular
   archived: false
@@ -2144,7 +2144,7 @@
   title: 'Safari''s Privacy Doesn''t Even Podium! #apple #safari #privacy'
   unpinned: null
   unseen: false
-  views: 158
+  views: 160
   visible: true
 - archetype: regular
   archived: false
@@ -2419,7 +2419,7 @@
   - description: Frequent Poster
     extras: null
     flair_group_id: 43
-    primary_group_id: 43
+    primary_group_id: 41
     user_id: 1
   - description: Frequent Poster
     extras: null
@@ -2484,7 +2484,7 @@
   title: Who Runs Your Email? Revealing Tuta's Security with Hanna Bozakov
   unpinned: null
   unseen: false
-  views: 14
+  views: 15
   visible: true
 - archetype: regular
   archived: false
@@ -2584,7 +2584,7 @@
   title: Privacy-Friendly Security Cameras...Synology Did It!
   unpinned: null
   unseen: false
-  views: 468
+  views: 469
   visible: true
 - archetype: regular
   archived: false
@@ -2830,7 +2830,7 @@
   - description: Frequent Poster
     extras: null
     flair_group_id: 43
-    primary_group_id: 43
+    primary_group_id: 41
     user_id: 1
   - description: Frequent Poster
     extras: null
@@ -3007,7 +3007,7 @@
   title: 'Ditching Chrome: My Journey to a Better Mobile Browser'
   unpinned: null
   unseen: false
-  views: 790
+  views: 791
   visible: true
 - archetype: regular
   archived: false
@@ -3197,7 +3197,7 @@
   title: Signal Usernames Have Arrived!
   unpinned: null
   unseen: false
-  views: 756
+  views: 757
   visible: true
 - archetype: regular
   archived: false
@@ -3662,7 +3662,7 @@
   title: Why I Stopped Hardening Firefox
   unpinned: null
   unseen: false
-  views: 4481
+  views: 4489
   visible: true
 - archetype: regular
   archived: false
@@ -3762,7 +3762,7 @@
   title: 'The 2024 VPN Tier List: Privacy & Security Smackdown!'
   unpinned: null
   unseen: false
-  views: 678
+  views: 679
   visible: true
 - archetype: regular
   archived: false
@@ -4275,7 +4275,7 @@
   - description: Original Poster
     extras: null
     flair_group_id: 43
-    primary_group_id: 43
+    primary_group_id: 41
     user_id: 1
   - description: Frequent Poster
     extras: null
@@ -4556,7 +4556,7 @@
   - description: Most Recent Poster
     extras: latest
     flair_group_id: 43
-    primary_group_id: 43
+    primary_group_id: 41
     user_id: 1
   posts_count: 10
   reply_count: 5
@@ -4751,7 +4751,7 @@
   - description: Frequent Poster
     extras: null
     flair_group_id: 43
-    primary_group_id: 43
+    primary_group_id: 41
     user_id: 1
   - description: Most Recent Poster
     extras: latest
@@ -4886,7 +4886,7 @@
   title: 'Simplifying w/Digital Minimalism: What''s on My Phone'
   unpinned: null
   unseen: false
-  views: 1448
+  views: 1449
   visible: true
 - archetype: regular
   archived: false
@@ -4946,7 +4946,7 @@
   title: 'Get to know Punkt MP02: A Dumbphone w/Signal for your Privacy'
   unpinned: null
   unseen: false
-  views: 1623
+  views: 1628
   visible: true
 - archetype: regular
   archived: false
@@ -5138,7 +5138,7 @@
   title: 'Why Browser Wars Are Silly: Here''s What Matters!'
   unpinned: null
   unseen: false
-  views: 1473
+  views: 1474
   visible: true
 - archetype: regular
   archived: false
@@ -5223,7 +5223,7 @@
   - description: Frequent Poster
     extras: null
     flair_group_id: 43
-    primary_group_id: 43
+    primary_group_id: 41
     user_id: 1
   - description: Most Recent Poster
     extras: latest
@@ -5298,7 +5298,7 @@
   title: The ULTIMATE Guide to Mastering NextDNS!
   unpinned: null
   unseen: false
-  views: 8027
+  views: 8032
   visible: true
 - archetype: regular
   archived: false
@@ -5468,7 +5468,7 @@
   title: My Primary Complaint with Signal
   unpinned: null
   unseen: false
-  views: 739
+  views: 740
   visible: true
 - archetype: regular
   archived: false
@@ -5661,7 +5661,7 @@
   - description: Frequent Poster
     extras: null
     flair_group_id: 43
-    primary_group_id: 43
+    primary_group_id: 41
     user_id: 1
   - description: Frequent Poster
     extras: null
@@ -5991,7 +5991,7 @@
   - description: Most Recent Poster
     extras: latest
     flair_group_id: 43
-    primary_group_id: 43
+    primary_group_id: 41
     user_id: 1
   posts_count: 15
   reply_count: 7
@@ -6361,7 +6361,7 @@
   - description: Frequent Poster
     extras: null
     flair_group_id: 43
-    primary_group_id: 43
+    primary_group_id: 41
     user_id: 1
   - description: Frequent Poster
     extras: null
@@ -6587,7 +6587,7 @@
   title: How to CRUSH DATA BROKERS with Rob Shavell from DeleteMe
   unpinned: null
   unseen: false
-  views: 390
+  views: 391
   visible: true
 - archetype: regular
   archived: false
@@ -6631,7 +6631,7 @@
   - description: Frequent Poster
     extras: null
     flair_group_id: 43
-    primary_group_id: 43
+    primary_group_id: 41
     user_id: 1
   - description: Most Recent Poster
     extras: latest
@@ -7064,7 +7064,7 @@
   title: FINALLY! The VPN Configuration I've Been Looking For!
   unpinned: null
   unseen: false
-  views: 3415
+  views: 3417
   visible: true
 - archetype: regular
   archived: false
@@ -7123,7 +7123,7 @@
   title: "Can iod\xE9OS take down stock Android? Let's Find Out!"
   unpinned: null
   unseen: false
-  views: 893
+  views: 894
   visible: true
 - archetype: regular
   archived: false
@@ -7559,7 +7559,7 @@
   - description: Frequent Poster
     extras: null
     flair_group_id: 43
-    primary_group_id: 43
+    primary_group_id: 41
     user_id: 1
   - description: Frequent Poster
     extras: null
