@@ -6,7 +6,6 @@
   bookmarked: null
   bumped: true
   bumped_at: '2025-04-02T06:01:48.958Z'
-  can_vote: false
   category_id: 21
   closed: false
   created_at: '2025-04-01T23:41:17.050Z'
@@ -18,7 +17,7 @@
   has_summary: false
   highest_post_number: 2
   id: 13243
-  image_url: https://discuss.techlore.tech/uploads/default/original/2X/7/76d73dbd68ca4e80c73c7d76160f0eea42150e29.jpeg
+  image_url: null
   last_posted_at: '2025-04-02T06:01:48.958Z'
   last_poster_username: unknownghost
   like_count: 1
@@ -51,7 +50,6 @@
   bookmarked: null
   bumped: true
   bumped_at: '2025-03-18T01:16:50.787Z'
-  can_vote: false
   category_id: 21
   closed: false
   created_at: '2025-03-18T01:16:50.739Z'
@@ -63,7 +61,7 @@
   has_summary: false
   highest_post_number: 1
   id: 12977
-  image_url: https://discuss.techlore.tech/uploads/default/original/2X/8/8a3627b2f58cec69c313f6662fe0f12f35c3b435.jpeg
+  image_url: null
   last_posted_at: '2025-03-18T01:16:50.787Z'
   last_poster_username: system
   like_count: 1
@@ -91,7 +89,6 @@
   bookmarked: null
   bumped: true
   bumped_at: '2025-03-14T13:02:55.936Z'
-  can_vote: false
   category_id: 21
   closed: false
   created_at: '2025-03-14T08:16:32.601Z'
@@ -103,7 +100,7 @@
   has_summary: false
   highest_post_number: 2
   id: 12917
-  image_url: https://discuss.techlore.tech/uploads/default/original/2X/f/f8c10206924375fcbe39056881e4baa0a5f03bf7.jpeg
+  image_url: null
   last_posted_at: '2025-03-14T13:02:55.936Z'
   last_poster_username: unknownghost
   like_count: 1
@@ -136,11 +133,11 @@
   bookmarked: null
   bumped: true
   bumped_at: '2025-03-08T17:34:59.423Z'
-  can_vote: false
   category_id: 21
   closed: false
   created_at: '2025-03-06T18:31:35.240Z'
-  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/4HLqLkZnE4Mi8WGX8r247R
+  excerpt: "https://neat.tube/w/4HLqLkZnE4Mi8WGX8r247R \n\nThis is a companion discussion\
+    \ topic for the original entry at https://neat.tube/w/4HLqLkZnE4Mi8WGX8r247R"
   fancy_title: Is It Time to Ditch Firefox?
   featured_link: https://neat.tube/w/4HLqLkZnE4Mi8WGX8r247R
   featured_link_root_domain: neat.tube
@@ -148,7 +145,7 @@
   has_summary: false
   highest_post_number: 11
   id: 12763
-  image_url: https://discuss.techlore.tech/uploads/default/original/2X/8/84f48a28858e5f1d5822c38eec6e3d68abc4a872.jpeg
+  image_url: null
   last_posted_at: '2025-03-08T17:34:59.423Z'
   last_poster_username: Tourma
   like_count: 15
@@ -196,11 +193,11 @@
   bookmarked: null
   bumped: true
   bumped_at: '2024-12-22T15:08:55.609Z'
-  can_vote: false
   category_id: 21
   closed: false
   created_at: '2024-12-20T07:31:22.718Z'
-  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/rYZLMZUJrdU3seDFBiLHF1
+  excerpt: "https://neat.tube/w/rYZLMZUJrdU3seDFBiLHF1 \n\nThis is a companion discussion\
+    \ topic for the original entry at https://neat.tube/w/rYZLMZUJrdU3seDFBiLHF1"
   fancy_title: 'Q&amp;A: How to REALLY Secure Your Password Manager'
   featured_link: https://neat.tube/w/rYZLMZUJrdU3seDFBiLHF1
   featured_link_root_domain: neat.tube
@@ -208,7 +205,7 @@
   has_summary: false
   highest_post_number: 4
   id: 11254
-  image_url: https://discuss.techlore.tech/uploads/default/original/2X/1/11de3beb831c7dab5599f7378bd6b320c4ba5b18.jpeg
+  image_url: null
   last_posted_at: '2024-12-22T15:08:55.609Z'
   last_poster_username: Mohamad20ZX
   like_count: 2
@@ -246,11 +243,11 @@
   bookmarked: null
   bumped: true
   bumped_at: '2024-12-17T10:21:49.445Z'
-  can_vote: false
   category_id: 21
   closed: false
   created_at: '2024-12-17T10:21:49.408Z'
-  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/bHqiWr5ERjDoMnZ32C5y9U
+  excerpt: "https://neat.tube/w/bHqiWr5ERjDoMnZ32C5y9U \n\nThis is a companion discussion\
+    \ topic for the original entry at https://neat.tube/w/bHqiWr5ERjDoMnZ32C5y9U"
   fancy_title: How is Recall STILL This Bad?!
   featured_link: https://neat.tube/w/bHqiWr5ERjDoMnZ32C5y9U
   featured_link_root_domain: neat.tube
@@ -258,7 +255,7 @@
   has_summary: false
   highest_post_number: 1
   id: 11192
-  image_url: https://discuss.techlore.tech/uploads/default/original/2X/7/75fc56672c3b80df51024d527314c50141a73957.jpeg
+  image_url: null
   last_posted_at: '2024-12-17T10:21:49.445Z'
   last_poster_username: system
   like_count: 3
@@ -286,11 +283,11 @@
   bookmarked: null
   bumped: true
   bumped_at: '2024-12-12T16:46:48.888Z'
-  can_vote: false
   category_id: 21
   closed: false
   created_at: '2024-12-12T16:46:48.839Z'
-  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/irCG1Rx6PQ8gZdag1Wj4Np
+  excerpt: "https://neat.tube/w/irCG1Rx6PQ8gZdag1Wj4Np \n\nThis is a companion discussion\
+    \ topic for the original entry at https://neat.tube/w/irCG1Rx6PQ8gZdag1Wj4Np"
   fancy_title: 'Q&amp;A: What&rsquo;s the Best Antirivus for Linux?'
   featured_link: https://neat.tube/w/irCG1Rx6PQ8gZdag1Wj4Np
   featured_link_root_domain: neat.tube
@@ -298,7 +295,7 @@
   has_summary: false
   highest_post_number: 1
   id: 11113
-  image_url: https://discuss.techlore.tech/uploads/default/original/2X/9/9af5dfd3f25596390af9b082e59e55cc4f0403e9.jpeg
+  image_url: null
   last_posted_at: '2024-12-12T16:46:48.888Z'
   last_poster_username: system
   like_count: 2
@@ -326,11 +323,11 @@
   bookmarked: null
   bumped: true
   bumped_at: '2024-11-28T23:26:33.759Z'
-  can_vote: false
   category_id: 21
   closed: false
   created_at: '2024-11-28T23:26:33.722Z'
-  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/m7CsEpXhyrCHCxCg7Xsp1Y
+  excerpt: "https://neat.tube/w/m7CsEpXhyrCHCxCg7Xsp1Y \n\nThis is a companion discussion\
+    \ topic for the original entry at https://neat.tube/w/m7CsEpXhyrCHCxCg7Xsp1Y"
   fancy_title: 'Q&amp;A: Undoing Years of Not Caring About Privacy'
   featured_link: https://neat.tube/w/m7CsEpXhyrCHCxCg7Xsp1Y
   featured_link_root_domain: neat.tube
@@ -338,7 +335,7 @@
   has_summary: false
   highest_post_number: 1
   id: 10939
-  image_url: https://discuss.techlore.tech/uploads/default/original/2X/4/4a201baeb4ab96bc037b649ef1e18061909b5dc1.jpeg
+  image_url: null
   last_posted_at: '2024-11-28T23:26:33.759Z'
   last_poster_username: system
   like_count: 0
@@ -359,18 +356,18 @@
   title: 'Q&A: Undoing Years of Not Caring About Privacy'
   unpinned: null
   unseen: false
-  views: 131
+  views: 132
   visible: true
 - archetype: regular
   archived: false
   bookmarked: null
   bumped: true
   bumped_at: '2024-11-27T09:17:02.112Z'
-  can_vote: false
   category_id: 21
   closed: false
   created_at: '2024-11-27T09:17:02.075Z'
-  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/tzF595gwCjLbvEfJSvh9WB
+  excerpt: "https://neat.tube/w/tzF595gwCjLbvEfJSvh9WB \n\nThis is a companion discussion\
+    \ topic for the original entry at https://neat.tube/w/tzF595gwCjLbvEfJSvh9WB"
   fancy_title: Another Phone Hacking Software Exposed!
   featured_link: https://neat.tube/w/tzF595gwCjLbvEfJSvh9WB
   featured_link_root_domain: neat.tube
@@ -378,7 +375,7 @@
   has_summary: false
   highest_post_number: 1
   id: 10909
-  image_url: https://discuss.techlore.tech/uploads/default/original/2X/6/6821e0548eee8e2cbddaf98c76cc62f8bc6ccb64.jpeg
+  image_url: null
   last_posted_at: '2024-11-27T09:17:02.112Z'
   last_poster_username: system
   like_count: 2
@@ -406,11 +403,11 @@
   bookmarked: null
   bumped: true
   bumped_at: '2024-11-19T10:41:48.370Z'
-  can_vote: false
   category_id: 21
   closed: false
   created_at: '2024-11-19T10:41:48.330Z'
-  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/c7QgctNNLKbd96LgE5QSKf
+  excerpt: "https://neat.tube/w/c7QgctNNLKbd96LgE5QSKf \n\nThis is a companion discussion\
+    \ topic for the original entry at https://neat.tube/w/c7QgctNNLKbd96LgE5QSKf"
   fancy_title: Apple&rsquo;s Unannounced Security Game-Changer!
   featured_link: https://neat.tube/w/c7QgctNNLKbd96LgE5QSKf
   featured_link_root_domain: neat.tube
@@ -418,7 +415,7 @@
   has_summary: false
   highest_post_number: 1
   id: 10804
-  image_url: https://discuss.techlore.tech/uploads/default/original/2X/5/509a9e4c1d1f0b7d5dd8fe1ba60dd8aaf53e0792.jpeg
+  image_url: null
   last_posted_at: '2024-11-19T10:41:48.370Z'
   last_poster_username: system
   like_count: 3
@@ -446,11 +443,11 @@
   bookmarked: null
   bumped: true
   bumped_at: '2024-11-10T20:35:01.981Z'
-  can_vote: false
   category_id: 21
   closed: false
   created_at: '2024-11-06T22:16:35.911Z'
-  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/ubrcq7tHrJv8NpvGRH6i9J
+  excerpt: "https://neat.tube/w/ubrcq7tHrJv8NpvGRH6i9J \n\nThis is a companion discussion\
+    \ topic for the original entry at https://neat.tube/w/ubrcq7tHrJv8NpvGRH6i9J"
   fancy_title: 'Q&amp;A: Understanding Threat Modeling'
   featured_link: https://neat.tube/w/ubrcq7tHrJv8NpvGRH6i9J
   featured_link_root_domain: neat.tube
@@ -458,7 +455,7 @@
   has_summary: false
   highest_post_number: 2
   id: 10621
-  image_url: https://discuss.techlore.tech/uploads/default/original/2X/0/025b75e00358e7cb1c803eb1d6bbc4b2084a0f2b.jpeg
+  image_url: null
   last_posted_at: '2024-11-10T20:35:01.981Z'
   last_poster_username: andbenn
   like_count: 2
@@ -491,11 +488,11 @@
   bookmarked: null
   bumped: true
   bumped_at: '2024-11-05T16:31:49.864Z'
-  can_vote: false
   category_id: 21
   closed: false
   created_at: '2024-11-05T16:31:49.812Z'
-  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/ifRCs9wR35HbCtXcWY3vN7
+  excerpt: "https://neat.tube/w/ifRCs9wR35HbCtXcWY3vN7 \n\nThis is a companion discussion\
+    \ topic for the original entry at https://neat.tube/w/ifRCs9wR35HbCtXcWY3vN7"
   fancy_title: Is Your Workout Compromising Your Privacy?
   featured_link: https://neat.tube/w/ifRCs9wR35HbCtXcWY3vN7
   featured_link_root_domain: neat.tube
@@ -503,7 +500,7 @@
   has_summary: false
   highest_post_number: 1
   id: 10595
-  image_url: https://discuss.techlore.tech/uploads/default/original/2X/e/e7e563cb6973740eb8e0f97590f97a6e192d0246.jpeg
+  image_url: null
   last_posted_at: '2024-11-05T16:31:49.864Z'
   last_poster_username: system
   like_count: 0
@@ -531,11 +528,11 @@
   bookmarked: null
   bumped: true
   bumped_at: '2024-10-30T19:46:58.563Z'
-  can_vote: false
   category_id: 21
   closed: false
   created_at: '2024-10-30T19:46:58.524Z'
-  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/u7tmPjLoJ6kL37RschgEdv
+  excerpt: "https://neat.tube/w/u7tmPjLoJ6kL37RschgEdv \n\nThis is a companion discussion\
+    \ topic for the original entry at https://neat.tube/w/u7tmPjLoJ6kL37RschgEdv"
   fancy_title: 'Q&amp;A: Private Shopping Tips for the Holidays'
   featured_link: https://neat.tube/w/u7tmPjLoJ6kL37RschgEdv
   featured_link_root_domain: neat.tube
@@ -543,7 +540,7 @@
   has_summary: false
   highest_post_number: 1
   id: 10517
-  image_url: https://discuss.techlore.tech/uploads/default/original/2X/f/fb6a9d8c9414144ac9a793dee8659dd3f9121266.jpeg
+  image_url: null
   last_posted_at: '2024-10-30T19:46:58.563Z'
   last_poster_username: system
   like_count: 2
@@ -571,11 +568,11 @@
   bookmarked: null
   bumped: true
   bumped_at: '2024-10-28T08:51:17.361Z'
-  can_vote: false
   category_id: 21
   closed: false
   created_at: '2024-10-28T08:51:17.317Z'
-  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/97qdCncN2sMw54o26Ej2HT
+  excerpt: "https://neat.tube/w/97qdCncN2sMw54o26Ej2HT \n\nThis is a companion discussion\
+    \ topic for the original entry at https://neat.tube/w/97qdCncN2sMw54o26Ej2HT"
   fancy_title: Is Your Cloud Still Safe?!
   featured_link: https://neat.tube/w/97qdCncN2sMw54o26Ej2HT
   featured_link_root_domain: neat.tube
@@ -583,7 +580,7 @@
   has_summary: false
   highest_post_number: 1
   id: 10488
-  image_url: https://discuss.techlore.tech/uploads/default/original/2X/4/47757f6a5ee406f84872dda866a802f537d21ac5.jpeg
+  image_url: null
   last_posted_at: '2024-10-28T08:51:17.361Z'
   last_poster_username: system
   like_count: 0
@@ -611,11 +608,11 @@
   bookmarked: null
   bumped: true
   bumped_at: '2024-10-10T09:54:57.914Z'
-  can_vote: false
   category_id: 21
   closed: false
   created_at: '2024-10-09T21:41:27.149Z'
-  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/tS1NHECTRQ4V6fQHgVFVi5
+  excerpt: "https://neat.tube/w/tS1NHECTRQ4V6fQHgVFVi5 \n\nThis is a companion discussion\
+    \ topic for the original entry at https://neat.tube/w/tS1NHECTRQ4V6fQHgVFVi5"
   fancy_title: 'Q&amp;A: Why No Love For Beeper?'
   featured_link: https://neat.tube/w/tS1NHECTRQ4V6fQHgVFVi5
   featured_link_root_domain: neat.tube
@@ -623,7 +620,7 @@
   has_summary: false
   highest_post_number: 2
   id: 10277
-  image_url: https://discuss.techlore.tech/uploads/default/original/2X/c/c6e296eb46a04b412997e9fb8933f4ce6e654c19.jpeg
+  image_url: null
   last_posted_at: '2024-10-10T09:54:57.914Z'
   last_poster_username: Alastal
   like_count: 3
@@ -656,11 +653,11 @@
   bookmarked: null
   bumped: true
   bumped_at: '2024-10-07T15:43:58.505Z'
-  can_vote: false
   category_id: 21
   closed: false
   created_at: '2024-10-07T10:46:38.860Z'
-  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/secDHubvsTQAJViCNe44G2
+  excerpt: "https://neat.tube/w/secDHubvsTQAJViCNe44G2 \n\nThis is a companion discussion\
+    \ topic for the original entry at https://neat.tube/w/secDHubvsTQAJViCNe44G2"
   fancy_title: 'Telegram&rsquo;s U-Turn: Years of Privacy Lies Exposed!'
   featured_link: https://neat.tube/w/secDHubvsTQAJViCNe44G2
   featured_link_root_domain: neat.tube
@@ -668,7 +665,7 @@
   has_summary: false
   highest_post_number: 6
   id: 10251
-  image_url: https://discuss.techlore.tech/uploads/default/original/2X/8/8dad5516625a7044e38c25047db01015a3bccfb2.jpeg
+  image_url: null
   last_posted_at: '2024-10-07T15:43:58.505Z'
   last_poster_username: Henry
   like_count: 4
@@ -711,11 +708,11 @@
   bookmarked: null
   bumped: true
   bumped_at: '2024-10-03T22:45:22.015Z'
-  can_vote: false
   category_id: 21
   closed: false
   created_at: '2024-10-02T17:31:52.032Z'
-  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/uRCqXuxafYrJ4nRfCwjiEW
+  excerpt: "https://neat.tube/w/uRCqXuxafYrJ4nRfCwjiEW \n\nThis is a companion discussion\
+    \ topic for the original entry at https://neat.tube/w/uRCqXuxafYrJ4nRfCwjiEW"
   fancy_title: 'Q&amp;A: Why Should People Use Signal?'
   featured_link: https://neat.tube/w/uRCqXuxafYrJ4nRfCwjiEW
   featured_link_root_domain: neat.tube
@@ -723,7 +720,7 @@
   has_summary: false
   highest_post_number: 5
   id: 10197
-  image_url: https://discuss.techlore.tech/uploads/default/original/2X/d/d29f5f59b666bc70fee8b65d605d40d1e2d85449.jpeg
+  image_url: null
   last_posted_at: '2024-10-03T22:45:22.015Z'
   last_poster_username: Henry
   like_count: 7
@@ -771,11 +768,11 @@
   bookmarked: null
   bumped: true
   bumped_at: '2024-10-02T01:34:48.053Z'
-  can_vote: false
   category_id: 21
   closed: false
   created_at: '2024-09-30T04:16:52.833Z'
-  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/rQHsMBVPBoUsseojNrMn8A
+  excerpt: "https://neat.tube/w/rQHsMBVPBoUsseojNrMn8A \n\nThis is a companion discussion\
+    \ topic for the original entry at https://neat.tube/w/rQHsMBVPBoUsseojNrMn8A"
   fancy_title: Windows Recall Is Back! Did Microsoft Fix It?
   featured_link: https://neat.tube/w/rQHsMBVPBoUsseojNrMn8A
   featured_link_root_domain: neat.tube
@@ -783,7 +780,7 @@
   has_summary: false
   highest_post_number: 3
   id: 10166
-  image_url: https://discuss.techlore.tech/uploads/default/original/2X/8/86c2b0ec197a963565b0766bde3e47d0a93a5e3f.jpeg
+  image_url: null
   last_posted_at: '2024-10-02T01:34:48.053Z'
   last_poster_username: Tourma
   like_count: 1
@@ -821,11 +818,11 @@
   bookmarked: null
   bumped: true
   bumped_at: '2024-09-25T20:21:13.967Z'
-  can_vote: false
   category_id: 21
   closed: false
   created_at: '2024-09-25T20:21:13.929Z'
-  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/dZgDNE9FdTjZbHKWGBYrow
+  excerpt: "https://neat.tube/w/dZgDNE9FdTjZbHKWGBYrow \n\nThis is a companion discussion\
+    \ topic for the original entry at https://neat.tube/w/dZgDNE9FdTjZbHKWGBYrow"
   fancy_title: 'Q&amp;A: Security Through Obscurity'
   featured_link: https://neat.tube/w/dZgDNE9FdTjZbHKWGBYrow
   featured_link_root_domain: neat.tube
@@ -833,7 +830,7 @@
   has_summary: false
   highest_post_number: 1
   id: 10123
-  image_url: https://discuss.techlore.tech/uploads/default/original/2X/7/7dad805435dc2f5ba7da999399850498afcc3d1d.jpeg
+  image_url: null
   last_posted_at: '2024-09-25T20:21:13.967Z'
   last_poster_username: system
   like_count: 0
@@ -861,11 +858,11 @@
   bookmarked: null
   bumped: true
   bumped_at: '2024-09-23T08:01:57.085Z'
-  can_vote: false
   category_id: 21
   closed: false
   created_at: '2024-09-23T08:01:57.048Z'
-  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/ox9tjq7MaYjJH1v5NupcVJ
+  excerpt: "https://neat.tube/w/ox9tjq7MaYjJH1v5NupcVJ \n\nThis is a companion discussion\
+    \ topic for the original entry at https://neat.tube/w/ox9tjq7MaYjJH1v5NupcVJ"
   fancy_title: New Discord Feature is a HUGE Privacy Win! But
   featured_link: https://neat.tube/w/ox9tjq7MaYjJH1v5NupcVJ
   featured_link_root_domain: neat.tube
@@ -873,7 +870,7 @@
   has_summary: false
   highest_post_number: 1
   id: 10094
-  image_url: https://discuss.techlore.tech/uploads/default/original/2X/7/76ba51e4289a9e8a9611fab35c415b17b7697a3a.jpeg
+  image_url: null
   last_posted_at: '2024-09-23T08:01:57.085Z'
   last_poster_username: system
   like_count: 1
@@ -901,7 +898,6 @@
   bookmarked: null
   bumped: true
   bumped_at: '2024-09-21T10:52:51.898Z'
-  can_vote: false
   category_id: 21
   closed: false
   created_at: '2024-09-19T04:56:45.341Z'
@@ -913,7 +909,7 @@
   has_summary: false
   highest_post_number: 5
   id: 10037
-  image_url: https://discuss.techlore.tech/uploads/default/original/2X/1/12c381ca77a85178e813dae8b7abbf8cb71fad2e.jpeg
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/1/12c381ca77a85178e813dae8b7abbf8cb71fad2e.jpeg
   last_posted_at: '2024-09-21T09:53:31.559Z'
   last_poster_username: Acolyte
   like_count: 10
@@ -961,7 +957,6 @@
   bookmarked: null
   bumped: true
   bumped_at: '2024-09-16T05:46:38.314Z'
-  can_vote: false
   category_id: 21
   closed: false
   created_at: '2024-09-16T05:46:38.271Z'
@@ -973,7 +968,7 @@
   has_summary: false
   highest_post_number: 1
   id: 9973
-  image_url: https://discuss.techlore.tech/uploads/default/original/2X/7/7d43d52eeb68dae856b5f387508a0c24c2c1909d.jpeg
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/7/7d43d52eeb68dae856b5f387508a0c24c2c1909d.jpeg
   last_posted_at: '2024-09-16T05:46:38.314Z'
   last_poster_username: system
   like_count: 1
@@ -1001,7 +996,6 @@
   bookmarked: null
   bumped: true
   bumped_at: '2024-09-11T22:56:46.460Z'
-  can_vote: false
   category_id: 21
   closed: false
   created_at: '2024-09-11T22:56:46.419Z'
@@ -1013,7 +1007,7 @@
   has_summary: false
   highest_post_number: 1
   id: 9916
-  image_url: https://discuss.techlore.tech/uploads/default/original/2X/8/844d3a10a5d6637392ac04ebbafb5cd94f553180.jpeg
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/8/844d3a10a5d6637392ac04ebbafb5cd94f553180.jpeg
   last_posted_at: '2024-09-11T22:56:46.460Z'
   last_poster_username: system
   like_count: 0
@@ -1041,7 +1035,6 @@
   bookmarked: null
   bumped: true
   bumped_at: '2024-09-09T04:46:54.067Z'
-  can_vote: false
   category_id: 21
   closed: false
   created_at: '2024-09-09T04:46:54.027Z'
@@ -1053,7 +1046,7 @@
   has_summary: false
   highest_post_number: 1
   id: 9891
-  image_url: https://discuss.techlore.tech/uploads/default/original/2X/9/9af59e66dd7dd05dec80e1f6b919843bed7be3f9.jpeg
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/9/9af59e66dd7dd05dec80e1f6b919843bed7be3f9.jpeg
   last_posted_at: '2024-09-09T04:46:54.067Z'
   last_poster_username: system
   like_count: 1
@@ -1081,7 +1074,6 @@
   bookmarked: null
   bumped: true
   bumped_at: '2024-09-06T13:39:00.436Z'
-  can_vote: false
   category_id: 21
   closed: false
   created_at: '2024-09-04T20:56:28.832Z'
@@ -1093,7 +1085,7 @@
   has_summary: false
   highest_post_number: 6
   id: 9856
-  image_url: https://discuss.techlore.tech/uploads/default/original/2X/d/d58be8fd4e852a02b919a626f5985af675c7b690.jpeg
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/d/d58be8fd4e852a02b919a626f5985af675c7b690.jpeg
   last_posted_at: '2024-09-06T13:39:00.436Z'
   last_poster_username: Backfield3779
   like_count: 5
@@ -1136,7 +1128,6 @@
   bookmarked: null
   bumped: true
   bumped_at: '2024-09-02T12:17:48.259Z'
-  can_vote: false
   category_id: 21
   closed: false
   created_at: '2024-09-02T04:36:50.785Z'
@@ -1148,7 +1139,7 @@
   has_summary: false
   highest_post_number: 2
   id: 9829
-  image_url: https://discuss.techlore.tech/uploads/default/original/2X/b/b03a38ad59f56e3d2375c2b194436d53dafc4cce.jpeg
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/b/b03a38ad59f56e3d2375c2b194436d53dafc4cce.jpeg
   last_posted_at: '2024-09-02T12:17:48.259Z'
   last_poster_username: Evolvingprivacytrend
   like_count: 1
@@ -1181,7 +1172,6 @@
   bookmarked: null
   bumped: true
   bumped_at: '2024-08-28T20:46:42.068Z'
-  can_vote: false
   category_id: 21
   closed: false
   created_at: '2024-08-28T20:46:42.030Z'
@@ -1193,7 +1183,7 @@
   has_summary: false
   highest_post_number: 1
   id: 9782
-  image_url: https://discuss.techlore.tech/uploads/default/original/2X/4/406036a70c1dc1ec8724735acb0740c3d62e4b9e.jpeg
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/4/406036a70c1dc1ec8724735acb0740c3d62e4b9e.jpeg
   last_posted_at: '2024-08-28T20:46:42.068Z'
   last_poster_username: system
   like_count: 0
@@ -1221,7 +1211,6 @@
   bookmarked: null
   bumped: true
   bumped_at: '2024-08-26T01:51:57.548Z'
-  can_vote: false
   category_id: 21
   closed: false
   created_at: '2024-08-26T01:51:57.513Z'
@@ -1233,7 +1222,7 @@
   has_summary: false
   highest_post_number: 1
   id: 9747
-  image_url: https://discuss.techlore.tech/uploads/default/original/2X/b/be0767cd5ff6abb8e7e59d69435fc8105f038b64.jpeg
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/b/be0767cd5ff6abb8e7e59d69435fc8105f038b64.jpeg
   last_posted_at: '2024-08-26T01:51:57.548Z'
   last_poster_username: system
   like_count: 1
@@ -1261,7 +1250,6 @@
   bookmarked: null
   bumped: true
   bumped_at: '2024-12-02T04:24:28.225Z'
-  can_vote: false
   category_id: 21
   closed: false
   created_at: '2024-08-21T18:51:41.189Z'
@@ -1273,7 +1261,7 @@
   has_summary: false
   highest_post_number: 5
   id: 9687
-  image_url: https://discuss.techlore.tech/uploads/default/original/2X/d/dc1f8b2d2e1a9e30cbf2f8677a5d450d340c67cf.jpeg
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/d/dc1f8b2d2e1a9e30cbf2f8677a5d450d340c67cf.jpeg
   last_posted_at: '2024-12-02T04:24:28.225Z'
   last_poster_username: securitybrahh
   like_count: 2
@@ -1316,7 +1304,6 @@
   bookmarked: null
   bumped: true
   bumped_at: '2024-08-19T14:13:10.235Z'
-  can_vote: false
   category_id: 21
   closed: false
   created_at: '2024-08-19T07:31:19.917Z'
@@ -1328,7 +1315,7 @@
   has_summary: false
   highest_post_number: 4
   id: 9662
-  image_url: https://discuss.techlore.tech/uploads/default/original/2X/1/1fd9a663da412de3b941fe10eff8d01c9e9d86fa.jpeg
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/1/1fd9a663da412de3b941fe10eff8d01c9e9d86fa.jpeg
   last_posted_at: '2024-08-19T14:13:10.235Z'
   last_poster_username: gregandcin
   like_count: 1
