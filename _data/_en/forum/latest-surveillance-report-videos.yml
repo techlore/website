@@ -43,7 +43,7 @@
   title: 'Q&A: Keeping Passwords Safe From Malware'
   unpinned: null
   unseen: false
-  views: 77
+  views: 78
   visible: true
 - archetype: regular
   archived: false
@@ -186,7 +186,7 @@
   title: Is It Time to Ditch Firefox?
   unpinned: null
   unseen: false
-  views: 404
+  views: 405
   visible: true
 - archetype: regular
   archived: false
@@ -458,7 +458,7 @@
   image_url: null
   last_posted_at: '2024-11-10T20:35:01.981Z'
   last_poster_username: andbenn
-  like_count: 2
+  like_count: 1
   liked: null
   pinned: false
   pinned_globally: false
@@ -901,7 +901,8 @@
   category_id: 21
   closed: false
   created_at: '2024-09-19T04:56:45.341Z'
-  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/oChbCZfr5GGuXjQ7LrTNVr
+  excerpt: "https://neat.tube/w/oChbCZfr5GGuXjQ7LrTNVr \n\nThis is a companion discussion\
+    \ topic for the original entry at https://neat.tube/w/oChbCZfr5GGuXjQ7LrTNVr"
   fancy_title: 'Q&amp;A: Nate&rsquo;s Phone Literally Exploded. What Now?'
   featured_link: https://neat.tube/w/oChbCZfr5GGuXjQ7LrTNVr
   featured_link_root_domain: neat.tube
@@ -909,7 +910,7 @@
   has_summary: false
   highest_post_number: 5
   id: 10037
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/1/12c381ca77a85178e813dae8b7abbf8cb71fad2e.jpeg
+  image_url: null
   last_posted_at: '2024-09-21T09:53:31.559Z'
   last_poster_username: Acolyte
   like_count: 10
@@ -960,7 +961,8 @@
   category_id: 21
   closed: false
   created_at: '2024-09-16T05:46:38.271Z'
-  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/6SQ3ZPRvnbQ69vsaXc5kk1
+  excerpt: "https://neat.tube/w/6SQ3ZPRvnbQ69vsaXc5kk1 \n\nThis is a companion discussion\
+    \ topic for the original entry at https://neat.tube/w/6SQ3ZPRvnbQ69vsaXc5kk1"
   fancy_title: Google&rsquo;s New Feature Threatens Privacy &amp; Freedom!
   featured_link: https://neat.tube/w/6SQ3ZPRvnbQ69vsaXc5kk1
   featured_link_root_domain: neat.tube
@@ -968,7 +970,7 @@
   has_summary: false
   highest_post_number: 1
   id: 9973
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/7/7d43d52eeb68dae856b5f387508a0c24c2c1909d.jpeg
+  image_url: null
   last_posted_at: '2024-09-16T05:46:38.314Z'
   last_poster_username: system
   like_count: 1
@@ -999,7 +1001,8 @@
   category_id: 21
   closed: false
   created_at: '2024-09-11T22:56:46.419Z'
-  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/jqKVNiqFaGrGjYhQbjKx1j
+  excerpt: "https://neat.tube/w/jqKVNiqFaGrGjYhQbjKx1j \n\nThis is a companion discussion\
+    \ topic for the original entry at https://neat.tube/w/jqKVNiqFaGrGjYhQbjKx1j"
   fancy_title: 'Q&amp;A: The Mess of Private Cloud Options'
   featured_link: https://neat.tube/w/jqKVNiqFaGrGjYhQbjKx1j
   featured_link_root_domain: neat.tube
@@ -1007,7 +1010,7 @@
   has_summary: false
   highest_post_number: 1
   id: 9916
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/8/844d3a10a5d6637392ac04ebbafb5cd94f553180.jpeg
+  image_url: null
   last_posted_at: '2024-09-11T22:56:46.460Z'
   last_poster_username: system
   like_count: 0
@@ -1038,7 +1041,8 @@
   category_id: 21
   closed: false
   created_at: '2024-09-09T04:46:54.027Z'
-  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/jnTpivkZGMraQhBroo1BD4
+  excerpt: "https://neat.tube/w/jnTpivkZGMraQhBroo1BD4 \n\nThis is a companion discussion\
+    \ topic for the original entry at https://neat.tube/w/jnTpivkZGMraQhBroo1BD4"
   fancy_title: Are You Vulnerable To This New Yubikey Attack?
   featured_link: https://neat.tube/w/jnTpivkZGMraQhBroo1BD4
   featured_link_root_domain: neat.tube
@@ -1046,7 +1050,7 @@
   has_summary: false
   highest_post_number: 1
   id: 9891
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/9/9af59e66dd7dd05dec80e1f6b919843bed7be3f9.jpeg
+  image_url: null
   last_posted_at: '2024-09-09T04:46:54.067Z'
   last_poster_username: system
   like_count: 1
@@ -1077,7 +1081,8 @@
   category_id: 21
   closed: false
   created_at: '2024-09-04T20:56:28.832Z'
-  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/8Ap8p3HbEyzNrCmDJkj6px
+  excerpt: "https://neat.tube/w/8Ap8p3HbEyzNrCmDJkj6px \n\nThis is a companion discussion\
+    \ topic for the original entry at https://neat.tube/w/8Ap8p3HbEyzNrCmDJkj6px"
   fancy_title: 'Q&amp;A: The Best Browser Extensions'
   featured_link: https://neat.tube/w/8Ap8p3HbEyzNrCmDJkj6px
   featured_link_root_domain: neat.tube
@@ -1085,7 +1090,7 @@
   has_summary: false
   highest_post_number: 6
   id: 9856
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/d/d58be8fd4e852a02b919a626f5985af675c7b690.jpeg
+  image_url: null
   last_posted_at: '2024-09-06T13:39:00.436Z'
   last_poster_username: Backfield3779
   like_count: 5
@@ -1131,7 +1136,8 @@
   category_id: 21
   closed: false
   created_at: '2024-09-02T04:36:50.785Z'
-  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/hDqxWUGsuoxQgN2XSoLVBZ
+  excerpt: "https://neat.tube/w/hDqxWUGsuoxQgN2XSoLVBZ \n\nThis is a companion discussion\
+    \ topic for the original entry at https://neat.tube/w/hDqxWUGsuoxQgN2XSoLVBZ"
   fancy_title: Is This An Attack On Privacy?
   featured_link: https://neat.tube/w/hDqxWUGsuoxQgN2XSoLVBZ
   featured_link_root_domain: neat.tube
@@ -1139,7 +1145,7 @@
   has_summary: false
   highest_post_number: 2
   id: 9829
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/b/b03a38ad59f56e3d2375c2b194436d53dafc4cce.jpeg
+  image_url: null
   last_posted_at: '2024-09-02T12:17:48.259Z'
   last_poster_username: Evolvingprivacytrend
   like_count: 1
@@ -1175,7 +1181,8 @@
   category_id: 21
   closed: false
   created_at: '2024-08-28T20:46:42.030Z'
-  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/iPu5jmxTCTRqNsKoQ455Nn
+  excerpt: "https://neat.tube/w/iPu5jmxTCTRqNsKoQ455Nn \n\nThis is a companion discussion\
+    \ topic for the original entry at https://neat.tube/w/iPu5jmxTCTRqNsKoQ455Nn"
   fancy_title: 'Q&amp;A: Does Global Privacy Control ACTUALLY Work?'
   featured_link: https://neat.tube/w/iPu5jmxTCTRqNsKoQ455Nn
   featured_link_root_domain: neat.tube
@@ -1183,7 +1190,7 @@
   has_summary: false
   highest_post_number: 1
   id: 9782
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/4/406036a70c1dc1ec8724735acb0740c3d62e4b9e.jpeg
+  image_url: null
   last_posted_at: '2024-08-28T20:46:42.068Z'
   last_poster_username: system
   like_count: 0
@@ -1214,7 +1221,8 @@
   category_id: 21
   closed: false
   created_at: '2024-08-26T01:51:57.513Z'
-  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/ba3ZZcASTJNgGTkvwSUEHS
+  excerpt: "https://neat.tube/w/ba3ZZcASTJNgGTkvwSUEHS \n\nThis is a companion discussion\
+    \ topic for the original entry at https://neat.tube/w/ba3ZZcASTJNgGTkvwSUEHS"
   fancy_title: 3.2 Million WhatsApp Profiles EXPOSED!
   featured_link: https://neat.tube/w/ba3ZZcASTJNgGTkvwSUEHS
   featured_link_root_domain: neat.tube
@@ -1222,7 +1230,7 @@
   has_summary: false
   highest_post_number: 1
   id: 9747
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/b/be0767cd5ff6abb8e7e59d69435fc8105f038b64.jpeg
+  image_url: null
   last_posted_at: '2024-08-26T01:51:57.548Z'
   last_poster_username: system
   like_count: 1
@@ -1253,7 +1261,8 @@
   category_id: 21
   closed: false
   created_at: '2024-08-21T18:51:41.189Z'
-  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/jb2Vx2tgkmyqbPEt7R5emu
+  excerpt: "https://neat.tube/w/jb2Vx2tgkmyqbPEt7R5emu \n\nThis is a companion discussion\
+    \ topic for the original entry at https://neat.tube/w/jb2Vx2tgkmyqbPEt7R5emu"
   fancy_title: 'Q&amp;A: The Email Tracking Protection Episode'
   featured_link: https://neat.tube/w/jb2Vx2tgkmyqbPEt7R5emu
   featured_link_root_domain: neat.tube
@@ -1261,7 +1270,7 @@
   has_summary: false
   highest_post_number: 5
   id: 9687
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/d/dc1f8b2d2e1a9e30cbf2f8677a5d450d340c67cf.jpeg
+  image_url: null
   last_posted_at: '2024-12-02T04:24:28.225Z'
   last_poster_username: securitybrahh
   like_count: 2
@@ -1307,7 +1316,8 @@
   category_id: 21
   closed: false
   created_at: '2024-08-19T07:31:19.917Z'
-  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/7nshZB6rf43s3aiK8JxCRx
+  excerpt: "https://neat.tube/w/7nshZB6rf43s3aiK8JxCRx \n\nThis is a companion discussion\
+    \ topic for the original entry at https://neat.tube/w/7nshZB6rf43s3aiK8JxCRx"
   fancy_title: Did YOUR SSN Get Stolen In This MASSIVE Breach?
   featured_link: https://neat.tube/w/7nshZB6rf43s3aiK8JxCRx
   featured_link_root_domain: neat.tube
@@ -1315,7 +1325,7 @@
   has_summary: false
   highest_post_number: 4
   id: 9662
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/1/1fd9a663da412de3b941fe10eff8d01c9e9d86fa.jpeg
+  image_url: null
   last_posted_at: '2024-08-19T14:13:10.235Z'
   last_poster_username: gregandcin
   like_count: 1

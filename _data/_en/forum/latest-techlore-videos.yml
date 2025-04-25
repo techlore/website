@@ -38,7 +38,7 @@
   title: Stuck on Windows 10? Here's How To Upgrade Anyway
   unpinned: null
   unseen: false
-  views: 256
+  views: 259
   visible: true
 - archetype: regular
   archived: false
@@ -92,7 +92,7 @@
   title: 'Finally! True Privacy in a Laptop: NovaCustom Review'
   unpinned: null
   unseen: false
-  views: 471
+  views: 478
   visible: true
 - archetype: regular
   archived: false
@@ -151,7 +151,7 @@
   title: Debloat Brave Browser in Minutes! | Minimal Brave Tutorial
   unpinned: null
   unseen: false
-  views: 578
+  views: 582
   visible: true
 - archetype: regular
   archived: false
@@ -264,7 +264,7 @@
   title: 8 Must-Try Alternatives to Firefox
   unpinned: null
   unseen: false
-  views: 467
+  views: 468
   visible: true
 - archetype: regular
   archived: false
@@ -323,7 +323,7 @@
   title: 'Breaking: Apple Battles the UK Encryption Backdoor'
   unpinned: null
   unseen: false
-  views: 173
+  views: 175
   visible: true
 - archetype: regular
   archived: false
@@ -382,7 +382,7 @@
   title: The 2025 Linux Tier List
   unpinned: null
   unseen: false
-  views: 519
+  views: 521
   visible: true
 - archetype: regular
   archived: false
@@ -431,7 +431,7 @@
   title: 'Encrypt Your Cloud Data with Cryptomator: Security 101'
   unpinned: null
   unseen: false
-  views: 313
+  views: 314
   visible: true
 - archetype: regular
   archived: false
@@ -470,7 +470,7 @@
   title: Moving From iCloud to Ente Photos - Privacy Wins Of The Week!
   unpinned: null
   unseen: false
-  views: 245
+  views: 246
   visible: true
 - archetype: regular
   archived: false
@@ -588,7 +588,7 @@
   title: How Enshittification Ruins Tech
   unpinned: null
   unseen: false
-  views: 341
+  views: 342
   visible: true
 - archetype: regular
   archived: false
@@ -642,7 +642,7 @@
   title: The ULTIMATE macOS Privacy & Security Guide!
   unpinned: null
   unseen: false
-  views: 484
+  views: 485
   visible: true
 - archetype: regular
   archived: false
@@ -707,7 +707,7 @@
   image_url: null
   last_posted_at: '2025-01-25T16:37:59.125Z'
   last_poster_username: anon52464727
-  like_count: 13
+  like_count: 12
   liked: null
   pinned: false
   pinned_globally: false
@@ -804,7 +804,7 @@
   title: "Lunatask: The Best Productivity Tool I\u2019ve Ever Used"
   unpinned: null
   unseen: false
-  views: 897
+  views: 899
   visible: true
 - archetype: regular
   archived: false
@@ -902,7 +902,7 @@
   title: "Why You Don\u2019t Need An Antivirus"
   unpinned: null
   unseen: false
-  views: 625
+  views: 626
   visible: true
 - archetype: regular
   archived: false
@@ -1280,7 +1280,7 @@
   title: 'Kagi Search: Is Paying for a Search Engine Worth It?'
   unpinned: null
   unseen: false
-  views: 1238
+  views: 1242
   visible: true
 - archetype: regular
   archived: false
@@ -1565,7 +1565,7 @@
   image_url: null
   last_posted_at: '2024-09-26T09:40:38.078Z'
   last_poster_username: amog
-  like_count: 1
+  like_count: 0
   liked: null
   pinned: false
   pinned_globally: false
@@ -1606,10 +1606,10 @@
   has_summary: false
   highest_post_number: 12
   id: 10004
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/3/31941908c31d7902cd23354690fe1c0035ed4f1e.jpeg
+  image_url: null
   last_posted_at: '2025-04-23T21:15:31.037Z'
   last_poster_username: Flinch2253
-  like_count: 7
+  like_count: 8
   liked: null
   pinned: false
   pinned_globally: false
@@ -1637,7 +1637,7 @@
   title: 'Molly: A More Secure Signal'
   unpinned: null
   unseen: false
-  views: 288
+  views: 330
   visible: true
 - archetype: regular
   archived: false
@@ -1655,7 +1655,7 @@
   has_summary: false
   highest_post_number: 1
   id: 9917
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/5/533957a3192b5572e1f6683504426985bea39e8c.jpeg
+  image_url: null
   last_posted_at: '2024-09-11T23:44:13.763Z'
   last_poster_username: system
   like_count: 0
@@ -1694,7 +1694,7 @@
   has_summary: false
   highest_post_number: 2
   id: 9880
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/4/44f33b2388d61350a4a3d2a7af561660e7b18577.jpeg
+  image_url: null
   last_posted_at: '2024-09-06T20:09:17.503Z'
   last_poster_username: OldGuy
   like_count: 1
@@ -1738,7 +1738,7 @@
   has_summary: false
   highest_post_number: 1
   id: 9872
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/c/cadb8a8135133d2b8f08568461fb03c56dba54fe.jpeg
+  image_url: null
   last_posted_at: '2024-09-06T06:34:51.241Z'
   last_poster_username: system
   like_count: 1
@@ -1777,7 +1777,7 @@
   has_summary: false
   highest_post_number: 1
   id: 9805
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/d/d041c7aeee592c147dc7a7907291b49d7f181319.jpeg
+  image_url: null
   last_posted_at: '2024-08-30T20:10:15.821Z'
   last_poster_username: system
   like_count: 7
@@ -1816,7 +1816,7 @@
   has_summary: false
   highest_post_number: 1
   id: 9773
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/3/3b3b57ae8efcc70c5c1cb1112f3b6255d41cfb56.jpeg
+  image_url: null
   last_posted_at: '2024-08-28T07:59:15.436Z'
   last_poster_username: system
   like_count: 0
@@ -1855,10 +1855,10 @@
   has_summary: false
   highest_post_number: 5
   id: 9716
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/3/3243223c5f60ac35edda53a4eddc42208cf1e8f9.jpeg
+  image_url: null
   last_posted_at: '2024-08-24T05:24:28.660Z'
   last_poster_username: firedragon
-  like_count: 2
+  like_count: 1
   liked: null
   pinned: false
   pinned_globally: false
@@ -1909,7 +1909,7 @@
   has_summary: false
   highest_post_number: 1
   id: 9656
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/0/043ab0ae526d91f76ad3cf9105a3c3a5bd29be0a.jpeg
+  image_url: null
   last_posted_at: '2024-08-17T17:04:54.662Z'
   last_poster_username: system
   like_count: 0
@@ -1948,7 +1948,7 @@
   has_summary: false
   highest_post_number: 1
   id: 9634
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/0/084a220b86462cf599a80beee874c4523c88adb8.jpeg
+  image_url: null
   last_posted_at: '2024-08-16T07:09:11.159Z'
   last_poster_username: system
   like_count: 0
@@ -1987,7 +1987,7 @@
   has_summary: false
   highest_post_number: 4
   id: 9614
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/e/e869cdc7dc2130e221570d66708d5d972534d269.jpeg
+  image_url: null
   last_posted_at: '2024-08-14T03:44:20.510Z'
   last_poster_username: magnumpeye
   like_count: 9
@@ -2041,7 +2041,7 @@
   has_summary: false
   highest_post_number: 3
   id: 9559
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/a/a662c2d2ab8dc4d4cf1486c44f9784fef68be68f.jpeg
+  image_url: null
   last_posted_at: '2024-08-09T19:03:10.130Z'
   last_poster_username: Henry
   like_count: 4
@@ -2072,7 +2072,7 @@
   title: 'Lock Down Your Signal: Ultimate Hardening Guide'
   unpinned: null
   unseen: false
-  views: 1435
+  views: 1445
   visible: true
 - archetype: regular
   archived: false
@@ -2090,7 +2090,7 @@
   has_summary: false
   highest_post_number: 1
   id: 9541
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/c/ced039bd987556980b6c3d84085678e27e5ac8e8.jpeg
+  image_url: null
   last_posted_at: '2024-08-08T20:09:54.914Z'
   last_poster_username: system
   like_count: 2
@@ -2129,7 +2129,7 @@
   has_summary: false
   highest_post_number: 1
   id: 9523
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/0/0409dcf4d8a07f7cf96762d40459221998f856dc.jpeg
+  image_url: null
   last_posted_at: '2024-08-07T19:44:14.555Z'
   last_poster_username: system
   like_count: 0
@@ -2168,7 +2168,7 @@
   has_summary: false
   highest_post_number: 3
   id: 9491
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/a/acd86afb0211c2645b897edd19dc91a80edb419c.jpeg
+  image_url: null
   last_posted_at: '2024-08-06T19:36:09.103Z'
   last_poster_username: attempty
   like_count: 6
@@ -2217,7 +2217,7 @@
   has_summary: false
   highest_post_number: 1
   id: 9485
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/4/4f127ac2ccf4554de188741654abe572ea50196a.jpeg
+  image_url: null
   last_posted_at: '2024-08-04T20:34:46.641Z'
   last_poster_username: system
   like_count: 3
@@ -2256,7 +2256,7 @@
   has_summary: false
   highest_post_number: 3
   id: 9427
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/0/0c5536253f6d3cd2819d058b1c2dae9c9aabc71f.jpeg
+  image_url: null
   last_posted_at: '2024-07-31T04:28:32.362Z'
   last_poster_username: securitybrahh
   like_count: 2
@@ -2305,7 +2305,7 @@
   has_summary: false
   highest_post_number: 18
   id: 9384
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/8/8a684edda07f42805d251b473b6528bb2c8b1ca7.jpeg
+  image_url: null
   last_posted_at: '2024-07-28T18:30:40.379Z'
   last_poster_username: anon52464727
   like_count: 11
@@ -2364,7 +2364,7 @@
   has_summary: false
   highest_post_number: 7
   id: 9343
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/c/cab2f75274e4dccf4e0930c182fe8f493a249196.jpeg
+  image_url: null
   last_posted_at: '2024-07-26T14:11:25.258Z'
   last_poster_username: attempty
   like_count: 18
@@ -2501,7 +2501,7 @@
   has_summary: false
   highest_post_number: 12
   id: 9120
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/1/13a1894866b564f358ab4fdba31599c6a45b2ac3.jpeg
+  image_url: null
   last_posted_at: '2024-08-27T13:44:16.126Z'
   last_poster_username: Henry
   like_count: 19
@@ -2560,7 +2560,7 @@
   has_summary: false
   highest_post_number: 4
   id: 9000
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/8/8e5607be187bdfe2d051bfbc842fe05c15c4dd20.jpeg
+  image_url: null
   last_posted_at: '2024-06-20T17:26:31.810Z'
   last_poster_username: Ambrosio
   like_count: 4
@@ -2614,7 +2614,7 @@
   has_summary: false
   highest_post_number: 9
   id: 8975
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/d/d8ce4e1a6a240e4cba56c7465ac98838518602b8.jpeg
+  image_url: null
   last_posted_at: '2024-06-19T16:19:00.574Z'
   last_poster_username: Onscreen5341
   like_count: 8
@@ -2673,7 +2673,7 @@
   has_summary: false
   highest_post_number: 1
   id: 8777
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/a/a357cd39c81ca37034771e841bd90c5641cb4aff.jpeg
+  image_url: null
   last_posted_at: '2024-06-01T07:54:16.927Z'
   last_poster_username: system
   like_count: 1
@@ -2713,7 +2713,7 @@
   has_summary: false
   highest_post_number: 5
   id: 8372
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/e/e4c7f339318ef28f7af3e5a4cb94178ed46c6f19.jpeg
+  image_url: null
   last_posted_at: '2024-05-02T08:58:05.857Z'
   last_poster_username: polarcat
   like_count: 10
@@ -2767,7 +2767,7 @@
   has_summary: false
   highest_post_number: 8
   id: 8366
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/7/7cba1863a8282c211b6f6216ba19971c36b710f1.jpeg
+  image_url: null
   last_posted_at: '2024-05-02T02:48:44.675Z'
   last_poster_username: anon70356902
   like_count: 4
@@ -2808,7 +2808,7 @@
   title: Your privacy & security questions answered! (Apr '24)
   unpinned: null
   unseen: false
-  views: 183
+  views: 184
   visible: true
 - archetype: regular
   archived: false
@@ -2827,7 +2827,7 @@
   has_summary: false
   highest_post_number: 2
   id: 8265
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/4/46293026c0df6379d68051b6ac996e091ffdb470.jpeg
+  image_url: null
   last_posted_at: '2024-04-24T18:41:13.209Z'
   last_poster_username: anon82669666
   like_count: 6
@@ -2872,7 +2872,7 @@
   has_summary: false
   highest_post_number: 2
   id: 8217
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/1/10b5e4ff13cac2afd23f68ec3a5dd44572d01222.jpeg
+  image_url: null
   last_posted_at: '2024-04-22T13:35:35.263Z'
   last_poster_username: Penguin_Terminal
   like_count: 5
@@ -2916,7 +2916,7 @@
   has_summary: false
   highest_post_number: 13
   id: 7943
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/8/8920f20e6c2eb8705f89837fb1590227d756ba83.jpeg
+  image_url: null
   last_posted_at: '2024-04-04T18:04:56.578Z'
   last_poster_username: Tech-Trooper
   like_count: 29
@@ -2975,7 +2975,7 @@
   has_summary: false
   highest_post_number: 3
   id: 7900
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/9/9b04687da99c253ad4b16e06e9351c6251b83697.jpeg
+  image_url: null
   last_posted_at: '2024-04-01T15:17:04.969Z'
   last_poster_username: amog
   like_count: 6
@@ -3024,7 +3024,7 @@
   has_summary: false
   highest_post_number: 1
   id: 7479
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/5/548edcca490871121df2b743d93cde10c682a191.jpeg
+  image_url: null
   last_posted_at: '2024-02-28T12:14:44.268Z'
   last_poster_username: system
   like_count: 3
@@ -3063,7 +3063,7 @@
   has_summary: false
   highest_post_number: 1
   id: 7400
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/a/a8dff0942279511bd471fbfe6ed01a6773707654.jpeg
+  image_url: null
   last_posted_at: '2024-02-24T06:34:21.639Z'
   last_poster_username: system
   like_count: 7
@@ -3102,7 +3102,7 @@
   has_summary: false
   highest_post_number: 16
   id: 7379
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/7/734f86a77c702607216ed02c77c04a2f25d21c37.jpeg
+  image_url: null
   last_posted_at: '2024-06-05T16:16:49.001Z'
   last_poster_username: Flinch2253
   like_count: 15
@@ -3161,10 +3161,10 @@
   has_summary: true
   highest_post_number: 74
   id: 7360
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/e/ee73f3f04b23e361dd4be7d13972713f60d99bcb.jpeg
+  image_url: null
   last_posted_at: '2024-03-02T09:11:02.510Z'
   last_poster_username: theprivacydad
-  like_count: 142
+  like_count: 121
   liked: null
   pinned: false
   pinned_globally: false
@@ -3220,7 +3220,7 @@
   has_summary: false
   highest_post_number: 9
   id: 7323
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/7/73110a4159be406362ffde3f1279fd9aab46dc48.jpeg
+  image_url: null
   last_posted_at: '2024-02-24T14:23:07.101Z'
   last_poster_username: Perk1ns
   like_count: 12
@@ -3279,7 +3279,7 @@
   has_summary: false
   highest_post_number: 1
   id: 7238
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/f/f25b23dd083a2c4c2810ed24bf7aac2652d6aab0.jpeg
+  image_url: null
   last_posted_at: '2024-02-14T09:44:25.116Z'
   last_poster_username: system
   like_count: 5
@@ -3318,7 +3318,7 @@
   has_summary: false
   highest_post_number: 2
   id: 7212
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/8/84a83d631889df84db27828f62e4367153551ef6.jpeg
+  image_url: null
   last_posted_at: '2024-02-14T05:16:57.446Z'
   last_poster_username: Jordan
   like_count: 2
@@ -3362,7 +3362,7 @@
   has_summary: false
   highest_post_number: 6
   id: 7183
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/5/56829c8bcd47b22e3efa87f180818c58c88775a2.jpeg
+  image_url: null
   last_posted_at: '2024-02-11T10:37:42.291Z'
   last_poster_username: rollsicecream
   like_count: 13
@@ -3416,7 +3416,7 @@
   has_summary: false
   highest_post_number: 1
   id: 7015
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/f/f5b6dcfd661965ccef37c6e63c04f0ae3e4fbc46.jpeg
+  image_url: null
   last_posted_at: '2024-02-01T02:19:11.291Z'
   last_poster_username: system
   like_count: 3
@@ -3455,10 +3455,10 @@
   has_summary: false
   highest_post_number: 7
   id: 6932
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/3/36834bde4dcd3698e73c52f9d5babf2f455b31da.jpeg
+  image_url: null
   last_posted_at: '2024-01-30T00:50:21.040Z'
   last_poster_username: dAnnyCap
-  like_count: 15
+  like_count: 13
   liked: null
   pinned: false
   pinned_globally: false
@@ -3514,7 +3514,7 @@
   has_summary: false
   highest_post_number: 2
   id: 6926
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/5/548edcca490871121df2b743d93cde10c682a191.jpeg
+  image_url: null
   last_posted_at: '2024-01-26T17:28:06.444Z'
   last_poster_username: Purple-Jump-Privacy
   like_count: 4
@@ -3558,7 +3558,7 @@
   has_summary: false
   highest_post_number: 43
   id: 6881
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/c/c1c6ed008a68ccfac69f44160cf1eb3042321539.jpeg
+  image_url: null
   last_posted_at: '2024-02-01T17:31:30.137Z'
   last_poster_username: anon14216741
   like_count: 65
@@ -3599,7 +3599,7 @@
   title: Why I Stopped Hardening Firefox
   unpinned: null
   unseen: false
-  views: 4496
+  views: 4500
   visible: true
 - archetype: regular
   archived: false
@@ -3617,7 +3617,7 @@
   has_summary: false
   highest_post_number: 2
   id: 6821
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/7/74450e4cacb7b943d67422169e8e580a4bdf8857.jpeg
+  image_url: null
   last_posted_at: '2024-01-19T20:14:28.424Z'
   last_poster_username: amog
   like_count: 7
@@ -3661,7 +3661,7 @@
   has_summary: false
   highest_post_number: 4
   id: 6801
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/c/ce6cbeb03f283730c9788e069104316db1c6a78b.jpeg
+  image_url: null
   last_posted_at: '2024-01-19T22:05:05.670Z'
   last_poster_username: amog
   like_count: 19
@@ -3715,7 +3715,7 @@
   has_summary: false
   highest_post_number: 6
   id: 6722
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/6/6aa1c605be9d10458b25a0140426a3a5985de40f.jpeg
+  image_url: null
   last_posted_at: '2024-01-15T18:47:50.386Z'
   last_poster_username: bump
   like_count: 12
@@ -3774,7 +3774,7 @@
   has_summary: false
   highest_post_number: 3
   id: 6638
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/e/e4aefd71f2a145a4d98dae62f99ed35a69621be0.jpeg
+  image_url: null
   last_posted_at: '2024-01-05T19:47:44.240Z'
   last_poster_username: Henry
   like_count: 11
@@ -3823,7 +3823,7 @@
   has_summary: false
   highest_post_number: 12
   id: 6625
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/4/47ce025d0894c5edc7904e5931ed418849f5f049.jpeg
+  image_url: null
   last_posted_at: '2024-01-09T09:59:16.514Z'
   last_poster_username: BigBrother
   like_count: 15
@@ -3882,7 +3882,7 @@
   has_summary: false
   highest_post_number: 4
   id: 6594
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/3/3b02ecc7493daaf41396827f5332387ae535c3d3.jpeg
+  image_url: null
   last_posted_at: '2024-01-03T08:53:19.761Z'
   last_poster_username: Henry
   like_count: 7
@@ -3936,7 +3936,7 @@
   has_summary: false
   highest_post_number: 6
   id: 6494
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/b/b2c3bd3794b0a5f3bdbfa3cc52712bb5b4f2003e.jpeg
+  image_url: null
   last_posted_at: '2023-12-28T01:59:00.653Z'
   last_poster_username: InternetGhost
   like_count: 17
@@ -3995,7 +3995,7 @@
   has_summary: false
   highest_post_number: 7
   id: 6408
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/4/464cd135f4999e1728a2cc549815143acb6b98dd.jpeg
+  image_url: null
   last_posted_at: '2023-12-19T15:59:46.722Z'
   last_poster_username: anon29736653
   like_count: 7
@@ -4044,7 +4044,7 @@
   has_summary: false
   highest_post_number: 2
   id: 6398
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/3/32b6c0d3701d49023824c522e11dd9544e3add0f.jpeg
+  image_url: null
   last_posted_at: '2023-12-18T10:20:09.969Z'
   last_poster_username: AureliusPublius
   like_count: 7
@@ -4089,7 +4089,7 @@
   has_summary: false
   highest_post_number: 1
   id: 6358
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/9/9eedc7fc9c275a8190c703b66cd22fbab1b179bd.jpeg
+  image_url: null
   last_posted_at: '2023-12-13T18:20:39.917Z'
   last_poster_username: system
   like_count: 1
@@ -4130,7 +4130,7 @@
   has_summary: false
   highest_post_number: 6
   id: 6306
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/5/5772e28ac2121f228ee1b2e361036c2759d857eb.jpeg
+  image_url: null
   last_posted_at: '2023-12-11T01:29:06.514Z'
   last_poster_username: anon29736653
   like_count: 10
@@ -4189,7 +4189,7 @@
   has_summary: false
   highest_post_number: 5
   id: 6242
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/6/6e47f9b5900861b8f7e85e6cdded8078ee56f232.jpeg
+  image_url: null
   last_posted_at: '2023-12-03T03:29:29.855Z'
   last_poster_username: xe3
   like_count: 17
@@ -4243,7 +4243,7 @@
   has_summary: false
   highest_post_number: 1
   id: 6157
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/0/099af32d4c95d8ddbe2e2004456f1232306b233e.jpeg
+  image_url: null
   last_posted_at: '2023-11-24T02:26:26.329Z'
   last_poster_username: system
   like_count: 5
@@ -4283,7 +4283,7 @@
   has_summary: false
   highest_post_number: 5
   id: 6151
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/f/f760c88ae8c368611793195648d70d562cd80b80.jpeg
+  image_url: null
   last_posted_at: '2023-11-22T23:06:55.582Z'
   last_poster_username: Purple-Jump-Privacy
   like_count: 10
@@ -4342,7 +4342,7 @@
   has_summary: false
   highest_post_number: 2
   id: 6121
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/5/54a2709e96e84cb6c4a13fa61172c2549ddee56c.jpeg
+  image_url: null
   last_posted_at: '2023-11-19T22:19:02.226Z'
   last_poster_username: Angler0982
   like_count: 1
@@ -4386,7 +4386,7 @@
   has_summary: false
   highest_post_number: 11
   id: 6069
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/7/7bc3ef8331c22171ae908286776995530a219bbc.jpeg
+  image_url: null
   last_posted_at: '2023-11-29T06:58:33.191Z'
   last_poster_username: Agreeably_Icy
   like_count: 16
@@ -4445,7 +4445,7 @@
   has_summary: false
   highest_post_number: 11
   id: 5960
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/9/9a7a914843896cbb9ce5ccb302c0a26bea357da9.jpeg
+  image_url: null
   last_posted_at: '2023-11-08T22:15:45.709Z'
   last_poster_username: Jonah
   like_count: 14
@@ -4504,7 +4504,7 @@
   has_summary: false
   highest_post_number: 2
   id: 5895
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/5/5a76f771ffbaadce61417b93329f5f251cbab53d.jpeg
+  image_url: null
   last_posted_at: '2023-10-27T13:29:01.310Z'
   last_poster_username: Ambrosio
   like_count: 4
@@ -4548,7 +4548,7 @@
   has_summary: false
   highest_post_number: 2
   id: 5806
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/4/436f598a9ec31b3a5c8fbb6e92c7bc01e7e15dc4.jpeg
+  image_url: null
   last_posted_at: '2023-10-15T18:24:17.543Z'
   last_poster_username: alula
   like_count: 2
@@ -4592,7 +4592,7 @@
   has_summary: false
   highest_post_number: 7
   id: 5556
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/e/e59ecb75fd246921562483a618946de7220d685b.jpeg
+  image_url: null
   last_posted_at: '2023-09-17T05:15:43.135Z'
   last_poster_username: 0xvino
   like_count: 20
@@ -4651,7 +4651,7 @@
   has_summary: false
   highest_post_number: 4
   id: 5415
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/8/83610634e9cd78809c8219547ec229fb4875053e.jpeg
+  image_url: null
   last_posted_at: '2023-09-06T18:09:37.000Z'
   last_poster_username: Purple-Jump-Privacy
   like_count: 4
@@ -4700,7 +4700,7 @@
   has_summary: false
   highest_post_number: 12
   id: 5403
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/2/21e77081ac4c557ef437c445fce1f532ad180664.jpeg
+  image_url: null
   last_posted_at: '2023-09-04T17:13:06.386Z'
   last_poster_username: amog
   like_count: 20
@@ -4759,7 +4759,7 @@
   has_summary: false
   highest_post_number: 19
   id: 5399
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/0/0225812fd2c267b28134442257badb66e6ed8a12.jpeg
+  image_url: null
   last_posted_at: '2024-09-25T17:01:15.161Z'
   last_poster_username: ThePrivacyLurker
   like_count: 41
@@ -4818,7 +4818,7 @@
   has_summary: false
   highest_post_number: 27
   id: 5352
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/4/43813724a562fa9b31ddb881c571370b5c90f043.jpeg
+  image_url: null
   last_posted_at: '2024-04-26T16:58:15.036Z'
   last_poster_username: theprivacydad
   like_count: 72
@@ -4859,7 +4859,7 @@
   title: 'Get to know Punkt MP02: A Dumbphone w/Signal for your Privacy'
   unpinned: null
   unseen: false
-  views: 1629
+  views: 1630
   visible: true
 - archetype: regular
   archived: false
@@ -4878,7 +4878,7 @@
   has_summary: false
   highest_post_number: 3
   id: 5324
-  image_url: null
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/optimized/2X/5/5eaca7c3da62e7ae922e8c2619ca009f865694a9_2_1024x576.jpeg
   last_posted_at: '2023-08-26T18:37:33.075Z'
   last_poster_username: Henry
   like_count: 5
@@ -4918,7 +4918,7 @@
   has_summary: false
   highest_post_number: 1
   id: 5262
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/1/1dc5ea3c9becefbd34ae383fdd4371adb9984e13.jpeg
+  image_url: null
   last_posted_at: '2023-08-22T04:56:38.819Z'
   last_poster_username: system
   like_count: 3
@@ -4957,7 +4957,7 @@
   has_summary: false
   highest_post_number: 3
   id: 5086
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/a/a1ded499a1c9d521b33fab0183792bc681ea5dfe.jpeg
+  image_url: null
   last_posted_at: '2023-08-02T08:39:35.964Z'
   last_poster_username: atrum-uumbra
   like_count: 2
@@ -5006,7 +5006,7 @@
   has_summary: false
   highest_post_number: 16
   id: 4934
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/6/6bb619c06097079e5cfcc284aa546f8847fd29bd.jpeg
+  image_url: null
   last_posted_at: '2023-07-25T08:28:15.622Z'
   last_poster_username: Purple-Jump-Privacy
   like_count: 34
@@ -5065,7 +5065,7 @@
   has_summary: false
   highest_post_number: 1
   id: 4799
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/7/7446dec68114113b26001dedfb55739d7448ab50.jpeg
+  image_url: null
   last_posted_at: '2023-07-14T22:59:50.798Z'
   last_poster_username: system
   like_count: 5
@@ -5104,7 +5104,7 @@
   has_summary: false
   highest_post_number: 23
   id: 4651
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/7/7c381235fbaf6f4457fda7c2047218058a92e1b8.jpeg
+  image_url: null
   last_posted_at: '2023-07-13T00:35:32.357Z'
   last_poster_username: Person901
   like_count: 17
@@ -5163,7 +5163,7 @@
   has_summary: true
   highest_post_number: 50
   id: 4564
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/c/c05698112fbe7efaed34e5bbad5b06d95b1723e2.jpeg
+  image_url: null
   last_posted_at: '2023-11-13T22:03:44.183Z'
   last_poster_username: fr3akx_67
   like_count: 65
@@ -5204,7 +5204,7 @@
   title: The ULTIMATE Guide to Mastering NextDNS!
   unpinned: null
   unseen: false
-  views: 8033
+  views: 8034
   visible: true
 - archetype: regular
   archived: false
@@ -5222,7 +5222,7 @@
   has_summary: false
   highest_post_number: 4
   id: 4497
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/8/802eb69fa1e44078f24de84c38a45f96bd142ca9.jpeg
+  image_url: null
   last_posted_at: '2023-07-01T00:41:47.372Z'
   last_poster_username: Yashir_Wynott
   like_count: 9
@@ -5271,7 +5271,7 @@
   has_summary: false
   highest_post_number: 24
   id: 4487
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/b/b78bdad81103b749d54feed5b274afff612bda83.jpeg
+  image_url: null
   last_posted_at: '2023-07-05T14:32:58.086Z'
   last_poster_username: Henry
   like_count: 49
@@ -5330,7 +5330,7 @@
   has_summary: false
   highest_post_number: 10
   id: 4311
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/2/2d03fe1a26d9677cbc5907f92b97941cb7bec438.jpeg
+  image_url: null
   last_posted_at: '2023-06-21T04:17:27.858Z'
   last_poster_username: anon82764981
   like_count: 10
@@ -5390,7 +5390,7 @@
   has_summary: false
   highest_post_number: 11
   id: 4245
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/2/2be820b628d9183cfa33f11b682a8fe8d42185ca.jpeg
+  image_url: null
   last_posted_at: '2023-06-20T19:21:10.058Z'
   last_poster_username: orangensaft
   like_count: 10
@@ -5450,7 +5450,7 @@
   has_summary: false
   highest_post_number: 3
   id: 4205
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/c/c1744693a9aff16406535156dfb447e195a646d4.jpeg
+  image_url: null
   last_posted_at: '2023-06-16T00:07:34.252Z'
   last_poster_username: b-9
   like_count: 12
@@ -5499,7 +5499,7 @@
   has_summary: false
   highest_post_number: 1
   id: 4168
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/d/d1737017271feca58aeeb58cc7b042bbd9847f42.jpeg
+  image_url: null
   last_posted_at: '2023-06-14T16:20:25.582Z'
   last_poster_username: system
   like_count: 2
@@ -5539,7 +5539,7 @@
   has_summary: false
   highest_post_number: 12
   id: 4145
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/f/f604c506cc5c55daabb6955621e5c308e1f7e3ab.jpeg
+  image_url: null
   last_posted_at: '2023-06-14T20:47:27.582Z'
   last_poster_username: Yashir_Wynott
   like_count: 16
@@ -5598,7 +5598,7 @@
   has_summary: false
   highest_post_number: 11
   id: 4127
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/c/cc55a7162b0ca37f08e0a877961e82621be61781.jpeg
+  image_url: null
   last_posted_at: '2023-08-14T08:15:46.661Z'
   last_poster_username: bepart
   like_count: 30
@@ -5657,7 +5657,7 @@
   has_summary: false
   highest_post_number: 16
   id: 4108
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/5/589fe630e80fe3b3c9c51200b8aa2c3e59894b9f.jpeg
+  image_url: null
   last_posted_at: '2023-06-13T12:48:21.867Z'
   last_poster_username: Mohamad20ZX
   like_count: 34
@@ -5716,7 +5716,7 @@
   has_summary: false
   highest_post_number: 1
   id: 4057
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/6/6a3c7b10ed6535cc9f199e97e42a63c8c76d4ee9.jpeg
+  image_url: null
   last_posted_at: '2023-06-09T01:20:44.078Z'
   last_poster_username: system
   like_count: 2
@@ -5755,7 +5755,7 @@
   has_summary: false
   highest_post_number: 1
   id: 4035
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/2/2fedcb95fe69a38c76c218b0eca8a8cbbda8fa5b.jpeg
+  image_url: null
   last_posted_at: '2023-06-08T12:15:33.468Z'
   last_poster_username: system
   like_count: 4
@@ -5794,7 +5794,7 @@
   has_summary: false
   highest_post_number: 15
   id: 3995
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/d/d9b2420b8cc172825072785cfeacb00cfc2a67d1.jpeg
+  image_url: null
   last_posted_at: '2023-06-16T15:14:11.892Z'
   last_poster_username: b-9
   like_count: 28
@@ -5853,7 +5853,7 @@
   has_summary: false
   highest_post_number: 15
   id: 3972
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/7/7a91305754830c7e561ba3fbc5b86ead206a9222.jpeg
+  image_url: null
   last_posted_at: '2023-06-15T15:43:51.685Z'
   last_poster_username: Jonah
   like_count: 48
@@ -5912,7 +5912,7 @@
   has_summary: false
   highest_post_number: 3
   id: 3955
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/f/fc9f41742b5b7829eb49b7ed161534b0cf21c190.jpeg
+  image_url: null
   last_posted_at: '2023-06-04T17:17:32.058Z'
   last_poster_username: vincentvd
   like_count: 9
@@ -5961,7 +5961,7 @@
   has_summary: false
   highest_post_number: 7
   id: 3879
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/4/48e4406b18be7e33f609c471661092939bc97699.jpeg
+  image_url: null
   last_posted_at: '2023-05-31T07:51:29.165Z'
   last_poster_username: Henry
   like_count: 13
@@ -6019,7 +6019,7 @@
   has_summary: false
   highest_post_number: 4
   id: 3830
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/3/3fc69dbaa276b6252caa4375b9ccbf273421ca94.jpeg
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/optimized/2X/3/3fc69dbaa276b6252caa4375b9ccbf273421ca94_2_1024x576.jpeg
   last_posted_at: '2023-08-02T08:29:38.403Z'
   last_poster_username: atrum-uumbra
   like_count: 2
@@ -6120,7 +6120,7 @@
   has_summary: false
   highest_post_number: 4
   id: 3698
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/7/764b1ba8e4e4ec9bbb42223d45e2b6f491262a76.jpeg
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/optimized/2X/7/764b1ba8e4e4ec9bbb42223d45e2b6f491262a76_2_1024x576.jpeg
   last_posted_at: '2023-05-05T00:01:58.270Z'
   last_poster_username: InternetGhost
   like_count: 7
@@ -6173,7 +6173,7 @@
   has_summary: false
   highest_post_number: 4
   id: 3664
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/5/58bfc45a6c8aefc39fe17a7c34a92e5d202f4a8d.jpeg
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/optimized/2X/5/58bfc45a6c8aefc39fe17a7c34a92e5d202f4a8d_2_1024x576.jpeg
   last_posted_at: '2023-04-29T17:53:55.016Z'
   last_poster_username: Arken
   like_count: 9
@@ -6226,7 +6226,7 @@
   has_summary: false
   highest_post_number: 6
   id: 3646
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/2/26cc8e0db0678754c17ea8e8951dd551157ce2bd.jpeg
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/optimized/2X/2/26cc8e0db0678754c17ea8e8951dd551157ce2bd_2_1024x576.jpeg
   last_posted_at: '2023-05-10T09:03:39.798Z'
   last_poster_username: gnu
   like_count: 15
@@ -6284,7 +6284,7 @@
   has_summary: false
   highest_post_number: 7
   id: 3609
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/d/d8ccda7a682553a0675d56a10b0606ef1895670a.jpeg
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/optimized/2X/d/d8ccda7a682553a0675d56a10b0606ef1895670a_2_1024x576.jpeg
   last_posted_at: '2024-02-23T21:35:25.759Z'
   last_poster_username: PrivacyFounder
   like_count: 17
@@ -6342,7 +6342,7 @@
   has_summary: false
   highest_post_number: 3
   id: 3557
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/5/51c738fefdb5c9c8b220606ea6f459b9374efd5e.jpeg
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/optimized/2X/5/51c738fefdb5c9c8b220606ea6f459b9374efd5e_2_1024x576.jpeg
   last_posted_at: '2023-04-17T14:52:24.520Z'
   last_poster_username: anon91504691
   like_count: 4
@@ -6390,7 +6390,7 @@
   has_summary: false
   highest_post_number: 3
   id: 3495
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/7/7ee72c8840cffa19a44138e786af6a26ba938387.jpeg
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/optimized/2X/7/7ee72c8840cffa19a44138e786af6a26ba938387_2_1024x576.jpeg
   last_posted_at: '2023-04-10T00:10:11.551Z'
   last_poster_username: Wrench3160
   like_count: 9
@@ -6438,7 +6438,7 @@
   has_summary: false
   highest_post_number: 4
   id: 3446
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/e/eac7b752648497d6881fbfeab3bbc47fa0949f05.jpeg
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/optimized/2X/e/eac7b752648497d6881fbfeab3bbc47fa0949f05_2_1024x576.jpeg
   last_posted_at: '2023-04-01T14:52:51.498Z'
   last_poster_username: Perk1ns
   like_count: 4
@@ -6486,7 +6486,7 @@
   has_summary: false
   highest_post_number: 6
   id: 3406
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/a/aae50d71b8adaf4048b8ad5b25fb93403a073610.jpeg
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/optimized/2X/a/aae50d71b8adaf4048b8ad5b25fb93403a073610_2_1024x576.jpeg
   last_posted_at: '2023-04-09T05:02:32.434Z'
   last_poster_username: Arken
   like_count: 14
@@ -6544,7 +6544,7 @@
   has_summary: false
   highest_post_number: 7
   id: 3360
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/f/f30e29ed5357616c329b4a9ff88f59136e0d14b8.jpeg
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/optimized/2X/f/f30e29ed5357616c329b4a9ff88f59136e0d14b8_2_1024x576.jpeg
   last_posted_at: '2023-03-18T16:24:41.705Z'
   last_poster_username: ewEfA2jy
   like_count: 1
@@ -6602,7 +6602,7 @@
   has_summary: false
   highest_post_number: 2
   id: 3349
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/6/65f90cc804fc5ca234e7ef4212273c501c32bdd1.jpeg
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/optimized/2X/6/65f90cc804fc5ca234e7ef4212273c501c32bdd1_2_1024x576.jpeg
   last_posted_at: '2023-03-18T19:43:32.904Z'
   last_poster_username: Perk1ns
   like_count: 0
@@ -6645,7 +6645,7 @@
   has_summary: false
   highest_post_number: 2
   id: 3332
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/5/5e47d12dc404b8cfa59d77a68c0221fbb0fc5091.jpeg
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/optimized/2X/5/5e47d12dc404b8cfa59d77a68c0221fbb0fc5091_2_1024x576.jpeg
   last_posted_at: '2023-03-11T18:35:22.680Z'
   last_poster_username: Mohamad20ZX
   like_count: 2
@@ -6688,7 +6688,7 @@
   has_summary: false
   highest_post_number: 3
   id: 3311
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/5/5cf31ced5a776ed135545989adaf23a4b4827252.jpeg
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/optimized/2X/5/5cf31ced5a776ed135545989adaf23a4b4827252_2_1024x576.jpeg
   last_posted_at: '2023-03-10T07:50:37.127Z'
   last_poster_username: L_ishere670
   like_count: 5
@@ -6736,7 +6736,7 @@
   has_summary: false
   highest_post_number: 3
   id: 3259
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/6/6fcb7466c5b8ecd59e5a23764455a1ec9e89e3fd.jpeg
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/optimized/2X/6/6fcb7466c5b8ecd59e5a23764455a1ec9e89e3fd_2_1024x576.jpeg
   last_posted_at: '2023-03-03T12:30:37.474Z'
   last_poster_username: Joules
   like_count: 10
@@ -6785,7 +6785,7 @@
   has_summary: false
   highest_post_number: 19
   id: 3217
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/6/648bc353da767e4e20cea9e9f7ed04350647cdc6.jpeg
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/optimized/2X/6/648bc353da767e4e20cea9e9f7ed04350647cdc6_2_1024x576.jpeg
   last_posted_at: '2023-10-08T13:54:47.223Z'
   last_poster_username: Perk1ns
   like_count: 13
@@ -6843,7 +6843,7 @@
   has_summary: false
   highest_post_number: 6
   id: 3202
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/9/9fa6524f91d0456302fb9d29899021265c500e06.jpeg
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/optimized/2X/9/9fa6524f91d0456302fb9d29899021265c500e06_2_1024x576.jpeg
   last_posted_at: '2023-02-25T11:03:43.545Z'
   last_poster_username: hulksmack
   like_count: 9
@@ -6896,7 +6896,7 @@
   has_summary: true
   highest_post_number: 52
   id: 3112
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/9/98256cf22e19163db8fb7647af329b94dbecadaa.jpeg
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/optimized/2X/9/98256cf22e19163db8fb7647af329b94dbecadaa_2_1024x576.jpeg
   last_posted_at: '2024-12-17T16:49:15.350Z'
   last_poster_username: tech2k2
   like_count: 69
@@ -6954,7 +6954,7 @@
   has_summary: false
   highest_post_number: 24
   id: 3072
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/3/33e65f73024359047ffaf82ed792d2711e446fa2.jpeg
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/optimized/2X/3/33e65f73024359047ffaf82ed792d2711e446fa2_2_1024x576.jpeg
   last_posted_at: '2023-02-16T09:20:25.382Z'
   last_poster_username: sec76
   like_count: 10
@@ -6995,7 +6995,7 @@
   title: "Can iod\xE9OS take down stock Android? Let's Find Out!"
   unpinned: null
   unseen: false
-  views: 895
+  views: 896
   visible: true
 - archetype: regular
   archived: false
@@ -7012,7 +7012,7 @@
   has_summary: false
   highest_post_number: 1
   id: 2959
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/2/23cd836a883f01391b241a1855a7b6243799cffd.jpeg
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/optimized/2X/2/23cd836a883f01391b241a1855a7b6243799cffd_2_1024x576.jpeg
   last_posted_at: '2023-01-28T14:56:00.000Z'
   last_poster_username: system
   like_count: 1
@@ -7050,7 +7050,7 @@
   has_summary: false
   highest_post_number: 1
   id: 2869
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/0/019ba5d69d6ff9512a70ccfc8e3133ae85135106.jpeg
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/optimized/2X/0/019ba5d69d6ff9512a70ccfc8e3133ae85135106_2_1024x576.jpeg
   last_posted_at: '2023-01-13T11:30:00.000Z'
   last_poster_username: system
   like_count: 1
@@ -7088,7 +7088,7 @@
   has_summary: false
   highest_post_number: 6
   id: 2864
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/8/8ad2818cc2408d8bc7216915439bab7f736f902d.jpeg
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/optimized/2X/8/8ad2818cc2408d8bc7216915439bab7f736f902d_2_1024x576.jpeg
   last_posted_at: '2024-01-06T19:23:28.468Z'
   last_poster_username: Chive2633
   like_count: 13
@@ -7146,7 +7146,7 @@
   has_summary: false
   highest_post_number: 7
   id: 2833
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/d/de323bd738ffce626590664836ed862256be9184.jpeg
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/optimized/2X/d/de323bd738ffce626590664836ed862256be9184_2_1024x576.jpeg
   last_posted_at: '2023-01-11T19:23:20.563Z'
   last_poster_username: Henry
   like_count: 17
@@ -7204,7 +7204,7 @@
   has_summary: false
   highest_post_number: 19
   id: 2715
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/2/2f9b20f147e0fcfcc20c0c45dcb3edace3d69f3b.jpeg
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/optimized/2X/2/2f9b20f147e0fcfcc20c0c45dcb3edace3d69f3b_2_1024x576.jpeg
   last_posted_at: '2023-06-22T16:39:33.016Z'
   last_poster_username: anon89964105
   like_count: 29
@@ -7262,7 +7262,7 @@
   has_summary: false
   highest_post_number: 1
   id: 2620
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/c/ce45e5d4046e95f34c39c4663ac292305328c6a5.jpeg
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/optimized/2X/c/ce45e5d4046e95f34c39c4663ac292305328c6a5_2_1024x576.jpeg
   last_posted_at: '2022-12-10T09:06:00.000Z'
   last_poster_username: system
   like_count: 5
@@ -7300,7 +7300,7 @@
   has_summary: false
   highest_post_number: 9
   id: 2440
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/d/d19463e53d3cfed24a9d9c9013014f4e0f672ea3.jpeg
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/optimized/2X/d/d19463e53d3cfed24a9d9c9013014f4e0f672ea3_2_1024x576.jpeg
   last_posted_at: '2022-11-27T01:00:12.378Z'
   last_poster_username: ewEfA2jy
   like_count: 31
@@ -7358,7 +7358,7 @@
   has_summary: false
   highest_post_number: 2
   id: 2388
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/6/63e25d5d0ab0493430e4bed72ffb0789734728d4.jpeg
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/optimized/2X/6/63e25d5d0ab0493430e4bed72ffb0789734728d4_2_1024x576.jpeg
   last_posted_at: '2022-11-11T21:01:36.989Z'
   last_poster_username: Henry
   like_count: 6
@@ -7401,7 +7401,7 @@
   has_summary: false
   highest_post_number: 9
   id: 2240
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/b/b264f5e29f12014aaacc651fff0021f6584ce92a.jpeg
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/optimized/2X/b/b264f5e29f12014aaacc651fff0021f6584ce92a_2_1024x576.jpeg
   last_posted_at: '2022-10-31T22:52:30.528Z'
   last_poster_username: InternetGhost
   like_count: 16
@@ -7459,7 +7459,7 @@
   has_summary: false
   highest_post_number: 1
   id: 2216
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/7/7922c61bf81cb4536c00b3639b72a8625bf6bd59.jpeg
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/optimized/2X/7/7922c61bf81cb4536c00b3639b72a8625bf6bd59_2_1024x576.jpeg
   last_posted_at: '2022-10-27T17:30:00.000Z'
   last_poster_username: system
   like_count: 1
@@ -7497,7 +7497,7 @@
   has_summary: false
   highest_post_number: 2
   id: 1902
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/2/290598c598a66156b1e503c967a58b65719c115d.jpeg
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/optimized/2X/2/290598c598a66156b1e503c967a58b65719c115d_2_1024x576.jpeg
   last_posted_at: '2022-10-13T20:23:24.802Z'
   last_poster_username: Cdf
   like_count: 2
@@ -7541,7 +7541,7 @@
   has_summary: false
   highest_post_number: 3
   id: 1857
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/0/067c861d905c766250d01d4474ff46ec07aabb0f.jpeg
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/optimized/2X/0/067c861d905c766250d01d4474ff46ec07aabb0f_2_1024x576.jpeg
   last_posted_at: '2022-10-10T14:32:15.554Z'
   last_poster_username: InternetGhost
   like_count: 8
