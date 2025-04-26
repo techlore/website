@@ -38,7 +38,7 @@
   title: Stuck on Windows 10? Here's How To Upgrade Anyway
   unpinned: null
   unseen: false
-  views: 259
+  views: 261
   visible: true
 - archetype: regular
   archived: false
@@ -92,7 +92,7 @@
   title: 'Finally! True Privacy in a Laptop: NovaCustom Review'
   unpinned: null
   unseen: false
-  views: 478
+  views: 481
   visible: true
 - archetype: regular
   archived: false
@@ -151,7 +151,7 @@
   title: Debloat Brave Browser in Minutes! | Minimal Brave Tutorial
   unpinned: null
   unseen: false
-  views: 582
+  views: 591
   visible: true
 - archetype: regular
   archived: false
@@ -210,7 +210,7 @@
   title: Privacy WIN! Apple & Android Unite for Secure Messaging
   unpinned: null
   unseen: false
-  views: 363
+  views: 365
   visible: true
 - archetype: regular
   archived: false
@@ -264,7 +264,7 @@
   title: 8 Must-Try Alternatives to Firefox
   unpinned: null
   unseen: false
-  views: 468
+  views: 469
   visible: true
 - archetype: regular
   archived: false
@@ -382,7 +382,7 @@
   title: The 2025 Linux Tier List
   unpinned: null
   unseen: false
-  views: 521
+  views: 523
   visible: true
 - archetype: regular
   archived: false
@@ -470,7 +470,7 @@
   title: Moving From iCloud to Ente Photos - Privacy Wins Of The Week!
   unpinned: null
   unseen: false
-  views: 246
+  views: 247
   visible: true
 - archetype: regular
   archived: false
@@ -588,7 +588,7 @@
   title: How Enshittification Ruins Tech
   unpinned: null
   unseen: false
-  views: 342
+  views: 343
   visible: true
 - archetype: regular
   archived: false
@@ -804,7 +804,7 @@
   title: "Lunatask: The Best Productivity Tool I\u2019ve Ever Used"
   unpinned: null
   unseen: false
-  views: 899
+  views: 902
   visible: true
 - archetype: regular
   archived: false
@@ -1118,7 +1118,7 @@
   title: How to Stay Private on a Budget!
   unpinned: null
   unseen: false
-  views: 787
+  views: 788
   visible: true
 - archetype: regular
   archived: false
@@ -1280,7 +1280,7 @@
   title: 'Kagi Search: Is Paying for a Search Engine Worth It?'
   unpinned: null
   unseen: false
-  views: 1242
+  views: 1247
   visible: true
 - archetype: regular
   archived: false
@@ -1412,7 +1412,7 @@
   title: "10 Privacy Tools I Can\u2019t Live Without"
   unpinned: null
   unseen: false
-  views: 436
+  views: 437
   visible: true
 - archetype: regular
   archived: false
@@ -1594,7 +1594,7 @@
   archived: false
   bookmarked: null
   bumped: true
-  bumped_at: '2025-04-23T21:15:31.037Z'
+  bumped_at: '2025-04-25T17:39:20.238Z'
   category_id: 20
   closed: false
   created_at: '2024-09-18T04:44:47.001Z'
@@ -1604,12 +1604,12 @@
   featured_link_root_domain: neat.tube
   has_accepted_answer: false
   has_summary: false
-  highest_post_number: 12
+  highest_post_number: 21
   id: 10004
   image_url: null
-  last_posted_at: '2025-04-23T21:15:31.037Z'
+  last_posted_at: '2025-04-25T17:39:20.238Z'
   last_poster_username: Flinch2253
-  like_count: 8
+  like_count: 9
   liked: null
   pinned: false
   pinned_globally: false
@@ -1621,6 +1621,11 @@
     user_id: -1
   - description: Frequent Poster
     extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 127
+  - description: Frequent Poster
+    extras: null
     flair_group_id: 45
     primary_group_id: 45
     user_id: 1929
@@ -1629,15 +1634,15 @@
     flair_group_id: null
     primary_group_id: null
     user_id: 1141
-  posts_count: 12
-  reply_count: 10
+  posts_count: 21
+  reply_count: 18
   slug: molly-a-more-secure-signal
   tags: []
   tags_descriptions: {}
   title: 'Molly: A More Secure Signal'
   unpinned: null
   unseen: false
-  views: 330
+  views: 384
   visible: true
 - archetype: regular
   archived: false
@@ -2072,7 +2077,7 @@
   title: 'Lock Down Your Signal: Ultimate Hardening Guide'
   unpinned: null
   unseen: false
-  views: 1445
+  views: 1450
   visible: true
 - archetype: regular
   archived: false
@@ -2238,7 +2243,7 @@
   title: 'Google Pulled a Sneaky One #cookies #privacy #google'
   unpinned: null
   unseen: false
-  views: 112
+  views: 113
   visible: true
 - archetype: regular
   archived: false
@@ -2346,7 +2351,7 @@
   title: Why I'm Concerned About Signal
   unpinned: null
   unseen: false
-  views: 394
+  views: 396
   visible: true
 - archetype: regular
   archived: false
@@ -2542,7 +2547,7 @@
   title: Privacy-Friendly Security Cameras...Synology Did It!
   unpinned: null
   unseen: false
-  views: 469
+  views: 470
   visible: true
 - archetype: regular
   archived: false
@@ -2898,7 +2903,7 @@
   title: The Ultimate Guide to Using Tor Browser Securely
   unpinned: null
   unseen: false
-  views: 359
+  views: 360
   visible: true
 - archetype: regular
   archived: false
@@ -3084,7 +3089,7 @@
   title: VPNs vs DNS - Which Keeps You The Safest?
   unpinned: null
   unseen: false
-  views: 372
+  views: 373
   visible: true
 - archetype: regular
   archived: false
@@ -3599,7 +3604,7 @@
   title: Why I Stopped Hardening Firefox
   unpinned: null
   unseen: false
-  views: 4500
+  views: 4506
   visible: true
 - archetype: regular
   archived: false
@@ -4859,7 +4864,7 @@
   title: 'Get to know Punkt MP02: A Dumbphone w/Signal for your Privacy'
   unpinned: null
   unseen: false
-  views: 1630
+  views: 1632
   visible: true
 - archetype: regular
   archived: false
@@ -5204,7 +5209,7 @@
   title: The ULTIMATE Guide to Mastering NextDNS!
   unpinned: null
   unseen: false
-  views: 8034
+  views: 8036
   visible: true
 - archetype: regular
   archived: false
@@ -6072,7 +6077,7 @@
   has_summary: false
   highest_post_number: 3
   id: 3826
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/e/e8d9d2abc11e4608813969933295505dfd87bd6f.jpeg
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/optimized/2X/e/e8d9d2abc11e4608813969933295505dfd87bd6f_2_1024x576.jpeg
   last_posted_at: '2023-05-28T15:10:23.704Z'
   last_poster_username: Henry
   like_count: 5
