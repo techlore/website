@@ -4,6 +4,6 @@ description: "The ultimate guide showing how to make Windows as secure, private,
 datePublished: 2021-05-03
 dateUpdated: 2021-05-03
 linkYouTube: "https://www.youtube.com/watch?v=vNRics7tlqw"
-linkPeerTube: "https://neat.tube/w/7vy5CufS2aycKVRusQS5zN"
+linkPeerTube: "https://techlore.tv/w/gMiridfL1LHsto1DnRtd5N"
 tags: ["windows", "privacy", "security"]
 ---

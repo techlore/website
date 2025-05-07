@@ -49,7 +49,7 @@ techloreWeb:
     github: "https://github.com/techlore/website"
 techloreVideos:
   links:
-    peertube: "https://neat.tube/c/techlore/videos?sort=-originallyPublishedAt"
+    peertube: "https://techlore.tv/c/techlore/videos?sort=-originallyPublishedAt"
     youtube: "https://www.youtube.com/@techlore"
   extra:
     odysee: "https://odysee.com/@techlore:3"

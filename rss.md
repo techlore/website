@@ -20,7 +20,7 @@ description: |
 ## Video-Only Feeds
 
 - [YouTube](https://www.youtube.com/feeds/videos.xml?channel_id=UCs6KfncB4OV6Vug4o_bzijg)
-- [PeerTube](https://neat.tube/feeds/videos.xml?videoChannelId=172)
+- [PeerTube](https://techlore.tv/feeds/videos.xml?videoChannelId=4)
 
 ## Audio-Only Feeds
 

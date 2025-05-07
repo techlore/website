@@ -4,6 +4,6 @@ description: "The ultimate guide showing how to make Linux as secure, private, a
 datePublished: 2021-07-02
 dateUpdated: 2021-07-02
 linkYouTube: "https://www.youtube.com/watch?v=Sa0KqbpLye4"
-linkPeerTube: "https://neat.tube/w/ryHuGYvhxf4tHAoVei4EFh"
+linkPeerTube: "https://techlore.tv/w/e9S8iiG5QXurMACUoaJLbf"
 tags: ["linux", "privacy", "security"]
 ---

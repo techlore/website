@@ -4,6 +4,6 @@ description: "The ultimate security & privacy Apple iOS guide showing how to mak
 datePublished: 2020-06-30
 dateUpdated: 2020-06-30
 linkYouTube: "https://www.youtube.com/watch?v=Sa0KqbpLye4"
-linkPeerTube: "https://neat.tube/w/hL2o4WkRRxxgqLyvxmqZJW"
+linkPeerTube: "https://techlore.tv/w/u1Hn6HDikQ62Q3hEjaLHvt"
 tags: ["apple", "privacy", "security"]
 ---

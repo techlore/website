@@ -4,6 +4,6 @@ description: "The ultimate guide showing how to make Android as secure, private,
 datePublished: 2020-07-10
 dateUpdated: 2020-07-10
 linkYouTube: "https://www.youtube.com/watch?v=dMWEym0KPcA"
-linkPeerTube: "https://neat.tube/w/kGngBgzfvULoZmW3HtEujP"
+linkPeerTube: "https://techlore.tv/w/3ncxEj1yzfqLTygDtbsAXe"
 tags: ["android", "privacy", "security"]
 ---

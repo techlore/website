@@ -4,6 +4,6 @@ description: "NextDNS is an insanely powerful privacy and security tool allowing
 datePublished: 2023-07-03
 dateUpdated: 2023-07-03
 linkYouTube: "https://www.youtube.com/watch?v=WUG57ynLb8I"
-linkPeerTube: "https://neat.tube/w/19r4YnE6fpce6e2B9MepnB"
+linkPeerTube: "https://techlore.tv/w/cT99JpDvWp5WkXxkhcfQqX"
 tags: ["Guide","DNS"]
 ---
