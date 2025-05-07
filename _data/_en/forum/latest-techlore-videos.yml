@@ -5,14 +5,13 @@
   archived: false
   bookmarked: null
   bumped: true
-  bumped_at: '2025-03-25T03:19:43.978Z'
+  bumped_at: '2025-05-07T03:21:12.027Z'
   category_id: 20
   closed: false
   created_at: '2025-03-25T03:19:43.922Z'
-  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/jsN4h1K8sA6g5QJXJNBwq5
+  excerpt: This is a companion discussion topic for the original entry at https://techlore.tv/w/jsN4h1K8sA6g5QJXJNBwq5
   fancy_title: Stuck on Windows 10? Here&rsquo;s How To Upgrade Anyway
-  featured_link: https://neat.tube/w/jsN4h1K8sA6g5QJXJNBwq5
-  featured_link_root_domain: neat.tube
+  featured_link: null
   has_accepted_answer: false
   has_summary: false
   highest_post_number: 1
@@ -38,7 +37,7 @@
   title: Stuck on Windows 10? Here's How To Upgrade Anyway
   unpinned: null
   unseen: false
-  views: 307
+  views: 313
   visible: true
 - archetype: regular
   archived: false
@@ -92,7 +91,7 @@
   title: 'Finally! True Privacy in a Laptop: NovaCustom Review'
   unpinned: null
   unseen: false
-  views: 549
+  views: 558
   visible: true
 - archetype: regular
   archived: false
@@ -151,7 +150,7 @@
   title: Debloat Brave Browser in Minutes! | Minimal Brave Tutorial
   unpinned: null
   unseen: false
-  views: 648
+  views: 650
   visible: true
 - archetype: regular
   archived: false
@@ -210,7 +209,7 @@
   title: Privacy WIN! Apple & Android Unite for Secure Messaging
   unpinned: null
   unseen: false
-  views: 371
+  views: 373
   visible: true
 - archetype: regular
   archived: false
@@ -323,7 +322,7 @@
   title: 'Breaking: Apple Battles the UK Encryption Backdoor'
   unpinned: null
   unseen: false
-  views: 179
+  views: 180
   visible: true
 - archetype: regular
   archived: false
@@ -529,7 +528,7 @@
   title: 'Apple Removes iCloud E2EE in UK: What You Need to Know'
   unpinned: null
   unseen: false
-  views: 542
+  views: 543
   visible: true
 - archetype: regular
   archived: false
@@ -804,7 +803,7 @@
   title: "Lunatask: The Best Productivity Tool I\u2019ve Ever Used"
   unpinned: null
   unseen: false
-  views: 948
+  views: 953
   visible: true
 - archetype: regular
   archived: false
@@ -1172,7 +1171,7 @@
   title: PrivacyPost - Protecting Your Real Life Privacy!
   unpinned: null
   unseen: false
-  views: 400
+  views: 401
   visible: true
 - archetype: regular
   archived: false
@@ -1280,7 +1279,7 @@
   title: 'Kagi Search: Is Paying for a Search Engine Worth It?'
   unpinned: null
   unseen: false
-  views: 1277
+  views: 1279
   visible: true
 - archetype: regular
   archived: false
@@ -1368,7 +1367,7 @@
   title: "Why I switched from Firefox\u2026"
   unpinned: null
   unseen: false
-  views: 539
+  views: 540
   visible: true
 - archetype: regular
   archived: false
@@ -1412,7 +1411,7 @@
   title: "10 Privacy Tools I Can\u2019t Live Without"
   unpinned: null
   unseen: false
-  views: 442
+  views: 443
   visible: true
 - archetype: regular
   archived: false
@@ -2077,7 +2076,7 @@
   title: 'Lock Down Your Signal: Ultimate Hardening Guide'
   unpinned: null
   unseen: false
-  views: 1507
+  views: 1510
   visible: true
 - archetype: regular
   archived: false
@@ -3604,7 +3603,7 @@
   title: Why I Stopped Hardening Firefox
   unpinned: null
   unseen: false
-  views: 4553
+  views: 4555
   visible: true
 - archetype: regular
   archived: false
@@ -4031,7 +4030,7 @@
   title: We Tried Signal's MobileCoin So You Never Have To
   unpinned: null
   unseen: false
-  views: 367
+  views: 369
   visible: true
 - archetype: regular
   archived: false
@@ -4116,7 +4115,7 @@
     #smartphone #privacy'
   unpinned: null
   unseen: false
-  views: 289
+  views: 290
   visible: true
 - archetype: regular
   archived: false
@@ -4864,7 +4863,7 @@
   title: 'Get to know Punkt MP02: A Dumbphone w/Signal for your Privacy'
   unpinned: null
   unseen: false
-  views: 1653
+  views: 1654
   visible: true
 - archetype: regular
   archived: false
@@ -5209,7 +5208,7 @@
   title: The ULTIMATE Guide to Mastering NextDNS!
   unpinned: null
   unseen: false
-  views: 8054
+  views: 8055
   visible: true
 - archetype: regular
   archived: false
@@ -7192,7 +7191,7 @@
   title: Diving Into The World of Open Source Note-Taking! - (Notesnook Interview)
   unpinned: null
   unseen: false
-  views: 815
+  views: 816
   visible: true
 - archetype: regular
   archived: false

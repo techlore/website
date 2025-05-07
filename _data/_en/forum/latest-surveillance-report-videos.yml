@@ -9,15 +9,14 @@
   category_id: 21
   closed: false
   created_at: '2025-04-01T23:41:17.050Z'
-  excerpt: This is a companion discussion topic for the original entry at https://neat.tube/w/p23aNzZSsJThFngseF5WoG
+  excerpt: This is a companion discussion topic for the original entry at https://techlore.tv/w/p23aNzZSsJThFngseF5WoG
   fancy_title: 'Q&amp;A: Keeping Passwords Safe From Malware'
-  featured_link: https://neat.tube/w/p23aNzZSsJThFngseF5WoG
-  featured_link_root_domain: neat.tube
+  featured_link: null
   has_accepted_answer: false
   has_summary: false
   highest_post_number: 2
   id: 13243
-  image_url: null
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/original/2X/7/76d73dbd68ca4e80c73c7d76160f0eea42150e29.jpeg
   last_posted_at: '2025-04-02T06:01:48.958Z'
   last_poster_username: unknownghost
   like_count: 1
@@ -43,7 +42,7 @@
   title: 'Q&A: Keeping Passwords Safe From Malware'
   unpinned: null
   unseen: false
-  views: 83
+  views: 85
   visible: true
 - archetype: regular
   archived: false
@@ -186,7 +185,7 @@
   title: Is It Time to Ditch Firefox?
   unpinned: null
   unseen: false
-  views: 410
+  views: 411
   visible: true
 - archetype: regular
   archived: false
