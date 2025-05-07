@@ -4,6 +4,6 @@ description: "How to threat model - one of the most misunderstood concepts in th
 datePublished: 2021-12-14
 dateUpdated: 2021-12-14
 linkYouTube: "https://www.youtube.com/watch?v=DHZRhboZhfI"
-linkPeerTube: "https://neat.tube/w/btNHugZQmMWbor3Votmtx6"
+linkPeerTube: "https://techlore.tv/w/udSHSNcpWB5WBWqVp3tDRA"
 tags: ["threatmodel", "privacy", "security"]
 ---

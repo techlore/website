@@ -5,6 +5,6 @@ datePublished: 2024-09-09
 dateUpdated: 2024-09-09
 linkYouTube: "https://www.youtube.com/watch?v=DPjg3651oJM"
 linkForum: "https://discuss.techlore.tech/t/lock-down-your-signal-ultimate-hardening-guide/9559/1"
-linkPeerTube: "https://neat.tube/w/2fASYCM7kWPUpN7JEkB2Fu"
+linkPeerTube: "https://techlore.tv/w/3XG2x8s2moKMBdpnZrTk7c"
 tags: ["Guide","Privacy"]
 ---

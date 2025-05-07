@@ -4,5 +4,6 @@ description: "The v2 ultimate guide to making Windows as secure, private, and an
 datePublished: 2024-12-31
 dateUpdated: 2024-12-31
 linkYouTube: "https://youtu.be/-nv3IEtXhF8"
+linkPeerTube: "https://techlore.tv/w/gMiridfL1LHsto1DnRtd5N"
 tags: ["Guide","Security","Privacy","Windows"]
 ---

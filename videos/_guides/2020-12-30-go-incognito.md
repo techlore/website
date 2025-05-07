@@ -4,7 +4,7 @@ description: "Welcome to Go Incognito, your guide to security, privacy & anonymi
 datePublished: 2020-12-30
 dateUpdated: 2024-01-01
 linkYouTube: "https://www.youtube.com/watch?v=Y19RFmOxfVM"
-linkPeerTube: "https://neat.tube/w/jCr9aEmJAGSh9UDmuxVhdJ"
+linkPeerTube: "https://techlore.tv/w/n6X4YvPfHm1NW8HQB2bTwE"
 tags: ["techlore", "privacy", "goincognito"]
 isPremium: true
 ---
