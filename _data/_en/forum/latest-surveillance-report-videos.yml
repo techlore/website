@@ -20,7 +20,7 @@
   image_url: null
   last_posted_at: '2025-05-07T17:02:22.917Z'
   last_poster_username: system
-  like_count: 2
+  like_count: 3
   liked: null
   pinned: false
   pinned_globally: false
@@ -38,7 +38,7 @@
   title: 'Q&A: Can Privacy Make You Easier to Track?'
   unpinned: null
   unseen: false
-  views: 36
+  views: 63
   visible: true
 - archetype: regular
   archived: false
@@ -1288,7 +1288,7 @@
   title: 3.2 Million WhatsApp Profiles EXPOSED!
   unpinned: null
   unseen: false
-  views: 170
+  views: 171
   visible: true
 - archetype: regular
   archived: false
