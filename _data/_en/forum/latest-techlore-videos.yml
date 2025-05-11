@@ -5,6 +5,66 @@
   archived: false
   bookmarked: null
   bumped: true
+  bumped_at: '2025-05-11T01:47:37.369Z'
+  category_id: 20
+  closed: false
+  created_at: '2025-05-10T15:59:31.032Z'
+  excerpt: This is a companion discussion topic for the original entry at https://techlore.tv/w/v2aUR1LHUFh2zufSxAT3Qw
+  fancy_title: 'Browser Fingerprinting Masterclass: How It Works &amp; How To Protect
+    Yourself'
+  featured_link: https://techlore.tv/w/v2aUR1LHUFh2zufSxAT3Qw
+  featured_link_root_domain: techlore.tv
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 6
+  id: 13753
+  image_url: null
+  last_posted_at: '2025-05-11T01:47:37.369Z'
+  last_poster_username: Ale
+  like_count: 5
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 3737
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 1726
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 3755
+  - description: Most Recent Poster
+    extras: latest
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 3658
+  posts_count: 6
+  reply_count: 3
+  slug: browser-fingerprinting-masterclass-how-it-works-how-to-protect-yourself
+  tags: []
+  tags_descriptions: {}
+  title: 'Browser Fingerprinting Masterclass: How It Works & How To Protect Yourself'
+  unpinned: null
+  unseen: false
+  views: 50
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
   bumped_at: '2025-03-25T03:19:43.978Z'
   category_id: 20
   closed: false
@@ -37,7 +97,7 @@
   title: Stuck on Windows 10? Here's How To Upgrade Anyway
   unpinned: null
   unseen: false
-  views: 339
+  views: 347
   visible: true
 - archetype: regular
   archived: false
@@ -90,7 +150,7 @@
   title: 'Finally! True Privacy in a Laptop: NovaCustom Review'
   unpinned: null
   unseen: false
-  views: 578
+  views: 583
   visible: true
 - archetype: regular
   archived: false
@@ -148,7 +208,7 @@
   title: Debloat Brave Browser in Minutes! | Minimal Brave Tutorial
   unpinned: null
   unseen: false
-  views: 665
+  views: 670
   visible: true
 - archetype: regular
   archived: false
@@ -259,7 +319,7 @@
   title: 8 Must-Try Alternatives to Firefox
   unpinned: null
   unseen: false
-  views: 480
+  views: 481
   visible: true
 - archetype: regular
   archived: false
@@ -375,7 +435,7 @@
   title: The 2025 Linux Tier List
   unpinned: null
   unseen: false
-  views: 533
+  views: 538
   visible: true
 - archetype: regular
   archived: false
@@ -423,7 +483,7 @@
   title: 'Encrypt Your Cloud Data with Cryptomator: Security 101'
   unpinned: null
   unseen: false
-  views: 319
+  views: 320
   visible: true
 - archetype: regular
   archived: false
@@ -630,7 +690,7 @@
   title: The ULTIMATE macOS Privacy & Security Guide!
   unpinned: null
   unseen: false
-  views: 498
+  views: 499
   visible: true
 - archetype: regular
   archived: false
@@ -789,7 +849,7 @@
   title: "Lunatask: The Best Productivity Tool I\u2019ve Ever Used"
   unpinned: null
   unseen: false
-  views: 960
+  views: 962
   visible: true
 - archetype: regular
   archived: false
@@ -827,7 +887,7 @@
   title: The ULTIMATE Windows Privacy & Security Guide!
   unpinned: null
   unseen: false
-  views: 119
+  views: 120
   visible: true
 - archetype: regular
   archived: false
@@ -981,7 +1041,7 @@
   title: Your privacy & security questions answered! (Nov '24)
   unpinned: null
   unseen: false
-  views: 160
+  views: 161
   visible: true
 - archetype: regular
   archived: false
@@ -1198,7 +1258,7 @@
   title: Your privacy & security questions answered! (Oct '24)
   unpinned: null
   unseen: false
-  views: 191
+  views: 192
   visible: true
 - archetype: regular
   archived: false
@@ -1256,7 +1316,7 @@
   title: 'Kagi Search: Is Paying for a Search Engine Worth It?'
   unpinned: null
   unseen: false
-  views: 1292
+  views: 1293
   visible: true
 - archetype: regular
   archived: false
@@ -1385,7 +1445,7 @@
   title: "10 Privacy Tools I Can\u2019t Live Without"
   unpinned: null
   unseen: false
-  views: 446
+  views: 447
   visible: true
 - archetype: regular
   archived: false
@@ -1610,7 +1670,7 @@
   title: 'Molly: A More Secure Signal'
   unpinned: null
   unseen: false
-  views: 456
+  views: 458
   visible: true
 - archetype: regular
   archived: false
@@ -1987,7 +2047,7 @@
   title: 'Why I Left Adobe: A Plea for Better Tech'
   unpinned: null
   unseen: false
-  views: 156
+  views: 157
   visible: true
 - archetype: regular
   archived: false
@@ -2035,7 +2095,7 @@
   title: 'Lock Down Your Signal: Ultimate Hardening Guide'
   unpinned: null
   unseen: false
-  views: 1522
+  views: 1531
   visible: true
 - archetype: regular
   archived: false
@@ -2303,7 +2363,7 @@
   title: Why I'm Concerned About Signal
   unpinned: null
   unseen: false
-  views: 400
+  views: 401
   visible: true
 - archetype: regular
   archived: false
@@ -2495,7 +2555,7 @@
   title: Privacy-Friendly Security Cameras...Synology Did It!
   unpinned: null
   unseen: false
-  views: 471
+  views: 472
   visible: true
 - archetype: regular
   archived: false
@@ -2606,7 +2666,7 @@
   title: "Data Brokers Are Stealing Your Data\u2014Here\u2019s How To Stop Them"
   unpinned: null
   unseen: false
-  views: 306
+  views: 307
   visible: true
 - archetype: regular
   archived: false
@@ -3430,7 +3490,7 @@
   title: WTF APPLE! - Techlore Talks 18
   unpinned: null
   unseen: false
-  views: 388
+  views: 389
   visible: true
 - archetype: regular
   archived: false
@@ -3531,7 +3591,7 @@
   title: Why I Stopped Hardening Firefox
   unpinned: null
   unseen: false
-  views: 4572
+  views: 4574
   visible: true
 - archetype: regular
   archived: false
@@ -4545,7 +4605,7 @@
   title: Top 5 Safe VPNs for $0. (Yes, Really)
   unpinned: null
   unseen: false
-  views: 739
+  views: 740
   visible: true
 - archetype: regular
   archived: false
@@ -4709,7 +4769,7 @@
   title: 'Simplifying w/Digital Minimalism: What''s on My Phone'
   unpinned: null
   unseen: false
-  views: 1455
+  views: 1456
   visible: true
 - archetype: regular
   archived: false
@@ -5105,7 +5165,7 @@
   title: The ULTIMATE Guide to Mastering NextDNS!
   unpinned: null
   unseen: false
-  views: 8068
+  views: 8073
   visible: true
 - archetype: regular
   archived: false
@@ -6882,7 +6942,7 @@
   title: "Can iod\xE9OS take down stock Android? Let's Find Out!"
   unpinned: null
   unseen: false
-  views: 901
+  views: 902
   visible: true
 - archetype: regular
   archived: false
@@ -7411,53 +7471,4 @@
   unpinned: null
   unseen: false
   views: 310
-  visible: true
-- archetype: regular
-  archived: false
-  bookmarked: null
-  bumped: true
-  bumped_at: '2022-10-10T14:32:15.554Z'
-  category_id: 20
-  closed: false
-  created_at: '2022-10-09T11:00:00.000Z'
-  excerpt: This is a companion discussion topic for the original entry at https://techlore.tv/w/7uDHLeDoQ9QesPZgFa6Ya5
-  fancy_title: 'Cognitive Dissonance &amp;amp; Confirmation Bias - Techlore Talks
-    #3'
-  featured_link: null
-  has_accepted_answer: false
-  has_summary: false
-  highest_post_number: 3
-  id: 1857
-  image_url: null
-  last_posted_at: '2022-10-10T14:32:15.554Z'
-  last_poster_username: InternetGhost
-  like_count: 8
-  liked: null
-  pinned: false
-  pinned_globally: false
-  posters:
-  - description: Original Poster
-    extras: null
-    flair_group_id: null
-    primary_group_id: null
-    user_id: -1
-  - description: Frequent Poster
-    extras: null
-    flair_group_id: null
-    primary_group_id: null
-    user_id: 447
-  - description: Most Recent Poster
-    extras: latest
-    flair_group_id: null
-    primary_group_id: null
-    user_id: 108
-  posts_count: 3
-  reply_count: 0
-  slug: cognitive-dissonance-amp-confirmation-bias-techlore-talks-3
-  tags: []
-  tags_descriptions: {}
-  title: 'Cognitive Dissonance &amp; Confirmation Bias - Techlore Talks #3'
-  unpinned: null
-  unseen: false
-  views: 344
   visible: true
