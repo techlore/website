@@ -5,7 +5,7 @@
   archived: false
   bookmarked: null
   bumped: true
-  bumped_at: '2025-05-11T01:47:37.369Z'
+  bumped_at: '2025-05-12T00:42:27.622Z'
   category_id: 20
   closed: false
   created_at: '2025-05-10T15:59:31.032Z'
@@ -16,12 +16,12 @@
   featured_link_root_domain: techlore.tv
   has_accepted_answer: false
   has_summary: false
-  highest_post_number: 6
+  highest_post_number: 8
   id: 13753
   image_url: null
-  last_posted_at: '2025-05-11T01:47:37.369Z'
-  last_poster_username: Ale
-  like_count: 5
+  last_posted_at: '2025-05-12T00:42:27.622Z'
+  last_poster_username: J.G
+  like_count: 11
   liked: null
   pinned: false
   pinned_globally: false
@@ -35,31 +35,31 @@
     extras: null
     flair_group_id: null
     primary_group_id: null
-    user_id: 3737
-  - description: Frequent Poster
-    extras: null
-    flair_group_id: null
-    primary_group_id: null
     user_id: 1726
   - description: Frequent Poster
     extras: null
     flair_group_id: null
     primary_group_id: null
     user_id: 3755
+  - description: Frequent Poster
+    extras: null
+    flair_group_id: null
+    primary_group_id: null
+    user_id: 3658
   - description: Most Recent Poster
     extras: latest
     flair_group_id: null
     primary_group_id: null
-    user_id: 3658
-  posts_count: 6
-  reply_count: 3
+    user_id: 3735
+  posts_count: 8
+  reply_count: 4
   slug: browser-fingerprinting-masterclass-how-it-works-how-to-protect-yourself
   tags: []
   tags_descriptions: {}
   title: 'Browser Fingerprinting Masterclass: How It Works & How To Protect Yourself'
   unpinned: null
   unseen: false
-  views: 50
+  views: 118
   visible: true
 - archetype: regular
   archived: false
@@ -150,7 +150,7 @@
   title: 'Finally! True Privacy in a Laptop: NovaCustom Review'
   unpinned: null
   unseen: false
-  views: 583
+  views: 584
   visible: true
 - archetype: regular
   archived: false
@@ -208,7 +208,7 @@
   title: Debloat Brave Browser in Minutes! | Minimal Brave Tutorial
   unpinned: null
   unseen: false
-  views: 670
+  views: 673
   visible: true
 - archetype: regular
   archived: false
@@ -435,7 +435,7 @@
   title: The 2025 Linux Tier List
   unpinned: null
   unseen: false
-  views: 538
+  views: 539
   visible: true
 - archetype: regular
   archived: false
@@ -579,7 +579,7 @@
   title: 'Apple Removes iCloud E2EE in UK: What You Need to Know'
   unpinned: null
   unseen: false
-  views: 546
+  views: 550
   visible: true
 - archetype: regular
   archived: false
@@ -849,7 +849,7 @@
   title: "Lunatask: The Best Productivity Tool I\u2019ve Ever Used"
   unpinned: null
   unseen: false
-  views: 962
+  views: 965
   visible: true
 - archetype: regular
   archived: false
@@ -1316,7 +1316,7 @@
   title: 'Kagi Search: Is Paying for a Search Engine Worth It?'
   unpinned: null
   unseen: false
-  views: 1293
+  views: 1298
   visible: true
 - archetype: regular
   archived: false
@@ -2095,7 +2095,7 @@
   title: 'Lock Down Your Signal: Ultimate Hardening Guide'
   unpinned: null
   unseen: false
-  views: 1531
+  views: 1534
   visible: true
 - archetype: regular
   archived: false
@@ -2962,7 +2962,7 @@
   title: 'Ditching Chrome: My Journey to a Better Mobile Browser'
   unpinned: null
   unseen: false
-  views: 793
+  views: 794
   visible: true
 - archetype: regular
   archived: false
@@ -3591,7 +3591,7 @@
   title: Why I Stopped Hardening Firefox
   unpinned: null
   unseen: false
-  views: 4574
+  views: 4580
   visible: true
 - archetype: regular
   archived: false
@@ -4769,7 +4769,7 @@
   title: 'Simplifying w/Digital Minimalism: What''s on My Phone'
   unpinned: null
   unseen: false
-  views: 1456
+  views: 1459
   visible: true
 - archetype: regular
   archived: false
@@ -5165,7 +5165,7 @@
   title: The ULTIMATE Guide to Mastering NextDNS!
   unpinned: null
   unseen: false
-  views: 8073
+  views: 8079
   visible: true
 - archetype: regular
   archived: false

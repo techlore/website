@@ -5,6 +5,45 @@
   archived: false
   bookmarked: null
   bumped: true
+  bumped_at: '2025-05-11T23:30:58.941Z'
+  category_id: 19
+  closed: false
+  created_at: '2025-05-11T23:30:58.901Z'
+  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=dGd-ay-ykxg
+  fancy_title: Privacy Coins At Risk in Europe!
+  featured_link: https://www.youtube.com/watch?v=dGd-ay-ykxg
+  featured_link_root_domain: youtube.com
+  has_accepted_answer: false
+  has_summary: false
+  highest_post_number: 1
+  id: 13764
+  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/optimized/2X/7/7ef91eaff3d506d8bd6a8ecf2e801c43e5a37182_2_1024x576.jpeg
+  last_posted_at: '2025-05-11T23:30:58.941Z'
+  last_poster_username: system
+  like_count: 0
+  liked: null
+  pinned: false
+  pinned_globally: false
+  posters:
+  - description: Original Poster, Most Recent Poster
+    extras: latest single
+    flair_group_id: null
+    primary_group_id: null
+    user_id: -1
+  posts_count: 1
+  reply_count: 0
+  slug: privacy-coins-at-risk-in-europe
+  tags: []
+  tags_descriptions: {}
+  title: Privacy Coins At Risk in Europe!
+  unpinned: null
+  unseen: false
+  views: 0
+  visible: true
+- archetype: regular
+  archived: false
+  bookmarked: null
+  bumped: true
   bumped_at: '2025-04-09T19:03:32.763Z'
   category_id: 19
   closed: false
@@ -38,7 +77,7 @@
   title: Should You Use A VPN?
   unpinned: null
   unseen: false
-  views: 20
+  views: 21
   visible: true
 - archetype: regular
   archived: false
@@ -126,7 +165,7 @@
   title: 'Proton vs. Tuta: Why I Can''t Switch (Yet)'
   unpinned: null
   unseen: false
-  views: 32
+  views: 33
   visible: true
 - archetype: regular
   archived: false
@@ -453,7 +492,7 @@
   title: 'Storing 2FA in Your Password Manager: Is it Safe?'
   unpinned: null
   unseen: false
-  views: 18
+  views: 19
   visible: true
 - archetype: regular
   archived: false
@@ -1161,43 +1200,4 @@
   unpinned: null
   unseen: false
   views: 5
-  visible: true
-- archetype: regular
-  archived: false
-  bookmarked: null
-  bumped: true
-  bumped_at: '2024-12-02T18:03:43.987Z'
-  category_id: 19
-  closed: false
-  created_at: '2024-12-02T18:03:43.954Z'
-  excerpt: This is a companion discussion topic for the original entry at https://www.youtube.com/watch?v=tKnofrgQlkI
-  fancy_title: Is Bluesky Actually Decentralized?
-  featured_link: https://www.youtube.com/watch?v=tKnofrgQlkI
-  featured_link_root_domain: youtube.com
-  has_accepted_answer: false
-  has_summary: false
-  highest_post_number: 1
-  id: 10989
-  image_url: https://canada1.discourse-cdn.com/flex035/uploads/techlore/optimized/2X/0/00f63ca7075aa3048d5a77de8512c46b4331b047_2_1024x576.jpeg
-  last_posted_at: '2024-12-02T18:03:43.987Z'
-  last_poster_username: system
-  like_count: 0
-  liked: null
-  pinned: false
-  pinned_globally: false
-  posters:
-  - description: Original Poster, Most Recent Poster
-    extras: latest single
-    flair_group_id: null
-    primary_group_id: null
-    user_id: -1
-  posts_count: 1
-  reply_count: 0
-  slug: is-bluesky-actually-decentralized
-  tags: []
-  tags_descriptions: {}
-  title: Is Bluesky Actually Decentralized?
-  unpinned: null
-  unseen: false
-  views: 6
   visible: true
