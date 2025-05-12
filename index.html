@@ -18,15 +18,19 @@ last_modified_at: 2024-11-01
 				{%- include c_box-header.html title=t.videos.titleNewest links=site.techloreVideos.links -%}
 				<div class="box">
 					<ul class="video-list video-list--50 marginless listless columns is-multiline is-gap-2 is-justify-content-space-between">
-						{% for video in site.data._en.forum.latest-techlore-videos limit: 2 %}
-							{% assign forumLink = video.id | prepend: "https://discuss.techlore.tech/t/" %}
+						{% assign sortedVideosLatest = site.data._en.forum.latest-techlore-videos | sort: 'originallyPublishedAt' | reverse %}
+						{% for video in sortedVideosLatest limit: 2 %}
+							{% assign link = video.url %}
+							{% assign thumbnail = video.previewPath | prepend: "http://techlore.tv" %}
+							{% assign duration = video.duration | format_duration %}
 
 							{%- include c_video.html
-								title=video.fancy_title
-								desc=video.excerpt
-								link=forumLink
-								thumbnail=video.image_url
-								date=video.created_at
+								title=video.name
+								desc=video.truncatedDescription
+								link=link
+								thumbnail=thumbnail
+								date=video.originallyPublishedAt
+								duration=duration
 							-%}
 
 						{% endfor %}

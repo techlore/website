@@ -97,6 +97,19 @@
 		border: 0;
 	}
 
+	.video-list__duration {
+		position: absolute;
+		inset: auto 0 0 auto;
+		z-index: 2;
+		background-color: #11151d; // forced color
+		border-radius: var(--bulma-radius) 0 0 0;
+		padding: calc(var(--bulma-size-7) * .15) calc(var(--bulma-size-7) * 1.2);
+		color: var(--bulma-white);
+		font-weight: var(--bulma-weight-semibold);
+		font-size: .875rem;
+		letter-spacing: .1rem;
+	}
+
 	// --- Detailed ("all videos" version)
 	.video-list__item--detailed & {
 		@media (min-width: 520px) {
@@ -120,6 +133,7 @@
 		aspect-ratio: 1;
 		border-radius: 50%;
 		animation: thumbLoader 1s infinite linear alternate;
+		animation-iteration-count: 60;
 		position: absolute;
 		inset: 50% auto auto 50%;
 		translate: -50% -50%;
