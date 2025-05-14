@@ -6,7 +6,7 @@
 		<meta name="robots" content="noindex, nofollow">
 	{% endif -%}
 	{%- capture title -%}
-		{%- unless page.title == "Home" -%}{{ page.title | append: " | " }}{%- endunless -%}{{ site.name }} - {{ site.tagline }}
+	    {%- unless page.title == "Home" -%}{{ page.title | append: " | " }}{%- endunless -%}{{ site.tagline }}
 	{%- endcapture -%}
 	{% assign description = page.description | default: site.description | strip_html | truncate: 160 %}
 	{% assign url = page.permalink | default: "/" %}
