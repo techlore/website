@@ -5,7 +5,7 @@
 	</picture>
 </h1>
 
-We're a small team educating people about digital rights, privacy, security, digital control, and other important topics to push the world towards a safer internet.
+Techlore is educating people about digital rights, privacy, security, digital control, and other important topics to push the world towards a safer internet.
 
 This website is using HTML, vanilla JavaScript, [Bulma.io](https://bulma.io/) framework and its components and static website generator [Jekyll](https://jekyllrb.com/).
 
