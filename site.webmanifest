@@ -1,19 +1,28 @@
 {
-    "name": "Techlore",
+    "name": "Techlore - Digital Rights for All",
     "short_name": "Techlore",
+    "description": "Resources and education for digital privacy and security",
     "icons": [
         {
             "src": "./android-chrome-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
+            "purpose": "any maskable"
         },
         {
             "src": "./android-chrome-256x256.png",
             "sizes": "256x256",
             "type": "image/png"
+            "purpose": "any"
         }
     ],
+    "start_url": "/",
     "theme_color": "#5675e6",
     "background_color": "#5675e6",
     "display": "standalone"
+    "orientation": "portrait",
+    "scope": "/",
+    "lang": "en-US",
+    "dir": "ltr",
+    "categories": ["education", "security", "utilities"]
 }

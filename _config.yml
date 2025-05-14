@@ -19,13 +19,19 @@
 # in the templates via {{ site.myvariable }}.
 
 name: "Techlore"
-title: "Techlore | Digital Rights for All"
+title: "Techlore | Privacy Tools & Digital Rights for All"
 tagline: "Digital Rights for All"
 email: contact@techlore.tech
 description: >- # this means to ignore newlines until "twitter:"
-  Techlore is educating people about digital rights, privacy, security,
-  digital control, and other important topics to push the world towards a safer internet.
-twitter: "TechloreInc"
+  Techlore provides privacy tools, security guides, and digital rights education
+  to help you protect your online data and freedom. Learn how to protect your data, secure your 
+  communications, and reclaim your online freedom through our guides, videos, and community.
+author: Henry Fisher (Techlore)
+lang: en_US
+locale: en_US
+twitter:
+  username: "TechloreInc"
+  card: summary_large_image
 mastodon:
   username: "techlore"
   server: "social.lol"
@@ -38,7 +44,18 @@ ogImages:
   support:      "/assets/images/og-image-1200x630-support.png"
   videos:       "/assets/images/og-image-1200x630-videos.png"
   vpn:          "/assets/images/og-image-1200x630-vpn.png"
+
 url: "https://www.techlore.tech"
+baseurl: ""
+social:
+  links:
+    - https://twitter.com/TechloreInc
+    - https://social.lol/@techlore
+    - https://github.com/techlore
+    - https://www.youtube.com/@techlore
+    - https://bsky.app/profile/techlore.tech
+    - https://t.me/techlorefeed
+logo: "/assets/logos/techlore-logo.svg"
 
 # -----------------------------------------
 # Global links
@@ -54,7 +71,7 @@ techloreVideos:
   extra:
     odysee: "https://odysee.com/@techlore:3"
     tiktok: "https://www.tiktok.com/@techlore"
-    learning: "https://learn.techlore.tech/"
+    course: "https://course.techlore.tech/"
     teachable: "https://techlore.teachable.com/"
 techloreClips:
   links:
@@ -167,7 +184,16 @@ defaults:
       path: ""
       type: "guides"
     values:
-      sitemap: false
+      sitemap: true
+      image: /assets/images/og-image-1200x630-default.png
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      sitemap: true
+      image: /assets/images/og-image-1200x630-default.png
 
 include:
   - _redirects
@@ -181,14 +207,19 @@ include:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - .git/
+  - .github/
