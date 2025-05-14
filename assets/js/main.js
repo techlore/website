@@ -91,6 +91,10 @@ const discussTopicsConstructor = async () => {
 					if (user.username === topic.last_poster_username) {
 						const avatar = user.avatar_template
 						avatarUrl = dataset.forum + avatar.replace('{size}', '48')
+
+						if (!avatar.includes('discuss.techlore.tech')) {
+							avatarUrl = avatar.replace('{size}', '48')
+						}
 					}
 				})
 
