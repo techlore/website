@@ -97,15 +97,15 @@ support:
 socials:
   links: # these links also appear in the "feature box" on the homepage amd in the footer
     youtube: "https://www.youtube.com/@techlore"
-    mastodon: "https://social.lol/@techlore"
-    rss: "/rss"
-    signal: "https://discuss.techlore.tech/t/signal-usernames-are-here-join-our-exclusive-signal-group/7640"
     twitter: "https://twitter.com/TechloreInc"
+    mastodon: "https://social.lol/@techlore"
     bluesky: "https://bsky.app/profile/techlore.tech"
-    telegram: "https://t.me/techlorefeed"
-    matrix: "https://matrix.to/#/%23techlore:matrix.org"
-  extra:
     linkedin: "https://www.linkedin.com/company/techloreinc/"
+    signal: "https://discuss.techlore.tech/t/signal-usernames-are-here-join-our-exclusive-signal-group/7640"
+    telegram: "https://t.me/techlorefeed"
+    rss: "/rss"
+  extra:
+    matrix: "https://matrix.to/#/%23techlore:matrix.org"
 forum:
   links:
     discuss: "https://discuss.techlore.tech/"
