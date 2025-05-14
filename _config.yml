@@ -29,9 +29,8 @@ description: >- # this means to ignore newlines until "twitter:"
 author: Henry Fisher (Techlore)
 lang: en_US
 locale: en_US
-twitter:
-  username: "TechloreInc"
-  card: summary_large_image
+twitter: "TechloreInc"
+twitter_card: "summary_large_image"
 mastodon:
   username: "techlore"
   server: "social.lol"
