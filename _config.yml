@@ -103,9 +103,9 @@ socials:
     twitter: "https://twitter.com/TechloreInc"
     bluesky: "https://bsky.app/profile/techlore.tech"
     telegram: "https://t.me/techlorefeed"
-    matrix: "https://matrix.to/#/%23techlore:matrix.org"
-  extra:
     linkedin: "https://www.linkedin.com/company/techloreinc/"
+  extra:
+    matrix: "https://matrix.to/#/%23techlore:matrix.org"
 forum:
   links:
     discuss: "https://discuss.techlore.tech/"
