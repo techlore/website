@@ -5,12 +5,16 @@
 	{% if page.noindex -%}
 		<meta name="robots" content="noindex, nofollow">
 	{% endif -%}
-	{%- capture title -%}
-	    {%- unless page.title == "Home" -%}{{ page.title | append: " | " }}{%- endunless -%}{{ site.tagline }}
+	{%- capture page_title -%}
+	    {%- if page.title == "Home" -%}
+	        {{ site.name }} | {{ site.tagline }}
+	    {%- else -%}
+	        {{ page.title }} | {{ site.name }}
+	    {%- endif -%}
 	{%- endcapture -%}
 	{% assign description = page.description | default: site.description | strip_html | truncate: 160 %}
 	{% assign url = page.permalink | default: "/" %}
-	<title>{{ title }}</title>
+	<title>{{ page_title }}</title>
 
 	{% comment %}Open Graph Images - source: _config.yml{% endcomment %}
 	{%- case url -%}
