@@ -44,7 +44,7 @@ ogImages:
   videos:       "/assets/images/og-image-1200x630-videos.png"
   vpn:          "/assets/images/og-image-1200x630-vpn.png"
 
-url: "https://www.techlore.tech"
+url: "https://techlore.tech"
 baseurl: ""
 social:
   links:
@@ -148,6 +148,7 @@ collections:
   guides:
     output: true
     permalink: /guides/:name
+    sitemap: true
 collections_dir: videos
 
 # -----------------------------------------
@@ -183,7 +184,7 @@ defaults:
       path: ""
       type: "guides"
     values:
-      sitemap: true
+      sitemap: false
       image: /assets/images/og-image-1200x630-default.png
   -
     scope:
