@@ -11,7 +11,7 @@
   id: 85147
   isLive: false
   isLocal: true
-  likes: 0
+  likes: 4
   name: 'Q&A: Cardinal Rules of Privacy'
   nsfw: false
   originallyPublishedAt: '2025-05-15T02:47:06.506Z'
@@ -26,11 +26,11 @@
     ease in or make mistakes? How can a typical person do traffic analysis on phones?
     How do we address printer privacy concerns? Is it safer to open a port in a VPN
     than a router? Join our next ...'
-  updatedAt: '2025-05-15T04:09:44.945Z'
+  updatedAt: '2025-05-16T03:39:45.114Z'
   url: https://apertatube.net/videos/watch/b5513eba-998b-4e83-8d2e-9c52a84ab3c7
   uuid: b5513eba-998b-4e83-8d2e-9c52a84ab3c7
-  viewers: 2
-  views: 3
+  viewers: 0
+  views: 38
 - createdAt: '2025-05-11T16:48:17.177Z'
   description: "Episode 225: The EU intends to ban all privacy-coins and non-KYC wallets,\
     \ education giant Pearson had a data breach, Peertube App v1 is out, and more!\r\
@@ -56,8 +56,8 @@
     \ non-KYC wallets, education giant Pearson had a data breach, Peertube App v1\
     \ is out, and more!\r\n\r\nWelcome to the Surveillance Report - featuring Techlore\
     \ & The New Oil to keep you updated on ..."
-  updatedAt: '2025-05-15T04:39:44.969Z'
+  updatedAt: '2025-05-16T01:39:45.117Z'
   url: https://apertatube.net/videos/watch/d68ad421-a011-48c0-ae94-9a9362ac31e3
   uuid: d68ad421-a011-48c0-ae94-9a9362ac31e3
   viewers: 0
-  views: 55
+  views: 69
