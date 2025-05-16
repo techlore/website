@@ -11,8 +11,22 @@
 	<div class="sub-hero columns is-justify-content-space-between is-align-items-flex-end">
 		<div class="column is-half-tablet">
 			{%- if include.title -%}
-				<h1 class="sub-hero__title">{{- include.title -}}</h1>
+				{% assign delimiter = "|" %}
+
+				{% if include.title contains delimiter %}
+					{% assign splitTitle = include.title | split: delimiter %}
+
+					<h1 class="sub-hero__title">
+						{{- splitTitle[0] -}}
+						<span class="sub-hero__tagline">{{- splitTitle[1] -}}</span>
+					</h1>
+
+				{% else %}
+					<h1 class="sub-hero__title">{{- include.title -}}</h1>
+
+				{% endif %}
 			{%- endif %}
+
 			{%- if include.perex -%}
 				<p class="sub-hero__desc">{{- include.perex -}}</p>
 			{%- endif -%}

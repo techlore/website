@@ -4,6 +4,8 @@
 
 .sub-hero__title {
 	position: relative;
+	display: flex;
+	flex-direction: column;
 
 	&:after {
 		content: '';
@@ -14,6 +16,12 @@
 		translate: 0 var(--bulma-size-5);
 		border-radius: 100vmax;
 	}
+}
+
+.sub-hero__tagline {
+	font-size: var(--bulma-size-2);
+	color: var(--bulma-primary);
+	margin-top: calc(var(--bulma-size-5) * .5);
 }
 
 .sub-hero__desc {
