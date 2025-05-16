@@ -20,7 +20,7 @@ sitemap:
 				{% assign sortedVideosLatest = site.data._en.forum.latest-techlore-videos | sort: 'originallyPublishedAt' | reverse %}
 				{% for video in sortedVideosLatest limit: 3 %}
 					{% assign link = video.url %}
-					{% assign thumbnail = video.previewPath | prepend: "http://techlore.tv" %}
+					{% assign thumbnail = video.previewPath | prepend: "https://techlore.tv" %}
 					{% assign duration = video.duration | format_duration %}
 
 					{%- include c_video.html
