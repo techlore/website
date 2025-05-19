@@ -38,10 +38,10 @@ footerNav:
 hiddenNav:
   spaQuiz:
     title: "SPA Quiz"
-    url: /spa
+    url: /spa/
   vpnToolkit:
     title: "VPN Toolkit"
-    url: /vpn
+    url: /vpn/
   plexus:
     title: "Plexus app"
     url: https://plexus.techlore.tech
