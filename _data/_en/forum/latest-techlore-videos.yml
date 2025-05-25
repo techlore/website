@@ -11,7 +11,7 @@
   id: 39107
   isLive: false
   isLocal: true
-  likes: 1
+  likes: 2
   name: How AlmaLinux Rose from CentOS's Ashes | Interview with Chair benny Vasquez
   nsfw: false
   originallyPublishedAt: '2025-05-21T18:10:23.000Z'
@@ -26,11 +26,11 @@
     of the AlmaLinux OS Foundation, as we explore the fallout from Red Hat's controversial
     licensing changes and how AlmaLinux emerged as a community-driven solution. We
     discuss the techni...
-  updatedAt: '2025-05-23T23:54:00.559Z'
+  updatedAt: '2025-05-24T22:24:00.797Z'
   url: https://techlore.tv/videos/watch/337a382b-8ab1-40a3-b605-d46cef0f83bf
   uuid: 337a382b-8ab1-40a3-b605-d46cef0f83bf
   viewers: 0
-  views: 54
+  views: 57
 - createdAt: '2025-05-10T00:35:46.192Z'
   description: "Discover how websites can identify and track you\u2014even without\
     \ cookies\u2014using browser fingerprinting. This masterclass breaks down how\
@@ -56,11 +56,11 @@
     \ without cookies\u2014using browser fingerprinting. This masterclass breaks down\
     \ how your browser reveals a unique digital \"fingerprint\" that follows you across\
     \ the web, with real demonstrations comp..."
-  updatedAt: '2025-05-24T02:54:00.544Z'
+  updatedAt: '2025-05-25T03:24:00.763Z'
   url: https://techlore.tv/videos/watch/eb02df73-742b-4ce1-8497-1964a122eb3e
   uuid: eb02df73-742b-4ce1-8497-1964a122eb3e
   viewers: 0
-  views: 361
+  views: 371
 - createdAt: '2025-04-13T08:24:44.794Z'
   description: Can a laptop offer privacy & security without compromises? NovaCustom
     claims to, with QubesOS/Linux support, customizability, disabling Intel ME, and
@@ -146,11 +146,11 @@
     quick and easy tutorial, we'll show you how to remove unnecessary features, disable
     extensions, and optimize Brave for lightning-fast performance. Whether you're
     a tech-savvy user or a be...
-  updatedAt: '2025-05-23T02:54:00.636Z'
+  updatedAt: '2025-05-24T16:54:00.945Z'
   url: https://techlore.tv/videos/watch/430b602a-56fa-4980-8238-9c9b2f68834e
   uuid: 430b602a-56fa-4980-8238-9c9b2f68834e
   viewers: 0
-  views: 36
+  views: 39
 - createdAt: '2025-04-13T08:24:23.795Z'
   description: Apple's moving to integrate end-to-end encryption (E2EE) into the RCS
     open standard messaging marks a major privacy win for both iOS and Android users.
@@ -266,11 +266,11 @@
     based on my personal experience and factors like stability, package manager, community
     support, privacy/security, & customization. We'll explore popular choices like
     Ubuntu, Fedora...
-  updatedAt: '2025-05-22T05:01:38.259Z'
+  updatedAt: '2025-05-24T20:54:00.743Z'
   url: https://techlore.tv/videos/watch/17451d79-4bde-4471-b872-530314669f34
   uuid: 17451d79-4bde-4471-b872-530314669f34
   viewers: 0
-  views: 7
+  views: 9
 - createdAt: '2025-04-13T08:23:54.614Z'
   description: How to make any cloud provider end-to-end-encrypted with Cryptomator,
     a free and open source E2EE tool. With Cryptomator you can make Dropbox, iCloud,
@@ -360,11 +360,11 @@
   truncatedDescription: "Welcome to our privacy wins of the week, where our community\
     \ shares their wins. Join next week's stream: https://discuss.techlore.tech/t/your-weekly-privacy-security-wins-week-43-feb-21-2025/12542\n\
     \n\U0001F510 Techlore Homepage: https://techlore.tech\n\U0001F575 Go..."
-  updatedAt: '2025-05-07T18:01:44.306Z'
+  updatedAt: '2025-05-24T14:24:01.575Z'
   url: https://techlore.tv/videos/watch/bf236233-4020-4101-a767-f86bbcf9e8ff
   uuid: bf236233-4020-4101-a767-f86bbcf9e8ff
   viewers: 0
-  views: 1
+  views: 2
 - createdAt: '2025-04-13T08:23:33.893Z'
   description: "Go to my sponsor https://snhu.edu/techlore and learn how you can get\
     \ started with a Cybersecurity degree \U0001F393\nLet's dive into the dark side\
@@ -420,11 +420,11 @@
     and anonymous as possible. This video covers various aspects such as hardening
     macOS, security, privacy, anonymity, passwords, authentication, VPNs, biometrics,
     search engines, browsers, ...
-  updatedAt: '2025-05-21T03:01:38.262Z'
+  updatedAt: '2025-05-24T06:54:00.602Z'
   url: https://techlore.tv/videos/watch/6b11e52a-1995-4b8b-acd9-698029c48675
   uuid: 6b11e52a-1995-4b8b-acd9-698029c48675
   viewers: 0
-  views: 19
+  views: 20
 - createdAt: '2025-04-13T08:23:19.480Z'
   description: Tired of forgetting passwords and worrying about data breaches? Let's
     upgrade your security! In this video, I'll share the 4 best password managers
@@ -450,11 +450,11 @@
     Let's upgrade your security! In this video, I'll share the 4 best password managers
     of 2025, including 1Password, Bitwarden, Proton Pass, and KeePass. Most are open
     source! I'll also ...
-  updatedAt: '2025-05-21T02:31:38.418Z'
+  updatedAt: '2025-05-24T12:24:01.292Z'
   url: https://techlore.tv/videos/watch/aa4faa8f-8279-4b17-ba1f-4c622505c41d
   uuid: aa4faa8f-8279-4b17-ba1f-4c622505c41d
   viewers: 0
-  views: 7
+  views: 8
 - createdAt: '2025-04-13T08:23:12.473Z'
   description: Review of the BusKill USB Kill Cord - a tiny, open source USB device
     designed to protect your laptop from malicious attacks in public, especially involving
@@ -480,11 +480,11 @@
     USB device designed to protect your laptop from malicious attacks in public, especially
     involving theft of your unlocked device. In this in-depth review, I'll break down
     how and why BusKill...
-  updatedAt: '2025-05-21T17:31:38.205Z'
+  updatedAt: '2025-05-24T10:54:00.736Z'
   url: https://techlore.tv/videos/watch/8b9e1db5-f18b-45e4-b284-d139ba2cac9e
   uuid: 8b9e1db5-f18b-45e4-b284-d139ba2cac9e
   viewers: 0
-  views: 3
+  views: 4
 - createdAt: '2025-04-13T08:23:05.240Z'
   description: Welcome to my Lunatask review, an encrypted productivity app that tries
     to combine to-do lists, note-taking, habit tracking, and more into a single place!
@@ -604,11 +604,11 @@
 
 
     Thank you to our sponsor...'
-  updatedAt: '2025-05-20T20:31:38.126Z'
+  updatedAt: '2025-05-24T11:24:00.963Z'
   url: https://techlore.tv/videos/watch/629f0a13-dcbb-433a-8f48-500a410d5ce6
   uuid: 629f0a13-dcbb-433a-8f48-500a410d5ce6
   viewers: 0
-  views: 1
+  views: 2
 - createdAt: '2025-04-13T08:22:22.740Z'
   description: 'Going to answer privacy, security, digital rights, and personal questions
     for all of you for November 2024! Patrons & Techlorians will have priority on
@@ -1335,11 +1335,11 @@
     we can't make it safer! Welcome to the ultimate Signal hardening guide to make
     it as private, secure, & safe as possible. This video tutorial applies to iOS,
     Android, and touches on des...
-  updatedAt: '2025-05-23T14:54:00.559Z'
+  updatedAt: '2025-05-24T15:54:00.717Z'
   url: https://techlore.tv/videos/watch/17f8da14-6703-45bb-bf59-6cb29f6902fb
   uuid: 17f8da14-6703-45bb-bf59-6cb29f6902fb
   viewers: 0
-  views: 29
+  views: 31
 - createdAt: '2025-04-13T08:19:30.858Z'
   description: "Safari's privacy loses to Tor Browser, Brave Browser, and Firefox.\
     \ (And probably a lot more niche browsers) - Either make Safari better or switch\
@@ -1635,11 +1635,11 @@
     E2EE security cameras without a required subscription, Active Protect for enterprise
     customers, AI features, and more! Thanks to Synology for flying us out, and thanks
     you all for watchin...
-  updatedAt: '2025-05-21T08:01:38.177Z'
+  updatedAt: '2025-05-24T11:24:00.724Z'
   url: https://techlore.tv/videos/watch/8c068b3b-c7ee-476d-a151-09290eda7534
   uuid: 8c068b3b-c7ee-476d-a151-09290eda7534
   viewers: 0
-  views: 2
+  views: 3
 - createdAt: '2025-04-13T08:18:37.586Z'
   description: Computex 2024 in 36 seconds, featuring AI, AI & AI! We as AI are very
     excited to welcome AI into our AI lives. Okay in all seriousness, we actually
@@ -2271,11 +2271,11 @@
     \ for privacy and security\u2014here's why, and how much the space has developed\
     \ thanks to better browser options, in addition to better Firefox hardening options!\
     \ (Arkenfox!)\n\nWhy I use Mullv..."
-  updatedAt: '2025-05-22T09:31:38.242Z'
+  updatedAt: '2025-05-25T00:54:00.735Z'
   url: https://techlore.tv/videos/watch/edfe7ef8-6847-4911-bf78-13a76410f5cb
   uuid: edfe7ef8-6847-4911-bf78-13a76410f5cb
   viewers: 0
-  views: 7
+  views: 8
 - createdAt: '2025-04-13T08:15:46.300Z'
   description: 'Brave Browser is sunsetting its strict fingerprint protection. Here''s
     their reasoning, the pros/cons, the alternatives for those needing strong fingerprint
