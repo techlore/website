@@ -32,4 +32,4 @@ def json_to_yaml(url, yaml_file):
 # Fetch data from the sources and output
 json_to_yaml('https://techlore.tv/api/v1/video-channels/techlore/videos?count=100&sort=-originallyPublishedAt', '_data/_en/forum/latest-techlore-videos.yml')
 json_to_yaml('https://apertatube.net/api/v1/video-channels/surveillancereport/videos?count=2&sort=-publishedAt', '_data/_en/forum/latest-surveillance-report-videos.yml')
-# Techlore Clips are on hold for the time being
+json_to_yaml('https://techlore.tv/api/v1/video-channels/techlore_clips/videos?count=100&sort=-originallyPublishedAt', '_data/_en/forum/latest-techlore-clips-videos.yml')

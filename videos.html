@@ -100,15 +100,20 @@ sitemap:
 				{%- include c_box-header.html title=t.videos.techloreClips.title links=site.techloreClips.links -%}
 				<div class="box has-footer">
 					<ul class="video-list video-list--50 marginless listless columns is-multiline is-gap-2">
-						{% for video in site.data._en.forum.latest-techlore-clips-videos limit: 2 %}
-							{% assign forumLink = video.id | prepend: "https://discuss.techlore.tech/t/" %}
+						{% assign sortedVideosTc = site.data._en.forum.latest-techlore-clips-videos | sort: 'originallyPublishedAt' | reverse %}
+
+						{% for video in sortedVideosTc limit: 2 %}
+							{% assign link = video.url %}
+							{% assign thumbnail = video.previewPath | prepend: "https://techlore.tv" %}
+							{% assign duration = video.duration | format_duration %}
 
 							{%- include c_video.html
-								title=video.fancy_title
-								desc=video.excerpt
-								link=forumLink
-								thumbnail=video.image_url
-								date=video.created_at
+								title=video.name
+								desc=video.truncatedDescription
+								link=link
+								thumbnail=thumbnail
+								date=video.originallyPublishedAt
+								duration=duration
 							-%}
 
 						{% endfor %}

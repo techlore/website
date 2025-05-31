@@ -24,7 +24,7 @@ tagline: "Digital Rights for All"
 email: contact@techlore.tech
 description: >- # this means to ignore newlines until "twitter:"
   Techlore provides privacy tools, security guides, and digital rights education
-  to help you protect your online data and freedom. Learn how to protect your data, secure your 
+  to help you protect your online data and freedom. Learn how to protect your data, secure your
   communications, and reclaim your online freedom through our guides, videos, and community.
 author: Henry Fisher (Techlore)
 lang: en_US
@@ -74,6 +74,7 @@ techloreVideos:
     teachable: "https://techlore.teachable.com/"
 techloreClips:
   links:
+    peertube: "https://techlore.tv/c/techlore_clips/videos?sort=-originallyPublishedAt"
     youtube: "https://www.youtube.com/@techloreclips"
 surveillanceReport:
   links:
