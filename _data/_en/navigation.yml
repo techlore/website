@@ -4,16 +4,16 @@ mainNav:
     url: /
   about:
     title: "About"
-    url: /about
+    url: /about/
   videos:
     title: "Videos"
-    url: /videos
+    url: /videos/
   goincognito:
     title: "Go incognito"
-    url: /goincognito
+    url: /goincognito/
   coaching:
     title: "Coaching"
-    url: /coaching
+    url: /coaching/
   forum:
     title: "Forum"
     url: https://discuss.techlore.tech/
@@ -24,16 +24,16 @@ mainNav:
     external: true
   resources:
     title: "Resources"
-    url: /resources
+    url: /resources/
   support:
     title: "Support Us"
-    url: /support
+    url: /support/
     icon: "heart-solid"
 
 footerNav:
   contact:
     title: "Contact"
-    url: /contact
+    url: /contact/
 
 hiddenNav:
   spaQuiz:
