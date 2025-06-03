@@ -26,11 +26,11 @@
     \ and internet usage? \U0001F914 We answer the common 'noob question' and break\
     \ down exactly what a VPN does (and doesn't do) for your online safety.\r\n\r\n\
     Watch the full Techlore Livestream: https://www..."
-  updatedAt: '2025-05-28T22:21:21.542Z'
+  updatedAt: '2025-06-02T07:51:21.465Z'
   url: https://techlore.tv/videos/watch/533a2fe4-88ff-4163-aef5-4036ac1702b6
   uuid: 533a2fe4-88ff-4163-aef5-4036ac1702b6
   viewers: 0
-  views: 12
+  views: 13
 - createdAt: '2025-05-23T02:50:24.721Z'
   description: "Can OpenStreetMap (OSM) truly replace Google Maps or Apple Maps for\
     \ privacy-conscious users? It depends \u2013 partly on YOU!\r\n\r\nWatch the full\
@@ -368,7 +368,7 @@
   id: 62589
   isLive: false
   isLocal: true
-  likes: 1
+  likes: 2
   name: Why I'm Mixed on Bluesky...
   nsfw: false
   originallyPublishedAt: '2025-03-12T00:00:00.000Z'
@@ -383,11 +383,11 @@
     \ We discuss its UI, federation, billionaire backing, and why I think they missed\
     \ an opportunity with ActivityPub.\r\n\r\nWatch the full Techlore Livestream:\
     \ https://www.youtube.com/live/vFiQUL7t..."
-  updatedAt: '2025-05-27T18:36:25.315Z'
+  updatedAt: '2025-06-02T23:31:55.652Z'
   url: https://techlore.tv/videos/watch/1a1720ba-29b9-4e30-879a-e229f767565c
   uuid: 1a1720ba-29b9-4e30-879a-e229f767565c
   viewers: 0
-  views: 2
+  views: 3
 - createdAt: '2025-05-23T02:45:59.345Z'
   description: "In this video, I discuss the recent controversy surrounding Proton\
     \ and Andy Yen's political statements. We'll explore the implications of a privacy-focused\
@@ -473,11 +473,11 @@
     \ among users. Is it a cause for panic, or just a misunderstanding? I break down\
     \ the changes, the reactions, and offer my perspective. Watch to find out if you\
     \ should be worried!\r\n\r\nWatch t..."
-  updatedAt: '2025-05-24T19:50:06.783Z'
+  updatedAt: '2025-06-02T08:21:21.360Z'
   url: https://techlore.tv/videos/watch/b78e5be1-4c50-4756-ba89-382710a05ce8
   uuid: b78e5be1-4c50-4756-ba89-382710a05ce8
   viewers: 0
-  views: 0
+  views: 1
 - createdAt: '2025-05-23T02:44:52.686Z'
   description: "Zen Browser recently came out of alpha and is now in beta, we discuss\
     \ whether it's a good option when compared to other privacy focused browsers like\
