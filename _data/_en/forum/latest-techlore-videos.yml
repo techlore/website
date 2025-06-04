@@ -11,7 +11,7 @@
   id: 63439
   isLive: false
   isLocal: true
-  likes: 5
+  likes: 4
   name: From Freeloader to Supporter - Privacy Wins Of The Week!
   nsfw: false
   originallyPublishedAt: '2025-05-31T20:45:54.893Z'
@@ -26,11 +26,11 @@
     care about, and why this has large impacts for the community. Welcome to Techlore's
     privacy wins of the week, where our community shares their tech wins. It can be
     privacy, security, or a...
-  updatedAt: '2025-06-03T04:31:55.566Z'
+  updatedAt: '2025-06-04T02:01:55.889Z'
   url: https://techlore.tv/videos/watch/c3c2d22e-5646-4f93-b014-f78e6656a46e
   uuid: c3c2d22e-5646-4f93-b014-f78e6656a46e
   viewers: 0
-  views: 118
+  views: 130
 - createdAt: '2025-05-27T15:10:58.267Z'
   description: Let's debunk 10 browser myths that are leaving you vulnerable online
     while giving you practical advice that actually works. Whether you're using Chrome,
@@ -56,11 +56,11 @@
     online while giving you practical advice that actually works. Whether you're using
     Chrome, Firefox, Brave, or Tor Browser, you'll learn exactly what protects you
     and what doesn't. Techl...
-  updatedAt: '2025-06-02T21:31:55.742Z'
+  updatedAt: '2025-06-04T01:01:55.660Z'
   url: https://techlore.tv/videos/watch/b818d003-ddb3-4ae8-beb9-a5d09d8b8c68
   uuid: b818d003-ddb3-4ae8-beb9-a5d09d8b8c68
-  viewers: 0
-  views: 225
+  viewers: 1
+  views: 241
 - createdAt: '2025-05-26T13:06:30.360Z'
   description: One very important to keep in mind before committing to services! Techlore
     empowers individuals with practical digital privacy knowledge, security tools,
@@ -87,11 +87,11 @@
     Techlore empowers individuals with practical digital privacy knowledge, security
     tools, and advocacy resources. Discover how to protect your online data and regain
     control of your d...
-  updatedAt: '2025-06-03T03:01:55.604Z'
+  updatedAt: '2025-06-04T02:01:55.780Z'
   url: https://techlore.tv/videos/watch/4a6033b1-4c48-4763-ae7d-5d5154255103
   uuid: 4a6033b1-4c48-4763-ae7d-5d5154255103
   viewers: 0
-  views: 134
+  views: 138
 - createdAt: '2025-05-25T21:14:28.712Z'
   description: The three notetaking services I use for privacy & security. Techlore
     empowers individuals with practical digital privacy knowledge, security tools,
@@ -117,11 +117,11 @@
     Techlore empowers individuals with practical digital privacy knowledge, security
     tools, and advocacy resources. Discover how to protect your online data and regain
     control of your digital...
-  updatedAt: '2025-06-03T04:01:55.608Z'
+  updatedAt: '2025-06-03T17:31:55.762Z'
   url: https://techlore.tv/videos/watch/96b0f86d-ff37-4914-890a-203a1529d6af
   uuid: 96b0f86d-ff37-4914-890a-203a1529d6af
   viewers: 0
-  views: 114
+  views: 116
 - createdAt: '2025-05-21T03:10:34.667Z'
   description: Join me for an in-depth conversation with benny Vasquez, Chair of the
     AlmaLinux OS Foundation, as we explore the fallout from Red Hat's controversial
@@ -147,11 +147,11 @@
     of the AlmaLinux OS Foundation, as we explore the fallout from Red Hat's controversial
     licensing changes and how AlmaLinux emerged as a community-driven solution. We
     discuss the techni...
-  updatedAt: '2025-06-01T20:21:21.339Z'
+  updatedAt: '2025-06-03T05:31:55.612Z'
   url: https://techlore.tv/videos/watch/337a382b-8ab1-40a3-b605-d46cef0f83bf
   uuid: 337a382b-8ab1-40a3-b605-d46cef0f83bf
   viewers: 0
-  views: 86
+  views: 87
 - createdAt: '2025-05-10T00:35:46.192Z'
   description: "Discover how websites can identify and track you\u2014even without\
     \ cookies\u2014using browser fingerprinting. This masterclass breaks down how\
@@ -177,11 +177,11 @@
     \ without cookies\u2014using browser fingerprinting. This masterclass breaks down\
     \ how your browser reveals a unique digital \"fingerprint\" that follows you across\
     \ the web, with real demonstrations comp..."
-  updatedAt: '2025-06-02T22:01:55.898Z'
+  updatedAt: '2025-06-03T19:01:56.023Z'
   url: https://techlore.tv/videos/watch/eb02df73-742b-4ce1-8497-1964a122eb3e
   uuid: eb02df73-742b-4ce1-8497-1964a122eb3e
   viewers: 0
-  views: 424
+  views: 426
 - createdAt: '2025-04-13T08:24:44.794Z'
   description: Can a laptop offer privacy & security without compromises? NovaCustom
     claims to, with QubesOS/Linux support, customizability, disabling Intel ME, and
@@ -267,11 +267,11 @@
     quick and easy tutorial, we'll show you how to remove unnecessary features, disable
     extensions, and optimize Brave for lightning-fast performance. Whether you're
     a tech-savvy user or a be...
-  updatedAt: '2025-06-01T04:21:21.340Z'
+  updatedAt: '2025-06-04T00:01:55.636Z'
   url: https://techlore.tv/videos/watch/430b602a-56fa-4980-8238-9c9b2f68834e
   uuid: 430b602a-56fa-4980-8238-9c9b2f68834e
   viewers: 0
-  views: 57
+  views: 59
 - createdAt: '2025-04-13T08:24:23.795Z'
   description: Apple's moving to integrate end-to-end encryption (E2EE) into the RCS
     open standard messaging marks a major privacy win for both iOS and Android users.
@@ -481,11 +481,11 @@
   truncatedDescription: "Welcome to our privacy wins of the week, where our community\
     \ shares their wins. Join next week's stream: https://discuss.techlore.tech/t/your-weekly-privacy-security-wins-week-43-feb-21-2025/12542\n\
     \n\U0001F510 Techlore Homepage: https://techlore.tech\n\U0001F575 Go..."
-  updatedAt: '2025-05-30T00:51:21.409Z'
+  updatedAt: '2025-06-04T02:01:55.645Z'
   url: https://techlore.tv/videos/watch/bf236233-4020-4101-a767-f86bbcf9e8ff
   uuid: bf236233-4020-4101-a767-f86bbcf9e8ff
   viewers: 0
-  views: 4
+  views: 5
 - createdAt: '2025-04-13T08:23:33.893Z'
   description: "Go to my sponsor https://snhu.edu/techlore and learn how you can get\
     \ started with a Cybersecurity degree \U0001F393\nLet's dive into the dark side\
@@ -631,11 +631,11 @@
     that tries to combine to-do lists, note-taking, habit tracking, and more into
     a single place! I'll explore its features, such as intelligent task prioritization,
     customizable workflows, ...
-  updatedAt: '2025-06-01T07:51:21.660Z'
+  updatedAt: '2025-06-03T12:01:55.601Z'
   url: https://techlore.tv/videos/watch/5993dff2-d397-49f1-80a3-547acb2ffe46
   uuid: 5993dff2-d397-49f1-80a3-547acb2ffe46
   viewers: 0
-  views: 16
+  views: 17
 - createdAt: '2025-04-13T08:22:57.944Z'
   description: The v2 ultimate guide to making Windows as secure, private, and anonymous
     as you need it to be. This video covers security, privacy, anonymity, passwords,
@@ -661,11 +661,11 @@
     and anonymous as you need it to be. This video covers security, privacy, anonymity,
     passwords, authentication, VPNs, biometrics, search engines, browsers, Tor, 2FA,
     virtual machines, Linu...
-  updatedAt: '2025-05-31T05:21:21.444Z'
+  updatedAt: '2025-06-03T18:31:55.607Z'
   url: https://techlore.tv/videos/watch/7fcc4b82-7817-48e9-9647-f0a201fa926e
   uuid: 7fcc4b82-7817-48e9-9647-f0a201fa926e
   viewers: 0
-  views: 28
+  views: 29
 - createdAt: '2025-04-13T08:22:36.590Z'
   description: Do you need an antivirus? Let's discuss this cybersecurity hot-topic
     and why you probably don't need one! In this video I unpack the pros and cons
@@ -881,11 +881,11 @@
     \ rights, and personal questions for all of you for October 2024, a few days late\
     \ so streaming in October....but pay no mind\u2014it's the October stream. Patrons\
     \ & Techlorians will have priority ..."
-  updatedAt: '2025-05-27T16:06:25.009Z'
+  updatedAt: '2025-06-03T15:31:55.772Z'
   url: https://techlore.tv/videos/watch/123da384-3739-46b5-b2eb-af2dc0dc58d2
   uuid: 123da384-3739-46b5-b2eb-af2dc0dc58d2
   viewers: 0
-  views: 1
+  views: 2
 - createdAt: '2025-04-13T08:21:41.204Z'
   description: Tired of Google's data-hungry ways? Kagi is a privacy-focused search
     engine that puts your data first...but it's a paid service. In this video, we
@@ -1250,11 +1250,11 @@
     video we explore what makes a good vs bad subscription, how to save money, reclaim
     control of your digital life, push towards financial freedom, and use services
     that better respect you...
-  updatedAt: '2025-05-30T19:51:21.287Z'
+  updatedAt: '2025-06-03T14:01:55.720Z'
   url: https://techlore.tv/videos/watch/1d38a459-b4ba-4fee-b1a2-a6877a05be05
   uuid: 1d38a459-b4ba-4fee-b1a2-a6877a05be05
   viewers: 0
-  views: 9
+  views: 10
 - createdAt: '2025-04-13T08:20:18.824Z'
   description: iOS vs Android....let's break the internet! In this video I cover the
     real-world usability differences between iOS and Android that go beyond the underlying
@@ -1456,11 +1456,11 @@
     we can't make it safer! Welcome to the ultimate Signal hardening guide to make
     it as private, secure, & safe as possible. This video tutorial applies to iOS,
     Android, and touches on des...
-  updatedAt: '2025-06-03T03:31:55.577Z'
+  updatedAt: '2025-06-03T09:01:55.741Z'
   url: https://techlore.tv/videos/watch/17f8da14-6703-45bb-bf59-6cb29f6902fb
   uuid: 17f8da14-6703-45bb-bf59-6cb29f6902fb
   viewers: 0
-  views: 44
+  views: 45
 - createdAt: '2025-04-13T08:19:30.858Z'
   description: "Safari's privacy loses to Tor Browser, Brave Browser, and Firefox.\
     \ (And probably a lot more niche browsers) - Either make Safari better or switch\
@@ -2542,11 +2542,11 @@
     Referenced Videos:
 
     Coverage of lockdown mode: https://www.youtube...'
-  updatedAt: '2025-05-28T21:21:21.299Z'
+  updatedAt: '2025-06-03T06:01:55.620Z'
   url: https://techlore.tv/videos/watch/ed4aeadf-3400-448e-9f63-0fcc5e485f2f
   uuid: ed4aeadf-3400-448e-9f63-0fcc5e485f2f
   viewers: 0
-  views: 1
+  views: 2
 - createdAt: '2025-04-13T08:15:19.259Z'
   description: "Facebook is beginning to roll our Link History, a new feature that\
     \ should be a bold reminder Facebook/Meta is tracking you, despite some other\
@@ -2572,11 +2572,11 @@
     \ that should be a bold reminder Facebook/Meta is tracking you, despite some other\
     \ notoriously iffy companies moving in the opposite direction.\n\n\U0001F510 Our\
     \ Website: https://techlore.tech\n\U0001F575 G..."
-  updatedAt: '2025-04-20T02:30:40.482Z'
+  updatedAt: '2025-06-03T14:01:55.599Z'
   url: https://techlore.tv/videos/watch/5ce67ece-a250-4b31-9a85-2fc7b3dc0492
   uuid: 5ce67ece-a250-4b31-9a85-2fc7b3dc0492
   viewers: 0
-  views: 0
+  views: 1
 - createdAt: '2025-04-13T08:15:12.761Z'
   description: "Digital rights awards of 2023, what Techlore did in 2023, and what\
     \ to expect in 2024!\n\nGet Subscribed!!\nSurveillance Clips: @surveillanceclips\
@@ -2735,11 +2735,11 @@
 
     Thank you to Tuta for being the first ever Techlore Gold Video Sponsor, check
     out thei...'
-  updatedAt: '2025-05-23T12:24:00.537Z'
+  updatedAt: '2025-06-03T14:31:55.610Z'
   url: https://techlore.tv/videos/watch/2f68ef20-b787-445a-abe3-e7b86f0ce18e
   uuid: 2f68ef20-b787-445a-abe3-e7b86f0ce18e
   viewers: 0
-  views: 1
+  views: 2
 - createdAt: '2025-04-13T08:14:45.698Z'
   description: "Governments spying on your notifications, check out the full episode\
     \ for more information: https://youtu.be/uxhTLm8f4XU\n\n\U0001F510 Our Website:\
