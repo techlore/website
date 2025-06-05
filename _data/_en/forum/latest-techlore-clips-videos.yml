@@ -56,11 +56,11 @@
     \ Maps for privacy-conscious users? It depends \u2013 partly on YOU!\r\n\r\nWatch\
     \ the full Techlore Livestream: https://www.youtube.com/watch?v=Mb5wq6u8IRA\r\n\
     \r\nGet subscribed so you don't miss the lat..."
-  updatedAt: '2025-06-03T12:01:55.864Z'
+  updatedAt: '2025-06-04T15:31:55.676Z'
   url: https://techlore.tv/videos/watch/db032f0d-4f20-4f2a-a3b8-2c0d3e459681
   uuid: db032f0d-4f20-4f2a-a3b8-2c0d3e459681
   viewers: 0
-  views: 14
+  views: 15
 - createdAt: '2025-05-23T02:50:01.061Z'
   description: "I really want to like Tuta \u2013 their grassroots feel and unique\
     \ features like email templates are appealing. I tested their beta desktop client\
@@ -86,11 +86,11 @@
     \ unique features like email templates are appealing. I tested their beta desktop\
     \ client and the alpha/beta email import feature multiple times over the months.\r\
     \n\r\nWatch the full Techlore Privac..."
-  updatedAt: '2025-05-30T05:51:21.277Z'
+  updatedAt: '2025-06-04T16:31:55.683Z'
   url: https://techlore.tv/videos/watch/da81fd4b-add8-4ddf-b2a1-4dddc184e996
   uuid: da81fd4b-add8-4ddf-b2a1-4dddc184e996
   viewers: 0
-  views: 11
+  views: 12
 - createdAt: '2025-05-23T02:49:39.663Z'
   description: "After Signalgate, is Signal vulnerable to government pressure like\
     \ Telegram was? Understand the key technical differences, that make Signal far\
@@ -116,11 +116,11 @@
     \ like Telegram was? Understand the key technical differences, that make Signal\
     \ far more resistant to buckling under data demands.\r\n\r\nWatch the full Techlore\
     \ Livestream: https://www.youtu..."
-  updatedAt: '2025-05-28T21:21:21.498Z'
+  updatedAt: '2025-06-04T06:01:55.870Z'
   url: https://techlore.tv/videos/watch/59ffac0d-5a2c-4785-86b8-1b8a5aa602a2
   uuid: 59ffac0d-5a2c-4785-86b8-1b8a5aa602a2
   viewers: 0
-  views: 2
+  views: 3
 - createdAt: '2025-05-23T02:49:15.616Z'
   description: Discord is rolling out video ads, but that's just one piece of the
     puzzle. We discuss the deeper issues with Discord's business model, privacy practices,
@@ -176,11 +176,11 @@
     \ encrypted apps like Signal, WhatsApp, or even RCS? Is E2EE pointless if the\
     \ operating system itself might be spying?\r\n\r\nWatch the full Techlore Livestream:\
     \ https://www.youtube.com/l..."
-  updatedAt: '2025-05-24T19:46:53.612Z'
+  updatedAt: '2025-06-04T08:01:55.892Z'
   url: https://techlore.tv/videos/watch/333adccb-0f7f-47b5-81e2-7769041cd030
   uuid: 333adccb-0f7f-47b5-81e2-7769041cd030
   viewers: 0
-  views: 1
+  views: 2
 - createdAt: '2025-05-23T02:48:31.960Z'
   description: "Microsoft is forcing Windows 10 users to upgrade or buy new machines!\
     \ \U0001F621 They're ending support for perfectly capable hardware that can't\
@@ -206,11 +206,11 @@
     \ machines! \U0001F621 They're ending support for perfectly capable hardware that\
     \ can't officially run Windows 11. I'm calling them out on this and suggesting\
     \ a REAL solution: Linux. Watch to find ..."
-  updatedAt: '2025-05-30T16:21:22.326Z'
+  updatedAt: '2025-06-04T06:01:55.666Z'
   url: https://techlore.tv/videos/watch/41dd0f50-cafe-43e0-be91-9452eae1ef74
   uuid: 41dd0f50-cafe-43e0-be91-9452eae1ef74
   viewers: 0
-  views: 3
+  views: 4
 - createdAt: '2025-05-23T02:48:10.172Z'
   description: App stores are convenient, but they come with privacy trade-offs. Learn
     how to use Obtainium to install open-source Android apps directly from GitHub
@@ -324,11 +324,11 @@
     \ like Keypass? We break down the pros and cons, and discuss the best security\
     \ practices.\r\n\r\nWatch the full Techlore Livestream: https://www.youtube.com/live/DVVIOxfqGvo\r\
     \n\r\nGet subscribed so y..."
-  updatedAt: '2025-05-24T22:24:01.391Z'
+  updatedAt: '2025-06-04T21:01:56.057Z'
   url: https://techlore.tv/videos/watch/3dd61f3f-0511-4dc3-9919-566289d54b16
   uuid: 3dd61f3f-0511-4dc3-9919-566289d54b16
   viewers: 0
-  views: 2
+  views: 3
 - createdAt: '2025-05-23T02:46:43.197Z'
   description: Thinking of ditching Apple? It's tough, especially with features like
     end-to-end encryption. But hardware, software, and lock-in can be deal-breakers.
@@ -503,11 +503,11 @@
     \ we discuss whether it's a good option when compared to other privacy focused\
     \ browsers like Librewolf or Mullvad.\r\n\r\nWatch the full Techlore Privacy Wins\
     \ Livestream: https://www.youtube.com..."
-  updatedAt: '2025-05-24T19:50:47.040Z'
+  updatedAt: '2025-06-04T21:01:55.966Z'
   url: https://techlore.tv/videos/watch/26ed77c1-3eda-4a1d-a103-4d607aa8382e
   uuid: 26ed77c1-3eda-4a1d-a103-4d607aa8382e
   viewers: 0
-  views: 0
+  views: 1
 - createdAt: '2025-05-23T02:44:30.316Z'
   description: "Microsoft keeps trying to push Recall onto Windows users, is this\
     \ increasing the amount of Linux users or is it just anecdotal, we discuss!\r\n\
@@ -3023,8 +3023,8 @@
     Bitcoin wallet Samurai and its impact on Bitcoin privacy. We explore why Samurai
     was vulnerable and delve into the question: can Bitcoin ever be truly private?
     We also explore alternative...'
-  updatedAt: '2025-06-01T21:21:21.396Z'
+  updatedAt: '2025-06-04T09:01:55.678Z'
   url: https://techlore.tv/videos/watch/163f863d-b130-4e52-b87a-475b0ac7993c
   uuid: 163f863d-b130-4e52-b87a-475b0ac7993c
   viewers: 0
-  views: 6
+  views: 7
