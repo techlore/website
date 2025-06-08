@@ -11,7 +11,7 @@
   id: 85481
   isLive: false
   isLocal: true
-  likes: 2
+  likes: 3
   name: 'Q&A: Is RethinkDNS Any Good?'
   nsfw: false
   originallyPublishedAt: '2025-06-04T17:00:19.328Z'
@@ -26,11 +26,11 @@
     What are our thoughts on governmenet SSO services, like Australia''s MyGov? What
     resources do we use to threat model? Do companies still sell phone location data,
     and how can users opt ou...'
-  updatedAt: '2025-06-07T04:05:13.178Z'
+  updatedAt: '2025-06-07T23:35:13.211Z'
   url: https://apertatube.net/videos/watch/b5d7b1d6-f677-44bc-b99b-d5bf515b3dba
   uuid: b5d7b1d6-f677-44bc-b99b-d5bf515b3dba
   viewers: 0
-  views: 58
+  views: 69
 - createdAt: '2025-06-02T03:29:02.476Z'
   description: "Episode 227: Your comments might reveal more than you think, LexisNexis\
     \ (of all companies) had a data breach, some spicy political news, and more!\r\
@@ -41,7 +41,7 @@
   id: 85479
   isLive: false
   isLocal: true
-  likes: 1
+  likes: 2
   name: Your Comments May Reveal More Than You Think...
   nsfw: false
   originallyPublishedAt: '2025-06-02T15:50:45.191Z'
@@ -56,8 +56,8 @@
     \ LexisNexis (of all companies) had a data breach, some spicy political news,\
     \ and more!\r\n\r\nWelcome to the Surveillance Report - featuring Techlore & The\
     \ New Oil to keep you updated on the ..."
-  updatedAt: '2025-06-06T20:05:13.254Z'
+  updatedAt: '2025-06-07T15:35:13.184Z'
   url: https://apertatube.net/videos/watch/0d2a59e1-ee6e-47df-b906-3f16f246b1a7
   uuid: 0d2a59e1-ee6e-47df-b906-3f16f246b1a7
   viewers: 0
-  views: 59
+  views: 64
