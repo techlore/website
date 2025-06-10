@@ -12,7 +12,7 @@
   id: 85515
   isLive: false
   isLocal: true
-  likes: 0
+  likes: 2
   name: How Companies Sidestep Protections to Spy on You
   nsfw: false
   nsfwFlags: 0
@@ -29,11 +29,11 @@
     to violate your privacy even further, Apple turned over thousands of push notification
     data requests, billions of session cookies are for sale, Signal might be rolling
     out backup subscri...'
-  updatedAt: '2025-06-09T04:33:30.095Z'
+  updatedAt: '2025-06-10T04:03:30.222Z'
   url: https://apertatube.net/videos/watch/3d2f3d74-af2a-448a-968c-df6a06e84514
   uuid: 3d2f3d74-af2a-448a-968c-df6a06e84514
-  viewers: 1
-  views: 9
+  viewers: 0
+  views: 46
 - comments: 1
   createdAt: '2025-06-02T19:44:25.538Z'
   description: 'Q&A227: Is RethinkDNS a good tool for easy traffic analysis? What
@@ -62,8 +62,8 @@
     What are our thoughts on governmenet SSO services, like Australia''s MyGov? What
     resources do we use to threat model? Do companies still sell phone location data,
     and how can users opt ou...'
-  updatedAt: '2025-06-09T04:03:30.158Z'
+  updatedAt: '2025-06-09T21:03:30.244Z'
   url: https://apertatube.net/videos/watch/b5d7b1d6-f677-44bc-b99b-d5bf515b3dba
   uuid: b5d7b1d6-f677-44bc-b99b-d5bf515b3dba
   viewers: 0
-  views: 73
+  views: 78
