@@ -26,11 +26,11 @@
     \ and internet usage? \U0001F914 We answer the common 'noob question' and break\
     \ down exactly what a VPN does (and doesn't do) for your online safety.\r\n\r\n\
     Watch the full Techlore Livestream: https://www..."
-  updatedAt: '2025-06-14T06:32:26.853Z'
+  updatedAt: '2025-06-16T10:32:27.068Z'
   url: https://techlore.tv/videos/watch/533a2fe4-88ff-4163-aef5-4036ac1702b6
   uuid: 533a2fe4-88ff-4163-aef5-4036ac1702b6
   viewers: 0
-  views: 20
+  views: 21
 - createdAt: '2025-05-23T02:50:24.721Z'
   description: "Can OpenStreetMap (OSM) truly replace Google Maps or Apple Maps for\
     \ privacy-conscious users? It depends \u2013 partly on YOU!\r\n\r\nWatch the full\
@@ -56,11 +56,11 @@
     \ Maps for privacy-conscious users? It depends \u2013 partly on YOU!\r\n\r\nWatch\
     \ the full Techlore Livestream: https://www.youtube.com/watch?v=Mb5wq6u8IRA\r\n\
     \r\nGet subscribed so you don't miss the lat..."
-  updatedAt: '2025-06-14T05:32:26.851Z'
+  updatedAt: '2025-06-15T10:32:27.263Z'
   url: https://techlore.tv/videos/watch/db032f0d-4f20-4f2a-a3b8-2c0d3e459681
   uuid: db032f0d-4f20-4f2a-a3b8-2c0d3e459681
   viewers: 0
-  views: 19
+  views: 20
 - createdAt: '2025-05-23T02:50:01.061Z'
   description: "I really want to like Tuta \u2013 their grassroots feel and unique\
     \ features like email templates are appealing. I tested their beta desktop client\
@@ -294,11 +294,11 @@
   truncatedDescription: "Self-hosting is great, but it's not the only way to improve\
     \ your privacy and security. Discover awesome alternatives and learn why a hybrid\
     \ approach might be best for you.\r\n\r\nWatch the full Techlore Livestream: https://www.youtube.com/live/DVVIOxf..."
-  updatedAt: '2025-06-05T16:01:56.112Z'
+  updatedAt: '2025-06-16T23:32:27.459Z'
   url: https://techlore.tv/videos/watch/8b28fb64-2d59-4051-a792-fba49404f096
   uuid: 8b28fb64-2d59-4051-a792-fba49404f096
   viewers: 0
-  views: 1
+  views: 2
 - createdAt: '2025-05-23T02:47:05.661Z'
   description: "Should you store your 2FA codes in your password manager like Keypass?\
     \ We break down the pros and cons, and discuss the best security practices.\r\n\
@@ -368,7 +368,7 @@
   id: 62589
   isLive: false
   isLocal: true
-  likes: 2
+  likes: 1
   name: Why I'm Mixed on Bluesky...
   nsfw: false
   originallyPublishedAt: '2025-03-12T00:00:00.000Z'
@@ -2105,11 +2105,11 @@
     \ into the pros and cons of self-hosting personal data and share our experiences\
     \ with platforms like Synology, Nextcloud and Plex.\r\n\r\nWatch the full Techlore\
     \ Livestream: https://www.youtube.co..."
-  updatedAt: '2025-05-25T01:48:35.455Z'
+  updatedAt: '2025-06-16T23:32:27.306Z'
   url: https://techlore.tv/videos/watch/ee90e0d9-8e0a-4919-99f7-df8b2a2b11d8
   uuid: ee90e0d9-8e0a-4919-99f7-df8b2a2b11d8
   viewers: 0
-  views: 0
+  views: 1
 - createdAt: '2025-05-23T02:22:50.752Z'
   description: "Simplify your life and enhance your privacy with a secure VoIP setup.\
     \ Learn how we use just a few VoIP numbers for all of our communication needs.\r\
@@ -2905,11 +2905,11 @@
     \ This clip breaks down everything you need to know about location settings on\
     \ dating apps.\r\n\r\nTechlore dating video: https://www.youtube.com/watch?v=zPNzyPWBGM8\r\
     \n\r\nWatch the full Techlore..."
-  updatedAt: '2025-06-12T06:02:26.946Z'
+  updatedAt: '2025-06-15T21:32:27.272Z'
   url: https://techlore.tv/videos/watch/52ad766d-82cb-4984-b499-24b00c19e682
   uuid: 52ad766d-82cb-4984-b499-24b00c19e682
   viewers: 0
-  views: 14
+  views: 16
 - createdAt: '2025-05-23T02:14:03.097Z'
   description: "This video dives into the different security approaches of Apple and\
     \ Google. We explore the strengths and weaknesses of each, from iPhone's hardware\
@@ -2935,11 +2935,11 @@
     \ Apple and Google. We explore the strengths and weaknesses of each, from iPhone's\
     \ hardware focus and end-to-end encryption to Google's powerful cloud services.\r\
     \n\r\nGuest information:\r\nJohn O..."
-  updatedAt: '2025-05-29T08:51:21.439Z'
+  updatedAt: '2025-06-15T19:02:26.892Z'
   url: https://techlore.tv/videos/watch/884edb50-6a02-4ef1-ab7a-2633186b99b2
   uuid: 884edb50-6a02-4ef1-ab7a-2633186b99b2
   viewers: 0
-  views: 11
+  views: 13
 - createdAt: '2025-05-23T02:13:41.316Z'
   description: "Secure Boot on Linux: friend or foe? This Techlore clip explores the\
     \ security benefits and potential limitations for Linux users. Decide what's right\
@@ -2963,11 +2963,11 @@
   truncatedDescription: "Secure Boot on Linux: friend or foe? This Techlore clip explores\
     \ the security benefits and potential limitations for Linux users. Decide what's\
     \ right for you!\r\n\r\nLink to Jonah's forum post: https://discuss.techlore.tech/t/what-are-your-opinions-on..."
-  updatedAt: '2025-06-07T04:01:55.919Z'
+  updatedAt: '2025-06-15T20:32:27.146Z'
   url: https://techlore.tv/videos/watch/af6d09b2-2a8f-4718-8abf-adbac754d18c
   uuid: af6d09b2-2a8f-4718-8abf-adbac754d18c
   viewers: 0
-  views: 18
+  views: 19
 - createdAt: '2025-05-23T02:13:18.902Z'
   description: "This video dives into the pros and cons of using a service to remove\
     \ your personal information. We discuss the efficiency of paid services compared\
@@ -2993,11 +2993,11 @@
     \ to remove your personal information. We discuss the efficiency of paid services\
     \ compared to the manual process, and how to get the most out of these services.\r\
     \n\r\nWatch the full Techlore Li..."
-  updatedAt: '2025-06-01T17:51:22.106Z'
+  updatedAt: '2025-06-15T20:32:27.025Z'
   url: https://techlore.tv/videos/watch/d404b5cc-9b44-46ae-b0b1-596c6de7d37f
   uuid: d404b5cc-9b44-46ae-b0b1-596c6de7d37f
   viewers: 0
-  views: 4
+  views: 5
 - createdAt: '2025-05-23T02:12:07.472Z'
   description: 'In this video, we discuss the recent seizure of the popular Bitcoin
     wallet Samurai and its impact on Bitcoin privacy. We explore why Samurai was vulnerable
