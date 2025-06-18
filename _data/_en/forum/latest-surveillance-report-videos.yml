@@ -12,7 +12,7 @@
   id: 85556
   isLive: false
   isLocal: true
-  likes: 0
+  likes: 1
   name: Android 16's Dark Side Threatens Every Custom ROM
   nsfw: false
   nsfwFlags: 0
@@ -29,11 +29,11 @@
     \ for custom ROMs, passkey portability is in the works, a dating app based on\
     \ your search history, and more!\r\n\r\nWelcome to the Surveillance Report - featuring\
     \ Techlore & The New Oil to keep yo..."
-  updatedAt: '2025-06-17T04:08:13.391Z'
+  updatedAt: '2025-06-18T04:49:37.042Z'
   url: https://apertatube.net/videos/watch/93dc8dd4-28e5-4418-9c38-610895bc95b9
   uuid: 93dc8dd4-28e5-4418-9c38-610895bc95b9
-  viewers: 1
-  views: 12
+  viewers: 0
+  views: 57
 - comments: 0
   createdAt: '2025-06-08T04:21:53.011Z'
   description: 'Episode 228: Meta & Yandex skirt around Android''s sandboxing to violate
@@ -45,7 +45,7 @@
   id: 85515
   isLive: false
   isLocal: true
-  likes: 3
+  likes: 5
   name: How Companies Sidestep Protections to Spy on You
   nsfw: false
   nsfwFlags: 0
@@ -62,8 +62,8 @@
     to violate your privacy even further, Apple turned over thousands of push notification
     data requests, billions of session cookies are for sale, Signal might be rolling
     out backup subscri...'
-  updatedAt: '2025-06-16T22:30:08.685Z'
+  updatedAt: '2025-06-17T20:08:13.478Z'
   url: https://apertatube.net/videos/watch/3d2f3d74-af2a-448a-968c-df6a06e84514
   uuid: 3d2f3d74-af2a-448a-968c-df6a06e84514
   viewers: 0
-  views: 111
+  views: 113
