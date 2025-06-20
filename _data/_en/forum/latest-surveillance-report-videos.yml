@@ -2,6 +2,37 @@
 # Any manual changes will be overwritten during the next build!
 
 - comments: 0
+  createdAt: '2025-06-19T04:34:37.793Z'
+  description: 'Q&A229: Windows privacy, SMS/RCS privacy, KYC-free crypto, E2EE Discord
+    alternatives, XMPP''s potential, TSA prescreenings, self-hosting considerations,
+    EXIF data, and iMazing. Join our next Q&A on Patreon: https://www.patreon.com/collection/415684...'
+  duration: 2569
+  embedPath: /videos/embed/fWLmdxY9915RQZhEHhUZjJ
+  id: 85577
+  isLive: false
+  isLocal: true
+  likes: 1
+  name: 'Q&A: Is Windows Unfairly Hated?'
+  nsfw: false
+  nsfwFlags: 0
+  nsfwSummary: null
+  originallyPublishedAt: '2025-06-19T17:13:16.121Z'
+  previewPath: /lazy-static/previews/08ed80a7-64c8-4528-86b7-01439ec88cc8.jpg
+  privacy:
+    id: 1
+    label: Public
+  publishedAt: '2025-06-19T17:13:16.121Z'
+  shortUUID: fWLmdxY9915RQZhEHhUZjJ
+  thumbnailPath: /lazy-static/thumbnails/1c5abc84-f5f5-40a9-9f4d-b8af96251efd.jpg
+  truncatedDescription: 'Q&A229: Windows privacy, SMS/RCS privacy, KYC-free crypto,
+    E2EE Discord alternatives, XMPP''s potential, TSA prescreenings, self-hosting
+    considerations, EXIF data, and iMazing. Join our next Q&A on Patreon: https://www.patreon.com/collection/415684...'
+  updatedAt: '2025-06-20T04:03:54.233Z'
+  url: https://apertatube.net/videos/watch/79056f82-d645-48cc-80dc-4d4232d63b82
+  uuid: 79056f82-d645-48cc-80dc-4d4232d63b82
+  viewers: 0
+  views: 24
+- comments: 0
   createdAt: '2025-06-15T21:41:43.899Z'
   description: "Episode 229: Android 16 is out but will make life harder for custom\
     \ ROMs, passkey portability is in the works, a dating app based on your search\
@@ -12,7 +43,7 @@
   id: 85556
   isLive: false
   isLocal: true
-  likes: 1
+  likes: 2
   name: Android 16's Dark Side Threatens Every Custom ROM
   nsfw: false
   nsfwFlags: 0
@@ -29,41 +60,8 @@
     \ for custom ROMs, passkey portability is in the works, a dating app based on\
     \ your search history, and more!\r\n\r\nWelcome to the Surveillance Report - featuring\
     \ Techlore & The New Oil to keep yo..."
-  updatedAt: '2025-06-18T04:49:37.042Z'
+  updatedAt: '2025-06-20T02:33:54.261Z'
   url: https://apertatube.net/videos/watch/93dc8dd4-28e5-4418-9c38-610895bc95b9
   uuid: 93dc8dd4-28e5-4418-9c38-610895bc95b9
   viewers: 0
-  views: 57
-- comments: 0
-  createdAt: '2025-06-08T04:21:53.011Z'
-  description: 'Episode 228: Meta & Yandex skirt around Android''s sandboxing to violate
-    your privacy even further, Apple turned over thousands of push notification data
-    requests, billions of session cookies are for sale, Signal might be rolling out
-    backup subscri...'
-  duration: 1784
-  embedPath: /videos/embed/8yd7VquKHgksYKtRhfeAE9
-  id: 85515
-  isLive: false
-  isLocal: true
-  likes: 5
-  name: How Companies Sidestep Protections to Spy on You
-  nsfw: false
-  nsfwFlags: 0
-  nsfwSummary: null
-  originallyPublishedAt: '2025-06-09T00:00:30.144Z'
-  previewPath: /lazy-static/previews/be1d6301-30ef-44ff-b3b1-c4fa98daa903.jpg
-  privacy:
-    id: 1
-    label: Public
-  publishedAt: '2025-06-09T00:00:30.144Z'
-  shortUUID: 8yd7VquKHgksYKtRhfeAE9
-  thumbnailPath: /lazy-static/thumbnails/6ade24f7-5124-40ce-9a58-4d7e97c7478e.jpg
-  truncatedDescription: 'Episode 228: Meta & Yandex skirt around Android''s sandboxing
-    to violate your privacy even further, Apple turned over thousands of push notification
-    data requests, billions of session cookies are for sale, Signal might be rolling
-    out backup subscri...'
-  updatedAt: '2025-06-17T20:08:13.478Z'
-  url: https://apertatube.net/videos/watch/3d2f3d74-af2a-448a-968c-df6a06e84514
-  uuid: 3d2f3d74-af2a-448a-968c-df6a06e84514
-  viewers: 0
-  views: 113
+  views: 78
