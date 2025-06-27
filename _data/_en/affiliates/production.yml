@@ -19,7 +19,7 @@
       affil: true
     -
       text: "Newegg"
-      url: "https://howl.link/cdqw2zvbo1fhe"
+      url: "https://click.linksynergy.com/deeplink?id=3Q9OclTeTTg&mid=44583&murl=https%3A%2F%2Fwww.newegg.com%2Fp%2F2XW-004F-000D6"
       affil: true      
     -
 
@@ -35,7 +35,7 @@
       affil: true
     -
       text: "Newegg"
-      url: "https://howl.link/27urz6v6uy1xo"
+      url: "https://click.linksynergy.com/deeplink?id=3Q9OclTeTTg&mid=44583&murl=https%3A%2F%2Fwww.newegg.com%2Fsynology-ds923%2Fp%2F0YH-0064-00009"
       affil: true
     -
       text: "Non-affiliate"
@@ -47,6 +47,10 @@
     -
       text: "Amazon"
       url: "https://amzn.to/49sMVYr"
+      affil: true
+    -
+    text: "Newegg"
+      url: "https://click.linksynergy.com/deeplink?id=3Q9OclTeTTg&mid=44583&murl=https%3A%2F%2Fwww.newegg.com%2Fp%2Fpl%3Fd%3DFujifilm%2BX100V"
       affil: true
     -
       text: "Non-affiliate"
@@ -73,7 +77,7 @@
       affil: true
     -
       text: "Newegg"
-      url: "https://howl.link/4xpo99xxfja0e"
+      url: "https://click.linksynergy.com/deeplink?id=3Q9OclTeTTg&mid=44583&murl=https%3A%2F%2Fwww.newegg.com%2Fsennheiser-momentum-4-black-over-the-ear%2Fp%2FN82E16826106921"
       affil: true
     -
       text: "Non-affiliate"
@@ -89,7 +93,7 @@
       affil: true
     -
       text: "Newegg"
-      url: "https://howl.link/ik8ctll7pgpok"
+      url: "https://click.linksynergy.com/deeplink?id=3Q9OclTeTTg&mid=44583&murl=https%3A%2F%2Fwww.newegg.com%2Fsenheiser-hd-600-over-the-ear%2Fp%2F0YC-0037-00001"
       affil: true
     -
       text: "Non-affiliate"
