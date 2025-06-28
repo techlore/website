@@ -20,7 +20,7 @@
     -
       text: "Newegg"
       url: "https://click.linksynergy.com/deeplink?id=3Q9OclTeTTg&mid=44583&murl=https%3A%2F%2Fwww.newegg.com%2Fp%2F2XW-004F-000D6"
-      affil: true      
+      affil: true
     -
 
       text: "Non-affiliate"
@@ -49,7 +49,7 @@
       url: "https://amzn.to/49sMVYr"
       affil: true
     -
-    text: "Newegg"
+      text: "Newegg"
       url: "https://click.linksynergy.com/deeplink?id=3Q9OclTeTTg&mid=44583&murl=https%3A%2F%2Fwww.newegg.com%2Fp%2Fpl%3Fd%3DFujifilm%2BX100V"
       affil: true
     -
