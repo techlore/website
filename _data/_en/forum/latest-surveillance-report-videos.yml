@@ -2,6 +2,39 @@
 # Any manual changes will be overwritten during the next build!
 
 - comments: 0
+  createdAt: '2025-06-30T00:59:47.506Z'
+  description: "Episode 231: Facebook wants access to all your photos, updates to\
+    \ the ongoing Android 16/Custom ROM situation, a critical vulnerability in popular\
+    \ printer brands, and more!\r\n\r\nWelcome to the Surveillance Report - featuring\
+    \ Techlore & The New Oil t..."
+  duration: 1747
+  embedPath: /videos/embed/p3QSrsvQTNDKXw3Q6qPzjw
+  id: 85648
+  isLive: false
+  isLocal: true
+  likes: 4
+  name: 'Facebook''s Latest Privacy Invasion: Now with AI!'
+  nsfw: false
+  nsfwFlags: 0
+  nsfwSummary: null
+  originallyPublishedAt: '2025-06-30T10:23:52.570Z'
+  previewPath: /lazy-static/previews/ea844a7b-4a64-4ea3-9c8f-e805d0a1af0a.jpg
+  privacy:
+    id: 1
+    label: Public
+  publishedAt: '2025-06-30T10:23:52.570Z'
+  shortUUID: p3QSrsvQTNDKXw3Q6qPzjw
+  thumbnailPath: /lazy-static/thumbnails/1237c1a4-6fc3-41f5-b43c-51c19aaf893c.jpg
+  truncatedDescription: "Episode 231: Facebook wants access to all your photos, updates\
+    \ to the ongoing Android 16/Custom ROM situation, a critical vulnerability in\
+    \ popular printer brands, and more!\r\n\r\nWelcome to the Surveillance Report\
+    \ - featuring Techlore & The New Oil t..."
+  updatedAt: '2025-07-01T04:33:54.845Z'
+  url: https://apertatube.net/videos/watch/baa7cb30-23f0-48c3-9398-247987ad11ce
+  uuid: baa7cb30-23f0-48c3-9398-247987ad11ce
+  viewers: 0
+  views: 28
+- comments: 0
   createdAt: '2025-06-23T23:57:50.140Z'
   description: "Episode 230: The headline-making data breach that isn't really a data\
     \ breach, how the data broker industry enabled political assassination, Meta unveils\
@@ -12,7 +45,7 @@
   id: 85619
   isLive: false
   isLocal: true
-  likes: 0
+  likes: 2
   name: The Biggest Data Breach That Never Happened
   nsfw: false
   nsfwFlags: 0
@@ -29,39 +62,8 @@
     \ a data breach, how the data broker industry enabled political assassination,\
     \ Meta unveils two new forms of enshittification, and more!\r\n\r\nWelcome to\
     \ the Surveillance Report - featuring..."
-  updatedAt: '2025-06-30T04:03:54.856Z'
+  updatedAt: '2025-07-01T03:33:54.844Z'
   url: https://apertatube.net/videos/watch/c31c7b96-9450-43b6-8888-66fc6b29103d
   uuid: c31c7b96-9450-43b6-8888-66fc6b29103d
-  viewers: 3
-  views: 8
-- comments: 1
-  createdAt: '2025-06-19T04:34:37.793Z'
-  description: 'Q&A229: Windows privacy, SMS/RCS privacy, KYC-free crypto, E2EE Discord
-    alternatives, XMPP''s potential, TSA prescreenings, self-hosting considerations,
-    EXIF data, and iMazing. Join our next Q&A on Patreon: https://www.patreon.com/collection/415684...'
-  duration: 2569
-  embedPath: /videos/embed/fWLmdxY9915RQZhEHhUZjJ
-  id: 85577
-  isLive: false
-  isLocal: true
-  likes: 7
-  name: 'Q&A: Is Windows Unfairly Hated?'
-  nsfw: false
-  nsfwFlags: 0
-  nsfwSummary: null
-  originallyPublishedAt: '2025-06-19T17:13:16.121Z'
-  previewPath: /lazy-static/previews/08ed80a7-64c8-4528-86b7-01439ec88cc8.jpg
-  privacy:
-    id: 1
-    label: Public
-  publishedAt: '2025-06-19T17:13:16.121Z'
-  shortUUID: fWLmdxY9915RQZhEHhUZjJ
-  thumbnailPath: /lazy-static/thumbnails/1c5abc84-f5f5-40a9-9f4d-b8af96251efd.jpg
-  truncatedDescription: 'Q&A229: Windows privacy, SMS/RCS privacy, KYC-free crypto,
-    E2EE Discord alternatives, XMPP''s potential, TSA prescreenings, self-hosting
-    considerations, EXIF data, and iMazing. Join our next Q&A on Patreon: https://www.patreon.com/collection/415684...'
-  updatedAt: '2025-06-29T23:33:54.696Z'
-  url: https://apertatube.net/videos/watch/79056f82-d645-48cc-80dc-4d4232d63b82
-  uuid: 79056f82-d645-48cc-80dc-4d4232d63b82
   viewers: 0
-  views: 99
+  views: 45
