@@ -11,7 +11,7 @@
   id: 65949
   isLive: false
   isLocal: true
-  likes: 2
+  likes: 9
   name: 'The Dark Side of WhatsApp: What They Don''t Want You To Know'
   nsfw: false
   originallyPublishedAt: '2025-07-05T02:50:32.000Z'
@@ -26,11 +26,11 @@
     From extensive metadata collection to incoming advertising, WhatsApp isn't the
     'private' messenger they might lead you to believe. In this video, I'll break
     down what Meta is really doing ...
-  updatedAt: '2025-07-05T04:32:18.552Z'
+  updatedAt: '2025-07-06T04:02:18.585Z'
   url: https://techlore.tv/videos/watch/31072aa4-aaf5-417a-9155-e1067d7e99c6
   uuid: 31072aa4-aaf5-417a-9155-e1067d7e99c6
-  viewers: 2
-  views: 11
+  viewers: 0
+  views: 108
 - createdAt: '2025-06-06T01:08:32.408Z'
   description: "Your $5 can go a long ways\u2014here's how it can dramatically change\
     \ the game for open source projects. Techlore empowers individuals with practical\
@@ -56,11 +56,11 @@
     \ change the game for open source projects. Techlore empowers individuals with\
     \ practical digital privacy knowledge, security tools, and advocacy resources.\
     \ Discover how to protect your online..."
-  updatedAt: '2025-07-04T20:02:18.866Z'
+  updatedAt: '2025-07-06T02:32:18.899Z'
   url: https://techlore.tv/videos/watch/17cd92aa-6bae-489d-8e34-fc57708daac4
   uuid: 17cd92aa-6bae-489d-8e34-fc57708daac4
   viewers: 0
-  views: 246
+  views: 250
 - createdAt: '2025-06-06T01:08:21.346Z'
   description: How to go on a privacy journey and view it as a longterm value instead
     of a final destination. Techlore empowers individuals with practical digital privacy
@@ -86,11 +86,11 @@
     instead of a final destination. Techlore empowers individuals with practical digital
     privacy knowledge, security tools, and advocacy resources. Discover how to protect
     your online data...
-  updatedAt: '2025-07-04T21:02:19.037Z'
+  updatedAt: '2025-07-06T02:32:18.804Z'
   url: https://techlore.tv/videos/watch/a21dbcf0-5d23-4272-b6bb-2d8b9406ec64
   uuid: a21dbcf0-5d23-4272-b6bb-2d8b9406ec64
   viewers: 0
-  views: 100
+  views: 101
 - createdAt: '2025-06-06T01:07:59.399Z'
   description: Here's the two methods people implement digital minimalism into their
     lives. Techlore empowers individuals with practical digital privacy knowledge,
@@ -116,11 +116,11 @@
     into their lives. Techlore empowers individuals with practical digital privacy
     knowledge, security tools, and advocacy resources. Discover how to protect your
     online data and regain contro...
-  updatedAt: '2025-07-04T14:32:18.622Z'
+  updatedAt: '2025-07-06T02:32:18.699Z'
   url: https://techlore.tv/videos/watch/31b92433-575c-430f-a943-18dbb4a6f029
   uuid: 31b92433-575c-430f-a943-18dbb4a6f029
   viewers: 0
-  views: 149
+  views: 151
 - createdAt: '2025-06-04T21:48:20.449Z'
   description: Arc browser just died, joining a graveyard of services that promised
     to compete with Big Tech but disappeared overnight. From Skiff email to CTemplar
@@ -131,7 +131,7 @@
   id: 63449
   isLive: false
   isLocal: true
-  likes: 8
+  likes: 9
   name: Why Alt-Tech Services Keep Dying
   nsfw: false
   originallyPublishedAt: '2025-06-06T04:16:51.000Z'
@@ -146,11 +146,11 @@
     promised to compete with Big Tech but disappeared overnight. From Skiff email
     to CTemplar to Mozilla's killed projects, this pattern is creating a "trust destruction
     cycle" that makes peo...
-  updatedAt: '2025-07-04T21:02:18.963Z'
+  updatedAt: '2025-07-05T19:02:18.987Z'
   url: https://techlore.tv/videos/watch/51adc7e7-2a4d-4119-b966-53605f16fd90
   uuid: 51adc7e7-2a4d-4119-b966-53605f16fd90
   viewers: 0
-  views: 176
+  views: 178
 - createdAt: '2025-05-30T20:30:18.020Z'
   description: One user shares how they've began donating to projects they care about,
     and why this has large impacts for the community. Welcome to Techlore's privacy
@@ -206,11 +206,11 @@
     online while giving you practical advice that actually works. Whether you're using
     Chrome, Firefox, Brave, or Tor Browser, you'll learn exactly what protects you
     and what doesn't. Techl...
-  updatedAt: '2025-07-04T17:32:18.503Z'
+  updatedAt: '2025-07-05T17:02:18.999Z'
   url: https://techlore.tv/videos/watch/b818d003-ddb3-4ae8-beb9-a5d09d8b8c68
   uuid: b818d003-ddb3-4ae8-beb9-a5d09d8b8c68
   viewers: 0
-  views: 328
+  views: 331
 - createdAt: '2025-05-26T13:06:30.360Z'
   description: One very important to keep in mind before committing to services! Techlore
     empowers individuals with practical digital privacy knowledge, security tools,
@@ -297,11 +297,11 @@
     of the AlmaLinux OS Foundation, as we explore the fallout from Red Hat's controversial
     licensing changes and how AlmaLinux emerged as a community-driven solution. We
     discuss the techni...
-  updatedAt: '2025-07-03T00:02:18.578Z'
+  updatedAt: '2025-07-05T21:02:18.851Z'
   url: https://techlore.tv/videos/watch/337a382b-8ab1-40a3-b605-d46cef0f83bf
   uuid: 337a382b-8ab1-40a3-b605-d46cef0f83bf
   viewers: 0
-  views: 100
+  views: 102
 - createdAt: '2025-05-10T00:35:46.192Z'
   description: "Discover how websites can identify and track you\u2014even without\
     \ cookies\u2014using browser fingerprinting. This masterclass breaks down how\
@@ -327,11 +327,11 @@
     \ without cookies\u2014using browser fingerprinting. This masterclass breaks down\
     \ how your browser reveals a unique digital \"fingerprint\" that follows you across\
     \ the web, with real demonstrations comp..."
-  updatedAt: '2025-07-03T10:32:18.486Z'
+  updatedAt: '2025-07-05T21:02:18.708Z'
   url: https://techlore.tv/videos/watch/eb02df73-742b-4ce1-8497-1964a122eb3e
   uuid: eb02df73-742b-4ce1-8497-1964a122eb3e
   viewers: 0
-  views: 472
+  views: 473
 - createdAt: '2025-04-13T08:24:44.794Z'
   description: Can a laptop offer privacy & security without compromises? NovaCustom
     claims to, with QubesOS/Linux support, customizability, disabling Intel ME, and
@@ -417,11 +417,11 @@
     quick and easy tutorial, we'll show you how to remove unnecessary features, disable
     extensions, and optimize Brave for lightning-fast performance. Whether you're
     a tech-savvy user or a be...
-  updatedAt: '2025-07-04T19:02:18.522Z'
+  updatedAt: '2025-07-05T17:32:18.603Z'
   url: https://techlore.tv/videos/watch/430b602a-56fa-4980-8238-9c9b2f68834e
   uuid: 430b602a-56fa-4980-8238-9c9b2f68834e
   viewers: 0
-  views: 97
+  views: 98
 - createdAt: '2025-04-13T08:24:23.795Z'
   description: Apple's moving to integrate end-to-end encryption (E2EE) into the RCS
     open standard messaging marks a major privacy win for both iOS and Android users.
@@ -447,11 +447,11 @@
     the RCS open standard messaging marks a major privacy win for both iOS and Android
     users. In this video, Techlore breaks down what this means for your secure messaging
     experience, compa...
-  updatedAt: '2025-07-04T23:02:18.533Z'
+  updatedAt: '2025-07-05T20:32:18.707Z'
   url: https://techlore.tv/videos/watch/7ba40539-adde-4dcf-a5e1-61e3cfa5631d
   uuid: 7ba40539-adde-4dcf-a5e1-61e3cfa5631d
   viewers: 0
-  views: 14
+  views: 15
 - createdAt: '2025-04-13T08:24:16.375Z'
   description: "Tired of Firefox's recent changes? Or just looking for a more private\
     \ and customizable browsing experience? In this video, we dive into the top 8\
@@ -567,11 +567,11 @@
     a free and open source E2EE tool. With Cryptomator you can make Dropbox, iCloud,
     Google Drive, or really any other cloud provider encrypted for maximum privacy
     & security! This ...
-  updatedAt: '2025-07-04T22:32:18.534Z'
+  updatedAt: '2025-07-06T03:32:18.612Z'
   url: https://techlore.tv/videos/watch/46e80ca7-d43e-4877-a8f0-432a811207c2
   uuid: 46e80ca7-d43e-4877-a8f0-432a811207c2
   viewers: 0
-  views: 16
+  views: 17
 - createdAt: '2025-04-13T08:23:40.865Z'
   description: 'Apple has removed Advanced Data Protection (ADP) due to a request
     to backdoor their encryption. Apple has pulled the feature and no longer is offering
@@ -603,11 +603,11 @@
 
 
     00:00 Wtf ha...'
-  updatedAt: '2025-06-23T17:02:18.089Z'
+  updatedAt: '2025-07-05T07:32:18.703Z'
   url: https://techlore.tv/videos/watch/03067102-1302-4c44-bb1f-7fa051223cb3
   uuid: 03067102-1302-4c44-bb1f-7fa051223cb3
   viewers: 0
-  views: 4
+  views: 5
 - createdAt: '2025-04-13T08:23:47.966Z'
   description: "Welcome to our privacy wins of the week, where our community shares\
     \ their wins. Join next week's stream: https://discuss.techlore.tech/t/your-weekly-privacy-security-wins-week-43-feb-21-2025/12542\n\
@@ -811,11 +811,11 @@
     and anonymous as you need it to be. This video covers security, privacy, anonymity,
     passwords, authentication, VPNs, biometrics, search engines, browsers, Tor, 2FA,
     virtual machines, Linu...
-  updatedAt: '2025-07-03T07:02:18.753Z'
+  updatedAt: '2025-07-05T17:02:18.840Z'
   url: https://techlore.tv/videos/watch/7fcc4b82-7817-48e9-9647-f0a201fa926e
   uuid: 7fcc4b82-7817-48e9-9647-f0a201fa926e
   viewers: 0
-  views: 56
+  views: 57
 - createdAt: '2025-04-13T08:22:36.590Z'
   description: Do you need an antivirus? Let's discuss this cybersecurity hot-topic
     and why you probably don't need one! In this video I unpack the pros and cons
@@ -971,11 +971,11 @@
     to achieve reasonable levels of privacy on a budget with budget-friendly privacy
     tools. I dive into password managers, search engines, messengers, operating systems
     and so much more with ...
-  updatedAt: '2025-06-28T17:02:18.568Z'
+  updatedAt: '2025-07-05T12:32:18.761Z'
   url: https://techlore.tv/videos/watch/f3a7ee32-507c-418d-a2e2-d7febe270bc6
   uuid: f3a7ee32-507c-418d-a2e2-d7febe270bc6
   viewers: 0
-  views: 9
+  views: 11
 - createdAt: '2025-04-13T08:22:01.910Z'
   description: This interview dives deep with Dallas, the owner of PrivacyPost.io,
     to explore the world of secure mail forwarding in the US. We'll unpack the complexities
@@ -1546,11 +1546,11 @@
     are not effective! Let's unpack the research, talk about the results, and what
     it means for those of you wanting control of their data on Techlore Talks 20.
     We also discuss Proton Wallet, ...
-  updatedAt: '2025-06-25T20:32:18.491Z'
+  updatedAt: '2025-07-06T01:02:18.608Z'
   url: https://techlore.tv/videos/watch/7520962f-4312-488e-abb5-44fcd600a869
   uuid: 7520962f-4312-488e-abb5-44fcd600a869
   viewers: 0
-  views: 1
+  views: 2
 - createdAt: '2025-04-13T08:19:43.909Z'
   description: Tired of Adobe's sky-high prices and shady business practices? You're
     not alone. In this video, I expose the dark side of Adobe, from their deceptive
@@ -1606,11 +1606,11 @@
     we can't make it safer! Welcome to the ultimate Signal hardening guide to make
     it as private, secure, & safe as possible. This video tutorial applies to iOS,
     Android, and touches on des...
-  updatedAt: '2025-07-04T23:32:18.531Z'
+  updatedAt: '2025-07-05T15:32:18.731Z'
   url: https://techlore.tv/videos/watch/17f8da14-6703-45bb-bf59-6cb29f6902fb
   uuid: 17f8da14-6703-45bb-bf59-6cb29f6902fb
   viewers: 0
-  views: 108
+  views: 109
 - createdAt: '2025-04-13T08:19:30.858Z'
   description: "Safari's privacy loses to Tor Browser, Brave Browser, and Firefox.\
     \ (And probably a lot more niche browsers) - Either make Safari better or switch\
@@ -1966,11 +1966,11 @@
     \ mean there isn't something we can do about it! \u27A1\uFE0F Remove your personal\
     \ information from the web at https://JoinDeleteMe.com/techlore and use code TECHLORE\
     \ for 20% off, or get one of thei..."
-  updatedAt: '2025-05-13T12:31:36.273Z'
+  updatedAt: '2025-07-05T22:02:18.615Z'
   url: https://techlore.tv/videos/watch/eaef4544-f25e-46ed-af24-623477d49146
   uuid: eaef4544-f25e-46ed-af24-623477d49146
   viewers: 0
-  views: 1
+  views: 2
 - createdAt: '2025-04-13T08:18:23.562Z'
   description: 'Going to do our best to answer privacy, security, digital rights,
     and personal questions for all of you for May 2024. Patrons & people on our forum
