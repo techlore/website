@@ -2,6 +2,39 @@
 # Any manual changes will be overwritten during the next build!
 
 - comments: 0
+  createdAt: '2025-07-06T20:30:37.464Z'
+  description: "Episode 232: Android 16 makes it harder to avoid sharing your data\
+    \ with AI even if you opted out, an innovative new VPN enters the scene, how the\
+    \ cartels used surveillance to find a mole, and more!\r\n\r\nWelcome to the Surveillance\
+    \ Report - featuring..."
+  duration: 2030
+  embedPath: /videos/embed/nRUj76gRjVwBV88jnESHy9
+  id: 85680
+  isLive: false
+  isLocal: true
+  likes: 0
+  name: Android 16 is Adding AI, Even if You Opted Out!
+  nsfw: false
+  nsfwFlags: 0
+  nsfwSummary: null
+  originallyPublishedAt: '2025-07-07T23:51:25.866Z'
+  previewPath: /lazy-static/previews/16076a7c-c7bb-48e5-9fd8-9a069c6f492e.jpg
+  privacy:
+    id: 1
+    label: Public
+  publishedAt: '2025-07-07T23:51:25.866Z'
+  shortUUID: nRUj76gRjVwBV88jnESHy9
+  thumbnailPath: /lazy-static/thumbnails/9627594c-9487-4221-90bf-14a5f8448ff5.jpg
+  truncatedDescription: "Episode 232: Android 16 makes it harder to avoid sharing\
+    \ your data with AI even if you opted out, an innovative new VPN enters the scene,\
+    \ how the cartels used surveillance to find a mole, and more!\r\n\r\nWelcome to\
+    \ the Surveillance Report - featuring..."
+  updatedAt: '2025-07-08T04:33:18.681Z'
+  url: https://apertatube.net/videos/watch/b1079858-8a3e-4a86-bf0d-e241a131835c
+  uuid: b1079858-8a3e-4a86-bf0d-e241a131835c
+  viewers: 1
+  views: 12
+- comments: 0
   createdAt: '2025-07-04T17:05:31.189Z'
   description: 'Q&A231: The top 3 things we wish we''d done differently in our privacy
     journeys, data as "the new gold" rather than "the new oil," defining privacy as
@@ -12,7 +45,7 @@
   id: 85669
   isLive: false
   isLocal: true
-  likes: 1
+  likes: 2
   name: 'Q&A: Top 3 Things We Wish We''d Done Differently'
   nsfw: false
   nsfwFlags: 0
@@ -29,41 +62,8 @@
     our privacy journeys, data as "the new gold" rather than "the new oil," defining
     privacy as a human right, Android hardening advice, and encrypted calendars,.
     Join our next Q&A on Patreon: ...'
-  updatedAt: '2025-07-07T03:03:18.789Z'
+  updatedAt: '2025-07-08T01:03:18.651Z'
   url: https://apertatube.net/videos/watch/f39c5a83-e1a9-4dc9-889f-becb7b8cf811
   uuid: f39c5a83-e1a9-4dc9-889f-becb7b8cf811
   viewers: 0
-  views: 42
-- comments: 1
-  createdAt: '2025-06-30T00:59:47.506Z'
-  description: "Episode 231: Facebook wants access to all your photos, updates to\
-    \ the ongoing Android 16/Custom ROM situation, a critical vulnerability in popular\
-    \ printer brands, and more!\r\n\r\nWelcome to the Surveillance Report - featuring\
-    \ Techlore & The New Oil t..."
-  duration: 1747
-  embedPath: /videos/embed/p3QSrsvQTNDKXw3Q6qPzjw
-  id: 85648
-  isLive: false
-  isLocal: true
-  likes: 8
-  name: 'Facebook''s Latest Privacy Invasion: Now with AI!'
-  nsfw: false
-  nsfwFlags: 0
-  nsfwSummary: null
-  originallyPublishedAt: '2025-06-30T10:23:52.570Z'
-  previewPath: /lazy-static/previews/ea844a7b-4a64-4ea3-9c8f-e805d0a1af0a.jpg
-  privacy:
-    id: 1
-    label: Public
-  publishedAt: '2025-06-30T10:23:52.570Z'
-  shortUUID: p3QSrsvQTNDKXw3Q6qPzjw
-  thumbnailPath: /lazy-static/thumbnails/1237c1a4-6fc3-41f5-b43c-51c19aaf893c.jpg
-  truncatedDescription: "Episode 231: Facebook wants access to all your photos, updates\
-    \ to the ongoing Android 16/Custom ROM situation, a critical vulnerability in\
-    \ popular printer brands, and more!\r\n\r\nWelcome to the Surveillance Report\
-    \ - featuring Techlore & The New Oil t..."
-  updatedAt: '2025-07-07T03:03:18.576Z'
-  url: https://apertatube.net/videos/watch/baa7cb30-23f0-48c3-9398-247987ad11ce
-  uuid: baa7cb30-23f0-48c3-9398-247987ad11ce
-  viewers: 2
-  views: 77
+  views: 52
