@@ -30,4 +30,4 @@ hide.me,None,Yes,Malaysia🇲🇾,Yes,Yes,No,No Logs,Yes,Linux only,Yes,AES 256,
 Librem Tunnel,None,??,USA🇺🇸,No,??,??,??,??,Yes,Yes,??,??,Yes,??,??,??,??,??,??,??,Crypto,??,??,??,??,??,??,Yes,??,??,??,??,No,No,Yes,??,??,??,None,https://librem.one/
 cryptostorm,None,Yes,Iceland🇮🇸,Yes,No,Yes,No Logs,??,Yes,Yes,AES 256,RSA 8192,Yes,Yes,Yes,Yes,No,No,Yes,DNSCrypt,XMR/Crypto,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,387,38,1-6,Yes,No,No,No,No,No,None,https://www.cryptostorm.is
 Shock VPN,None,Yes,USA🇺🇸,No,No,No,No Logs,No,Yes,Yes,AES 256,RSA 4096,No,Yes,No,Yes,No,No,Yes,??,Cash/XMR/Crypto,Yes,Yes,Yes,No,Yes,??,Yes,No,28,8,5,Yes,Yes,GUI,Yes,Yes,Yes,None,https://shockvpn.com
-NymVPN,None,Yes,Switzerland🇨🇭,Yes,No,No,No Logs,No,Yes,No,AES-256 and ChaCha20,X25519 and Ed25519,No,Yes,Yes,Yes,No,Yes,No,No,Cash/XMR/Crypto,Yes,No,Yes,Yes,No,Yes,Yes,Yes,220,70,10,Yes,Yes,Yes,Yes,Yes,Yes,None,https://nym.com
+NymVPN,None,Yes,Switzerland🇨🇭,Yes,No,No,No Logs,No,Yes,No,AES-256 and ChaCha20,X25519 and Ed25519,No,Yes,Yes,Yes,No,Yes,No,No,Cash/XMR/ZEC/Crypto,Yes,No,Yes,Yes,No,Yes,Yes,Yes,220,70,10,Yes,Yes,Yes,Yes,Yes,Yes,None,https://nym.com
