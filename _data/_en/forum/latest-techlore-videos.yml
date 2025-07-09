@@ -11,7 +11,7 @@
   id: 65949
   isLive: false
   isLocal: true
-  likes: 11
+  likes: 13
   name: 'The Dark Side of WhatsApp: What They Don''t Want You To Know'
   nsfw: false
   originallyPublishedAt: '2025-07-05T02:50:32.000Z'
@@ -26,11 +26,11 @@
     From extensive metadata collection to incoming advertising, WhatsApp isn't the
     'private' messenger they might lead you to believe. In this video, I'll break
     down what Meta is really doing ...
-  updatedAt: '2025-07-08T04:31:53.215Z'
+  updatedAt: '2025-07-09T04:31:53.261Z'
   url: https://techlore.tv/videos/watch/31072aa4-aaf5-417a-9155-e1067d7e99c6
   uuid: 31072aa4-aaf5-417a-9155-e1067d7e99c6
-  viewers: 2
-  views: 195
+  viewers: 0
+  views: 297
 - createdAt: '2025-06-06T01:08:32.408Z'
   description: "Your $5 can go a long ways\u2014here's how it can dramatically change\
     \ the game for open source projects. Techlore empowers individuals with practical\
@@ -56,11 +56,11 @@
     \ change the game for open source projects. Techlore empowers individuals with\
     \ practical digital privacy knowledge, security tools, and advocacy resources.\
     \ Discover how to protect your online..."
-  updatedAt: '2025-07-08T03:01:53.214Z'
+  updatedAt: '2025-07-08T22:01:53.652Z'
   url: https://techlore.tv/videos/watch/17cd92aa-6bae-489d-8e34-fc57708daac4
   uuid: 17cd92aa-6bae-489d-8e34-fc57708daac4
   viewers: 0
-  views: 257
+  views: 264
 - createdAt: '2025-06-06T01:08:21.346Z'
   description: How to go on a privacy journey and view it as a longterm value instead
     of a final destination. Techlore empowers individuals with practical digital privacy
@@ -86,11 +86,11 @@
     instead of a final destination. Techlore empowers individuals with practical digital
     privacy knowledge, security tools, and advocacy resources. Discover how to protect
     your online data...
-  updatedAt: '2025-07-07T08:02:18.656Z'
+  updatedAt: '2025-07-09T01:01:53.418Z'
   url: https://techlore.tv/videos/watch/a21dbcf0-5d23-4272-b6bb-2d8b9406ec64
   uuid: a21dbcf0-5d23-4272-b6bb-2d8b9406ec64
   viewers: 0
-  views: 103
+  views: 105
 - createdAt: '2025-06-06T01:07:59.399Z'
   description: Here's the two methods people implement digital minimalism into their
     lives. Techlore empowers individuals with practical digital privacy knowledge,
@@ -116,11 +116,11 @@
     into their lives. Techlore empowers individuals with practical digital privacy
     knowledge, security tools, and advocacy resources. Discover how to protect your
     online data and regain contro...
-  updatedAt: '2025-07-07T14:32:19.067Z'
+  updatedAt: '2025-07-08T22:01:53.481Z'
   url: https://techlore.tv/videos/watch/31b92433-575c-430f-a943-18dbb4a6f029
   uuid: 31b92433-575c-430f-a943-18dbb4a6f029
   viewers: 0
-  views: 154
+  views: 156
 - createdAt: '2025-06-04T21:48:20.449Z'
   description: Arc browser just died, joining a graveyard of services that promised
     to compete with Big Tech but disappeared overnight. From Skiff email to CTemplar
@@ -146,11 +146,11 @@
     promised to compete with Big Tech but disappeared overnight. From Skiff email
     to CTemplar to Mozilla's killed projects, this pattern is creating a "trust destruction
     cycle" that makes peo...
-  updatedAt: '2025-07-07T14:32:18.977Z'
+  updatedAt: '2025-07-08T14:01:53.793Z'
   url: https://techlore.tv/videos/watch/51adc7e7-2a4d-4119-b966-53605f16fd90
   uuid: 51adc7e7-2a4d-4119-b966-53605f16fd90
   viewers: 0
-  views: 185
+  views: 186
 - createdAt: '2025-05-30T20:30:18.020Z'
   description: One user shares how they've began donating to projects they care about,
     and why this has large impacts for the community. Welcome to Techlore's privacy
@@ -206,11 +206,11 @@
     online while giving you practical advice that actually works. Whether you're using
     Chrome, Firefox, Brave, or Tor Browser, you'll learn exactly what protects you
     and what doesn't. Techl...
-  updatedAt: '2025-07-06T22:32:18.633Z'
+  updatedAt: '2025-07-08T22:01:53.372Z'
   url: https://techlore.tv/videos/watch/b818d003-ddb3-4ae8-beb9-a5d09d8b8c68
   uuid: b818d003-ddb3-4ae8-beb9-a5d09d8b8c68
   viewers: 0
-  views: 333
+  views: 339
 - createdAt: '2025-05-26T13:06:30.360Z'
   description: One very important to keep in mind before committing to services! Techlore
     empowers individuals with practical digital privacy knowledge, security tools,
@@ -237,11 +237,11 @@
     Techlore empowers individuals with practical digital privacy knowledge, security
     tools, and advocacy resources. Discover how to protect your online data and regain
     control of your d...
-  updatedAt: '2025-07-03T17:02:18.481Z'
+  updatedAt: '2025-07-09T01:31:53.210Z'
   url: https://techlore.tv/videos/watch/4a6033b1-4c48-4763-ae7d-5d5154255103
   uuid: 4a6033b1-4c48-4763-ae7d-5d5154255103
   viewers: 0
-  views: 165
+  views: 168
 - createdAt: '2025-05-25T21:14:28.712Z'
   description: The three notetaking services I use for privacy & security. Techlore
     empowers individuals with practical digital privacy knowledge, security tools,
@@ -357,11 +357,11 @@
     NovaCustom claims to, with QubesOS/Linux support, customizability, disabling Intel
     ME, and coreboot as its notable features. But I'll be breaking down what I like
     & dislike about the NovaC...
-  updatedAt: '2025-07-07T20:01:53.171Z'
+  updatedAt: '2025-07-08T10:31:53.189Z'
   url: https://techlore.tv/videos/watch/10062b03-e312-4c91-8054-e73e983aefdc
   uuid: 10062b03-e312-4c91-8054-e73e983aefdc
   viewers: 0
-  views: 99
+  views: 100
 - createdAt: '2025-04-13T08:24:38.252Z'
   description: Microsoft is blocking Windows 11 upgrades on perfectly good PCs. Discover
     the hidden methods to bypass these restrictions, free your PC, and install windows
@@ -781,11 +781,11 @@
     that tries to combine to-do lists, note-taking, habit tracking, and more into
     a single place! I'll explore its features, such as intelligent task prioritization,
     customizable workflows, ...
-  updatedAt: '2025-07-07T08:32:18.673Z'
+  updatedAt: '2025-07-09T03:01:53.220Z'
   url: https://techlore.tv/videos/watch/5993dff2-d397-49f1-80a3-547acb2ffe46
   uuid: 5993dff2-d397-49f1-80a3-547acb2ffe46
   viewers: 0
-  views: 32
+  views: 33
 - createdAt: '2025-04-13T08:22:57.944Z'
   description: The v2 ultimate guide to making Windows as secure, private, and anonymous
     as you need it to be. This video covers security, privacy, anonymity, passwords,
@@ -1061,11 +1061,11 @@
     search engine that puts your data first...but it's a paid service. In this video,
     we dive deep into Kagi's features, comparing it to other popular search engines.
     Is it worth paying for...
-  updatedAt: '2025-07-02T01:02:18.595Z'
+  updatedAt: '2025-07-09T01:01:53.223Z'
   url: https://techlore.tv/videos/watch/e6d7d5b4-4fd6-489d-ba3d-449fd127673f
   uuid: e6d7d5b4-4fd6-489d-ba3d-449fd127673f
   viewers: 0
-  views: 16
+  views: 17
 - createdAt: '2025-04-13T08:21:34.451Z'
   description: Google Chrome has begun disabling uBlock Origin, the best ad-blocker
     and privacy & security extension across all browsers. If you're not already impacted,
@@ -1217,11 +1217,11 @@
     right video. This is the ultimate guide to navigating data breaches. I'll teach
     how you how to figure out what data was breached, what to do with each breached
     data point, and how to preve...
-  updatedAt: '2025-07-06T09:02:18.648Z'
+  updatedAt: '2025-07-08T18:31:53.375Z'
   url: https://techlore.tv/videos/watch/03f5dd90-058c-4549-b0b8-c1460ad6ab0f
   uuid: 03f5dd90-058c-4549-b0b8-c1460ad6ab0f
   viewers: 0
-  views: 14
+  views: 15
 - createdAt: '2025-04-13T08:21:00.185Z'
   description: 'All new privacy & security features in iOS 18 and MacOS Sequoia! Let''s
     talk about what''s new, how to utilize the features, and what''s still missing
@@ -1786,11 +1786,11 @@
     of security researchers...what does it mean for Signal messenger? Despite it being
     my favorite messenger, it's hard for me to ignore some of these events from an
     overall solid servi...
-  updatedAt: '2025-07-04T16:32:18.726Z'
+  updatedAt: '2025-07-08T07:31:53.247Z'
   url: https://techlore.tv/videos/watch/3c64aafd-92a4-4505-9f80-1b09fed42b61
   uuid: 3c64aafd-92a4-4505-9f80-1b09fed42b61
   viewers: 0
-  views: 9
+  views: 10
 - createdAt: '2025-04-13T08:18:50.614Z'
   description: Proton just released Proton Wallet, a Bitcoin-only wallet, while still
     advertising itself as a privacy-first company. I (and many others) are very confused
@@ -2849,11 +2849,11 @@
     \ was something, anything, to Signal's cryptocurrency. We didn't really get anywhere....\n\
     \nForum thread: https://discuss.techlore.tech/t/mobilecoin-an-open-discussion/6088\n\
     \n\U0001F510 Our Website: http..."
-  updatedAt: '2025-05-27T09:36:25.018Z'
+  updatedAt: '2025-07-08T16:31:53.172Z'
   url: https://techlore.tv/videos/watch/330c8690-5fc3-412d-924b-7c17caa6dc0a
   uuid: 330c8690-5fc3-412d-924b-7c17caa6dc0a
   viewers: 0
-  views: 1
+  views: 3
 - createdAt: '2025-04-13T08:14:52.060Z'
   description: 'After using IVPN for so long, I moved over to Tailscale/Mullvad on
     desktop, here''s why and what it means for you! (And why I still use IVPN, Proton,

@@ -86,11 +86,11 @@
     \ unique features like email templates are appealing. I tested their beta desktop\
     \ client and the alpha/beta email import feature multiple times over the months.\r\
     \n\r\nWatch the full Techlore Privac..."
-  updatedAt: '2025-07-01T22:02:18.679Z'
+  updatedAt: '2025-07-08T14:01:53.427Z'
   url: https://techlore.tv/videos/watch/da81fd4b-add8-4ddf-b2a1-4dddc184e996
   uuid: da81fd4b-add8-4ddf-b2a1-4dddc184e996
   viewers: 0
-  views: 18
+  views: 19
 - createdAt: '2025-05-23T02:49:39.663Z'
   description: "After Signalgate, is Signal vulnerable to government pressure like\
     \ Telegram was? Understand the key technical differences, that make Signal far\
@@ -146,11 +146,11 @@
     of the puzzle. We discuss the deeper issues with Discord's business model, privacy
     practices, and lack of user control that have many looking for alternatives. Learn
     why these problems li...
-  updatedAt: '2025-06-07T00:31:55.759Z'
+  updatedAt: '2025-07-08T06:01:53.183Z'
   url: https://techlore.tv/videos/watch/496a9462-a092-4c15-8c1e-53d2f7a42bfc
   uuid: 496a9462-a092-4c15-8c1e-53d2f7a42bfc
   viewers: 0
-  views: 3
+  views: 4
 - createdAt: '2025-05-23T02:48:53.930Z'
   description: "Can Google or Apple actually read your messages inside end-to-end\
     \ encrypted apps like Signal, WhatsApp, or even RCS? Is E2EE pointless if the\
@@ -2135,11 +2135,11 @@
     \ VoIP setup. Learn how we use just a few VoIP numbers for all of our communication\
     \ needs.\r\n\r\nWhat is VoIP? VoIP stands for Voice over Internet Protocol. It's\
     \ a technology that allows you to ..."
-  updatedAt: '2025-05-25T01:49:00.176Z'
+  updatedAt: '2025-07-08T07:31:53.446Z'
   url: https://techlore.tv/videos/watch/b321dce8-a977-4d89-8aca-b8b341bc9224
   uuid: b321dce8-a977-4d89-8aca-b8b341bc9224
   viewers: 0
-  views: 0
+  views: 1
 - createdAt: '2025-05-23T02:22:29.256Z'
   description: "Discover a critical flaw in Microsoft Authenticator that has potentially\
     \ been overwriting user accounts for years. Learn how this issue can impact your\
@@ -2905,11 +2905,11 @@
     \ This clip breaks down everything you need to know about location settings on\
     \ dating apps.\r\n\r\nTechlore dating video: https://www.youtube.com/watch?v=zPNzyPWBGM8\r\
     \n\r\nWatch the full Techlore..."
-  updatedAt: '2025-07-06T01:32:18.620Z'
+  updatedAt: '2025-07-08T07:31:53.357Z'
   url: https://techlore.tv/videos/watch/52ad766d-82cb-4984-b499-24b00c19e682
   uuid: 52ad766d-82cb-4984-b499-24b00c19e682
   viewers: 0
-  views: 20
+  views: 21
 - createdAt: '2025-05-23T02:14:03.097Z'
   description: "This video dives into the different security approaches of Apple and\
     \ Google. We explore the strengths and weaknesses of each, from iPhone's hardware\
@@ -2978,7 +2978,7 @@
   id: 62506
   isLive: false
   isLocal: true
-  likes: 1
+  likes: 2
   name: Is It Worth Using a Data Removal Service?
   nsfw: false
   originallyPublishedAt: '2024-05-17T00:00:00.000Z'
@@ -2993,11 +2993,11 @@
     \ to remove your personal information. We discuss the efficiency of paid services\
     \ compared to the manual process, and how to get the most out of these services.\r\
     \n\r\nWatch the full Techlore Li..."
-  updatedAt: '2025-07-06T01:02:18.741Z'
+  updatedAt: '2025-07-08T17:31:53.417Z'
   url: https://techlore.tv/videos/watch/d404b5cc-9b44-46ae-b0b1-596c6de7d37f
   uuid: d404b5cc-9b44-46ae-b0b1-596c6de7d37f
   viewers: 0
-  views: 8
+  views: 9
 - createdAt: '2025-05-23T02:12:07.472Z'
   description: 'In this video, we discuss the recent seizure of the popular Bitcoin
     wallet Samurai and its impact on Bitcoin privacy. We explore why Samurai was vulnerable
@@ -3023,8 +3023,8 @@
     Bitcoin wallet Samurai and its impact on Bitcoin privacy. We explore why Samurai
     was vulnerable and delve into the question: can Bitcoin ever be truly private?
     We also explore alternative...'
-  updatedAt: '2025-07-04T18:32:19.170Z'
+  updatedAt: '2025-07-08T10:31:53.290Z'
   url: https://techlore.tv/videos/watch/163f863d-b130-4e52-b87a-475b0ac7993c
   uuid: 163f863d-b130-4e52-b87a-475b0ac7993c
   viewers: 0
-  views: 10
+  views: 11
