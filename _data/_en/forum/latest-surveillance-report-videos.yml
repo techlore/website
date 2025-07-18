@@ -2,6 +2,39 @@
 # Any manual changes will be overwritten during the next build!
 
 - comments: 0
+  createdAt: '2025-07-17T02:33:55.262Z'
+  description: "Episode 233: McDonald's hiring chatbot exposed millions of job applications\
+    \ due to laughable password practices, Jack Dorsey created an encrypted messenger\
+    \ over the weekend, custom Android phones are landing on law enforcement radars,\
+    \ and more!\r\n\r..."
+  duration: 1988
+  embedPath: /videos/embed/i3RBijsTJhYEDEr3FDEhaR
+  id: 87082
+  isLive: false
+  isLocal: true
+  likes: 2
+  name: McDonald's Combines the Worst of AI & Job Hunting
+  nsfw: false
+  nsfwFlags: 0
+  nsfwSummary: null
+  originallyPublishedAt: '2025-07-16T00:00:00.000Z'
+  previewPath: /lazy-static/previews/dcb5806c-0692-4708-a5bb-1022bafa7e5a.jpg
+  privacy:
+    id: 1
+    label: Public
+  publishedAt: '2025-07-17T11:56:01.920Z'
+  shortUUID: i3RBijsTJhYEDEr3FDEhaR
+  thumbnailPath: /lazy-static/thumbnails/b39436bb-61ac-4298-aba9-55fa1a9e03c0.jpg
+  truncatedDescription: "Episode 233: McDonald's hiring chatbot exposed millions of\
+    \ job applications due to laughable password practices, Jack Dorsey created an\
+    \ encrypted messenger over the weekend, custom Android phones are landing on law\
+    \ enforcement radars, and more!\r\n\r..."
+  updatedAt: '2025-07-18T04:57:13.432Z'
+  url: https://apertatube.net/videos/watch/8a116ac9-ec83-4ef1-96ba-bc870c5eb81b
+  uuid: 8a116ac9-ec83-4ef1-96ba-bc870c5eb81b
+  viewers: 1
+  views: 33
+- comments: 0
   createdAt: '2025-07-06T20:30:37.464Z'
   description: "Episode 232: Android 16 makes it harder to avoid sharing your data\
     \ with AI even if you opted out, an innovative new VPN enters the scene, how the\
@@ -29,41 +62,8 @@
     \ your data with AI even if you opted out, an innovative new VPN enters the scene,\
     \ how the cartels used surveillance to find a mole, and more!\r\n\r\nWelcome to\
     \ the Surveillance Report - featuring..."
-  updatedAt: '2025-07-17T03:57:13.365Z'
+  updatedAt: '2025-07-17T22:27:13.428Z'
   url: https://apertatube.net/videos/watch/b1079858-8a3e-4a86-bf0d-e241a131835c
   uuid: b1079858-8a3e-4a86-bf0d-e241a131835c
   viewers: 0
-  views: 121
-- comments: 0
-  createdAt: '2025-07-04T17:05:31.189Z'
-  description: 'Q&A231: The top 3 things we wish we''d done differently in our privacy
-    journeys, data as "the new gold" rather than "the new oil," defining privacy as
-    a human right, Android hardening advice, and encrypted calendars,. Join our next
-    Q&A on Patreon: ...'
-  duration: 1483
-  embedPath: /videos/embed/w5LaELVfaem53feunE5qiX
-  id: 85669
-  isLive: false
-  isLocal: true
-  likes: 4
-  name: 'Q&A: Top 3 Things We Wish We''d Done Differently'
-  nsfw: false
-  nsfwFlags: 0
-  nsfwSummary: null
-  originallyPublishedAt: '2025-07-05T14:46:26.758Z'
-  previewPath: /lazy-static/previews/1dc1f3dc-1ae6-4b8c-8633-6e7547cae9a2.jpg
-  privacy:
-    id: 1
-    label: Public
-  publishedAt: '2025-07-05T14:46:26.758Z'
-  shortUUID: w5LaELVfaem53feunE5qiX
-  thumbnailPath: /lazy-static/thumbnails/188980aa-3412-466b-80dd-079d8dd58cbf.jpg
-  truncatedDescription: 'Q&A231: The top 3 things we wish we''d done differently in
-    our privacy journeys, data as "the new gold" rather than "the new oil," defining
-    privacy as a human right, Android hardening advice, and encrypted calendars,.
-    Join our next Q&A on Patreon: ...'
-  updatedAt: '2025-07-16T23:08:13.333Z'
-  url: https://apertatube.net/videos/watch/f39c5a83-e1a9-4dc9-889f-becb7b8cf811
-  uuid: f39c5a83-e1a9-4dc9-889f-becb7b8cf811
-  viewers: 0
-  views: 77
+  views: 126
