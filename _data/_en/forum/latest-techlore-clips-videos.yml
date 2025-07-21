@@ -26,11 +26,11 @@
     \ and internet usage? \U0001F914 We answer the common 'noob question' and break\
     \ down exactly what a VPN does (and doesn't do) for your online safety.\r\n\r\n\
     Watch the full Techlore Livestream: https://www..."
-  updatedAt: '2025-07-19T17:01:53.587Z'
+  updatedAt: '2025-07-20T08:31:53.779Z'
   url: https://techlore.tv/videos/watch/533a2fe4-88ff-4163-aef5-4036ac1702b6
   uuid: 533a2fe4-88ff-4163-aef5-4036ac1702b6
   viewers: 0
-  views: 36
+  views: 37
 - createdAt: '2025-05-23T02:50:24.721Z'
   description: "Can OpenStreetMap (OSM) truly replace Google Maps or Apple Maps for\
     \ privacy-conscious users? It depends \u2013 partly on YOU!\r\n\r\nWatch the full\
@@ -533,11 +533,11 @@
     \ is this increasing the amount of Linux users or is it just anecdotal, we discuss!\r\
     \n\r\nWatch the full Techlore Privacy Wins Livestream: https://www.youtube.com/watch?v=BNOWzJdKb9Y\r\
     \n\r\nGet subs..."
-  updatedAt: '2025-07-11T14:01:53.453Z'
+  updatedAt: '2025-07-20T13:31:53.785Z'
   url: https://techlore.tv/videos/watch/8ed619ed-826b-4238-aea1-4ba4bc8553d9
   uuid: 8ed619ed-826b-4238-aea1-4ba4bc8553d9
   viewers: 0
-  views: 1
+  views: 2
 - createdAt: '2025-05-23T02:44:07.857Z'
   description: "The UK government has forced Apple to disable encryption on iCloud\
     \ accounts in the UK. If you're looking for a secure alternative, Ente Photos\
@@ -1502,11 +1502,11 @@
     delisted from the Mozilla extension store. We dive into the drama behind this
     decision, exploring the role of automated reviews, developer-Mozilla conflicts,
     and the implications for Fire...
-  updatedAt: '2025-07-12T14:01:53.661Z'
+  updatedAt: '2025-07-20T22:31:53.586Z'
   url: https://techlore.tv/videos/watch/6b4a3291-2aad-496e-b283-4416caa52a6a
   uuid: 6b4a3291-2aad-496e-b283-4416caa52a6a
   viewers: 0
-  views: 3
+  views: 4
 - createdAt: '2025-05-23T02:31:53.414Z'
   description: "In this video, we'll give you our honest opinion on MKBHD's Panels\
     \ App. We'll discuss the app's features, pricing, privacy implications, and compare\
@@ -2890,7 +2890,7 @@
   id: 62509
   isLive: false
   isLocal: true
-  likes: 2
+  likes: 1
   name: Secure Your Location! - Dating App Privacy Tips
   nsfw: false
   originallyPublishedAt: '2024-05-24T00:00:00.000Z'
@@ -2920,7 +2920,7 @@
   id: 62508
   isLive: false
   isLocal: true
-  likes: 2
+  likes: 1
   name: 'Apple vs. Google: Security Smackdown! ft. John Ozbay'
   nsfw: false
   originallyPublishedAt: '2024-05-22T00:00:00.000Z'
@@ -2949,7 +2949,7 @@
   id: 62507
   isLive: false
   isLocal: true
-  likes: 1
+  likes: 2
   name: Should You Enable Secure Boot on Linux?
   nsfw: false
   originallyPublishedAt: '2024-05-20T00:00:00.000Z'
@@ -2963,11 +2963,11 @@
   truncatedDescription: "Secure Boot on Linux: friend or foe? This Techlore clip explores\
     \ the security benefits and potential limitations for Linux users. Decide what's\
     \ right for you!\r\n\r\nLink to Jonah's forum post: https://discuss.techlore.tech/t/what-are-your-opinions-on..."
-  updatedAt: '2025-07-15T07:31:53.582Z'
+  updatedAt: '2025-07-20T16:01:53.976Z'
   url: https://techlore.tv/videos/watch/af6d09b2-2a8f-4718-8abf-adbac754d18c
   uuid: af6d09b2-2a8f-4718-8abf-adbac754d18c
   viewers: 0
-  views: 25
+  views: 26
 - createdAt: '2025-05-23T02:13:18.902Z'
   description: "This video dives into the pros and cons of using a service to remove\
     \ your personal information. We discuss the efficiency of paid services compared\
@@ -2978,7 +2978,7 @@
   id: 62506
   isLive: false
   isLocal: true
-  likes: 2
+  likes: 1
   name: Is It Worth Using a Data Removal Service?
   nsfw: false
   originallyPublishedAt: '2024-05-17T00:00:00.000Z'
