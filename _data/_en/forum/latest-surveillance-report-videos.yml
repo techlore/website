@@ -2,68 +2,68 @@
 # Any manual changes will be overwritten during the next build!
 
 - comments: 0
-  createdAt: '2025-07-17T02:33:55.262Z'
-  description: "Episode 233: McDonald's hiring chatbot exposed millions of job applications\
-    \ due to laughable password practices, Jack Dorsey created an encrypted messenger\
-    \ over the weekend, custom Android phones are landing on law enforcement radars,\
-    \ and more!\r\n\r..."
-  duration: 1988
-  embedPath: /videos/embed/i3RBijsTJhYEDEr3FDEhaR
-  id: 87082
+  createdAt: '2025-07-19T15:55:22.072Z'
+  description: 'Q&A233: Does this Patron really need a VPN? Have we ever found any
+    security vulnerabilities? Can you use YouTube premium privately? Plus a grab-bag
+    of questions from our classic patron, David Johnson. Join our next Q&A on Patreon:
+    https://www.patr...'
+  duration: 2581
+  embedPath: /videos/embed/mazAuEbCS55io8Agsaua6w
+  id: 92631
   isLive: false
   isLocal: true
-  likes: 4
-  name: McDonald's Combines the Worst of AI & Job Hunting
+  likes: 1
+  name: 'Q&A: Do You Really Need a VPN?'
   nsfw: false
   nsfwFlags: 0
   nsfwSummary: null
-  originallyPublishedAt: '2025-07-16T00:00:00.000Z'
-  previewPath: /lazy-static/previews/dcb5806c-0692-4708-a5bb-1022bafa7e5a.jpg
+  originallyPublishedAt: '2025-07-31T02:15:52.073Z'
+  previewPath: /lazy-static/previews/9bcca097-f1c1-4db8-8b62-64772541d8c6.jpg
   privacy:
     id: 1
     label: Public
-  publishedAt: '2025-07-17T11:56:01.920Z'
-  shortUUID: i3RBijsTJhYEDEr3FDEhaR
-  thumbnailPath: /lazy-static/thumbnails/b39436bb-61ac-4298-aba9-55fa1a9e03c0.jpg
-  truncatedDescription: "Episode 233: McDonald's hiring chatbot exposed millions of\
-    \ job applications due to laughable password practices, Jack Dorsey created an\
-    \ encrypted messenger over the weekend, custom Android phones are landing on law\
-    \ enforcement radars, and more!\r\n\r..."
-  updatedAt: '2025-07-29T23:12:55.060Z'
-  url: https://apertatube.net/videos/watch/8a116ac9-ec83-4ef1-96ba-bc870c5eb81b
-  uuid: 8a116ac9-ec83-4ef1-96ba-bc870c5eb81b
-  viewers: 0
-  views: 87
+  publishedAt: '2025-07-31T02:15:52.073Z'
+  shortUUID: mazAuEbCS55io8Agsaua6w
+  thumbnailPath: /lazy-static/thumbnails/0cee600b-5b58-409b-91fb-35fd9a2ff997.jpg
+  truncatedDescription: 'Q&A233: Does this Patron really need a VPN? Have we ever
+    found any security vulnerabilities? Can you use YouTube premium privately? Plus
+    a grab-bag of questions from our classic patron, David Johnson. Join our next
+    Q&A on Patreon: https://www.patr...'
+  updatedAt: '2025-07-31T05:02:55.690Z'
+  url: https://apertatube.net/videos/watch/a34d2bad-71c4-44f8-9d61-b474dab92574
+  uuid: a34d2bad-71c4-44f8-9d61-b474dab92574
+  viewers: 2
+  views: 10
 - comments: 0
-  createdAt: '2025-07-06T20:30:37.464Z'
-  description: "Episode 232: Android 16 makes it harder to avoid sharing your data\
-    \ with AI even if you opted out, an innovative new VPN enters the scene, how the\
-    \ cartels used surveillance to find a mole, and more!\r\n\r\nWelcome to the Surveillance\
-    \ Report - featuring..."
-  duration: 2030
-  embedPath: /videos/embed/nRUj76gRjVwBV88jnESHy9
-  id: 85680
+  createdAt: '2025-07-30T10:50:46.965Z'
+  description: "Episode 234: Tea - an app meant to keep users safe - doxes thousands\
+    \ of users with carless design, a Microsoft cloud vulnerability is burning through\
+    \ hundreds of major organizations, Proton released their own AI chatbot, and more.\r\
+    \n\r\nWelcome to th..."
+  duration: 3192
+  embedPath: /videos/embed/siV1TrmUgXpn9sCCzrvr26
+  id: 92733
   isLive: false
   isLocal: true
-  likes: 4
-  name: Android 16 is Adding AI, Even if You Opted Out!
+  likes: 0
+  name: Dating Safety App Puts Thousands of Users at Risk
   nsfw: false
   nsfwFlags: 0
   nsfwSummary: null
-  originallyPublishedAt: '2025-07-07T23:51:25.866Z'
-  previewPath: /lazy-static/previews/16076a7c-c7bb-48e5-9fd8-9a069c6f492e.jpg
+  originallyPublishedAt: '2025-07-30T23:42:30.016Z'
+  previewPath: /lazy-static/previews/9dfbbd7d-2209-49c4-9105-a18486dd8a99.jpg
   privacy:
     id: 1
     label: Public
-  publishedAt: '2025-07-07T23:51:25.866Z'
-  shortUUID: nRUj76gRjVwBV88jnESHy9
-  thumbnailPath: /lazy-static/thumbnails/9627594c-9487-4221-90bf-14a5f8448ff5.jpg
-  truncatedDescription: "Episode 232: Android 16 makes it harder to avoid sharing\
-    \ your data with AI even if you opted out, an innovative new VPN enters the scene,\
-    \ how the cartels used surveillance to find a mole, and more!\r\n\r\nWelcome to\
-    \ the Surveillance Report - featuring..."
-  updatedAt: '2025-07-29T15:12:54.996Z'
-  url: https://apertatube.net/videos/watch/b1079858-8a3e-4a86-bf0d-e241a131835c
-  uuid: b1079858-8a3e-4a86-bf0d-e241a131835c
+  publishedAt: '2025-07-30T23:42:30.016Z'
+  shortUUID: siV1TrmUgXpn9sCCzrvr26
+  thumbnailPath: /lazy-static/thumbnails/4a2019e2-6540-45d6-bc0d-6422bf1e7568.jpg
+  truncatedDescription: "Episode 234: Tea - an app meant to keep users safe - doxes\
+    \ thousands of users with carless design, a Microsoft cloud vulnerability is burning\
+    \ through hundreds of major organizations, Proton released their own AI chatbot,\
+    \ and more.\r\n\r\nWelcome to th..."
+  updatedAt: '2025-07-31T03:02:56.011Z'
+  url: https://apertatube.net/videos/watch/d50debcc-1e26-49a3-be2c-a9c45c07d07b
+  uuid: d50debcc-1e26-49a3-be2c-a9c45c07d07b
   viewers: 0
-  views: 145
+  views: 6
