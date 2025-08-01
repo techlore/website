@@ -12,7 +12,7 @@
   id: 92631
   isLive: false
   isLocal: true
-  likes: 1
+  likes: 4
   name: 'Q&A: Do You Really Need a VPN?'
   nsfw: false
   nsfwFlags: 0
@@ -29,11 +29,11 @@
     found any security vulnerabilities? Can you use YouTube premium privately? Plus
     a grab-bag of questions from our classic patron, David Johnson. Join our next
     Q&A on Patreon: https://www.patr...'
-  updatedAt: '2025-07-31T05:02:55.690Z'
+  updatedAt: '2025-08-01T03:32:55.798Z'
   url: https://apertatube.net/videos/watch/a34d2bad-71c4-44f8-9d61-b474dab92574
   uuid: a34d2bad-71c4-44f8-9d61-b474dab92574
-  viewers: 2
-  views: 10
+  viewers: 0
+  views: 39
 - comments: 0
   createdAt: '2025-07-30T10:50:46.965Z'
   description: "Episode 234: Tea - an app meant to keep users safe - doxes thousands\
@@ -62,8 +62,8 @@
     \ thousands of users with carless design, a Microsoft cloud vulnerability is burning\
     \ through hundreds of major organizations, Proton released their own AI chatbot,\
     \ and more.\r\n\r\nWelcome to th..."
-  updatedAt: '2025-07-31T03:02:56.011Z'
+  updatedAt: '2025-08-01T03:02:56.256Z'
   url: https://apertatube.net/videos/watch/d50debcc-1e26-49a3-be2c-a9c45c07d07b
   uuid: d50debcc-1e26-49a3-be2c-a9c45c07d07b
   viewers: 0
-  views: 6
+  views: 44
