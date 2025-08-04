@@ -2,6 +2,37 @@
 # Any manual changes will be overwritten during the next build!
 
 - comments: 0
+  createdAt: '2025-08-02T03:58:30.522Z'
+  description: 'Q&A234: How can you avoid Amazon? Which music streaming service is
+    the most privacy respecting? How do we balance our privacy lifestyle with other
+    life goals? And more! Join our next Q&A on Patreon: https://www.patreon.com/collection/415684?view=e...'
+  duration: 2635
+  embedPath: /videos/embed/ffPppUCxFrwfjWZ7RTcPYa
+  id: 93005
+  isLive: false
+  isLocal: true
+  likes: 3
+  name: 'Q&A: How Do You Avoid Amazon?'
+  nsfw: false
+  nsfwFlags: 0
+  nsfwSummary: null
+  originallyPublishedAt: '2025-08-03T18:26:26.890Z'
+  previewPath: /lazy-static/previews/1f59c2fc-aec5-4df9-a4c1-6bcdd78ed783.jpg
+  privacy:
+    id: 1
+    label: Public
+  publishedAt: '2025-08-03T18:26:26.890Z'
+  shortUUID: ffPppUCxFrwfjWZ7RTcPYa
+  thumbnailPath: /lazy-static/thumbnails/2c848f83-a50f-45b8-955a-278a09e2f510.jpg
+  truncatedDescription: 'Q&A234: How can you avoid Amazon? Which music streaming service
+    is the most privacy respecting? How do we balance our privacy lifestyle with other
+    life goals? And more! Join our next Q&A on Patreon: https://www.patreon.com/collection/415684?view=e...'
+  updatedAt: '2025-08-04T04:04:40.378Z'
+  url: https://apertatube.net/videos/watch/7371914b-c537-4844-a44e-fe14cd8bb1dd
+  uuid: 7371914b-c537-4844-a44e-fe14cd8bb1dd
+  viewers: 0
+  views: 21
+- comments: 0
   createdAt: '2025-07-19T15:55:22.072Z'
   description: 'Q&A233: Does this Patron really need a VPN? Have we ever found any
     security vulnerabilities? Can you use YouTube premium privately? Plus a grab-bag
@@ -29,41 +60,8 @@
     found any security vulnerabilities? Can you use YouTube premium privately? Plus
     a grab-bag of questions from our classic patron, David Johnson. Join our next
     Q&A on Patreon: https://www.patr...'
-  updatedAt: '2025-08-03T02:34:40.327Z'
+  updatedAt: '2025-08-04T01:04:40.401Z'
   url: https://apertatube.net/videos/watch/a34d2bad-71c4-44f8-9d61-b474dab92574
   uuid: a34d2bad-71c4-44f8-9d61-b474dab92574
   viewers: 0
-  views: 51
-- comments: 0
-  createdAt: '2025-07-30T10:50:46.965Z'
-  description: "Episode 234: Tea - an app meant to keep users safe - doxes thousands\
-    \ of users with carless design, a Microsoft cloud vulnerability is burning through\
-    \ hundreds of major organizations, Proton released their own AI chatbot, and more.\r\
-    \n\r\nWelcome to th..."
-  duration: 3192
-  embedPath: /videos/embed/siV1TrmUgXpn9sCCzrvr26
-  id: 92733
-  isLive: false
-  isLocal: true
-  likes: 1
-  name: Dating Safety App Puts Thousands of Users at Risk
-  nsfw: false
-  nsfwFlags: 0
-  nsfwSummary: null
-  originallyPublishedAt: '2025-07-30T23:42:30.016Z'
-  previewPath: /lazy-static/previews/9dfbbd7d-2209-49c4-9105-a18486dd8a99.jpg
-  privacy:
-    id: 1
-    label: Public
-  publishedAt: '2025-07-30T23:42:30.016Z'
-  shortUUID: siV1TrmUgXpn9sCCzrvr26
-  thumbnailPath: /lazy-static/thumbnails/4a2019e2-6540-45d6-bc0d-6422bf1e7568.jpg
-  truncatedDescription: "Episode 234: Tea - an app meant to keep users safe - doxes\
-    \ thousands of users with carless design, a Microsoft cloud vulnerability is burning\
-    \ through hundreds of major organizations, Proton released their own AI chatbot,\
-    \ and more.\r\n\r\nWelcome to th..."
-  updatedAt: '2025-08-03T02:34:40.582Z'
-  url: https://apertatube.net/videos/watch/d50debcc-1e26-49a3-be2c-a9c45c07d07b
-  uuid: d50debcc-1e26-49a3-be2c-a9c45c07d07b
-  viewers: 0
-  views: 59
+  views: 56
