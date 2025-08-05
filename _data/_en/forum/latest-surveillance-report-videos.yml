@@ -2,6 +2,39 @@
 # Any manual changes will be overwritten during the next build!
 
 - comments: 0
+  createdAt: '2025-08-04T12:18:18.829Z'
+  description: "Episode 235: Yet another blow to the Android custom ROM landscape,\
+    \ an nsfw data breach, age verification continues to tear across the net, and\
+    \ more.\r\n\r\nWelcome to the Surveillance Report - featuring Techlore & The New\
+    \ Oil to keep you updated on th..."
+  duration: 2357
+  embedPath: /videos/embed/2DFVEUHYmpfQ33rLB4PZHE
+  id: 93051
+  isLive: false
+  isLocal: true
+  likes: 0
+  name: Thinking of Trying a Custom ROM? Think Again...
+  nsfw: false
+  nsfwFlags: 0
+  nsfwSummary: null
+  originallyPublishedAt: '2025-08-05T02:41:31.764Z'
+  previewPath: /lazy-static/previews/65e98ea4-8837-4317-b57d-22dc410f2315.jpg
+  privacy:
+    id: 1
+    label: Public
+  publishedAt: '2025-08-05T02:41:31.764Z'
+  shortUUID: 2DFVEUHYmpfQ33rLB4PZHE
+  thumbnailPath: /lazy-static/thumbnails/e71998e0-e301-48be-8c2c-9a964830e10d.jpg
+  truncatedDescription: "Episode 235: Yet another blow to the Android custom ROM landscape,\
+    \ an nsfw data breach, age verification continues to tear across the net, and\
+    \ more.\r\n\r\nWelcome to the Surveillance Report - featuring Techlore & The New\
+    \ Oil to keep you updated on th..."
+  updatedAt: '2025-08-05T05:05:44.811Z'
+  url: https://apertatube.net/videos/watch/0d5c4355-bbcf-4d0b-ae88-fd8f5b390f5c
+  uuid: 0d5c4355-bbcf-4d0b-ae88-fd8f5b390f5c
+  viewers: 2
+  views: 15
+- comments: 0
   createdAt: '2025-08-02T03:58:30.522Z'
   description: 'Q&A234: How can you avoid Amazon? Which music streaming service is
     the most privacy respecting? How do we balance our privacy lifestyle with other
@@ -11,7 +44,7 @@
   id: 93005
   isLive: false
   isLocal: true
-  likes: 3
+  likes: 4
   name: 'Q&A: How Do You Avoid Amazon?'
   nsfw: false
   nsfwFlags: 0
@@ -27,41 +60,8 @@
   truncatedDescription: 'Q&A234: How can you avoid Amazon? Which music streaming service
     is the most privacy respecting? How do we balance our privacy lifestyle with other
     life goals? And more! Join our next Q&A on Patreon: https://www.patreon.com/collection/415684?view=e...'
-  updatedAt: '2025-08-04T04:04:40.378Z'
+  updatedAt: '2025-08-05T03:35:44.795Z'
   url: https://apertatube.net/videos/watch/7371914b-c537-4844-a44e-fe14cd8bb1dd
   uuid: 7371914b-c537-4844-a44e-fe14cd8bb1dd
   viewers: 0
-  views: 21
-- comments: 0
-  createdAt: '2025-07-19T15:55:22.072Z'
-  description: 'Q&A233: Does this Patron really need a VPN? Have we ever found any
-    security vulnerabilities? Can you use YouTube premium privately? Plus a grab-bag
-    of questions from our classic patron, David Johnson. Join our next Q&A on Patreon:
-    https://www.patr...'
-  duration: 2581
-  embedPath: /videos/embed/mazAuEbCS55io8Agsaua6w
-  id: 92631
-  isLive: false
-  isLocal: true
-  likes: 5
-  name: 'Q&A: Do You Really Need a VPN?'
-  nsfw: false
-  nsfwFlags: 0
-  nsfwSummary: null
-  originallyPublishedAt: '2025-07-31T02:15:52.073Z'
-  previewPath: /lazy-static/previews/9bcca097-f1c1-4db8-8b62-64772541d8c6.jpg
-  privacy:
-    id: 1
-    label: Public
-  publishedAt: '2025-07-31T02:15:52.073Z'
-  shortUUID: mazAuEbCS55io8Agsaua6w
-  thumbnailPath: /lazy-static/thumbnails/0cee600b-5b58-409b-91fb-35fd9a2ff997.jpg
-  truncatedDescription: 'Q&A233: Does this Patron really need a VPN? Have we ever
-    found any security vulnerabilities? Can you use YouTube premium privately? Plus
-    a grab-bag of questions from our classic patron, David Johnson. Join our next
-    Q&A on Patreon: https://www.patr...'
-  updatedAt: '2025-08-04T01:04:40.401Z'
-  url: https://apertatube.net/videos/watch/a34d2bad-71c4-44f8-9d61-b474dab92574
-  uuid: a34d2bad-71c4-44f8-9d61-b474dab92574
-  viewers: 0
-  views: 56
+  views: 40
