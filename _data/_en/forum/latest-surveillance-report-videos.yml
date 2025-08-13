@@ -2,6 +2,37 @@
 # Any manual changes will be overwritten during the next build!
 
 - comments: 0
+  createdAt: '2025-08-07T23:14:50.645Z'
+  description: "Q&A235: What phone should you get next? What's the best way to use\
+    \ custom domains and alias emails? Join our next Q&A on Patreon: https://www.patreon.com/collection/415684?view=expanded\
+    \ or XMR Chat: https://xmrchat.com/surveillancepod\r\n\r\nWelcome t..."
+  duration: 1105
+  embedPath: /videos/embed/a4Lh8KtFBK56nZE1AGYk6H
+  id: 93214
+  isLive: false
+  isLocal: true
+  likes: 1
+  name: 'Q&A: Privacy Advice for Your Next Phone Upgrade'
+  nsfw: false
+  nsfwFlags: 0
+  nsfwSummary: null
+  originallyPublishedAt: '2025-08-12T23:48:37.779Z'
+  previewPath: /lazy-static/previews/bed5b0f8-9212-4b36-b778-468dbb767582.jpg
+  privacy:
+    id: 1
+    label: Public
+  publishedAt: '2025-08-12T23:48:37.779Z'
+  shortUUID: a4Lh8KtFBK56nZE1AGYk6H
+  thumbnailPath: /lazy-static/thumbnails/ad52b7eb-8855-4656-995d-d0d6ab5a03eb.jpg
+  truncatedDescription: "Q&A235: What phone should you get next? What's the best way\
+    \ to use custom domains and alias emails? Join our next Q&A on Patreon: https://www.patreon.com/collection/415684?view=expanded\
+    \ or XMR Chat: https://xmrchat.com/surveillancepod\r\n\r\nWelcome t..."
+  updatedAt: '2025-08-13T04:51:35.339Z'
+  url: https://apertatube.net/videos/watch/4968c442-7599-4564-ac4e-49db4dd4ab77
+  uuid: 4968c442-7599-4564-ac4e-49db4dd4ab77
+  viewers: 0
+  views: 11
+- comments: 0
   createdAt: '2025-08-04T12:18:18.829Z'
   description: "Episode 235: Yet another blow to the Android custom ROM landscape,\
     \ an nsfw data breach, age verification continues to tear across the net, and\
@@ -29,39 +60,8 @@
     \ an nsfw data breach, age verification continues to tear across the net, and\
     \ more.\r\n\r\nWelcome to the Surveillance Report - featuring Techlore & The New\
     \ Oil to keep you updated on th..."
-  updatedAt: '2025-08-12T03:51:35.203Z'
+  updatedAt: '2025-08-12T19:21:35.285Z'
   url: https://apertatube.net/videos/watch/0d5c4355-bbcf-4d0b-ae88-fd8f5b390f5c
   uuid: 0d5c4355-bbcf-4d0b-ae88-fd8f5b390f5c
   viewers: 0
-  views: 182
-- comments: 0
-  createdAt: '2025-08-02T03:58:30.522Z'
-  description: 'Q&A234: How can you avoid Amazon? Which music streaming service is
-    the most privacy respecting? How do we balance our privacy lifestyle with other
-    life goals? And more! Join our next Q&A on Patreon: https://www.patreon.com/collection/415684?view=e...'
-  duration: 2635
-  embedPath: /videos/embed/ffPppUCxFrwfjWZ7RTcPYa
-  id: 93005
-  isLive: false
-  isLocal: true
-  likes: 5
-  name: 'Q&A: How Do You Avoid Amazon?'
-  nsfw: false
-  nsfwFlags: 0
-  nsfwSummary: null
-  originallyPublishedAt: '2025-08-03T18:26:26.890Z'
-  previewPath: /lazy-static/previews/1f59c2fc-aec5-4df9-a4c1-6bcdd78ed783.jpg
-  privacy:
-    id: 1
-    label: Public
-  publishedAt: '2025-08-03T18:26:26.890Z'
-  shortUUID: ffPppUCxFrwfjWZ7RTcPYa
-  thumbnailPath: /lazy-static/thumbnails/2c848f83-a50f-45b8-955a-278a09e2f510.jpg
-  truncatedDescription: 'Q&A234: How can you avoid Amazon? Which music streaming service
-    is the most privacy respecting? How do we balance our privacy lifestyle with other
-    life goals? And more! Join our next Q&A on Patreon: https://www.patreon.com/collection/415684?view=e...'
-  updatedAt: '2025-08-11T20:21:35.904Z'
-  url: https://apertatube.net/videos/watch/7371914b-c537-4844-a44e-fe14cd8bb1dd
-  uuid: 7371914b-c537-4844-a44e-fe14cd8bb1dd
-  viewers: 0
-  views: 89
+  views: 187
