@@ -2,6 +2,39 @@
 # Any manual changes will be overwritten during the next build!
 
 - comments: 0
+  createdAt: '2025-08-13T00:53:13.364Z'
+  description: "Episode 236: Google and Apple are being forced to crack open their\
+    \ phones, the latest cascading data breach has arrived, uBlock Origin Lite arrives\
+    \ for iPhone, and more.\r\n\r\nWelcome to the Surveillance Report - featuring\
+    \ Techlore & The New Oil to k..."
+  duration: 2222
+  embedPath: /videos/embed/rtR61ZxybBkPTS5FVoqTVU
+  id: 93482
+  isLive: false
+  isLocal: true
+  likes: 3
+  name: Apple Has 4 Months, Google Has Just 14 Days...
+  nsfw: false
+  nsfwFlags: 0
+  nsfwSummary: null
+  originallyPublishedAt: '2025-08-13T21:20:30.967Z'
+  previewPath: /lazy-static/previews/90f3e5ec-416c-4ba4-a58c-4bd9464407c3.jpg
+  privacy:
+    id: 1
+    label: Public
+  publishedAt: '2025-08-13T21:20:30.967Z'
+  shortUUID: rtR61ZxybBkPTS5FVoqTVU
+  thumbnailPath: /lazy-static/thumbnails/4539fbb6-6034-44a2-8dd3-9247928fe49c.jpg
+  truncatedDescription: "Episode 236: Google and Apple are being forced to crack open\
+    \ their phones, the latest cascading data breach has arrived, uBlock Origin Lite\
+    \ arrives for iPhone, and more.\r\n\r\nWelcome to the Surveillance Report - featuring\
+    \ Techlore & The New Oil to k..."
+  updatedAt: '2025-08-14T03:40:45.997Z'
+  url: https://apertatube.net/videos/watch/ce57cc86-1b37-42ca-8070-cf0d7aea5962
+  uuid: ce57cc86-1b37-42ca-8070-cf0d7aea5962
+  viewers: 0
+  views: 22
+- comments: 1
   createdAt: '2025-08-07T23:14:50.645Z'
   description: "Q&A235: What phone should you get next? What's the best way to use\
     \ custom domains and alias emails? Join our next Q&A on Patreon: https://www.patreon.com/collection/415684?view=expanded\
@@ -11,7 +44,7 @@
   id: 93214
   isLive: false
   isLocal: true
-  likes: 1
+  likes: 5
   name: 'Q&A: Privacy Advice for Your Next Phone Upgrade'
   nsfw: false
   nsfwFlags: 0
@@ -27,41 +60,8 @@
   truncatedDescription: "Q&A235: What phone should you get next? What's the best way\
     \ to use custom domains and alias emails? Join our next Q&A on Patreon: https://www.patreon.com/collection/415684?view=expanded\
     \ or XMR Chat: https://xmrchat.com/surveillancepod\r\n\r\nWelcome t..."
-  updatedAt: '2025-08-13T04:51:35.339Z'
+  updatedAt: '2025-08-14T01:10:46.055Z'
   url: https://apertatube.net/videos/watch/4968c442-7599-4564-ac4e-49db4dd4ab77
   uuid: 4968c442-7599-4564-ac4e-49db4dd4ab77
   viewers: 0
-  views: 11
-- comments: 0
-  createdAt: '2025-08-04T12:18:18.829Z'
-  description: "Episode 235: Yet another blow to the Android custom ROM landscape,\
-    \ an nsfw data breach, age verification continues to tear across the net, and\
-    \ more.\r\n\r\nWelcome to the Surveillance Report - featuring Techlore & The New\
-    \ Oil to keep you updated on th..."
-  duration: 2357
-  embedPath: /videos/embed/2DFVEUHYmpfQ33rLB4PZHE
-  id: 93051
-  isLive: false
-  isLocal: true
-  likes: 5
-  name: Thinking of Trying a Custom ROM? Think Again...
-  nsfw: false
-  nsfwFlags: 0
-  nsfwSummary: null
-  originallyPublishedAt: '2025-08-05T02:41:31.764Z'
-  previewPath: /lazy-static/previews/65e98ea4-8837-4317-b57d-22dc410f2315.jpg
-  privacy:
-    id: 1
-    label: Public
-  publishedAt: '2025-08-05T02:41:31.764Z'
-  shortUUID: 2DFVEUHYmpfQ33rLB4PZHE
-  thumbnailPath: /lazy-static/thumbnails/e71998e0-e301-48be-8c2c-9a964830e10d.jpg
-  truncatedDescription: "Episode 235: Yet another blow to the Android custom ROM landscape,\
-    \ an nsfw data breach, age verification continues to tear across the net, and\
-    \ more.\r\n\r\nWelcome to the Surveillance Report - featuring Techlore & The New\
-    \ Oil to keep you updated on th..."
-  updatedAt: '2025-08-12T19:21:35.285Z'
-  url: https://apertatube.net/videos/watch/0d5c4355-bbcf-4d0b-ae88-fd8f5b390f5c
-  uuid: 0d5c4355-bbcf-4d0b-ae88-fd8f5b390f5c
-  viewers: 0
-  views: 187
+  views: 45
