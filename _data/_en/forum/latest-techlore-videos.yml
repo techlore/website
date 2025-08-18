@@ -11,7 +11,7 @@
   id: 68329
   isLive: false
   isLocal: true
-  likes: 14
+  likes: 15
   name: 'New Proton Auth App: Should You Use It?'
   nsfw: false
   originallyPublishedAt: '2025-08-09T21:22:47.000Z'
@@ -26,11 +26,11 @@
     Ente Auth, the two best open-source authenticator apps available. Here's my take
     on which one deserves a spot on your phone. Techlore empowers individuals with
     practical digital privacy kno...
-  updatedAt: '2025-08-17T01:35:27.703Z'
+  updatedAt: '2025-08-18T03:35:27.451Z'
   url: https://techlore.tv/videos/watch/c1d7497a-1195-4b3d-9e1a-2c1d919daa6c
   uuid: c1d7497a-1195-4b3d-9e1a-2c1d919daa6c
   viewers: 0
-  views: 291
+  views: 306
 - createdAt: '2025-08-08T12:59:02.016Z'
   description: One user shares they configured Signal's disappearing messages and
     replicated their old Snapchat workflow with far better security! Welcome to Techlore's
@@ -56,11 +56,11 @@
     and replicated their old Snapchat workflow with far better security! Welcome to
     Techlore's privacy wins of the week, where our community shares their tech wins.
     It can be privacy, secu...
-  updatedAt: '2025-08-16T21:35:27.662Z'
+  updatedAt: '2025-08-17T23:35:27.705Z'
   url: https://techlore.tv/videos/watch/e686db28-2b99-4ca9-af32-b93f80583c65
   uuid: e686db28-2b99-4ca9-af32-b93f80583c65
-  viewers: 1
-  views: 196
+  viewers: 0
+  views: 201
 - createdAt: '2025-08-05T00:02:16.948Z'
   description: 'Frank Karlitschek, CEO and founder of Nextcloud, joins me to discuss
     the evolution from OwnCloud to Nextcloud, the challenges of building sustainable
@@ -86,11 +86,11 @@
     to discuss the evolution from OwnCloud to Nextcloud, the challenges of building
     sustainable open-source businesses, and why digital sovereignty matters more than
     ever. Please note: Due to J...'
-  updatedAt: '2025-08-16T21:35:27.537Z'
+  updatedAt: '2025-08-18T02:05:27.447Z'
   url: https://techlore.tv/videos/watch/e9256556-a4b7-4839-84b3-4ba4f5f3dce2
   uuid: e9256556-a4b7-4839-84b3-4ba4f5f3dce2
   viewers: 0
-  views: 219
+  views: 228
 - createdAt: '2025-07-29T04:33:30.588Z'
   description: The UK just implemented mandatory identification requirements for internet
     access, and other countries are watching closely to copy this playbook. What started
@@ -116,11 +116,11 @@
     for internet access, and other countries are watching closely to copy this playbook.
     What started as "age verification" has become a system that eliminates anonymous
     browsing and create...
-  updatedAt: '2025-08-16T21:05:27.624Z'
+  updatedAt: '2025-08-17T15:35:27.830Z'
   url: https://techlore.tv/videos/watch/a5fb9619-44f4-40ad-9a3f-b0c7d1bfefa6
   uuid: a5fb9619-44f4-40ad-9a3f-b0c7d1bfefa6
   viewers: 0
-  views: 406
+  views: 408
 - createdAt: '2025-07-27T20:38:29.506Z'
   description: Canada is trying to force tech companies to build surveillance backdoors,
     and they're not alone. From the UK to Australia to Switzerland, governments worldwide
@@ -146,11 +146,11 @@
     backdoors, and they're not alone. From the UK to Australia to Switzerland, governments
     worldwide are launching coordinated attacks on encryption. Here's why this lazy
     approach to cyber...
-  updatedAt: '2025-08-16T17:35:27.566Z'
+  updatedAt: '2025-08-17T21:05:27.566Z'
   url: https://techlore.tv/videos/watch/4c24eeb8-6095-4436-b5f5-9a4162c367e0
   uuid: 4c24eeb8-6095-4436-b5f5-9a4162c367e0
   viewers: 0
-  views: 377
+  views: 380
 - createdAt: '2025-07-25T02:05:14.545Z'
   description: Proton just released Lumo, their new AI assistant with a cat mascot
     that promises end-to-end encryption and zero-access privacy. I've never used it
@@ -176,11 +176,11 @@
     mascot that promises end-to-end encryption and zero-access privacy. I've never
     used it before, so this is my first experience testing out its features including
     web search, comparisons t...
-  updatedAt: '2025-08-17T01:05:27.525Z'
+  updatedAt: '2025-08-17T21:05:27.433Z'
   url: https://techlore.tv/videos/watch/9958a304-4de1-4022-808a-10397637eda9
   uuid: 9958a304-4de1-4022-808a-10397637eda9
   viewers: 0
-  views: 383
+  views: 386
 - createdAt: '2025-07-16T02:43:31.181Z'
   description: Viktor Vescei from IVPN gives us a brutally honest VPN interview. He
     admits you can't truly verify no-logs claims, explains why most audits are "snapshots
@@ -207,11 +207,11 @@
     He admits you can't truly verify no-logs claims, explains why most audits are
     "snapshots in time," and reveals why IVPN shut down their affiliate program due
     to industry-wide misinf...
-  updatedAt: '2025-08-15T06:35:27.278Z'
+  updatedAt: '2025-08-17T16:05:27.589Z'
   url: https://techlore.tv/videos/watch/d6fb90f1-c80a-4ef8-a096-6a2f48ec6d63
   uuid: d6fb90f1-c80a-4ef8-a096-6a2f48ec6d63
   viewers: 0
-  views: 195
+  views: 196
 - createdAt: '2025-07-22T21:58:41.068Z'
   description: Jack Dorsey launched Bitchat, a Bluetooth mesh messenger he built over
     a weekend, but security researchers have already found vulnerabilities and there's
@@ -222,7 +222,7 @@
   id: 65978
   isLive: false
   isLocal: true
-  likes: 8
+  likes: 9
   name: Jack Dorsey Built Bitchat in a Weekend - Should You Use It?
   nsfw: false
   originallyPublishedAt: '2025-07-22T22:05:14.000Z'
@@ -237,11 +237,11 @@
     built over a weekend, but security researchers have already found vulnerabilities
     and there's no proper security audit process. I break down what Bitchat actually
     does, compare it to exis...
-  updatedAt: '2025-08-15T13:05:27.785Z'
+  updatedAt: '2025-08-17T20:35:27.559Z'
   url: https://techlore.tv/videos/watch/f9a7bad5-d971-439d-a12b-69879a637281
   uuid: f9a7bad5-d971-439d-a12b-69879a637281
   viewers: 0
-  views: 185
+  views: 187
 - createdAt: '2025-07-16T21:01:11.708Z'
   description: 'The story goes: nearly one million browsers have been secretly turned
     into website scraping bots through browser extensions, but the story is a bit
@@ -328,11 +328,11 @@
     From extensive metadata collection to incoming advertising, WhatsApp isn't the
     'private' messenger they might lead you to believe. In this video, I'll break
     down what Meta is really doing ...
-  updatedAt: '2025-08-16T19:35:27.620Z'
+  updatedAt: '2025-08-17T18:35:27.384Z'
   url: https://techlore.tv/videos/watch/31072aa4-aaf5-417a-9155-e1067d7e99c6
   uuid: 31072aa4-aaf5-417a-9155-e1067d7e99c6
   viewers: 0
-  views: 544
+  views: 545
 - createdAt: '2025-06-06T01:08:32.408Z'
   description: "Your $5 can go a long ways\u2014here's how it can dramatically change\
     \ the game for open source projects. Techlore empowers individuals with practical\
@@ -523,7 +523,7 @@
   id: 63434
   isLive: false
   isLocal: true
-  likes: 1
+  likes: 2
   name: 'Don''t Make This Mistake When Choosing Privacy Services #privacy #techlore
     #security'
   nsfw: false
@@ -539,11 +539,11 @@
     Techlore empowers individuals with practical digital privacy knowledge, security
     tools, and advocacy resources. Discover how to protect your online data and regain
     control of your d...
-  updatedAt: '2025-08-16T22:05:27.793Z'
+  updatedAt: '2025-08-17T23:35:27.580Z'
   url: https://techlore.tv/videos/watch/4a6033b1-4c48-4763-ae7d-5d5154255103
   uuid: 4a6033b1-4c48-4763-ae7d-5d5154255103
   viewers: 0
-  views: 204
+  views: 205
 - createdAt: '2025-05-25T21:14:28.712Z'
   description: The three notetaking services I use for privacy & security. Techlore
     empowers individuals with practical digital privacy knowledge, security tools,
@@ -599,11 +599,11 @@
     of the AlmaLinux OS Foundation, as we explore the fallout from Red Hat's controversial
     licensing changes and how AlmaLinux emerged as a community-driven solution. We
     discuss the techni...
-  updatedAt: '2025-07-28T20:02:32.531Z'
+  updatedAt: '2025-08-17T07:35:27.779Z'
   url: https://techlore.tv/videos/watch/337a382b-8ab1-40a3-b605-d46cef0f83bf
   uuid: 337a382b-8ab1-40a3-b605-d46cef0f83bf
   viewers: 0
-  views: 105
+  views: 106
 - createdAt: '2025-05-10T00:35:46.192Z'
   description: "Discover how websites can identify and track you\u2014even without\
     \ cookies\u2014using browser fingerprinting. This masterclass breaks down how\
@@ -629,11 +629,11 @@
     \ without cookies\u2014using browser fingerprinting. This masterclass breaks down\
     \ how your browser reveals a unique digital \"fingerprint\" that follows you across\
     \ the web, with real demonstrations comp..."
-  updatedAt: '2025-08-17T03:05:27.743Z'
+  updatedAt: '2025-08-17T23:35:27.437Z'
   url: https://techlore.tv/videos/watch/eb02df73-742b-4ce1-8497-1964a122eb3e
   uuid: eb02df73-742b-4ce1-8497-1964a122eb3e
   viewers: 0
-  views: 503
+  views: 505
 - createdAt: '2025-04-13T08:24:44.794Z'
   description: Can a laptop offer privacy & security without compromises? NovaCustom
     claims to, with QubesOS/Linux support, customizability, disabling Intel ME, and
@@ -659,11 +659,11 @@
     NovaCustom claims to, with QubesOS/Linux support, customizability, disabling Intel
     ME, and coreboot as its notable features. But I'll be breaking down what I like
     & dislike about the NovaC...
-  updatedAt: '2025-08-17T01:35:27.570Z'
+  updatedAt: '2025-08-18T04:35:27.429Z'
   url: https://techlore.tv/videos/watch/10062b03-e312-4c91-8054-e73e983aefdc
   uuid: 10062b03-e312-4c91-8054-e73e983aefdc
   viewers: 0
-  views: 117
+  views: 118
 - createdAt: '2025-04-13T08:24:38.252Z'
   description: Microsoft is blocking Windows 11 upgrades on perfectly good PCs. Discover
     the hidden methods to bypass these restrictions, free your PC, and install windows
@@ -839,11 +839,11 @@
     based on my personal experience and factors like stability, package manager, community
     support, privacy/security, & customization. We'll explore popular choices like
     Ubuntu, Fedora...
-  updatedAt: '2025-08-16T12:05:27.385Z'
+  updatedAt: '2025-08-17T15:35:27.692Z'
   url: https://techlore.tv/videos/watch/17451d79-4bde-4471-b872-530314669f34
   uuid: 17451d79-4bde-4471-b872-530314669f34
   viewers: 0
-  views: 48
+  views: 49
 - createdAt: '2025-04-13T08:23:54.614Z'
   description: How to make any cloud provider end-to-end-encrypted with Cryptomator,
     a free and open source E2EE tool. With Cryptomator you can make Dropbox, iCloud,
@@ -1113,11 +1113,11 @@
     and anonymous as you need it to be. This video covers security, privacy, anonymity,
     passwords, authentication, VPNs, biometrics, search engines, browsers, Tor, 2FA,
     virtual machines, Linu...
-  updatedAt: '2025-08-16T23:35:27.674Z'
+  updatedAt: '2025-08-17T07:35:27.428Z'
   url: https://techlore.tv/videos/watch/7fcc4b82-7817-48e9-9647-f0a201fa926e
   uuid: 7fcc4b82-7817-48e9-9647-f0a201fa926e
   viewers: 0
-  views: 139
+  views: 140
 - createdAt: '2025-04-13T08:22:36.590Z'
   description: Do you need an antivirus? Let's discuss this cybersecurity hot-topic
     and why you probably don't need one! In this video I unpack the pros and cons
@@ -1459,11 +1459,11 @@
     In this video I share the exact tools I use to keep myself safe from data brokers,
     hackers, and more. I share my go-to 2FA options, password manager, messenger,
     VPN, browsers, aliasing ser...
-  updatedAt: '2025-08-10T17:05:27.256Z'
+  updatedAt: '2025-08-17T06:35:27.411Z'
   url: https://techlore.tv/videos/watch/2e2502c3-f627-4f79-9315-b958ea47d6bf
   uuid: 2e2502c3-f627-4f79-9315-b958ea47d6bf
   viewers: 0
-  views: 18
+  views: 20
 - createdAt: '2025-04-13T08:21:14.562Z'
   description: "Going to do our best to answer privacy, security, digital rights,\
     \ and personal questions for all of you for September 2024, a few days late so\
@@ -1908,11 +1908,11 @@
     we can't make it safer! Welcome to the ultimate Signal hardening guide to make
     it as private, secure, & safe as possible. This video tutorial applies to iOS,
     Android, and touches on des...
-  updatedAt: '2025-08-16T22:35:27.554Z'
+  updatedAt: '2025-08-18T03:05:27.514Z'
   url: https://techlore.tv/videos/watch/17f8da14-6703-45bb-bf59-6cb29f6902fb
   uuid: 17f8da14-6703-45bb-bf59-6cb29f6902fb
   viewers: 0
-  views: 339
+  views: 345
 - createdAt: '2025-04-13T08:19:30.858Z'
   description: "Safari's privacy loses to Tor Browser, Brave Browser, and Firefox.\
     \ (And probably a lot more niche browsers) - Either make Safari better or switch\
@@ -2844,11 +2844,11 @@
     \ for privacy and security\u2014here's why, and how much the space has developed\
     \ thanks to better browser options, in addition to better Firefox hardening options!\
     \ (Arkenfox!)\n\nWhy I use Mullv..."
-  updatedAt: '2025-08-16T19:35:27.365Z'
+  updatedAt: '2025-08-17T07:05:27.419Z'
   url: https://techlore.tv/videos/watch/edfe7ef8-6847-4911-bf78-13a76410f5cb
   uuid: edfe7ef8-6847-4911-bf78-13a76410f5cb
   viewers: 0
-  views: 75
+  views: 76
 - createdAt: '2025-04-13T08:15:46.300Z'
   description: 'Brave Browser is sunsetting its strict fingerprint protection. Here''s
     their reasoning, the pros/cons, the alternatives for those needing strong fingerprint
