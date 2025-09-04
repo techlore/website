@@ -2,6 +2,37 @@
 # Any manual changes will be overwritten during the next build!
 
 - comments: 0
+  createdAt: '2025-09-01T23:19:35.321Z'
+  description: 'Q&A238: Our thoughts on Kagi and their Orion browser, navigating healthcare
+    apps, thoughts on legal compensation for data breaches, and more on this week''s
+    record-breaking Q&A. Join our next Q&A on Patreon: https://www.patreon.com/collection/41......'
+  duration: 2084
+  embedPath: /videos/embed/umEbsX3dmbvR5aV43cdw8t
+  id: 93885
+  isLive: false
+  isLocal: true
+  likes: 1
+  name: 'Q&A: Is Kagi Safe?'
+  nsfw: false
+  nsfwFlags: 0
+  nsfwSummary: null
+  originallyPublishedAt: '2025-08-30T23:16:28.000Z'
+  previewPath: /lazy-static/previews/b0f9eb80-04bf-41b3-a592-35633d7ea3b6.jpg
+  privacy:
+    id: 1
+    label: Public
+  publishedAt: '2025-09-04T03:20:44.851Z'
+  shortUUID: umEbsX3dmbvR5aV43cdw8t
+  thumbnailPath: /lazy-static/thumbnails/c9cc971d-e548-4e3a-b918-4d52c8aee281.jpg
+  truncatedDescription: 'Q&A238: Our thoughts on Kagi and their Orion browser, navigating
+    healthcare apps, thoughts on legal compensation for data breaches, and more on
+    this week''s record-breaking Q&A. Join our next Q&A on Patreon: https://www.patreon.com/collection/41......'
+  updatedAt: '2025-09-04T04:36:04.374Z'
+  url: https://apertatube.net/videos/watch/e5a24993-357b-436a-b8ca-e025ba6a7cf9
+  uuid: e5a24993-357b-436a-b8ca-e025ba6a7cf9
+  viewers: 2
+  views: 7
+- comments: 0
   createdAt: '2025-08-31T03:34:42.395Z'
   description: "Episode 239: Google is expanding their control over sideloading, Word\
     \ documents will now save to the cloud by default, Bluesky is blocked in Mississippi,\
@@ -12,7 +43,7 @@
   id: 93831
   isLive: false
   isLocal: true
-  likes: 2
+  likes: 7
   name: Android Is Becoming the New iOS
   nsfw: false
   nsfwFlags: 0
@@ -29,41 +60,8 @@
     \ Word documents will now save to the cloud by default, Bluesky is blocked in\
     \ Mississippi, and more.\r\n\r\nWelcome to the Surveillance Report - featuring\
     \ Techlore & The New Oil to keep yo..."
-  updatedAt: '2025-09-03T03:36:04.188Z'
+  updatedAt: '2025-09-04T04:06:04.293Z'
   url: https://apertatube.net/videos/watch/cf4deb2a-b0d9-4612-b140-f0ac4e2ddca5
   uuid: cf4deb2a-b0d9-4612-b140-f0ac4e2ddca5
   viewers: 0
-  views: 13
-- comments: 1
-  createdAt: '2025-08-23T22:59:45.696Z'
-  description: "Episode 238: A new vulnerability affects nearly every major password\
-    \ manager on the market, a definitive resolution to the Apple/UK Backdoor saga,\
-    \ Mozilla finally refocuses on Firefox, and more.\r\n\r\nWelcome to the Surveillance\
-    \ Report - featuring Te..."
-  duration: 1787
-  embedPath: /videos/embed/5TdWn42WfW4FREiLztGq6P
-  id: 93717
-  isLive: false
-  isLocal: true
-  likes: 3
-  name: Are Your Passwords Safe From This New Exploit?
-  nsfw: false
-  nsfwFlags: 0
-  nsfwSummary: null
-  originallyPublishedAt: '2025-08-25T00:00:38.508Z'
-  previewPath: /lazy-static/previews/1809f53e-9cd7-4775-8d1d-4ab5b4215c4d.jpg
-  privacy:
-    id: 1
-    label: Public
-  publishedAt: '2025-08-25T00:00:38.508Z'
-  shortUUID: 5TdWn42WfW4FREiLztGq6P
-  thumbnailPath: /lazy-static/thumbnails/7994da5f-dc0e-4893-a7f4-836bd41c6659.jpg
-  truncatedDescription: "Episode 238: A new vulnerability affects nearly every major\
-    \ password manager on the market, a definitive resolution to the Apple/UK Backdoor\
-    \ saga, Mozilla finally refocuses on Firefox, and more.\r\n\r\nWelcome to the\
-    \ Surveillance Report - featuring Te..."
-  updatedAt: '2025-09-03T01:36:04.216Z'
-  url: https://apertatube.net/videos/watch/278b75b5-7071-4fed-abd8-2cebcc5a36c1
-  uuid: 278b75b5-7071-4fed-abd8-2cebcc5a36c1
-  viewers: 0
-  views: 122
+  views: 63
