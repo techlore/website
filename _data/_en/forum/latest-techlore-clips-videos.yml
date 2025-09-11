@@ -2135,11 +2135,11 @@
     \ VoIP setup. Learn how we use just a few VoIP numbers for all of our communication\
     \ needs.\r\n\r\nWhat is VoIP? VoIP stands for Voice over Internet Protocol. It's\
     \ a technology that allows you to ..."
-  updatedAt: '2025-09-03T08:01:51.385Z'
+  updatedAt: '2025-09-11T00:11:47.018Z'
   url: https://techlore.tv/videos/watch/b321dce8-a977-4d89-8aca-b8b341bc9224
   uuid: b321dce8-a977-4d89-8aca-b8b341bc9224
   viewers: 0
-  views: 4
+  views: 5
 - createdAt: '2025-05-23T02:22:29.256Z'
   description: "Discover a critical flaw in Microsoft Authenticator that has potentially\
     \ been overwriting user accounts for years. Learn how this issue can impact your\
