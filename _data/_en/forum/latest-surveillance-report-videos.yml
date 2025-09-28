@@ -2,6 +2,38 @@
 # Any manual changes will be overwritten during the next build!
 
 - comments: 0
+  createdAt: '2025-09-23T16:30:22.427Z'
+  description: 'Q&A240: Are there any good reasons not to use a cloud-based password
+    manager? Which phone should you use for a day job? What routers do we recommend?
+    These questions and more on this week''s Q&A. Join our next Q&A on Patreon: https://www.patreon.co...'
+  duration: 2006
+  embedPath: /videos/embed/iSPBdZriVqsNn6DwwQg7jA
+  id: 104045
+  isLive: false
+  isLocal: true
+  likes: 3
+  name: 'Q&A: The Risks of Cloud-Based Password Managers'
+  nsfw: false
+  nsfwFlags: 0
+  nsfwSummary: null
+  originallyPublishedAt: '2025-09-27T11:59:36.655Z'
+  previewPath: /lazy-static/previews/3051ec76-2c50-45f5-97da-e52a6936be2c.jpg
+  privacy:
+    id: 1
+    label: Public
+  publishedAt: '2025-09-27T11:59:36.655Z'
+  shortUUID: iSPBdZriVqsNn6DwwQg7jA
+  thumbnailPath: /lazy-static/thumbnails/8339425d-eca1-4e28-a8e4-99ac76fa7ebf.jpg
+  truncatedDescription: 'Q&A240: Are there any good reasons not to use a cloud-based
+    password manager? Which phone should you use for a day job? What routers do we
+    recommend? These questions and more on this week''s Q&A. Join our next Q&A on
+    Patreon: https://www.patreon.co...'
+  updatedAt: '2025-09-28T04:20:52.449Z'
+  url: https://apertatube.net/videos/watch/90c3e280-15de-4b28-b91e-482f9dace626
+  uuid: 90c3e280-15de-4b28-b91e-482f9dace626
+  viewers: 0
+  views: 20
+- comments: 0
   createdAt: '2025-09-14T18:45:12.197Z'
   description: "Episode 240: ChatGPT is sending your messages to the police, X/Twitter\
     \ is rolling out some end to end encrypted messaging that we\u2019ll discuss,\
@@ -29,39 +61,8 @@
     \ X/Twitter is rolling out some end to end encrypted messaging that we\u2019ll\
     \ discuss, lotsss of politics this week, and more!\r\n\r\nWelcome to the Surveillance\
     \ Report - featuring Techlore & The ..."
-  updatedAt: '2025-09-26T22:37:52.399Z'
+  updatedAt: '2025-09-27T13:07:52.469Z'
   url: https://apertatube.net/videos/watch/82694216-5d8f-4237-9f9e-2e45cdbc6075
   uuid: 82694216-5d8f-4237-9f9e-2e45cdbc6075
   viewers: 0
-  views: 48
-- comments: 0
-  createdAt: '2025-09-01T23:19:35.321Z'
-  description: 'Q&A238: Our thoughts on Kagi and their Orion browser, navigating healthcare
-    apps, thoughts on legal compensation for data breaches, and more on this week''s
-    record-breaking Q&A. Join our next Q&A on Patreon: https://www.patreon.com/collection/41......'
-  duration: 2084
-  embedPath: /videos/embed/umEbsX3dmbvR5aV43cdw8t
-  id: 93885
-  isLive: false
-  isLocal: true
-  likes: 3
-  name: 'Q&A: Is Kagi Safe?'
-  nsfw: false
-  nsfwFlags: 0
-  nsfwSummary: null
-  originallyPublishedAt: '2025-08-30T23:16:28.000Z'
-  previewPath: /lazy-static/previews/b0f9eb80-04bf-41b3-a592-35633d7ea3b6.jpg
-  privacy:
-    id: 1
-    label: Public
-  publishedAt: '2025-09-04T03:20:44.851Z'
-  shortUUID: umEbsX3dmbvR5aV43cdw8t
-  thumbnailPath: /lazy-static/thumbnails/c9cc971d-e548-4e3a-b918-4d52c8aee281.jpg
-  truncatedDescription: 'Q&A238: Our thoughts on Kagi and their Orion browser, navigating
-    healthcare apps, thoughts on legal compensation for data breaches, and more on
-    this week''s record-breaking Q&A. Join our next Q&A on Patreon: https://www.patreon.com/collection/41......'
-  updatedAt: '2025-09-25T18:37:52.312Z'
-  url: https://apertatube.net/videos/watch/e5a24993-357b-436a-b8ca-e025ba6a7cf9
-  uuid: e5a24993-357b-436a-b8ca-e025ba6a7cf9
-  viewers: 0
-  views: 116
+  views: 51
