@@ -21,10 +21,18 @@ order: 3
 data:
   -
     name: "Ente Auth"
-    desc: "Ente's E2EE 2FA app. A cross platform TOTP app with secure online backups on all major operating systems."
+    desc: "Ente's E2EE 2FA app. A cross platform TOTP app with secure E2EE syncing on all major operating systems."
     tags: [ "Open Source", "Free", "iOS", "Android", "Desktop", "Web" ]
     labels:
       web: "https://ente.io/auth/"
+    color: "#ffffff"
+    favorite: true
+  -
+    name: "Proton Auth"
+    desc: "Proton's E2EE 2FA app. A cross platform TOTP app with secure E2EE syncing on all major operating systems."
+    tags: [ "Open Source", "Free", "iOS", "Android", "Desktop" ]
+    labels:
+      web: "https://proton.me/authenticator"
     color: "#ffffff"
     favorite: true
   -

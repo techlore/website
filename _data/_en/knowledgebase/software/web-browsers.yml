@@ -74,7 +74,7 @@ data:
     color: "#ffffff"
   -
     name: "Safari"
-    desc: "Apple's Safari offers users in the Apple ecosystem a moderately safe default browser with basic privacy & security precautions out-of-the-box. Consider using AdGuard for further protections. We strongly recommend Safari specifically to users using 'Lockdown Mode' on iOS, as it's the way only to exclude trusted websites."
+    desc: "Apple's Safari offers users in the Apple ecosystem a moderately safe default browser with basic privacy & security precautions out-of-the-box. Consider using uBlock Origin Lite or AdGuard for further protections. We strongly recommend Safari specifically to users using 'Lockdown Mode' on iOS, as it's the way only to exclude trusted websites."
     tags: [ "Proprietary", "Webkit" ]
     labels:
       web: "https://www.apple.com/safari/"
@@ -82,6 +82,14 @@ data:
   -
     name: "uBlock Origin"
     desc: "The king of browser extensions. Just installing it will make any browser far more private & secure, and you can customize it to your heart's content. Install UBO in any browser for yourself or a loved one to make an immediate impact on their safety (and sanity!) online."
+    tags: [ "Open Source", "Extension", "Free"]
+    labels:
+      web: "https://ublockorigin.com/"
+    color: "#ffffff"
+    favorite: true
+-
+    name: "uBlock Origin Lite"
+    desc: "The (lite) king of browser extensions based on Manifest V3 for Chrome & Safari. Just installing it will make any browser far more private & secure. The lite version is designed for browsers where full-fledged UBO (Manifest V2) is no longer supported."
     tags: [ "Open Source", "Extension", "Free"]
     labels:
       web: "https://ublockorigin.com/"

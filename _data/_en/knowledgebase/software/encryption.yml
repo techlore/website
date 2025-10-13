@@ -28,6 +28,14 @@ data:
     color: "#ffffff"
     favorite: true
   -
+    name: "Cryptomator"
+    desc: "Cryptomator allows users to encrypt their files before uploading them to another mainstream cloud provider (Google Drive, Dropbox, iCloud etc.) - it's a great way to still use the cloud provider of your choice with improved security."
+    tags: ["Open Source", "Free"]
+    labels:
+      web: "https://cryptomator.org/"
+    color: "#ffffff"
+    favorite: true
+  -
     name: "GNU Privacy Guard"
     desc: "GnuPG offers flexible encryption options across different mediums for users needing a more versatile option, at the cost of generally being more advanced."
     tags: [ "Open Source" ]

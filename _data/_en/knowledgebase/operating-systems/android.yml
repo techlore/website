@@ -27,14 +27,13 @@ data:
       web: "https://grapheneos.org/"
     color: "#ffffff"
     favorite: true
-  -
-    name: "CalyxOS"
-    desc: "CalyxOS maintains quality protection for most users, while offering many usability features via MicroG for app compatibility. Developed by a non-profit Calyx Institute with moderate device compatability."
-    tags: ["Open Source", "Some devices"]
-    labels:
-      web: "https://calyxos.org/"
-    color: "#9BCC01"
-    favorite: true
+#  -
+#    name: "CalyxOS"
+#    desc: "CalyxOS maintains quality protection for most users, while offering many usability features via MicroG for app compatibility. Developed by a non-profit Calyx Institute with moderate device compatability."
+#    tags: ["Open Source", "Some devices"]
+#    labels:
+#      web: "https://calyxos.org/"
+#    color: "#9BCC01"
   -
     name: "LineageOS"
     desc: "LineageOS is an option for those chasing a de-Googled device, with large device compatibility. Less security than GrapheneOS & CalyxOS, but also introduces OS security updates to EOL devices."

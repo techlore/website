@@ -29,12 +29,19 @@ data:
     favorite: true
   -
     name: "Lulu"
-    desc: "Firewall program for MacOS to give you finer control over what your device connects to. "
+    desc: "Firewall program for MacOS to give you finer control over what your device connects to. Open source version of Little Snitch."
     tags: [ "Open Source", "macOS" ]
     labels:
       web: "https://objective-see.org/products/lulu.html"
     color: "#ffffff"
     favorite: true
+  -
+    name: "Little Snitch"
+    desc: "A macOS firewall that alerts you whenever an application tries to connect to the internet, allowing you to choose whether to permit or deny the connection. More polished version of Lulu."
+    tags: [ "Proprietary", "macOS" ]
+    labels:
+      web: "https://www.obdev.at/products/littlesnitch/index.html"
+    color: "#ffffff"
   -
     name: "rethinkDNS"
     desc: "Block malware, spyware, ads, and trackers across all apps with Rethink DNS. Servers in 300+ locations: Experience Blazing fast speeds."
