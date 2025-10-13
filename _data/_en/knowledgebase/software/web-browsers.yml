@@ -87,7 +87,7 @@ data:
       web: "https://ublockorigin.com/"
     color: "#ffffff"
     favorite: true
--
+  -
     name: "uBlock Origin Lite"
     desc: "The (lite) king of browser extensions based on Manifest V3 for Chrome & Safari. Just installing it will make any browser far more private & secure. The lite version is designed for browsers where full-fledged UBO (Manifest V2) is no longer supported."
     tags: [ "Open Source", "Extension", "Free"]
