@@ -26,11 +26,11 @@
     to explore whether dumb phones really offer better privacy and how digital minimalism
     can transform your relationship with technology. Jose breaks down practical strategies
     for reducing ...
-  updatedAt: '2025-10-29T04:01:55.414Z'
+  updatedAt: '2025-10-30T04:31:55.465Z'
   url: https://techlore.tv/videos/watch/f8717a48-72c0-4505-bbbf-cee26080e44a
   uuid: f8717a48-72c0-4505-bbbf-cee26080e44a
-  viewers: 0
-  views: 198
+  viewers: 1
+  views: 217
 - createdAt: '2025-10-22T11:31:40.038Z'
   description: Just after covering Texas's age verification law requiring ID for ALL
     apps, Big Tech (Apple, Google, and others) has sued the state, calling it a "broad
@@ -41,7 +41,7 @@
   id: 77419
   isLive: false
   isLocal: true
-  likes: 2
+  likes: 3
   name: Big Tech Just Sued Texas Over Age Verification Law (We Called It)
   nsfw: false
   originallyPublishedAt: '2025-10-21T00:00:00.000Z'
@@ -56,11 +56,11 @@
     ID for ALL apps, Big Tech (Apple, Google, and others) has sued the state, calling
     it a "broad censorship regime" that violates the First Amendment. A separate lawsuit
     was also filed by stu...
-  updatedAt: '2025-10-28T18:01:55.423Z'
+  updatedAt: '2025-10-30T02:31:55.597Z'
   url: https://techlore.tv/videos/watch/cd1bc6c0-a8b9-484e-8460-aac834f624ba
   uuid: cd1bc6c0-a8b9-484e-8460-aac834f624ba
   viewers: 0
-  views: 140
+  views: 151
 - createdAt: '2025-10-18T19:25:55.952Z'
   description: Learn how to safely open potentially malicious PDFs, images, and documents
     using Dangerzone, a free open-source security tool created by Micah Lee. This
@@ -71,7 +71,7 @@
   id: 77415
   isLive: false
   isLocal: true
-  likes: 14
+  likes: 15
   name: 'This Tool Makes Any PDF Safe to Open: Dangerzone Tutorial'
   nsfw: false
   originallyPublishedAt: '2025-10-18T19:26:20.000Z'
@@ -86,11 +86,11 @@
     and documents using Dangerzone, a free open-source security tool created by Micah
     Lee. This tutorial shows you exactly how to install and use Dangerzone with Docker
     to sandbox suspicious...
-  updatedAt: '2025-10-29T03:31:55.466Z'
+  updatedAt: '2025-10-30T03:31:55.473Z'
   url: https://techlore.tv/videos/watch/4760cd7d-03be-4df5-93e5-ef904210793e
   uuid: 4760cd7d-03be-4df5-93e5-ef904210793e
   viewers: 0
-  views: 204
+  views: 207
 - createdAt: '2025-10-17T21:34:50.853Z'
   description: A user shares how they deleted WhatsApp after 15 years and moved most
     people to Signal! Welcome to Techlore's privacy wins of the week, where our community
@@ -116,11 +116,11 @@
     moved most people to Signal! Welcome to Techlore's privacy wins of the week, where
     our community shares their tech wins. It can be privacy, security, or anything
     else tech-related! Join ne...
-  updatedAt: '2025-10-28T19:31:55.592Z'
+  updatedAt: '2025-10-29T21:01:55.814Z'
   url: https://techlore.tv/videos/watch/d5a43925-51ac-4571-97f9-a929092a56b9
   uuid: d5a43925-51ac-4571-97f9-a929092a56b9
   viewers: 0
-  views: 171
+  views: 174
 - createdAt: '2025-10-15T05:01:05.214Z'
   description: 'Remember my Purism Librem 5 saga where I ordered a Linux phone in
     2019, never got it, requested a refund, and was told they weren''t processing
@@ -146,11 +146,11 @@
     phone in 2019, never got it, requested a refund, and was told they weren''t processing
     refunds? Well, I have a major update: after many years and a very confusing bank
     situation, I actually g...'
-  updatedAt: '2025-10-27T02:54:39.800Z'
+  updatedAt: '2025-10-29T21:01:55.733Z'
   url: https://techlore.tv/videos/watch/d309c441-aa4d-486e-973f-7374d293fead
   uuid: d309c441-aa4d-486e-973f-7374d293fead
   viewers: 0
-  views: 98
+  views: 99
 - createdAt: '2025-10-15T01:31:01.455Z'
   description: "Starting January 1, 2026, Texas will require age verification to download\
     \ ANY app, including weather and sports apps\u2014thanks to SB2420. Apple and\
@@ -161,7 +161,7 @@
   id: 77393
   isLive: false
   isLocal: true
-  likes: 14
+  likes: 15
   name: Texas Will Require Your ID to Download Weather Apps. Yes, Really.
   nsfw: false
   originallyPublishedAt: '2025-10-15T00:00:00.000Z'
@@ -176,11 +176,11 @@
     \ to download ANY app, including weather and sports apps\u2014thanks to SB2420.\
     \ Apple and Google are warning this destroys user privacy, similar laws are coming\
     \ to Utah and Louisiana, and ther..."
-  updatedAt: '2025-10-27T16:31:55.323Z'
+  updatedAt: '2025-10-29T23:31:55.618Z'
   url: https://techlore.tv/videos/watch/40c66634-77df-49e0-8ad4-3d63983970bc
   uuid: 40c66634-77df-49e0-8ad4-3d63983970bc
   viewers: 0
-  views: 245
+  views: 247
 - createdAt: '2025-10-13T01:08:10.098Z'
   description: Chill stream to celebrate beating chat control in the EU! Welcome to
     Techlore's privacy wins of the week, where our community shares their tech wins.
@@ -236,11 +236,11 @@
     \ From powerful local AI features to digital sovereignty tools, Nextcloud 25 brings\
     \ major performance upgrades, a cleaner interface, and game-changing capabilities\
     \ that rival Big Tech\u2014all whil..."
-  updatedAt: '2025-10-28T09:01:55.599Z'
+  updatedAt: '2025-10-29T10:01:55.833Z'
   url: https://techlore.tv/videos/watch/d68b0d37-88f6-4caf-ab97-e5b878192ea6
   uuid: d68b0d37-88f6-4caf-ab97-e5b878192ea6
   viewers: 0
-  views: 175
+  views: 176
 - createdAt: '2025-10-08T04:05:43.701Z'
   description: Germany just blocked Chat Control, stopping the EU from mandating encryption
     backdoors and client-side scanning of all messages. This victory proves citizen
@@ -296,11 +296,11 @@
     September 2026 will force ALL Android app developers to register with Google -
     even those avoiding the Play Store entirely. F-Droid, the trusted open-source
     app store used by millions, just...
-  updatedAt: '2025-10-28T09:01:55.426Z'
+  updatedAt: '2025-10-29T22:01:55.961Z'
   url: https://techlore.tv/videos/watch/293072ca-75b6-42aa-8e58-596736cfd908
   uuid: 293072ca-75b6-42aa-8e58-596736cfd908
   viewers: 0
-  views: 552
+  views: 553
 - createdAt: '2025-10-05T03:21:21.620Z'
   description: The UK's Online Safety Act age verification requirements have backfired
     spectacularly, with new data showing users are fleeing regulated platforms for
@@ -476,11 +476,11 @@
     browser-only VPN extensions because I was constantly turning off my VPN for banking
     apps, flight check-ins, and captcha-heavy sites. Here's why browser extensions
     can be a great middle-grou...
-  updatedAt: '2025-10-27T19:01:55.403Z'
+  updatedAt: '2025-10-29T22:01:55.858Z'
   url: https://techlore.tv/videos/watch/d69ec4ce-7da8-41bf-9923-b86b168ec84a
   uuid: d69ec4ce-7da8-41bf-9923-b86b168ec84a
   viewers: 0
-  views: 395
+  views: 396
 - createdAt: '2025-08-30T20:14:31.559Z'
   description: I sat down with Session's CTO Kee Jefferys to discuss their decentralized
     messenger that uses private routing by default, requires no phone number, and
@@ -506,11 +506,11 @@
     decentralized messenger that uses private routing by default, requires no phone
     number, and runs on a network of thousands community-operated nodes. We dive deep
     into the technical decisi...
-  updatedAt: '2025-10-28T06:01:55.399Z'
+  updatedAt: '2025-10-29T10:01:55.730Z'
   url: https://techlore.tv/videos/watch/279227c9-2466-47ee-adb9-0b1711419fa3
   uuid: 279227c9-2466-47ee-adb9-0b1711419fa3
   viewers: 0
-  views: 339
+  views: 340
 - createdAt: '2025-08-27T17:15:21.230Z'
   description: Google just announced that starting in 2026, ALL Android developers
     must verify their identity - even if they never publish to the Play Store. This
@@ -566,11 +566,11 @@
     years of data or compromise your privacy, here's how Proton Mail, Tuta, and Fastmail
     actually compare. From zero-knowledge encryption, speed differences, pricing,
     to discovering which prov...
-  updatedAt: '2025-10-28T17:01:55.663Z'
+  updatedAt: '2025-10-29T21:01:55.670Z'
   url: https://techlore.tv/videos/watch/9a7d20d2-4cc1-4911-8fd7-0794d8fe3bd9
   uuid: 9a7d20d2-4cc1-4911-8fd7-0794d8fe3bd9
   viewers: 0
-  views: 497
+  views: 499
 - createdAt: '2025-08-09T17:21:01.658Z'
   description: Proton Auth just dropped and I'm comparing it directly to Ente Auth,
     the two best open-source authenticator apps available. Here's my take on which
@@ -596,11 +596,11 @@
     Ente Auth, the two best open-source authenticator apps available. Here's my take
     on which one deserves a spot on your phone. Techlore empowers individuals with
     practical digital privacy kno...
-  updatedAt: '2025-10-28T23:31:55.518Z'
+  updatedAt: '2025-10-29T22:01:55.767Z'
   url: https://techlore.tv/videos/watch/c1d7497a-1195-4b3d-9e1a-2c1d919daa6c
   uuid: c1d7497a-1195-4b3d-9e1a-2c1d919daa6c
   viewers: 0
-  views: 573
+  views: 576
 - createdAt: '2025-08-08T12:59:02.016Z'
   description: One user shares they configured Signal's disappearing messages and
     replicated their old Snapchat workflow with far better security! Welcome to Techlore's
@@ -898,11 +898,11 @@
     From extensive metadata collection to incoming advertising, WhatsApp isn't the
     'private' messenger they might lead you to believe. In this video, I'll break
     down what Meta is really doing ...
-  updatedAt: '2025-10-27T07:24:39.691Z'
+  updatedAt: '2025-10-29T20:01:55.616Z'
   url: https://techlore.tv/videos/watch/31072aa4-aaf5-417a-9155-e1067d7e99c6
   uuid: 31072aa4-aaf5-417a-9155-e1067d7e99c6
   viewers: 0
-  views: 639
+  views: 641
 - createdAt: '2025-06-06T01:08:32.408Z'
   description: "Your $5 can go a long ways\u2014here's how it can dramatically change\
     \ the game for open source projects. Techlore empowers individuals with practical\
@@ -1289,11 +1289,11 @@
     quick and easy tutorial, we'll show you how to remove unnecessary features, disable
     extensions, and optimize Brave for lightning-fast performance. Whether you're
     a tech-savvy user or a be...
-  updatedAt: '2025-10-29T02:31:55.415Z'
+  updatedAt: '2025-10-29T21:31:55.703Z'
   url: https://techlore.tv/videos/watch/430b602a-56fa-4980-8238-9c9b2f68834e
   uuid: 430b602a-56fa-4980-8238-9c9b2f68834e
   viewers: 0
-  views: 293
+  views: 296
 - createdAt: '2025-04-13T08:24:23.795Z'
   description: Apple's moving to integrate end-to-end encryption (E2EE) into the RCS
     open standard messaging marks a major privacy win for both iOS and Android users.
@@ -2478,11 +2478,11 @@
     we can't make it safer! Welcome to the ultimate Signal hardening guide to make
     it as private, secure, & safe as possible. This video tutorial applies to iOS,
     Android, and touches on des...
-  updatedAt: '2025-10-29T04:31:55.618Z'
+  updatedAt: '2025-10-29T07:01:55.412Z'
   url: https://techlore.tv/videos/watch/17f8da14-6703-45bb-bf59-6cb29f6902fb
   uuid: 17f8da14-6703-45bb-bf59-6cb29f6902fb
   viewers: 0
-  views: 623
+  views: 626
 - createdAt: '2025-04-13T08:19:30.858Z'
   description: "Safari's privacy loses to Tor Browser, Brave Browser, and Firefox.\
     \ (And probably a lot more niche browsers) - Either make Safari better or switch\
@@ -2748,11 +2748,11 @@
     moving, I'm heavily considering migrating to it from KeePass, here's why! This
     is coming from my original review https://youtu.be/NrMKP_snfyE where I was a bit
     more critical, but they've ...
-  updatedAt: '2025-09-25T03:02:07.440Z'
+  updatedAt: '2025-10-29T09:31:55.574Z'
   url: https://techlore.tv/videos/watch/cb6e03ad-827d-4870-ae2a-55a2dc9eba9e
   uuid: cb6e03ad-827d-4870-ae2a-55a2dc9eba9e
   viewers: 0
-  views: 16
+  views: 17
 - createdAt: '2025-04-13T08:18:44.024Z'
   description: Synology just held their event in Taiwan for 2024 releasing E2EE security
     cameras without a required subscription, Active Protect for enterprise customers,
