@@ -12,7 +12,7 @@
   id: 105126
   isLive: false
   isLocal: true
-  likes: 4
+  likes: 7
   name: 'Q&A: Why Don''t People Care About Privacy?'
   nsfw: false
   nsfwFlags: 0
@@ -29,11 +29,11 @@
     \ is accepting Monero? How can you get involved in the fight for privacy? And\
     \ more! Join our next Q&A on Patreon: https://www.patreon.com/collection/415684?view=expanded**\r\
     \n\r\nWelcome to ..."
-  updatedAt: '2025-11-02T04:58:01.500Z'
+  updatedAt: '2025-11-03T02:47:36.281Z'
   url: https://apertatube.net/videos/watch/b405be24-fb4b-4932-8b59-5fe7c2a5100b
   uuid: b405be24-fb4b-4932-8b59-5fe7c2a5100b
-  viewers: 1
-  views: 122
+  viewers: 0
+  views: 160
 - comments: 0
   createdAt: '2025-10-21T00:23:14.702Z'
   description: 'Episode 243: The UK has ordered Apple to insert a backdoor into their
@@ -62,8 +62,8 @@
     into their encryption for a second time, Microsoft has removed yet more workarounds
     to avoid creating an account in Windows 11, Amazon adds facial recognition technology
     to their Ring door...'
-  updatedAt: '2025-11-01T18:58:01.498Z'
+  updatedAt: '2025-11-02T16:28:01.521Z'
   url: https://apertatube.net/videos/watch/86c840eb-a3d2-4702-aa2e-34c5780af0fe
   uuid: 86c840eb-a3d2-4702-aa2e-34c5780af0fe
   viewers: 0
-  views: 68
+  views: 71
