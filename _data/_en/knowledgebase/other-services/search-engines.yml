@@ -36,13 +36,6 @@ data:
     color: "#FB542B"
     favorite: true
   -
-    name: "Mullvad Leta"
-    desc: "Mullvad's Leta uses the Google Search API as a proxy to deliver Google results privately. It also proxies Brave Search results."
-    tags: ["Proprietary", "Metasearch", "Free"]
-    labels:
-      web: "https://leta.mullvad.net/"
-    color: "#192E45"
-  -
     name: "DuckDuckGo"
     desc: "DuckDuckGo is a metasearch engine with mainly Bing results and an emphasis on user privacy."
     tags: ["Proprietary", "Metasearch", "Free"]
