@@ -2,6 +2,39 @@
 # Any manual changes will be overwritten during the next build!
 
 - comments: 0
+  createdAt: '2025-12-10T20:12:04.597Z'
+  description: Google's new Developer Registration Program is catastrophic for F-Droid
+    and open source app distribution. In this interview, Marc Prud'hommeaux from the
+    F-Droid Board of Directors explains what's happening, why it matters (even if
+    you only use the...
+  duration: 3840
+  embedPath: /videos/embed/qHetqo141QKU4k3WC3DTp1
+  id: 78369
+  isLive: false
+  isLocal: true
+  likes: 2
+  name: The Fight for Android's Open Ecosystem (F-Droid Interview)
+  nsfw: false
+  nsfwFlags: 0
+  nsfwSummary: null
+  originallyPublishedAt: '2025-12-10T00:00:00.000Z'
+  previewPath: /lazy-static/previews/9592d224-60cc-46d0-9eb4-427e142bef32.jpg
+  privacy:
+    id: 1
+    label: Public
+  publishedAt: '2025-12-10T20:37:31.753Z'
+  shortUUID: qHetqo141QKU4k3WC3DTp1
+  thumbnailPath: /lazy-static/thumbnails/bdb9531d-0b19-409c-8e68-21c5a2b52a11.jpg
+  truncatedDescription: Google's new Developer Registration Program is catastrophic
+    for F-Droid and open source app distribution. In this interview, Marc Prud'hommeaux
+    from the F-Droid Board of Directors explains what's happening, why it matters
+    (even if you only use the...
+  updatedAt: '2025-12-11T04:38:58.476Z'
+  url: https://techlore.tv/videos/watch/c81d2013-6261-4adb-ab33-9d4dd0bf3f4a
+  uuid: c81d2013-6261-4adb-ab33-9d4dd0bf3f4a
+  viewers: 4
+  views: 34
+- comments: 0
   createdAt: '2025-12-09T00:11:20.935Z'
   description: The iStorage datAshur PRO+C is a hardware-encrypted USB-C flash drive
     that requires a PIN to unlock - no software needed. In this review, we test this
@@ -29,11 +62,11 @@
     flash drive that requires a PIN to unlock - no software needed. In this review,
     we test this security device to see if it's worth it for protecting sensitive
     data across all operating syste...
-  updatedAt: '2025-12-10T04:08:58.572Z'
+  updatedAt: '2025-12-11T03:38:58.457Z'
   url: https://techlore.tv/videos/watch/32197b99-5411-45ad-8f0c-c839156a7f3c
   uuid: 32197b99-5411-45ad-8f0c-c839156a7f3c
   viewers: 0
-  views: 75
+  views: 82
 - comments: 1
   createdAt: '2025-12-06T02:11:07.722Z'
   description: "Age verification laws in 25 USA states now require government ID to\
@@ -45,7 +78,7 @@
   id: 78354
   isLive: false
   isLocal: true
-  likes: 10
+  likes: 9
   name: 25 States Now Require Your Government ID Online
   nsfw: false
   nsfwFlags: 0
@@ -62,11 +95,11 @@
     \ ID to access parts of the internet\u2014but they're already backfiring. Learn\
     \ how these regulations harm real people, while failing to protect children. Plus:\
     \ what you can do about it.\r\n\r\n\U0001F4F1..."
-  updatedAt: '2025-12-09T23:08:58.394Z'
+  updatedAt: '2025-12-10T21:08:58.688Z'
   url: https://techlore.tv/videos/watch/8707fa9a-2039-4a77-984d-4e3635bc58d0
   uuid: 8707fa9a-2039-4a77-984d-4e3635bc58d0
   viewers: 0
-  views: 152
+  views: 159
 - comments: 1
   createdAt: '2025-12-04T10:11:20.432Z'
   description: "This week's Surveillance Report covers India\u2019s attempt to mandate\
@@ -95,11 +128,11 @@
     \ to mandate a potentially invasive app on everyone\u2019s phone, Chat Control\
     \ updates in the EU with concerns still evolving, half of US states now being\
     \ age verified, more AI Slop, butt to cloud en..."
-  updatedAt: '2025-12-10T04:08:58.429Z'
+  updatedAt: '2025-12-10T16:08:58.546Z'
   url: https://techlore.tv/videos/watch/a5fc1023-af82-4fe6-af40-24b854f6d5ff
   uuid: a5fc1023-af82-4fe6-af40-24b854f6d5ff
   viewers: 0
-  views: 133
+  views: 135
 - comments: 1
   createdAt: '2025-11-27T03:12:14.784Z'
   description: This week's Surveillance Report covers Microsoft's AI Disaster getting
@@ -128,11 +161,11 @@
     getting worse on multiple levels as well as Google's AI, Malware is stealing E2EE
     messages from people all around the world, and updates to Chat Control & other
     EU regulations, and mor...
-  updatedAt: '2025-12-09T23:38:58.290Z'
+  updatedAt: '2025-12-10T23:38:59.070Z'
   url: https://techlore.tv/videos/watch/14f5018a-81bf-4806-8ab0-669745d10884
   uuid: 14f5018a-81bf-4806-8ab0-669745d10884
   viewers: 0
-  views: 303
+  views: 306
 - comments: 0
   createdAt: '2025-11-25T06:12:56.507Z'
   description: Your encrypted messages are secure, but your device might not be based
@@ -161,11 +194,11 @@
     not be based on some new research. This is how the Sturnus Android malware actually
     steals WhatsApp and Signal messages without breaking encryption, plus the practical
     steps you can take to...
-  updatedAt: '2025-12-09T17:38:58.385Z'
+  updatedAt: '2025-12-11T01:08:58.588Z'
   url: https://techlore.tv/videos/watch/5bddcc28-0a2a-4aa3-b174-e9574720c22f
   uuid: 5bddcc28-0a2a-4aa3-b174-e9574720c22f
   viewers: 0
-  views: 264
+  views: 267
 - comments: 0
   createdAt: '2025-11-24T23:11:14.198Z'
   description: "Black Friday doesn't have to compromise your values. I personally\
@@ -194,11 +227,11 @@
     \ vetted every digital rights service on our resources list to bring you ONLY\
     \ deals worth getting in 2025. Remember: only buy what you need\u2014not because\
     \ it's on sale.\r\n\r\nTechlore empow..."
-  updatedAt: '2025-12-09T19:09:01.934Z'
+  updatedAt: '2025-12-11T00:08:58.461Z'
   url: https://techlore.tv/videos/watch/d2a0f865-e372-4126-a561-227b1ced4525
   uuid: d2a0f865-e372-4126-a561-227b1ced4525
   viewers: 0
-  views: 230
+  views: 232
 - comments: 0
   createdAt: '2025-11-20T07:20:58.853Z'
   description: 'Episode 245: This week''s Surveillance Report covers WhatsApp''s massive
@@ -227,11 +260,11 @@
     massive phone number enumeration flaw that exposed 3.5 billion users'' data through
     poor rate limiting - potentially the largest data exposure in history. I also
     examine Google''s new An...'
-  updatedAt: '2025-12-08T18:38:58.134Z'
+  updatedAt: '2025-12-10T18:08:58.478Z'
   url: https://techlore.tv/videos/watch/3dec3561-7de2-4f88-bab0-84dd044bac24
   uuid: 3dec3561-7de2-4f88-bab0-84dd044bac24
   viewers: 0
-  views: 307
+  views: 308
 - comments: 1
   createdAt: '2025-11-19T02:58:02.664Z'
   description: US states including Wisconsin (AB 105/SB 130) and Michigan are pushing
@@ -260,11 +293,11 @@
     are pushing to ban VPNs as part of age verification laws that compromise digital
     privacy for everyone. This video explains why these bills are technically impossible
     to implement, threaten...
-  updatedAt: '2025-12-09T21:38:58.268Z'
+  updatedAt: '2025-12-11T04:08:58.597Z'
   url: https://techlore.tv/videos/watch/eac46d55-8267-49c6-abf7-6436f25ba868
   uuid: eac46d55-8267-49c6-abf7-6436f25ba868
   viewers: 0
-  views: 197
+  views: 200
 - comments: 3
   createdAt: '2025-11-19T22:54:20.862Z'
   description: Many are calling this a win, but Google's new developer verification
@@ -326,11 +359,11 @@
     \ laptop, you're compromised. Michael Altfield created Buskill - an open source\
     \ USB \"dead man switch\" - to solve this analog attack vector. In this interview,\
     \ you\u2019ll hear about the real ..."
-  updatedAt: '2025-12-09T20:38:58.507Z'
+  updatedAt: '2025-12-11T04:08:58.451Z'
   url: https://techlore.tv/videos/watch/937b797b-17c6-479f-bf43-79bdb4f390ce
   uuid: 937b797b-17c6-479f-bf43-79bdb4f390ce
   viewers: 0
-  views: 119
+  views: 124
 - comments: 0
   createdAt: '2025-11-16T01:27:55.329Z'
   description: 'In four days, the EU Commission releases the Digital Omnibus, a proposal
@@ -392,11 +425,11 @@
     Ring with self-hosted security they actually control! Welcome to Techlore's privacy
     wins of the week, where our community shares their tech wins. It can be privacy,
     security, or anyth...
-  updatedAt: '2025-12-09T20:38:58.630Z'
+  updatedAt: '2025-12-10T17:08:58.657Z'
   url: https://techlore.tv/videos/watch/5de6da81-e1d4-4c2e-940f-e0d3474eaead
   uuid: 5de6da81-e1d4-4c2e-940f-e0d3474eaead
   viewers: 0
-  views: 90
+  views: 93
 - comments: 0
   createdAt: '2025-11-16T18:47:00.521Z'
   description: Ricardo Signes, Chief Engineer at Fastmail, explains why Gmail's email
@@ -425,11 +458,11 @@
     email experience has become increasingly fragmented, and what it would take to
     actually fix the decades-old IMAP protocol that powers most of the internet. We
     dive deep into JMAP (th...
-  updatedAt: '2025-12-08T22:38:58.362Z'
+  updatedAt: '2025-12-10T19:38:58.600Z'
   url: https://techlore.tv/videos/watch/f0d7d153-74db-495a-a9c6-eb460b1e9eda
   uuid: f0d7d153-74db-495a-a9c6-eb460b1e9eda
   viewers: 0
-  views: 336
+  views: 337
 - comments: 0
   createdAt: '2025-11-12T02:45:34.502Z'
   description: When you sign into Chrome, Google collects your entire browsing history
@@ -458,11 +491,11 @@
     history to build behavioral profiles for targeted ads. In this interview, Firefox
     CTO Bobby Holley breaks down why Mozilla maintains Gecko as an independent engine,
     how Firefox approa...
-  updatedAt: '2025-12-09T10:38:58.187Z'
+  updatedAt: '2025-12-10T23:38:58.849Z'
   url: https://techlore.tv/videos/watch/f00d03dd-5de5-4a35-82ea-4392fb5758f1
   uuid: f00d03dd-5de5-4a35-82ea-4392fb5758f1
   viewers: 0
-  views: 356
+  views: 362
 - comments: 1
   createdAt: '2025-11-11T04:37:03.299Z'
   description: "Android's openness is under threat as Google requires developer verification\
@@ -491,11 +524,11 @@
     \ verification for sideloading, putting F-Droid and digital sovereignty at risk.\
     \ This video shows exactly how to take action through the KeepAndroidOpen.org\
     \ initiative\u2014whether you're a ..."
-  updatedAt: '2025-12-09T01:08:58.862Z'
+  updatedAt: '2025-12-10T23:08:58.803Z'
   url: https://techlore.tv/videos/watch/274bf23f-67bf-4332-9e1a-c0e3b75989e3
   uuid: 274bf23f-67bf-4332-9e1a-c0e3b75989e3
   viewers: 0
-  views: 266
+  views: 267
 - comments: 0
   createdAt: '2025-11-21T06:51:51.469Z'
   description: A user shares how they took full control of their email! Welcome to
@@ -524,11 +557,11 @@
     to Techlore's privacy wins of the week, where our community shares their tech
     wins. It can be privacy, security, or anything else tech-related! Join next week's
     stream in the pinned ...
-  updatedAt: '2025-12-03T20:38:56.694Z'
+  updatedAt: '2025-12-10T17:38:58.398Z'
   url: https://techlore.tv/videos/watch/e7a0394f-ca1b-463d-ae18-fe68d75533ae
   uuid: e7a0394f-ca1b-463d-ae18-fe68d75533ae
   viewers: 0
-  views: 59
+  views: 62
 - comments: 0
   createdAt: '2025-10-23T12:47:34.921Z'
   description: In this Techlore Talks episode, I sit down with Jose Briones to explore
@@ -557,11 +590,11 @@
     to explore whether dumb phones really offer better privacy and how digital minimalism
     can transform your relationship with technology. Jose breaks down practical strategies
     for reducing ...
-  updatedAt: '2025-12-08T01:09:00.922Z'
+  updatedAt: '2025-12-10T19:08:58.439Z'
   url: https://techlore.tv/videos/watch/f8717a48-72c0-4505-bbbf-cee26080e44a
   uuid: f8717a48-72c0-4505-bbbf-cee26080e44a
   viewers: 0
-  views: 380
+  views: 382
 - comments: 0
   createdAt: '2025-10-22T11:31:40.038Z'
   description: Just after covering Texas's age verification law requiring ID for ALL
@@ -623,11 +656,11 @@
     and documents using Dangerzone, a free open-source security tool created by Micah
     Lee. This tutorial shows you exactly how to install and use Dangerzone with Docker
     to sandbox suspicious...
-  updatedAt: '2025-12-08T15:08:58.739Z'
+  updatedAt: '2025-12-10T07:08:58.498Z'
   url: https://techlore.tv/videos/watch/4760cd7d-03be-4df5-93e5-ef904210793e
   uuid: 4760cd7d-03be-4df5-93e5-ef904210793e
   viewers: 0
-  views: 269
+  views: 270
 - comments: 0
   createdAt: '2025-10-17T21:34:50.853Z'
   description: A user shares how they deleted WhatsApp after 15 years and moved most
@@ -887,11 +920,11 @@
     backfired spectacularly, with new data showing users are fleeing regulated platforms
     for unregulated, less safe alternatives. I break down the latest evidence of privacy
     violations by a...
-  updatedAt: '2025-12-08T16:55:25.627Z'
+  updatedAt: '2025-12-10T20:08:58.430Z'
   url: https://techlore.tv/videos/watch/20dfccd8-f298-4e91-8e17-a9a6779be96a
   uuid: 20dfccd8-f298-4e91-8e17-a9a6779be96a
   viewers: 0
-  views: 315
+  views: 316
 - comments: 0
   createdAt: '2025-10-04T14:51:38.474Z'
   description: One user is implementing a backup strategy for their 2FA codes, and
@@ -1151,11 +1184,11 @@
     years of data or compromise your privacy, here's how Proton Mail, Tuta, and Fastmail
     actually compare. From zero-knowledge encryption, speed differences, pricing,
     to discovering which prov...
-  updatedAt: '2025-12-09T14:38:58.315Z'
+  updatedAt: '2025-12-11T00:38:58.448Z'
   url: https://techlore.tv/videos/watch/9a7d20d2-4cc1-4911-8fd7-0794d8fe3bd9
   uuid: 9a7d20d2-4cc1-4911-8fd7-0794d8fe3bd9
   viewers: 0
-  views: 542
+  views: 543
 - comments: 0
   createdAt: '2025-08-22T08:01:16.271Z'
   description: One user went from basic privacy awareness to full Proton ecosystem
@@ -1184,11 +1217,11 @@
     ecosystem adoption in one week, ditching iCloud, enabling 2FA everywhere, and
     switching all passwords to unique generated ones after being inspired by the Mullvad
     police case! Welcome to Te...
-  updatedAt: '2025-12-10T02:08:58.296Z'
+  updatedAt: '2025-12-10T07:08:58.340Z'
   url: https://techlore.tv/videos/watch/28110f7b-5112-4012-adf9-ca4f2104d05d
   uuid: 28110f7b-5112-4012-adf9-ca4f2104d05d
   viewers: 0
-  views: 79
+  views: 80
 - comments: 0
   createdAt: '2025-08-09T17:21:01.658Z'
   description: Proton Auth just dropped and I'm comparing it directly to Ente Auth,
@@ -1648,11 +1681,11 @@
     into their lives. Techlore empowers individuals with practical digital privacy
     knowledge, security tools, and advocacy resources. Discover how to protect your
     online data and regain contro...
-  updatedAt: '2025-12-09T22:08:58.315Z'
+  updatedAt: '2025-12-10T15:38:58.414Z'
   url: https://techlore.tv/videos/watch/31b92433-575c-430f-a943-18dbb4a6f029
   uuid: 31b92433-575c-430f-a943-18dbb4a6f029
   viewers: 0
-  views: 325
+  views: 327
 - comments: 0
   createdAt: '2025-06-04T21:48:20.449Z'
   description: Arc browser just died, joining a graveyard of services that promised
@@ -1714,11 +1747,11 @@
     care about, and why this has large impacts for the community. Welcome to Techlore's
     privacy wins of the week, where our community shares their tech wins. It can be
     privacy, security, or a...
-  updatedAt: '2025-11-21T06:54:31.351Z'
+  updatedAt: '2025-12-10T12:38:58.548Z'
   url: https://techlore.tv/videos/watch/c3c2d22e-5646-4f93-b014-f78e6656a46e
   uuid: c3c2d22e-5646-4f93-b014-f78e6656a46e
   viewers: 0
-  views: 249
+  views: 252
 - comments: 0
   createdAt: '2025-05-27T15:10:58.267Z'
   description: Let's debunk 10 browser myths that are leaving you vulnerable online
@@ -1781,11 +1814,11 @@
     Techlore empowers individuals with practical digital privacy knowledge, security
     tools, and advocacy resources. Discover how to protect your online data and regain
     control of your d...
-  updatedAt: '2025-12-05T22:38:57.018Z'
+  updatedAt: '2025-12-10T08:38:58.344Z'
   url: https://techlore.tv/videos/watch/4a6033b1-4c48-4763-ae7d-5d5154255103
   uuid: 4a6033b1-4c48-4763-ae7d-5d5154255103
   viewers: 0
-  views: 244
+  views: 245
 - comments: 0
   createdAt: '2025-05-25T21:14:28.712Z'
   description: The three notetaking services I use for privacy & security. Techlore
@@ -1979,11 +2012,11 @@
     quick and easy tutorial, we'll show you how to remove unnecessary features, disable
     extensions, and optimize Brave for lightning-fast performance. Whether you're
     a tech-savvy user or a be...
-  updatedAt: '2025-12-09T15:38:58.229Z'
+  updatedAt: '2025-12-10T06:08:58.686Z'
   url: https://techlore.tv/videos/watch/430b602a-56fa-4980-8238-9c9b2f68834e
   uuid: 430b602a-56fa-4980-8238-9c9b2f68834e
   viewers: 0
-  views: 382
+  views: 383
 - comments: 0
   createdAt: '2025-04-13T08:24:23.795Z'
   description: Apple's moving to integrate end-to-end encryption (E2EE) into the RCS
@@ -2280,11 +2313,11 @@
     and anonymous as possible. This video covers various aspects such as hardening
     macOS, security, privacy, anonymity, passwords, authentication, VPNs, biometrics,
     search engines, browsers, ...
-  updatedAt: '2025-12-09T10:08:58.184Z'
+  updatedAt: '2025-12-10T23:08:58.446Z'
   url: https://techlore.tv/videos/watch/6b11e52a-1995-4b8b-acd9-698029c48675
   uuid: 6b11e52a-1995-4b8b-acd9-698029c48675
   viewers: 0
-  views: 199
+  views: 200
 - comments: 0
   createdAt: '2025-04-13T08:23:19.480Z'
   description: Tired of forgetting passwords and worrying about data breaches? Let's
@@ -2412,11 +2445,11 @@
     and anonymous as you need it to be. This video covers security, privacy, anonymity,
     passwords, authentication, VPNs, biometrics, search engines, browsers, Tor, 2FA,
     virtual machines, Linu...
-  updatedAt: '2025-12-09T21:08:58.279Z'
+  updatedAt: '2025-12-10T22:08:59.700Z'
   url: https://techlore.tv/videos/watch/7fcc4b82-7817-48e9-9647-f0a201fa926e
   uuid: 7fcc4b82-7817-48e9-9647-f0a201fa926e
   viewers: 0
-  views: 303
+  views: 305
 - comments: 0
   createdAt: '2025-04-13T08:22:36.590Z'
   description: Do you need an antivirus? Let's discuss this cybersecurity hot-topic
@@ -2857,11 +2890,11 @@
     right video. This is the ultimate guide to navigating data breaches. I'll teach
     how you how to figure out what data was breached, what to do with each breached
     data point, and how to preve...
-  updatedAt: '2025-12-01T09:08:55.897Z'
+  updatedAt: '2025-12-11T01:08:58.437Z'
   url: https://techlore.tv/videos/watch/03f5dd90-058c-4549-b0b8-c1460ad6ab0f
   uuid: 03f5dd90-058c-4549-b0b8-c1460ad6ab0f
   viewers: 0
-  views: 65
+  views: 66
 - comments: 0
   createdAt: '2025-04-13T08:21:00.185Z'
   description: 'All new privacy & security features in iOS 18 and MacOS Sequoia! Let''s
@@ -3285,41 +3318,8 @@
     we can't make it safer! Welcome to the ultimate Signal hardening guide to make
     it as private, secure, & safe as possible. This video tutorial applies to iOS,
     Android, and touches on des...
-  updatedAt: '2025-12-09T19:08:58.420Z'
+  updatedAt: '2025-12-11T01:38:58.623Z'
   url: https://techlore.tv/videos/watch/17f8da14-6703-45bb-bf59-6cb29f6902fb
   uuid: 17f8da14-6703-45bb-bf59-6cb29f6902fb
   viewers: 0
-  views: 729
-- comments: 0
-  createdAt: '2025-04-13T08:19:30.858Z'
-  description: "Safari's privacy loses to Tor Browser, Brave Browser, and Firefox.\
-    \ (And probably a lot more niche browsers) - Either make Safari better or switch\
-    \ to better options. #shorts #safari \n\n\U0001F510 Techlore Homepage: https://techlore.tech\n\
-    \U0001F575 Go Incognito Cour..."
-  duration: 45
-  embedPath: /videos/embed/74vVa64zvEVDkevohUXJb9
-  id: 433
-  isLive: false
-  isLocal: true
-  likes: 0
-  name: 'Safari''s Privacy Doesn''t Even Podium! #apple #safari #privacy'
-  nsfw: false
-  nsfwFlags: 0
-  nsfwSummary: null
-  originallyPublishedAt: '2024-08-08T00:00:00.000Z'
-  previewPath: /lazy-static/previews/f144e143-628f-4df5-8a75-ae97b11e2946.jpg
-  privacy:
-    id: 1
-    label: Public
-  publishedAt: '2025-04-20T23:59:37.219Z'
-  shortUUID: 74vVa64zvEVDkevohUXJb9
-  thumbnailPath: /lazy-static/thumbnails/9f2f6bd1-4d27-4f27-889a-71c280a05923.jpg
-  truncatedDescription: "Safari's privacy loses to Tor Browser, Brave Browser, and\
-    \ Firefox. (And probably a lot more niche browsers) - Either make Safari better\
-    \ or switch to better options. #shorts #safari \n\n\U0001F510 Techlore Homepage:\
-    \ https://techlore.tech\n\U0001F575 Go Incognito Cour..."
-  updatedAt: '2025-12-04T09:38:56.768Z'
-  url: https://techlore.tv/videos/watch/31147ffd-afb5-47f8-9f0d-dc4f0ebc7b0c
-  uuid: 31147ffd-afb5-47f8-9f0d-dc4f0ebc7b0c
-  viewers: 0
-  views: 5
+  views: 730
