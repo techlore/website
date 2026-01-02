@@ -2,6 +2,137 @@
 # Any manual changes will be overwritten during the next build!
 
 - comments: 1
+  createdAt: '2026-01-01T20:26:31.499Z'
+  description: This is a different kind of Techlore Talks. Henry sits down with Marloes
+    de Koning, a Dutch tech reporter from NRC. This wide-ranging conversation explores
+    tech policy from a journalist's perspective, and asks hard questions about age
+    verification...
+  duration: 3598
+  embedPath: /videos/embed/nEft2E3gSKK5ZZbsebvzuK
+  id: 81213
+  isLive: false
+  isLocal: true
+  likes: 5
+  name: Is the World Too Dependent on American Tech? (Dutch Journalist Interview)
+  nsfw: false
+  nsfwFlags: 0
+  nsfwSummary: null
+  originallyPublishedAt: '2025-12-31T00:00:00.000Z'
+  previewPath: /lazy-static/previews/d9133d96-46e0-4341-83fd-e8ed914c4a04.jpg
+  privacy:
+    id: 1
+    label: Public
+  publishedAt: '2026-01-01T20:30:26.922Z'
+  shortUUID: nEft2E3gSKK5ZZbsebvzuK
+  thumbnailPath: /lazy-static/thumbnails/d9c6bafd-65eb-4462-9fd8-6b8baa4d4b3b.jpg
+  truncatedDescription: This is a different kind of Techlore Talks. Henry sits down
+    with Marloes de Koning, a Dutch tech reporter from NRC. This wide-ranging conversation
+    explores tech policy from a journalist's perspective, and asks hard questions
+    about age verification...
+  updatedAt: '2026-01-02T05:02:51.903Z'
+  url: https://techlore.tv/videos/watch/af671711-c469-4dca-8cee-b89a4cbe10ef
+  uuid: af671711-c469-4dca-8cee-b89a4cbe10ef
+  viewers: 1
+  views: 30
+- comments: 0
+  createdAt: '2026-01-01T20:24:40.171Z'
+  description: "You've probably been using Peter Lowe's blocklist without even knowing\
+    \ it\u2014it's integrated into AdGuard, NextDNS, uBlock Origin, and many other\
+    \ privacy tools. Henry talked with Peter at AFDS 2025 to learn what transformed\
+    \ him from someone who just ..."
+  duration: 341
+  embedPath: /videos/embed/94pySg9yQ6ZcTDTunQBCsA
+  id: 81212
+  isLive: false
+  isLocal: true
+  likes: 4
+  name: How One Person's List Blocks Ads for Millions (Peter Lowe Interview)
+  nsfw: false
+  nsfwFlags: 0
+  nsfwSummary: null
+  originallyPublishedAt: '2025-12-30T00:00:00.000Z'
+  previewPath: /lazy-static/previews/5400329f-508b-4691-af63-2740fdecacd6.jpg
+  privacy:
+    id: 1
+    label: Public
+  publishedAt: '2026-01-01T20:25:39.240Z'
+  shortUUID: 94pySg9yQ6ZcTDTunQBCsA
+  thumbnailPath: /lazy-static/thumbnails/984237c3-30eb-43ba-85b5-5e1796fd0fd2.jpg
+  truncatedDescription: "You've probably been using Peter Lowe's blocklist without\
+    \ even knowing it\u2014it's integrated into AdGuard, NextDNS, uBlock Origin, and\
+    \ many other privacy tools. Henry talked with Peter at AFDS 2025 to learn what\
+    \ transformed him from someone who just ..."
+  updatedAt: '2026-01-02T04:45:25.657Z'
+  url: https://techlore.tv/videos/watch/4142dd33-4014-4a1c-b6c9-32f3aa6de92e
+  uuid: 4142dd33-4014-4a1c-b6c9-32f3aa6de92e
+  viewers: 0
+  views: 14
+- comments: 0
+  createdAt: '2026-01-01T20:20:25.352Z'
+  description: Brave's ad blocker (Brave Shields) works differently than other Chromium-based
+    blockers. In this video, Henry interviews Anton Lazarev from Brave to understand
+    how they bypass extension limitations by completely sidestepping Manifest V3 restrictio...
+  duration: 343
+  embedPath: /videos/embed/rs8Fg1ZCBCB38pXHgwEjEa
+  id: 81211
+  isLive: false
+  isLocal: true
+  likes: 2
+  name: How Brave Sidesteps Manifest V3 (Staff Engineer Interview)
+  nsfw: false
+  nsfwFlags: 0
+  nsfwSummary: null
+  originallyPublishedAt: '2025-12-29T00:00:00.000Z'
+  previewPath: /lazy-static/previews/424bbd22-3227-4610-94ee-a474f0d1a196.jpg
+  privacy:
+    id: 1
+    label: Public
+  publishedAt: '2026-01-01T20:21:47.582Z'
+  shortUUID: rs8Fg1ZCBCB38pXHgwEjEa
+  thumbnailPath: /lazy-static/thumbnails/01ff5331-4f41-4a0c-9b76-bbb49e8f1b40.jpg
+  truncatedDescription: Brave's ad blocker (Brave Shields) works differently than
+    other Chromium-based blockers. In this video, Henry interviews Anton Lazarev from
+    Brave to understand how they bypass extension limitations by completely sidestepping
+    Manifest V3 restrictio...
+  updatedAt: '2026-01-02T04:45:29.923Z'
+  url: https://techlore.tv/videos/watch/ce1a891a-b5a7-43d8-bb0d-8b7f0f4d721d
+  uuid: ce1a891a-b5a7-43d8-bb0d-8b7f0f4d721d
+  viewers: 0
+  views: 11
+- comments: 0
+  createdAt: '2026-01-01T20:12:30.122Z'
+  description: "Apple recently released a new API that changes everything about ad\
+    \ blocking on iOS. In this video, Henry talks to AdGuard team members to understand\
+    \ how this moves beyond Safari-only filtering to system-wide protection\u2014\
+    blocking tracking in every a..."
+  duration: 362
+  embedPath: /videos/embed/rDK4gJsKAFbvNmvYmrUgMe
+  id: 81210
+  isLive: false
+  isLocal: true
+  likes: 4
+  name: System-Wide DNS Filtering on iOS is Finally Here (AdGuard Interview)
+  nsfw: false
+  nsfwFlags: 0
+  nsfwSummary: null
+  originallyPublishedAt: '2025-12-28T00:00:00.000Z'
+  previewPath: /lazy-static/previews/4eaf21cd-a678-4649-b006-cbec400485f6.jpg
+  privacy:
+    id: 1
+    label: Public
+  publishedAt: '2026-01-01T20:19:26.767Z'
+  shortUUID: rDK4gJsKAFbvNmvYmrUgMe
+  thumbnailPath: /lazy-static/thumbnails/9ed27080-a0ec-4b89-aabf-f7f8a3396aec.jpg
+  truncatedDescription: "Apple recently released a new API that changes everything\
+    \ about ad blocking on iOS. In this video, Henry talks to AdGuard team members\
+    \ to understand how this moves beyond Safari-only filtering to system-wide protection\u2014\
+    blocking tracking in every a..."
+  updatedAt: '2026-01-02T04:45:34.026Z'
+  url: https://techlore.tv/videos/watch/cfb9853b-8557-4a9f-a2a4-addd39e0790b
+  uuid: cfb9853b-8557-4a9f-a2a4-addd39e0790b
+  viewers: 0
+  views: 6
+- comments: 1
   createdAt: '2025-12-27T04:48:30.326Z'
   description: "This week's Surveillance Report covers a federal court blocking Texas's\
     \ age verification law, AI police cameras exposed to the internet, massive data\
@@ -12,7 +143,7 @@
   id: 78746
   isLive: false
   isLocal: true
-  likes: 13
+  likes: 12
   name: Federal Court Just Dealt a Major Blow to Age Verification Laws
   nsfw: false
   nsfwFlags: 0
@@ -29,11 +160,44 @@
     \ Texas's age verification law, AI police cameras exposed to the internet, massive\
     \ data breaches affecting millions of people, and more!\r\n\r\n\U0001F4F1 RESOURCES\
     \ IN VIDEO\r\n\u2022 Show Notes: https://..."
-  updatedAt: '2025-12-31T22:32:51.647Z'
+  updatedAt: '2026-01-02T00:32:51.716Z'
   url: https://techlore.tv/videos/watch/00afe7d3-8bbd-40d7-b347-49273acec9fa
   uuid: 00afe7d3-8bbd-40d7-b347-49273acec9fa
   viewers: 0
-  views: 162
+  views: 167
+- comments: 1
+  createdAt: '2026-01-01T20:08:09.918Z'
+  description: 'Techlore was invited to the Ad Filtering Dev Summit in Cyprus, where
+    Henry spoke about the paradox we face: Techlore recommends ad blockers for digital
+    rights & privacy & security, but we partially rely on ad revenue to survive. How
+    do we navigate...'
+  duration: 876
+  embedPath: /videos/embed/vwSVhB8Fu8HNHjojsqaaKy
+  id: 81209
+  isLive: false
+  isLocal: true
+  likes: 3
+  name: We Lose 73% of Revenue to Ad Blocking (AFDS 2025 Presentation)
+  nsfw: false
+  nsfwFlags: 0
+  nsfwSummary: null
+  originallyPublishedAt: '2025-12-24T00:00:00.000Z'
+  previewPath: /lazy-static/previews/ac3485c0-274b-4844-bd5d-c959d0612f9b.webp
+  privacy:
+    id: 1
+    label: Public
+  publishedAt: '2026-01-01T20:09:33.237Z'
+  shortUUID: vwSVhB8Fu8HNHjojsqaaKy
+  thumbnailPath: /lazy-static/thumbnails/85fa4005-935f-4a8f-a16f-f54a840517de.webp
+  truncatedDescription: 'Techlore was invited to the Ad Filtering Dev Summit in Cyprus,
+    where Henry spoke about the paradox we face: Techlore recommends ad blockers for
+    digital rights & privacy & security, but we partially rely on ad revenue to survive.
+    How do we navigate...'
+  updatedAt: '2026-01-02T05:02:51.765Z'
+  url: https://techlore.tv/videos/watch/ef28b6ca-1f05-443b-9eed-9472af733aca
+  uuid: ef28b6ca-1f05-443b-9eed-9472af733aca
+  viewers: 0
+  views: 23
 - comments: 0
   createdAt: '2025-12-23T18:56:02.680Z'
   description: We flew to Cyprus for the 2025 Ad Filtering Dev Summit where researchers
@@ -62,11 +226,11 @@
     researchers and engineers from Brave, DuckDuckGo, AdGuard, Firefox, Ghostery,
     eyeo, and others revealed the future of ad blocking. In this video we summarize
     five critical talks that are...
-  updatedAt: '2025-12-31T23:32:52.252Z'
+  updatedAt: '2026-01-02T01:02:52.330Z'
   url: https://techlore.tv/videos/watch/99b605f8-1312-4bce-86f8-b1ab5747abe5
   uuid: 99b605f8-1312-4bce-86f8-b1ab5747abe5
   viewers: 0
-  views: 184
+  views: 187
 - comments: 5
   createdAt: '2025-12-21T03:19:11.629Z'
   description: 'The UK just proposed three extreme surveillance measures: mandatory
@@ -95,11 +259,11 @@
     mandatory 24/7 scanning software on every phone and tablet, age verification for
     all VPN users with website tracking, and labeling encryption developers as "hostile
     actors." This comes afte...'
-  updatedAt: '2025-12-31T23:02:51.508Z'
+  updatedAt: '2026-01-02T03:02:51.609Z'
   url: https://techlore.tv/videos/watch/f90caa3e-1a1e-4b55-a4f2-b0ce637f5be5
   uuid: f90caa3e-1a1e-4b55-a4f2-b0ce637f5be5
   viewers: 0
-  views: 228
+  views: 231
 - comments: 1
   createdAt: '2025-12-19T01:55:53.456Z'
   description: 'This week''s Surveillance Report covers the internet''s free speech
@@ -128,11 +292,11 @@
     speech protections under attack as a US Senator moves to repeal Section 230. Plus:
     ransomware attacks escalate with React2Shell exploitation, India orders government
     access to encrypted me...'
-  updatedAt: '2025-12-29T21:32:51.432Z'
+  updatedAt: '2026-01-01T13:02:51.734Z'
   url: https://techlore.tv/videos/watch/9c0ac1c6-0c27-4a6d-9d2c-e3ff56dd2b94
   uuid: 9c0ac1c6-0c27-4a6d-9d2c-e3ff56dd2b94
   viewers: 0
-  views: 103
+  views: 104
 - comments: 2
   createdAt: '2025-12-16T23:06:09.337Z'
   description: "2025 was Techlore's biggest year ever\u2014and 2026 is bringing many\
@@ -161,11 +325,11 @@
     \ many exciting things too! But to keep fighting for digital rights, we had to\
     \ make some difficult changes. Here's what we're consolidating, why our forum\
     \ is closing June 1st 2026, how what ..."
-  updatedAt: '2025-12-31T21:32:51.674Z'
+  updatedAt: '2026-01-01T21:02:51.566Z'
   url: https://techlore.tv/videos/watch/7c960f7e-5f42-4571-b359-e4dfa42dc219
   uuid: 7c960f7e-5f42-4571-b359-e4dfa42dc219
   viewers: 0
-  views: 233
+  views: 235
 - comments: 3
   createdAt: '2025-12-13T04:14:25.942Z'
   description: 'The EU''s "Chat Control" regulation has returned with a dangerous
@@ -260,11 +424,11 @@
     for F-Droid and open source app distribution. In this interview, Marc Prud'hommeaux
     from the F-Droid Board of Directors explains what's happening, why it matters
     (even if you only use the...
-  updatedAt: '2026-01-01T04:32:51.549Z'
+  updatedAt: '2026-01-02T01:32:51.920Z'
   url: https://techlore.tv/videos/watch/c81d2013-6261-4adb-ab33-9d4dd0bf3f4a
   uuid: c81d2013-6261-4adb-ab33-9d4dd0bf3f4a
   viewers: 0
-  views: 358
+  views: 361
 - comments: 0
   createdAt: '2025-12-09T00:11:20.935Z'
   description: The iStorage datAshur PRO+C is a hardware-encrypted USB-C flash drive
@@ -326,11 +490,11 @@
     \ ID to access parts of the internet\u2014but they're already backfiring. Learn\
     \ how these regulations harm real people, while failing to protect children. Plus:\
     \ what you can do about it.\r\n\r\n\U0001F4F1..."
-  updatedAt: '2026-01-01T03:02:51.906Z'
+  updatedAt: '2026-01-01T19:02:52.876Z'
   url: https://techlore.tv/videos/watch/8707fa9a-2039-4a77-984d-4e3635bc58d0
   uuid: 8707fa9a-2039-4a77-984d-4e3635bc58d0
   viewers: 0
-  views: 193
+  views: 194
 - comments: 1
   createdAt: '2025-12-04T10:11:20.432Z'
   description: "This week's Surveillance Report covers India\u2019s attempt to mandate\
@@ -524,11 +688,11 @@
     are pushing to ban VPNs as part of age verification laws that compromise digital
     privacy for everyone. This video explains why these bills are technically impossible
     to implement, threaten...
-  updatedAt: '2025-12-31T18:02:51.732Z'
+  updatedAt: '2026-01-01T09:32:51.955Z'
   url: https://techlore.tv/videos/watch/eac46d55-8267-49c6-abf7-6436f25ba868
   uuid: eac46d55-8267-49c6-abf7-6436f25ba868
   viewers: 0
-  views: 206
+  views: 207
 - comments: 3
   createdAt: '2025-11-19T22:54:20.862Z'
   description: Many are calling this a win, but Google's new developer verification
@@ -656,11 +820,11 @@
     Ring with self-hosted security they actually control! Welcome to Techlore's privacy
     wins of the week, where our community shares their tech wins. It can be privacy,
     security, or anyth...
-  updatedAt: '2025-12-26T09:02:03.575Z'
+  updatedAt: '2026-01-02T02:32:51.766Z'
   url: https://techlore.tv/videos/watch/5de6da81-e1d4-4c2e-940f-e0d3474eaead
   uuid: 5de6da81-e1d4-4c2e-940f-e0d3474eaead
   viewers: 0
-  views: 104
+  views: 105
 - comments: 0
   createdAt: '2025-11-16T18:47:00.521Z'
   description: Ricardo Signes, Chief Engineer at Fastmail, explains why Gmail's email
@@ -722,11 +886,11 @@
     history to build behavioral profiles for targeted ads. In this interview, Firefox
     CTO Bobby Holley breaks down why Mozilla maintains Gecko as an independent engine,
     how Firefox approa...
-  updatedAt: '2025-12-30T10:32:51.424Z'
+  updatedAt: '2026-01-01T08:02:51.664Z'
   url: https://techlore.tv/videos/watch/f00d03dd-5de5-4a35-82ea-4392fb5758f1
   uuid: f00d03dd-5de5-4a35-82ea-4392fb5758f1
   viewers: 0
-  views: 383
+  views: 384
 - comments: 1
   createdAt: '2025-11-11T04:37:03.299Z'
   description: "Android's openness is under threat as Google requires developer verification\
@@ -788,11 +952,11 @@
     to Techlore's privacy wins of the week, where our community shares their tech
     wins. It can be privacy, security, or anything else tech-related! Join next week's
     stream in the pinned ...
-  updatedAt: '2026-01-01T03:02:51.665Z'
+  updatedAt: '2026-01-02T03:32:51.582Z'
   url: https://techlore.tv/videos/watch/e7a0394f-ca1b-463d-ae18-fe68d75533ae
   uuid: e7a0394f-ca1b-463d-ae18-fe68d75533ae
   viewers: 0
-  views: 74
+  views: 76
 - comments: 0
   createdAt: '2025-10-23T12:47:34.921Z'
   description: In this Techlore Talks episode, I sit down with Jose Briones to explore
@@ -854,11 +1018,11 @@
     ID for ALL apps, Big Tech (Apple, Google, and others) has sued the state, calling
     it a "broad censorship regime" that violates the First Amendment. A separate lawsuit
     was also filed by stu...
-  updatedAt: '2025-12-28T10:32:04.600Z'
+  updatedAt: '2026-01-02T01:02:51.983Z'
   url: https://techlore.tv/videos/watch/cd1bc6c0-a8b9-484e-8460-aac834f624ba
   uuid: cd1bc6c0-a8b9-484e-8460-aac834f624ba
   viewers: 0
-  views: 199
+  views: 200
 - comments: 0
   createdAt: '2025-10-18T19:25:55.952Z'
   description: Learn how to safely open potentially malicious PDFs, images, and documents
@@ -1250,11 +1414,11 @@
     and is exploring Linux on another device of theirs! Welcome to Techlore's privacy
     wins of the week, where our community shares their tech wins. It can be privacy,
     security, or anything else...
-  updatedAt: '2025-12-28T16:32:03.809Z'
+  updatedAt: '2026-01-02T02:32:51.582Z'
   url: https://techlore.tv/videos/watch/564d5708-ad4d-4d4f-9c66-3801f57a5afd
   uuid: 564d5708-ad4d-4d4f-9c66-3801f57a5afd
   viewers: 0
-  views: 448
+  views: 450
 - comments: 0
   createdAt: '2025-09-10T22:54:56.207Z'
   description: With global attacks on encryption, it's more important than ever to
@@ -1283,11 +1447,11 @@
     ever to use encrypted services. In this video, I break down seven essential categories
     of encrypted services that everyone should know about, from password managers
     to secure messaging, w...
-  updatedAt: '2026-01-01T03:32:51.643Z'
+  updatedAt: '2026-01-01T17:02:51.619Z'
   url: https://techlore.tv/videos/watch/de1564b4-ce4f-4fa8-aed7-704733ba7bdc
   uuid: de1564b4-ce4f-4fa8-aed7-704733ba7bdc
   viewers: 0
-  views: 692
+  views: 693
 - comments: 0
   createdAt: '2025-09-04T01:41:07.610Z'
   description: After years of using system-wide VPNs, I made a switch to browser-only
@@ -1481,11 +1645,11 @@
     Ente Auth, the two best open-source authenticator apps available. Here's my take
     on which one deserves a spot on your phone. Techlore empowers individuals with
     practical digital privacy kno...
-  updatedAt: '2025-12-31T01:32:51.457Z'
+  updatedAt: '2026-01-01T16:32:51.543Z'
   url: https://techlore.tv/videos/watch/c1d7497a-1195-4b3d-9e1a-2c1d919daa6c
   uuid: c1d7497a-1195-4b3d-9e1a-2c1d919daa6c
   viewers: 0
-  views: 664
+  views: 667
 - comments: 0
   createdAt: '2025-08-08T12:59:02.016Z'
   description: One user shares they configured Signal's disappearing messages and
@@ -1646,11 +1810,11 @@
     mascot that promises end-to-end encryption and zero-access privacy. I've never
     used it before, so this is my first experience testing out its features including
     web search, comparisons t...
-  updatedAt: '2025-12-28T06:02:03.511Z'
+  updatedAt: '2026-01-01T08:02:51.534Z'
   url: https://techlore.tv/videos/watch/9958a304-4de1-4022-808a-10397637eda9
   uuid: 9958a304-4de1-4022-808a-10397637eda9
   viewers: 0
-  views: 526
+  views: 527
 - comments: 0
   createdAt: '2025-07-16T02:43:31.181Z'
   description: Viktor Vescei from IVPN gives us a brutally honest VPN interview. He
@@ -1680,11 +1844,11 @@
     He admits you can't truly verify no-logs claims, explains why most audits are
     "snapshots in time," and reveals why IVPN shut down their affiliate program due
     to industry-wide misinf...
-  updatedAt: '2025-12-31T03:32:51.737Z'
+  updatedAt: '2026-01-01T17:32:52.177Z'
   url: https://techlore.tv/videos/watch/d6fb90f1-c80a-4ef8-a096-6a2f48ec6d63
   uuid: d6fb90f1-c80a-4ef8-a096-6a2f48ec6d63
   viewers: 0
-  views: 265
+  views: 266
 - comments: 0
   createdAt: '2025-07-22T21:58:41.068Z'
   description: Jack Dorsey launched Bitchat, a Bluetooth mesh messenger he built over
@@ -1912,11 +2076,11 @@
     into their lives. Techlore empowers individuals with practical digital privacy
     knowledge, security tools, and advocacy resources. Discover how to protect your
     online data and regain contro...
-  updatedAt: '2025-12-31T21:02:51.656Z'
+  updatedAt: '2026-01-01T21:32:51.561Z'
   url: https://techlore.tv/videos/watch/31b92433-575c-430f-a943-18dbb4a6f029
   uuid: 31b92433-575c-430f-a943-18dbb4a6f029
   viewers: 0
-  views: 337
+  views: 338
 - comments: 0
   createdAt: '2025-06-04T21:48:20.449Z'
   description: Arc browser just died, joining a graveyard of services that promised
@@ -2177,11 +2341,11 @@
     NovaCustom claims to, with QubesOS/Linux support, customizability, disabling Intel
     ME, and coreboot as its notable features. But I'll be breaking down what I like
     & dislike about the NovaC...
-  updatedAt: '2025-12-23T04:02:03.172Z'
+  updatedAt: '2026-01-02T01:02:51.765Z'
   url: https://techlore.tv/videos/watch/10062b03-e312-4c91-8054-e73e983aefdc
   uuid: 10062b03-e312-4c91-8054-e73e983aefdc
   viewers: 0
-  views: 177
+  views: 178
 - comments: 0
   createdAt: '2025-04-13T08:24:38.252Z'
   description: Microsoft is blocking Windows 11 upgrades on perfectly good PCs. Discover
@@ -2243,11 +2407,11 @@
     quick and easy tutorial, we'll show you how to remove unnecessary features, disable
     extensions, and optimize Brave for lightning-fast performance. Whether you're
     a tech-savvy user or a be...
-  updatedAt: '2026-01-01T02:32:51.552Z'
+  updatedAt: '2026-01-01T10:32:51.536Z'
   url: https://techlore.tv/videos/watch/430b602a-56fa-4980-8238-9c9b2f68834e
   uuid: 430b602a-56fa-4980-8238-9c9b2f68834e
   viewers: 0
-  views: 437
+  views: 438
 - comments: 0
   createdAt: '2025-04-13T08:24:23.795Z'
   description: Apple's moving to integrate end-to-end encryption (E2EE) into the RCS
@@ -2544,11 +2708,11 @@
     and anonymous as possible. This video covers various aspects such as hardening
     macOS, security, privacy, anonymity, passwords, authentication, VPNs, biometrics,
     search engines, browsers, ...
-  updatedAt: '2025-12-31T08:32:51.511Z'
+  updatedAt: '2026-01-02T00:32:51.575Z'
   url: https://techlore.tv/videos/watch/6b11e52a-1995-4b8b-acd9-698029c48675
   uuid: 6b11e52a-1995-4b8b-acd9-698029c48675
   viewers: 0
-  views: 212
+  views: 214
 - comments: 0
   createdAt: '2025-04-13T08:23:19.480Z'
   description: Tired of forgetting passwords and worrying about data breaches? Let's
@@ -2851,11 +3015,11 @@
     to achieve reasonable levels of privacy on a budget with budget-friendly privacy
     tools. I dive into password managers, search engines, messengers, operating systems
     and so much more with ...
-  updatedAt: '2025-12-14T11:40:19.538Z'
+  updatedAt: '2026-01-01T20:02:51.721Z'
   url: https://techlore.tv/videos/watch/f3a7ee32-507c-418d-a2e2-d7febe270bc6
   uuid: f3a7ee32-507c-418d-a2e2-d7febe270bc6
   viewers: 0
-  views: 52
+  views: 53
 - comments: 0
   createdAt: '2025-04-13T08:22:01.910Z'
   description: This interview dives deep with Dallas, the owner of PrivacyPost.io,
@@ -2950,11 +3114,11 @@
     search engine that puts your data first...but it's a paid service. In this video,
     we dive deep into Kagi's features, comparing it to other popular search engines.
     Is it worth paying for...
-  updatedAt: '2025-12-30T23:32:51.469Z'
+  updatedAt: '2026-01-02T05:02:51.609Z'
   url: https://techlore.tv/videos/watch/e6d7d5b4-4fd6-489d-ba3d-449fd127673f
   uuid: e6d7d5b4-4fd6-489d-ba3d-449fd127673f
-  viewers: 0
-  views: 64
+  viewers: 1
+  views: 65
 - comments: 0
   createdAt: '2025-04-13T08:21:34.451Z'
   description: Google Chrome has begun disabling uBlock Origin, the best ad-blocker
@@ -3121,11 +3285,11 @@
     right video. This is the ultimate guide to navigating data breaches. I'll teach
     how you how to figure out what data was breached, what to do with each breached
     data point, and how to preve...
-  updatedAt: '2025-12-31T20:02:51.637Z'
+  updatedAt: '2026-01-01T13:02:51.557Z'
   url: https://techlore.tv/videos/watch/03f5dd90-058c-4549-b0b8-c1460ad6ab0f
   uuid: 03f5dd90-058c-4549-b0b8-c1460ad6ab0f
   viewers: 0
-  views: 69
+  views: 70
 - comments: 0
   createdAt: '2025-04-13T08:21:00.185Z'
   description: 'All new privacy & security features in iOS 18 and MacOS Sequoia! Let''s
@@ -3163,167 +3327,3 @@
   uuid: 46a607bf-f67b-4275-8529-6204cced3df1
   viewers: 0
   views: 17
-- comments: 0
-  createdAt: '2025-04-13T08:20:53.227Z'
-  description: Owning (or renting!) privately is a challenge, and Jonathan Steele
-    is a lawyer who will break it down for us. Is renting more private than owning
-    a home? How do celebrities do it? From Trusts, LLCs, Nominee agreements, plausible
-    deniability, the l...
-  duration: 3529
-  embedPath: /videos/embed/hMH5KCEnfn8BtXx4nbfJVp
-  id: 445
-  isLive: false
-  isLocal: true
-  likes: 0
-  name: 'Private Homeownership: Your Options Explained w/ Jonathan Steele'
-  nsfw: false
-  nsfwFlags: 0
-  nsfwSummary: null
-  originallyPublishedAt: '2024-09-24T00:00:00.000Z'
-  previewPath: /lazy-static/previews/c16bbc7b-6f5c-44ae-8f6b-26c8334f722f.jpg
-  privacy:
-    id: 1
-    label: Public
-  publishedAt: '2025-04-21T09:32:29.989Z'
-  shortUUID: hMH5KCEnfn8BtXx4nbfJVp
-  thumbnailPath: /lazy-static/thumbnails/3ddf3315-aa8f-4dc8-ba02-7959836a835d.jpg
-  truncatedDescription: Owning (or renting!) privately is a challenge, and Jonathan
-    Steele is a lawyer who will break it down for us. Is renting more private than
-    owning a home? How do celebrities do it? From Trusts, LLCs, Nominee agreements,
-    plausible deniability, the l...
-  updatedAt: '2025-12-12T06:19:42.972Z'
-  url: https://techlore.tv/videos/watch/87f4017f-89a3-4e76-a5e3-112eb1a76c31
-  uuid: 87f4017f-89a3-4e76-a5e3-112eb1a76c31
-  viewers: 0
-  views: 19
-- comments: 0
-  createdAt: '2025-04-13T08:20:46.313Z'
-  description: Molly is a hardened fork of Signal on Android with some extra usability
-    and security features. This video review unpacks what features Molly adds, what
-    my experience using it has been, pros/cons, and a lot more! Definitely a neat
-    open source proje...
-  duration: 485
-  embedPath: /videos/embed/4DYozW8zgehwZwhE2DjKes
-  id: 444
-  isLive: false
-  isLocal: true
-  likes: 0
-  name: 'Molly: A More Secure Signal'
-  nsfw: false
-  nsfwFlags: 0
-  nsfwSummary: null
-  originallyPublishedAt: '2024-09-18T00:00:00.000Z'
-  previewPath: /lazy-static/previews/6a183dcb-da40-4a60-94b5-e65c4acbf07f.jpg
-  privacy:
-    id: 1
-    label: Public
-  publishedAt: '2025-04-21T08:08:26.596Z'
-  shortUUID: 4DYozW8zgehwZwhE2DjKes
-  thumbnailPath: /lazy-static/thumbnails/e1477559-6b5f-458c-8783-253691b9a295.jpg
-  truncatedDescription: Molly is a hardened fork of Signal on Android with some extra
-    usability and security features. This video review unpacks what features Molly
-    adds, what my experience using it has been, pros/cons, and a lot more! Definitely
-    a neat open source proje...
-  updatedAt: '2025-12-30T13:32:51.456Z'
-  url: https://techlore.tv/videos/watch/1d98afc9-aa5c-488b-b262-40c0d8ae0d58
-  uuid: 1d98afc9-aa5c-488b-b262-40c0d8ae0d58
-  viewers: 0
-  views: 72
-- comments: 0
-  createdAt: '2025-04-13T08:20:39.930Z'
-  description: Ford filed a patent to record your conversations and use those conversations
-    to serve you ads directly on your car's screen - talk about creepy! In this video
-    I cover the patent, safety concerns, privacy concerns, security concerns, offer
-    analysis...
-  duration: 929
-  embedPath: /videos/embed/8rueFwNomnLCb3QH3J592B
-  id: 443
-  isLive: false
-  isLocal: true
-  likes: 0
-  name: 'Ford''s Big Brother Patent: Ads from Your Conversations'
-  nsfw: false
-  nsfwFlags: 0
-  nsfwSummary: null
-  originallyPublishedAt: '2024-09-11T00:00:00.000Z'
-  previewPath: /lazy-static/previews/6fd1ad53-3191-4f4c-ba61-c373f92fd3c3.jpg
-  privacy:
-    id: 1
-    label: Public
-  publishedAt: '2025-04-21T07:53:53.736Z'
-  shortUUID: 8rueFwNomnLCb3QH3J592B
-  thumbnailPath: /lazy-static/thumbnails/fe6a06b5-dbf2-47b0-ad40-0e89a0b92b6f.jpg
-  truncatedDescription: Ford filed a patent to record your conversations and use those
-    conversations to serve you ads directly on your car's screen - talk about creepy!
-    In this video I cover the patent, safety concerns, privacy concerns, security
-    concerns, offer analysis...
-  updatedAt: '2025-12-17T12:46:17.622Z'
-  url: https://techlore.tv/videos/watch/3c3ef742-43ae-4363-a60e-68588f10803d
-  uuid: 3c3ef742-43ae-4363-a60e-68588f10803d
-  viewers: 0
-  views: 13
-- comments: 0
-  createdAt: '2025-04-13T08:20:25.787Z'
-  description: "Welcoming back for the second time...Abdullah Attah from Notesnook\
-    \ to discuss his open source note-taking solution, how they function behind-the-scenes,\
-    \ upcoming features, long-term sustainability, and more! \n\nNotesnook: https://notesnook.com/abou..."
-  duration: 3855
-  embedPath: /videos/embed/p8X4vwup5jBibWJoqRGCGM
-  id: 441
-  isLive: false
-  isLocal: true
-  likes: 0
-  name: The Future of Notes is Private! - Abdullah Atta/Notesnook Interview
-  nsfw: false
-  nsfwFlags: 0
-  nsfwSummary: null
-  originallyPublishedAt: '2024-09-06T00:00:00.000Z'
-  previewPath: /lazy-static/previews/8356a028-07f0-4ab3-b57c-8ad52b8ce28c.jpg
-  privacy:
-    id: 1
-    label: Public
-  publishedAt: '2025-04-21T06:59:23.173Z'
-  shortUUID: p8X4vwup5jBibWJoqRGCGM
-  thumbnailPath: /lazy-static/thumbnails/f6b1c71f-0204-493b-b69f-6b45171ee640.jpg
-  truncatedDescription: "Welcoming back for the second time...Abdullah Attah from\
-    \ Notesnook to discuss his open source note-taking solution, how they function\
-    \ behind-the-scenes, upcoming features, long-term sustainability, and more! \n\
-    \nNotesnook: https://notesnook.com/abou..."
-  updatedAt: '2025-12-12T06:19:42.972Z'
-  url: https://techlore.tv/videos/watch/bb5e53eb-4d82-404e-93f3-cc9762ecd81d
-  uuid: bb5e53eb-4d82-404e-93f3-cc9762ecd81d
-  viewers: 0
-  views: 12
-- comments: 0
-  createdAt: '2025-04-13T08:20:32.941Z'
-  description: Tired of being trapped in a subscription-based world? In this video
-    we explore what makes a good vs bad subscription, how to save money, reclaim control
-    of your digital life, push towards financial freedom, and use services that better
-    respect you...
-  duration: 546
-  embedPath: /videos/embed/4BhxpBScQEXQy9XzgtR41z
-  id: 442
-  isLive: false
-  isLocal: true
-  likes: 0
-  name: Break Free From Subscription Hell! 3 Ways to Own Your Stuff Again
-  nsfw: false
-  nsfwFlags: 0
-  nsfwSummary: null
-  originallyPublishedAt: '2024-09-06T00:00:00.000Z'
-  previewPath: /lazy-static/previews/11c3dfef-214c-4a55-93dc-266630c4283c.jpg
-  privacy:
-    id: 1
-    label: Public
-  publishedAt: '2025-04-21T07:38:27.722Z'
-  shortUUID: 4BhxpBScQEXQy9XzgtR41z
-  thumbnailPath: /lazy-static/thumbnails/4f7c97e1-c0f5-4abf-bc9d-04b235d220a4.jpg
-  truncatedDescription: Tired of being trapped in a subscription-based world? In this
-    video we explore what makes a good vs bad subscription, how to save money, reclaim
-    control of your digital life, push towards financial freedom, and use services
-    that better respect you...
-  updatedAt: '2025-12-24T07:32:03.277Z'
-  url: https://techlore.tv/videos/watch/1d38a459-b4ba-4fee-b1a2-a6877a05be05
-  uuid: 1d38a459-b4ba-4fee-b1a2-a6877a05be05
-  viewers: 0
-  views: 34
