@@ -3101,7 +3101,7 @@
   id: 62510
   isLive: false
   isLocal: true
-  likes: 0
+  likes: 1
   name: What Is The Hardest Part of Switching To Linux?
   nsfw: false
   nsfwFlags: 0
@@ -3118,11 +3118,11 @@
     \ not alone! This video dives into the 2 biggest challenges new Linux users face\
     \ (installation & software) and offers tips to overcome them.\r\n\r\nWatch the\
     \ full Techlore Livestream: https:/..."
-  updatedAt: '2025-12-12T06:20:49.512Z'
+  updatedAt: '2026-01-07T09:32:54.732Z'
   url: https://techlore.tv/videos/watch/691a87e7-ae2e-480f-9a11-40fcefd14fbe
   uuid: 691a87e7-ae2e-480f-9a11-40fcefd14fbe
   viewers: 0
-  views: 5
+  views: 6
 - comments: 0
   createdAt: '2025-05-23T01:34:12.563Z'
   description: 'Henry and Jonah discuss how they obtain apps on their Android devices.
