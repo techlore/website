@@ -427,7 +427,7 @@
   uuid: 1a1720ba-29b9-4e30-879a-e229f767565c
   viewers: 0
   views: 6
-- comments: 0
+- comments: 1
   createdAt: '2025-05-23T02:45:59.345Z'
   description: "In this video, I discuss the recent controversy surrounding Proton\
     \ and Andy Yen's political statements. We'll explore the implications of a privacy-focused\
@@ -438,7 +438,7 @@
   id: 62588
   isLive: false
   isLocal: true
-  likes: 0
+  likes: 1
   name: Let's Talk About Proton and Politics...
   nsfw: false
   nsfwFlags: 0
@@ -455,11 +455,11 @@
     \ Proton and Andy Yen's political statements. We'll explore the implications of\
     \ a privacy-focused company taking partisan stances and why it matters for digital\
     \ rights.\r\n\r\nWatch the full Te..."
-  updatedAt: '2025-12-12T06:20:49.512Z'
+  updatedAt: '2026-01-11T02:03:50.793Z'
   url: https://techlore.tv/videos/watch/99850193-398b-414a-bb26-dfa8bf299e47
   uuid: 99850193-398b-414a-bb26-dfa8bf299e47
   viewers: 0
-  views: 9
+  views: 12
 - comments: 0
   createdAt: '2025-05-23T02:45:36.258Z'
   description: "Amazon just changed their Kindle terms, making it harder to truly\
@@ -2447,11 +2447,11 @@
     \ how using a custom domain can give you ultimate control over your email aliases.\
     \ \r\n\r\nWatch the full Techlore Livestream: https://www.youtube.com/watch?v=INY9WpSen_o\r\
     \n\r\nGet subscribed so..."
-  updatedAt: '2025-12-12T06:20:49.512Z'
+  updatedAt: '2026-01-10T12:32:54.825Z'
   url: https://techlore.tv/videos/watch/750fe937-95c8-4cb6-9a03-a1c4ff86a6e0
   uuid: 750fe937-95c8-4cb6-9a03-a1c4ff86a6e0
   viewers: 0
-  views: 7
+  views: 8
 - comments: 0
   createdAt: '2025-05-23T02:21:23.597Z'
   description: "Can't decide on a Linux distro? Want a system that's secure, great\
@@ -3323,8 +3323,8 @@
     Bitcoin wallet Samurai and its impact on Bitcoin privacy. We explore why Samurai
     was vulnerable and delve into the question: can Bitcoin ever be truly private?
     We also explore alternative...'
-  updatedAt: '2025-12-18T20:16:18.357Z'
+  updatedAt: '2026-01-10T12:02:54.656Z'
   url: https://techlore.tv/videos/watch/163f863d-b130-4e52-b87a-475b0ac7993c
   uuid: 163f863d-b130-4e52-b87a-475b0ac7993c
   viewers: 0
-  views: 18
+  views: 19
